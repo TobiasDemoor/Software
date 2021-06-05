@@ -1,0 +1,1 @@
+Las tácticas son un conjunto de herramientas que disponemos para diseñar la arquitectura en beneficio de un [[Requerimientos#Atributos de Calidad|atributo de calidad]].

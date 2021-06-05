@@ -1,0 +1,1 @@
+Las operaciones de sistema son eventos o acciones que identificamos viendo los [[Diagrama de Secuencia de Sistema|DSS]], son acciones que el usuario puede iniciar.

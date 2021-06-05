@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3fca2e7a1c02e42b",
+        "id": "851cda7a7cfe65a4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "System Design/Diseño de sistemas.md",
+            "file": "System Design/Patrones/GoF/Adapter.md",
             "mode": "source"
           }
         }
@@ -68,14 +68,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Diseño de sistemas.md",
+                "file": "System Design/Patrones/GoF/Adapter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3fca2e7a1c02e42b",
+  "active": "851cda7a7cfe65a4",
   "lastOpenFiles": [
-    "System Design/Diseño de sistemas.md",
-    "System Design/Concepts/Deuda técnica.md",
-    "System Design/Concepts/Divergencia y convergencia.md",
-    "System Design/Concepts.md",
+    "System Design/Patrones/GoF/Adapter.md",
     "System Design/Concepts/Untitled.md",
-    "Concepts/Dato, información y conocimiento.md",
-    "Concepts/Programa.md",
-    "Concepts/Programación.md",
-    "Untitled.md",
-    "Concepts/Convergencia.md"
+    "System Design/FURPS+.md",
+    "System Design/Patrones/Arquitectónicos/Data mapper.md",
+    "System Design/Patrones/Arquitectónicos/Capas.md",
+    "System Design/Patrones/Arquitectónicos/Untitled.md",
+    "System Design/Diseño de sistemas.md",
+    "System Design/Patrones/GoF/Facade.md",
+    "System Design/Patrones/GoF/Factory Method.md",
+    "System Design/Patrones/GoF/Untitled.md"
   ]
 }

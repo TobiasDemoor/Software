@@ -1,0 +1,1 @@
+Conjunto ordenado y finito de instrucciones o reglas definidas que permite hallar la solución a un problema específico.
