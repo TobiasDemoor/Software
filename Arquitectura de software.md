@@ -1,0 +1,1 @@
+Es el conjunto de estructuras necesarios para razonar sobre el sistema, que comprende los elementos de software, las relaciones entre ellos y las propiedades de ambos. 

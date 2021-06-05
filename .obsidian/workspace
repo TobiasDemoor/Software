@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "4b9ef524776bab05",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fca2e7a1c02e42b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "System Design/Diseño de sistemas.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "218735971370e800",
+    "type": "split",
+    "children": [
+      {
+        "id": "6410b5e9e4eabcd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a16f1d1baaaae2c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4af582c8ffddf574",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2babf8afbe60deb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "855b6fa2f634cb66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82bb88d4ca776301",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "System Design/Diseño de sistemas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3fca2e7a1c02e42b",
+  "lastOpenFiles": [
+    "System Design/Diseño de sistemas.md",
+    "System Design/Concepts/Deuda técnica.md",
+    "System Design/Concepts/Divergencia y convergencia.md",
+    "System Design/Concepts.md",
+    "System Design/Concepts/Untitled.md",
+    "Concepts/Dato, información y conocimiento.md",
+    "Concepts/Programa.md",
+    "Concepts/Programación.md",
+    "Untitled.md",
+    "Concepts/Convergencia.md"
+  ]
+}

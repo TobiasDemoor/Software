@@ -1,0 +1,1 @@
+La programación **informática** es el **proceso por medio del cual se diseña, codifica, limpia y protege el código fuente de [[Programa|programas computacionales]]**. A través de la programación se dictan los pasos a seguir para la creación del código fuente de programas informáticos. De acuerdo con ellos el código se escribe, se **prueba** y se perfecciona.

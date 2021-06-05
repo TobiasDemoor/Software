@@ -1,0 +1,5 @@
+# Divergencia
+Es una técnica creativa que se caracteriza por mirar desde diferentes perspectivas y encontrar más de una soución frente a un desafío o problema. Actúa removiendo supuestos, desarticulando esquemas, flexibilizando posiciones y produciendo nuevas conexiones. La divergencia es un aspecto fundamental del proceso creativo, sin embargo, la propia definicion de creatividad requiere algo de la [[#Convergencia|convergencia]] para alcanzar un resultado.
+
+# Convergencia
+Es una técnica creativa que se emplea para resolver problemas bien definidos cuya característica es tener una solución única, se mueve en una dirección, en un plano. En estos casos se enfrenta un universo cerrado, con límites definidos, con elementos y propiedades conocidas desde el comienzo, que no varían a medida que avanza el proceso de búsqueda de una solución. Un problema característico de tipo convergente es la pregunta de selección múltiple, que es en su totalidad cerrada. En este caso no se construye una respuesta, sino que se identifica la correcta.
