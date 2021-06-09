@@ -15,4 +15,4 @@ B es una Creador de A, si se asigna a la clase B la responsabilidad de crear una
 - Reutilización
 
 ## Desventajas
-Las funciones de creación pueden ser complejas, en cuyo caso se recomienda [[Patrones GoF|patrones GoF]] del tipo [[Factory Method|Factory]].
+Las funciones de creación pueden ser complejas, en cuyo caso se recomienda [[Patrones GoF|patrones GoF]] del tipo [[Factory|Factory]].

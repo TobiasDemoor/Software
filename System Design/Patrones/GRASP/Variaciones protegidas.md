@@ -64,4 +64,4 @@ class Register {
 ```
 
 ## Notas
-Este GRASP es muy similar tanto a el [[Ocultamiento de información]] como al [[Open Close Principle]].
+Este GRASP es muy similar tanto a el [[Ocultamiento de la información]] como al [[Open Close Principle]].

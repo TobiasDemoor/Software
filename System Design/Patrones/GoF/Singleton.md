@@ -1,11 +1,11 @@
 ## Problema
-¿Cómo garantizar que una clase tenga solo una instancia y proporcionar un punto de acceso global a ella ([[Visibilidad#Visibilidad entre objetos|visibilidad global]])?
+¿Cómo garantizar que una clase tenga solo una instancia y proporcionar un punto de acceso global a ella ([[Visibilidad#Visibilidad entre objetos]])?
 
 ## Solución
 Definir un método *static* en la clase X que retorna el Singleton de X.
 
 ## Motivación
-- Se requiere que algunas clases tengan solo una instancia en memoria ([[Factory Method|Factories]], [[Facade]], [[Strategy]]).
+- Se requiere que algunas clases tengan solo una instancia en memoria ([[Factory|Factories]], [[Facade]], [[Strategy]]).
 - Facilitar acceso y visibilidad global a un objeto. En cualquier punto del código, en cualquier método de cualquier clase se puede invocar SingletonClass.getInstance().
 
 ## Implementación

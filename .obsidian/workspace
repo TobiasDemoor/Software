@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "System Design/SOLID/Open Close Principle.md",
+            "file": "System Design/Patrones/GoF/Composite.md",
             "mode": "source"
           }
         }
@@ -68,13 +68,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/SOLID/Open Close Principle.md",
+                "file": "System Design/Patrones/GoF/Composite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -88,15 +88,15 @@
   },
   "active": "851cda7a7cfe65a4",
   "lastOpenFiles": [
-    "System Design/SOLID/Open Close Principle.md",
-    "System Design/Concepts/Ocultamiento de información.md",
-    "System Design/SOLID/Dependency Inversion Principle.md",
-    "System Design/SOLID/Interface Segregation Principle.md",
-    "System Design/SOLID/Liskov Substitution Principle.md",
-    "System Design/SOLID/Single Responsibility Principle.md",
-    "System Design/SOLID/SOLID Principles.md",
-    "Operating Systems/Untitled.md",
-    "Untitled.md",
-    "Arquitectura de software.md"
+    "System Design/Patrones/GoF/Composite.md",
+    "System Design/Patrones/GoF/Adapter.md",
+    "System Design/Patrones/GoF/Facade.md",
+    "System Design/Patrones/GoF/Factory.md",
+    "System Design/Patrones/GoF/Patrones GoF.md",
+    "System Design/Patrones/GoF/Strategy.md",
+    "System Design/Patrones/GoF/Singleton.md",
+    "System Design/Patrones/GoF/Untitled.md",
+    "System Design/Patrones/GoF/Factory Method.md",
+    "System Design/Principles/Separación de concerns.md"
   ]
 }

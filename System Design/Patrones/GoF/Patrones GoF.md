@@ -7,19 +7,19 @@
 4. Implementar los métodos correspondientes.
 
 # Patrones de diseño
-| Scope      | Creational          | Structural            | Behavioral                |
-|------------|---------------------|-----------------------|---------------------------|
-| **Class**  | - [[Factory Method]]| - [[Adapter]] (class) | - Interpreter             |
-|            |                     |                       | - Template Method         |
-| **Object** | - Abstract Factory  | - [[Adapter]] (object)| - Chain of Responsibility |
-|            | - Builder           | - Bridge              | - Command                 |
-|            | - Prototype         | - Composite           | - Iterator                |
-|            | - [[Singleton]]     | - Decorator           | - Mediator                |
-|            |                     | - [[Facade]]          | - Memento                 |
-|            |                     | - Flyweight           | - Observer                |
-|            |                     | - Proxy               | - State                   |
-|            |                     |                       | - [[Strategy]]                |
-|            |                     |                       | - Visitor                 |
+| Scope      | Creational        | Structural            | Behavioral                |
+|------------|-------------------|-----------------------|---------------------------|
+| **Class**  | - [[Factory]]     | - [[Adapter]] (class) | - Interpreter             |
+|            |                   |                       | - Template Method         |
+| **Object** | - Abstract Factory| - [[Adapter]] (object)| - Chain of Responsibility |
+|            | - Builder         | - Bridge              | - Command                 |
+|            | - Prototype       | - [[Composite]]       | - Iterator                |
+|            | - [[Singleton]]   | - Decorator           | - Mediator                |
+|            |                   | - [[Facade]]          | - Memento                 |
+|            |                   | - Flyweight           | - Observer                |
+|            |                   | - Proxy               | - State                   |
+|            |                   |                       | - [[Strategy]]                |
+|            |                   |                       | - Visitor                 |
 
 Fuente: Erich Gamma, 1994
 

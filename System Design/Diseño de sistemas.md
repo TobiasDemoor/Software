@@ -27,10 +27,10 @@ Se tiene un buen diseño cuando:
 - [[Acoplamiento]] y [[Cohesión]]
 - Descomposición y modularización
 - Encapsulamiento
-- Ocultamiento de la información
+- [[Ocultamiento de la información]]
 - Interfaz e implementación
 - Sufficency, completness and primitiveness
-- Separación de concerns
+- [[Separación de concerns]]
 
 # Aplicaciones OO
 La [[Object oriented programming|OO]] representa hoy el mejor framework metodológico para la ingeniería de software gracias al pragmatismo del paradigma y la sitematisación de procesos que permite. Brinda homogeneidad a través del análisis, diseño e implementación (siempre trabajamos con entidades). Pone el énfasis en el estado, comportamiento e interacción de objetos. Trae consigo las ventajas de la maduración y los patrones de prácticas. Se tienen variedad de técnicas, métodos, procesos, estándares, modelos, notaciones, herramientas, componentes, lenguajes, ambientes, ejemplos, comunidad, práctica y experiencia.

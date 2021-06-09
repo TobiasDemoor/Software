@@ -10,7 +10,7 @@ Delegar la responsabilidad a un Factory.
 - Otorgar flexibilidad a la creación de objetos.
 
 ## Ventajas
-- Separa la responsabilidad de creaciones complejas en objetos cohesivos.
+- [[Separación de concerns|Separa la responsabilidad]] de creaciones complejas en objetos cohesivos.
 - Oculta la complejidad de la lógica de creación.
 - Permite optimización de recursos como caché de objetos en memoria.
 

@@ -10,9 +10,10 @@ Convertir la interfaz original de un componente en otra, por medio de un objeto 
 
 ## Ventajas
 - Permite que clases con interfaces incompatibles trabajen juntas.
-- (clase) Permite al adaptador reusar y/o redefinir compoertamiento de la clase adaptada.
+- (clase) Permite al adaptador reusar y/o redefinir comportamiento de la clase adaptada.
 - (clase) No requiere un puntero adicional al objeto adaptado.
 - (objeto) Permite que un adapter use múltiples adaptados.
 
 ## Notas
 - Es un ejemplo del GRASP [[Fabricación pura]].
+- Un Adapter que oculta un sistema externo también puede ser considerado un [[Facade]]. Aunque si este adapta la interfaz del sistema externo es más adecuado llamarlo Adapter.
