@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Operating Systems/Deadlock.md",
+            "file": "System Design/SOLID/Open Close Principle.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Deadlock.md",
+                "file": "System Design/SOLID/Open Close Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "851cda7a7cfe65a4",
   "lastOpenFiles": [
+    "System Design/SOLID/Open Close Principle.md",
+    "System Design/Concepts/Ocultamiento de información.md",
+    "System Design/SOLID/Dependency Inversion Principle.md",
+    "System Design/SOLID/Interface Segregation Principle.md",
+    "System Design/SOLID/Liskov Substitution Principle.md",
+    "System Design/SOLID/Single Responsibility Principle.md",
+    "System Design/SOLID/SOLID Principles.md",
     "Operating Systems/Untitled.md",
     "Untitled.md",
-    "Arquitectura de software.md",
-    "System Design/Patrones/GRASP/Variaciones protegidas.md",
-    "System Design/Concepts/Ocultamiento de información.md",
-    "System Design/SOLID/Liskov Substitution Principle.md",
-    "System Design/SOLID/Open Close Principle.md",
-    "System Design/Concepts/Untitled.md",
-    "System Design/SOLID/SOLID Principles.md",
-    "System Design/SOLID/Dependency Inversion Principle.md"
+    "Arquitectura de software.md"
   ]
 }
