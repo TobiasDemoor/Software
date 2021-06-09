@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "System Design/Patrones/GoF/Adapter.md",
+            "file": "Operating Systems/Deadlock.md",
             "mode": "source"
           }
         }
@@ -68,13 +68,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Patrones/GoF/Adapter.md",
+                "file": "Operating Systems/Deadlock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -88,15 +88,15 @@
   },
   "active": "851cda7a7cfe65a4",
   "lastOpenFiles": [
-    "System Design/Patrones/GoF/Adapter.md",
+    "Operating Systems/Untitled.md",
+    "Untitled.md",
+    "Arquitectura de software.md",
+    "System Design/Patrones/GRASP/Variaciones protegidas.md",
+    "System Design/Concepts/Ocultamiento de información.md",
+    "System Design/SOLID/Liskov Substitution Principle.md",
+    "System Design/SOLID/Open Close Principle.md",
     "System Design/Concepts/Untitled.md",
-    "System Design/FURPS+.md",
-    "System Design/Patrones/Arquitectónicos/Data mapper.md",
-    "System Design/Patrones/Arquitectónicos/Capas.md",
-    "System Design/Patrones/Arquitectónicos/Untitled.md",
-    "System Design/Diseño de sistemas.md",
-    "System Design/Patrones/GoF/Facade.md",
-    "System Design/Patrones/GoF/Factory Method.md",
-    "System Design/Patrones/GoF/Untitled.md"
+    "System Design/SOLID/SOLID Principles.md",
+    "System Design/SOLID/Dependency Inversion Principle.md"
   ]
 }

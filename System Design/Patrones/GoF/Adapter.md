@@ -13,3 +13,6 @@ Convertir la interfaz original de un componente en otra, por medio de un objeto 
 - (clase) Permite al adaptador reusar y/o redefinir compoertamiento de la clase adaptada.
 - (clase) No requiere un puntero adicional al objeto adaptado.
 - (objeto) Permite que un adapter use múltiples adaptados.
+
+## Notas
+- Es un ejemplo del GRASP [[Fabricación pura]].

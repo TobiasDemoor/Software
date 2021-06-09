@@ -7,3 +7,6 @@ Definir cada [[Algorítmo|algorítmo]]/política/estrategia en una clase separad
 ## Motivación
 - Variar [[Algorítmo|algorítmos]] en tiempo de ejecución ([[Variaciones protegidas]]).
 - La elección del [[Algorítmo|algorítmo]] a usar es transparente al cliente.
+
+## Notas
+- Es un ejemplo del GRASP [[Fabricación pura]].
