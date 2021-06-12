@@ -7,7 +7,7 @@ Identificar potenciales puntos de variación o inestabilidades y asignar respons
 Este es un patrón general que implica la motivación de aplicar principios de diseño, [[Patrones|patrones]] y [[Tácticas|tácticas]] de programación para proporcionar flexibilidad.
 Hay que prestar atención, especular y elegir batallas. Porque hay:
 - **Puntos de variación:** cambios en los requerimientos actuales.
-- **Puntos de evolución:** potenciales cambios que podrían aparecer pero no están presentes en los requerimientos actuales.
+- **[[Puntos de evolución]]:** potenciales cambios que podrían aparecer pero no están presentes en los requerimientos actuales.
 
 ## Ventajas
 - Se añaden fácilmente las extenciones ([[Open Close Principle]]).
@@ -17,7 +17,7 @@ Hay que prestar atención, especular y elegir batallas. Porque hay:
 
 ## Mecanismos
 ### Core protected variations mechanisms 
-Data encapsulation, interfaces, [[System Design/Patrones/GRASP/Polimorfismo|polymorphism]], [[Indirección|indirection]], and standards.
+Data encapsulation, interfaces, [[Software Engineering/Patrones/GRASP/Polimorfismo|polymorphism]], [[Indirección|indirection]], and standards.
 
 ### Data-driven designs
 Data-driven designs cover a broad family of techniques include reading codes, values, class file paths, class names, and so forth, from an external source in order to change the behavior of, or "parameterize" a system in some way at runtime.

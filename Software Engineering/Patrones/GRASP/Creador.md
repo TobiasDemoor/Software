@@ -10,8 +10,8 @@ B es una Creador de A, si se asigna a la clase B la responsabilidad de crear una
 - B tiene los datos de inicialización necesarios al momento de crear A.
 
 ## Ventajas
-- Bajo [[Acoplamiento]]
-- Mantenibilidad
+- [[Bajo acoplamiento]]
+- [[FURPS+#Mantainability|Mantenibilidad]]
 - Reutilización
 
 ## Desventajas

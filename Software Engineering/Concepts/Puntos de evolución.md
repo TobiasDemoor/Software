@@ -1,0 +1,1 @@
+Puntos de variabilidad o cambio que *pueden* surgir en el futuro pero no están presentes en los [[Requerimientos|requerimientos]] actuales.

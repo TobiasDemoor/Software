@@ -3,7 +3,7 @@
 El diseño es la actividad que tiene que ver con la toma de decisiones importantes, toma las decisiones más generals que afectan fuertemente a todo el producto. Esta es la etapa en la cuál se genera la [[Deuda técnica|deuda técnica]].
 
 # Características
-- El entregable principal es el modelo de diseño que incluye las representaciones a nivel sistema y a nivel aplicación.
+- El entregable principal es el [[Design Model|modelo de diseño]] que incluye las representaciones a nivel sistema y a nivel aplicación.
 - El scope del trabajo va de lo general a lo particular.
 - El proceso de diseño se caracteriza por aplicar técnicas del proceso creativo. [[Divergencia y convergencia#Divergencia|divergencia]] y [[Divergencia y convergencia#Convergencia|convergencia]].
 - En general es un proceso iterativo. No se llega a la solución final en el primer intento.
@@ -48,7 +48,7 @@ Propiedades que se deben tener en cuenta:
 - Tiempo de vida de los datos.
 - Formato de almacenamiento (datos, imágenes y documentos).
 - Objetos o datos. Serialización, ODBMS o RDBMS.
-- Transacciones.
+- [[Transacciones]].
 - Backup y restore.
 - Seguridad.
 - [[FURPS+#Reliability|Disponibilidad]] (centralizada vs distribuida).

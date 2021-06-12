@@ -10,7 +10,7 @@ Una clase con baja cohesividad es difícil de entender, de reutilizar y de mante
 
 ## Ventajas
 - Incrementa la claridad y facilita la comprensión del diseño.
-- Simplifica el manteniemiento y las mejoras.
+- Simplifica el manteniemiento y las mejoras. ([[FURPS+#Mantainability]])
 - Facilita la reutilización.
 
 ## Desventaja

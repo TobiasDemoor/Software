@@ -1,0 +1,8 @@
+Cualquiera y todos los [[FURPS+]] pueden tener un efecto significativo en la [[Arquitectura de software|arquitectura]] de un sistema. Es usual que los [[Requerimientos#Atributos de Calidad|atributos de calidad]] no funcionales sean los que marquen la arquitectura y no así los funcionales.
+En el [[Unified Process|UP]], estos factores con implicación estructural son llamados **architectural significant requirements** (requerimientos significativos arquitectónicamente) o factores para abreviar
+Muchos factores técnicos y organizacionales pueden ser caracterizados como *[[Requerimientos#Restricciones|constraints]]* que restringen la solución de alguna manera.
+
+# Quality Scenarios
+Cuando se definen requerimientos de calidad durante el análisis de factores de arquitectura, **quality scenarios** (escenarios de calidad) son recomendados ya que definen respuestas medibles (o por lo menos observables) y que por lo tanto pueden ser verificadas. No es muy útil afirmar vagamente "el sistema debe ser fácil de modificar" sin ninguna medida de qué significa.
+Cuantificar algunas cosas, como los objetivos de [[FURPS+#Performance|rendimiento]] y tiempo medio entre [[Fault, Failure|fallas]] son prácticas conocidad, pero los escenarios de calidad extienden esta idea e incentivan a anotar todos los factores (o al menos la mayoría) como afirmaciónes medibles.
+Los quality scenarios son afirmaciones cortas de la forma <estímulo> \<respuesta medible>
