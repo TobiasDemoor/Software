@@ -7,7 +7,7 @@
         "id": "0a14ac251d37d517",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -84,15 +84,15 @@
   },
   "active": "0a14ac251d37d517",
   "lastOpenFiles": [
+    "Software Engineering/Principles/Model-View Separation.md",
+    "Software Engineering/Patrones/GoF/Untitled.md",
+    "Software Engineering/Patrones/GoF/Patrones GoF.md",
+    "Software Engineering/Principles/Untitled.md",
     "Concepts/Algorítmo.md",
     "Software Engineering/Principles/SOLID/Liskov Substitution Principle.md",
     "Software Engineering/Concepts/Framework.md",
     "Software Engineering/Patrones/GRASP/Variaciones protegidas.md",
     "Software Engineering/UP/Use Case.md",
-    "Software Engineering/UP/Architecture/Software Architecture Document.md",
-    "Software Engineering/UP/Architecture/Architecture analysis.md",
-    "Software Engineering/UP/Untitled.md",
-    "Software Engineering/Diseño de sistemas.md",
-    "Software Engineering/Concepts/Base de datos.md"
+    "Software Engineering/UP/Architecture/Software Architecture Document.md"
   ]
 }
