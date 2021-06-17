@@ -6,7 +6,7 @@ A further part of this principle is that the domain classes encapsulate the info
 
 The motivation for Model-View Separation includes: 
 - To support cohesive model definitions that focus on the [[Dominio|domain]] processes, rather than on user interfaces.
-- To allow separate development of the model and user interface [[Capas|layers]].
+- To allow separate development of the model and user interface [[Layers|layers]].
 - To minimize the impact of [[Requerimientos|requirements]] changes in the interface upon the domain layer.
 - To allow new views to be easily connected to an existing domain layer, without affecting the domain layer. 
 - To allow multiple simultaneous views on the same model object, such as both a tabular and business chart view of sales information.

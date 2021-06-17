@@ -7,8 +7,11 @@
         "id": "0a14ac251d37d517",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Software Engineering/FURPS+.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(caso de uso)",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Software Engineering/FURPS+.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "0a14ac251d37d517",
   "lastOpenFiles": [
-    "Software Engineering/Principles/Model-View Separation.md",
-    "Software Engineering/Patrones/GoF/Untitled.md",
+    "Software Engineering/FURPS+.md",
+    "Software Engineering/Diseño de sistemas.md",
+    "Software Engineering/Patrones/GoF/Factory.md",
+    "Software Engineering/Patrones/GoF/Strategy.md",
+    "Software Engineering/Patrones/GoF/Singleton.md",
     "Software Engineering/Patrones/GoF/Patrones GoF.md",
-    "Software Engineering/Principles/Untitled.md",
-    "Concepts/Algorítmo.md",
-    "Software Engineering/Principles/SOLID/Liskov Substitution Principle.md",
-    "Software Engineering/Concepts/Framework.md",
     "Software Engineering/Patrones/GRASP/Variaciones protegidas.md",
-    "Software Engineering/UP/Use Case.md",
-    "Software Engineering/UP/Architecture/Software Architecture Document.md"
+    "Software Engineering/Concepts/Puntos de evolución.md",
+    "Software Engineering/Patrones/GRASP/Indirección.md",
+    "Software Engineering/Principles/Ocultamiento de la información.md"
   ]
 }

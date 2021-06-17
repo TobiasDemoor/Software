@@ -2,7 +2,7 @@
 ¿Cómo diseñar componentes de manera que futuras variaciones e inestabilidades no tengan impacto en el funcionamiento de otros?
 
 ## Solución
-Identificar potenciales puntos de variación o inestabilidades y asignar responsabilidades para crear una interfaz (contrato) estable alrededor de ellos.
+Identificar potenciales puntos de variación o inestabilidades y asignar responsabilidades para crear una [[Interfaz|Interfaz]] (contrato) estable alrededor de ellos.
 
 Este es un patrón general que implica la motivación de aplicar principios de diseño, [[Patrones|patrones]] y [[Tácticas|tácticas]] de programación para proporcionar flexibilidad.
 Hay que prestar atención, especular y elegir batallas. Porque hay:

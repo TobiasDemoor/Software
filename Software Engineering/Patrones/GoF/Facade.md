@@ -6,7 +6,7 @@ Creamos una clase Facade que haga de punto de entrada para las funcionalidades q
 
 ## Ventajas
 - Para modificar las clases de los subsistemas, sólo hay que realizar cambios en la clase Facade, y los clientes pueden permanecer ajenos a ello.
-- Los clientes no necesitan conocer las clases que hay tras dicha interfaz ([[Bajo acoplamiento]]).
+- Los clientes no necesitan conocer las clases que hay tras dicha [[Interfaz|Interfaz]] ([[Bajo acoplamiento]]).
 
 ## Notas
 - En determinadas ocasiones puede ser conveniente que la clase Facade sea un [[Singleton]].

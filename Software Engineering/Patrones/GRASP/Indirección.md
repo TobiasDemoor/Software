@@ -3,7 +3,7 @@
 ¿Cómo desacoplar objetos para mantener bajo [[Acoplamiento|acoplamiento]] y a la vez maximizar la reusabilidad?
 
 ## Solución
-Asignar la responsabilidad a un objeto intermediario que medie con otros componentes y servicios, tal que no queden directamente acoplados.
+Asignar la [[Responsabilidad|responsabilidad]] a un objeto intermediario que medie con otros componentes y servicios, tal que no queden directamente acoplados.
 
 ## Patrones asociados
 - [[Variaciones protegidas]]

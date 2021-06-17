@@ -1,5 +1,5 @@
 ## Propósito
-Proporciona una interfaz para crear familias de objetos relacionados que dependen entre sí, sin especificar sus clases concretas.
+Proporciona una [[Interfaz|Interfaz]] para crear familias de objetos relacionados que dependen entre sí, sin especificar sus clases concretas.
 
 ## Motivación
 - Un sistema podría ser independiente de cómo se crean, componen y representan sus productos.

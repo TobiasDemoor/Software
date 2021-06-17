@@ -2,7 +2,7 @@
 ¿Quién sería el responsable de crear objetos cuando se desea mantener cohesividad, hay consideraciones especiales o lógica compleja para realizarlo?
 
 ## Solución
-Delegar la responsabilidad a un Factory.
+Delegar la [[Responsabilidad|responsabilidad]] a un Factory.
 
 ## Motivación
 - Una clase no desea conocer sobre la creación de objetos relacionados.

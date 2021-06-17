@@ -1,0 +1,1 @@
+Se denomina **encapsulamiento** al ocultamiento de los datos de un objeto de manera que solo se puedan cambiar mediante las operaciones definidas para ese objeto. Cada objeto está aislado del exterior. Se evita que el usuario pueda cambiar su estado de maneras imprevistas e incontroladas.

@@ -1,0 +1,1 @@
+Una **interfaz** (**interfaces**, en plural) se utiliza en informática para nombrar a la conexión funcional entre dos sistemas, programas, dispositivos o componentes de cualquier tipo, que proporciona una comunicación de distintos niveles, permitiendo el intercambio de información.

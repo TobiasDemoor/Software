@@ -1,1 +1,1 @@
-"Depend upon abstractions. Do not depend upon concretions." (Abstracción)
+"Depend upon abstractions. Do not depend upon concretions." ([[Abstracción]])

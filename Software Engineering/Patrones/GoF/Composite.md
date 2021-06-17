@@ -2,7 +2,7 @@
 ¿Cómo tratar un grupo o estructura de composición de objetos de la misma manera ([[Software Engineering/Patrones/GRASP/Polimorfismo|polimorfica]]) como a un objeto no compuesto (atómico)?
 
 ## Solución
-Definir clases para los objetos compuestos y atómicos tal que implementen la misma interfaz.
+Definir clases para los objetos compuestos y atómicos tal que implementen la misma [[Interfaz|Interfaz]].
 
 ## Propósito
 Componer objetos de complejidad mayor mediante otros más sencillos de forma recursiva.

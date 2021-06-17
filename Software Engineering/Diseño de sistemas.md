@@ -23,20 +23,32 @@ Se tiene un buen diseño cuando:
 - Debe ser completo y dar un panorama completo del software.
 
 # Principios
-- Abstracción
+- [[Abstracción]]
 - [[Acoplamiento]] y [[Cohesión]]
 - Descomposición y modularización
-- Encapsulamiento
+- [[Encapsulamiento]]
 - [[Ocultamiento de la información]]
-- Interfaz e implementación
-- Sufficency, completness and primitiveness
+- [[Interfaz]] e implementación
+- Sufficency, completness and primitiveness:
+	- **Sufficency:** el componente considera las características de su abstracción que son necesarias para proveer una interacción significativa y eficiente.
+	- **Completness:** el componente debe considerer todas las características relevantes de su abstracción.
+	- **Primitiveness:** las operaciones que puede realizar el componente pueden ser implementadas fácilmente.
 - [[Separación de concerns]]
 
 # Aplicaciones OO
 La [[Object oriented programming|OO]] representa hoy el mejor framework metodológico para la ingeniería de software gracias al pragmatismo del paradigma y la sitematisación de procesos que permite. Brinda homogeneidad a través del análisis, diseño e implementación (siempre trabajamos con entidades). Pone el énfasis en el estado, comportamiento e interacción de objetos. Trae consigo las ventajas de la maduración y los patrones de prácticas. Se tienen variedad de técnicas, métodos, procesos, estándares, modelos, notaciones, herramientas, componentes, lenguajes, ambientes, ejemplos, comunidad, práctica y experiencia.
 
 # Diseño de [[Requerimientos#Atributos de Calidad|QA]]
-Primero se deben identificar los [[Requerimientos#Requerimientos no funcionales|requerimientos no funcionales]] y priorizar por su impacto en la arquitectura (poniendo el foco en [[FURPS+]]). Luego debemos seleccionar uno y buscar alternativas de implementación para crear la solucion elegida. Estas actividades son iterativas hasta el nivel de detallee que se desee o atributos de calidad a atender.
+Primero se deben identificar los [[Requerimientos#Requerimientos no funcionales|RNF]] y priorizar por su impacto en la arquitectura (poniendo el foco en [[FURPS+]]). Luego debemos seleccionar uno y buscar alternativas de implementación para crear la solucion elegida (las alternativas y las decisiones que se tomen deben ir al [[Software Architecture Document|SAD]]). Estas actividades son iterativas hasta el nivel de detalle que se desee o atributos de calidad a atender.
+
+## Attribute Driven Design
+ADD es un enfoque para definir una arquitectura de software que basa el proceso de descomposición en los atributos de calidad que debe cumplir el software. Se aplica luego de tener una división en módulos generales.
+- En cada iteración se selecciona un módulo a descomponer y se definen un conjunto de escenarios de calidad y requisitos funcionales en los cuales se va a basar la descomposición del componente.
+- Proceso de descomposición de módulos recursivos donde en cada etapa se eligen [[Tácticas|tácticas]] y [[Patrones arquitectónicos|patrones arquitectónicos]] para satisfacer un conjunto de escenarios de calidad y luego se asigna funcionalidad para instanciar los tipos de módulos proporcionados por el patrón utilizado.
+	- Se deben identificar los componentes hijos y se les debe asignar una responsabilidad.
+	- Se debe documentar y representar mediante vistas estos cambios en la arquitectura.
+- ADD se posiciona en el ciclo de vida después del [[Análisis de requerimientos|análisis de requerimientos]] y puede comenzar cuando los [[Architectural factors|drivers de arquitectura]] se conocen con cierta confianza.
+- El resultado de ADD son los primeros niveles de una vista de descomposición de módulos de arquitectura y otras vistas, según corresponda.
 
 # Diseñando la persistencia
 Propiedades que se deben tener en cuenta:

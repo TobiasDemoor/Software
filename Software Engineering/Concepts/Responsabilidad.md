@@ -1,0 +1,1 @@
+Una responsabilidad es un contrato u obligación que una entidad debe cumplir. Existen dos tipos de responsabilidades **hacer** y **saber**. Una responsabilidad no es lo mismo que un método, pero un método es implementado para cumplir con las responsabilidades.

@@ -1,4 +1,8 @@
+## Contexto
+Todos los sistemas experimentan la necesidad de desarrollar porciones del mismo de manera independiente. Para ello, los developers necesitan una documentación clara de la separación de responsabilidades de los módulos, para que éstos puedan ser mantenidos y desarrollados de manera independiente.
+
 ## Problema
+El software necesita ser segmentado de manera que los módulos puedan ser desarrollados de manera independiente con una pequeña interacción entre ellos, soportando portabilidad, [[Encapsulamiento|encapsulamiento]], [[FURPS+#Mantainability|reusabilidad y modificabilidad]].
 - Minimizar el efecto de los cambios en el sistema ([[Bajo acoplamiento|bajar el acoplamiento]]).
 - Evitar mezclar la lógica de aplicación con la interfaz de usuario así esta puede ser reusada o distribuida.
 
@@ -44,9 +48,7 @@ Se organiza el sisteam en módulos/componentes con funcionalidad relacionada. Ca
 Agregar funcionalidad sobre servicios core, distribución del desarrollo, se requiere seguridad multinivel.
 
 ## Ventajas
-- [[FURPS+#Mantainability|Mantenibilidad]]
-- Modularidad
-- Testeabilidad
+[[FURPS+#Mantainability|Mantenibilidad, Modularidad y Testeabilidad]]
 
 ## Desventajas
 - [[FURPS+#Performance|Performance]] (se puede sortear con salteo de capas)

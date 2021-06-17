@@ -2,7 +2,7 @@
 ¿Cómo mantener manejabla la complejidad de un software?
 
 ## Solución
-Asignar una responsabilidad de manera que la [[Cohesión|cohesión]] permanezca alta.
+Asignar una [[Responsabilidad|responsabilidad]] de manera que la [[Cohesión|cohesión]] permanezca alta.
 
 Una clase cohesiva "puede" tener pocos métodos, con funcionalidad altamente relacionada, y no realiza muchos trabjaos diferentes. Pero colabora con otros objetos para compartir el esfuerzo de una tarea compleja.
 

@@ -9,3 +9,6 @@ A good example is an "algorithm" object such as a *TableOfContentsGenerator*, wh
 To contrast, a software class named *TableOfContents* is inspired by *representational decomposition*, and should contain information consistent with our concept of the real [[Dominio|domain]].
 
 - (Larman, Applying UML and patterns)
+
+# Diseño detallado
+Luego de identificar los [[Requerimientos|requerimientos]] y crear un [[Domain Model|modelo de dominio]], se añaden métodos a las clases de software y se definen los mensajes entre los objetos para completar los requerimientos. El definir qué métodos pertenecen a qué objetos y cómo los objetos deberían interactuar es una tarea crucial.

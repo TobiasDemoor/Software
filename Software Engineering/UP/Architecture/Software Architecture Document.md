@@ -3,7 +3,7 @@ Therefore, it should be written with this audience and goal in mind: What do I n
 
 # Architectural views
 1. **Logical architecture**
-	- Organización conceptual del software en términos de las [[Capas|capas]], subsistemas, paquetes, [[Framework|frameworks]], clases e interfaces más importantes.
+	- Organización conceptual del software en términos de las [[Layers|capas]], subsistemas, paquetes, [[Framework|frameworks]], clases e interfaces más importantes.
 	- Muestra realización de [[Use Case|casos de uso]] sobresalientes (como diagramas de interacción) que ilustran aspectos claves del sistema.
 2. **Process architecture**
 	- Procesos e hilos. Sus responsabilidades, colaboraciones y su la alocación de elementos lógicos a ellos.
@@ -18,4 +18,15 @@ Therefore, it should be written with this audience and goal in mind: What do I n
 6. **Implementation architecture**
 	- Es un descripción resumida del conjunto de deliverables relevantes y las cosas que crean los deliverables (cómo el codigo fuente).
 	- *In contrast to the other UP models, which are text and diagrams, this "model" is the actual source code, executables, and so forth. It has two parts: 1) deliverables, and 2) things that create deliverables (such as source code and graphics). The Implementation Model is all of this stuff, including web pages, DLLs, executables, source code, and so forth, and their organization—such as source code in Java packages, and bytecode organized into JAR files*
-	- Una vista al Implementation Model, expresado en texto y visualizado mediante Package Diagram y Component Diagram.
+	- Una vista al Implementation Model, expresado en texto y visualizado mediante Package Diagram y [[Component Diagram]].
+
+# Contenido
+- Caracterísiticas del producto
+- [[Requerimientos#Requerimientos funcionales]]
+- [[Requerimientos#Requerimientos no funcionales]]
+- [[Requerimientos#Restricciones]]
+- Decisiones arquitectónicas y de diseño
+- Modelos de vistas
+- Descripción del comportamiento
+- Las [[Interfaz|interfaces]] entre los componentes
+- Trazabilidad entre elementos.

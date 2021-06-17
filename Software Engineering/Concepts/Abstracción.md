@@ -1,0 +1,1 @@
+Se aisla un elemento de su contexto, se hace énfasis en el  "¿qué hace?" más que en el "¿cómo lo hace?", se ve al elemento como caja negra.

@@ -5,7 +5,7 @@
 Crear una clase artificial (no del [[Dominio|dominio]]) y asignarle responsabilidades altamente [[Cohesión|cohesivas]].
 
 ## Ventajas
-- Favorece a la alta [[Cohesión|cohesión]] agrupoando comportamiento con fines puntuales.
+- Favorece a la [[Alta cohesión|alta cohesión]] agrupando comportamiento con fines puntuales.
 - En algunos casos puede facilitar la reutilización de esas clases especializadas.
 
 ## Notas

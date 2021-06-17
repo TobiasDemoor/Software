@@ -1,1 +1,0 @@
-Los modelos construidos durante el análisis proveen información significativa de **qué** debe hacer el software y algunas [[Requerimientos#Restricciones|restricciones]] tanto de negocio como de producto.

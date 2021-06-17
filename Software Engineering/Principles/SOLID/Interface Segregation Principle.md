@@ -1,1 +1,1 @@
-"Many client specific interfaces are better than one general purpose interface." (Interfaces simples)
+"Many client specific interfaces are better than one general purpose interface." ([[Interfaz|Interfaces]] simples)

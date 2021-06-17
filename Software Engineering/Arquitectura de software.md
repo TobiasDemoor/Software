@@ -18,7 +18,7 @@ In the [[Unified Process|UP]], architectural investigation and design are togeth
 # Beneficios
 - Comunicación con los stakeholders.
 - Análisis del sistema de manera temprana.
-- Reutilización a gran escala y patrones.
+- Reutilización a gran escala y [[Patrones|patrones]].
 
 ## ¿Por qué necesitamos arquitectura de software?
 - Permite un análsis temprano de las principales características del sistema a construir, como así también facilitar el manejo de la complejidad ante sistemas grandes.
@@ -31,6 +31,27 @@ In the [[Unified Process|UP]], architectural investigation and design are togeth
 - Es un registro que se lleva desde el inicio del proyecto sobre las decisiones de diseño tomadas respecto del producto.
 - Es una abstracción representada en un modelo reusable y transferible de un sistema, utilizado además como una prescripción para la implementación.
 
-# Modelos
-- [[Deployment Diagram]]
-- [[Diagrama de módulos]]
+# Architectural Business Cycle (ABC)
+Es el ciclo en el cual la arquitectura del sistema se define como consecuencia de una serie de influencias provenientes del [[#Contexto técnico|contexto técnico]], el [[#Contexto de negocios|contexto de negocios]], el [[#Contexto del proyecto|contexto del proyecto]] y el [[#Contexto profesional|contexto profesional]]. A su vez, la existencia de esta arquitectura afecta a dichos contextos, que posteriormente influirán en arquitecturas futuras y así sucesivamente. El ciclo puede describirse a partir de los siguientes tópicos:
+
+## Contexto técnico
+Las prácticas estándares de la industria y las técnicas de ingeniería de software prevalentes en la comunidad influencian fuertemente la arquitectura. A su vez, el contexto técnico incluye el cumplimiento de los atributos de calidad del producto. Por otro lado, la arquitectura afecta a los [[Requerimientos|requerimientos]] de los stakeholders al darle la oportunidad a éstos de obtener un sistema con una mayor madurez a futuro en cuanto a los [[Requerimientos#Atributos de Calidad|atributos de calidad]].
+
+## Contexto de negocios
+El sistema es creado principalmente a partir de la arquitectura para satisfacer las necesidades del modelo de negocios de la empresa que va a utilizar dicho sistema. A su vez, la arquitectura del sistema puede influenciar fuertemente el modelo de negocios y los objetivos de la empresa al brindar la posibilidad de abordar ciertos casos de una manera más eficiente y con un alcance mayor.
+
+## Contexto del proyecto
+El equipo de desarrollo debe crear un caso de negocios para el sistema, entender los requerimientos de la arquitectura que éste demande, diseñar, comunicar, documentar y analizar dicha arquitectura, implementarla y [[Verificación y validación|verificar y validar]] dicha implementación. A su vez, esta arquitectura prescribe una estructura para el sistema, particularmente las unidades o módulos de software que deben ser implementados u obtenidos de alguna manera para conformar dicho sistema. Estas unidades son la base para la estructura de desarrollo del proyecto, por lo que existe una influencia mutua entre la arquitectura y el proyecto de desarrollo.
+
+## Contexto profesional
+Tanto el diseño como la implementación de la arquitectura requieren habilidades y conocimientos que influirán en el resultado. A su vez, cada sistema y entorno tiene sus particularidades que requerirán que tanto el arquitecto como el equipo de desarrollo amplíen su conocimiento y habilidades a medida que van ganando experiencia.
+
+# Dcoumentación de la Arquitectura de Software
+Documentar una arquitectura de software es una cuestión de documentar las vistas relevantes y luego agregar información que se aplica a más de una vista.
+Se produce el SAD ([[Software Architecture Document]]):
+- Sirve principalmente para la educación, comunicación y análisis de la arquitectura.
+- Se produce de forma iterativa junto a todo el trabajo de diseño.
+- No es un documento monolítico difícil de leer.
+- Debe estar orientado a las necesidades de información de cada stakeholder.
+- UML por sí solo no hace a una buena documentación. Se puede hacer un mal uso del mismo.
+- Siempre incluir comportamiento.
