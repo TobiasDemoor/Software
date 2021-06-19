@@ -13,6 +13,14 @@ Capacidad del producto de software para ser entendido, aprendido, usado y result
 - **Accesibilidad**: grado en el cual un producto o sistema puede ser usado por amplio rango de personas con capacidades distintas.
 Dentro de este atributo entran los factores humanos, la ayuda a los usuarios y la documentación.
 
+## [[Tácticas]]
+- Separar interfaz de usuario del resto del sistema para que sea más fácilmente adaptable a lo que solicitan los usuarios.
+	- [[Model-View-Controller]]
+	- [[Layers]]
+	- [[Client-Server]]
+- Usuario
+	- [[Command]]
+
 # Reliability
 Capacidad de un sistema o componente para desempeñar las funciones específicas, cuando se usa bajo condiciones y períodos de tiempo determinados. El mínimo del que podemos hablar es 99%, si un sistema no tiene alta disponibilidad, no puede ser confiable.
 - Madurez: capacidad del sistema para satisfacer las necesidades de fiabilidad en condiciones normales.
@@ -24,19 +32,21 @@ Dentro de este atributo entran la fecuencia de [[Fault, Failure|fallas]], la rec
 ## [[Tácticas]] para disponibilidad
 - Detección de fallas
 	- Ping/echo: se utiliza tanto para conocer los tiempos de respuesta como para saber si el módulo está vivo o no.
-	- Monitor: componente que monitorea el estado de varios módulos del sistema, idealmente los críticos. El monitor puede detectar una falla y orquestar el inicio de alguna otra táctica que se encargue de recuperar el sistema del estado de falla.
-	- Excepciones y manejo de errores (Exception Detection, Exception Handling, Exception Prevention).
+	- System Monitor: componente que monitorea el estado de varios módulos del sistema, idealmente los críticos. El monitor puede detectar una falla y orquestar el inicio de alguna otra táctica que se encargue de recuperar el sistema del estado de falla.
+	- Exception Detection.
 - Recuperación de fallas
 	- Preparación y reparación
 		- Redundancia activa: todos los nodos pertenecientes a un grupo deben protegerse, reciben y procesan inputs en paralelo, menteniendo un estado de sincronización constante.
 		- Redundancia pasiva: sólo los módulos activos del grupo de protección procesan tráfico de inputs, y uno de ellos se encarga de enviar una actualización de estado a los demas nodos que se encuentran en estado pasivo.
 		- Reintento: supone que el fallo en la transacción fue ocasional y el realizar dicha operación nuevamente puede solucionar dicho problema.
 		- Spare
+		- Exception Handling.
 	- Reintroducción
 		- Resincronización de estado
 		- Rollback
 - Prevención de fallas
 	- [[Transacciones]]
+	- Exception Prevention.
 
 # Performance
 Rendimiento del sistema. Dentro de este atributo entran los tiempos de respuesta, throughput, accuracy, availability y uso de recursos.

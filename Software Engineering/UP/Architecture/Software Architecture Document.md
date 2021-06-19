@@ -22,9 +22,9 @@ Therefore, it should be written with this audience and goal in mind: What do I n
 
 # Contenido
 - Caracterísiticas del producto
-- [[Requerimientos#Requerimientos funcionales]]
-- [[Requerimientos#Requerimientos no funcionales]]
-- [[Requerimientos#Restricciones]]
+- [[Requerimientos#Requerimientos funcionales|Requerimientos funcionales]]
+- [[Requerimientos#Requerimientos no funcionales|Requerimientos no funcionales]]
+- [[Requerimientos#Restricciones|Restricciones]]
 - Decisiones arquitectónicas y de diseño
 - Modelos de vistas
 - Descripción del comportamiento

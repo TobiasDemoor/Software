@@ -1,0 +1,7 @@
+## Problema
+¿Cómo manejar requests o tareas que necesitan funciones tales como ordenar (prioridades), encolado, delay, loggueo o revertir?
+
+## Solución
+Hacer que cada tarea sea una clase que implementa una interfaz común.
+
+"This is a simple pattern with many useful applications; actions become objects, and thus can be sorted, logged, queued, and so forth. For example, in the PFW, Figure 34.15 shows Command (or task) classes for the database operations. There is much more to completing a transaction solution, but the key idea of this section is to represent each task or action in the transaction as an object with a polymorphic execute method; this opens up a world of flexibility by treating the request as an object itself. The quintessential example of Command is for GUI actions, such as cut and paste. For example, the CutCommand's execute method does a cut, and its undo method reverses the cut. The CutCommand will also retain the data necessary to perform the undo. All the GUI commands can be kept in a history stack, so that they can be popped in turn, and each undone. Another common use of Command is for server-side request handling. When a server object receives a (remote) message, it creates a Command object for that request, and hands it off to a CommandProcesser \[BMRSS96\], which can queue, log, prioritize, and execute the commands." - (Larman p.548)

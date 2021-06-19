@@ -30,8 +30,8 @@ Se tiene un buen diseño cuando:
 - [[Ocultamiento de la información]]
 - [[Interfaz]] e implementación
 - Sufficency, completness and primitiveness:
-	- **Sufficency:** el componente considera las características de su abstracción que son necesarias para proveer una interacción significativa y eficiente.
-	- **Completness:** el componente debe considerer todas las características relevantes de su abstracción.
+	- **Sufficency:** el componente considera las características de su [[Abstracción|abstracción]] que son necesarias para proveer una interacción significativa y eficiente.
+	- **Completness:** el componente debe considerer todas las características relevantes de su [[Abstracción|abstracción]].
 	- **Primitiveness:** las operaciones que puede realizar el componente pueden ser implementadas fácilmente.
 - [[Separación de concerns]]
 

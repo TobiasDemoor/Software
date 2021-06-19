@@ -29,7 +29,7 @@ In the [[Unified Process|UP]], architectural investigation and design are togeth
 - La [[Agile methodologies|agilidad]] mal aplicada relega la arquitectura.
 - Facilita la comunicación entre los stakeholders durante todo el cilco de vida.
 - Es un registro que se lleva desde el inicio del proyecto sobre las decisiones de diseño tomadas respecto del producto.
-- Es una abstracción representada en un modelo reusable y transferible de un sistema, utilizado además como una prescripción para la implementación.
+- Es una [[Abstracción|abstracción]] representada en un modelo reusable y transferible de un sistema, utilizado además como una prescripción para la implementación.
 
 # Architectural Business Cycle (ABC)
 Es el ciclo en el cual la arquitectura del sistema se define como consecuencia de una serie de influencias provenientes del [[#Contexto técnico|contexto técnico]], el [[#Contexto de negocios|contexto de negocios]], el [[#Contexto del proyecto|contexto del proyecto]] y el [[#Contexto profesional|contexto profesional]]. A su vez, la existencia de esta arquitectura afecta a dichos contextos, que posteriormente influirán en arquitecturas futuras y así sucesivamente. El ciclo puede describirse a partir de los siguientes tópicos:

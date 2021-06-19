@@ -12,11 +12,11 @@
 | **Class**  | - [[Factory]]         | - [[Adapter]] (class) | - Interpreter                 |
 |            |                       |                       | - [[Template Method]]         |
 | **Object** | - [[Abstract Factory]]| - [[Adapter]] (object)| - Chain of Responsibility     |
-|            | - Builder             | - Bridge              | - Command                     |
+|            | - Builder             | - Bridge              | - [[Command]]                 |
 |            | - Prototype           | - [[Composite]]       | - Iterator                    |
 |            | - [[Singleton]]       | - Decorator           | - Mediator                    |
 |            |                       | - [[Facade]]          | - Memento                     |
-|            |                       | - Flyweight           | - [[Observer]]                    |
+|            |                       | - Flyweight           | - [[Observer]]                |    |
 |            |                       | - Proxy               | - [[State]]                   |
 |            |                       |                       | - [[Strategy]]                |    |
 |            |                       |                       | - Visitor                     |

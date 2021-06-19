@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Engineering/FURPS+.md",
+            "file": "Software Engineering/Concepts/Framework.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "reusab",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/FURPS+.md",
+                "file": "Software Engineering/Concepts/Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0a14ac251d37d517",
   "lastOpenFiles": [
-    "Software Engineering/FURPS+.md",
-    "Software Engineering/Diseño de sistemas.md",
-    "Software Engineering/Patrones/GoF/Factory.md",
-    "Software Engineering/Patrones/GoF/Strategy.md",
-    "Software Engineering/Patrones/GoF/Singleton.md",
-    "Software Engineering/Patrones/GoF/Patrones GoF.md",
-    "Software Engineering/Patrones/GRASP/Variaciones protegidas.md",
-    "Software Engineering/Concepts/Puntos de evolución.md",
-    "Software Engineering/Patrones/GRASP/Indirección.md",
-    "Software Engineering/Principles/Ocultamiento de la información.md"
+    "Software Engineering/Concepts/Framework.md",
+    "Software Engineering/Principles/SOLID/Open Close Principle.md",
+    "Software Engineering/Principles/SOLID/Liskov Substitution Principle.md",
+    "Software Engineering/Principles/SOLID/Single Responsibility Principle.md",
+    "Software Engineering/Principles/SOLID/Interface Segregation Principle.md",
+    "Software Engineering/Principles/SOLID/Dependency Inversion Principle.md",
+    "Software Engineering/Principles/SOLID/SOLID Principles.md",
+    "Software Engineering/Patrones/Arquitectónicos/Layers.md",
+    "Software Engineering/Patrones/Arquitectónicos/Client-Server.md",
+    "Software Engineering/FURPS+.md"
   ]
 }
