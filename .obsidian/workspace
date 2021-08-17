@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0a14ac251d37d517",
+        "id": "47dd210af8661c1b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Engineering/Concepts/Framework.md",
+            "file": "Artificial Intelligence/Agente Inteligente.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Concepts/Framework.md",
+                "file": "Artificial Intelligence/Agente Inteligente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0a14ac251d37d517",
+  "active": "47dd210af8661c1b",
   "lastOpenFiles": [
-    "Software Engineering/Concepts/Framework.md",
-    "Software Engineering/Principles/SOLID/Open Close Principle.md",
-    "Software Engineering/Principles/SOLID/Liskov Substitution Principle.md",
-    "Software Engineering/Principles/SOLID/Single Responsibility Principle.md",
-    "Software Engineering/Principles/SOLID/Interface Segregation Principle.md",
-    "Software Engineering/Principles/SOLID/Dependency Inversion Principle.md",
-    "Software Engineering/Principles/SOLID/SOLID Principles.md",
-    "Software Engineering/Patrones/Arquitectónicos/Layers.md",
-    "Software Engineering/Patrones/Arquitectónicos/Client-Server.md",
-    "Software Engineering/FURPS+.md"
+    "Artificial Intelligence/Agente Inteligente.md",
+    "Concepts/Dato, información y conocimiento.md",
+    "Artificial Intelligence/Sistemas Expertos.md",
+    "Artificial Intelligence/Inteligencia Artificial.md",
+    "Artificial Intelligence/Agentes.md",
+    "Artificial Intelligence/Untitled.md",
+    "Concepts/Algorítmo.md",
+    "Artificial Intelligence/Machine Learning.md",
+    "Artificial Intelligence/Inteligencia.md",
+    "Artificial Intelligence/Inteligencia artificial.md"
   ]
 }

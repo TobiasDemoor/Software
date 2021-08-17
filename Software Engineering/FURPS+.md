@@ -49,7 +49,7 @@ Dentro de este atributo entran la fecuencia de [[Fault, Failure|fallas]], la rec
 	- Exception Prevention.
 
 # Performance
-Rendimiento del sistema. Dentro de este atributo entran los tiempos de respuesta, throughput, accuracy, availability y uso de recursos.
+Tiempo que requiere el sistema para responder a un evento o estímulo, o bien el número de eventos procesados en un intervalo de tiempo. Dentro de este atributo entran los tiempos de respuesta, throughput, accuracy, availability y uso de recursos.
 
 # Supportability
 Dentro de este atributo entran adaptability, maintainability, internationalization y configurability.

@@ -47,7 +47,7 @@ ADD es un enfoque para definir una arquitectura de software que basa el proceso 
 - Proceso de descomposición de módulos recursivos donde en cada etapa se eligen [[Tácticas|tácticas]] y [[Patrones arquitectónicos|patrones arquitectónicos]] para satisfacer un conjunto de escenarios de calidad y luego se asigna funcionalidad para instanciar los tipos de módulos proporcionados por el patrón utilizado.
 	- Se deben identificar los componentes hijos y se les debe asignar una responsabilidad.
 	- Se debe documentar y representar mediante vistas estos cambios en la arquitectura.
-- ADD se posiciona en el ciclo de vida después del [[Análisis de requerimientos|análisis de requerimientos]] y puede comenzar cuando los [[Architectural factors|drivers de arquitectura]] se conocen con cierta confianza.
+- ADD se posiciona en el ciclo de vida después del [[Ingeniería de Requerimientos#Fases del proceso de IR|análisis de requerimientos]] y puede comenzar cuando los [[Architectural factors|drivers de arquitectura]] se conocen con cierta confianza.
 - El resultado de ADD son los primeros niveles de una vista de descomposición de módulos de arquitectura y otras vistas, según corresponda.
 
 # Diseñando la persistencia
@@ -70,7 +70,7 @@ Propiedades que se deben tener en cuenta:
 Depende el nivel que estemos analizando tenemos distintos elementos a los cuales estudiar.
 
 ## Realidad
-En el nivel de la realidad hablamos de entidades que tienen atributos, esto lo representamos en el modelo de dominio.
+En el nivel de la realidad hablamos de entidades que tienen atributos, esto lo representamos en el modelo de [[Dominio|dominio]].
 
 ## Datos
 En el nivel de los datos tenemos ocurrencias de registros que tienen ocurrenciasd de elementos de datos, esto lo vemos en las tablas de datos.

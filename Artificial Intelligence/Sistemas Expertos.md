@@ -1,0 +1,2 @@
+Sistemas que emulan la habilidad en la toma de decisiones de un experto humano. El razonamiento deductivo utiliza reglas, hechos y definiciones para llegar a una conclusión.
+Se utiliza un razonamiento deductivo con un enfoque top down (de lo general a lo específico). Se formula una **hipótesis** que se compara con la **observación** hasta obtener una **confirmación**.

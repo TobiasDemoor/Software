@@ -1,0 +1,1 @@
+Un **dominio** describe un subsistema entre todos los que forman la realidad.

@@ -1,0 +1,2 @@
+           
+La **estructura organizacional** es la forma en la que la organización se va a gestionar. Hay que tartar de evitar el impacto de la **Ley de Conway** (“Organizations which design systems \[...] are constrained to produce designs which are copies of the communication structures of these organizations”, en criollo, las organizaciones que diseñan sistemas tienden a replicar sus estructuras en estos sistemas).
