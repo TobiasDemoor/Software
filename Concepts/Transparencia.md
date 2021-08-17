@@ -1,0 +1,1 @@
+Dicho de un sistema del cual no hace falta conocer los detalles para utilizarlo, se relacciona a la [[Abstracción|abtracción]]. Permite al usuario/programador no preocuparse por los detalles de la implementación.

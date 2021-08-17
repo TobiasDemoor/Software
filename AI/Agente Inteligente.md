@@ -2,9 +2,9 @@ Entidad de software que, basándose en su propio conocimiento, realiza un conjun
 Todos los agentes inteligentes son [[Programa|programas]], pero no todos los programas que realizan búsquedas son agentes inteligentes. Los agentes en sí mismos pueden ser considerados como entidades individuales (partes de programa que tienen control sobre sus propias vidas y movimientos).
 Continuamente están realizando procesos que les indican qué hacer y cómo. Se comunican con otros agentes para resolver de forma adecuada su trabajo.
 
->> Un agente es cualquier cosa que pueda ver en su **entorno** a través de **sensores** y actuar en su entorno a través de **efectores**. - (Rusell & Norving)
+> Un agente es cualquier cosa que pueda ver en su **entorno** a través de **sensores** y actuar en su entorno a través de **efectores**. - (Rusell & Norving)
 
->> Un agente es un **sistema computacional** que está situado en algún **ambiente**, y que es capaz de actuar **autónomamente y flexiblemente** en dicho ambiente con el fin de cumplir sus **objetivos**. - (Wooldridge & Jennings)
+> Un agente es un **sistema computacional** que está situado en algún **ambiente**, y que es capaz de actuar **autónomamente y flexiblemente** en dicho ambiente con el fin de cumplir sus **objetivos**. - (Wooldridge & Jennings)
 
 **Agencia**: el grado en el cual el agente puede percibir su entorno y actuar en él. Para que un programa sea un agente debe poseer autonomía, habilidad social, pre actividad y pro actividad.
 

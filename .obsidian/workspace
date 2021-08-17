@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Artificial Intelligence/Agente Inteligente.md",
+            "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Artificial Intelligence/Agente Inteligente.md",
+                "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
-    "Artificial Intelligence/Agente Inteligente.md",
-    "Concepts/Dato, información y conocimiento.md",
-    "Artificial Intelligence/Sistemas Expertos.md",
-    "Artificial Intelligence/Inteligencia Artificial.md",
-    "Artificial Intelligence/Agentes.md",
-    "Artificial Intelligence/Untitled.md",
-    "Concepts/Algorítmo.md",
-    "Artificial Intelligence/Machine Learning.md",
-    "Artificial Intelligence/Inteligencia.md",
-    "Artificial Intelligence/Inteligencia artificial.md"
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "AI/Sistemas Expertos.md",
+    "AI/Prueba de Turing.md",
+    "AI/Machine Learning.md",
+    "AI/Inteligencia Artificial.md",
+    "AI/Inteligencia.md",
+    "AI/Agente Inteligente.md",
+    "Sistemas Distribuidos/Tipos de Transparencia.md",
+    "Sistemas Distribuidos/Middleware.md",
+    "Software Engineering/Concepts/Fault, Failure.md"
   ]
 }

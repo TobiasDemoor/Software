@@ -1,4 +1,4 @@
-Desarrollo y utilización de ordenadores con los que se intenta reproducir los procesos de la [[Inteligencia|inteligencia]] humana. Tiene por finalidad la creación de Sistemas o [[Agentes Inteligentes]].
+Desarrollo y utilización de ordenadores con los que se intenta reproducir los procesos de la [[Inteligencia|inteligencia]] humana. Tiene por finalidad la creación de Sistemas o [[Agente Inteligente]].
 
 |  Tipo de procesamiento  |Información Numérica                        |Información Simbólica
 |--------------------------|-------------------------------------|-------------------------
