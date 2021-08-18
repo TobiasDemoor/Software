@@ -20,22 +20,28 @@ En cualquier caso un overlay network debería siempre ser conexa. Una clase cono
 Como fue mencionado, un sistema distribuido debería aparentar ser un sistema único y coherente. Se podría afirmar que un sistema es coherente si su comportamiento se adecua a las expectativas del usuario. Más específicamente, en un sistema único y coherente la colección de nodos opera como un todo opera de la misma manera, sin importar dónde, cuándo, o cómo se lleve a cabo la interacción entre el usuario y el sistema.
 Para ofrecer una visión única y coherente se requiere que el usuario no pueda deterinar exactamente en cuál dispositvo se está ejecutando un proceso. Así mismo la localización de la información no debería ser relevante y tampoco debería ser relevante que el sistema esté replicando información para mejorar la performance. A esto se le llama **transparencia de distribución**.
 
-# ¿Qué queremos obtener?
+# Objetivos de diseño
 ## Soportar compartir recursos
-Ejemplos canonicos
+Un objetivo importante de un sistema distribuido es facilitar a los usuarios (y aplicaciones) acceder y compartir recursos remotos. Ejemplos canonicos:
 - Almacenamiento basado “en la nube” 
 - Streaming multimedia asistido por redes P2P 
 - Servicios de email compartido 
 - Web hosting compartido (content distribution networks)
 
 ## Transparencia de distribución
+Definido en [[Transparencia de distribución]].
 
 ## Apertura 
-Ser capaces de interactuar con servicios de otros sistemas abiertos, independientemente del sistema subyacente
-- Los sistemas deben utilizar interfaces bien definidas 
-- Deberían interoperar fácilmente 
-- Portabilidad de aplicaciones 
-- Fácilmente extensibles
+Ser capaces de interactuar con servicios de otros sistemas abiertos, independientemente del sistema subyacente.
+
+**Los sistemas deben utilizar interfaces bien definidas.** Los componentes deberían adherir a estándares que describen la sintaxis y semántica de qué pueden ofrecer esos componentes. Una técnica general es definir servicios a través de **interfaces** usando un **Interface Definition Language** (IDL). Estas definiciones especifícan con precisión los nombres de las funciones junto con sus parámetros, valores de retorno, excepciones posibles, etc (la sintáxis). Lo más complicado de especificar es qué hacen precisamente los servicios (la semántica), usualmente estas definiciones se dan en un lenguaje informal.
+
+La definición completa y neutral de las interfaces es de suma inportancia para la interoperabilidad y la portabilidad. La **interoperabilidad** caracteriza el punto al que dos implementaciones de sistemas o componentes de fabricantes distintos pueden coexistir y trabajar juntos solamente dependiento en los servicios del otro tal como están especificados en el estandar común. La **portabilidad** caracteriza el punto al que una aplicación desarrollada para un sistema distribuido puede ser ejecutada, sin modificación, en un sistema distinto que implementa las mismas interfaces que el primero.
+
+Un sistema distribuido abierto debería ser también **extensible**. Es decir, debería ser relativamente simple añadir partes que corren en sistemas operativos distintos, o hasta reemplazar un sistema de archivos entero.
+
+Para lograr flexibilidad en sistemas distribuidos abiertos, es vital que el sistema esté organizado como una colección de componentes relativamente pequeños y fácilmente reemplazables o adaptables. Esto implica que se deberían proveer definiciones no solo de las interfaces de más alto nivel (las vistas por usuarios y aplicaciones), pero también de las interfaces internas.
+Lo que necesitamos es una separación entre [[Políticas vs Mecanismos|política y mecanismo]]
 
 ## Escalabilidad
 “capacidad de crecer a un costo razonable” 
@@ -47,28 +53,16 @@ Características de los algoritmos descentralizados
 - La falla de un equipo no arruina todo el algoritmo 
 - No se asume que existe un reloj global
 
-Tipos de escalabilidad
+### Dimensiones de la escalabilidad
+La escalabilidad de un sistema puede medirse sobre tres dimensiones distintas:
 **Escalabilidad respecto del tamaño**
 	¿Cúantos usuarios pueden usar mi sistema?
 	Se puede solucionar en un principio con mejoras en el hardware.
 **Escalabilidad geográfica**
-	¿Dónde pueden estar los usuarios que utilizan mi sistema?
+	¿Dónde pueden estar los usuarios que utilizan mi sistema y los recursos que lo componen?
 	La escalabilidad geográfica tiene que ver con los inconvenientes que surgen al distribuirse el sistema en distancias grandes, empieza a haber latencia considerable. Una solución a esto es al comunicación asíncrona.
 **Escalabilidad administrativa**
 	¿Cómo se administra mi sistema a medida que crece? (Ejemplo, República Popular China, personal)
-
-# Políticas vs Mecanismos
-## Políticas
-- ¿Qué tipo de consistencia requerimos para los datos en el cache de cliente? 
-- ¿Que operaciones permitimos realizar a código descargado? 
-- ¿Como podemos acomdar el tipo de requerimientos cuando el ancho de banda varía? 
-- ¿Qué grado de secreto necesitamos para la comunicación?
-
-## Mecanismos 
-- Permitir la modificación dinamica de las politicas de caching 
-- Soportar diferentes niveles de confianza para código movil 
-- Proveer parámetros ajustables de calidad de servicio por stream de datos 
-- Ofrecer la posibilidad de distintos algoritmos de cifrado
 
 # Errores frecuentes
 Cuando se viene de diseñar sistemas centralizados a diseñar sistemas distribuidos hay una serie de suposiciones que son erroneas:

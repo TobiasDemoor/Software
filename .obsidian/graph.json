@@ -15,6 +15,13 @@
       }
     },
     {
+      "query": "path:\"Sistemas Distribuidos\"",
+      "color": {
+        "a": 1,
+        "rgb": 11141375
+      }
+    },
+    {
       "query": "path:\"Software Engineering/Concepts\"",
       "color": {
         "a": 1,
@@ -63,7 +70,7 @@
   "nodeSizeMultiplier": 1.64957264957265,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.299145299145299,
+  "centerStrength": 0.196629213483146,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,

@@ -1,9 +1,9 @@
 Desarrollo y utilización de ordenadores con los que se intenta reproducir los procesos de la [[Inteligencia|inteligencia]] humana. Tiene por finalidad la creación de Sistemas o [[Agente Inteligente]].
 
-|  Tipo de procesamiento  |Información Numérica                        |Información Simbólica
-|--------------------------|-------------------------------------|-------------------------
-|Algorítmico                        |Computación científica tradicional   |Procesamiento de datos
-|Heurístico                          |Computación exhaustiva con control heurístico	|**Inteligencia Artificial**
+| Tipo de procesamiento | Información Numérica                          | Información Simbólica       |
+|-----------------------|-----------------------------------------------|-----------------------------|
+| Algorítmico           | Computación científica tradicional            | Procesamiento de datos      |
+| Heurístico            | Computación exhaustiva con control heurístico | **Inteligencia Artificial** |
 
 ## Modelo cognoscitivo
 Sistemas que piensan como humanos. Incluye:
