@@ -27,3 +27,6 @@ Sistemas que actúan como humanos. Incluye:
 
 ## Agente racional
 Sistemas que actúan racionalmente. Lograr objetivos deseados en base a supuestos (razonamiento limitado).
+
+
+Relacionado a [[Sistemas Expertos]]

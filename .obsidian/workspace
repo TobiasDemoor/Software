@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
+            "file": "Bases de Datos/Modelo Entidad Relación.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
+                "file": "Bases de Datos/Modelo Entidad Relación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Concepts/Políticas vs Mecanismos.md",
-    "Sistemas Distribuidos/Middleware.md",
-    "Concepts/Untitled.md",
-    "Sistemas Distribuidos/Transparencia de distribución.md",
-    "Sistemas Distribuidos/Tipos de Transparencia.md",
-    "AI/Agente Inteligente.md",
-    "AI/Sistemas Expertos.md",
-    "AI/Machine Learning.md",
-    "AI/Prueba de Turing.md"
+    "Bases de Datos/Modelo Entidad Relación.md",
+    "Bases de Datos/Base de Datos.md",
+    "Bases de Datos/Untitled.md",
+    "Software Engineering/Fundamentals/Modelo de negocio.md",
+    "Software Engineering/Fundamentals/Estructura organizacional.md",
+    "Software Engineering/Diseño de sistemas.md",
+    "Software Engineering/UP/Models/Component Diagram.md",
+    "Software Engineering/UP/Models/Deployment Diagram.md",
+    "Software Engineering/UP/Models/Design Model.md",
+    "Software Engineering/UP/Models/Diagrama de Secuencia de Sistema.md"
   ]
 }

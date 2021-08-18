@@ -1,1 +1,0 @@
-"Una base de datos es una fuente central de [[Dato, información y conocimiento|datos]] con el fin de que varios usuarios la compartan para ssu uso en varias aplicaciones" - (Kendall, 2005)

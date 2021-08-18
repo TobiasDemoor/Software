@@ -15,59 +15,52 @@
       }
     },
     {
+      "query": "path:\"Bases de Datos\"",
+      "color": {
+        "a": 1,
+        "rgb": 14030064
+      }
+    },
+    {
+      "query": "path:\"AI\"",
+      "color": {
+        "a": 1,
+        "rgb": 2529015
+      }
+    },
+    {
       "query": "path:\"Sistemas Distribuidos\"",
       "color": {
         "a": 1,
-        "rgb": 11141375
-      }
-    },
-    {
-      "query": "path:\"Software Engineering/Concepts\"",
-      "color": {
-        "a": 1,
-        "rgb": 14701228
-      }
-    },
-    {
-      "query": "path:\"Software Engineering/IR\"",
-      "color": {
-        "a": 1,
-        "rgb": 16740096
+        "rgb": 16187943
       }
     },
     {
       "query": "path:\"Software Engineering/Patrones\"",
       "color": {
         "a": 1,
-        "rgb": 6412353
+        "rgb": 65407
       }
     },
     {
       "query": "path:\"Software Engineering/Principles\"",
       "color": {
         "a": 1,
-        "rgb": 6443744
+        "rgb": 65343
       }
     },
     {
-      "query": "path:\"Software Engineering/UP\"",
+      "query": "path:\"Software Engineering\"",
       "color": {
         "a": 1,
-        "rgb": 16775511
-      }
-    },
-    {
-      "query": "path:/",
-      "color": {
-        "a": 1,
-        "rgb": 5431008
+        "rgb": 65280
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -1.4,
-  "nodeSizeMultiplier": 1.64957264957265,
+  "nodeSizeMultiplier": 1.59882352941176,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.196629213483146,
@@ -75,5 +68,5 @@
   "linkStrength": 1,
   "linkDistance": 500,
   "scale": 0.06699744995282636,
-  "close": true
+  "close": false
 }
