@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Modelo Entidad Relación.md",
+            "file": "Bases de Datos/Diagrama Entidad Relación.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Modelo Entidad Relación.md",
+                "file": "Bases de Datos/Diagrama Entidad Relación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
+    "Bases de Datos/Diagrama Entidad Relación.md",
+    "Bases de Datos/Modelo Conceptual.md",
     "Bases de Datos/Modelo Entidad Relación.md",
     "Bases de Datos/Base de Datos.md",
     "Bases de Datos/Untitled.md",
@@ -95,8 +97,6 @@
     "Software Engineering/Fundamentals/Estructura organizacional.md",
     "Software Engineering/Diseño de sistemas.md",
     "Software Engineering/UP/Models/Component Diagram.md",
-    "Software Engineering/UP/Models/Deployment Diagram.md",
-    "Software Engineering/UP/Models/Design Model.md",
-    "Software Engineering/UP/Models/Diagrama de Secuencia de Sistema.md"
+    "Software Engineering/UP/Models/Deployment Diagram.md"
   ]
 }

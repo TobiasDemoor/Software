@@ -9,4 +9,12 @@ Una base de datos computarizada puede ser mantenida por un grupo de programas de
 
 Cuando se define una base de datos no solo se define la estructura sino que también se definen reglas que restringen los datos que la van a componer. Si de alguna manera los datos que se encuentran en la base de datos no cumplen con estas reglas estaría en un **estado inconsistente**, los datos cumplen todas las reglas se dice que es una **base de datos legal**.
 
-**Esquema conceptual de base de datos**: descripción de datos, relaciones y restricciones con un alto nivel de abstracción (nivel cercano al usuario).
+# Diseño de RDBs
+Una técnica para diseñar bases de datos es la Metodología de Diseño Lógico para Bases de Datos Relacionales (Logical Relational Design Methodology, LRDM), que utiliza la técnica de DER extendido. En líneas generales, los pasos para lograr un diseño de la Base de Datos Relacional con esta metodología son:
+1. Construcción del [[Modelo Entidad Relación]] (MER) a partir de los requerimientos.
+2. Transformación del MER a Relaciones
+3. Normalización de las Relaciones.
+
+<center><b>
+	Requerimientos ←> MER ←> MR ←> Normalización ←> Diseño Físico ←> DB
+</b></center>

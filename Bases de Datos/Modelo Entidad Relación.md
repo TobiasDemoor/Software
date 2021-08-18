@@ -1,10 +1,15 @@
 # Modelo Entidad Relación (MER)
- Conjunto de herramientas conceptuales para describir los datos, sus relaciones y restricciones.
- Permite especificar el **diseño conceptual** de la [[Base de Datos|DB]], a través de un Diagrama Entidad Relación (DER) y especificaciones de **restricciones** que no se puedan expresar con los elementos del diagrama.
- Facilita la comunicación con el usuario ya que utiliza un lenguaje de alto nivel abstracción.
+El Modelo Entidad-Relación (MER) es una herramienta que permite realizar una abstracción o modelo de alguna situación de interés presente en el mundo real. El MER se realizará utilizando la técnica Diagramas de Entidad Relación (DER). Para construirlo necesitamos modelar las cosas u objetos existentes, sus características y sus relaciones.
 
-Elementos:
-- **Entidad**: cosa u objeto del mundo real que es distinguible. Tiene asociado un conjunto de propiedades o atributos.
-- **Conjunto de entidades**
-- **Atributo**: propiedad descriptiva de las entidades. Asociado a un [[Dominio|dominio]], o conjunto de valores posibles que puede tomar.
-- **Clave de un conjunto de entidades**: conjunto minimal (no tiene atributos redundantes) de atributos que permite distinguir unívocamente a una entidad de otra. Puede haber varias **claves candidatas** asociadas a un conjunto de entidades. Se elige una, denominada **clave primaria**, y se la denota subrayando sus atributos.
+El MER se basa en los siguientes elementos:
+- **Entidad**: cosa u objeto del mundo real que es distinguible. Todo objeto o concepto del cual queremos registrar información constituye una entidad. Tiene asociado un conjunto de propiedades o atributos.
+- **Atributo**: propiedad descriptiva de las entidades. Asociado a un [[Dominio|dominio]], o conjunto de valores posibles que puede tomar. Los atributos son propiedades descriptivas de las entidades. Constituyen la información concreta que queremos mantener para cada elemento de una entidad.
+- **Interrelaciones**: las diferentes entidades no están aisladas en el dominio del problema, muchas de ellas van a estar vinculadas entre sí. A esta vinculación la llamamos interrelación. En una interrelación pueden participar una entidad (interrelaciones unarias) o muchas entidades (interrelaciones binarias, ternarias, n-arias en general).
+	Las interrelaciones unarias son conjuntos de pares ordenados de elementos de la misma entidad. Las interrelaciones n-arias son conjuntos de n-uplas de elementos de entidades. Notemos que, como son conjuntos, cada tupla de elementos no puede repetirse dentro de una interrelación (lo mismo pasa con los elementos de una entidad).
+- **Reglas de dominio adicionales**: al realizar el MER tenemos la necesidad de modelar ciertas reglas de dominio. En muchos casos el lenguaje que utilizamos no permite expresar a todas ellas. En ese caso, podremos recurrir a ciertas herramientas complementarias que nos permitan expresar ese conocimiento adicional del dominio del problema que no queda expresado en el diagrama. 
+	Se podrá trabajar con lenguaje formal (por ejemplo, OCL) o con lenguaje informal (por ejemplo, lenguaje natural). Lo importante es que haya la menor pérdida de información entre lo conocido relevante del dominio del problema y lo que se exprese con el modelo.
+
+
+Notas:
+ Conjunto de herramientas conceptuales para describir los datos, sus relaciones y restricciones. Permite especificar el **diseño conceptual** de la [[Base de Datos|DB]], a través de un [[Diagrama Entidad Relación]] (DER) y especificaciones de **restricciones** que no se puedan expresar con los elementos del diagrama.
+ Facilita la comunicación con el usuario ya que utiliza un lenguaje de alto nivel abstracción.
