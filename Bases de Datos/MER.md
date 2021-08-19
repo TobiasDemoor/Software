@@ -1,5 +1,5 @@
 # Modelo Entidad Relación (MER)
-El Modelo Entidad-Relación (MER) es una herramienta que permite realizar una abstracción o modelo de alguna situación de interés presente en el mundo real. El MER se realizará utilizando la técnica Diagramas de Entidad Relación (DER). Para construirlo necesitamos modelar las cosas u objetos existentes, sus características y sus relaciones.
+El Modelo Entidad-Relación (MER) es una herramienta que permite realizar una abstracción o modelo de alguna situación de interés presente en el mundo real. El MER se realizará utilizando la técnica Diagramas de Entidad Relación ([[DER]]). Para construirlo necesitamos modelar las cosas u objetos existentes, sus características y sus relaciones.
 
 El MER se basa en los siguientes elementos:
 - **Entidad**: cosa u objeto del mundo real que es distinguible. Todo objeto o concepto del cual queremos registrar información constituye una entidad. Tiene asociado un conjunto de propiedades o atributos.
@@ -11,5 +11,5 @@ El MER se basa en los siguientes elementos:
 
 
 Notas:
- Conjunto de herramientas conceptuales para describir los datos, sus relaciones y restricciones. Permite especificar el **diseño conceptual** de la [[Base de Datos|DB]], a través de un [[Diagrama Entidad Relación]] (DER) y especificaciones de **restricciones** que no se puedan expresar con los elementos del diagrama.
+ Conjunto de herramientas conceptuales para describir los datos, sus relaciones y restricciones. Permite especificar el **diseño conceptual** de la [[DB|DB]], a través de un Diagrama Entidad Relación ([[DER]]) y especificaciones de **restricciones** que no se puedan expresar con los elementos del diagrama.
  Facilita la comunicación con el usuario ya que utiliza un lenguaje de alto nivel abstracción.

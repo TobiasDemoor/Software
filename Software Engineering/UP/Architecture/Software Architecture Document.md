@@ -11,7 +11,7 @@ Therefore, it should be written with this audience and goal in mind: What do I n
 	- Deployment físico de procesos y componentes a nodos de procesamiento y la configuración red física entre los nodos.
 	- Una vista al Deployment Model visualizado con [[Deployment Diagram|deployment diagrams]].
 4. **Data architecture**
-	- Vista general del esquema de datos persistentes, el esquema de mapeo de objetos a datos persistentes, el mecanismo de mapeo de objetos a [[Base de Datos|base de datos]], procedimientos almacenados en la [[Base de Datos|base de datos]] y triggers.
+	- Vista general del esquema de datos persistentes, el esquema de mapeo de objetos a datos persistentes, el mecanismo de mapeo de objetos a [[DB|base de datos]], procedimientos almacenados en la [[DB|base de datos]] y triggers.
 5. **Use case architecture**
 	- Resumen de los [[Use Case|casos de uso]] con mayor significancia arquitectónica y sus [[Requerimientos#Requerimientos no funcionales|requerimientos no funcionales]].
 	- Una vista al Use-Case Model, expresado en texto y visualizado con use case diagrams.

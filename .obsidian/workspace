@@ -7,8 +7,11 @@
         "id": "47dd210af8661c1b",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Bases de Datos/DER.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bases de Datos/DER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
-    "Concepts/Abstracción.md",
-    "AI/Inteligencia Artificial.md",
-    "AI/Sistemas Expertos.md",
-    "Bases de Datos/Diagrama Entidad Relación.md",
+    "Bases de Datos/DER.md",
+    "Bases de Datos/DBMS.md",
     "Bases de Datos/Modelo Conceptual.md",
+    "Bases de Datos/MER.md",
+    "Bases de Datos/DB.md",
     "Bases de Datos/Modelo Entidad Relación.md",
+    "Bases de Datos/Diagrama Entidad Relación.md",
+    "Software Engineering/Patrones/Arquitectónicos/Data mapper.md",
     "Bases de Datos/Base de Datos.md",
-    "Bases de Datos/Untitled.md",
-    "Software Engineering/Fundamentals/Modelo de negocio.md",
-    "Software Engineering/Fundamentals/Estructura organizacional.md"
+    "Bases de Datos/Sistema de Gestión de Base de Datos.md"
   ]
 }

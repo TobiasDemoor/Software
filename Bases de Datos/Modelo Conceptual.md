@@ -5,4 +5,4 @@ Los modelos conceptuales, como todo modelo, son prácticos para comunicar ideas 
 
 Para representar un modelo conceptual utilizamos lenguajes de ontologías (lenguajes que nos permiten representar el conocimiento del mundo o parte de él). Estos lenguajes por lo general permiten introducir conceptos, propiedades de los conceptos, relaciones entre los conceptos y algunas restricciones adicionales. Típicamente son expresados por medio de diagramas.
 
-Los [[Diagrama Entidad Relación]] (orientados a [[Base de Datos]] Relacionales) y los Diagramas de Clases de UML (orientados al paradigma de objetos), pueden ser considerados lenguajes de ontología.
+Los [[DER|Diagrama Entidad Relación]] (orientados a [[DB|Bases de Datos]] Relacionales) y los Diagramas de Clases de UML (orientados al paradigma de objetos), pueden ser considerados lenguajes de ontología.

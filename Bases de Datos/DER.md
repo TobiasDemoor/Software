@@ -14,6 +14,9 @@ Los elementos de cualquier entidad se distinguen por el valor de algún atributo
 La clave primaria es un conjunto minimal de atributos identificatorios y *se denota subrayando a los mismos con una línea continua*. **Toda** entidad debe tener indefectivlemente una clave primaria.
 Hay ocasiones donde hay más de un atributo que distingue unívocamente a los elementos de una entidad, en forma independiente uno de otro (por ejemplo, un empleado que se distinga por su número de legajo o por su CUIL). Todos ellos son **claves candidatas**, y se deberá elegir uno de ellos como clave primaria. Las claves candidatas no se modelan en el MER, recién lo veremos al trabajar con el Modelo Relacional.
 
+#### Atributo cálculado
+Si un atributo de una entidad se obtiene a partir de una operación con los otros atributos se dice que es una atributo cálculado. *Un atributo cálculado se denota con una elipse de trazo discontinuo vinculada a la entidad.*
+
 ### Interrelaciones
 Una interrelación es una asociación entre entidades. Formalmente una interrelación es una relación matemática sobre n>=2 entidades (no necesariamente distintas). *Las interrelaciones se representan con un rombo que vincula las distintas entidades participantes de la misma*.
 Cada interrelación tiene un nombre, que debe ser lo más representativo posible, ya que ese nombre nos va a indicar la semántica de la interrelación. El nombre de la interrelación en lo posible debe estar expresado como un predicado.

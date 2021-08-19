@@ -5,13 +5,13 @@ Se puede definir una base de datos como una colección de datos relacionados. Es
 - Una base de datos es una colección logicamente coherente de datos con un significado inherente. Un conjunto de datos aleatorios no puede ser llamado correctamente una base de datos.
 - Una base de datos es diseñada, construida y populada con datos para un propósito en especifico. Tiene un grupo de usuarios y de aplicaciones para el cual fue diseñado.
 
-Una base de datos computarizada puede ser mantenida por un grupo de programas de aplicación desarrollados especificamente para la tarea o mediante un [[Sistema de Gestión de Base de Datos|sistema de gestión de base de datos]].
+Una base de datos computarizada puede ser mantenida por un grupo de programas de aplicación desarrollados especificamente para la tarea o mediante un [[DBMS|sistema de gestión de base de datos]].
 
 Cuando se define una base de datos no solo se define la estructura sino que también se definen reglas que restringen los datos que la van a componer. Si de alguna manera los datos que se encuentran en la base de datos no cumplen con estas reglas estaría en un **estado inconsistente**, los datos cumplen todas las reglas se dice que es una **base de datos legal**.
 
 # Diseño de RDBs
-Una técnica para diseñar bases de datos es la Metodología de Diseño Lógico para Bases de Datos Relacionales (Logical Relational Design Methodology, LRDM), que utiliza la técnica de DER extendido. En líneas generales, los pasos para lograr un diseño de la Base de Datos Relacional con esta metodología son:
-1. Construcción del [[Modelo Entidad Relación]] (MER) a partir de los requerimientos.
+Una técnica para diseñar bases de datos es la Metodología de Diseño Lógico para Bases de Datos Relacionales (Logical Relational Design Methodology, LRDM), que utiliza la técnica de [[DER]] extendido. En líneas generales, los pasos para lograr un diseño de la Base de Datos Relacional con esta metodología son:
+1. Construcción del Modelo Entidad Relación ([[MER]]) a partir de los requerimientos.
 2. Transformación del MER a Relaciones
 3. Normalización de las Relaciones.
 

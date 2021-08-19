@@ -1,1 +1,0 @@
-Un sistema de gestión de base de datos (database management system, DBMS) es un sistema computarizado que permite a los usuarios crear y mantener una base de datos. El DBMS es un software de propósito general que facilita los procesos de definición, construcción, manipulación y sharing de bases de datos entre varios usuarios y aplicaciones.
