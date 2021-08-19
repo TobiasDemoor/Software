@@ -6,27 +6,25 @@ Desarrollo y utilización de ordenadores con los que se intenta reproducir los p
 | Heurístico            | Computación exhaustiva con control heurístico | **Inteligencia Artificial** |
 
 ## Modelo cognoscitivo
-Sistemas que piensan como humanos. Incluye:
+Sistemas que **piensan como humanos**. Incluye:
 - Modelos computacionales.
 - Técnicas experimentales de psicología
 - Teorías precisas y verificables del funcionamiento de la mente humana
 
 ## Leyes del pensamiento
-Sistemas que piensan racionalmente. Incluye
+Sistemas que **piensan racionalmente**. Incluye
 - Pensamiento correcto
 - Deducción lógica
 
 ## [[Prueba de Turing]]
-Sistemas que actúan como humanos. Incluye:
+Sistemas que **actúan como humanos**. Incluye:
 - Procesamiento de la lengua natural (Natural Language Processing, NLP)
 - Representación del conocimiento
 - Razonamiento automático
 - Aprendizaje de máquina ([[Machine Learning]])
 - Visión (Computer vision)
 - Robótica
+- [[Sistemas Expertos]] (también actúa racionalmente o no)
 
 ## Agente racional
-Sistemas que actúan racionalmente. Lograr objetivos deseados en base a supuestos (razonamiento limitado).
-
-
-Relacionado a [[Sistemas Expertos]]
+Sistemas que **actúan racionalmente**. Lograr objetivos deseados en base a supuestos (razonamiento limitado).

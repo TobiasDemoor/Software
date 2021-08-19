@@ -11,7 +11,7 @@
       "query": "path:Concepts",
       "color": {
         "a": 1,
-        "rgb": 12198177
+        "rgb": 16777215
       }
     },
     {
@@ -59,7 +59,7 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.4,
+  "textFadeMultiplier": -2,
   "nodeSizeMultiplier": 1.59882352941176,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
@@ -67,6 +67,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.06699744995282636,
-  "close": false
+  "scale": 0.0939292790284732,
+  "close": true
 }
