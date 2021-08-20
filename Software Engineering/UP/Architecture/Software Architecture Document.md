@@ -1,4 +1,4 @@
-In addition to the UML package, class, and interaction diagrams, another key artifact in the [[Unified Process|UP]] [[Design Model]] is the SAD. It describes the big ideas in the [[Arquitectura de software|architecture]], including the decisions of [[Architecture analysis|architectural analysis]]. Practically, it is a learning aid for developers who need to understand the essential ideas of the system.
+In addition to the UML package, class, and interaction diagrams, another key artifact in the [[Unified Process|UP]] [[Design Model]] is the SAD. It describes the big ideas in the [[Software Architecture|architecture]], including the decisions of [[Architecture analysis|architectural analysis]]. Practically, it is a learning aid for developers who need to understand the essential ideas of the system.
 Therefore, it should be written with this audience and goal in mind: What do I need to say (and draw in the UML) that will quickly help someone understand the major ideas in this system?
 
 # Architectural views

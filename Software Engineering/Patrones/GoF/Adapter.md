@@ -2,7 +2,7 @@
 ¿Cómo resolver incompativilidad de interfaces o proveer una [[Interfaz|Interfaz]] estable teniendo componentes similares, pero con interfaces diferentes?
 
 ## Solución
-Convertir la [[Interfaz|Interfaz]] original de un componente en otra, por medio de un objeto adaptador.
+Convertir la [[Interfaz|Interfaz]] original de un [[Component|componente]] en otra, por medio de un objeto adaptador.
 
 ## Motivación
 - Reducir dependencia entre clases. Mayor flexibilidad ante cambios en el tiempo o servicios.

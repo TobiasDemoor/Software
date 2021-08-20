@@ -13,7 +13,9 @@ En la práctica esto es casi imposible en la gran mayoría de los proyectos, deb
 # Requerimientos no funcionales
 > “Son restricciones establecidas de algunas características o propiedades, que en general afectan a todo el sistema.” -(Sommerville, 2005)
 
-Son más críticos que los requerimientos funcionales porque el incumplimiento de un requerimiento no funcional puede significar que el sistema entero sea inutilizable. Se dividen principalmente en dos tipos:
+Son más críticos que los requerimientos funcionales porque el incumplimiento de un requerimiento no funcional puede significar que el sistema entero sea inutilizable.
+![[requerimientos_no_funcionales_1.png]]
+Se dividen principalmente en dos tipos:
 
 ## Restricciones
 También llamados constraints. Son variables de producto inalterables que vienen dadas por el contexto. Son decisiones ya tomadas por el cliente, por ejemplo:

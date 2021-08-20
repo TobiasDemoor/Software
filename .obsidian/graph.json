@@ -29,7 +29,7 @@
       }
     },
     {
-      "query": "path:\"Sistemas Distribuidos\"",
+      "query": "path:\"Distributed Systems\"",
       "color": {
         "a": 1,
         "rgb": 16187943
@@ -40,13 +40,6 @@
       "color": {
         "a": 1,
         "rgb": 65407
-      }
-    },
-    {
-      "query": "path:\"Software Engineering/Principles\"",
-      "color": {
-        "a": 1,
-        "rgb": 65343
       }
     },
     {
@@ -67,6 +60,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.06699744995282672,
+  "scale": 0.06699744995282687,
   "close": true
 }

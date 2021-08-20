@@ -1,4 +1,4 @@
-# Sistemas Distribuidos
+# Distributed Systems
 ## Definición
 *Aquellos sistemas que tienen componentes que están en distinto hardware conectados por una red.*
 
@@ -10,7 +10,7 @@ La definición de Tannenbaum y Van Steen se refiere a dos características princ
 
 ### Colección de elementos autónomos
 Los sistemas distribuidos modernos usualmente están compuestos por todo tipo de nodos, desde equipos muy grandes y de altísima performance hasta computadores diminutos. Un principio fundamental es que los nodos pueden actuar independientemente de los otros. Los nodos están programados para lograr objetivos comunos, lo cual logran mediante el intercambio de **mensajes** entre ellos. Un nodo responde a los mensajes entrantes los cuales son procesados y desencadenan el envío de más mensajes perpetuando así la comunicación.
-Un observación relevante es que al estar tratando con nodos independientes no hay un **reloj global**, sino que cada componente tiene su propia noción del tiempo. La falta de esta referencia común lleva a preguntas fundamentales en lo que respecta a la **sincronización y coordinación** dentro del sistema.
+Un observación relevante es que al estar tratando con nodos independientes no hay un **reloj global**, sino que cada [[Component|componente]] tiene su propia noción del tiempo. La falta de esta referencia común lleva a preguntas fundamentales en lo que respecta a la **sincronización y coordinación** dentro del sistema.
 El hecho de trabajar con un conjunto de nodos también hace que tengamos que administrar la pertenencia a distintos **grupos** y la organización de estos. Es decir que debemos registrar que nodos pueden o no **pertenecer al sistema**. El manejo de la pertenencia a los distintos grupos es un tema complejo el cuál tiene un efecto sobre la performance del sistema y sobre la **seguridad** del mismo.
 En lo que respecta a la **organización de la colección**, en la práctica se puede observar que los sistemas distribuidos usualmente están organizados como un overlay network (**red superpuesta**). En este caso un nodo es típicamente un proceso de software equipado con una lista de otros procesos con los cuales puede comunicarse directamente. Hay dos tipos generales de overlay networks:
 **Structured overlay**: En este caso cada nodo tiene un conjunto bien definido de vecinos con los cuales puede comunicarse. Por ejemplo, una estructura de arbol o de anillo.
@@ -29,8 +29,7 @@ Un objetivo importante de un sistema distribuido es facilitar a los usuarios (y 
 - Servicios de email compartido 
 - Web hosting compartido (content distribution networks)
 
-### Transparencia de distribución
-Definido en [[Transparencia de distribución]].
+### ![[Distribution Transparency]]
 
 ### Apertura 
 Ser capaces de interactuar con servicios de otros sistemas abiertos, independientemente del sistema subyacente.
@@ -119,3 +118,6 @@ Las ubicaciones cambiantes tienen un profundo efecto en la comunicación. Consid
 
 #### Sensor networks
 Una sensor network generalmente consiste de decenas hasta centenas o miles de nodos relativamente pequeños, cada uno equipado con uno o más dispositivos de medición. A su vez los nodos también pueden actuar como actuators.
+
+## Bibliografía
+En su gran mayoría el contenido teórico relacionado a los sistemas distribuidos ha sido obtenido del libro Distributed Systems Version 3.0.1 - van Steen, Tannenbaum

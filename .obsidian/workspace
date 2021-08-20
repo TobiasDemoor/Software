@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
+            "file": "Distributed Systems/Distributed Systems Architecture.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reusab",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
+                "file": "Distributed Systems/Distributed Systems Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Software Engineering/Concepts/Visibilidad.md",
-    "Software Engineering/Concepts/Tácticas.md",
-    "Software Engineering/Concepts/Responsabilidad.md",
-    "Software Engineering/Concepts/Relaciones entre clases.md",
-    "Software Engineering/Concepts/Operación de sistema.md",
-    "Software Engineering/Concepts/Agile methodologies.md",
-    "Software Engineering/Concepts/Deuda técnica.md",
-    "Software Engineering/Concepts/Object oriented programming.md",
-    "images/Message Oriented Middleware.md"
+    "Distributed Systems/Distributed Systems Architecture.md",
+    "Distributed Systems/Representational State Transfer.md",
+    "Distributed Systems/Untitled.md",
+    "Images/Pasted image 20210820161902.png",
+    "Images/layered_architectures_1.png",
+    "Images/requerimientos_no_funcionales.png",
+    "Distributed Systems/Distributed Systems.md",
+    "Software Engineering/Diseño de objetos.md",
+    "Software Engineering/IR/Requerimientos.md",
+    "Images/Pasted image 20210718101824.png"
   ]
 }

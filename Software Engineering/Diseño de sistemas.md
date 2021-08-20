@@ -15,8 +15,8 @@ El diseño es la actividad que tiene que ver con la toma de decisiones important
 
 # Proceso
 Es un proceso iterativo por medio del cual se traducen los [[Requerimientos|requerimientos]] para poder construir el software (en cada iteración se profundiza el detalle). Generalmente contiene dos etapas que se ubican entre el análisis de [[Requerimientos]] y la construcción del software.
-- **Diseño arquitectónico** (llamado diseño de alto nivel) que implica la organización y esctructura del sistema e identifica los diferentes componentes. Se diseña la [[Arquitectura de software|arquitectura de software]].
-- **Diseño detallado**, especificar cada componente con el suficiente detalle para facilitar su construcción.
+- **Diseño arquitectónico** (llamado diseño de alto nivel) que implica la organización y esctructura del sistema e identifica los diferentes componentes. Se diseña la [[Software Architecture|arquitectura de software]].
+- **Diseño detallado**, especificar cada [[Component|componente]] con el suficiente detalle para facilitar su construcción.
 Se tiene un buen diseño cuando:
 - Se contemplan todos los [[Requerimientos|requerimientos]] explícitos en el modelo de análisis y los implícitos que implica el producto en sí.
 - Es legible y comprensible para todos los stakeholders relacionados.
@@ -30,9 +30,9 @@ Se tiene un buen diseño cuando:
 - [[Ocultamiento de la información]]
 - [[Interfaz]] e implementación
 - Sufficency, completness and primitiveness:
-	- **Sufficency:** el componente considera las características de su [[Abstracción|abstracción]] que son necesarias para proveer una interacción significativa y eficiente.
-	- **Completness:** el componente debe considerer todas las características relevantes de su [[Abstracción|abstracción]].
-	- **Primitiveness:** las operaciones que puede realizar el componente pueden ser implementadas fácilmente.
+	- **Sufficency:** el [[Component|componente]] considera las características de su [[Abstracción|abstracción]] que son necesarias para proveer una interacción significativa y eficiente.
+	- **Completness:** el [[Component|componente]] debe considerer todas las características relevantes de su [[Abstracción|abstracción]].
+	- **Primitiveness:** las operaciones que puede realizar el [[Component|componente]] pueden ser implementadas fácilmente.
 - [[Separación de concerns]]
 
 # Aplicaciones OO
@@ -43,7 +43,7 @@ Primero se deben identificar los [[Requerimientos#Requerimientos no funcionales|
 
 ## Attribute Driven Design
 ADD es un enfoque para definir una arquitectura de software que basa el proceso de descomposición en los atributos de calidad que debe cumplir el software. Se aplica luego de tener una división en módulos generales.
-- En cada iteración se selecciona un módulo a descomponer y se definen un conjunto de escenarios de calidad y requisitos funcionales en los cuales se va a basar la descomposición del componente.
+- En cada iteración se selecciona un módulo a descomponer y se definen un conjunto de escenarios de calidad y requisitos funcionales en los cuales se va a basar la descomposición del [[Component|componente]].
 - Proceso de descomposición de módulos recursivos donde en cada etapa se eligen [[Tácticas|tácticas]] y [[Patrones arquitectónicos|patrones arquitectónicos]] para satisfacer un conjunto de escenarios de calidad y luego se asigna funcionalidad para instanciar los tipos de módulos proporcionados por el patrón utilizado.
 	- Se deben identificar los componentes hijos y se les debe asignar una responsabilidad.
 	- Se debe documentar y representar mediante vistas estos cambios en la arquitectura.

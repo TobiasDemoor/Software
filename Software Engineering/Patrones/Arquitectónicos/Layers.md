@@ -1,3 +1,4 @@
+# Layers
 ## Contexto
 Todos los sistemas experimentan la necesidad de desarrollar porciones del mismo de manera independiente. Para ello, los developers necesitan una documentación clara de la separación de responsabilidades de los módulos, para que éstos puedan ser mantenidos y desarrollados de manera independiente.
 
@@ -10,8 +11,8 @@ El software necesita ser segmentado de manera que los módulos puedan ser desarr
 - Organizar la estructura a gran escala de un sistema en capas discretas con responsabilidades dintinguibles y relacionadas con una [[Separación de concerns|separación de concerns]] limpia y [[Cohesión|cohesiva]] de manera que las capas más bajas son de más bajo nivel y proveen servicios más generales, y las capas más altas son más específicas.
 - La colaboración y el [[Acoplamiento|acoplamiento]] son de arriba hacia abajo, el acoplamiento de abajo hacia arriba es evitado.
 Una capa es un elemento a gran escala, usualmente compuesto por una serie de paquetes o subsistemas.
-El patrón Capas se relaciona con la [[Arquitectura de software#Views|logical architecture]], ya que describe la organización conceptual de los elementos de diseño en grupos, independientes de el empaquetamiento físico o deployment.
-El patrón define un modelo general de N niveles para la [[Arquitectura de software#Views|logical architecture]], produce una **arquitectura de capas**.
+El patrón Capas se relaciona con la [[Software Architecture#Views|logical architecture]], ya que describe la organización conceptual de los elementos de diseño en grupos, independientes de el empaquetamiento físico o deployment.
+El patrón define un modelo general de N niveles para la [[Software Architecture#Views|logical architecture]], produce una **arquitectura de capas**.
 
 ## Descripción
 Se organiza el sisteam en módulos/componentes con funcionalidad relacionada. Cada capa se organiza sobre los servicios de la inmediata inferior.

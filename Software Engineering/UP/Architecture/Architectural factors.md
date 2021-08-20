@@ -1,4 +1,4 @@
-Cualquiera y todos los [[FURPS+]] pueden tener un efecto significativo en la [[Arquitectura de software|arquitectura]] de un sistema. Es usual que los [[Requerimientos#Atributos de Calidad|atributos de calidad]] no funcionales sean los que marquen la arquitectura y no así los funcionales.
+Cualquiera y todos los [[FURPS+]] pueden tener un efecto significativo en la [[Software Architecture|arquitectura]] de un sistema. Es usual que los [[Requerimientos#Atributos de Calidad|atributos de calidad]] no funcionales sean los que marquen la arquitectura y no así los funcionales.
 En el [[Unified Process|UP]], estos factores con implicación estructural son llamados **architectural significant requirements** (requerimientos significativos arquitectónicamente) o factores para abreviar
 Muchos factores técnicos y organizacionales pueden ser caracterizados como *[[Requerimientos#Restricciones|constraints]]* que restringen la solución de alguna manera.
 

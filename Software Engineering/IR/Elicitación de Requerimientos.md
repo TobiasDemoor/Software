@@ -1,6 +1,6 @@
 La elicitación o extracción de requerimientos, es el proceso de recolectar la información necesario para identificar y entender las necesidades y restricciones del producto, que requiere el usuario o el cliente. Es la etapa de mayor interacción con el usuario. Es el momento en el que se recurre, por ejemplo, a la observación, entrevistas, revisión de documentos, entre otras técnicas. Es parte de la [[Ingeniería de Requerimientos]].
 
-La profundidad de la investigación y compresión del [[Dominio|dominio]] (en la elicitación) redundará en mejores decisiones para todos los niveles (análisis y [[Arquitectura de software|arquitectura]]).
+La profundidad de la investigación y compresión del [[Dominio|dominio]] (en la elicitación) redundará en mejores decisiones para todos los niveles (análisis y [[Software Architecture|arquitectura]]).
            
 ## ¿Cómo comenzar la elicitación?
 Se puede estructurar la investigación en base a los siguientes objetivos:

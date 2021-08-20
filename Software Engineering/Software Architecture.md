@@ -1,3 +1,4 @@
+# Software Architecture
 Es el conjunto de estructuras necesarias para razonar sobre el sistema, que comprende los elementos de software, las relaciones entre ellos y las propiedades de ambos. Es la parte *"gruesa"* del [[Diseño de sistemas|diseño]], con menor nivel de detalle pero definiendo la estructura general. La documentación de la arquitectura es prescriptiva y debe ser validada contra lo que se implementó.
 
 La arquitectura actúa como "puente" entre los [[Requerimientos]] del sistema y su implementación. Es la que habilita la ejecución del [[Modelo de negocio|modelo de negocio]] para crear el mayor valor al cliente, minimizando costos y maximizando ingresos. No debe ignorar la complejidad de las relaciones entre los 4 componentes ([[Dominio|dominio]], [[Modelo de negocio|modelo de negocio]], [[Estructura organizacional|estructura organizacional]] y arquitectura de software en sí).

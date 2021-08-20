@@ -25,7 +25,7 @@ Continuamente están realizando procesos que les indican qué hacer y cómo. Se 
 
 ## Funciones de los Agentes
 ### Percepciones
-Se incorporan en algún tipo de estructura de datos, mediante un procedimiento de toma de decisión se genera la elección de una acción. **Dependen del ambiente**, este influye en las percepciones del agente y condiciona su diseño
+Se incorporan en algún tipo de estructura de datos, mediante un procedimiento de toma de decisión se genera la elección de una acción. **Dependen del ambiente**, este influye en las percepciones del agente y condiciona su diseño. Los ambientes se pueden clasificar como:
 - **Accesibles y no accesibles**. Depende de si los sensores detectan todos los aspectos relevantes a la elección de una acción.
 - **Deterministas y no deterministas**. Si el estado siguiente se determina a partir del actual y las acciones escogidas por el agente.
 - **Episódicos y no episódicos**. Si cada episodio depende de un agente.
@@ -79,6 +79,6 @@ Se caracteriza según el mundo en el que actúa por sus:
 - Ambiente
 
 Y por su comportamiento autónomo y flexible:
-- Reactividad
-- Iniciativa
-- Sociabilidad
+- Reactividad: capacidad de precibir el medio ambiente y responder a tiempo a los cambios en él, a través de acciones.
+- Iniciativa (proactivo): capacidad de exhibir un comportamento orientado por sus metas, tomando la iniciativa para satisfacer sus objetivos de diseño.
+- Sociabilidad: capacidad de interaccionar con otros agentes, posiblemente tan complejos como los seres humanos, con miras a la satisfacción de sus objetivos.
