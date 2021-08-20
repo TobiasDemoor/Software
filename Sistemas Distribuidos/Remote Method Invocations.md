@@ -1,0 +1,2 @@
+# Remote Method Invocations (RMI)
+Con el aumento en la popularidad del [[Object oriented programming|paradigma orientado a objetos]], se desarrollaron técnicas que permitan llamadas a objetos remotos, generando lo que se conoce como remote method invocations. Un RMI es esencialmente lo mismo que un [[Remote Procedure Calls|RPC]], solo que opera con objetos en vez de con funciones.

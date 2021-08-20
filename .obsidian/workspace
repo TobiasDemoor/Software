@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/DER.md",
+            "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/DER.md",
+                "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
-    "Bases de Datos/DER.md",
-    "Bases de Datos/DBMS.md",
-    "Bases de Datos/Modelo Conceptual.md",
-    "Bases de Datos/MER.md",
-    "Bases de Datos/DB.md",
-    "Bases de Datos/Modelo Entidad Relación.md",
-    "Bases de Datos/Diagrama Entidad Relación.md",
-    "Software Engineering/Patrones/Arquitectónicos/Data mapper.md",
-    "Bases de Datos/Base de Datos.md",
-    "Bases de Datos/Sistema de Gestión de Base de Datos.md"
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Software Engineering/Concepts/Visibilidad.md",
+    "Software Engineering/Concepts/Tácticas.md",
+    "Software Engineering/Concepts/Responsabilidad.md",
+    "Software Engineering/Concepts/Relaciones entre clases.md",
+    "Software Engineering/Concepts/Operación de sistema.md",
+    "Software Engineering/Concepts/Agile methodologies.md",
+    "Software Engineering/Concepts/Deuda técnica.md",
+    "Software Engineering/Concepts/Object oriented programming.md",
+    "images/Message Oriented Middleware.md"
   ]
 }

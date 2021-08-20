@@ -1,0 +1,4 @@
+# Message Oriented Middleware (MOM)
+Es un tipo de [[Middleware|middleware]] de comunicación que permite a las aplicaciones enviar mensajes a puntos lógicos de contacto, usualmente descriptos mediante un tema. También, las aplicaciones pueden indicar su interés por un tipo específico de mensaje, luego de lo cual el MOM se va a ocupar de que esos mensajes sean enviados a esas aplicaciones. Es un esquema **publish/subscribe**.
+
+Este esquema surge como respuesta a la inconveniencia de que ambos [[Remote Method Invocations|RMI]] y [[Remote Procedure Calls|RPC]] requieren que ambos el solicitante y solicitado estén en ejecución al momento de realizarse la comunicación (inconveniente para serverless?).

@@ -1,0 +1,2 @@
+# Remote Procedure Calls (RPCs)
+Los remote procedure calls (RPC) son un tipo de [[Middleware|middleware]] para permitir a aplicaciones conectadas enviar requests a otras aplicaciones conectadas a través de un llamado a procedimiento local, el cuál resulta en una request siendo empaquetada como un mesaje y enviada.
