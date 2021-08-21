@@ -16,9 +16,9 @@
 |            | - Prototype           | - [[Composite]]       | - Iterator                    |
 |            | - [[Singleton]]       | - Decorator           | - Mediator                    |
 |            |                       | - [[Facade]]          | - Memento                     |
-|            |                       | - Flyweight           | - [[Observer]]                |    |
+|            |                       | - Flyweight           | - [[Observer]]                |
 |            |                       | - Proxy               | - [[State]]                   |
-|            |                       |                       | - [[Strategy]]                |    |
+|            |                       |                       | - [[Strategy]]                |
 |            |                       |                       | - Visitor                     |
 
 Fuente: Erich Gamma, 1994

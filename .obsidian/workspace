@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Distributed Systems/Distributed Systems Architecture.md",
+            "file": "Distributed Systems/Architecture/System architecture.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "![[",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed Systems/Distributed Systems Architecture.md",
+                "file": "Distributed Systems/Architecture/System architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -76,6 +76,18 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c71c1b5576e003eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Distributed Systems/Architecture/System architecture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -88,15 +100,15 @@
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
+    "Distributed Systems/Architecture/System architecture.md",
+    "Distributed Systems/Architecture/Distributed Systems Architecture.md",
+    "Distributed Systems/Architecture/Architectural style.md",
+    "Distributed Systems/Middleware/Middleware.md",
+    "Distributed Systems/Architecture/Untitled.md",
+    "Distributed Systems/Architecture/Architectural styles.md",
     "Distributed Systems/Distributed Systems Architecture.md",
-    "Distributed Systems/Representational State Transfer.md",
-    "Distributed Systems/Untitled.md",
-    "Images/Pasted image 20210820161902.png",
-    "Images/layered_architectures_1.png",
-    "Images/requerimientos_no_funcionales.png",
-    "Distributed Systems/Distributed Systems.md",
-    "Software Engineering/Diseño de objetos.md",
-    "Software Engineering/IR/Requerimientos.md",
-    "Images/Pasted image 20210718101824.png"
+    "Software Engineering/FURPS+.md",
+    "Software Engineering/Tácticas para disponibilidad.md",
+    "Distributed Systems/Distributed Systems.md"
   ]
 }

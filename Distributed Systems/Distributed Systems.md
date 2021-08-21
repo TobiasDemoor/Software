@@ -1,3 +1,6 @@
+---
+cssclass: clean-embeds
+---
 # Distributed Systems
 ## Definición
 *Aquellos sistemas que tienen componentes que están en distinto hardware conectados por una red.*
@@ -29,7 +32,8 @@ Un objetivo importante de un sistema distribuido es facilitar a los usuarios (y 
 - Servicios de email compartido 
 - Web hosting compartido (content distribution networks)
 
-### ![[Distribution Transparency]]
+### Distribution Transparency
+![[Distribution Transparency]]
 
 ### Apertura 
 Ser capaces de interactuar con servicios de otros sistemas abiertos, independientemente del sistema subyacente.

@@ -1,5 +1,8 @@
 {
   "baseFontSize": 16,
   "translucency": false,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "clean-embeds"
+  ]
 }
