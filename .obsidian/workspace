@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Distributed Systems/Architecture/System architecture.md",
+            "file": "Redes de computadoras/Redes de computadoras.md",
             "mode": "source"
           }
         }
@@ -39,13 +39,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "![[",
+                "query": "cliente servidor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "71770e947f8e4cc4",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
             }
           }
         ]
@@ -68,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed Systems/Architecture/System architecture.md",
+                "file": "Redes de computadoras/Redes de computadoras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributed Systems/Architecture/System architecture.md",
+                "file": "Redes de computadoras/Redes de computadoras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -95,20 +103,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
-    "Distributed Systems/Architecture/System architecture.md",
-    "Distributed Systems/Architecture/Distributed Systems Architecture.md",
-    "Distributed Systems/Architecture/Architectural style.md",
-    "Distributed Systems/Middleware/Middleware.md",
-    "Distributed Systems/Architecture/Untitled.md",
-    "Distributed Systems/Architecture/Architectural styles.md",
-    "Distributed Systems/Distributed Systems Architecture.md",
-    "Software Engineering/FURPS+.md",
-    "Software Engineering/Tácticas para disponibilidad.md",
-    "Distributed Systems/Distributed Systems.md"
+    "Redes de computadoras/Redes de computadoras.md",
+    "Redes de computadoras/P2P.md",
+    "Distributed Systems/Distributed Systems.md",
+    "Redes de computadoras/peer-to-peer.md",
+    "Daily/2021-08-21.md",
+    "Redes de computadoras/Untitled.md",
+    "Software Engineering/Patrones/Arquitectónicos/Client-Server.md",
+    "Redes/Untitled.md",
+    "Daily/template.md",
+    "Distributed Systems/Architecture/System architecture.md"
   ]
 }

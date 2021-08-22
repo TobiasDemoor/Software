@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 11613168
       }
+    },
+    {
+      "query": "path:\"Redes de computadoras\"",
+      "color": {
+        "a": 1,
+        "rgb": 2302945
+      }
     }
   ],
   "collapse-display": true,
@@ -60,6 +67,6 @@
   "repelStrength": 12.4786324786325,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1846232622585901,
-  "close": true
+  "scale": 0.1846232622585904,
+  "close": false
 }

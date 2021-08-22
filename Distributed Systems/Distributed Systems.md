@@ -3,7 +3,7 @@ cssclass: clean-embeds
 ---
 # Distributed Systems
 ## Definición
-*Aquellos sistemas que tienen componentes que están en distinto hardware conectados por una red.*
+*Aquellos sistemas que tienen componentes que están en distinto hardware conectados por una [[Redes de computadoras|red]].*
 
 >**“Colección de elementos autónomos de computación que se presentan a los usuarios como un sistema único y coherente”.** - (Tanenbaum, Van Steen)
 
@@ -18,7 +18,7 @@ El hecho de trabajar con un conjunto de nodos también hace que tengamos que adm
 En lo que respecta a la **organización de la colección**, en la práctica se puede observar que los sistemas distribuidos usualmente están organizados como un overlay network (**red superpuesta**). En este caso un nodo es típicamente un proceso de software equipado con una lista de otros procesos con los cuales puede comunicarse directamente. Hay dos tipos generales de overlay networks:
 **Structured overlay**: En este caso cada nodo tiene un conjunto bien definido de vecinos con los cuales puede comunicarse. Por ejemplo, una estructura de arbol o de anillo.
 **Unstructured overlay**: En este caso cada nodo tiene un número de referencias a nodos seleccionados aleatoriamente.
-En cualquier caso un overlay network debería siempre ser conexa. Una clase conocida de overlays está formada por peer-to-peer (P2P) networks.
+En cualquier caso un overlay network debería siempre ser conexa. Una clase conocida de overlays está formada por [[P2P|peer-to-peer (P2P)]] networks.
 
 ### Sistema único y coherente
 Como fue mencionado, un sistema distribuido debería aparentar ser un sistema único y coherente. Se podría afirmar que un sistema es coherente si su comportamiento se adecua a las expectativas del usuario. Más específicamente, en un sistema único y coherente la colección de nodos opera como un todo opera de la misma manera, sin importar dónde, cuándo, o cómo se lleve a cabo la interacción entre el usuario y el sistema.
@@ -28,7 +28,7 @@ Para ofrecer una visión única y coherente se requiere que el usuario no pueda 
 ### Soportar compartir recursos
 Un objetivo importante de un sistema distribuido es facilitar a los usuarios (y aplicaciones) acceder y compartir recursos remotos. Ejemplos canonicos:
 - Almacenamiento basado “en la nube” 
-- Streaming multimedia asistido por redes P2P 
+- Streaming multimedia asistido por [[P2P|redes P2P]] 
 - Servicios de email compartido 
 - Web hosting compartido (content distribution networks)
 

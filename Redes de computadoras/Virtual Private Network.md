@@ -1,0 +1,2 @@
+# Virtual Private Network (VPN)
+Las redes conocidas como **VPN** se pueden usar para unir las redes individuales ubicadas en distintos sitios, en una sola [[Redes de computadoras|red]] extendida. En otras palabras el sismple hecho de que un usuario esté a 15.000 km de distancia de sus datos no debe ser impepdimento para que los utilice como si fueran locales.
