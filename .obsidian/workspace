@@ -7,11 +7,8 @@
         "id": "47dd210af8661c1b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Redes de computadoras/Redes de computadoras.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de computadoras/Redes de computadoras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de computadoras/Redes de computadoras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,12 +102,12 @@
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
+    "Redes de computadoras/Untitled.md",
     "Redes de computadoras/Redes de computadoras.md",
     "Redes de computadoras/P2P.md",
     "Distributed Systems/Distributed Systems.md",
     "Redes de computadoras/peer-to-peer.md",
     "Daily/2021-08-21.md",
-    "Redes de computadoras/Untitled.md",
     "Software Engineering/Patrones/Arquitectónicos/Client-Server.md",
     "Redes/Untitled.md",
     "Daily/template.md",
