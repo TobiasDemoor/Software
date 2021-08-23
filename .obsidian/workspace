@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de computadoras/Virtual Private Network.md",
+            "file": "Redes de computadoras/Modelos/Modelo TCP IP.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cliente servidor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de computadoras/Virtual Private Network.md",
+                "file": "Redes de computadoras/Modelos/Modelo TCP IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de computadoras/Virtual Private Network.md",
+                "file": "Redes de computadoras/Modelos/Modelo TCP IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
+    "Redes de computadoras/Modelos/Modelo TCP IP.md",
+    "Redes de computadoras/TCP.md",
+    "Redes de computadoras/Modelos/Untitled.md",
+    "Redes de computadoras/Modelos/TCP.md",
+    "Redes de computadoras/Modelos/Modelo OSI.md",
+    "Distributed Systems/Distributed Systems.md",
+    "Distributed Systems/Middleware/Middleware.md",
+    "Redes de computadoras/Software de Redes.md",
     "Redes de computadoras/Virtual Private Network.md",
-    "Redes de computadoras/Subred.md",
-    "Redes de computadoras/Router.md",
-    "Redes de computadoras/Redes de computadoras.md",
-    "Redes de computadoras/P2P.md",
-    "Redes de computadoras/Distribución de protocolos en capas.md",
-    "Redes de computadoras/Enrutadores.md",
-    "Redes de computadoras/Untitled.md",
-    "Redes de computadoras/Congestión.md",
-    "Software Engineering/Patrones/Arquitectónicos/Client-Server.md"
+    "Redes de computadoras/Concepts/Subred.md"
   ]
 }

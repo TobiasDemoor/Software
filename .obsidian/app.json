@@ -2,7 +2,7 @@
   "showLineNumber": false,
   "readableLineLength": true,
   "strictLineBreaks": false,
-  "promptDelete": true,
+  "promptDelete": false,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "attachments",
   "newFileLocation": "current"

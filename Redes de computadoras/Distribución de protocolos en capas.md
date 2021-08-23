@@ -1,9 +1,0 @@
-## Distribución de protocolos en capas
-Para reducir la complejidad de su diseño, la mayoría de las [[Redes de computadoras|redes]] se organizan como una pila de **capas** o **niveles** ([[Layers|patrón capas]]), cada una construida a partir de la que está abajo. El número de capas, su nombre, el contenido de cada una y su función difieren de una red a otra. El propósito de cada capa es ofrecer ciertos servicios a las capas superiores, mientras les oculta los detalles relacionados con la forma en que se implementan los servicios ofrecidos. Es decir, cada capa es un tipo de máquina virtual que ofrece ciertos servicios a la capa que está encima de ella.
-Cuando la capa n en una máquina lleva a cabo una conversación con la capa n en otra máquina, a las reglas y convenciones utilizadas en esta conversación se les conoce como el [[Protocolo|protocolo]] de la capa n. Las entidades que conforman las correspondientes capas en diferentes máquinas se llaman **iguales** (*peers*). Los iguales pueden ser procesos de software,dispositivos de hardware o incluso seres humanos. En otras palabras, los iguales son los que se comunican a través del protocolo.
-
-En realidad no se transfieren datos de manera directa desde la capa n de una máquina a la capa n de otra máquina, sino que cada capa pasa los datos y la información de control a la capa inmediatamente inferior, hasta que se alcanza a la capa más baja. Debajo de la capa 1 se encuentra el **medio físico** a través del cual ocurre la comunicación real.
-
-Entre cada par de capas adyacentes hay una [[Interfaz|interfaz]]. Ésta define las operaciones y servicios primitivos que pone la capa más baja a disposición de la capa superior inmediata.
-
-A un conjunto de capas y protocolos se le conoce como **arquitectura de red**. A la lista de los protocolos utilizados por cierto sistema se le conoce como **pila de protocolos**.

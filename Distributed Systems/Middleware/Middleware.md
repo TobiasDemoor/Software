@@ -27,7 +27,7 @@ Conceptualmente un **interceptor** es nada más que una construcción de softwar
 Para llevarlo a un ejemplo concreto, supongamos tener un objeto A que puede invocar un método que pertenece al objeto B que recide en una máquina diferente a la de A. Esta invocación remota se lleva a cabo en 3 pasos:
 1. El objeto A tiene disponible una interfaz local idéntica a la ofrecida por el objeto B. A llama al método disponible en dicha interfaz.
 2. La llamada de A es transformada en una invocación genérica a objeto, gracias a una interfaz general de invocación de objetos ofrecida por el middleware.
-3. La invocación genérica a objeto es transformada en un mensaje que es enviado a través de la red de capa de transporte.
+3. La invocación genérica a objeto es transformada en un mensaje que es enviado a través de la red de [[Modelo OSI#La capa de transporte|capa de transporte]].
 ![[interceptors_1.png]]
 
 Supongamos que en el ejemplo anterior ahora B se encuentra replicado. En este casa cada réplica debería ser invocada ([[Tácticas para disponibilidad#Recuperación de fallas|redundancia activa]]). Este es un punto claramente definido donde la intercepción puede ayudar. Lo que realizara el **request-level interceptor** es simplemente realizar la invocación genérica para cada una de las réplicas. Esto es ideal ya que ni el objeto A ni el middleware tienen que estar al tanto de que B está replicado.

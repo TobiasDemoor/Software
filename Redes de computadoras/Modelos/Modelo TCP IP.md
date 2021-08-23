@@ -1,0 +1,22 @@
+# Modelo TCP/IP
+El **modelo de referencia TCP/IP** toma su nombre debido a sus dos [[Protocolo|protocolos]] primarios ([[TCP]] e IP). Es posterior al [[Modelo OSI|modelo de referencia OSI]] y sus objetivos principales son permitir conectar varias [[Redes de computadoras|redes]] sin problemas y sobrevivir a la pérdida de hardware de la [[Subred|subred]] sin que se interrumpieran las conversaciones existentes.
+
+![[model_tcp_ip_1.png]]
+
+![[modelo_tcp_ip_2.png]]
+
+## La capa de enlace
+Todos estos requerimientos condujeron a la elección de una red de conmutación de paquetes basada en una capa sin conexión que opera a través de distintas redes. La capa más baja en este modelo es la **capa de enlace**; ésta describe qué enlaces (como las líneas seriales y Ethernet clásica) se deben llevar a cabo para cumplir con las necesidades de esta capa de interred sin conexión. En realidad no es una capa en el sentido común del término, sino una interfaz entre los hosts y los enlaces de transmisión. El primer material sobre el modelo TCP/IP tiene poco que decir sobre ello.
+
+## La capa de interred
+Esta capa es el eje que mantiene unida a toda la arquitectura. Su trabajo es permitir que los hosts inyecten paquetes en cualquier red y que viajen de manera independiente hacia el destino (que puede estar en una red distinta). Incluso pueden llegar en un orden totalmente diferente al orden en que se enviaron, en cuyo caso es responsabilidad de las capas más altas volver a ordenarlos, si se desea una entrega en orden. Tenga en cuenta que aquí utilizamos “interred” en un sentido genérico, aunque esta capa esté presente en la Internet.
+La capa de interred define un formato de paquete y un protocolo oficial llamado **IP (Internet Protocol)**, además de un protocolo complementario llamado **ICMP (Internet Control Message Protocol)** que le ayuda a funcionar. La tarea de la capa de interred es entregar los paquetes IP a donde se supone que deben ir. Aquí el ruteo de los paquetes es sin duda el principal aspecto, al igual que la [[Congestión|congestión]] (aunque el IP no ha demostrado ser efectivo para evitar la congestión)
+
+## La capa de transporte
+Por lo general, a la capa que está arriba de la capa de interred en el modelo TCP/IP se le conoce como **capa de transporte**; y está diseñada para permitir que las entidades pares, en los nodos de origen y de destino, lleven a cabo una conversación, al igual que en la [[Modelo OSI#La capa de transporte|capa de transporte de OSI]]. Aquí se definieron dos protocolos de transporte de extremo a extremo. El primero, **TCP (Transmission Control Protocol)**, es un [[Software de Redes#Servicio orientado y no a la conexión|protocolo confiable orientado a la conexión]] que permite que un flujo de bytes originado en una máquina se entregue sin errores a cualquier otra máquina en la interred. Este protocolo segmenta el flujo de bytes entrante en mensajes discretos y pasa cada uno a la capa de interred. En el destino, el proceso TCP receptor vuelve a ensamblar los mensajes recibidos para formar el flujo de salida. El TCP también maneja el control de flujo para asegurar que un emisor rápido no pueda inundar a un receptor lento con más mensajes de los que pueda manejar.
+
+El segundo protocolo en esta capa, **UDP (User Datagram Protocol)**, es un [[Software de Redes#Servicio orientado y no a la conexión|protocolo no orientado a la conexión]], no confiable para aplicaciones que no desean la asignación de secuencia o el control de flujo de TCP y prefieren proveerlos por su cuenta. También se utiliza mucho en las consultas de petición-respuesta de una sola ocasión del tipo [[Client-Server|cliente-servidor]], y en las aplicaciones en las que es más importante una entrega oportuna que una entrega precisa, como en la transmisión de voz o video.
+
+## La capa de aplicación
+El modelo TCP/IP no tiene capas de sesión o de presentación, ya que no se consideraron necesarias. Las aplicaciones simplemente incluyen cualquier función de sesión y de presentación que requieran. La experiencia con el [[Modelo OSI|modelo OSI]] ha demostrado que esta visión fue correcta: estas capas se utilizan muy poco en la mayoría de las aplicaciones.
+Encima de la capa de transporte se encuentra la **capa de aplicación**. Ésta contiene todos los protocolos de alto nivel. Entre los primeros protocolos están el de terminal virtual (TELNET), transferencia de archivos (FTP) y correo electrónico (SMTP). A través de los años se han agregado muchos otros protocolos.
