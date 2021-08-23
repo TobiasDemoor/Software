@@ -64,7 +64,7 @@ Propiedades que se deben tener en cuenta:
 - Backup y restore.
 - Seguridad.
 - [[FURPS+#Reliability|Disponibilidad]] (centralizada vs distribuida).
-- Escalabilidad.
+- [[Escalabilidad|Escalabilidad]].
 - [[FURPS+#Performance]]
 
 Depende el nivel que estemos analizando tenemos distintos elementos a los cuales estudiar.

@@ -47,8 +47,7 @@ Un sistema distribuido abierto debería ser también **extensible**. Es decir, d
 Para lograr flexibilidad en sistemas distribuidos abiertos, es vital que el sistema esté organizado como una colección de componentes relativamente pequeños y fácilmente reemplazables o adaptables. Esto implica que se deberían proveer definiciones no solo de las interfaces de más alto nivel (las vistas por usuarios y aplicaciones), pero también de las interfaces internas.
 Lo que necesitamos es una separación entre [[Políticas vs Mecanismos|política y mecanismo]]
 
-### Escalabilidad
-“capacidad de crecer a un costo razonable” 
+### [[Escalabilidad|Escalabilidad]]
 - ¿Que es ser escalable? 
 - ¿Cuanto? ¿Cómo?
 Características de los algoritmos descentralizados

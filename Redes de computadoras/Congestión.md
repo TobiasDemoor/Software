@@ -1,0 +1,1 @@
+Se llama **congestión** a la sobrecarga que ocurre a una [[Redes de computadoras|red]] cuando sufre un exceso de solicitudes debido a que hay demasiadas computadoreas que desean enviar una gran cantidad de información y la red no lo puede entregar todo.

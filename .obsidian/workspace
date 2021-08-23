@@ -7,8 +7,11 @@
         "id": "47dd210af8661c1b",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Redes de computadoras/Virtual Private Network.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,12 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Redes de computadoras/Virtual Private Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Redes de computadoras/Virtual Private Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,19 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "47dd210af8661c1b",
   "lastOpenFiles": [
-    "Redes de computadoras/Untitled.md",
+    "Redes de computadoras/Virtual Private Network.md",
+    "Redes de computadoras/Subred.md",
+    "Redes de computadoras/Router.md",
     "Redes de computadoras/Redes de computadoras.md",
     "Redes de computadoras/P2P.md",
-    "Distributed Systems/Distributed Systems.md",
-    "Redes de computadoras/peer-to-peer.md",
-    "Daily/2021-08-21.md",
-    "Software Engineering/Patrones/Arquitectónicos/Client-Server.md",
-    "Redes/Untitled.md",
-    "Daily/template.md",
-    "Distributed Systems/Architecture/System architecture.md"
+    "Redes de computadoras/Distribución de protocolos en capas.md",
+    "Redes de computadoras/Enrutadores.md",
+    "Redes de computadoras/Untitled.md",
+    "Redes de computadoras/Congestión.md",
+    "Software Engineering/Patrones/Arquitectónicos/Client-Server.md"
   ]
 }

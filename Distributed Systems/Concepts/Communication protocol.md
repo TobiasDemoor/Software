@@ -1,1 +1,1 @@
-Un protocolo de comunicación describe las reglas que las partes deben seguir para intercambiar información.
+Un [[Protocolo|protocolo]] de comunicación describe las reglas que las partes deben seguir para intercambiar información.

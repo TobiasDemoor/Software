@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "path:Concepts",
+      "query": "path:\"Conceptos\"",
       "color": {
         "a": 1,
         "rgb": 16777215
@@ -43,7 +43,7 @@
       }
     },
     {
-      "query": "path:\"Distributed Systems\"",
+      "query": "path:\"Distributed Systems/\"",
       "color": {
         "a": 1,
         "rgb": 11613168
@@ -57,7 +57,7 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -0.9,
   "nodeSizeMultiplier": 1.2561797752809,
@@ -67,6 +67,6 @@
   "repelStrength": 12.4786324786325,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.13168724279836064,
-  "close": false
+  "scale": 0.1316872427983609,
+  "close": true
 }

@@ -1,0 +1,1 @@
+“capacidad de crecer a un costo razonable” 

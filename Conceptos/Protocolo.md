@@ -1,0 +1,1 @@
+Un **protocolo** es un acuerdo entre las partes que se comunican para establecer la forma en que se llevará a cabo esa comunicación.
