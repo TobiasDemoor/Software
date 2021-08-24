@@ -1,5 +1,5 @@
 # Modelo conceptual (MC)
-Un modelo conceptual es una conceptualización formal del mundo real (más precisamente de un [[Dominio|dominio]] específico del mundo real). Para construirlo necesitamos modelar las cosas u objetos existentes, sus características y sus relaciones.
+Un modelo conceptual es una conceptualización formal del mundo real (más precisamente de un [[Software Engineering/Fundamentals/Dominio|dominio]] específico del mundo real). Para construirlo necesitamos modelar las cosas u objetos existentes, sus características y sus relaciones.
 
 Los modelos conceptuales, como todo modelo, son prácticos para comunicar ideas y buscar consensos. La elaboración de un MC es de gran importancia al desarrollar el modelo de análisis de una aplicación y de gran utilidad en la validación con los usuarios.
 

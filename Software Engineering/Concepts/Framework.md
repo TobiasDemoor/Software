@@ -1,4 +1,4 @@
-Un framework es una aplicación reusable y "semi completa", que puede ser especializada para integrarse a otra aplicación. Es una colección de clases que en conjunto constituyen una solución genérica, a una familia de requerimientos de un [[Dominio|dominio]] específico.
+Un framework es una aplicación reusable y "semi completa", que puede ser especializada para integrarse a otra aplicación. Es una colección de clases que en conjunto constituyen una solución genérica, a una familia de requerimientos de un [[Software Engineering/Fundamentals/Dominio|dominio]] específico.
 
 ## Objetivo
 El objetivo de un framework es el de construir aplicaciones componiendo piezas de software reusables.

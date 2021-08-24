@@ -29,3 +29,6 @@ Un servicio se puede especificar de manera formal como un conjunto de **primitiv
 Un *servicio* es un conjunto de primitivas (operaciones) que una capa proporciona a la capa que está encima de ella. El servicio define que operaciones puede realizar la capa en beneficio de sus usuario, pero no dice nada sobre cómo se implementan estas operaciones. Un servicio se relaciona con una [[Interfaz|interfaz]] entre dos capas, en donde la capa inferior es el proveedor del servicio y la capa superior es el usuario.
 
 Un *protocolo* ([[Protocolo]]) es un conjunto de reglas que rigen el formato y el significado de los paquetes o mensajes que intercambian las entidades iguales en una capa. Las entidades utilizan protocolos para implementar sus definiciones de servicios. Pueden cambiar sus protocolos a voluntad, siempre y cuando no cambien el servicio visible para sus usuarios. De esta manera, el servicio y el protocolo no dependen uno del otro. Éste es un concepto clave que cualquier diseñador de red debe comprender bien.
+
+## Comparación de modelos
+Los modelos de referencia [[Modelo OSI|OSI]] y [[Modelo TCP IP|TCP/IP]] tienen mucho en común. Ambos se basan en el concepto de una pila de [[Protocolo|protocolos]] independientes. Además, la funcionalidad de las capas es muy similar.

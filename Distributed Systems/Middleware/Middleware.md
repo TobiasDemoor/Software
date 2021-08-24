@@ -9,7 +9,8 @@ El middleware es a un DS, lo que un sistema operativo es a una computadora indiv
 La principal diferencia que tienen con los sistemas operativos es que los servicios del middleware se ofrecen en un entorno conectado.
 
 ## Middleware organization
-En el contexto de la [[Distributed Systems Architecture|arquitectura de sistemas distribuidos]]. En general hay dos [[Patrones|patrones de diseño]] que son aplicados usualmente a la organización del middleware, wrappers e interceptors. Cada uno apunta a diferentes problemas, pero ambos apuntan al mismo objetivo del middleware, lograr [[Distributed Systems#Apertura|apertura]].
+%%En el contexto de la [[Distributed Systems Architecture|arquitectura de sistemas distribuidos]].%%
+En general hay dos [[Patrones|patrones de diseño]] que son aplicados usualmente a la organización del middleware, wrappers e interceptors. Cada uno apunta a diferentes problemas, pero ambos apuntan al mismo objetivo del middleware, lograr [[Distributed Systems#Apertura|apertura]].
 
 ### Wrappers
 Cuando se construye un DS a partir de [[Component|componentes]] existentes, inmediatamente nos topamos con un problema fundamental: las [[Interfaz|interfaces]] ofrecidas por el componente legacy muy probablemente no son aptas para todas las aplicaciones.

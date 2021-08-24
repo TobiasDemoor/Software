@@ -1,6 +1,6 @@
 La elicitación o extracción de requerimientos, es el proceso de recolectar la información necesario para identificar y entender las necesidades y restricciones del producto, que requiere el usuario o el cliente. Es la etapa de mayor interacción con el usuario. Es el momento en el que se recurre, por ejemplo, a la observación, entrevistas, revisión de documentos, entre otras técnicas. Es parte de la [[Ingeniería de Requerimientos]].
 
-La profundidad de la investigación y compresión del [[Dominio|dominio]] (en la elicitación) redundará en mejores decisiones para todos los niveles (análisis y [[Software Architecture|arquitectura]]).
+La profundidad de la investigación y compresión del [[Software Engineering/Fundamentals/Dominio|dominio]] (en la elicitación) redundará en mejores decisiones para todos los niveles (análisis y [[Software Architecture|arquitectura]]).
            
 ## ¿Cómo comenzar la elicitación?
 Se puede estructurar la investigación en base a los siguientes objetivos:
@@ -110,9 +110,9 @@ Métodos de administración:
 * Formulario Web y otros.
 
 ## Problemas
-¿Dónde se puede encontrar el conocimiento de un [[Dominio|dominio]] y cómo se puede elicitar ese conocimiento? El conocimiento está distribuido en **diferentes fuentes**, muchas veces esta diversidad es conflictiva, ya que una parte importante puede residir en expertos humanos.
+¿Dónde se puede encontrar el conocimiento de un [[Software Engineering/Fundamentals/Dominio|dominio]] y cómo se puede elicitar ese conocimiento? El conocimiento está distribuido en **diferentes fuentes**, muchas veces esta diversidad es conflictiva, ya que una parte importante puede residir en expertos humanos.
 
-Problemas en la transmisión del conocimiento del [[Dominio|dominio]]:
+Problemas en la transmisión del conocimiento del [[Software Engineering/Fundamentals/Dominio|dominio]]:
 * Los usuarios pueden estar sesgados por el sistema actual.
 * Es difícil elicitar el conocimiento, en especial cuando se trata de un experto humano.
 * El conocimiento no está disponible en una forma utilizable para los analistas.

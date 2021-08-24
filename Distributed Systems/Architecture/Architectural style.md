@@ -1,5 +1,6 @@
 ## Architectural styles
-En el contexto de los [[Distributed Systems|sistemas distribudios]] (DS) y la [[Distributed Systems Architecture|arquitectura de sistemas distribuidos]]. El estilo arquitectónico es formulado en terminos de componentes, la manera en que conectan entre sí, la información intercambiada componentes, y finalmente cómo estos elementos están configurados en un sistema. Usando [[Component|componentes]] y [[Connector|conectores]], podemos lograr varias configuraciones, que pueden ser clasificadas en distintos estilos arquitectónicos.
+%%En el contexto de los [[Distributed Systems|sistemas distribudios]] (DS) y la [[Distributed Systems Architecture|arquitectura de sistemas distribuidos]].%%
+El estilo arquitectónico es formulado en terminos de componentes, la manera en que conectan entre sí, la información intercambiada componentes, y finalmente cómo estos elementos están configurados en un sistema. Usando [[Component|componentes]] y [[Connector|conectores]], podemos lograr varias configuraciones, que pueden ser clasificadas en distintos estilos arquitectónicos.
 
 ### Layered architectures
 El concepto básico es el del [[Layers|patrón arquitectónico capas]]

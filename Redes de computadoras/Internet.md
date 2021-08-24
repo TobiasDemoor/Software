@@ -1,0 +1,1 @@
+Internet no es una [[Redes de computadoras|red]], sino una enorme colección de distintas redes que utilizan ciertos [[Protocolo|protocolos]] comunes y proveen ciertos servicios comunes. Es un sistema inusual en cuanto a que nadie la palneó y nadie la controla.

@@ -70,7 +70,7 @@ Propiedades que se deben tener en cuenta:
 Depende el nivel que estemos analizando tenemos distintos elementos a los cuales estudiar.
 
 ## Realidad
-En el nivel de la realidad hablamos de entidades que tienen atributos, esto lo representamos en el modelo de [[Dominio|dominio]].
+En el nivel de la realidad hablamos de entidades que tienen atributos, esto lo representamos en el modelo de [[Software Engineering/Fundamentals/Dominio|dominio]].
 
 ## Datos
 En el nivel de los datos tenemos ocurrencias de registros que tienen ocurrenciasd de elementos de datos, esto lo vemos en las tablas de datos.

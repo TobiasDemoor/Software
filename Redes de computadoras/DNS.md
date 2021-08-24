@@ -1,0 +1,1 @@
+El DNS (Domain Name System) es un [[Distributed Systems|sistema distribuido]] y generalizado de [[DB|base de datos]] con el fin de organizar a las máquinas pertenecientes a una [[Redes de computadoras|red]] en dominios y resolver nombres de host en direcciones IP.
