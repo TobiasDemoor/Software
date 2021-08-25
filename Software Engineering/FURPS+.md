@@ -25,9 +25,9 @@ Dentro de este atributo entran los factores humanos, la ayuda a los usuarios y l
 	- [[Command]]
 
 # Reliability
-Capacidad de un sistema o [[Component|componente]] para desempeñar las funciones específicas, cuando se usa bajo condiciones y períodos de tiempo determinados. El mínimo del que podemos hablar es 99%, si un sistema no tiene alta disponibilidad, no puede ser confiable.
+Capacidad de un sistema o [[Componente|componente]] para desempeñar las funciones específicas, cuando se usa bajo condiciones y períodos de tiempo determinados. El mínimo del que podemos hablar es 99%, si un sistema no tiene alta disponibilidad, no puede ser confiable.
 - Madurez: capacidad del sistema para satisfacer las necesidades de fiabilidad en condiciones normales.
-- Disponibilidad: capacidad del sistema o [[Component|componente]] de estar operativo y accesible para su uso cuando se requiere.
+- Disponibilidad: capacidad del sistema o [[Componente|componente]] de estar operativo y accesible para su uso cuando se requiere.
 - Tolerancia a fallos: capacidad para operar según lo previsto en presencia de [[Fault, Failure|fallas]] de hardware y/o software.
 - Capacidad de recuperación: capacidad para recuperar datos afectados y el estado del sistema ante [[Fault, Failure|fallos]] o interrupciones.
 Dentro de este atributo entran la fecuencia de [[Fault, Failure|fallas]], la recoverability y la predictability.
@@ -43,7 +43,7 @@ Dentro de este atributo entran adaptability, maintainability, internationalizati
 
 ## Mantainability
 Capacidad del producto de software para ser modificado efectiva y eficientemente, debido a necesidades evolutivas correctivas o perfectivas: 
-- **Modularidad**: grado en el que un sistema o programa de computadora se compone de componentes discretos de manera que un cambio en un [[Component|componente]] tiene un impacto mínimo en otros componentes.
+- **Modularidad**: grado en el que un sistema o programa de computadora se compone de componentes discretos de manera que un cambio en un [[Componente|componente]] tiene un impacto mínimo en otros componentes.
 - **Reusabilidad**: grado en el que un activo se puede utilizar en más de un sistema o en la construcción de otros activos.
 - **Analizabilidad**: grado de efectividad y eficiencia con el que es posible evaluar el impacto de un cambio en el sistema.
 - **Modificabilidad**: grado en el que un producto o sistema puede modificarse de manera eficaz y eficiente sin introducir defectos o degradar la calidad del producto existente.

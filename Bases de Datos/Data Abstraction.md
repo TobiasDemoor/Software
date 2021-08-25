@@ -1,0 +1,1 @@
+La propiedad que permite program-data y program-operation independece es la **data abstraction**([[Abstracción]]). El [[DBMS|DBMS]] provee a los usuarios una **representación conceptual** de la información que no incluye muchos detalles de como esta información está almacenada. 

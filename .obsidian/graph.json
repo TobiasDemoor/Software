@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:-\"Conceptos\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -63,10 +63,10 @@
   "nodeSizeMultiplier": 1.2561797752809,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0,
+  "centerStrength": 0.147058823529412,
   "repelStrength": 12.4786324786325,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.09392927902847502,
+  "linkDistance": 80,
+  "scale": 0.1846232622585928,
   "close": true
 }

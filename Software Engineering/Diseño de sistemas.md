@@ -15,8 +15,8 @@ El diseño es la actividad que tiene que ver con la toma de decisiones important
 
 # Proceso
 Es un proceso iterativo por medio del cual se traducen los [[Requerimientos|requerimientos]] para poder construir el software (en cada iteración se profundiza el detalle). Generalmente contiene dos etapas que se ubican entre el análisis de [[Requerimientos]] y la construcción del software.
-- **Diseño arquitectónico** (llamado diseño de alto nivel) que implica la organización y esctructura del sistema e identifica los diferentes componentes. Se diseña la [[Software Architecture|arquitectura de software]].
-- **Diseño detallado**, especificar cada [[Component|componente]] con el suficiente detalle para facilitar su construcción.
+- **Diseño arquitectónico** (llamado diseño de alto nivel) que implica la organización y esctructura del sistema e identifica los diferentes [[Componente|componentes]]. Se diseña la [[Software Architecture|arquitectura de software]].
+- **Diseño detallado**, especificar cada [[Componente|componente]] con el suficiente detalle para facilitar su construcción.
 Se tiene un buen diseño cuando:
 - Se contemplan todos los [[Requerimientos|requerimientos]] explícitos en el modelo de análisis y los implícitos que implica el producto en sí.
 - Es legible y comprensible para todos los stakeholders relacionados.
@@ -30,20 +30,20 @@ Se tiene un buen diseño cuando:
 - [[Ocultamiento de la información]]
 - [[Interfaz]] e implementación
 - Sufficency, completness and primitiveness:
-	- **Sufficency:** el [[Component|componente]] considera las características de su [[Abstracción|abstracción]] que son necesarias para proveer una interacción significativa y eficiente.
-	- **Completness:** el [[Component|componente]] debe considerer todas las características relevantes de su [[Abstracción|abstracción]].
-	- **Primitiveness:** las operaciones que puede realizar el [[Component|componente]] pueden ser implementadas fácilmente.
+	- **Sufficency:** el [[Componente|componente]] considera las características de su [[Abstracción|abstracción]] que son necesarias para proveer una interacción significativa y eficiente.
+	- **Completness:** el [[Componente|componente]] debe considerer todas las características relevantes de su [[Abstracción|abstracción]].
+	- **Primitiveness:** las operaciones que puede realizar el [[Componente|componente]] pueden ser implementadas fácilmente.
 - [[Separación de concerns]]
 
 # Aplicaciones OO
-La [[Object oriented programming|OO]] representa hoy el mejor framework metodológico para la ingeniería de software gracias al pragmatismo del paradigma y la sitematisación de procesos que permite. Brinda homogeneidad a través del análisis, diseño e implementación (siempre trabajamos con entidades). Pone el énfasis en el estado, comportamiento e interacción de objetos. Trae consigo las ventajas de la maduración y los patrones de prácticas. Se tienen variedad de técnicas, métodos, procesos, estándares, modelos, notaciones, herramientas, componentes, lenguajes, ambientes, ejemplos, comunidad, práctica y experiencia.
+La [[OOP|OO]] representa hoy el mejor framework metodológico para la ingeniería de software gracias al pragmatismo del paradigma y la sitematisación de procesos que permite. Brinda homogeneidad a través del análisis, diseño e implementación (siempre trabajamos con entidades). Pone el énfasis en el estado, comportamiento e interacción de objetos. Trae consigo las ventajas de la maduración y los patrones de prácticas. Se tienen variedad de técnicas, métodos, procesos, estándares, modelos, notaciones, herramientas, componentes, lenguajes, ambientes, ejemplos, comunidad, práctica y experiencia.
 
 # Diseño de [[Requerimientos#Atributos de Calidad|QA]]
 Primero se deben identificar los [[Requerimientos#Requerimientos no funcionales|RNF]] y priorizar por su impacto en la arquitectura (poniendo el foco en [[FURPS+]]). Luego debemos seleccionar uno y buscar alternativas de implementación para crear la solucion elegida (las alternativas y las decisiones que se tomen deben ir al [[Software Architecture Document|SAD]]). Estas actividades son iterativas hasta el nivel de detalle que se desee o atributos de calidad a atender.
 
 ## Attribute Driven Design
 ADD es un enfoque para definir una arquitectura de software que basa el proceso de descomposición en los atributos de calidad que debe cumplir el software. Se aplica luego de tener una división en módulos generales.
-- En cada iteración se selecciona un módulo a descomponer y se definen un conjunto de escenarios de calidad y requisitos funcionales en los cuales se va a basar la descomposición del [[Component|componente]].
+- En cada iteración se selecciona un módulo a descomponer y se definen un conjunto de escenarios de calidad y requisitos funcionales en los cuales se va a basar la descomposición del [[Componente|componente]].
 - Proceso de descomposición de módulos recursivos donde en cada etapa se eligen [[Tácticas|tácticas]] y [[Patrones arquitectónicos|patrones arquitectónicos]] para satisfacer un conjunto de escenarios de calidad y luego se asigna funcionalidad para instanciar los tipos de módulos proporcionados por el patrón utilizado.
 	- Se deben identificar los componentes hijos y se les debe asignar una responsabilidad.
 	- Se debe documentar y representar mediante vistas estos cambios en la arquitectura.
@@ -51,6 +51,7 @@ ADD es un enfoque para definir una arquitectura de software que basa el proceso 
 - El resultado de ADD son los primeros niveles de una vista de descomposición de módulos de arquitectura y otras vistas, según corresponda.
 
 # Diseñando la persistencia
+%%[[Bases de Datos]]%%
 Propiedades que se deben tener en cuenta:
 - ¿Qué se almacenará? (esto determina la tecnología que debemos usar, SQL vs NoSQL).
 - Manejo de metadata (DDL y DML).
@@ -70,10 +71,10 @@ Propiedades que se deben tener en cuenta:
 Depende el nivel que estemos analizando tenemos distintos elementos a los cuales estudiar.
 
 ## Realidad
-En el nivel de la realidad hablamos de entidades que tienen atributos, esto lo representamos en el modelo de [[Software Engineering/Fundamentals/Dominio|dominio]].
+En el nivel de la realidad hablamos de entidades que tienen atributos, esto lo representamos en el modelo de [[Dominio|dominio]].
 
 ## Datos
-En el nivel de los datos tenemos ocurrencias de registros que tienen ocurrenciasd de elementos de datos, esto lo vemos en las tablas de datos.
+En el nivel de los datos tenemos ocurrencias de registros que tienen ocurrencias de elementos de datos, esto lo vemos en las tablas de datos.
 
 ## Metadatos
-En el nivel de los metadatos tenemos las definiciones de registros y las definiciones de los elementos de datos que contienen, esto se describe con un DDL.
+En el nivel de los metadatos tenemos las definiciones de registros y las definiciones de los elementos de datos que contienen, esto se describe con un DDL (Data Definition Language).

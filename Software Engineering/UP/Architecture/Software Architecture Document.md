@@ -8,10 +8,10 @@ Therefore, it should be written with this audience and goal in mind: What do I n
 2. **Process architecture**
 	- Procesos e hilos. Sus responsabilidades, colaboraciones y su la alocación de elementos lógicos a ellos.
 3. **Deployment architecture** describe el sistema en terminos de la alocación de procesos a unidades de procesamiento y la configuración de red. Resume la topología del sistema, comunicaciones y mapeo de los elementos ejecutables a nodos de procesamiento, es un término similar a arquitectura de sistema.
-	- Deployment físico de procesos y componentes a nodos de procesamiento y la configuración red física entre los nodos.
+	- Deployment físico de procesos y [[Componente|componentes]] a nodos de procesamiento y la configuración red física entre los nodos.
 	- Una vista al Deployment Model visualizado con [[Deployment Diagram|deployment diagrams]].
 4. **Data architecture**
-	- Vista general del esquema de datos persistentes, el esquema de mapeo de objetos a datos persistentes, el mecanismo de mapeo de objetos a [[DB|base de datos]], procedimientos almacenados en la [[DB|base de datos]] y triggers.
+	- Vista general del esquema de datos persistentes, el esquema de mapeo de objetos a datos persistentes, el mecanismo de mapeo de objetos a [[Bases de Datos|base de datos]], procedimientos almacenados en la [[Bases de Datos|base de datos]] y triggers.
 5. **Use case architecture**
 	- Resumen de los [[Use Case|casos de uso]] con mayor significancia arquitectónica y sus [[Requerimientos#Requerimientos no funcionales|requerimientos no funcionales]].
 	- Una vista al Use-Case Model, expresado en texto y visualizado con use case diagrams.
@@ -28,5 +28,5 @@ Therefore, it should be written with this audience and goal in mind: What do I n
 - Decisiones arquitectónicas y de diseño
 - Modelos de vistas
 - Descripción del comportamiento
-- Las [[Interfaz|interfaces]] entre los componentes
+- Las [[Interfaz|interfaces]] entre los [[Componente|componentes]]
 - Trazabilidad entre elementos.

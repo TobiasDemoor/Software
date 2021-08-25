@@ -1,5 +1,5 @@
 ## Problema
-¿Cómo diseñar componentes de manera que futuras variaciones e inestabilidades no tengan impacto en el funcionamiento de otros?
+¿Cómo diseñar [[Componente|componentes]] de manera que futuras variaciones e inestabilidades no tengan impacto en el funcionamiento de otros?
 
 ## Solución
 Identificar potenciales puntos de variación o inestabilidades y asignar responsabilidades para crear una [[Interfaz|Interfaz]] (contrato) estable alrededor de ellos.

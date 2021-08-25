@@ -3,7 +3,7 @@
  1. Los recursos son identificados mediante un esquema de naming único.
  2. Todos los servicios ofrecen la misma interfaz, consistente de como máximo 4 operaciones (PUT, GET, DELETE, POST).
  3. Los mensajes enviados para o desde el servicio son completamente auto descriptivos.
- 4. Luego de ejecutar una operación en un servicio, ese [[Component|componente]] olvida todo sobre el solicitante (**stateless excecution**).
+ 4. Luego de ejecutar una operación en un servicio, ese [[Componente|componente]] olvida todo sobre el solicitante (**stateless excecution**).
 
 ## Operaciones
 |Operation | Description                                             |

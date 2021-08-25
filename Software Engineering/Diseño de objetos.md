@@ -1,3 +1,4 @@
+%%[[OOP]]%%
 The design of objects can be broadly divided into two groups:
 1. Those chosen by **representational decomposition**.
 2. Those chosen by **behavioral decomposition**.

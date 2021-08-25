@@ -1,6 +1,6 @@
 ## Architectural styles
 %%En el contexto de los [[Distributed Systems|sistemas distribudios]] (DS) y la [[Distributed Systems Architecture|arquitectura de sistemas distribuidos]].%%
-El estilo arquitectónico es formulado en terminos de componentes, la manera en que conectan entre sí, la información intercambiada componentes, y finalmente cómo estos elementos están configurados en un sistema. Usando [[Component|componentes]] y [[Connector|conectores]], podemos lograr varias configuraciones, que pueden ser clasificadas en distintos estilos arquitectónicos.
+El estilo arquitectónico es formulado en terminos de componentes, la manera en que conectan entre sí, la información intercambiada componentes, y finalmente cómo estos elementos están configurados en un sistema. Usando [[Componente|componentes]] y [[Connector|conectores]], podemos lograr varias configuraciones, que pueden ser clasificadas en distintos estilos arquitectónicos.
 
 ### Layered architectures
 El concepto básico es el del [[Layers|patrón arquitectónico capas]]
@@ -12,9 +12,9 @@ Es importante comprender la diferencia entre un servicio ofrecido por una capa, 
 Para reforzar la distincion, consideremos un servicio orientado a conexión fiable, el cual es proveido por varios sistemas de comunicación. En este caso, un miembro de la comunicación primero debe establecer una conexión con el otro miembro antes que puedan enviar y recibir mensajes. El ser fiable significa que se da una importante garantía de que los mensajes enviados llegarán a destino, hasta cuando el riesgo de pérdida de mensajes sea alto. Además estos servicios generalmente aseguraan que los mensajes sean recibidos en el mismo orden que en el que fueron enviados. Este tipo de servicio se encuentra realizado en el [[TCP|Transmission Control Protocol (TCP)]].
 
 ### Object-based and Service-oriented architectures
-Una organización mucho más laxa es la de las **arquitecturas basadas en objetos**. En esencia, cada objeto corresponde a lo que definimos como [[Component|componente]], y estos componente están conectados a través de un mecanismo de llamada de procedimientos. En caso de un DS, una llamada a procedimiento puede tomar lugar a través de una red.
+Una organización mucho más laxa es la de las **arquitecturas basadas en objetos**. En esencia, cada objeto corresponde a lo que definimos como [[Componente|componente]], y estos componente están conectados a través de un mecanismo de llamada de procedimientos. En caso de un DS, una llamada a procedimiento puede tomar lugar a través de una red.
 
-Estas arquitecturas son atractivas ya que proveen una manera natural de [[Encapsulamiento|encapsular]] información (llamada **estado** de un objeto) y las operaciones que se pueden realizar sobre dicha información (llamados **métodos**) en una sola entidad ([[Object oriented programming|OOP]]). La [[Interfaz|interfaz]] ofrecida por un objeto oculta los detalles de implementación, lo cual esencialmente significa que podemos considerar a un objeto completamente independiente de su entorno.
+Estas arquitecturas son atractivas ya que proveen una manera natural de [[Encapsulamiento|encapsular]] información (llamada **estado** de un objeto) y las operaciones que se pueden realizar sobre dicha información (llamados **métodos**) en una sola entidad ([[OOP|OOP]]). La [[Interfaz|interfaz]] ofrecida por un objeto oculta los detalles de implementación, lo cual esencialmente significa que podemos considerar a un objeto completamente independiente de su entorno.
 
 Esta separación nos permite colocar una interfaz en una máquina mientras que el objeto en sí reside en otra. Esta organización se suele llamar objeto distribuido o **distributed object**.
 
@@ -26,7 +26,7 @@ Una continuación de esto son las **arquitecturas orientadas a servicios**. En l
 El problema central en desarrollar arquitecturas orientadas a servicios es el de composición de servicios o *service composition*, y asegurarse que esos servicios operan en harmonía.
 
 #### Resource-based architectures
-Como una alternativa a la vista centrada en servicios, uno puede ver a un DS como una gran colección de recursos que son administrados individualmente por [[Component|componentes]]. Los recursos pueden ser añadidos o removidos por aplicaciones remotas y a su vez pueden ser consultados o modificados. Este approach fue muy adoptado para la Web y es conocido como [[Representational State Transfer|Representational State Transfer (REST)]].
+Como una alternativa a la vista centrada en servicios, uno puede ver a un DS como una gran colección de recursos que son administrados individualmente por [[Componente|componentes]]. Los recursos pueden ser añadidos o removidos por aplicaciones remotas y a su vez pueden ser consultados o modificados. Este approach fue muy adoptado para la Web y es conocido como [[Representational State Transfer|Representational State Transfer (REST)]].
 
 #### Publish-subscribe architectures
 A medida que los sistemas siguen creciendo y los procesos pueden unirse e irse más fácilmente, es importante tener una arquitectura donde las dependencias entre procesos sean lo más sueltas posibles. Una gran clase de DS han adoptado una arquitectura en la que hay una gran separación entre *procesamiento* y *coordinación*. La idea es ver al sistema como una colección de procesos operando autónomamente. En este modelo, **coordinación** cubre la comunicacion y cooperación entre procesos. Forma el pegamento que une las actividades realizadas por procesos en un todo.

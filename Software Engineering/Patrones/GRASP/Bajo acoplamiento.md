@@ -5,7 +5,7 @@
 Asignar una [[Responsabilidad|responsabilidad]] de manera que el [[Acoplamiento|acoplamiento]] permanezca bajo.
 
 ## Ventajas
-- Los cambios se limitan a pocos componentes.
+- Los cambios se limitan a pocos [[Componente|componentes]].
 - Facilita la reutilización.
 
 ## Desventaja

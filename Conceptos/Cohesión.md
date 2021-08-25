@@ -1,1 +1,1 @@
-La cohesión se refiere al grado en que los elementos de un módulo permanecen juntos. Mide la fuerza de la relación entre las piezas dentro de un [[Component|componente]] dado. Algo cohesivo resuelve un problema puntual y por ende puede ser reutilizable.
+La cohesión se refiere al grado en que los elementos de un módulo permanecen juntos. Mide la fuerza de la relación entre las piezas dentro de un [[Componente|componente]] dado. Algo cohesivo resuelve un problema puntual y por ende puede ser reutilizable.

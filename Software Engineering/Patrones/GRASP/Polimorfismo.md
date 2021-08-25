@@ -1,5 +1,5 @@
 ## Problema
-¿Cómo evitar validación de tipos y/o crear componentes conectables?
+¿Cómo evitar validación de tipos y/o crear [[Componente|componentes]] conectables?
 
 ## Solución
 Cuando los comportamientos relacionados varíen según la clase utilice operaciones polimórficas.

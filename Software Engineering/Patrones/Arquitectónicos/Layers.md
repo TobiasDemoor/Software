@@ -15,7 +15,7 @@ El patrón Capas se relaciona con la [[Software Architecture#Views|logical archi
 El patrón define un modelo general de N niveles para la [[Software Architecture#Views|logical architecture]], produce una **arquitectura de capas**.
 
 ## Descripción
-Se organiza el sisteam en módulos/componentes con funcionalidad relacionada. Cada capa se organiza sobre los servicios de la inmediata inferior.
+Se organiza el sisteam en módulos/[[Componente|componentes]] con funcionalidad relacionada. Cada capa se organiza sobre los servicios de la inmediata inferior.
 
 ### Capas típicas
 - Presentation:

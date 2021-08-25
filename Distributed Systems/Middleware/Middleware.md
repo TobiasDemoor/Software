@@ -13,11 +13,11 @@ La principal diferencia que tienen con los sistemas operativos es que los servic
 En general hay dos [[Patrones|patrones de diseño]] que son aplicados usualmente a la organización del middleware, wrappers e interceptors. Cada uno apunta a diferentes problemas, pero ambos apuntan al mismo objetivo del middleware, lograr [[Distributed Systems#Apertura|apertura]].
 
 ### Wrappers
-Cuando se construye un DS a partir de [[Component|componentes]] existentes, inmediatamente nos topamos con un problema fundamental: las [[Interfaz|interfaces]] ofrecidas por el componente legacy muy probablemente no son aptas para todas las aplicaciones.
+Cuando se construye un DS a partir de [[Componente|componentes]] existentes, inmediatamente nos topamos con un problema fundamental: las [[Interfaz|interfaces]] ofrecidas por el componente legacy muy probablemente no son aptas para todas las aplicaciones.
 
 Un **wrapper** o [[Adapter|adapter]] es un componente especial que ofrece una interfaz aceptable a una aplicación cliente, de la cual las funciones son transformadas en las disponibles en el componente.
 
-Aunque originalmente fueron definidos en el contexto de [[Object oriented programming|OOP]], en el contexto de los sistemas distribuidos los wrappers son mucho más que un simple transformador de interfaces. Por ejemplo, un **object adapter** es un componente que permite a las aplicaciones invocar objetos remotos, aunque esos objetos puedan haber sido implementados como una combinación de funciones de librería operando sobre tablas de una base de datos relacional.
+Aunque originalmente fueron definidos en el contexto de [[OOP|OOP]], en el contexto de los sistemas distribuidos los wrappers son mucho más que un simple transformador de interfaces. Por ejemplo, un **object adapter** es un componente que permite a las aplicaciones invocar objetos remotos, aunque esos objetos puedan haber sido implementados como una combinación de funciones de librería operando sobre tablas de una base de datos relacional.
 
 Una tarea del middleware es minimizar la cantidad de estos wrappers, ya que si cada aplicación se conectara con todas las otras mediante un adapter distinto habría un número inmanejable. Una forma de lograr esto es implementando un **broker**, que es un componente centralizado que administra los accesos entre aplicaciones.
 ![[wrappers_1.png]]

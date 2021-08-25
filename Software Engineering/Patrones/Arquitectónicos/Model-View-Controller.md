@@ -2,7 +2,7 @@
 Mantener separadas del resto del sistema las modificaciones en la interfaz de usuario de modo que la vista únicamente tenga la [[Responsabilidad|responsabilidad]] de actuar como medio de entrada/salida del sistema. 
 
 ## Solución
-Separar la aplicación en tres componentes principales:
+Separar la aplicación en tres [[Componente|componentes]] principales:
 - **Model**: contiene los datos de la aplicación referidos al modelo de negocios.
 - **View**: muestra una determinada porción de los datos e interactúa con el usuario.
 - **Controller**: se encarga de mediar la interacción entre el modelo y la vista y maneja las notificacions de cambio de estado.

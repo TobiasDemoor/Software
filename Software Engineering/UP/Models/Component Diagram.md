@@ -1,2 +1,2 @@
 # Usos
-- Identificar los principales componentes del sistema y representarlos en una vista estructural.
+- Identificar los principales [[Componente|componentes]] del sistema y representarlos en una vista estructural.

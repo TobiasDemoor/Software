@@ -5,7 +5,7 @@ El objetivo de un framework es el de construir aplicaciones componiendo piezas d
 
 ## Consecuencias
 Las consecuencias de el uso adecuado de frameworks son:
-- Mayor productividad: se construye más software en menos tiempo ya que tenemos más componentes reutilizables.
+- Mayor productividad: se construye más software en menos tiempo ya que tenemos más [[Componente|componentes]] reutilizables.
 - Mayor calidad: los componentes reusados son más confiables ya que han sido validados mediante pruebas y son más maduros.
 - Mejora el mantenimiento: siempre que se utilicen componentes de software correctamente diseñados ya que hay menos código para mantener (siempre que el framework no sea candidato de generar fallas).
 En términos de atributos de calidad si es un framework maduro y provado por la industria favorece [[FURPS+#Reliability]] y la [[FURPS+#Mantainability]]. Los otros atributos se pueden ver favorecidos o perjudicados según el diseño del framework y el uso que se le esté dando.
