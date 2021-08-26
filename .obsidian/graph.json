@@ -3,7 +3,7 @@
   "search": "path:-\"Conceptos\"",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -67,6 +67,6 @@
   "repelStrength": 12.4786324786325,
   "linkStrength": 1,
   "linkDistance": 80,
-  "scale": 0.1846232622585928,
-  "close": true
+  "scale": 0.184623262258593,
+  "close": false
 }
