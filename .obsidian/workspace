@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "7229d766bcb4f19a",
+        "id": "0ba81800afdaa76d",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Distributed Systems/Architecture/Distributed Systems Architecture.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Distributed Systems/Architecture/Distributed Systems Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Distributed Systems/Architecture/Distributed Systems Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,19 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "7229d766bcb4f19a",
+  "active": "0ba81800afdaa76d",
   "lastOpenFiles": [
-    "Bases de Datos/Data Models/Modelo Relacional.md",
-    "Bases de Datos/Data Models/Data Model.md",
-    "Bases de Datos/Data Models/Modelo Orientado a Objetos.md",
-    "Bases de Datos/Data Models/Modelo Entidad Relación.md",
-    "Bases de Datos/Data Models/Modelo Conceptual.md",
-    "Bases de Datos/DBMS/RDBMS.md",
-    "Bases de Datos/DBMS/ODBMS.md",
-    "Bases de Datos/Data Models/Object data model.md",
-    "Bases de Datos/DBMS/DBMS.md",
-    "Bases de Datos/Data Models/Untitled.md"
+    "Distributed Systems/Architecture/Distributed Systems Architecture.md",
+    "Distributed Systems/Architecture/P2P systems.md",
+    "Distributed Systems/Concepts/Overlay Network.md",
+    "Distributed Systems/Distributed Systems.md",
+    "Redes de computadoras/Redes de computadoras.md",
+    "Distributed Systems/Concepts/Untitled.md",
+    "Distributed Systems/Untitled.md",
+    "Software Engineering/Concepts/Agile methodologies.md",
+    "Software Engineering/Concepts/Deuda técnica.md",
+    "Software Engineering/Concepts/Divergencia y convergencia.md"
   ]
 }
