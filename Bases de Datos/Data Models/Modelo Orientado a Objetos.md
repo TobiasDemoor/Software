@@ -1,0 +1,1 @@
+El [[Data Model|modelo de datos]] orientado a objetos defina a la [[Bases de Datos|base de datos]] en términos de [[OOP|objetos]], sus propiedades, y operaciones. 

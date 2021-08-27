@@ -1,0 +1,1 @@
+El [[Data Model|modelo de datos]] **relacional** representa la [[Bases de Datos|base de datos]] como una colección de tablas, donde cada tabla puede ser almacenada en un archivo separado. La mayoría de bases de datos relacionales usan el lenguaje de query de alto nivel [[SQL]] y soporta una versión limitada de vistas de usuario.

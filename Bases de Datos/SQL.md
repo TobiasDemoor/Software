@@ -1,0 +1,1 @@
+SQL es un lenguaje de programación diseñado para administrar, y recuperar información de sistemas de gestión de base de datos relacionales ([[RDBMS]])

@@ -53,14 +53,14 @@ ADD es un enfoque para definir una arquitectura de software que basa el proceso 
 # Diseñando la persistencia
 %%[[Bases de Datos]]%%
 Propiedades que se deben tener en cuenta:
-- ¿Qué se almacenará? (esto determina la tecnología que debemos usar, SQL vs NoSQL).
+- ¿Qué se almacenará? (esto determina la tecnología que debemos usar, [[SQL]] vs NoSQL).
 - Manejo de metadata (DDL y DML).
 - Integridad de datos.
 - Licencia y costos.
 - Gobernabilidad.
 - Tiempo de vida de los datos.
 - Formato de almacenamiento (datos, imágenes y documentos).
-- Objetos o datos. Serialización, ODBMS o RDBMS.
+- Objetos o datos. Serialización, [[ODBMS|ODBMS]] o [[RDBMS|RDMBS]].
 - [[Transacciones]].
 - Backup y restore.
 - Seguridad.

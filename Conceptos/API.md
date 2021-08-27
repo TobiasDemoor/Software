@@ -1,0 +1,1 @@
+Una API o **application programming interface** es un conjunto de definiciones y [[Protocolo|protocolos]] que se utiliza para desarrollar e integrar el software de aplicaciones.

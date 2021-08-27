@@ -1,4 +1,5 @@
 # Modelo Entidad Relación (MER)
+%%[[Modelo Conceptual]]%%
 El Modelo Entidad-Relación (MER) es una herramienta que permite realizar una abstracción o modelo de alguna situación de interés presente en el mundo real. El MER se realizará utilizando la técnica Diagramas de Entidad Relación ([[Diagrama Entidad Relación]]). Para construirlo necesitamos modelar las cosas u objetos existentes, sus características y sus relaciones.
 
 El MER se basa en los siguientes elementos:
