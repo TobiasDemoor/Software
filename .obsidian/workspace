@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Distributed Systems/Architecture/Distributed Systems Architecture.md",
-            "mode": "source"
+            "file": "Redes de computadoras/Modelos/Modelo OSI.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distributed Systems/Architecture/Distributed Systems Architecture.md",
+                "file": "Redes de computadoras/Modelos/Modelo OSI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distributed Systems/Architecture/Distributed Systems Architecture.md",
+                "file": "Redes de computadoras/Modelos/Modelo OSI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "0ba81800afdaa76d",
   "lastOpenFiles": [
+    "Redes de computadoras/Modelos/Modelo OSI.md",
+    "Redes de computadoras/Modelos/Modelo TCP IP.md",
+    "Redes de computadoras/TCP.md",
+    "Redes de computadoras/VPN.md",
+    "Redes de computadoras/Software de Redes.md",
+    "Redes de computadoras/Redes de computadoras.md",
     "Distributed Systems/Architecture/Distributed Systems Architecture.md",
     "Distributed Systems/Architecture/P2P systems.md",
     "Distributed Systems/Concepts/Overlay Network.md",
-    "Distributed Systems/Distributed Systems.md",
-    "Redes de computadoras/Redes de computadoras.md",
-    "Distributed Systems/Concepts/Untitled.md",
-    "Distributed Systems/Untitled.md",
-    "Software Engineering/Concepts/Agile methodologies.md",
-    "Software Engineering/Concepts/Deuda técnica.md",
-    "Software Engineering/Concepts/Divergencia y convergencia.md"
+    "Distributed Systems/Distributed Systems.md"
   ]
 }

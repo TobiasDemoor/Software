@@ -23,7 +23,7 @@ El modelo TCP/IP no tiene capas de sesión o de presentación, ya que no se cons
 Encima de la capa de transporte se encuentra la **capa de aplicación**. Ésta contiene todos los protocolos de alto nivel. Entre los primeros protocolos están el de terminal virtual (TELNET), transferencia de archivos (FTP) y correo electrónico (SMTP). A través de los años se han agregado muchos otros protocolos.
 
 ## Fortalezas
-En contraste al [[Modelo OSI|modelo de referencia OSI]], la fortaleza del [[Modelo TCP IP|modelo de referencia TCP/IP]] son los [[Protocolo|*protocolos*]], que se han utilizado mucho durante varios años.
+En contraste al [[Modelo OSI|modelo de referencia OSI]], la fortaleza del [[Modelo TCP IP|modelo de referencia TCP/IP]] son los *[[Protocolo|protocolos]]*, que se han utilizado mucho durante varios años.
 
 ## Análisis
 Al principio, el [[Modelo TCP IP|modelo TCP/IP]] no tenía una distinción clara entre los servicios, las interfaces y los protocolos, aunque las personas han tratado de reajustarlo a fin de hacerlo más parecido al [[Modelo OSI|OSI]]. Por ejemplo, los únicos servicios que realmente ofrece la capa de interred son *SEND IP PACKET* y *RECIEVE IP PACKET*. Como consecuancia, los protocolos en el [[Modelo OSI|modelo OSI]] están ocultos de una mejor forma que en el [[Modelo TCP IP|modelo TCP/IP]], además se pueden reemplazar con relativa facilidad a medida que la tecnología cambia. La capacidad de realizar dichos cambios con [[Transparencia|transparencia]] es uno de los principales propósitos de tener protocolos en capas en primer lugar ([[Layers|patron capas]]). 
