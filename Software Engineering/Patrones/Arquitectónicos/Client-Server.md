@@ -5,5 +5,5 @@ Existen recursos compartidos entre una gran cantidad de clientes distribuidos ([
 Los clientes interactúan mediante peticiones de servicios al servidor.
 
 ## Debilidades
-- El servidor puede ser un potencial cuello de botella para la [[FURPS+#Performance|performance]] del sistema y a su vez puede ser un único punto de falla.
+- El servidor puede ser un potencial cuello de botella para la [[Performance|performance]] del sistema y a su vez puede ser un único punto de falla.
 - A veces no es tan sencillo distribuir funcionalidades entre el cliente y el servidor

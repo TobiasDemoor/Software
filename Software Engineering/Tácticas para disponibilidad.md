@@ -1,3 +1,4 @@
+%%[[Tácticas]]%%
 ### Detección de fallas
 - Ping/echo: se utiliza tanto para conocer los tiempos de respuesta como para saber si el módulo está vivo o no.
 - System Monitor: [[Componente|componente]] que monitorea el estado de varios módulos del sistema, idealmente los críticos. El monitor puede detectar una falla y orquestar el inicio de alguna otra táctica que se encargue de recuperar el sistema del estado de falla.

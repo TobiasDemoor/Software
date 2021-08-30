@@ -1,7 +1,7 @@
 # Políticas
 - ¿Qué tipo de consistencia requerimos para los datos en el cache de cliente? 
 - ¿Que operaciones permitimos realizar a código descargado? 
-- ¿Como podemos acomdar el tipo de requerimientos cuando el ancho de banda varía? 
+- ¿Como podemos acomdar el tipo de requerimientos cuando el [[Ancho de banda|ancho de banda]] varía? 
 - ¿Qué grado de secreto necesitamos para la comunicación?
 
 # Mecanismos 

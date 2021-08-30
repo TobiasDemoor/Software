@@ -12,14 +12,14 @@ cssclass: clean-embeds
 La definición de Tannenbaum y Van Steen se refiere a dos características principales de los sistemas distribuidos. La primera es que un sistema distribuido es una colección de elementos autonomos de computacion (nodos). Los cuales pueden ser dispositivos de hardware o procesos de software. La segunda es que los usuarios o aplicaciones lo perciben como un sistema único (es [[Transparencia|transparente]]). Es decir que los nodos necesitan colaborar. Cómo establecer esta colaboración yace en el centro del desarrollo de los sistemas distribuidos.
 
 ### Colección de elementos autónomos
-Los sistemas distribuidos modernos usualmente están compuestos por todo tipo de nodos, desde equipos muy grandes y de altísima performance hasta computadores diminutos. Un principio fundamental es que los nodos pueden actuar independientemente de los otros. Los nodos están programados para lograr objetivos comunos, lo cual logran mediante el intercambio de **mensajes** entre ellos. Un nodo responde a los mensajes entrantes los cuales son procesados y desencadenan el envío de más mensajes perpetuando así la comunicación.
+Los sistemas distribuidos modernos usualmente están compuestos por todo tipo de nodos, desde equipos muy grandes y de altísima [[Performance|performance]] hasta computadores diminutos. Un principio fundamental es que los nodos pueden actuar independientemente de los otros. Los nodos están programados para lograr objetivos comunos, lo cual logran mediante el intercambio de **mensajes** entre ellos. Un nodo responde a los mensajes entrantes los cuales son procesados y desencadenan el envío de más mensajes perpetuando así la comunicación.
 Un observación relevante es que al estar tratando con nodos independientes no hay un **reloj global**, sino que cada [[Componente|componente]] tiene su propia noción del tiempo. La falta de esta referencia común lleva a preguntas fundamentales en lo que respecta a la **sincronización y coordinación** dentro del sistema.
-El hecho de trabajar con un conjunto de nodos también hace que tengamos que administrar la pertenencia a distintos **grupos** y la organización de estos. Es decir que debemos registrar que nodos pueden o no **pertenecer al sistema**. El manejo de la pertenencia a los distintos grupos es un tema complejo el cuál tiene un efecto sobre la performance del sistema y sobre la **seguridad** del mismo.
+El hecho de trabajar con un conjunto de nodos también hace que tengamos que administrar la pertenencia a distintos **grupos** y la organización de estos. Es decir que debemos registrar que nodos pueden o no **pertenecer al sistema**. El manejo de la pertenencia a los distintos grupos es un tema complejo el cuál tiene un efecto sobre la [[Performance|performance]] del sistema y sobre la **seguridad** del mismo.
 En lo que respecta a la **organización de la colección**, en la práctica se puede observar que los sistemas distribuidos usualmente están organizados como un [[Overlay Network|**overlay network**]]).
 
 ### Sistema único y coherente
 Como fue mencionado, un sistema distribuido debería aparentar ser un sistema único y coherente. Se podría afirmar que un sistema es coherente si su comportamiento se adecua a las expectativas del usuario. Más específicamente, en un sistema único y coherente la colección de nodos opera como un todo opera de la misma manera, sin importar dónde, cuándo, o cómo se lleve a cabo la interacción entre el usuario y el sistema.
-Para ofrecer una visión única y coherente se requiere que el usuario no pueda deterinar exactamente en cuál dispositvo se está ejecutando un proceso. Así mismo la localización de la información no debería ser relevante y tampoco debería ser relevante que el sistema esté replicando información para mejorar la performance. A esto se le llama **transparencia de distribución**.
+Para ofrecer una visión única y coherente se requiere que el usuario no pueda deterinar exactamente en cuál dispositvo se está ejecutando un proceso. Así mismo la localización de la información no debería ser relevante y tampoco debería ser relevante que el sistema esté replicando información para mejorar la [[Performance|performance]]. A esto se le llama **transparencia de distribución**.
 
 ## Objetivos de diseño
 ### Soportar compartir recursos
@@ -71,7 +71,7 @@ Cuando se viene de diseñar sistemas centralizados a diseñar sistemas distribui
 - La red es homogénea
 - La topología no cambia
 - La latencia es cero
-- El ancho de banda es infinito
+- El [[Ancho de banda|ancho de banda]] es infinito
 - El costo del transporte es cero
 - Existe un administrador
 

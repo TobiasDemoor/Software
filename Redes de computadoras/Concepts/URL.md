@@ -1,0 +1,1 @@
+Un **uniform resource locator** o **URL** es un tipo de [[URI]] cuyos recursos referidos pueden cambiar, esto es, la dirección puede apuntar a varios recursos variables en el tiempo.

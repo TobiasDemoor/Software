@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "0ba81800afdaa76d",
+        "id": "71cf20da2ef138ee",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de computadoras/Modelos/Modelo OSI.md",
-            "mode": "preview"
+            "file": "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de computadoras/Modelos/Modelo OSI.md",
+                "file": "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de computadoras/Modelos/Modelo OSI.md",
+                "file": "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,17 +106,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0ba81800afdaa76d",
+  "active": "71cf20da2ef138ee",
   "lastOpenFiles": [
-    "Redes de computadoras/Modelos/Modelo OSI.md",
-    "Redes de computadoras/Modelos/Modelo TCP IP.md",
-    "Redes de computadoras/TCP.md",
-    "Redes de computadoras/VPN.md",
-    "Redes de computadoras/Software de Redes.md",
-    "Redes de computadoras/Redes de computadoras.md",
-    "Distributed Systems/Architecture/Distributed Systems Architecture.md",
-    "Distributed Systems/Architecture/P2P systems.md",
-    "Distributed Systems/Concepts/Overlay Network.md",
-    "Distributed Systems/Distributed Systems.md"
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Untitled.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Fibra óptica.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Par trenzado.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Líneas eléctricas.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Medios de transmisión guiados.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Cable coaxial.md",
+    "Redes de computadoras/Concepts/Enlaces duplex y simplex.md",
+    "Redes de computadoras/Concepts/Untitled.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Modelo OSI.md"
   ]
 }

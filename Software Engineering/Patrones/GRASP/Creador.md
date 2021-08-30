@@ -11,7 +11,7 @@ B es una Creador de A, si se asigna a la clase B la [[Responsabilidad|responsabi
 
 ## Ventajas
 - [[Bajo acoplamiento]]
-- [[FURPS+#Mantainability|Mantenibilidad]]
+- [[Mantainability|Mantainability]]
 - Reutilización
 
 ## Desventajas

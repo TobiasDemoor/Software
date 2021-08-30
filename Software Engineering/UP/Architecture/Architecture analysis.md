@@ -5,10 +5,10 @@ El análisis arquitectónico empieza temprano en el desarrollo, durante la fase 
 - Evitar aplicar efuerzo por demás en problemas de baja prioridad.
 - Alinear el producto con los objetivos de negocio.
 
-El análsisi arquitectonico está enfocado en la identificación y resolución de los [[Requerimientos#Requerimientos no funcionales|requerimientos no funcionales]] del sistema en el contexto de sus [[Requerimientos#Requerimientos funcionales|requerimientos funcionales]]. En el [[Unified Process|UP]], el término incluye tanto **architectural investigation** (identificación) como **architectural design** (resolution). 
+El análsisi arquitectonico está enfocado en la identificación y resolución de los [[Requerimientos no funcionales|requerimientos no funcionales]] del sistema en el contexto de sus [[Requerimientos funcionales|requerimientos funcionales]]. En el [[Unified Process|UP]], el término incluye tanto **architectural investigation** (identificación) como **architectural design** (resolution). 
 
 # Pasos comunes
-1. Identificar y analizar los [[Requerimientos#Requerimientos no funcionales|requerimientos no funcionales]] que tienen un impacto en la [[Software Architecture|arquitectura]]. Los [[Requerimientos#Requerimientos funcionales|requerimientos funcionales]] también son relevantes (especialmente cuando se analiza la variabilidad o cambio), pero los no funcionales tienen el foco principal. En general estos pueden ser llamados **[[Architectural factors|factores de arquitectura]]** (o también **drivers de arquitectura**).
+1. Identificar y analizar los [[Requerimientos no funcionales|requerimientos no funcionales]] que tienen un impacto en la [[Software Architecture|arquitectura]]. Los [[Requerimientos funcionales|requerimientos funcionales]] también son relevantes (especialmente cuando se analiza la variabilidad o cambio), pero los no funcionales tienen el foco principal. En general estos pueden ser llamados **[[Architectural factors|factores de arquitectura]]** (o también **drivers de arquitectura**).
 	- Este paso se puede caracterizar como [[Ingeniería de Requerimientos#Fases del proceso de IR|análisis de requerimientos]] común, pero como está hecho en el contexto de identificar el impacto en la arquitectura y decidir las soluciones arquitectónicas de alto nivel, es considerado una parte del análisis arquitectónico en [[Unified Process|UP]]
 	- En términos de [[Unified Process|UP]], aguno de estos [[Requerimientos|requerimientos]] serán identificados y anotados en la Supplementary Specification o como [[Use Case|casos de uso]] durante la fase de [[Unified Process#Inception|inception]]. Durante el análisis arquitectónico, que ocurre en la [[Unified Process#Elaboration|elaboration]] temprana, el equipo investica esos [[Requerimientos|requerimientos]] más profundamente.
 2. Para esos requerimientos con impacto arquitectónico significativo, analizar alternativas y crear soluciones para resolver ese impacto. Estas son **decisiones de arquitectura**.
@@ -16,7 +16,7 @@ El análsisi arquitectonico está enfocado en la identificación y resolución d
 
 # Prioridades
 Hay una jerarquía de objetivos que guía las decisiones de arquitectura:
-1. [[Requerimientos#Restricciones]] inflexibles incluyendo seguridad y legales.
+1. [[Requerimientos no funcionales#Restricciones]] inflexibles incluyendo seguridad y legales.
 2. Objetivos de negocios.
 3. Todo el resto de los objetivos.
 

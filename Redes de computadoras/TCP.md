@@ -1,4 +1,0 @@
-# Transmission Control Protocol (TCP)
-Es un [[Software de Redes#Servicio orientado y no a la conexión|servicio orientado a la conexión]] (**connection-oriented service**) de comunicación que especifica qué mensajes deben ser intercambiados para establecer o desestablecer una conexión, qué necesita hacerse para preservar el ordenamiento de la información transmitida, y qué necesitan ambas partes para detectar y corregir información que fue perdida durante la transmisión ([[Protocolo|protocolo]].
-El servicio suele estar disponible como una interfaz de programación sencilla, que contiene las llamadas para establecer una conexión, enviar y recibir mensajes, y desestablecer la conexión.
-Es una pieza fundamental de la [[Modelo TCP IP#La capa de transporte|capa de transporte del modelo TCP/IP]]

@@ -13,7 +13,7 @@ Therefore, it should be written with this audience and goal in mind: What do I n
 4. **Data architecture**
 	- Vista general del esquema de datos persistentes, el esquema de mapeo de objetos a datos persistentes, el mecanismo de mapeo de objetos a [[Bases de Datos|base de datos]], procedimientos almacenados en la [[Bases de Datos|base de datos]] y triggers.
 5. **Use case architecture**
-	- Resumen de los [[Use Case|casos de uso]] con mayor significancia arquitectónica y sus [[Requerimientos#Requerimientos no funcionales|requerimientos no funcionales]].
+	- Resumen de los [[Use Case|casos de uso]] con mayor significancia arquitectónica y sus [[Requerimientos no funcionales|requerimientos no funcionales]].
 	- Una vista al Use-Case Model, expresado en texto y visualizado con use case diagrams.
 6. **Implementation architecture**
 	- Es un descripción resumida del conjunto de deliverables relevantes y las cosas que crean los deliverables (cómo el codigo fuente).
@@ -22,9 +22,9 @@ Therefore, it should be written with this audience and goal in mind: What do I n
 
 # Contenido
 - Caracterísiticas del producto
-- [[Requerimientos#Requerimientos funcionales|Requerimientos funcionales]]
-- [[Requerimientos#Requerimientos no funcionales|Requerimientos no funcionales]]
-- [[Requerimientos#Restricciones|Restricciones]]
+- [[Requerimientos funcionales|Requerimientos funcionales]]
+- [[Requerimientos no funcionales|Requerimientos no funcionales]]
+- [[Requerimientos no funcionales#Restricciones|Restricciones]]
 - Decisiones arquitectónicas y de diseño
 - Modelos de vistas
 - Descripción del comportamiento

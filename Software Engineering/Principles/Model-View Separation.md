@@ -5,7 +5,7 @@ A legitimate relaxation of this principle is the [[Observer]] pattern, where the
 A further part of this principle is that the domain classes encapsulate the information and behavior related to application logic. The window classes are relatively thin; they are responsible for input and output, and catching GUI events, but do not maintain data or directly provide application functionality.
 
 The motivation for Model-View Separation includes: 
-- To support cohesive model definitions that focus on the [[Software Engineering/Fundamentals/Dominio|domain]] processes, rather than on user interfaces.
+- To support cohesive model definitions that focus on the [[Dominio|domain]] processes, rather than on user interfaces.
 - To allow separate development of the model and user interface [[Layers|layers]].
 - To minimize the impact of [[Requerimientos|requirements]] changes in the interface upon the domain layer.
 - To allow new views to be easily connected to an existing domain layer, without affecting the domain layer. 

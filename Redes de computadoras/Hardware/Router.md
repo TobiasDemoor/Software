@@ -1,2 +1,1 @@
-%%En el contexto de [[Redes de computadoras]].%%
-Dispositivo que toma desiciones de por donde enviar los paquetes.
+Está posicionado en la [[Capa de red|capa de red]]. Dispositivo que toma desiciones de por donde enviar los paquetes, para esto desarma las tramas y las modifica. Es el dispositivo que permite unir dos [[Subred|subredes]].

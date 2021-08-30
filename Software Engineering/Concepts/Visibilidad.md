@@ -3,7 +3,7 @@
 Se entiende por **visibilidad** a la capacidad de un objeto de ver o tener referencia a otro objeto. Hay 4 formas cuando se está en el mismo espacio de memoria:
 
 ## De atributo
-La visibilidad de atributo desde A a B se da cuando B es un atributo de A. Es un tipo de acoplamiento muy fuerte que debe desprenderse del [[Software Engineering/Fundamentals/Dominio|dominio]].
+La visibilidad de atributo desde A a B se da cuando B es un atributo de A. Es un tipo de acoplamiento muy fuerte que debe desprenderse del [[Dominio|dominio]].
 Es una visibilidad relativamente permanente ya que persiste mientras A y B existan.
 Es la forma más común de visibilidad en sistemas OO.
 

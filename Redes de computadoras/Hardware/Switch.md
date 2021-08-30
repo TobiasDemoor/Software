@@ -1,0 +1,1 @@
+Está bien plantado en la capa 2 del [[Modelo OSI|modelo OSI]], no tocan el contenido de las tramas, solo rutean internamente.

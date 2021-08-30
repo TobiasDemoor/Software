@@ -1,6 +1,6 @@
 # Diagrama Entidad Relación (DER)
 ## Elementos de un DER
-### Entidades
+### Conjunto de Entidades
 Todos los conceptos, cosas u objetos del mundo real que queremos modelar constituyen las entidades de nuestro modelo. *Las entidades se denotan con un rectángulo, con el nombre dentro de él.*
 El nombre de la entidad lo escribimos en singular. Debe ser claro y explícito de la información contenida en la entidad, ya que nos da la semántica de la entidad.
 Las entidades pueden ser **fuertes** o **débiles**. Las entidades fuertes son aquellas que tienen una existencia independiente de cualquier otra entidad, se identifican sólo por atributos propios. Las entidades débiles son aquellas que derivan su existencia de otra entidad y necesitan la identificación de dicha entidad para distinguirse de otras.

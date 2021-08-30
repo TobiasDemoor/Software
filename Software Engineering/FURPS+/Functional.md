@@ -1,0 +1,2 @@
+# Functional
+Por supueso que se debe considerar como un elemento curcial de la calidad del software el cumplimiento de los [[Requerimientos funcionales|requerimientos funcionales]]. Dentro de este atributo entran las features, capabilities y la seguridad.

@@ -38,8 +38,8 @@ Se tiene un buen diseño cuando:
 # Aplicaciones OO
 La [[OOP|OO]] representa hoy el mejor framework metodológico para la ingeniería de software gracias al pragmatismo del paradigma y la sitematisación de procesos que permite. Brinda homogeneidad a través del análisis, diseño e implementación (siempre trabajamos con entidades). Pone el énfasis en el estado, comportamiento e interacción de objetos. Trae consigo las ventajas de la maduración y los patrones de prácticas. Se tienen variedad de técnicas, métodos, procesos, estándares, modelos, notaciones, herramientas, componentes, lenguajes, ambientes, ejemplos, comunidad, práctica y experiencia.
 
-# Diseño de [[Requerimientos#Atributos de Calidad|QA]]
-Primero se deben identificar los [[Requerimientos#Requerimientos no funcionales|RNF]] y priorizar por su impacto en la arquitectura (poniendo el foco en [[FURPS+]]). Luego debemos seleccionar uno y buscar alternativas de implementación para crear la solucion elegida (las alternativas y las decisiones que se tomen deben ir al [[Software Architecture Document|SAD]]). Estas actividades son iterativas hasta el nivel de detalle que se desee o atributos de calidad a atender.
+# Diseño de QA
+Primero se deben identificar los [[Requerimientos no funcionales|RNF]] (dentro de los que se encuentran los QA) y priorizar por su impacto en la arquitectura (poniendo el foco en [[FURPS+]]). Luego debemos seleccionar uno y buscar alternativas de implementación para crear la solucion elegida (las alternativas y las decisiones que se tomen deben ir al [[Software Architecture Document|SAD]]). Estas actividades son iterativas hasta el nivel de detalle que se desee o atributos de calidad a atender.
 
 ## Attribute Driven Design
 ADD es un enfoque para definir una arquitectura de software que basa el proceso de descomposición en los atributos de calidad que debe cumplir el software. Se aplica luego de tener una división en módulos generales.
@@ -64,9 +64,9 @@ Propiedades que se deben tener en cuenta:
 - [[Transacciones]].
 - Backup y restore.
 - Seguridad.
-- [[FURPS+#Reliability|Disponibilidad]] (centralizada vs distribuida).
+- [[Reliability|Disponibilidad]] (centralizada vs distribuida).
 - [[Escalabilidad|Escalabilidad]].
-- [[FURPS+#Performance]]
+- [[Performance]]
 
 Depende el nivel que estemos analizando tenemos distintos elementos a los cuales estudiar.
 

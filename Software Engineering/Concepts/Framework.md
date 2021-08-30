@@ -1,4 +1,4 @@
-Un framework es una aplicación reusable y "semi completa", que puede ser especializada para integrarse a otra aplicación. Es una colección de clases que en conjunto constituyen una solución genérica, a una familia de requerimientos de un [[Software Engineering/Fundamentals/Dominio|dominio]] específico.
+Un framework es una aplicación reusable y "semi completa", que puede ser especializada para integrarse a otra aplicación. Es una colección de clases que en conjunto constituyen una solución genérica, a una familia de requerimientos de un [[Dominio|dominio]] específico.
 
 ## Objetivo
 El objetivo de un framework es el de construir aplicaciones componiendo piezas de software reusables.
@@ -8,7 +8,7 @@ Las consecuencias de el uso adecuado de frameworks son:
 - Mayor productividad: se construye más software en menos tiempo ya que tenemos más [[Componente|componentes]] reutilizables.
 - Mayor calidad: los componentes reusados son más confiables ya que han sido validados mediante pruebas y son más maduros.
 - Mejora el mantenimiento: siempre que se utilicen componentes de software correctamente diseñados ya que hay menos código para mantener (siempre que el framework no sea candidato de generar fallas).
-En términos de atributos de calidad si es un framework maduro y provado por la industria favorece [[FURPS+#Reliability]] y la [[FURPS+#Mantainability]]. Los otros atributos se pueden ver favorecidos o perjudicados según el diseño del framework y el uso que se le esté dando.
+En términos de atributos de calidad si es un framework maduro y provado por la industria favorece [[Reliability]] y la [[Mantainability]]. Los otros atributos se pueden ver favorecidos o perjudicados según el diseño del framework y el uso que se le esté dando.
 
 ### Ventajas
  - Reutilización de código y diseño.
