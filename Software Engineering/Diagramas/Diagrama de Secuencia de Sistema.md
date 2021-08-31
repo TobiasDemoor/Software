@@ -1,0 +1,1 @@
+Muestra como se desarrolla una interacción entre varios [[Componente|componentes]] a través del tiempo.

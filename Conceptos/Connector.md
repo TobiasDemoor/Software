@@ -1,0 +1,1 @@
+Es un mecanismo que media la comunicación, coordinación o cooperación entre [[Componente|componentes]]. En otras palabras un conector permite el flujo de control e información entre componentes.

@@ -31,7 +31,7 @@ Al principio, el [[Modelo TCP IP|modelo TCP/IP]] no tenía una distinción clara
 ## Críticas
 Primero que nada como fue mencionado antes el [[Modelo TCP IP|modelo]] no diferencia con claridad los conceptos de servicios, interfaces y protocolos. La buena práctica de la ingeniería de software requiere una distinción entre la especificación y la implementación, algo que [[Modelo OSI|OSI]] hace con mucho cuidado y que TCP/IP no. En consecuencia, el modelo TCP/IP no sirve mucho de guía para diseñar modernas redes que utilicen nuevas tecnologías.
 
-Segundo, el modelo TCP/IP no es nada general y no es muy apropiado para describir cualquier pila de protocolos aparte de TCP/IP. Por ejemplo, es imposible tratar de usar el modelo TCP/IP para describir Bluetooth.
+Segundo, el modelo TCP/IP no es nada general y no es muy apropiado para describir cualquier [[Pila de protocolos|pila de protocolos]] aparte de TCP/IP. Por ejemplo, es imposible tratar de usar el modelo TCP/IP para describir Bluetooth.
 
 Tercero, la capa de enlace en realidad no es una capa en el sentido normal del término como se utiliza en el contexto de los protocolos en capas ([[Layers|patrón capas]]. Es una [[Interfaz|interfaz]] (entre las capas de red y de enlace de datos). La diferencia entre una interfaz y una capa es crucial, y hay que tener mucho cuidado al respecto.
 

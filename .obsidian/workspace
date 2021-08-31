@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
+            "file": "Distributed Systems/Architecture/Client-Server.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ipc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
+                "file": "Distributed Systems/Architecture/Client-Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
+                "file": "Distributed Systems/Architecture/Client-Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "71cf20da2ef138ee",
   "lastOpenFiles": [
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Untitled.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Transmisión por ondas de luz.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Transmisión inalámbrica.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Transmisión infrarroja.md",
-    "Redes de computadoras/Protocolos/HTTP.md",
-    "Redes de computadoras/Hardware/Switch.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Radiotransmisión.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Transmisión por microondas.md",
-    "Redes de computadoras/Regulaciones/Regulación del espectro electromagnético.md"
+    "Software Engineering/Patrones/Arquitectónicos/Client-Server.md",
+    "Software Engineering/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
+    "Software Engineering/Patrones/Arquitectónicos/Model-View-Controller.md",
+    "Software Engineering/Patrones/Arquitectónicos/Layers.md",
+    "Software Engineering/Patrones/Arquitectónicos/Data mapper.md",
+    "Distributed Systems/Architecture/Distributed Systems Architecture.md",
+    "Redes de computadoras/Estándares/WiFi.md",
+    "Distributed Systems/Architecture/P2P systems.md",
+    "Distributed Systems/Architecture/Pila de protocolos.md",
+    "Distributed Systems/Architecture/Architectural style.md"
   ]
 }

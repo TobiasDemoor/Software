@@ -1,1 +1,0 @@
-Es un mecanismo que media la comunicación, coordinación o cooperación entre [[Componente|componentes]]. Por ejemplo un conector puede estar formado por las facilidades para ejecutar [[Remote Procedure Calls]], pase de mensajes o streaming de datos. En otras palabras un conector permite el flujo de control e información entre componentes.

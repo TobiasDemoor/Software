@@ -1,4 +1,4 @@
-Una **overlay network** o red superpuesta es una red donde los nodos están formados por los procesos y los vínculos representan los posibles canales de comunicación (que suelen realizarse con conexiones [[TCP|TCP]]). Un nodo puede no ser capaz de comunicarse directamente con otro nodo arbitrario, pero es necesario enviar mensajes a través de los canales de comunicación disponibles.
+Una **overlay network** o red superpuesta es una red donde los nodos están formados por los procesos y los vínculos representan los posibles canales de comunicación (que suelen realizarse con conexiones [[TCP|TCP]]), que está construida sobre una o más [[Redes de computadoras|redes]] subyacentes (underlying network). Un nodo puede no ser capaz de comunicarse directamente con otro nodo arbitrario, pero es necesario enviar mensajes a través de los canales de comunicación disponibles.
 
 Hay dos tipos generales de overlay networks:
 **Structured overlay**: En este caso cada nodo tiene un conjunto bien definido de vecinos con los cuales puede comunicarse. Por ejemplo, una estructura de arbol o de anillo.

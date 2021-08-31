@@ -6,7 +6,7 @@ En realidad no se transfieren datos de manera directa desde la capa n de una má
 
 Entre cada par de capas adyacentes hay una [[Interfaz|interfaz]]. Ésta define las operaciones y servicios primitivos que pone la capa más baja a disposición de la capa superior inmediata.
 
-A un conjunto de capas y protocolos se le conoce como **arquitectura de red**. A la lista de los protocolos utilizados por cierto sistema se le conoce como **pila de protocolos**.
+A un conjunto de capas y protocolos se le conoce como **arquitectura de red**. A la lista de los protocolos utilizados por cierto sistema se le conoce como **[[Pila de protocolos|pila de protocolos]]**.
 
 ## Servicio orientado y no a la conexión
 El servicio **orientado a la conexión** está modelado a partir del sistema telefónico. Para usar un servicio de [[Redes de computadoras|red]] orientado a la conexión, el usuario del servicio establece primero una conexión, la utiliza y después la libera.
@@ -23,7 +23,7 @@ Al servicio sin conexión no confiable (que significa sin confirmación de recep
 En otros casos es conveniente no tener que establecer una conexión para enviar un mensaje, pero la confiabilidad es esencial. En estas aplicaciones se puede utilizar el servicio de **datagramas con confirmación de recepción**. Es como enviar una carta certificada y solicitar una confirmación de recepción. Al regresar la confirmación de recepción el emisor tiene la absoluta certeza de que la carta se entregó al destinatario correcto y que no se perdió en el camino. La mensajería de texto en los teléfonos móviles es un ejemplo.
 
 ## Primitivas de servicios
-Un servicio se puede especificar de manera formal como un conjunto de **primitivas** (operaciones) disponibles a los procesos de usuario para que accedan al servicio. Estas primitivas le indican al servicio que desarrollen alguna acción o que informen sobre la acción que haya tomado una entidad par. Si la pila de protocolos se encuentra en el sistema operativo, como se da en la mayoría de los casos, por lo general las primitivas son llamadas al sistema. Estas llamadas provocan un salto al modo de kernel, que a su vez devuelve el control de la máquina al sistema operativo para que envíe los paquetes necesarios.
+Un servicio se puede especificar de manera formal como un conjunto de **primitivas** (operaciones) disponibles a los procesos de usuario para que accedan al servicio. Estas primitivas le indican al servicio que desarrollen alguna acción o que informen sobre la acción que haya tomado una entidad par. Si la [[Pila de protocolos|pila de protocolos]] se encuentra en el sistema operativo, como se da en la mayoría de los casos, por lo general las primitivas son llamadas al sistema. Estas llamadas provocan un salto al modo de kernel, que a su vez devuelve el control de la máquina al sistema operativo para que envíe los paquetes necesarios.
 
 ## Relación Servicio-Protocolo
 Un *servicio* es un conjunto de primitivas (operaciones) que una capa proporciona a la capa que está encima de ella. El servicio define que operaciones puede realizar la capa en beneficio de sus usuario, pero no dice nada sobre cómo se implementan estas operaciones. Un servicio se relaciona con una [[Interfaz|interfaz]] entre dos capas, en donde la capa inferior es el proveedor del servicio y la capa superior es el usuario.
