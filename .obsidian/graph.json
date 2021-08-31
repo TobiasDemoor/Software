@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:-\"Conceptos\"",
+  "search": "path:(-\"Conceptos\")",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "path:AI",
+      "query": "path:\"Inteligencia Artificial\"",
       "color": {
         "a": 1,
         "rgb": 1148639
@@ -67,6 +67,6 @@
   "repelStrength": 12.4786324786325,
   "linkStrength": 1,
   "linkDistance": 80,
-  "scale": 0.13168724279836427,
+  "scale": 0.1316872427983644,
   "close": true
 }

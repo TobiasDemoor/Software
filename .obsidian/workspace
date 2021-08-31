@@ -110,13 +110,13 @@
   "lastOpenFiles": [
     "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
     "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Untitled.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Fibra óptica.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Par trenzado.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Líneas eléctricas.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Medios de transmisión guiados.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios guiados/Cable coaxial.md",
-    "Redes de computadoras/Concepts/Enlaces duplex y simplex.md",
-    "Redes de computadoras/Concepts/Untitled.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Modelo OSI.md"
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Transmisión por ondas de luz.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Transmisión inalámbrica.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Transmisión infrarroja.md",
+    "Redes de computadoras/Protocolos/HTTP.md",
+    "Redes de computadoras/Hardware/Switch.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Radiotransmisión.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Medios no guiados/Transmisión por microondas.md",
+    "Redes de computadoras/Regulaciones/Regulación del espectro electromagnético.md"
   ]
 }
