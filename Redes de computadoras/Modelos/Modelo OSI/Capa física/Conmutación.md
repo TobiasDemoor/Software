@@ -1,0 +1,23 @@
+Hoy en día se utilizan dos técnicas de conmutación diferentes en las redes: conmutación de circuitos y conmutación de paquetes. El sistema telefónico tradicional está basado en la conmutación de circuitos, aunque la conmutación de paquetes está empezando a tener avances significativos con el surgimiento de la tecnología de voz sobre IP.
+
+![[conmutacion_1.png]]
+
+![[conmutacion_2.png]]
+
+### Conmutación de circuitos
+En teoría, cuando usted o su computadora hacen una llamada telefónica, el equipo de conmutación dentro del sistema telefónico busca una trayectoria física desde su teléfono hasta el teléfono del receptor. Esta técnica se conoce como **conmutación de circuitos**.
+
+Una propiedad importante de la conmutación de circuitos es la necesidad de establecer una trayectoria de extremo a extremo antes de poder enviar datos. El tiempo transcurrido desde el fin de la marcación hasta que el timbre empieza a sonar puede ser fácilmente de 10 seg, y puede ser aún mayor en las llamadas de larga distancia o internacionales. Durante este intervalo, el sistema telefónico está buscando una trayectoria.
+
+Como consecuencia de la trayectoria reservada entre las partes que participan en la llamada, una vez que se completa el establecimiento, el único retardo de los datos es el tiempo de propagación de la señal electromagnética, alrededor de 5 mseg por cada 1000 km. Además, como consecuencia de la trayectoria establecida, no hay peligro de [[Congestión|congestión]]; es decir, una vez que entra la llamada, no hay posibilidad de obtener señales de ocupado. Claro que podría obtener una antes de establecer la conexión debido a la falta de la capacidad de conmutación o de troncal
+
+### Conmutacion de paquetes
+La alternativa a la conmutación de circuitos se llama **conmutación de paquetes**. Con esta tecnología, los paquetes se envían tan pronto como están disponibles. No hay necesidad de establecer una ruta dedicada de antemano, a diferencia de la conmutación de circuitos. Los [[Router|enrutadores]] usan transmisión de almacenamiento y envío para enviar cada paquete a su destino por separado. En la conmutación de paquetes no hay una trayectoria fija, por lo que los distintos paquetes pueden seguir diferentes trayectorias, dependiendo de las condiciones de red al momento en que se enviaron, y por lo tanto pueden llegar desordenados.
+
+Las redes de conmutación de paquetes imponen un límite superior estrecho sobre el tamaño de los paquetes. Esto asegura que ningún usuario pueda monopolizar una línea de transmisión por mucho tiempo (es decir, muchos milisegundos), de modo que las redes de conmutación de paquetes pueden manejar tráfico interactivo. También se reduce el retardo, ya que el primer paquete de un mensaje largo se puede reenviar antes de que haya llegado el segundo por completo. Sin embargo, el retardo de almacenamiento y reenvío por acumular un paquete en la memoria del enrutador antes de enviarlo al siguiente enrutador es mayor que en la conmutación de circuitos. En la conmutación de circuitos, los bits simplemente fluyen por el cable en forma continua
+
+La conmutación de paquetes y la de circuitos también difieren en otros aspectos. Como en la conmutación de paquetes no se reserva [[Ancho de banda|ancho de banda]], tal vez los paquetes tengan que esperar a ser reenviados. Esto introduce **retardo de encolamiento** y [[Congestión|congestión]] si se envían muchos paquetes al mismo tiempo. Por otra parte, no hay peligro de obtener un tono de ocupado o de no poder usar la red. Así, la [[Congestión|congestión]] ocurre en distintos tiempos en la conmutación de circuitos (al momento de establecer la llamada) y en la conmutación de paquetes (al momento de enviar los paquetes).
+
+Si se reservó un circuito para un usuario específico y no hay tráfico, se desperdicia su ancho de banda. No se puede usar para otro tráfico. La conmutación de paquetes no desperdicia ancho de banda y, por ende, es más eficiente desde la perspectiva del sistema. Entender este compromiso es crucial para comprender la diferencia entre la conmutación de circuitos y la conmutación de paquetes. ==El compromiso está entre un servicio garantizado con desperdicio de recursos contra un servicio no garantizado pero sin desperdicio de recursos==.
+
+La conmutación de paquetes es más tolerante a errores que la conmutación de circuitos. De hecho, es la razón por la que se inventó. Si un conmutador falla, se terminan todos los circuitos que lo utilizan y no se puede enviar más tráfico a través de ninguno de ellos. En la conmutación de paquetes, se pueden encaminar paquetes alrededor de interruptores inhabilitados.
