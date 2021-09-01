@@ -103,15 +103,15 @@
   },
   "active": "71cf20da2ef138ee",
   "lastOpenFiles": [
+    "Redes de computadoras/Modelos/Modelo OSI/Modelo OSI.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa de aplicación.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa de transporte.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa de red.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa de enlace de datos.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa física^extracto.md",
     "Redes de computadoras/Regulaciones/Regulación del espectro electromagnético.md",
     "Redes de computadoras/Internet.md",
-    "Software Engineering/Concepts/Visibilidad.md",
-    "Software Engineering/Concepts/Tácticas.md",
-    "Software Engineering/Concepts/Responsabilidad.md",
-    "Software Engineering/Concepts/Relaciones entre clases.md",
-    "Software Engineering/Concepts/Multitenancy.md",
-    "Software Engineering/Concepts/Operación de sistema.md",
-    "Software Engineering/Concepts/Fault, Failure.md",
-    "Software Engineering/Concepts/Divergencia y convergencia.md"
+    "Software Engineering/Concepts/Visibilidad.md"
   ]
 }
