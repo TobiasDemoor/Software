@@ -5,7 +5,9 @@ Todos los conceptos, cosas u objetos del mundo real que queremos modelar constit
 El nombre de la entidad lo escribimos en singular. Debe ser claro y explícito de la información contenida en la entidad, ya que nos da la semántica de la entidad.
 Las entidades pueden ser **fuertes** o **débiles**. Las entidades fuertes son aquellas que tienen una existencia independiente de cualquier otra entidad, se identifican sólo por atributos propios. Las entidades débiles son aquellas que derivan su existencia de otra entidad y necesitan la identificación de dicha entidad para distinguirse de otras.
 Las entidades fuertes se denotan con un rectángulo con línea simple. *Las entidades débiles se denotan con un rectángulo con línea doble.*
+
 ![[der_entidades_fuertes_1.png]]
+
 ![[der_entidades_debiles_1.png]]
 
 ### Atributos
@@ -13,10 +15,12 @@ Los atributos describen a las entidades. Son la información concreta que querem
 ![[der_atributos_1.png]]
 
 #### Atributos identificatorios
-Los elementos de cualquier entidad se distinguen por el valor de algún atributo identificatorio (o de varios atributos en conjunto). A este atributo (o conjunto de atributos) se lo denomina **clave primaria** (PK – Primary Key).
-La clave primaria es un **conjunto minimal** (que no tiene elementos redundantes) de atributos identificatorios y *se denota subrayando a los mismos con una línea continua*. **Toda** entidad debe tener indefectivlemente una clave primaria.
-Hay ocasiones donde hay más de un atributo que distingue unívocamente a los elementos de una entidad, en forma independiente uno de otro (por ejemplo, un empleado que se distinga por su número de legajo o por su CUIL). Todos ellos son **claves candidatas**, y se deberá elegir uno de ellos como clave primaria. Las claves candidatas no se modelan en el [[Modelo Entidad Relación|MER]], recién lo veremos al trabajar con el [[Modelo Relacional|Modelo Relacional]].
-Se llama **discriminante** o **clave parcial** al conjunto de atributos que se usa para distinguir una entidad débil de las otras con la misma relación. Se *identifican mediante un subrayado discontinuo*.
+Los elementos de cualquier entidad se distinguen por el valor de algún atributo identificatorio (o de varios atributos en conjunto). A este atributo (o conjunto de atributos) se lo denomina **clave primaria** (PK – Primary Key). La clave primaria es un **conjunto minimal** (que no tiene elementos redundantes) de atributos identificatorios y *se denota subrayando a los mismos con una línea continua*. **Toda** entidad debe tener indefectivlemente una clave primaria.
+
+Hay ocasiones donde hay más de un atributo que distingue unívocamente a los elementos de una entidad, en forma independiente uno de otro (por ejemplo, un empleado que se distinga por su número de legajo o por su CUIL). Todos ellos son **claves candidatas**, y se deberá elegir uno de ellos como clave primaria. Las claves candidatas no se modelan en el [[Modelo Entidad Relación|MER]], recién lo veremos al trabajar con el [[Modelo Lógico Relacional|Modelo Relacional]].
+
+Se llama **discriminante** o **clave parcial** al conjunto de atributos que se usa para distinguir una entidad débil de las otras con la misma relación o para distinguir una interrelacion N:M de otra con las mismas entidades participantes. Se *identifican mediante un subrayado discontinuo*.
+
 ![[der_atributos_identificatorios_1.png]]
 
 #### Atributo cálculado

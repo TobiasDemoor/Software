@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "71cf20da2ef138ee",
+        "id": "2f118abdb74e56ca",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,12 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,17 +106,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "71cf20da2ef138ee",
+  "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Redes de computadoras/Modelos/Modelo OSI/Modelo OSI.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa de aplicación.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa de transporte.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa de red.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa de enlace de datos.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física/Capa física.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa física^extracto.md",
-    "Redes de computadoras/Regulaciones/Regulación del espectro electromagnético.md",
-    "Redes de computadoras/Internet.md",
-    "Software Engineering/Concepts/Visibilidad.md"
+    "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
+    "Bases de Datos/Concepts/Normalization.md",
+    "Bases de Datos/Data Models/Untitled.md",
+    "Bases de Datos/Concepts/Denormalization.md",
+    "Bases de Datos/Concepts/Data Independence.md",
+    "Bases de Datos/Concepts/Integrity constraints.md",
+    "Redes de computadoras/Conceptos/Untitled.md",
+    "Bases de Datos/Data Models/Modelo Entidad Relación.md",
+    "Bases de Datos/Bases de Datos.md"
   ]
 }

@@ -5,6 +5,6 @@ Además de las operaciones básicas, es común incluir conceptos en el data mode
 Los data model se pueden clasificar según su nivel de [[Abstracción|abstracción]] en:
 * [[Modelo Conceptual|**Conceptual data models**]]: de alto nivel, por ejemplo [[Modelo Entidad Relación]].
 * **Physical data models**: de bajo nivel.
-* **Representational data models** o implementation data models: en el medio de los anteriores, por ejemplo [[Modelo Relacional]], [[Modelo Orientado a Objetos]].
+* **Representational data models** o implementation data models: en el medio de los anteriores, por ejemplo [[Modelo Lógico Relacional]], [[Modelo Orientado a Objetos]].
 
 En un data model es importante distinguir entre la *descripción* de la [[Bases de Datos|base de datos]] y la *base de datos en sí*. La descripción de la base de datos es llamado **database schema** o esquema de base de datos, el cual es especificado durante el diseño de base de datos y no es esperado que cambie con frecuencia. Los datos en la bases de datos en un momento particular reciben el nombre de **database state** (estado de base de datos) o **snapshot** (foto).

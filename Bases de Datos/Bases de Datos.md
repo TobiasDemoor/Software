@@ -30,4 +30,4 @@ Una técnica para diseñar bases de datos es la **Metodología de Diseño Lógic
 2. Transformación del MER a Relaciones
 3. Normalización de las Relaciones.
 
-[[Requerimientos|Requerimientos]] ←> Diseño conceptual ([[Modelo Entidad Relación|MER]]) ←> Diseño lógico ([[Modelo Relacional|MR]]) ←> Normalización ←> Diseño Físico ←> DB
+[[Requerimientos|Requerimientos]] ←> Diseño conceptual ([[Modelo Entidad Relación|MER]]) ←> Diseño lógico ([[Modelo Lógico Relacional|MR]]) ←> Normalización ←> Diseño Físico ←> DB
