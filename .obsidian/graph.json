@@ -8,21 +8,21 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Software Engineering/Patrones\"",
+      "query": "path:\"Análisis y Diseño/Patrones\"",
       "color": {
         "a": 1,
         "rgb": 16736609
       }
     },
     {
-      "query": "path:\"Software Engineering\"",
+      "query": "path:\"Análisis y Diseño\"",
       "color": {
         "a": 1,
         "rgb": 14096665
       }
     },
     {
-      "query": "path:\"Conceptos\"",
+      "query": "path:\"Sistemas Operativos\"",
       "color": {
         "a": 1,
         "rgb": 16777215
@@ -43,7 +43,7 @@
       }
     },
     {
-      "query": "path:\"Distributed Systems/\"",
+      "query": "path:\"Sistemas Distribuidos\"",
       "color": {
         "a": 1,
         "rgb": 11613168
@@ -67,6 +67,6 @@
   "repelStrength": 12.4786324786325,
   "linkStrength": 1,
   "linkDistance": 80,
-  "scale": 0.09392927902847754,
+  "scale": 0.0939292790284776,
   "close": true
 }

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+            "file": "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "conmutacion",
+                "query": "cdn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+                "file": "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+                "file": "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
-    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
-    "Bases de Datos/Concepts/Normalization.md",
-    "Bases de Datos/Data Models/Untitled.md",
-    "Bases de Datos/Concepts/Denormalization.md",
-    "Bases de Datos/Concepts/Data Independence.md",
-    "Bases de Datos/Concepts/Integrity constraints.md",
-    "Redes de computadoras/Conceptos/Untitled.md",
-    "Bases de Datos/Data Models/Modelo Entidad Relación.md",
-    "Bases de Datos/Bases de Datos.md"
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
+    "Sistemas Distribuidos/Distribution Transparency.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Centralized organizations.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
+    "Sistemas Distribuidos/Distributed Systems.md",
+    "Sistemas Distribuidos/Architecture/Distributed Systems Architecture.md",
+    "Conceptos/máquina virtual.md",
+    "Redes de computadoras/Software de Redes.md",
+    "Conceptos/virtual.md",
+    "Conceptos/Virtualización.md"
   ]
 }

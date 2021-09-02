@@ -14,7 +14,7 @@ Hay distintos tipos de transparencia definidos en la ISO Reference Model-Open Di
 | Fallo         | Oculta el fallo y la recuperación de un objeto                                             |
 
 ##### Transparencia de acceso
-Ocultar las diferencias en representación de datos y la forma en que el usuario accede a los recursos (arquitecturas, OS). En un nivel básico queremos ocultar las diferencias en las arquitecturas, pero es aún más importante el llegar a un acuerdo en cómo se representa la información. Por ejemplo, podríamos tener en un sistema distribuido computadoras con distintos sistemas operativos, que tienen diferentes convenciones para nombrar archivos.
+Ocultar las diferencias en representación de datos y la forma en que el usuario accede a los recursos (arquitecturas, OS). En un nivel básico queremos ocultar las diferencias en las arquitecturas, pero es aún más importante el llegar a un acuerdo en cómo se representa la información. Por ejemplo, podríamos tener en un sistema distribuido computadoras con distintos [[Sistemas Operativos|sistemas operativos]], que tienen diferentes convenciones para nombrar archivos.
 
 ##### Transparencia de ubicación 
 Ocultar las diferencias donde físicamente se ubican los recursos en un sistema. Utilización de nombres lógicos (ej. http://www.slashdot.org/index.htm).

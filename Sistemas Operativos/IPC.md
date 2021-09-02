@@ -1,0 +1,1 @@
+Interprocess comunication (comunicación entre [[Proceso|procesos]])

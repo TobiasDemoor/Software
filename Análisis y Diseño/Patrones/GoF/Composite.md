@@ -1,5 +1,5 @@
 ## Problema
-¿Cómo tratar un grupo o estructura de composición de objetos de la misma manera ([[Software Engineering/Patrones/GRASP/Polimorfismo|polimorfica]]) como a un objeto no compuesto (atómico)?
+¿Cómo tratar un grupo o estructura de composición de objetos de la misma manera ([[Polimorfismo|polimorfica]]) como a un objeto no compuesto (atómico)?
 
 ## Solución
 Definir clases para los objetos compuestos y atómicos tal que implementen la misma [[Interfaz|Interfaz]].

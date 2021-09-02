@@ -7,6 +7,6 @@ Los [[Patrones|patrones]] GRASP (General Responsibility Assignment Software Patt
 - [[Bajo acoplamiento]]
 - [[Alta cohesión]]
 - [[Fabricación pura]]
-- [[Software Engineering/Patrones/GRASP/Polimorfismo|Polimorfismo]]
+- [[Polimorfismo|Polimorfismo]]
 - [[Indirección]]
 - [[Variaciones protegidas]]

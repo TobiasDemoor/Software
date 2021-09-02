@@ -1,0 +1,1 @@
+Un sisteam de computación es un sistema de información o de procesamiento de [[Dato, información y conocimiento|datos]] es un conjunto de componentes interrelacionados con el objetivo de recolectar y almacenar información, procesarla y transmitirla electrónicamente. Se trata de hardware + software, y podría incluirse al personal que lo administra y lo usa.

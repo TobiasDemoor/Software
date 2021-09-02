@@ -1,0 +1,1 @@
+Es una unidad de procesamiento de un nivel de granularidad menor que un [[Proceso|proceso]]. Un proceso se descompone en hilos de procesamientos. Un hilo es una unidad de trabajo que se puede expedir para su ejecución, y es ejecutada secuencialmente y de forma ininterrumpible. Un proceso multihilo es una secuencia de hilos que se ejecutan de manera concurrente.

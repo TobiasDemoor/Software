@@ -39,13 +39,13 @@ Ser capaces de interactuar con servicios de otros sistemas abiertos, independien
 
 La definición completa y neutral de las interfaces es de suma inportancia para la interoperabilidad y la portabilidad. La **interoperabilidad** caracteriza el punto al que dos implementaciones de sistemas o componentes de fabricantes distintos pueden coexistir y trabajar juntos solamente dependiento en los servicios del otro tal como están especificados en el estandar común. La **portabilidad** caracteriza el punto al que una aplicación desarrollada para un sistema distribuido puede ser ejecutada, sin modificación, en un sistema distinto que implementa las mismas interfaces que el primero.
 
-Un sistema distribuido abierto debería ser también **extensible**. Es decir, debería ser relativamente simple añadir partes que corren en sistemas operativos distintos, o hasta reemplazar un sistema de archivos entero.
+Un sistema distribuido abierto debería ser también **extensible**. Es decir, debería ser relativamente simple añadir partes que corren en [[Sistemas Operativos|sistemas operativos]] distintos, o hasta reemplazar un sistema de archivos entero.
 
 Para lograr flexibilidad en sistemas distribuidos abiertos, es vital que el sistema esté organizado como una colección de componentes relativamente pequeños y fácilmente reemplazables o adaptables. Esto implica que se deberían proveer definiciones no solo de las interfaces de más alto nivel (las vistas por usuarios y aplicaciones), pero también de las interfaces internas.
 Lo que necesitamos es una separación entre [[Políticas vs Mecanismos|política y mecanismo]]
 
-### [[Escalabilidad|Escalabilidad]]
-- ¿Que es ser escalable? 
+### Escalabilidad
+- ¿Que es ser [[Escalabilidad|escalable]]? 
 - ¿Cuanto? ¿Cómo?
 Características de los algoritmos descentralizados
 - Ninguna máquina tiene información completa del estado del sistema
@@ -78,17 +78,22 @@ Cuando se viene de diseñar sistemas centralizados a diseñar sistemas distribui
 ## Tipos de sistemas distribuidos
 ### High performance distributed computing
 #### Cluster computing
-El hardware subyacente consiste de una colección de workstations similares, conectadas mediante una LAN de alta velocidad. Además cada nodo corre el mismo sistema operativo. Se caracteriza por la homogeneidad entre los nodos.
+El hardware subyacente consiste de una colección de workstations similares, conectadas mediante una LAN de alta velocidad. Además cada nodo corre el mismo [[Sistemas Operativos|sistema operativo]]. Se caracteriza por la homogeneidad entre los nodos.
 
 #### Gird Computing
 Este subgrupo consiste de sistemas distribuidos usualmente construidos como una federación de sistemas de computación, donde cada sistema puede caer bajo un dominio administrativo diferente, y puede ser muy diferente en lo que se refiere al hardware, software, y la tecnología de red.
 
 #### Cloud computing
 Se trata de proveer los servicios para construir dinámicamente la infraestructura y componer lo que sea necesario a partir de los servicios disponibles. Cloud computing está caracterizado por un conjunto de recusrsos virtualizados facilmente utilizables y accesibles.
+
 En la práctica cloud está organizado en cuatro capas:
+
 **Hardware:** la capa más baja formada por los medios para manejar el hardware necesario (procesadores, routers, sistemas de cooling, etc.). Es implementada generalmente en data centers y contiene los recursos que los clientes normalmente no pueden ver directamente.
-**Infrastructure:** una capa importante que forma la columna vertebral de la mayor parte de las plataformas de cloud computing. Implementa técnicas de virtualización para proveer a los clientes una infraestructura consistente de almacenamiento virtual y recursos de computo.
-**Platform:** se puede argumentar que la capa de plataforma provee al cliente de cloud computing lo que un sistema operativo provee a los developers de aplicaciones, osea los medios para desarrollar y deployar aplicaciones con facilidad. En la práctica se le ofrece al developer una [[API|API]] específica del proveedor que incluye las llamadas para subir y ejecutar un programa en el cloud de dicho proveedor. Al igual que los sistemas operativos, la capa de plataforma provee abstracciones de más alto nivel para el almacenamiento y el resto de los recursos.
+
+**Infrastructure:** una capa importante que forma la columna vertebral de la mayor parte de las plataformas de cloud computing. Implementa técnicas de [[Virtualización|virtualización]] para proveer a los clientes una infraestructura consistente de almacenamiento virtual y recursos de computo.
+
+**Platform:** se puede argumentar que la capa de plataforma provee al cliente de cloud computing lo que un [[Sistemas Operativos|sistema operativo]] provee a los developers de aplicaciones, osea los medios para desarrollar y deployar aplicaciones con facilidad. En la práctica se le ofrece al developer una [[API|API]] específica del proveedor que incluye las llamadas para subir y ejecutar un programa en el cloud de dicho proveedor. Al igual que los [[Sistemas Operativos|sistemas operativos]], la capa de plataforma provee abstracciones de más alto nivel para el almacenamiento y el resto de los recursos.
+
 **Application:** aplicaciones completas corren en esta capa y son ofrecidas a los usuarios para mayor customización. Estas aplicaciones son ejecutadas en el cloud del proveedor.
 
 El proveedor forece estas capas a sus clientes mediante varias interfaces, llevando a la definicion de diferentes tipos de servicios:
@@ -101,6 +106,7 @@ Una clase importante de sistema distribuido se encuentra en las organizaciones q
 
 ### Pervasive systems
 Los sistemas antes descriptos se caracterizan por su estabilidad, los nodos son fijos y tienen conexiones de red más o menos permanentes y de alta calidad. Sin embargo, luego de la introducción de dispositivos móviles y embebidos ha habido un cambio que ha llevado a lo que usualmente se denominan **pervasive systems** (literalmente "sistema penetrante"). Estos sistemas se caracterizan y están diseñados para mezclarse en nuestro entorno, son naturalemente sistemas distribuidos.
+
 Lo que los hace únicos en comparación a los anteriores es que la separación entre usuarios y componentes del sistema está mucho menos definida. Usualmente no hay una sola interfaz dedicada, sino que un pervasive system está equipado con muchos sensores que registran varios aspectos del comportamiento del usuario. A su vez puede tener un conjunto de actuadores para proveer información y feedback, usualmente hasta intencionalmente buscando modificar el comportamiento.
 
 #### Ubiquitous computing systems
@@ -114,6 +120,7 @@ En este tipo de sistema se avanza un poco más, el sistema es pervasive y contin
 
 #### Mobile computing systems
 En un sistema distribuido móvil se asume que la ubicación de los dispositivos es cambiante. Una ubicación cambiante trae sus inconvenientes, por ejemplo si la ubicación de un dispositivo cambia regularmente también puede ser el caso para los servicios localmente disponibles. Como consecuencia de esto podríamos tener que prestar especial atención a descubrir dinámicamente servicios, y también permitir a los servicios anunciar su presencia.
+
 Las ubicaciones cambiantes tienen un profundo efecto en la comunicación. Consideremos un MANET (mobile ad hoc network). supongamos que dos dispositivos en un MANET se han descubierto (en el sentido que conocen su dirección), ¿cómo ruteamos mensajes entre estos dos? Las rutas estáticas generalmente no son sostenibles ya que los nodos en el camino de routing pueden moverse fuera del rango del vecino invalidando el camino. Para MANETs grandes, usar caminos establecidos a priori no es una opción viable tampoco. Estamos lideando con lo que se llama redes tolerantes a disrupción o **disruption-tolerant networs**, que son redes en las cuales la conectividad entre dos nodos no puede asegurarse.
 
 #### Sensor networks

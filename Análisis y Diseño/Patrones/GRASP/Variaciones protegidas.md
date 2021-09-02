@@ -17,7 +17,7 @@ Hay que prestar atención, especular y elegir batallas. Porque hay:
 
 ## Mecanismos
 ### Core protected variations mechanisms 
-Data encapsulation, interfaces, [[Software Engineering/Patrones/GRASP/Polimorfismo|polymorphism]], [[Indirección|indirection]], and standards.
+Data encapsulation, interfaces, [[Polimorfismo|polymorphism]], [[Indirección|indirection]], and standards.
 
 ### Data-driven designs
 Data-driven designs cover a broad family of techniques include reading codes, values, class file paths, class names, and so forth, from an external source in order to change the behavior of, or "parameterize" a system in some way at runtime.

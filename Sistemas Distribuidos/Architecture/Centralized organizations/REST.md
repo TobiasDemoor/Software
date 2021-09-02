@@ -12,4 +12,4 @@ Como una alternativa a la [[Architectural style#Object-based and Service-oriente
 |PUT       | Crear un nuevo recurso ([[Idempotencia|idempotente]])   |
 |GET       | Consultar el estado de un recurso en una representación |
 |DELETE    | Eliminar un recurso                                     |
-|POST      | Modificar un recurso transfiriendole un nuevo estado    |
+|POST      | Modificar un recurso transfiriéndole un nuevo estado    |
