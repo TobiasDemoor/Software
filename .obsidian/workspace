@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
+            "file": "Inteligencia Artificial/Lisp.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
+                "file": "Inteligencia Artificial/Lisp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
+                "file": "Inteligencia Artificial/Lisp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Inteligencia Artificial/Lisp.md",
+    "Conceptos/Sintaxis.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Modelo OSI.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Inteligencia Artificial/Untitled.md",
+    "Conceptos/Untitled.md",
+    "Conceptos/Programación.md",
     "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
     "Sistemas Distribuidos/Code Migration.md",
-    "Análisis y Diseño/FURPS+/Supportability.md",
-    "Análisis y Diseño/FURPS+/Mantainability.md",
-    "Sistemas Distribuidos/Distributed Systems.md",
-    "Sistemas Distribuidos/Untitled.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
-    "Redes de computadoras/DNS.md",
-    "Sistemas Distribuidos/Conceptos/Locality.md",
-    "Sistemas Distribuidos/Architecture/Distributed Systems Architecture.md"
+    "Análisis y Diseño/FURPS+/Supportability.md"
   ]
 }

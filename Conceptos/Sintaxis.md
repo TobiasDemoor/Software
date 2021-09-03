@@ -1,0 +1,1 @@
+Reglas de escritura, influyen en la legibilidad
