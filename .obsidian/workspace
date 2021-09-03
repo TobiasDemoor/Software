@@ -7,8 +7,11 @@
         "id": "2f118abdb74e56ca",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,6 +108,7 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
     "Sistemas Distribuidos/Code Migration.md",
     "Análisis y Diseño/FURPS+/Supportability.md",
     "Análisis y Diseño/FURPS+/Mantainability.md",
@@ -111,7 +117,6 @@
     "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
     "Redes de computadoras/DNS.md",
     "Sistemas Distribuidos/Conceptos/Locality.md",
-    "Sistemas Distribuidos/Architecture/Distributed Systems Architecture.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Centralized organizations.md"
+    "Sistemas Distribuidos/Architecture/Distributed Systems Architecture.md"
   ]
 }
