@@ -1,0 +1,1 @@
+Un hook es un placeholder para un grupo específico de funciones

@@ -1,7 +1,7 @@
 ---
 cssclass: clean-embeds
 ---
-# Distributed Systems
+# Sistemas Distribuidos
 ## Definición
 *Aquellos sistemas que tienen componentes que están en distinto hardware conectados por una [[Redes de computadoras|red]].*
 
@@ -60,7 +60,7 @@ La escalabilidad de un sistema puede medirse sobre tres dimensiones distintas:
 	Se puede solucionar en un principio con mejoras en el hardware.
 **Escalabilidad geográfica**
 	¿Dónde pueden estar los usuarios que utilizan mi sistema y los recursos que lo componen?
-	La escalabilidad geográfica tiene que ver con los inconvenientes que surgen al distribuirse el sistema en distancias grandes, empieza a haber latencia considerable. Una solución a esto es al comunicación asíncrona.
+	La escalabilidad geográfica tiene que ver con los inconvenientes que surgen al distribuirse el sistema en distancias grandes, empieza a haber [[Latencia|latencia]] considerable. Una solución a esto es al comunicación asíncrona.
 **Escalabilidad administrativa**
 	¿Cómo se administra mi sistema a medida que crece? (Ejemplo, República Popular China, personal)
 
@@ -70,7 +70,7 @@ Cuando se viene de diseñar sistemas centralizados a diseñar sistemas distribui
 - La red es segura
 - La red es homogénea
 - La topología no cambia
-- La latencia es cero
+- La [[Latencia|latencia]] es cero
 - El [[Ancho de banda|ancho de banda]] es infinito
 - El costo del transporte es cero
 - Existe un administrador

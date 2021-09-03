@@ -1,5 +1,5 @@
 # Distributed Systems Architecture
-Los [[Distributed Systems|sistemas distribuidos]] (DS) suelen ser piezas complejas de software en las cuales por definición sus [[Componente|componentes]] están distribuidos a través de multiples equipos. Para dominar esta complejidad es necesario que estos sistemas estén correctamente organizados. Se puede realizar una división entre la organización lógica de la colección de componentes de software, y la organización física.
+Los [[Sistemas Distribuidos|sistemas distribuidos]] (DS) suelen ser piezas complejas de software en las cuales por definición sus [[Componente|componentes]] están distribuidos a través de multiples equipos. Para dominar esta complejidad es necesario que estos sistemas estén correctamente organizados. Se puede realizar una división entre la organización lógica de la colección de componentes de software, y la organización física.
 
 La organización de DS es principalmente acerca de los componentes de software que componen el sistema. Estas [[Software Architecture|arquitecturas de software]] nos dicen cómo los varios componentes van a estar organizados y como deberían interactuar.
 
@@ -17,7 +17,7 @@ El tomar decisiones acerca de los [[Componente|componentes]] de software, su int
 
 ## Hybrid Architectures
 ### Edge-server systems
-Los sistemas de servidores de borde (Edge-servers systems) llevan los servidores al “borde” de la [[Internet]], es decir cerca de los clientes (al extremo logico). Su objetivo es acercar los recursos a los consumidores.
+Los sistemas de servidores de borde (Edge-servers systems) llevan los servidores al “borde” de la [[Internet]], es decir cerca de los clientes (al extremo logico). Su objetivo es acercar los recursos a los consumidores ([[Locality]]).
 
 ### Collaborative distributed systems
 Un uso notable de las arquitecturas híbridas es en los sistemas colaborativos distribuidos. El problema principal en estos sistemas es iniciar una operación, para lo que usualmente se deploya un esquema [[Client-Server|cliente-servidor tradicional]]. Una vez que un nodo se ha unido al sistema, puede usar un esquema totalmente descentralizado para la colaboración.

@@ -1,1 +1,1 @@
-//TODO
+El patrón proxy se utiliza cuando hay necesidad de ocular la complejidad de un objeto principal a un cliente. Un proxy actúa de intermediario en la comunicación.

@@ -1,5 +1,5 @@
 ### Contexto - Problema
-Existen recursos compartidos entre una gran cantidad de clientes distribuidos ([[Distributed Systems|sistema distribuido]]) en el espacio físico conectados por una [[Redes de computadoras|red]] que desean acceder a los mismos. Se debe controlar el acceso y la calidad de los servicios.
+Existen recursos compartidos entre una gran cantidad de clientes distribuidos ([[Sistemas Distribuidos|sistema distribuido]]) en el espacio físico conectados por una [[Redes de computadoras|red]] que desean acceder a los mismos. Se debe controlar el acceso y la calidad de los servicios.
 
 ### Solución
 Los [[Cliente|clientes]] interactúan mediante peticiones de servicios al [[Servidor|servidor]].

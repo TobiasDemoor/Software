@@ -1,0 +1,1 @@
+Un **transient object** es un [[OOP|objeto]] que existe solo mientras el el [[Proceso|proceso]] o aplicación exista, pero posiblemente por un período menor.

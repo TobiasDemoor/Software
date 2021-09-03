@@ -1,4 +1,4 @@
-Es la interfaz entre el usuario y el hardware. Es una máquina extendida virtual que ofrece un conjunto de funciones e [[Interfaz|interfaces]] para utilizar los recursos del hardware. Es un manejador de eventos, gestiona la ejecución de [[Proceso|procesos]] (avance de las instrucciones de los [[Programa|programas]]). Es por ello que el SO es el responsable de la seguridad del [[Sistemas de computación|sistema de computación]] (SC) y la protección de sus recursos.
+Es la interfaz entre el usuario y el hardware. Es una máquina extendida virtual que ofrece un conjunto de funciones e [[Interfaz|interfaces]] para utilizar los recursos del hardware. Es un manejador de eventos, gestiona la ejecución de [[Proceso|procesos]] (avance de las instrucciones de los [[Programa|programas]]). Es por ello que el SO es el responsable de la seguridad del [[Sistemas de Computación|sistema de computación]] (SC) y la protección de sus recursos.
 
  El SO ofrece una transparencia al usuario, es decir, crea una “ilusión” de invisibilidad del hardware al usuario.
 

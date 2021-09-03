@@ -1,5 +1,5 @@
 # Middleware
-Para asistir en el desarrollo de aplicaciones distribuidas los [[Distributed Systems|sistemas distribuidos]] (DS) suelen estar organizados para tener una capa de software separada que se encuentra lógicamente posicionada sobre el [[Sistemas Operativos|sistema operativo]] de las computadoras que son parte del sistema.
+Para asistir en el desarrollo de aplicaciones distribuidas los [[Sistemas Distribuidos|sistemas distribuidos]] (DS) suelen estar organizados para tener una capa de software separada que se encuentra lógicamente posicionada sobre el [[Sistemas Operativos|sistema operativo]] de las computadoras que son parte del sistema.
 El middleware es a un DS, lo que un [[Sistemas Operativos|sistema operativo]] es a una computadora individual: un administrador de recursos ofreciendo sus aplicaciones para compartir y deployar eficientemente esos recursos a través de la red. Junto con la administración de recursos brinda otros servicios que también se suelen encontrar en la mayoría de los [[Sistemas Operativos|sistemas operativos]], incluyendo:
 - Facilidades para la comunicación entre aplicaciones
 - Servicios de seguridad 
@@ -10,7 +10,7 @@ La principal diferencia que tienen con los [[Sistemas Operativos|sistemas operat
 
 ## Middleware organization
 %%En el contexto de la [[Distributed Systems Architecture|arquitectura de sistemas distribuidos]].%%
-En general hay dos [[Patrones|patrones de diseño]] que son aplicados usualmente a la organización del middleware, wrappers e interceptors. Cada uno apunta a diferentes problemas, pero ambos apuntan al mismo objetivo del middleware, lograr [[Distributed Systems#Apertura|apertura]].
+En general hay dos [[Patrones|patrones de diseño]] que son aplicados usualmente a la organización del middleware, wrappers e interceptors. Cada uno apunta a diferentes problemas, pero ambos apuntan al mismo objetivo del middleware, lograr [[Sistemas Distribuidos#Apertura|apertura]].
 
 ### Wrappers
 Cuando se construye un DS a partir de [[Componente|componentes]] existentes, inmediatamente nos topamos con un problema fundamental: las [[Interfaz|interfaces]] ofrecidas por el componente legacy muy probablemente no son aptas para todas las aplicaciones.

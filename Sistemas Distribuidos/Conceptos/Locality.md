@@ -1,0 +1,1 @@
+La localidad o locality consiste en ofrecer servicios que estén cerca de los clientes para mejorar la [[Latencia|latencia]] percibida.

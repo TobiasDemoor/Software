@@ -3,7 +3,7 @@ La virtualización permite a una aplicación, y posiblemente su entorno completo
 En esencia la virtualización trata con extender o reemplazar una [[Interfaz|interfaz]] existente con el fin de imitar el comportamiento de otro sistema.
 
 ### Tipos de virtualización
-Para entender los tipos de virtualización primero se debe entender que los [[Sistemas de computación|sistemas de computación]] generalmente ofrecen cuatro tipos de [[Interfaz|interfaces]] en tres niveles distintos:
+Para entender los tipos de virtualización primero se debe entender que los [[Sistemas de Computación|sistemas de computación]] generalmente ofrecen cuatro tipos de [[Interfaz|interfaces]] en tres niveles distintos:
 1. Una interfaz entre el hardware y el software, referida como **instruction set architecture (ISA)**, formando el conjunto de intrucciones de máquina. Este conjunto se divide en dos grupos:
 	* Instrucciones privilegiadas, las cuales solo pueden ser ejecutadas por el [[Sistemas Operativos|sistema opeprativo]].
 	* Instrucciones generales, las cuales pueden ser ejecutadas por cualquier programa.

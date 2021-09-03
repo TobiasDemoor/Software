@@ -37,7 +37,7 @@ En términos de atributos de calidad si es un framework maduro y provado por la 
 
 ### Principio Hollywood
 "Don't call us, we'll call you" (Inversión de control)
-Esto significa que las clases definidas por el usuario recibirán mensajes de las clases predefinidas por el framework.
+Esto significa que las clases definidas por el usuario recibirán mensajes de las clases predefinidas por el framework ([[Hook|hooks]]).
 
 ## Usuarios
 Los usuarios de un framework son developers por lo tanto el framework se debe diseñar de manera que le facilite la vida al usuario.
