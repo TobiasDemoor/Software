@@ -3,6 +3,6 @@
   "translucency": false,
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "clean-embeds"
+    "clean-embeds-all"
   ]
 }

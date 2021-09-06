@@ -1,7 +1,3 @@
----
-cssclass: clean-embeds
----
-
 ## Architectural styles
 %%En el contexto de los [[Sistemas Distribuidos|sistemas distribudios]] (DS) y la [[Distributed Systems Architecture|arquitectura de sistemas distribuidos]].%%
 El estilo arquitectónico es formulado en terminos de componentes, la manera en que conectan entre sí, la información intercambiada componentes, y finalmente cómo estos elementos están configurados en un sistema. Usando [[Componente|componentes]] y [[Connector|conectores]], podemos lograr varias configuraciones, que pueden ser clasificadas en distintos estilos arquitectónicos.

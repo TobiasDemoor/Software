@@ -1,6 +1,3 @@
----
-cssclass: clean-embeds
----
 # Sistemas Distribuidos
 ## Definición
 *Aquellos sistemas que tienen componentes que están en distinto hardware conectados por una [[Redes de computadoras|red]].*

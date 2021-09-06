@@ -1,6 +1,3 @@
----
-cssclass: clean-embeds
----
 ![[Par trenzado]]
 
 ![[Cable coaxial]]

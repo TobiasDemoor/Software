@@ -1,6 +1,3 @@
----
-cssclass: clean-embeds
----
 # Reliability
 Capacidad de un sistema o [[Componente|componente]] para desempeñar las funciones específicas, cuando se usa bajo condiciones y períodos de tiempo determinados. El mínimo del que podemos hablar es 99%, si un sistema no tiene alta disponibilidad, no puede ser confiable.
 - Madurez: capacidad del sistema para satisfacer las necesidades de fiabilidad en condiciones normales.

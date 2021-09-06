@@ -1,6 +1,3 @@
----
-cssclass: clean-embeds
----
 # Modelo de referencia OSI
 El modelo de interconexión de sistemas abiertos (ISO/IEC 7498-1), conocido como "modelo OSI" (Open Systems Interconnection), es el modelo de la ISO que se ocupa de la conexión de sistemas abiertos ([[Redes de computadoras]]). El modelo OSI tiene siete capas. Los principios que se aplicaron para llegar a las siete capas se pueden resumir de la siguiente manera:
 1. Se debe crear una capa en donde se requiere un nivel diferente de [[Abstracción|abstracción]].
@@ -53,8 +50,11 @@ Por último, la capa es la que debe decidir qué *protocolos* de iguales utiliza
 ## Críticas
 ### Mala sincronización
 El tiempo en el cual se establece un estándar es absolutamente imprescindible para su éxito. David Clark, del MIT, tiene una teoría de estándares a la que llama el *apocalipsis de los dos elefantes*, la cual se ilustra en la siguiente figura.
+
 ![[apocalipsis_de_los_dos_elefantes.png]]
+
 Esta figura muestra la cantidad de actividad alrededor de un nuevo tema. Cuando se descubre el tema por primera vez, hay una ráfaga de actividades de investigación en forma de discusiones, artículos y reuniones. Después de cierto tiempo esta actividad disminuye, las corporaciones descubren el tema y llega la ola de inversión de miles de millones de dólares.
+
 Es imprescindible que los estándares se escriban en el intermedio entre los dos “elefantes”. Si se escriben demasiado pronto (antes de que los resultados de la investigación estén bien establecidos), tal vez el tema no se entienda bien todavía; el resultado es un estándar malo. Si se escriben demasiado tarde, es probable que muchas empresas hayan hecho ya importantes inversiones en distintas maneras de hacer las cosas, de modo que los estándares se ignorarán en la práctica. Si el intervalo entre los dos elefantes es muy corto (ya que todos tienen prisa por empezar), la gente que desarrolla los estándares podría quedar aplastada.
 
 En la actualidad, parece que los protocolos estándar de [[Modelo OSI|OSI]] quedaron aplastados. Para cuando aparecieron los protocolos de OSI, los protocolos [[Modelo TCP IP|TCP/IP]] competidores ya se utilizaban mucho en universidades que hacían investigaciones. Aunque todavía no llegaba la ola de inversión de miles de millones de dólares, el mercado académico era lo bastante grande como para que muchos distribuidores empezaran a ofrecer con cautela los productos TCP/IP. Para cuando llegó el modelo OSI, los distribuidores no quisieron apoyar una segunda [[Pila de protocolos|pila de protocolos]] hasta que se vieron obligados a hacerlo, de modo que no hubo ofertas iniciales. Como cada empresa estaba esperando a que otra tomara la iniciativa, ninguna lo hizo y OSI nunca se llevó a cabo.
@@ -64,6 +64,7 @@ La segunda razón por la que [[Modelo OSI|OSI]] nunca tuvo éxito fue que tanto 
 
 ### Malas implementaciones
 Dada la enorme complejidad del [[Modelo OSI|modelo]] y los protocolos, no es sorprendente que las implementaciones iniciales fueran enormes, pesadas y lentas. Todos los que las probaron se arrepintieron. No tuvo que pasar mucho tiempo para que las personas asociaran “OSI” con la “mala calidad”. Aunque los productos mejoraron con el tiempo, la imagen perduró.
+
 En contraste, una de las primeras implementaciones de [[Modelo TCP IP|TCP/IP]] fue parte del UNIX, de Berkeley, y era bastante buena (y además, gratuita). Las personas empezaron a utilizarla rápidamente, lo cual provocó que se formara una extensa comunidad de usuarios, lo que condujo a mejoras, lo que llevó a una comunidad todavía mayor. En este caso la espiral fue hacia arriba, en vez de ir hacia abajo.
 
 ### Malas políticas

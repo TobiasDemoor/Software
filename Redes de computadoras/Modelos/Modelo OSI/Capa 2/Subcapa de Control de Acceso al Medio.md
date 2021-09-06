@@ -1,0 +1,1 @@
+Las [[Broadcast|redes de difusión]] tienen una consideración adicional en la capa de enlace de datos: cómo controlar el acceso al canal compartido. Una subcapa especial de la capa de enlace de datos, conocida como  **subcapa de control de acceso al medio**, es la que se encarga de este problema. ^extracto

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Operativos/Sistemas Operativos.md",
+            "file": "Análisis y Diseño/FURPS+/Supportability.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cdn",
+                "query": "clean",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Operativos/Sistemas Operativos.md",
+                "file": "Análisis y Diseño/FURPS+/Supportability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Operativos/Sistemas Operativos.md",
+                "file": "Análisis y Diseño/FURPS+/Supportability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Sistemas Operativos/Sistemas Operativos.md",
-    "Sistemas Operativos/Sistemas de Computación.md",
-    "Sistemas Operativos/Conceptos/Untitled.md",
-    "Sistemas Operativos/Conceptos/Procesador.md",
-    "Sistemas Operativos/Conceptos/Hardware.md",
-    "Inteligencia Artificial/Lisp.md",
-    "Conceptos/Sintaxis.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Modelo OSI.md",
+    "Análisis y Diseño/FURPS+/Supportability.md",
     "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Inteligencia Artificial/Untitled.md"
+    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
+    "Análisis y Diseño/FURPS+/Reliability.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Modelo OSI.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Medios de transmisión guiados.md",
+    "Bases de Datos/Database System.md",
+    "Análisis y Diseño/FURPS+/FURPS+.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+    "Bases de Datos/Bases de Datos.md"
   ]
 }
