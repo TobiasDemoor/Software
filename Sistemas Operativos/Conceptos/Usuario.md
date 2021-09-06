@@ -1,0 +1,1 @@
+Se trata de todo aquel que utiliza el sistema, tanto personas físicas como [[Proceso|procesos]] o sistemas externos.
