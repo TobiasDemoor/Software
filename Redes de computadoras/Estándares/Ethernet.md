@@ -1,2 +1,2 @@
 [[Par trenzado]]
-Estandar 802.3
+Estandar 802.3. Hasta 100 m

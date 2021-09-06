@@ -2,7 +2,7 @@ La **capa física** se relaciona con la transmisión de bits puros a través de 
 
 La capa física es la capa más baja del [[Modelo OSI|modelo OSI]]. Ésta define las interfaces eléctricas, de temporización y demás interfaces mediante las cuales se envían los bits como señales a través de los canales. La capa física es la base sobre la cual se construye la red. 
 
-El propósito de la capa física es transportar bits de una máquina a otra. Se pueden utilizar varios medios físicos para la transmisión real. Cada medio tiene su propio nicho en términos de [[Ancho de banda|ancho de banda]], retardo, costo y facilidad de instalación y mantenimiento. A grandes rasgos, los medios se agrupan en [[Medios de transmisión guiados|medios guiados]] (como el cable de cobre y la fibra óptica) y en medios no guiados (como la [[Transmisión inalámbrica|transmisión inalámbrica terrestre]], los [[Satélites de comunicación|satélites]] y los [[Transmisión por ondas de luz|láseres a través del aire]]).
+*El propósito de la capa física es transportar bits de una máquina a otra*. Se pueden utilizar varios medios físicos para la transmisión real. Cada medio tiene su propio nicho en términos de [[Ancho de banda|ancho de banda]], retardo, costo y facilidad de instalación y mantenimiento. A grandes rasgos, los medios se agrupan en [[Medios de transmisión guiados|medios guiados]] (como el cable de cobre y la fibra óptica) y en medios no guiados (como la [[Transmisión inalámbrica|transmisión inalámbrica terrestre]], los [[Satélites de comunicación|satélites]] y los [[Transmisión por ondas de luz|láseres a través del aire]]).
 
 
 ## Modulación digital y multiplexión

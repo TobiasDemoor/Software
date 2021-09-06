@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Análisis y Diseño/FURPS+/Supportability.md",
+            "file": "Redes de computadoras/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clean",
+                "query": "tag:#d",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis y Diseño/FURPS+/Supportability.md",
+                "file": "Redes de computadoras/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis y Diseño/FURPS+/Supportability.md",
+                "file": "Redes de computadoras/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Análisis y Diseño/FURPS+/Supportability.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
-    "Análisis y Diseño/FURPS+/Reliability.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Modelo OSI.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Medios de transmisión guiados.md",
-    "Bases de Datos/Database System.md",
-    "Análisis y Diseño/FURPS+/FURPS+.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 2/Capa de enlace de datos.md",
-    "Bases de Datos/Bases de Datos.md"
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Cableado estructurado.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Par trenzado.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Capa física.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Untitled.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Perturbaciones/Ruido.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Líneas eléctricas.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Fibra óptica.md",
+    "Redes de computadoras/Estándares/Ethernet.md",
+    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Medios de transmisión guiados.md"
   ]
 }

@@ -1,0 +1,1 @@
+Rango de frecuencias contenidas en una señal.

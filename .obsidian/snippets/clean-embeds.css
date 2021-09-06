@@ -23,10 +23,10 @@
 */
 
 
-.markdown-preview-view.clean-embeds .markdown-embed-link,
+/* .markdown-preview-view.clean-embeds .markdown-embed-link,
 .markdown-preview-view.clean-embeds .file-embed-link {
   display: none;
-}
+} */
 
 /*
   For links to embeds to BE shown, uncomment the following

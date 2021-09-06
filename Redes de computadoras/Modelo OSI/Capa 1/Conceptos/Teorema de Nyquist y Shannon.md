@@ -2,7 +2,7 @@ Henry Nyquist (1924) demostró que si se pasa una señal cualquiera a través de
 
 Tasa de datos máxima = 2*B* log<sub>2</sub>(*V*) bits/seg
 
-Por ejemplo, un canal sin ruido de 3kHz no puede transmitir señales binarias (de dos niveles) a una velocidad mayor de 6000 bps.
+Por ejemplo, un canal sin [[Ruido|ruido]] de 3kHz no puede transmitir señales binarias (de dos niveles) a una velocidad mayor de 6000 bps.
 
 Hasta ahora hemos considerado sólo los canales sin ruido. Si hay ruido aleatorio presente, la situación se deteriora con rapidez. Y siempre hay ruido aleatorio (térmico) presente debido al movimiento de las moléculas en el sistema. La cantidad de ruido térmico presente se mide con base en la relación entre la potencia de la señal y la potencia del ruido; llamada **SNR (Signal-to-Noise Ratio)**. Si denotamos la potencia de la señal mediante S y la potencia del ruido mediante N, la SNR es S/N. Por lo general la relación se expresa en decibeles (*10 log<sub>10</sub>(S/N \[bps]) \[dB]*).
 
