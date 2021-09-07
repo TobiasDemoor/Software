@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de computadoras/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
+            "file": "Sistemas Distribuidos/Code Migration.md",
             "mode": "source"
           }
         }
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de computadoras/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
+                "file": "Sistemas Distribuidos/Code Migration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de computadoras/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
+                "file": "Sistemas Distribuidos/Code Migration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Cableado estructurado.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Par trenzado.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Capa física.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Untitled.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Perturbaciones/Ruido.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Líneas eléctricas.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Fibra óptica.md",
-    "Redes de computadoras/Estándares/Ethernet.md",
-    "Redes de computadoras/Modelos/Modelo OSI/Capa 1/Medios guiados/Medios de transmisión guiados.md"
+    "Sistemas Distribuidos/Code Migration.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Sistemas Operativos/Virtualización.md",
+    "Sistemas Operativos/Hipervisor.md",
+    "Análisis y Diseño/FURPS+/Reliability.md",
+    "Sistemas Distribuidos/Distribution Transparency.md",
+    "Sistemas Operativos/Untitled.md",
+    "Sistemas Operativos/Conceptos/Proceso.md",
+    "Sistemas Operativos/Conceptos/Thread.md"
   ]
 }

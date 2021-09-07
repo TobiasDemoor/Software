@@ -81,13 +81,15 @@ El hardware subyacente consiste de una colección de workstations similares, con
 Este subgrupo consiste de sistemas distribuidos usualmente construidos como una federación de sistemas de computación, donde cada sistema puede caer bajo un dominio administrativo diferente, y puede ser muy diferente en lo que se refiere al hardware, software, y la tecnología de red.
 
 #### Cloud computing
-Se trata de proveer los servicios para construir dinámicamente la infraestructura y componer lo que sea necesario a partir de los servicios disponibles. Cloud computing está caracterizado por un conjunto de recusrsos virtualizados facilmente utilizables y accesibles.
+Se trata de proveer los servicios para construir dinámicamente la infraestructura y componer lo que sea necesario a partir de los servicios disponibles. Cloud computing está caracterizado por un conjunto de recusrsos virtualizados facilmente utilizables y accesibles. La idea principal del cloud es abstraer al usuario de todas las capas inferiores.
 
 En la práctica cloud está organizado en cuatro capas:
 
 **Hardware:** la capa más baja formada por los medios para manejar el hardware necesario (procesadores, routers, sistemas de cooling, etc.). Es implementada generalmente en data centers y contiene los recursos que los clientes normalmente no pueden ver directamente.
 
 **Infrastructure:** una capa importante que forma la columna vertebral de la mayor parte de las plataformas de cloud computing. Implementa técnicas de [[Virtualización|virtualización]] para proveer a los clientes una infraestructura consistente de almacenamiento virtual y recursos de computo.
+   
+Los servicios IaaS a menudo ofrecen recursos como imágenes de disco de [[Virtualización|máquinas virtuales]], almacenamiento orientado a bloques , almacenamiento de archivos u objetos, firewalls, balanceadores de carga, direcciones IP públicas, redes de área local virtual (VLAN)
 
 **Platform:** se puede argumentar que la capa de plataforma provee al cliente de cloud computing lo que un [[Sistemas Operativos|sistema operativo]] provee a los developers de aplicaciones, osea los medios para desarrollar y deployar aplicaciones con facilidad. En la práctica se le ofrece al developer una [[API|API]] específica del proveedor que incluye las llamadas para subir y ejecutar un programa en el cloud de dicho proveedor. Al igual que los [[Sistemas Operativos|sistemas operativos]], la capa de plataforma provee abstracciones de más alto nivel para el almacenamiento y el resto de los recursos.
 

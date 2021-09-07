@@ -1,5 +1,10 @@
 Hay situciones en las que pasar [[Programa|programas]], hasta a veces programas en ejecución, entre nodos simplifica el diseño del [[Sistemas Distribuidos|sistema distribuido]].
 
+## Modelos
+**Segmento de código:** contiene la parte constitutiva del programa en ejecución.
+**Segmento de recursos:** contiene la referencias a recursos externos tales como impresoras, dispositivos, etc.
+**Segmento de ejecución:** el estado actual de ejeución de un [[Proceso|proceso]], es decir datos privados, la pila, el contador de programa, etc.
+
 ## Razones
 Tradicionalmente la migración de código en los sistemas distribuidos tomaba la forma de **process migration** (migración de procesos) en donde un [[Proceso|proceso]] entero es movido de un nodo a otro. Mover un proceso en ejecución a una máquina diferente es una tarea costosa y compleja y debe haber una buena razón para hacerlo. Esta razón siempre ha sido la [[Performance|performance]]. La idea básica es que el rendimiento del sistema en su totalidad puede ser mejorado si los procesos son movidos de nodos altamente cargados a nodos menos cargados. La carga puede ser expresada en términos de la longitud de la cola de CPU o la utilización de CPU, pero otros indicadores de rendimiento pueden ser usados también.
 
