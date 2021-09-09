@@ -17,7 +17,7 @@ Un programa es un conjunto de **s-expresiones** (expresiones simbólicas). Una s
 
 Para evaluar una s-expresión **S** se siguen las siguientes reglas:
 * Si **S** es un átomo numérico *a* entonces el resultado es simplemente *a*.
-* Si **S** es de la forma **(f a₁ a₂ ... a<sub>n</sub>)** entonces el intérprete evalúa recursivamente cada argumento **a<sub>i</sub>**, obteniendo valores *v₁, v₂, ..., v<sub>n</sub>* y luego calcula el resultado de aplicar **f** a dichos valores.
+* Si **S** es de la forma $(f\ a_1\  a_2\  ... \  a_n)$ entonces el intérprete evalúa recursivamente cada argumento $a_i$, obteniendo valores $v_1, v_2, ..., v_n$ y luego calcula el resultado de aplicar **f** a dichos valores.
 
 ## Celdas CONS
 Una celda **cons** se compone de dos punteros (car.cdr). **car** y **cdr** son operaciones primitivas sobre las celdas **cons** (o "s-expresiones no atómicas") car extrae el primer puntero, y cdr extrae el segundo.

@@ -25,5 +25,6 @@
       "key": "ArrowUp"
     }
   ],
-  "editor:insert-wikilink": []
+  "editor:insert-wikilink": [],
+  "editor:delete-paragraph": []
 }

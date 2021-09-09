@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Code Migration.md",
+            "file": "Bases de Datos/Lenguajes/Álgebra Relacional.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#d",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Code Migration.md",
+                "file": "Bases de Datos/Lenguajes/Álgebra Relacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Code Migration.md",
+                "file": "Bases de Datos/Lenguajes/Álgebra Relacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Code Migration.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Sistemas Operativos/Virtualización.md",
-    "Sistemas Operativos/Hipervisor.md",
-    "Análisis y Diseño/FURPS+/Reliability.md",
-    "Sistemas Distribuidos/Distribution Transparency.md",
-    "Sistemas Operativos/Untitled.md",
-    "Sistemas Operativos/Conceptos/Proceso.md",
-    "Sistemas Operativos/Conceptos/Thread.md"
+    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
+    "Conceptos/Lenguajes.md",
+    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md",
+    "Inteligencia Artificial/Daily/Untitled.md",
+    "Inteligencia Artificial/Daily/20210907.md",
+    "Inteligencia Artificial/Daily/20210831.md",
+    "Bases de Datos/Lenguajes/SQL.md",
+    "Bases de Datos/Lenguajes/Cálculo Relacional.md",
+    "Bases de Datos/Lenguajes/Untitled.md",
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md"
   ]
 }
