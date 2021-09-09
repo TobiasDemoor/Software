@@ -1,3 +1,4 @@
+%%[[Inteligencia Artificial]]%%
 Lisp es el primer [[Lenguajes|lenguaje de programación funcional]] creado por John McCarthy. Lisp es una familia de lenguajes de programación de propósito general de [[Sintaxis|sintaxis]] simple y extraordinaria potencia.
 
 * Todo programa consiste en una función.

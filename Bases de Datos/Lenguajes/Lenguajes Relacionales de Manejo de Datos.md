@@ -1,6 +1,6 @@
 Lenguajes Algebráicos:
 	[[Álgebra Relacional]] - [[Lenguajes|Procedural]]
-Lenguajes basados en cálculo de predicados.
+Lenguajes basados en [[Lógica de predicados|cálculo de predicados]].
 	Cálculo Relacional - [[Lenguajes|Declarativo (no procedural)]]
 	
 El [[SQL]] está basado tanto en el enfoque procedural (Álgebra Relacional) como en el declarativo (Cálculo Relacional). Estos lenguajes permiten la manipulación y recuperación de datos de la [[Bases de Datos|base de datos]].

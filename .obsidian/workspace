@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Lenguajes/Álgebra Relacional.md",
+            "file": "Conceptos/Lenguajes.md",
             "mode": "source"
           }
         }
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Lenguajes/Álgebra Relacional.md",
+                "file": "Conceptos/Lenguajes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Lenguajes/Álgebra Relacional.md",
+                "file": "Conceptos/Lenguajes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
     "Conceptos/Lenguajes.md",
     "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md",
-    "Inteligencia Artificial/Daily/Untitled.md",
-    "Inteligencia Artificial/Daily/20210907.md",
+    "Inteligencia Artificial/Prolog.md",
+    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
+    "Inteligencia Artificial/Lisp.md",
+    "Inteligencia Artificial/Daily/20210909.md",
     "Inteligencia Artificial/Daily/20210831.md",
-    "Bases de Datos/Lenguajes/SQL.md",
-    "Bases de Datos/Lenguajes/Cálculo Relacional.md",
-    "Bases de Datos/Lenguajes/Untitled.md",
-    "Bases de Datos/Data Models/Modelo Lógico Relacional.md"
+    "Conceptos/Lógica de predicados.md",
+    "Conceptos/Untitled.md",
+    "Inteligencia Artificial/Daily/20210907.md"
   ]
 }

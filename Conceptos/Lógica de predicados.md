@@ -1,0 +1,1 @@
+El concepto de lógica de predicados se refiere a que simplemente se "declara" el modelo de un problema y mediante la inferencia se encuentra la solución.
