@@ -46,7 +46,7 @@ It places constraints on what objects you should send messages to within a metho
 4. An element of a collection which is an attribute of *this*.
 5. An object created within the method.
 The intent is to avoid coupling a client to knowledge of indirect objects and the object connections between objects. 
-```
+```Java
 class Register {
 	private Sale sale;
 

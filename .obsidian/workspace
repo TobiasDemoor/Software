@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Middleware/Remote Procedure Calls.md",
+            "file": "Bases de Datos/Lenguajes/SQL.md",
             "mode": "source"
           }
         }
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Middleware/Remote Procedure Calls.md",
+                "file": "Bases de Datos/Lenguajes/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Middleware/Remote Procedure Calls.md",
+                "file": "Bases de Datos/Lenguajes/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Middleware/Remote Procedure Calls.md",
-    "Sistemas Distribuidos/Comunicación.md",
-    "Redes de Computadoras/DNS.md",
-    "Sistemas Distribuidos/Middleware/Middleware.md",
-    "Redes de Computadoras/Protocolos/NTP.md",
-    "Sistemas Distribuidos/Middleware/Message Oriented Middleware.md",
-    "Sistemas Distribuidos/Middleware/Remote Method Invocations.md",
-    "Sistemas Distribuidos/Untitled.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
-    "Redes de Computadoras/Redes de computadoras.md"
+    "Bases de Datos/Lenguajes/SQL.md",
+    "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
+    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md",
+    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
+    "Bases de Datos/Concepts/Untitled.md",
+    "Bases de Datos/DBMS/DBMS.md",
+    "Bases de Datos/Bases de Datos.md",
+    "Análisis y Diseño/Diseño de sistemas.md",
+    "Bases de Datos/Lenguajes/Untitled.md",
+    "Sistemas Distribuidos/Coordinación/Sincronización.md"
   ]
 }
