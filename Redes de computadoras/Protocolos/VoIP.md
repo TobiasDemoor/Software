@@ -1,0 +1,1 @@
+El [[Protocolo|Protocolo]] de Voz por Internet o voice over [[IP]] (VoIP) permite que teléfonos especiales utilicen redes de datos cuando se realizan llamadas telefónicas. Una ventaja importante de esta tecnología es que evita los costos altos de las llamadas de larga distancia al usar VoIP con conexiones de red existentes.

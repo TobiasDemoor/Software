@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Conceptos/Lenguajes.md",
+            "file": "Sistemas Distribuidos/Middleware/Remote Procedure Calls.md",
             "mode": "source"
           }
         }
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptos/Lenguajes.md",
+                "file": "Sistemas Distribuidos/Middleware/Remote Procedure Calls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos/Lenguajes.md",
+                "file": "Sistemas Distribuidos/Middleware/Remote Procedure Calls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Conceptos/Lenguajes.md",
-    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md",
-    "Inteligencia Artificial/Prolog.md",
-    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
-    "Inteligencia Artificial/Lisp.md",
-    "Inteligencia Artificial/Daily/20210909.md",
-    "Inteligencia Artificial/Daily/20210831.md",
-    "Conceptos/Lógica de predicados.md",
-    "Conceptos/Untitled.md",
-    "Inteligencia Artificial/Daily/20210907.md"
+    "Sistemas Distribuidos/Middleware/Remote Procedure Calls.md",
+    "Sistemas Distribuidos/Comunicación.md",
+    "Redes de Computadoras/DNS.md",
+    "Sistemas Distribuidos/Middleware/Middleware.md",
+    "Redes de Computadoras/Protocolos/NTP.md",
+    "Sistemas Distribuidos/Middleware/Message Oriented Middleware.md",
+    "Sistemas Distribuidos/Middleware/Remote Method Invocations.md",
+    "Sistemas Distribuidos/Untitled.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+    "Redes de Computadoras/Redes de computadoras.md"
   ]
 }

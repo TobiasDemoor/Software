@@ -39,7 +39,7 @@ Más formalmente:
 $$\rho_{ES(nom)}(\pi_{nombre}(\sigma_{sueldo>20000}(Empleado)))$$
 
 ### JUNTA ($\Join$)
-$Q \leftwarrow S \Join{<condición>} R$: Permite combinar tuplas que están en distintas relaciones, es decir, procesar vinculaciones entre relaciones. Q tendrá una tupla por cada combinación de tuplas de R y S que cumplan con la condición de Junta. Se puede expresar de la siguiente manera:
+$Q \leftarrow S \Join{<condición>} R$: Permite combinar tuplas que están en distintas relaciones, es decir, procesar vinculaciones entre relaciones. Q tendrá una tupla por cada combinación de tuplas de R y S que cumplan con la condición de Junta. Se puede expresar de la siguiente manera:
 $$S \Join{<condición>} R = \sigma_{<condición>}(S\ X\ R)$$
 
 Por defecto se toma junta interna.

@@ -8,6 +8,8 @@ El middleware es a un DS, lo que un [[Sistemas Operativos|sistema operativo]] es
 
 La principal diferencia que tienen con los [[Sistemas Operativos|sistemas operativos]] es que los servicios del middleware se ofrecen en un entorno conectado.
 
+El middleware es una aplicación que lógicamente se encuentra (en su mayor parte) en la [[Capa de aplicación|capa de aplicación]] del modelo OSI pero que contiene muchos [[Protocolo|protocolos]] de uso general que ameritan sus propias capas..
+
 ## Middleware organization
 %%En el contexto de la [[Distributed Systems Architecture|arquitectura de sistemas distribuidos]].%%
 En general hay dos [[Patrones|patrones de diseño]] que son aplicados usualmente a la organización del middleware, wrappers e interceptors. Cada uno apunta a diferentes problemas, pero ambos apuntan al mismo objetivo del middleware, lograr [[Sistemas Distribuidos#Apertura|apertura]].

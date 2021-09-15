@@ -1,0 +1,1 @@
+**Network Time Protocol** es un [[Protocolo|protocolo]] de la [[Capa de aplicación|capa de aplicación]] del modelo OSI y pertenece a la pila de protocolos del [[Modelo TCP IP|modelo TCP/IP]].

@@ -5,6 +5,8 @@ Este sistema de transmisión tendría fugas de luz y sería inútil en la práct
 
 ![[fibra_optica_1.png]]
 
+La fibra óptica al no utilizar señales eléctricas para transmitir no sufre de [[Ruido|ruido impulsivo ni de diafonía]].
+
 ### Transmisión de luz a través de fibras
 El bosquejo de la figura sólo muestra un rayo atrapado, pero como cualquier rayo de luz que incida en la frontera por encima del ángulo crítico se reflejará de manera interna, habrá muchos rayos distintos rebotando con ángulos diferentes. Se dice que cada rayo tiene un modo distinto, por lo que una fibra con esta propiedad se llama **fibra multimodal**.
 
@@ -36,7 +38,7 @@ En los tres tipos de empalmes se pueden producir reflejos en el punto del empalm
 Por lo general se utilizan dos tipos de fuentes de luz para producir las señales: LED y láseres semiconductores. Estas fuentes de luz tienen distintas propiedades, como se muestra en la siguiente tabla.
 
 | Característica                | LED       | Láser semiconductor  |
-|-------------------------------|-----------|----------------------|
+| ----------------------------- | --------- | -------------------- |
 | Tasa de datos                 | Baja      | Alta                 |
 | Tipo de fibra                 | Multimodo | Multimodo o monomodo |
 | Distancia                     | Corta     | Larga                |

@@ -23,16 +23,16 @@ Usualmente implementar cada servicio en un servidor separado suele ser un desper
 ![[servidor_endpoint_1.png]]
 
 ## Stateless vs stateful
-%%Definición: https://datatracker.ietf.org/doc/html/rfc7230 %%
 Una desición de diseño importante es si el [[Servidor|servidor]] va a ser stateless o no. Un **servidor stateless** (sin estado) es aquel que trata cada petición como si fuera independiente de las anteriores (no guarda estado). Notesé que en varios diseños stateless el servidor mantiene información acerca de sus [[Cliente|clientes]], pero lo crucial es que si dicha información se pierde, esto no llevará a una disrupción del servicio.
 
 Una forma particular de diseño stateless es donde el servidor mantiene lo que se llama **soft state**. En este caso el servidor promete mantener estado por parte del cliente, pero solo por un tiempo limitado. Luego de ese tiempo el servidor retorna al comportamiento usual, así descartando cualquier información que ha mantenido por parte del cliente asociado.
 
 En contraste, un **servidor stateful** generalmente mantiene información persistente sobre sus clientes. Esto significa que la información necesita ser borrada explícitamente por el servidor. Esta estrategia puede mejorar la [[Performance|performance]] de operaciones de lectura/escritura como es percevida por el cliente. Sin embargo, se debe considerar también la desventaja principal de los servidores stateful, que es que si este crashea o es detenido y reiniciado debe recuperar de alguna manera el estado que mantenía o de otra manera no puede asegurar la correcta ejecución.
+%%Definición: https://datatracker.ietf.org/doc/html/rfc7230 %%
 
 ## Server clusters
-%%[[Sistemas Distribuidos#Cluster computing]]%%
 Un server cluster no es nada más que una colección de máquinas conectadas a través de una [[Redes de computadoras|red]], donde cada máquina corre uno o más [[Servidor|servidores]].
+%%[[Sistemas Distribuidos#Cluster computing]]%%
 
 ### LAN clusters
 Trataremos los clusters en los cuales las máquinas están conectadas a través de una LAN, que ofrece un alto [[Ancho de banda|ancho de banda]] y [[Latencia|latencia]] baja.
