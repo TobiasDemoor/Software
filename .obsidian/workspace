@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Lenguajes/SQL.md",
+            "file": "Sistemas Distribuidos/Coordinación/Sincronización.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Lenguajes/SQL.md",
+                "file": "Sistemas Distribuidos/Coordinación/Sincronización.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Lenguajes/SQL.md",
+                "file": "Sistemas Distribuidos/Coordinación/Sincronización.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,6 +108,7 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Coordinación/Sincronización.md",
     "Bases de Datos/Lenguajes/SQL.md",
     "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
     "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md",
@@ -116,7 +117,6 @@
     "Bases de Datos/DBMS/DBMS.md",
     "Bases de Datos/Bases de Datos.md",
     "Análisis y Diseño/Diseño de sistemas.md",
-    "Bases de Datos/Lenguajes/Untitled.md",
-    "Sistemas Distribuidos/Coordinación/Sincronización.md"
+    "Bases de Datos/Lenguajes/Untitled.md"
   ]
 }
