@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Coordinación/Sincronización.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 1/Cableado estructurado.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Coordinación/Sincronización.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 1/Cableado estructurado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Coordinación/Sincronización.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 1/Cableado estructurado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Redes de Computadoras/Modelo OSI/Capa 1/Cableado estructurado.md",
+    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
+    "Bases de Datos/Bases de Datos.md",
+    "attachments/subsistemas_de_cableado_estructurado_1.png",
+    "Inteligencia Artificial/Daily/Untitled.md",
+    "Inteligencia Artificial/Daily/20210831.md",
     "Sistemas Distribuidos/Coordinación/Sincronización.md",
     "Bases de Datos/Lenguajes/SQL.md",
     "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
-    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md",
-    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
-    "Bases de Datos/Concepts/Untitled.md",
-    "Bases de Datos/DBMS/DBMS.md",
-    "Bases de Datos/Bases de Datos.md",
-    "Análisis y Diseño/Diseño de sistemas.md",
-    "Bases de Datos/Lenguajes/Untitled.md"
+    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md"
   ]
 }
