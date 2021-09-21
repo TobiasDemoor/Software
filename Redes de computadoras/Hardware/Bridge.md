@@ -1,0 +1,3 @@
+Cuando se usa el termino bridge o bridging, por lo general se está describiendo la funcionalidad provista por los [[Switch|switches]] modernos. Tal como un [[Repeater|repeater]], un bridge es un dispositivo usado para conectar dos segmentos de red. La diferencia es que los bridges operan en la [[Capa de enlace de datos|capa de enlace de datos]] y por lo tanto puede proveer servicios de traducción requeridos para conectar medios distintos.
+
+> Es el dispositivo genérico de capa 2

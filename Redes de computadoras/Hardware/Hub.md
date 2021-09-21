@@ -1,0 +1,3 @@
+Los hubs trabajan de la misma manera que los [[Repeater|repeaters]] en el sentido que las señales entrantes son regeneradas antes de ser retransmitidas. También trabajan en la [[Capa física|capa física]], lo que significa que no alteran ni miran el contenido de los frames. Cuando un hub recibe una señal la regenera y envía a todos los puertos.
+
+> Los hubs son un tipo particular de repetidor específico para la tecnología [[Ethernet]].

@@ -1,0 +1,1 @@
+La starvation o inanición es un problema relacionado con los [[Sistemas de Computación|sistemas]] multitarea, donde a un [[Proceso|proceso]] o [[Thread|thread]] se le deniega siempre el acceso a un recurso compartido. Sin este recurso, la tarea a ejecutar no puede ser nunca finalizada.

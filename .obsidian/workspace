@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 1/Cableado estructurado.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 1/Cableado estructurado.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,13 +93,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 1/Cableado estructurado.md",
-                "linksCollapsed": false,
+                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,15 +109,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Redes de Computadoras/Modelo OSI/Capa 1/Cableado estructurado.md",
-    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
-    "Bases de Datos/Bases de Datos.md",
-    "attachments/subsistemas_de_cableado_estructurado_1.png",
-    "Inteligencia Artificial/Daily/Untitled.md",
-    "Inteligencia Artificial/Daily/20210831.md",
-    "Sistemas Distribuidos/Coordinación/Sincronización.md",
-    "Bases de Datos/Lenguajes/SQL.md",
-    "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
-    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md"
+    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Control de errores.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Entramado.md",
+    "Teoría de la Información/CRC.md",
+    "Redes de Computadoras/Estándares/WiFi.md",
+    "Redes de Computadoras/Estándares/Ethernet.md",
+    "Teoría de la Información/Untitled.md",
+    "Redes de Computadoras/Hardware/Switch.md",
+    "Redes de Computadoras/Hardware/Hub.md",
+    "Redes de Computadoras/Hardware/Bridge.md"
   ]
 }
