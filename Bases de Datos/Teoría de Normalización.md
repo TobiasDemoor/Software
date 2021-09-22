@@ -23,3 +23,5 @@ la dependencia funcional se define dentro de un esquema de relación
 $X \rightarrow Y$ se lee "X determina funcionalmente a Y" o "Y depende funcionalmente de X"
 
 Con el ejemplo anterior podémos establecer que el P-nro determina funcionalmente a P-nombre y P-dir
+
+A partir de las dependencias funcionales que define el diseñador (F) se pueden inferir otras en base a las **reglas de inferencia**. El conjunto de todas esas DF's se denomina **CLAUSURA DE F** y se denota $\bf{F^+}$
