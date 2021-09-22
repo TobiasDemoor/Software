@@ -33,8 +33,7 @@ La capa de enlace de datos puede diseñarse para ofrecer varios servicios. Los s
 ![[Control de errores]]
 
 ### Protocolos elementales de enlace de datos
-Un *frame* está compuesto de cuatro campos: *kind*, *seq*, *ack* e *info*. Los primeros tres contienen información de control y el último puede contener los datos por transferir. Estos campos de control constituyen en conjunto el **encabezado de la trama**.
+![[Protocolos elementales de enlace de datos]]
 
-El campo *kind* indica si hay datos en la trama, ya que algunos de los protocolos distinguen entre las tramas que contienen sólo información de control y las que también contienen datos. Los campos *seq* y *ack* se emplean para números de secuencia y confirmaciones de recepción, respectivamente. El campo *info* de una trama de datos contiene un solo paquete; el campo info de una trama de control no se usa por lo tanto usualmente se omite.
-
-Para construir un paquete, la capa de red toma un mensaje de la capa de transporte y le agrega el encabezado de la capa de red. Después este paquete se pasa a la capa de enlace de datos para incluirlo en el campo info de una trama saliente. Cuando ésta llega a su destino, la capa de enlace de datos extrae de ella el paquete y a continuación lo pasa a la capa de red. De esta manera, la capa de red puede actuar como si las máquinas pudieran intercambiar paquetes directamente
+### Protocolos de ventana deslizante
+![[Protocolos de ventana deslizante]]

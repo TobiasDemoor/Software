@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+            "file": "Bases de Datos/Teoría de Normalización.md",
             "mode": "source"
           }
         }
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+                "file": "Bases de Datos/Teoría de Normalización.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,31 +93,29 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+                "file": "Bases de Datos/Teoría de Normalización.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Bases de Datos/Teoría de Normalización.md",
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
+    "Bases de Datos/Concepts/Normalization.md",
+    "Bases de Datos/Lenguajes/SQL.md",
+    "Bases de Datos/Lenguajes/Untitled.md",
+    "Bases de Datos/Untitled.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Protocolos de ventana deslizante.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Protocolos elementales de enlace de datos.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Control de errores.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Entramado.md",
-    "Teoría de la Información/CRC.md",
-    "Redes de Computadoras/Estándares/WiFi.md",
-    "Redes de Computadoras/Estándares/Ethernet.md",
-    "Teoría de la Información/Untitled.md",
-    "Redes de Computadoras/Hardware/Switch.md",
-    "Redes de Computadoras/Hardware/Hub.md",
-    "Redes de Computadoras/Hardware/Bridge.md"
+    "Daily/20210920.md"
   ]
 }

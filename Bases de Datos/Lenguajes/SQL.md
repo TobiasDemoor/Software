@@ -103,5 +103,34 @@ SELECT
 FROM <tabla>;
 ```
 
+## Agrupamiento
+```SQL
+SELECT <agregaciones de atributos o atributos agrupados>
+FROM <tabla>
+GROUP BY <lista de atributos de agrupación>
+[HAVING <condición sobre c/grupo>];
+```
+El resultado se compone de una fila por cada grupo que cumple la condición. Las columnas resultantes tienen que estar en la lista de atributos de agregación o tienen que ser funciones de agregación.
+
+## División
+```SQL
+-- Ejemplo
+SELECT E.nombre
+FROM EMPLEADO E
+WHERE NOT EXISTS (
+	SELECT * FROM PLANTA P
+	WHERE NOT EXISTS (
+		SELECT * FROM TRABAJA T
+		WHERE T.nro-planta = P.nro-planta
+			AND t.nro-leg = E.nro-leg
+	)
+)
+
+/*
+	Se lee: Los nombres de los empledos tal que no exista una planta en plantas
+ 	que no tenga vinculado al empleado con esa planta.
+*/
+```
+
 ## Notas
 Los estándares de SQL representan un kernel de funciones que van a ser implementados por los lenguajes comerciales.
