@@ -26,7 +26,7 @@ r(R) pertenece o es igual a (dom(A₁) x dom(A₂) x ... x dom(An)). Una relaci�
 	> Sean R₁ y R₂ dos esquemas de relación y FK un subconjunto de atributos en R₂. FK es **clave foránea** en R₂ si:
 	> * Los atributos en FK tienen el mismo dominio que los atributos de la clave primaria de R₁.
 	> * Un valor para FK en la tupla t₂ en R₂ debe existir como valor de clave primaria para alguna tupla t₁ en R₁, o en caso que no exista debe tomar valor nulo.
-* Dependencias de datos (ej: dependencias funcionales)
+* Dependencias de datos (ej: [[Dependencia Funcional|dependencias funcionales]])
 	
 ### Esquema lógico de la base de datos
 Al conjunto de esquemas relacionales que conforman una base de datos junto con las restricciones asociadas se lo denomina esquema lógico de la base de datos.
