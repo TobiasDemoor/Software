@@ -1,6 +1,6 @@
 Henry Nyquist (1924) demostró que si se pasa una señal cualquiera a través de un filtro low-pass con un [[Ancho de banda|ancho de banda]] *B*, la señal filtrada se puede reconstruir por completo tomando sólo *2B* muestras (exactas) por segundo. No tiene caso muestrear la línea más de *2B* veces por segundo, ya que los componentes de mayor frecuencia que dicho muestreo pudiera recuperar ya se han filtrado. Si la señal consiste en *V* niveles discretos, el teorema de Nyquist establece lo siguiente:
 
-$$Tasa\ de\ datos\ máxima = 2 B * log_2(V)\ [bits/seg]$$
+$$\text{Tasa de datos máxima} = 2 B * log_2(V)\ [bits/seg]$$
 
 Por ejemplo, un canal sin [[Ruido|ruido]] de 3kHz no puede transmitir señales binarias (de dos niveles) a una velocidad mayor de 6000 bps.
 
