@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 2/Protocolos de ventana deslizante.md",
+            "file": "Redes de Computadoras/Protocolos/PPP.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Protocolos de ventana deslizante.md",
+                "file": "Redes de Computadoras/Protocolos/PPP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Protocolos de ventana deslizante.md",
+                "file": "Redes de Computadoras/Protocolos/PPP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Redes de Computadoras/Protocolos/PPP.md",
+    "Redes de Computadoras/Protocolos/VoIP.md",
+    "Teoría de la Información/CRC.md",
+    "Redes de Computadoras/Protocolos/Untitled.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/Protocolos de ventana deslizante.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Teorema de Nyquist y Shannon.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión.md",
     "Bases de Datos/Teoría de Normalización.md",
     "Bases de Datos/Dependencia Funcional.md",
-    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
-    "Bases de Datos/Data Models/Dependencia Funcional.md",
-    "Bases de Datos/Data Models/Untitled.md",
-    "Bases de Datos/Bases de Datos.md",
-    "Bases de Datos/Concepts/Normalization.md"
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md"
   ]
 }
