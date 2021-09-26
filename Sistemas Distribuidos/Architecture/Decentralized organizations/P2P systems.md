@@ -34,5 +34,4 @@ Estos nodos que mantienen un índice o actuan como un broker suelen ser llamados
 
 En muchos casos la asociación entre weak peers y super peers es estática; cuando un weak peer se conecta a la red, se asocia a un super peer y permanece asociado hasta que se va de la red. Obviamente se espera que los super peers sean procesos con alta disponibilidad y una larga esperanza de vida.
 
-
 La distribución vertical no es la única manera de organizar aplicaciones cliente-servidor. En las arquitecturas modernas, es frecuentemente la distribución de clientes y servidores la que importa, a la cual nos referimos como **horizontal distribution** o distribución horizontal. En este tipo de distribución, el cliente o servidor pueden estar separados físicamente en parte lógicamente equivalentes, pero cada parte operando individualmente en su parte del data set, por lo tanto balanceando la carga (*load balancing*). Un tipo particular de sistemas con distribución horizontal son los [[P2P systems|**sistemas peer-to-peer**]] o punto a punto.

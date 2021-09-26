@@ -1,0 +1,1 @@
+Cuando tratamos con [[Sistemas Distribuidos|sistemas distribuidos]] muy grandes que se encuentran dispersos a través de una WAN, suele ser necesario tener en cuenta la proximidad. Si dos procesos se comunican con frecuencia puede ser conveniente asegurarse de que se encuentren cercanos físicamente.

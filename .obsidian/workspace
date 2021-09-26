@@ -7,11 +7,8 @@
         "id": "2f118abdb74e56ca",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "super peer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +103,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
-    "Sistemas Distribuidos/Coordinación/Sincronización.md",
     "Sistemas Distribuidos/Coordinación/Untitled.md",
+    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/P2P systems.md",
+    "Sistemas Distribuidos/Coordinación/Sincronización.md",
     "Redes de Computadoras/Protocolos/PPP.md",
     "Redes de Computadoras/Protocolos/VoIP.md",
     "Teoría de la Información/CRC.md",
     "Redes de Computadoras/Protocolos/Untitled.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/Protocolos de ventana deslizante.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Teorema de Nyquist y Shannon.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión.md"
+    "Redes de Computadoras/Modelo OSI/Capa 1/Teorema de Nyquist y Shannon.md"
   ]
 }
