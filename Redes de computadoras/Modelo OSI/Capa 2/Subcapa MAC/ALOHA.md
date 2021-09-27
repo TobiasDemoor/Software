@@ -1,0 +1,3 @@
+El algoritmo de **ALOHA puro** consiste en usar el canal cuando se lo necesita y si hay una colisión se espera un tiempo aleatorio antes de reintentar. Al ser un algorítmo tan simple es ineficiente, ronda en un 18% de uso del canal.
+
+Si se definen ranuras donde se pueden enviar tramas la eficiencia mejora mucho, ya que sin esto basta con que se solapen ligeramente dos tramas para que ambas se pierdan. A este algorítmo se lo llama **ALOHA ranurado**.

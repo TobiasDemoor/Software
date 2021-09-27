@@ -7,8 +7,11 @@
         "id": "2f118abdb74e56ca",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/MAC.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "super peer",
+                "query": "\"Carrier sense media access son protocolos que derivan de [[ALOHA]] con la diferencia que pueden observar el medio para evitar utilizar el canal si se encuentra en uso. A pesar de estar escuchando el canal se pueden producir colisiones ya que las señales toman un tiempo en viajar.\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/MAC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/MAC.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Coordinación/Untitled.md",
-    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
-    "Sistemas Distribuidos/Architecture/Decentralized organizations/P2P systems.md",
-    "Sistemas Distribuidos/Coordinación/Sincronización.md",
-    "Redes de Computadoras/Protocolos/PPP.md",
-    "Redes de Computadoras/Protocolos/VoIP.md",
-    "Teoría de la Información/CRC.md",
-    "Redes de Computadoras/Protocolos/Untitled.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Protocolos de ventana deslizante.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Teorema de Nyquist y Shannon.md"
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/MAC.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Ethernet.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
+    "Teoría de la Información/Codificación Manchester.md",
+    "Redes de Computadoras/Untitled.md",
+    "Teoría de la Información/Untitled.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Transmisión en banda base.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Wireless LAN.md",
+    "Redes de Computadoras/Estándares/WiFi.md"
   ]
 }

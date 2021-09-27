@@ -1,0 +1,1 @@
+> La colisión no es un error, es una situación natural que surge de como se utiliza el canal. Hernan Hinojal - 2021
