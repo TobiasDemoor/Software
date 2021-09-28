@@ -35,7 +35,9 @@ Esta relación es transitiva, por lo tanto si  entonces $a \rightarrow b$ y $b \
 
 La solución de Lamport para implementar esto es tener en cada proceso un **contador de eventos** y al recibir un proceso un mensaje, verifica que el contador de este mensaje sea menor que el contador actual del proceso, si lo es continua ejecutando, si no lo es settea el contador acual del proceso al valor siguiente del contador del mensaje recibido, para así mantener la consistencia.
 
-### Relojes Vector
+Los relojes de Lamport esán ubicados a nivel lógico en la capa de [[Middleware|middleware]].
+
+### Relojes Vectoriales
 Los relojes de Lamport llevan a una situación donde todos los eventos en un sistema distribuido están totalmente ordenados. Lo que no brindan es información acerca de la relación de dos eventos a y b mediante una simple comparación de valores de tiempo.
 
 El problema yace en que los relojes de Lamport no capturan la **causalidad**. En la práctica la causalidad es capturada mediante **vector clocks**. El llevar cuenta de la causalidad es simple si se asigna a cada evento un nombre único (por ejemplo la combinación del pid con un contador interno). El problema entonces se destila a llevar cuenta de **causal histories**.

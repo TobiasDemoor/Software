@@ -1,0 +1,3 @@
+En cualquier red de [[Broadcast|difusión]], el asunto clave es la manera de determinar quién puede utilizar el canal cuando tiene competencia por él. Los **canales de difusión** a veces se denominan **canales multiacceso** o **canales de acceso aleatorio**.
+
+Los protocolos que se utilizan para determinar quién sigue en un canal multiacceso pertenecen a una subcapa de la [[Capa de enlace de datos|capa de enlace de datos]] llamada [[Subcapa MAC|subcapa MAC]]. La subcapa MAC tiene particular importancia en las [[Redes de computadoras#Clasificación según escala|LAN]], en especial en las [[Wireless LAN|inalámbricas]].
