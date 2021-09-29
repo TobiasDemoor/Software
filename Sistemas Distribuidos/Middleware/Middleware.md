@@ -1,12 +1,13 @@
 # Middleware
 Para asistir en el desarrollo de aplicaciones distribuidas los [[Sistemas Distribuidos|sistemas distribuidos]] (DS) suelen estar organizados para tener una capa de software separada que se encuentra lógicamente posicionada sobre el [[Sistemas Operativos|sistema operativo]] de las computadoras que son parte del sistema.
-El middleware es a un DS, lo que un [[Sistemas Operativos|sistema operativo]] es a una computadora individual: un administrador de recursos ofreciendo sus aplicaciones para compartir y deployar eficientemente esos recursos a través de la red. Junto con la administración de recursos brinda otros servicios que también se suelen encontrar en la mayoría de los [[Sistemas Operativos|sistemas operativos]], incluyendo:
-- Facilidades para la comunicación entre aplicaciones
-- Servicios de seguridad 
-- Administración de uso de recursos (Accounting services)
-- Enmascaramiento y recuperación de errores
 
-La principal diferencia que tienen con los [[Sistemas Operativos|sistemas operativos]] es que los servicios del middleware se ofrecen en un entorno conectado.
+El middleware es a un DS, lo que un [[Sistemas Operativos|sistema operativo]] es a una computadora individual: un administrador de recursos ofreciendo sus aplicaciones para compartir y deployar eficientemente esos recursos a través de la red. Junto con la administración de recursos brinda otros servicios que también se suelen encontrar en la mayoría de los [[Sistemas Operativos|sistemas operativos]], incluyendo:
+- Facilidades para la [[Comunicación|comunicación]] entre aplicaciones.
+- Servicios de seguridad .
+- Administración de uso de recursos (Accounting services).
+- Enmascaramiento y recuperación de errores.
+
+La principal diferencia que tienen con los [[Sistemas Operativos|sistemas operativos]] es que los servicios del middleware se ofrecen en un entorno de [[Redes de computadoras|red]].
 
 El middleware es una aplicación que lógicamente se encuentra (en su mayor parte) en la [[Capa de aplicación|capa de aplicación]] del modelo OSI pero que contiene muchos [[Protocolo|protocolos]] de uso general que ameritan sus propias capas..
 

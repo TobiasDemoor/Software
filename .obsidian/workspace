@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
+            "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[[MAC]]",
+                "query": "manchester",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
+                "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
+                "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Subcapa LLC.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Untitled.md",
-    "Sistemas Distribuidos/Coordinación/Location systems.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Subcapa MAC.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/MAC.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md"
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/Escalabilidad.md",
+    "Conceptos/Escalabilidad.md",
+    "Sistemas Distribuidos/Transparencia de distribución.md",
+    "Sistemas Distribuidos/Middleware/Middleware.md",
+    "Sistemas Distribuidos/Comunicación.md",
+    "Sistemas Distribuidos/Distribution Transparency.md",
+    "Redes de Computadoras/Architecture/Overlay Network.md",
+    "Sistemas Distribuidos/Conceptos/Nodo.md",
+    "Sistemas Distribuidos/Conceptos/Untitled.md"
   ]
 }

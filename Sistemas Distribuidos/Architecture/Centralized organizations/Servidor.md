@@ -47,7 +47,7 @@ Y el tercer nivel consiste de servidores de datos, notablemente file y [[Bases d
 ![[lan_server_cluster_1.png]]
 
 #### Request dispatching
-Un objetivo de diseño importante para los clusters de servidores es ocultar el hecho de que hay múltiples servidores. Esta [[Distribution Transparency#Transparencia de acceso|transparencia de acceso]] es ofrecida a través de un solo punto de entrada. El switch forma el punto de entrada para el cluster de servidores, ofreciendo una sola dirección de red. Por motivos de [[Escalabilidad|escalabilidad]] y [[Reliability|disponibilidad]], un cluster puede tener múltiples puntos de acceso, donde cada punto de acceso es implementado en una máquina separada (no se considera esto en lo siguiente).
+Un objetivo de diseño importante para los clusters de servidores es ocultar el hecho de que hay múltiples servidores. Esta [[Transparencia de distribución#Transparencia de acceso|transparencia de acceso]] es ofrecida a través de un solo punto de entrada. El switch forma el punto de entrada para el cluster de servidores, ofreciendo una sola dirección de red. Por motivos de [[Escalabilidad|escalabilidad]] y [[Reliability|disponibilidad]], un cluster puede tener múltiples puntos de acceso, donde cada punto de acceso es implementado en una máquina separada (no se considera esto en lo siguiente).
 
 Una forma estándar de acceder a un cluster de servidores es estableciendo una conexión [[TCP]] sobre la cual se envian los pedidos de nivel de applicación (HTTP por ejemplo) como parte de una sesión. Una sesión termina cerrando la conexión. En el caso de **transport-layer switches**, el switch acepta el pedido de conexión [[TCP]] entrante y entrega esta conexión a uno de los servidores. Hay esencialmente dos formas de hacer esto.
 
