@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Problema de acceso al medio.md",
+            "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Carrier sense media access son protocolos que derivan de [[ALOHA]] con la diferencia que pueden observar el medio para evitar utilizar el canal si se encuentra en uso. A pesar de estar escuchando el canal se pueden producir colisiones ya que las señales toman un tiempo en viajar.\"",
+                "query": "[[MAC]]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Problema de acceso al medio.md",
+                "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Problema de acceso al medio.md",
+                "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Problema de acceso al medio.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/ALOHA.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Protocolos elementales de enlace de datos.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Protocolos de ventana deslizante.md",
-    "Sistemas Distribuidos/Distribution Transparency.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Subcapa LLC.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Untitled.md",
     "Sistemas Distribuidos/Coordinación/Location systems.md",
-    "Sistemas Distribuidos/Coordinación/Exclusión mutua distribuida.md",
-    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
-    "Sistemas Distribuidos/Coordinación/Sincronización.md",
-    "Sistemas Distribuidos/Code Migration.md"
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Subcapa MAC.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/MAC.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md"
   ]
 }
