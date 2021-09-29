@@ -1,7 +1,9 @@
-La dependencia funcional (DF) es una restricción entre dos conjuntos de atributos de un [[Modelo Lógico Relacional#Esquema de relación|esquema de relación]]. Responde a la semántica de los atributos y permite modelar aspectos del "minimundo". Se define sobre un esquema de relación R y debe cumplirse para cualquier instancia r(R) que pudiera existir. Las instancias r(R) que satisfacen todas las dependencias funcionales y restricciones definidas sobre R se denominan "instancias legales de R".
+La dependencia funcional (DF) es una restricción entre dos conjuntos de atributos de un [[Modelo Lógico Relacional#Esquema de relación|esquema de relación]].
+
+Responde a la semántica de los atributos y permite modelar aspectos del "minimundo". Se define sobre un esquema de relación R y debe cumplirse para cualquier instancia r(R) que pudiera existir. Las instancias r(R) que satisfacen todas las dependencias funcionales y restricciones definidas sobre R se denominan "instancias legales de R".
 
 ### Definición
-Sea $R(A_1, A_2, \cdots, A_n)$ un esquema de relación y sean X e Y subconjuntos de {$A_1, A_2, \cdots, A_n$}. Decimos que $X \rightarrow Y$ es decir "X determina funcionalmente a Y" o "Y depende funcionalmente de X", si para cualquier instancia de relación r para R, no es posible que r tenga dos tuplas que coincidan en los valores de los componentes para todos los atributos de X y no coincidan en uno o más componentes para atributos del conjunto Y.
+Sea $R(A_1, A_2, \cdots, A_n)$ un esquema de relación y sean X e Y subconjuntos de $\set{A_1, A_2, \cdots, A_n}$. Decimos que $X \rightarrow Y$ es decir "X determina funcionalmente a Y" o "Y depende funcionalmente de X", si para cualquier instancia de relación r para R, no es posible que r tenga dos tuplas que coincidan en los valores de los componentes para todos los atributos de X y no coincidan en uno o más componentes para atributos del conjunto Y.
 
 Dicho de otro modo, la DF $X \rightarrow Y$, se cumple en R si para dos tuplas cualesquiera $t_1$ y $t_2$ de r(R), r una instancia cualquiera de R, ocurre lo siguiente:
 
@@ -14,17 +16,42 @@ Sea $R(A_1, A_2, \cdots, A_n)$ un esquema de relación y sean X e Y subconjuntos
 $$t_1[X] \ne t_2[X]\ \forall\ i, j, i \ne j \text{ para cualquier instancia de r(R)} \Rightarrow X \rightarrow Y\ \forall\ Y, Y \subseteq R$$
 
 ### Reglas de inferencia
-Sea *F* un conjunto de DFs especificadas sobre un esquema de relación R. El diseñador especifica las dependencias que son semánticamente obvias. Pero, en general, otras DFs aparte de las especificadas se cumplen en todas las instancias de relación legales que satisfacen las DFs en *F*. El conjunto de todas eses DFs se denomina **CLAUSURA DE F** y se denota $\bf{F^+}$.
+Sea *F* un conjunto de DFs especificadas sobre un esquema de relación R. El diseñador especifica las dependencias que son semánticamente obvias. Pero, en general, otras DFs aparte de las especificadas se cumplen en todas las instancias de relación legales que satisfacen las DFs en *F*. El conjunto de todas esas DFs se denomina **CLAUSURA DE F** y se denota $\bf{F^+}$.
 
 Una DF $X \rightarrow Y$ es inferida a partir de un conjunto de dependencias F especificado sobre R si $X \rightarrow Y$ se cumple en cada instancia de relación legal r(R).
 
 Para determinar estas dependencias inferidas se tiene un **conjunto de reglas de inferencia (llamadas axiomas de Armstrong)**:
 
-* IR1 Reflexividad: $X \supseteq Y \Rightarrow X \rightarrow Y$
-* IR2 Aumentación: $X \rightarrow Y \Rightarrow XZ \rightarrow YZ$
-* IR3 Transitividad: $X \rightarrow Y, Y \rightarrow Z \Rightarrow X \rightarrow Z$
-* IR4 Descomposición o proyección: $X \rightarrow YZ \Rightarrow X \rightarrow Y$
-* IR5 Unión: $X \rightarrow Y, X \rightarrow Z \Rightarrow X \rightarrow YZ$
-* IR6 Pseudotransitividad: $X \rightarrow Y, WY \rightarrow Z \Rightarrow WX \rightarrow Z$
+* IR1 Reflexividad: $X \supseteq Y \models X \rightarrow Y$
+* IR2 Aumentación: $X \rightarrow Y \models XZ \rightarrow YZ$
+* IR3 Transitividad: $X \rightarrow Y, Y \rightarrow Z \models X \rightarrow Z$
+* IR4 Descomposición o proyección: $X \rightarrow YZ \models X \rightarrow Y$
+* IR5 Unión: $X \rightarrow Y, X \rightarrow Z \models X \rightarrow YZ$
+* IR6 Pseudotransitividad: $X \rightarrow Y, WY \rightarrow Z \models WX \rightarrow Z$
 
 > El conjunto formado por las reglas IR1, IR2 e IR3 es correcto y completo.
+
+> Usamos $A \models B$ para notar que B se infiere de A.
+
+### Análisis
+Observando una instancia no es posible afirmar que dependencias funcionales se cumplen sobre un esquema de relación R. Pero sí se puede afirmar que algunas dependencias funcionales no se cumplen. La única forma de definir correctamente las dependencias funcionales es analizando el significado de los atributos.
+
+### Clausura de conjunto de atributos
+Se define a la clausura de un conjunto de atributos X de un esquema de relación R con respuecto de un conjunto F de DFs como $X_F^+$.
+$X_F^+ = \set{A \in R / F \models X \rightarrow A}$
+$F \models X \rightarrow Y\ sii\ Y \subseteq X^+$
+
+### Equivalencia de conjuntos de DF's
+<u>Def1:</u> Un conjunto de DF's F se dice que **cubre** a otro conjundo de DF's E si cada DF en E está también en $F^+$, es decir, si cada DF en E puede ser inferida desde F; alternativamente se dice que "E es cubierto por F".
+
+<u>Def2:</u> Dos conjuntos de DF's Ey F son equivalentes ($E \equiv F$) si $E^+ = F^+$. La "equivalencia" implica que cada DF en E puede ser inferida de F y cada DF en F puede ser inferida de E. Es decir, *E es quivalente a F* si ambas condiciones (E cubre a F y F cubre a E) se cumplen.
+
+Para verificar la equivalencia de dos conjuntos de DF's A y B por cada regla de A verifico que se cumple en la clausura del conjunto de atributos izquierdo de la regla para B. Así se demuestra que B cubre a A, luego se prueba la inversa.
+
+### Conjunto minimal de DF's
+Sea $F_{min}$ la cobertura minimal de F, entonces cada DF en F está en $F_{min}^+$. Si alguna DF cualquiera de $F_{min}$ es eliminada, entonces ya no se cumple que cada DF en F esté en $F_{min}^+$. $F_{min}$ no es único, puede haber varios.
+
+#### Pasos
+1. Cada DF tiene del lado derecho un único atributo (Regla de la descomposición).
+2. Cada DF no tiene del lado izquierdo atributos redundantes ($B\subset X$ es redundante para $X \rightarrow A$ si $A \in (X-B)^+$).
+3. No contiene DF's redundantes (en general las que se obtienen por transitividad). $X \rightarrow A$ es redundante si $(F-\set{X \rightarrow A}) \equiv F$ (para determinar esto basta con ir removiendo uno a uno y verificando si el resultado cubre al conjunto original).

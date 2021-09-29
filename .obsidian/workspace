@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
+            "file": "Inteligencia Artificial/Prolog.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "manchester",
+                "query": "\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
+                "file": "Inteligencia Artificial/Prolog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Sistemas Distribuidos.md",
+                "file": "Inteligencia Artificial/Prolog.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Inteligencia Artificial/Prolog.md",
+    "Bases de Datos/Teoría de Normalización.md",
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
+    "Bases de Datos/Dependencia Funcional.md",
+    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
+    "Redes de Computadoras/Hardware/Modem.md",
     "Sistemas Distribuidos/Sistemas Distribuidos.md",
     "Sistemas Distribuidos/Escalabilidad.md",
     "Conceptos/Escalabilidad.md",
-    "Sistemas Distribuidos/Transparencia de distribución.md",
-    "Sistemas Distribuidos/Middleware/Middleware.md",
-    "Sistemas Distribuidos/Comunicación.md",
-    "Sistemas Distribuidos/Distribution Transparency.md",
-    "Redes de Computadoras/Architecture/Overlay Network.md",
-    "Sistemas Distribuidos/Conceptos/Nodo.md",
-    "Sistemas Distribuidos/Conceptos/Untitled.md"
+    "Sistemas Distribuidos/Transparencia de distribución.md"
   ]
 }

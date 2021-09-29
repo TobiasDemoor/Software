@@ -32,3 +32,12 @@ r(R) pertenece o es igual a (dom(A₁) x dom(A₂) x ... x dom(An)). Una relaci�
 Al conjunto de esquemas relacionales que conforman una base de datos junto con las restricciones asociadas se lo denomina esquema lógico de la base de datos.
 
 Se llama instancia de un esquema relacional a un conjunto de instancias $r_i$ tal que $r_i$ es una instancia de$R_i$ y tal que $r_i$ cumpla con las restricciones.
+
+### Superclave
+Una superclave de un esquema de relación $R = \set{A_1, A_2, ..., A_n}$ es un conjunto de atributos $S \subseteq R$, tal que para ningún par de tuplas $t-i, t_j, i \ne j$ de cualquier instancia legal r(R) ocurre $t_i[S] = t_j[S]$. Para toda superclave S $S \rightarrow R$ (se puede demostrar por el absurdo).
+
+### Clave
+Una clave de un esquema de relación $R = \set{A_1, A_2, ..., A_n}$ es un conjunto de atributos $K \subseteq R$ tal que **K es superclave** y **K es un conjunto minimal**. Osea que la eliminación de cualquier atributo de K causará que K no sea más superclave. Para toda superclave K $K \rightarrow R$ (por ser K superclave).
+
+#### Claves candidatas
+Sea R 

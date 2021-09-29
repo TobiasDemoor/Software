@@ -5,7 +5,7 @@ Si todos los procesos son exactamente idénticos es indistinto cuál es elegido.
 También suponemos que cada proceso conoce los identificadores de todos los otros procesos. Lo que desconocen es el estado de los procesos. El objetivo es que cuando se inicia la elección esta concluya con todos los procesos de acuerdo en quién es el nuevo coordinador.
 
 ### Bully algorithm
-Se consideran N procesos $\{P_0,\cdots,P_{N-1}\}$ siendo $id(P_k)=k$. Cuando algún proceso nota que el coordinador ya no reacciona da inicio a una elección. Un proceso $P_k$ lleva a cabo una elección de la siguiente manera:
+Se consideran N procesos $\set{P_0,\cdots,P_{N-1}}$ siendo $id(P_k)=k$. Cuando algún proceso nota que el coordinador ya no reacciona da inicio a una elección. Un proceso $P_k$ lleva a cabo una elección de la siguiente manera:
 1. $P_k$ envia un mensaje ELECTION a todos los proceso con ids mayores a el ($P_{k+1},P_{k+2},\cdots,P_{N-1}$).
 2. Si ninguno responde, $P_k$ gana la elección y se convierte en el coordinador.
 3. Si uno responde toma el control y el trabajo de $P_k$ finaliza.
