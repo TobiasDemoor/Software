@@ -1,5 +1,5 @@
 %%[[Client-Server]]%%
-### Clientes concurrente
+### Clientes concurrentes
 Para estableces un alto nivel de [[Transparencia de distribución|transparencia de distribución]], los [[Sistemas Distribuidos|sistemas distribuidos]] que operan en una red WAN deben ocultar los [[Latencia|tiempo de latencia]] altos. La manera usual de ocultar latencias de comunicación es iniciar la comunicación e inmediatamente proceder con otra cosa. Por ejemplo una página se puede mostrar parcialmente permitiendo la navegación mientras se siguen cargando otras cosas. Para esto es claro que el cliente requiere ser implementado como una aplicación [[Thread|multihilo]].
 
 ### Client-side distribution transparency

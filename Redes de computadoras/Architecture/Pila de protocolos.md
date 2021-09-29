@@ -1,4 +1,3 @@
-#### Pila de protocolos
 Una arquitectura de capas bien conocida es la de los *communication-protocol stacks* o pila de [[Protocolo|protocolos]]. En las pilas de protocolos, cada capa implementa uno o varios servicios de comunicación (**communication services**) permitiendo el envio de información desde un origen a varios destinos. Para esto, cada capa ofrece una [[Interfaz|interfaz]] especificando las funciones que pueden ser llamadas. En principio la interfaz debería ocultar completamente la implementación del servicio.
 
 Es importante comprender la diferencia entre un servicio ofrecido por una capa, la interfaz mediante la cual el servicio se hace disponible y el [[Protocolo|protocolo]] que esa capa implementa para establecer la comunicación.

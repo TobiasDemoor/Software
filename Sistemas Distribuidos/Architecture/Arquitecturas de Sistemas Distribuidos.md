@@ -1,4 +1,3 @@
-# Distributed Systems Architecture
 Los [[Sistemas Distribuidos|sistemas distribuidos]] (DS) suelen ser piezas complejas de software en las cuales por definición sus [[Componente|componentes]] están distribuidos a través de multiples equipos. Para dominar esta complejidad es necesario que estos sistemas estén correctamente organizados. Se puede realizar una división entre la organización lógica de la colección de componentes de software, y la organización física.
 
 La organización de DS es principalmente acerca de los componentes de software que componen el sistema. Estas [[Software Architecture|arquitecturas de software]] nos dicen cómo los varios componentes van a estar organizados y como deberían interactuar.

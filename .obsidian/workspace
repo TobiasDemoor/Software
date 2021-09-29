@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inteligencia Artificial/Prolog.md",
+            "file": "Sistemas Distribuidos/Middleware.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Prolog.md",
+                "file": "Sistemas Distribuidos/Middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Prolog.md",
+                "file": "Sistemas Distribuidos/Middleware.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Inteligencia Artificial/Prolog.md",
-    "Bases de Datos/Teoría de Normalización.md",
-    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
-    "Bases de Datos/Dependencia Funcional.md",
-    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
-    "Redes de Computadoras/Hardware/Modem.md",
+    "Sistemas Distribuidos/Middleware.md",
+    "Sistemas Distribuidos/Architecture/Architectural style.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Centralized organizations.md",
     "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
     "Sistemas Distribuidos/Escalabilidad.md",
-    "Conceptos/Escalabilidad.md",
-    "Sistemas Distribuidos/Transparencia de distribución.md"
+    "Resumenes/Resumen SSDD.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
+    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md"
   ]
 }

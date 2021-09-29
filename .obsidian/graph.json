@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:(-\"Conceptos\" -\"Daily\")",
+  "search": "path:(-\"Conceptos\" -\"Daily\"-\"Resumenes\")",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,

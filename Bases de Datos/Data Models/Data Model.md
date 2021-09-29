@@ -3,7 +3,7 @@ Informalmente, un **data model** es un tipo de  [[Data Abstraction|data abstract
 Además de las operaciones básicas, es común incluir conceptos en el data model que especifiquen el aspecto dinámico (**dynamic aspect**) o comportamiento (**behavior**) de la aplicación de base de datos. Esto permite al diseñador especificar un conjunto de operaciones válidas definidas por el usuario que son permitidas sobre los objetos de la base. En el modelo básico de datos relacionales, existen los **stored procedures** o **persistent stored modules** para añadir comportamiento a las relaciones.
 
 Los data model se pueden clasificar según su nivel de [[Abstracción|abstracción]] en:
-* [[Modelo Conceptual|**Conceptual data models**]]: de alto nivel, por ejemplo [[Modelo Entidad Relación]].
+* **[[Modelo Conceptual|Conceptual data models]]**: de alto nivel, por ejemplo [[Modelo Entidad Relación]].
 * **Physical data models**: de bajo nivel.
 * **Representational data models** o implementation data models: en el medio de los anteriores, por ejemplo [[Modelo Lógico Relacional]], [[Modelo Orientado a Objetos]].
 
