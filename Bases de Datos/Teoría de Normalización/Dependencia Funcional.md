@@ -16,8 +16,6 @@ Sea $R(A_1, A_2, \cdots, A_n)$ un esquema de relación y sean X e Y subconjuntos
 $$t_1[X] \ne t_2[X]\ \forall\ i, j, i \ne j \text{ para cualquier instancia de r(R)} \Rightarrow X \rightarrow Y\ \forall\ Y, Y \subseteq R$$
 
 ### Reglas de inferencia
-Sea *F* un conjunto de DFs especificadas sobre un esquema de relación R. El diseñador especifica las dependencias que son semánticamente obvias. Pero, en general, otras DFs aparte de las especificadas se cumplen en todas las instancias de relación legales que satisfacen las DFs en *F*. El conjunto de todas esas DFs se denomina **CLAUSURA DE F** y se denota $\bf{F^+}$.
-
 Una DF $X \rightarrow Y$ es inferida a partir de un conjunto de dependencias F especificado sobre R si $X \rightarrow Y$ se cumple en cada instancia de relación legal r(R).
 
 Para determinar estas dependencias inferidas se tiene un **conjunto de reglas de inferencia (llamadas axiomas de Armstrong)**:
@@ -36,17 +34,23 @@ Para determinar estas dependencias inferidas se tiene un **conjunto de reglas de
 ### Análisis
 Observando una instancia no es posible afirmar que dependencias funcionales se cumplen sobre un esquema de relación R. Pero sí se puede afirmar que algunas dependencias funcionales no se cumplen. La única forma de definir correctamente las dependencias funcionales es analizando el significado de los atributos.
 
+### Clausura de conjunto de DF's
+Sea *F* un conjunto de DFs especificadas sobre un esquema de relación R. El diseñador especifica las dependencias que son semánticamente obvias. Pero, en general, otras DFs aparte de las especificadas se cumplen en todas las instancias de relación legales que satisfacen las DFs en *F*. El conjunto de todas esas DFs se denomina **CLAUSURA DE F** y se denota $\bf{F^+}$.
+$$F^+ = \set{X \rightarrow Y / F \models X \rightarrow Y}$$
+
 ### Clausura de conjunto de atributos
 Se define a la clausura de un conjunto de atributos X de un esquema de relación R con respuecto de un conjunto F de DFs como $X_F^+$.
-$X_F^+ = \set{A \in R / F \models X \rightarrow A}$
-$F \models X \rightarrow Y\ sii\ Y \subseteq X^+$
+$$X_F^+ = \set{A \in R / F \models X \rightarrow A}$$
+$$F \models X \rightarrow Y\ sii\ Y \subseteq X^+$$
 
 ### Equivalencia de conjuntos de DF's
 <u>Def1:</u> Un conjunto de DF's F se dice que **cubre** a otro conjundo de DF's E si cada DF en E está también en $F^+$, es decir, si cada DF en E puede ser inferida desde F; alternativamente se dice que "E es cubierto por F".
 
+Podemos determinar si F cubre a E calculando $X_F^+$ para cada DF $X \rightarrow Y$ en E y luego chqueando que en $X_F^+$ esté Y. *Si esto se cumple $\forall F, F \in E$ entonces F cubre a E.*
+
 <u>Def2:</u> Dos conjuntos de DF's Ey F son equivalentes ($E \equiv F$) si $E^+ = F^+$. La "equivalencia" implica que cada DF en E puede ser inferida de F y cada DF en F puede ser inferida de E. Es decir, *E es quivalente a F* si ambas condiciones (E cubre a F y F cubre a E) se cumplen.
 
-Para verificar la equivalencia de dos conjuntos de DF's A y B por cada regla de A verifico que se cumple en la clausura del conjunto de atributos izquierdo de la regla para B. Así se demuestra que B cubre a A, luego se prueba la inversa.
+Utilizando esta última afirmación y la forma de verificar si un conjunto de DF's cubre a otro se puede verificar que dos conjuntos sean equivalentes.
 
 ### Conjunto minimal de DF's
 Sea $F_{min}$ la cobertura minimal de F, entonces cada DF en F está en $F_{min}^+$. Si alguna DF cualquiera de $F_{min}$ es eliminada, entonces ya no se cumple que cada DF en F esté en $F_{min}^+$. $F_{min}$ no es único, puede haber varios.

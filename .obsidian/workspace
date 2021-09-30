@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Middleware.md",
+            "file": "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Iterator",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Middleware.md",
+                "file": "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Middleware.md",
+                "file": "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Middleware.md",
-    "Sistemas Distribuidos/Architecture/Architectural style.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Centralized organizations.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
-    "Sistemas Distribuidos/Escalabilidad.md",
-    "Resumenes/Resumen SSDD.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
-    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md"
+    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
+    "Bases de Datos/Teoría de Normalización/Formas Normales.md",
+    "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
+    "Bases de Datos/Teoría de Normalización.md",
+    "Bases de Datos/Concepts/Atributos primos.md",
+    "Bases de Datos/Concepts/Untitled.md",
+    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
+    "Análisis y Diseño/Patrones/GoF/Adapter.md",
+    "Sistemas Distribuidos/Middleware.md"
   ]
 }

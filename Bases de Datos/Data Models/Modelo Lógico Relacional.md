@@ -15,7 +15,7 @@ El conjunto de esquemas de relación, junto con las restricciones adicionales as
 **Instancia de relación de un esquema de relación R(A₁, A₂, ..., An):** r(R) es un subconjunto del producto cartesiano de los dominios que definen R, 
 r(R) pertenece o es igual a (dom(A₁) x dom(A₂) x ... x dom(An)). Una relación, por ser un conjunto, nunca tiene tuplas repetidas.
 
-### [[Integrity constraints|Restricciones]]
+### Restricciones
 * Dominio:
 	> Cada atributo tiene un dominio definido y debe tomar valores pertenecientes a este
 * Clave (superclave - clave candidata, CK - clave primaria, PK):
@@ -27,6 +27,7 @@ r(R) pertenece o es igual a (dom(A₁) x dom(A₂) x ... x dom(An)). Una relaci�
 	> * Los atributos en FK tienen el mismo dominio que los atributos de la clave primaria de R₁.
 	> * Un valor para FK en la tupla t₂ en R₂ debe existir como valor de clave primaria para alguna tupla t₁ en R₁, o en caso que no exista debe tomar valor nulo.
 * Dependencias de datos (ej: [[Dependencia Funcional|dependencias funcionales]])
+%%[[Integrity constraints]]%%
 	
 ### Esquema lógico de la base de datos
 Al conjunto de esquemas relacionales que conforman una base de datos junto con las restricciones asociadas se lo denomina esquema lógico de la base de datos.
@@ -36,8 +37,10 @@ Se llama instancia de un esquema relacional a un conjunto de instancias $r_i$ ta
 ### Superclave
 Una superclave de un esquema de relación $R = \set{A_1, A_2, ..., A_n}$ es un conjunto de atributos $S \subseteq R$, tal que para ningún par de tuplas $t-i, t_j, i \ne j$ de cualquier instancia legal r(R) ocurre $t_i[S] = t_j[S]$. Para toda superclave S $S \rightarrow R$ (se puede demostrar por el absurdo).
 
+Utilizando la [[Dependencia Funcional#Clausura de conjunto de atributos|clausura de un conjunto de atributos]] se puede afirmar que si $S \subseteq R, S^+ = R$ entonces S es superclave de R.
+
 ### Clave
 Una clave de un esquema de relación $R = \set{A_1, A_2, ..., A_n}$ es un conjunto de atributos $K \subseteq R$ tal que **K es superclave** y **K es un conjunto minimal**. Osea que la eliminación de cualquier atributo de K causará que K no sea más superclave. Para toda superclave K $K \rightarrow R$ (por ser K superclave).
 
-#### Claves candidatas
-Sea R 
+#### Claves candidatas (CK)
+Sea R un esquema de relación con F un conjunto de [[Dependencia Funcional|DFs]]. Un conjunto de atributos que no está determinado funcionalmente por ningún otro conjunto de atributos en R, es decir, todo conjunto de atributos que no se encuentra del lado derecho de ninguna DF, formará parte de toda CK de R.

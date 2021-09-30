@@ -1,0 +1,1 @@
+Un **atributo primo** forma parte de alguna [[Modelo Lógico Relacional#Claves candidatas|clave candidata]], el **atributo no primo** no forma parte de ninguna clave candidata.
