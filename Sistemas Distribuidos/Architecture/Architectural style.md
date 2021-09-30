@@ -8,7 +8,7 @@ El concepto básico es el del [[Layers|patrón arquitectónico capas]]
 ![[Pila de protocolos]]
 
 #### Object-based and Service-oriented architectures
-Una organización mucho más laxa es la de las **arquitecturas basadas en objetos**. En esencia, cada objeto corresponde a lo que definimos como [[Componente|componente]], y estos componente están conectados a través de un mecanismo de llamada de procedimientos. En caso de un [[Sistemas Distribuidos|sistema distribuido]], una llamada a procedimiento puede tomar lugar a través de una red ([[Remote Procedure Calls|RPC]]).
+Una organización mucho más laxa es la de las **arquitecturas basadas en objetos**. En esencia, cada objeto corresponde a lo que definimos como [[Componente|componente]], y estos componente están conectados a través de un mecanismo de llamada de procedimientos. En caso de un [[Sistemas Distribuidos|sistema distribuido]], una llamada a procedimiento puede tomar lugar a través de una red ([[Remote Procedure Call|RPC]]).
 
 Estas arquitecturas son atractivas ya que proveen una manera natural de [[Encapsulamiento|encapsular]] información (llamada **estado** de un objeto) y las operaciones que se pueden realizar sobre dicha información (llamados **métodos**) en una sola entidad ([[OOP]]). La [[Interfaz|interfaz]] ofrecida por un objeto oculta los detalles de implementación, lo cual esencialmente significa que podemos considerar a un objeto completamente independiente de su entorno.
 

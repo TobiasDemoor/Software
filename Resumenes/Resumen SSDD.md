@@ -16,5 +16,8 @@
 # Client-Server
 ![[Client-Server]]
 
+# Comunicación
+![[Comunicación]]
+
 # Sincronización
 ![[Sincronización]]

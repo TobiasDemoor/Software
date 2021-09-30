@@ -2,7 +2,7 @@ Los [[Sistemas Distribuidos|sistemas distribuidos]] (DS) suelen ser piezas compl
 
 La organización de DS es principalmente acerca de los componentes de software que componen el sistema. Estas [[Software Architecture|arquitecturas de software]] nos dicen cómo los varios componentes van a estar organizados y como deberían interactuar.
 
-Un objetivo importante de los DS es separar las aplicaciones de las plataformas subyacentes mediante la capa de [[Middleware|middleware]]. El adoptar esta capa es una desición arquitectónica importante, y su propósito principal es el proveer [[Transparencia de distribución|transparencia de distribución]]. Se debe notar que hay trade-offs necesarios para lograr la transparencia, eso ha llevado a varias técnicas para ajustar el middleware a las necesidades de las aplicaciones que lo utilizan.
+Un objetivo importante de los DS es separar las aplicaciones de las plataformas subyacentes mediante la capa de [[Middleware|middleware]]. El adoptar esta capa es una decisión arquitectónica importante, y su propósito principal es el proveer [[Transparencia de distribución|transparencia de distribución]]. Se debe notar que hay trade-offs necesarios para lograr la transparencia, eso ha llevado a varias técnicas para ajustar el middleware a las necesidades de las aplicaciones que lo utilizan.
 
 La realización contreta del DS requiere que instanciemos y coloquemos software en hardware real. Hay varias decisiones que se deben tomar para hacer esto. La instanciación final de la arquitectura de software suele ser nombrada como la arquitectura de sistema o system architecture.
 
@@ -18,10 +18,13 @@ El tomar decisiones acerca de los [[Componente|componentes]] de software, su int
 ### Edge-server systems
 Los sistemas de servidores de borde (Edge-servers systems) llevan los servidores al “borde” de la [[Internet]], es decir cerca de los clientes (al extremo logico). Su objetivo es acercar los recursos a los consumidores ([[Locality]]).
 
+Los Edge-servers funcionan como proveedores de contenidos de manera que se reduzcan las [[Latencia|latencias]] en las consultas. Suelen utilizarse una colección de Edge-servers para optimizar el contenido y distribuir una aplicación.
+
 ### Collaborative distributed systems
 Un uso notable de las arquitecturas híbridas es en los sistemas colaborativos distribuidos. El problema principal en estos sistemas es iniciar una operación, para lo que usualmente se deploya un esquema [[Client-Server|cliente-servidor tradicional]]. Una vez que un nodo se ha unido al sistema, puede usar un esquema totalmente descentralizado para la colaboración.
 
-Un ejemplo concreto de esto es BitTorrent, que es un [[Sistemas P2P|sistema punto a punto]] de descarga de archivos. La concepto básico de su funcionamiento es que un usuario busca un archivo, descarga fragmentos del archivo de otros usuarios hasta que está que estos pueden ser ensamblados generando el archivo completo. Un objetivo importante es el asegurar la colaboración, y en estos sistemas hay una fracción importante de participantes que solamente descargan archivos, pero sin contribuir nada, a este fenomeno se lo llama **free riding**.
+#### BitTorrent
+Un ejemplo concreto de esto es **BitTorrent**, que es un [[Sistemas P2P|sistema punto a punto]] de descarga de archivos. La concepto básico de su funcionamiento es que un usuario busca un archivo, descarga fragmentos del archivo de otros usuarios hasta que está que estos pueden ser ensamblados generando el archivo completo. Un objetivo importante es el asegurar la colaboración, y en estos sistemas hay una fracción importante de participantes que solamente descargan archivos, pero sin contribuir nada, a este fenomeno se lo llama **free riding**.
 
 ![[collaborative_distributed_systems_bit_torrent_1.png]]
 

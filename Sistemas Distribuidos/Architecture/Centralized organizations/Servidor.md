@@ -7,7 +7,7 @@ Hay varias maneras de organizar servidores. En el caso de un **servidor iterativ
 #### Servidor multihilo
 El servidor usualmente se espera por una solicitud, la lleva a cabo y envía la respuesta. Una organización particularmente popular es en la cual se tiene un [[Thread|hilo]] llamado **dispatcher**, el cual lee requests entrantes y luego de examinarlas elige un **worker thread** que se encuentre suspendido y le entrega la request.
 
-Una alternativa a esto sería correr un servidor como una gran máquina de estados de un solo hilo. Cuando se recibe una request, el hilo la examina. Si puede ser resuelta con el cache en memoria, se hace, si no, el hilo debe acceder a disco. Pero en vez de ejecutar una instrucción bloqueante, el hilo programa una operación de disco asincrónica la cual lo interrumpirá cuando esté completa (por medio del [[Sistemas Operativos|sistema operativo]]). Para lograr esto, el hilo debe almacenar el estado de la request y continuar a ver si hay otras requests entrantes.
+Una alternativa a esto sería correr un servidor como una gran máquina de estados de un solo hilo. Cuando se recibe una request, el hilo la examina. Si puede ser resuelta con el cache en memoria, se hace, si no, el hilo debe acceder a disco. Pero en vez de ejecutar una instrucción bloqueante, el hilo programa una operación de disco asincrónica la cual lo interrumpirá cuando esté completa (por medio del [[Sistemas Operativos|sistema operativo]]). Para lograr esto, el hilo debe almacenar el estado de la request y continuar a ver si hay otras requests entrantes ([[Thread#Máquina de estado finito|máquina de estado finito]]).
 
 Una vez que se complete la operación el SO notifica al hilo, el cual entonces buscará el estado de la request y continuará procesandola. Eventualmente se enviará una respuesta al cliente solicitante por medio de una llamada no bloqueante.
 
@@ -18,12 +18,12 @@ Otro tema a tratar es a través de dónde se contacta un [[Cliente|cliente]] con
 
 Hay muchos servicios que no requieren un end point preasignado. Para estos podemos tener un daemon corriendo que mantenga referencia de en qué end point está cada servidor, y el cliente simplemente consulta primero a este daemon el cual escucha en un puerto conocido por la localización de un servicio en cuestión.
 
-Usualmente implementar cada servicio en un servidor separado suele ser un desperdicio de recursos. Una solución común es tener un solo **superserver** escuchando cada end point asociado con un servicio específico. Cuenado entra un pedido, el daemon crea un proceso para manejarlo.
+Usualmente implementar cada servicio en un servidor separado suele ser un desperdicio de recursos. Una solución común es tener un solo **superserver** escuchando cada end point asociado con un servicio específico. Cuando entra un pedido, el daemon crea un proceso para manejarlo.
 
 ![[servidor_endpoint_1.png]]
 
 ### Stateless vs stateful
-Una desición de diseño importante es si el [[Servidor|servidor]] va a ser stateless o no. Un **servidor stateless** (sin estado) es aquel que trata cada petición como si fuera independiente de las anteriores (no guarda estado). Notesé que en varios diseños stateless el servidor mantiene información acerca de sus [[Cliente|clientes]], pero lo crucial es que si dicha información se pierde, esto no llevará a una disrupción del servicio.
+Una decisión de diseño importante es si el [[Servidor|servidor]] va a ser stateless o no. Un **servidor stateless** (sin estado) es aquel que trata cada petición como si fuera independiente de las anteriores (no guarda estado). Notesé que en varios diseños stateless el servidor mantiene información acerca de sus [[Cliente|clientes]], pero lo crucial es que si dicha información se pierde, esto no llevará a una disrupción del servicio.
 
 Una forma particular de diseño stateless es donde el servidor mantiene lo que se llama **soft state**. En este caso el servidor promete mantener estado por parte del cliente, pero solo por un tiempo limitado. Luego de ese tiempo el servidor retorna al comportamiento usual, así descartando cualquier información que ha mantenido por parte del cliente asociado.
 
@@ -31,14 +31,13 @@ En contraste, un **servidor stateful** generalmente mantiene información persis
 %%Definición: https://datatracker.ietf.org/doc/html/rfc7230 %%
 
 ### Server clusters
-Un server cluster no es nada más que una colección de máquinas conectadas a través de una [[Redes de computadoras|red]], donde cada máquina corre uno o más [[Servidor|servidores]].
-%%[[Sistemas Distribuidos#Cluster computing]]%%
+Un [[Sistemas Distribuidos#Cluster computing|server cluster]] no es nada más que una colección de máquinas conectadas a través de una [[Redes de computadoras|red]], donde cada máquina corre uno o más [[Servidor|servidores]].
 
 #### LAN clusters
 Trataremos los clusters en los cuales las máquinas están conectadas a través de una LAN, que ofrece un alto [[Ancho de banda|ancho de banda]] y [[Latencia|latencia]] baja.
 
 #### Organización general
-Los clusters de servidores suelen estar organizados lógicamente en tres niveles. El primer nivel consiste de un switch lógico a través del cual las solicitudes de [[Cliente|clientes]] son routeadas. Estos switches pueden variara ampliamente, desde switchesde capa de transporte que acepta conexiones [[TCP]] entrantes hasta un Web server que acepta requests HTTP.
+Los clusters de servidores suelen estar organizados lógicamente en tres niveles. El primer nivel consiste de un switch lógico a través del cual las solicitudes de [[Cliente|clientes]] son routeadas. Estos switches pueden variara ampliamente, desde switches de capa de transporte que acepta conexiones TCP entrantes hasta un Web server que acepta requests HTTP.
 
 Como en cualquier [[Centralized organizations#Arquitecturas multinivel|arquitectura cliente-servidor multinivel]] los clusters de servidores pueden contener servidores dedicados al procesamiento de aplicación que conforman el segundo nivel. Estos suelen correr sobre máquinas de alta performance pero no necesariamente.
 
@@ -49,11 +48,11 @@ Y el tercer nivel consiste de servidores de datos, notablemente file y [[Bases d
 ##### Request dispatching
 Un objetivo de diseño importante para los clusters de servidores es ocultar el hecho de que hay múltiples servidores. Esta [[Transparencia de distribución#Transparencia de acceso|transparencia de acceso]] es ofrecida a través de un solo punto de entrada. El switch forma el punto de entrada para el cluster de servidores, ofreciendo una sola dirección de red. Por motivos de [[Escalabilidad|escalabilidad]] y [[Reliability|disponibilidad]], un cluster puede tener múltiples puntos de acceso, donde cada punto de acceso es implementado en una máquina separada (no se considera esto en lo siguiente).
 
-Una forma estándar de acceder a un cluster de servidores es estableciendo una conexión [[TCP]] sobre la cual se envian los pedidos de nivel de applicación (HTTP por ejemplo) como parte de una sesión. Una sesión termina cerrando la conexión. En el caso de **transport-layer switches**, el switch acepta el pedido de conexión [[TCP]] entrante y entrega esta conexión a uno de los servidores. Hay esencialmente dos formas de hacer esto.
+Una forma estándar de acceder a un cluster de servidores es estableciendo una conexión TCP sobre la cual se envian los pedidos de nivel de applicación (HTTP por ejemplo) como parte de una sesión. Una sesión termina cerrando la conexión. En el caso de **transport-layer switches**, el switch acepta el pedido de conexión TCP entrante y entrega esta conexión a uno de los servidores. Hay esencialmente dos formas de hacer esto.
 
-En el primer caso el cliente establece la conexión [[TCP]] de manera que todas las requests pasen a través del switch. El switch entonces establece una conexión [[TCP]] con el servidor seleccionado y pasa los pedidos a este servidor, también acepta las respuestas del servidor y las reenvia al cliente. En efecto el switch se encuentra en el medio de la conexión [[TCP]] actuando como un [[Proxy|proxy]] reescribiendo la dirección origen y destino. Este método es una forma de **network adress translation (NAT)**.
+En el primer caso el cliente establece la conexión TCP de manera que todas las requests pasen a través del switch. El switch entonces establece una conexión TCP con el servidor seleccionado y pasa los pedidos a este servidor, también acepta las respuestas del servidor y las reenvia al cliente. En efecto el switch se encuentra en el medio de la conexión TCP actuando como un [[Proxy|proxy]] reescribiendo la dirección origen y destino. Este método es una forma de **network adress translation (NAT)**.
 
-Alternativamente, el switch puede entregar la conexión al servidor seleccionado, tal que todas las respuestas son directamente comunicadas al cliente sin pasar a través del switch server. Este funcionamiento se suele llamar **TCP handoff**, para que funciones el servidor seleccionado debe enviar las respuestas al cliente modificando la dirección de origen para que sea la del switch (el cliente espera una respuesta de esa dirección conocida, no de cualquier otra). Esta alternativa funciona bien cuando las respuestas son mucho mayores en tamaño que las solicitudas (como es para los servidores Web).
+Alternativamente, el switch puede entregar la conexión al servidor seleccionado, tal que todas las respuestas son directamente comunicadas al cliente sin pasar a través del switch server. Este funcionamiento se suele llamar **TCP handoff**, para que funcione el servidor seleccionado debe enviar las respuestas al cliente modificando la dirección de origen para que sea la del switch (el cliente espera una respuesta de esa dirección conocida, no de cualquier otra). Esta alternativa funciona bien cuando las respuestas son mucho mayores en tamaño que las solicitudas (como es para los servidores Web).
 
 Como se puede ver, el switch tiene un rol muy importante en el balanceo de carga entre los servidores.
 
@@ -61,9 +60,9 @@ Como se puede ver, el switch tiene un rol muy importante en el balanceo de carga
 Con el desarrollo del [[Sistemas Distribuidos#Cloud computing|cloud computing]] se facilitó la creación de clusters WAN. La razón principal por la cual se desearía distribuir los servidores a través de una WAN es para ofrecer [[Locality|localidad]].
 
 ##### Request dispatching
-En el caso que la [[Locality|localidad]] sea importante, entonces se vuelve importante asignar un [[Cliente|cliente]] que solicita un servicio a un [[Servidor|servidor]] cercano a él. La decisión de cuál servidor debería encargarse de la solicitud del cliente es un problema de la **redirection policy** o política de redirección. Si suponemos que el cliente contacte primero a un request dispatcher análogo al switch de un cluster LAN, entonces ese dispatcher deberá tener que estimar la [[Latencia|latencia]] entre el cliente y varios servidores.
+En el caso que la [[Locality|localidad]] sea importante, entonces se vuelve importante asignar un cliente que solicita un servicio a un [[Servidor|servidor]] cercano a él. La decisión de cuál servidor debería encargarse de la solicitud del cliente es un problema de la **redirection policy** o política de redirección. Si suponemos que el cliente contacte primero a un request dispatcher análogo al switch de un cluster LAN, entonces ese dispatcher deberá tener que estimar la [[Latencia|latencia]] entre el cliente y varios servidores.
 
-Una vez que el servidor ha sido seleccionado el dispatcher deberá informar al cliente. Hay varios mecanísmos de redirección (**redirection mechanisms**) posibles. Uno popular es que el dispatcher sea un [[DNS]] name server. Al enviar la solicitud para buscar el nombre el cliente también envia su dirección IP, permitiendole al dispatcher encontrar el servidor óptimo. Desafortunadamente este esquema no es perfecto por dos razones.
+Una vez que el servidor ha sido seleccionado el dispatcher deberá informar al cliente. Hay varios mecanísmos de redirección (**redirection mechanisms**) posibles. Uno popular es que el dispatcher sea un servidor [[DNS]]. Al enviar la solicitud para buscar el nombre el cliente también envia su dirección IP, permitiendole al dispatcher encontrar el servidor óptimo. Desafortunadamente este esquema no es perfecto por dos razones.
 
 Primero, en vez de enviar la dirección IP del cliente, lo que ocurre es que el servidor DNS local es contactado por el cliente y este a su vez contacta a nuestro dispatcher que funciona como servidor DNS. Osea que la IP que se recibe no es la del cliente.
 
