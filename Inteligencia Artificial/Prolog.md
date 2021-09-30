@@ -33,9 +33,38 @@ Reglas de unificación:
 Las expresiones aritméticas se realizan y unifican mediante el predicado **'is'**. No es un predicado lógico, con lo cual tendrá ciertas restricciones. El predicado 'is' unifica el primer argumento, con el valor calculado del segundo argumento.
 
 ### Comparación
-El predicado ' =:= ' y los predicados ' < ', ' =< ', ' > ', ' >= ', comparan dos valores. Si alguno de los términos representa una operación matemática, previamente realiza la operación.
+El predicado ' =:= ' y los predicados ' < ', ' =< ', ' > ', ' >= ', '=\\=' comparan dos valores. Si alguno de los términos representa una operación matemática, previamente realiza la operación.
 
-El predicado ' = = ' representa la **identidad** (ambos valores deben ser idénticos), **no realiza cálculos matemáticos**. ‘\\== ‘ no idéntico
+El predicado ' == ' representa la **identidad** (ambos valores deben ser idénticos), **no realiza cálculos matemáticos**. ‘\\== ‘ no idéntico
 
 ### Backtracking
 Proceso por el cual cuando un predicado no se puede satisfacer permite buscar otra opción o retroceder a un predicado anterior.
+
+### Lectura procedural
+La lectura procedural de un programa Prolog, hace significante el orden de las cláusulas, y el orden de las submetas en cada cláusula. Cuando un programa Prolog es leído proceduralmente, las roles de la entrada-salida de variables son explícitamente indicados. De esta manera el programa Prolog pierde alguna flexibilidad en beneficio de la eficiencia.
+
+Dada una cláusula Prolog: A:-B1,B2,...,Bn.
+Declarativamente la cáusula se lee: "A si B1 y B2 y ... y Bn"
+Si consideramos que represanta un **proceso**, se leerá: "Para hacer A, hacer B1, entonces B2, ... , entonces Bn"
+
+El programa no contiene construcciones explícitas para ciclos y bifurcaciones. Las bifurcaciones se realizan mediante cláusulas alternativas, y los ciclos por recursión. En el programa Prolog, no hay declaración de datos, ni asignaciones. La construcción de datos, la asignación de variables, y el pasaje de parámetros son realizados por procesos de unificación.
+
+Cuando hay necesidades de generar ciclos, se puede forzar el backtracking mediante el predicado incorporado *fail*.
+
+La ejecución de un programa Prolog comienza con una pregunta considerada como meta principal. Para evaluar esa meta busca una cláusula tal que pueda unificar todas las variables. La meta es reemplazada por la cabeza de la cláusula, y todas las variables son instanciadas por la substitución obtenida, generando nuevas metas (o submetas).
+
+El proceso de unificación continúa, hasta que una de las siguientes situaciones ocurre:
+* La nueva meta es la **meta vacía**, como resultado de unificar con un **hecho**.
+	* La meta inicial **sucede**.
+	* El sistema compone todos los unificadores obtenidos para retornar una respuesta.
+* La nueva meta no es unificable con la cabeza de ninguna cláusula en el programa.
+	* El sistema retrocede a la meta precedente, y busca otra forma alternativa de ejecución.
+	* El proceso se repite hasta que sucede o una falla total ocurre (es decir, no encuentra más cláusulas para unificar, y no hay metas anteriores sobre las que pueda retroceder).
+
+El proceso utilizado en cada paso (cláusula) se llama **resolución**, y el proceso en conjunto se llama **deducción por resolución**.
+
+#### Orden de metas y cláusulas
+* Si una variable ya está instanciada, no puede instanciar con otro valor. Esta es la llamada **propiedad de unicidad referencial**. 
+* El orden de las metas indica el orden en que los procesos serán ejecutados.
+* El orden de las cláusulas controla el orden en se producen las ramificaciones.
+* No es importante el orden de los procedimientos, si de las cláusulas dentro de cada procedimiento.

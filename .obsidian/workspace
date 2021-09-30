@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
+            "file": "Inteligencia Artificial/Prolog.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
+                "file": "Inteligencia Artificial/Prolog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
+                "file": "Inteligencia Artificial/Prolog.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Inteligencia Artificial/Prolog.md",
+    "Daily/20210920.md",
+    "Inteligencia Artificial/Daily/20210930.md",
+    "Inteligencia Artificial/Daily/Untitled.md",
+    "Inteligencia Artificial/Daily/20210831.md",
     "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
     "Redes de Computadoras/P2P.md",
     "Sistemas Distribuidos/Architecture/Decentralized organizations/Decentralized organizations.md",
     "Redes de Computadoras/Architecture/Overlay Network.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Centralized organizations.md",
-    "Sistemas Distribuidos/Architecture/Decentralized organizations/P2P systems.md",
-    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
-    "Redes de Computadoras/Protocolos/TCP.md"
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Centralized organizations.md"
   ]
 }
