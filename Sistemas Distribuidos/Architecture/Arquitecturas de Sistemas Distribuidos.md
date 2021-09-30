@@ -21,7 +21,7 @@ Los sistemas de servidores de borde (Edge-servers systems) llevan los servidores
 ### Collaborative distributed systems
 Un uso notable de las arquitecturas híbridas es en los sistemas colaborativos distribuidos. El problema principal en estos sistemas es iniciar una operación, para lo que usualmente se deploya un esquema [[Client-Server|cliente-servidor tradicional]]. Una vez que un nodo se ha unido al sistema, puede usar un esquema totalmente descentralizado para la colaboración.
 
-Un ejemplo concreto de esto es BitTorrent, que es un [[P2P systems|sistema punto a punto]] de descarga de archivos. La concepto básico de su funcionamiento es que un usuario busca un archivo, descarga fragmentos del archivo de otros usuarios hasta que está que estos pueden ser ensamblados generando el archivo completo. Un objetivo importante es el asegurar la colaboración, y en estos sistemas hay una fracción importante de participantes que solamente descargan archivos, pero sin contribuir nada, a este fenomeno se lo llama **free riding**.
+Un ejemplo concreto de esto es BitTorrent, que es un [[Sistemas P2P|sistema punto a punto]] de descarga de archivos. La concepto básico de su funcionamiento es que un usuario busca un archivo, descarga fragmentos del archivo de otros usuarios hasta que está que estos pueden ser ensamblados generando el archivo completo. Un objetivo importante es el asegurar la colaboración, y en estos sistemas hay una fracción importante de participantes que solamente descargan archivos, pero sin contribuir nada, a este fenomeno se lo llama **free riding**.
 
 ![[collaborative_distributed_systems_bit_torrent_1.png]]
 

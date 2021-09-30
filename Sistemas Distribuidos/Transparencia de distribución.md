@@ -26,7 +26,7 @@ El transporte de un recurso de una ubicación a otra no debe ser “notado” mi
 Soportar la movilidad de procesos y recursos iniciados por los usuarios. En este tipo de transparencia el sistema distribuido permite la movilidad de los objetos. Un ejemplo claro es la comunicación entre dos dispositivos móviles, aunque ambas personas se estén moviendo el sistema les permite continuar con su conversación.
 
 ##### Transparencia de replicación 
-Ocultar que existen diferentes copias del mismo recurso (replicas). Por lo general para que un sistema pueda permitir transparencia de replicación debe permitir transparencia de ubicación.
+Ocultar que existen diferentes copias del mismo recurso (replicas, [[Tácticas para disponibilidad#Recuperación de fallas|redundancia activa]]). Por lo general para que un sistema pueda permitir transparencia de replicación debe permitir transparencia de ubicación.
 
 ##### Transparencia de concurrencia 
 Un usuario no debería notar que otro está haciendo uso del mismo recurso. Al finalizar, el recurso tiene que estar en un estado consistente. Se deben implementar mecanismos de [[Exclusión mutua distribuida|exclusión mutua distribuida]] para no generar inconsistencia.

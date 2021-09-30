@@ -20,7 +20,7 @@ Un posible algorítmo basado en el uso de un anillo lógico sería el siguiente.
 Eventualmente el mensaje es recibido por el remitente original (lo reconoce al tener ya su id en la lista). En este punto el mensaje es cambiado a tipo COORDINATOR y es circulado una vez más, esta vez para informar a todos el nuevo coordinador (el proceso con mayor id) y los miembros del nuevo anillo.
 
 ### Elections in large-scale systems
-Hay situaciones en donde varios nodos deberían ser selecionados, este es el caso de los **super peers** en [[P2P systems|sistemas P2P]]. Los siguientes requerimientos deben cumplirse para la elección de un super peer:
+Hay situaciones en donde varios nodos deberían ser selecionados, este es el caso de los **super peers** en [[Sistemas P2P|sistemas P2P]]. Los siguientes requerimientos deben cumplirse para la elección de un super peer:
 1. Los nodos normales deberían tener acceso de baja latencia a los super peers.
 2. Los super peers deberían estar distribuidos uniformemente sobre la [[Overlay Network|red superpuesta]].
 3. Debería haber una proción predefinida de super peers relativo al número total de nodos en la red superpuesta.

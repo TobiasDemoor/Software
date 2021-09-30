@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/LLC.md",
+            "file": "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/LLC.md",
+                "file": "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/LLC.md",
+                "file": "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/LLC.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Subcapa LLC.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Untitled.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/HDLC.md",
-    "Redes de Computadoras/Protocolos/PPP.md",
-    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
-    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
-    "Bases de Datos/Teoría de Normalización/Formas Normales.md"
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
+    "Redes de Computadoras/P2P.md",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/Decentralized organizations.md",
+    "Redes de Computadoras/Architecture/Overlay Network.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Centralized organizations.md",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/P2P systems.md",
+    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
+    "Redes de Computadoras/Protocolos/TCP.md"
   ]
 }

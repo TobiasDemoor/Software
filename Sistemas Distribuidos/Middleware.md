@@ -22,6 +22,7 @@ Un **wrapper** o [[Adapter|adapter]] es un componente especial que ofrece una in
 Aunque originalmente fueron definidos en el contexto de [[OOP]], en el contexto de los sistemas distribuidos los wrappers son mucho más que un simple transformador de interfaces. Por ejemplo, un **object adapter** es un componente que permite a las aplicaciones invocar objetos remotos, aunque esos objetos puedan haber sido implementados como una combinación de funciones de librería operando sobre tablas de una base de datos relacional.
 
 Una tarea del middleware es minimizar la cantidad de estos wrappers, ya que si cada aplicación se conectara con todas las otras mediante un adapter distinto habría un número inmanejable. Una forma de lograr esto es implementando un **broker**, que es un componente centralizado que administra los accesos entre aplicaciones.
+
 ![[wrappers_1.png]]
 
 ### Interceptors
@@ -31,8 +32,18 @@ Para llevarlo a un ejemplo concreto, supongamos tener un objeto A que puede invo
 1. El objeto A tiene disponible una interfaz local idéntica a la ofrecida por el objeto B. A llama al método disponible en dicha interfaz.
 2. La llamada de A es transformada en una invocación genérica a objeto, gracias a una interfaz general de invocación de objetos ofrecida por el middleware.
 3. La invocación genérica a objeto es transformada en un mensaje que es enviado a través de la red de [[Capa de transporte|capa de transporte]].
+
 ![[interceptors_1.png]]
 
-Supongamos que en el ejemplo anterior ahora B se encuentra replicado. En este casa cada réplica debería ser invocada ([[Tácticas para disponibilidad#Recuperación de fallas|redundancia activa]]). Este es un punto claramente definido donde la intercepción puede ayudar. Lo que realizara el **request-level interceptor** es simplemente realizar la invocación genérica para cada una de las réplicas. Esto es ideal ya que ni el objeto A ni el middleware tienen que estar al tanto de que B está replicado.
+Supongamos que en el ejemplo anterior ahora B se encuentra replicado. En este casa cada réplica debería ser invocada. Este es un punto claramente definido donde la intercepción puede ayudar. Lo que realizara el **request-level interceptor** es simplemente realizar la invocación genérica para cada una de las réplicas. Esto es ideal ya que ni el objeto A ni el middleware tienen que estar al tanto de que B está replicado.
 
-Luego podríamos requeriri que el mensaje enviado sea dividido en bloques más pequeños debido a que es muy grande. En este caso el **message-level interceptor** puede asistir realizando esto, sin que el middleware se vea involucrado.
+Luego podríamos requerir que el mensaje enviado sea dividido en bloques más pequeños debido a que es muy grande. En este caso el **message-level interceptor** puede asistir realizando esto, sin que el middleware se vea involucrado.
+
+### Middleware modificable
+La idea clave es que las aplicaciones no tengan que reaccionar ante los cambios constantes de los entornos de ejecución, sino que dicha responsabilidad recaiga sobre el middleware. El middleware debe poder modificarse y adaptarse sin afectar su funcionamiento.
+
+Para esto se utiliza el diseño basado en [[Componente|componentes]].
+* Construcción dinámica del middleware a partir de componentes interoperables.
+* Configuración estática en tiempo de diseño o configuración dinámica en tiempo de ejecución. Esta última requiere soporte para enlace tardío de referencias.
+* Se requiere soporte para cargar y descargar componentes en tiempo de ejecución.
+* Se deben definir contratos/interfaces claras, teniendo en cuenta el acoplamiento y la cohesión entre los componentes.
