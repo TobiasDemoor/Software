@@ -1,4 +1,4 @@
-La subcapa LLC (Logical Link Control) es la subcapa superior de la [[Capa de enlace de datos|capa de enlace de datos]] que se encarga fundamentalmente del entramado, control de errores y evitar que un emisor lento sature a un receptor lento.
+La subcapa LLC ([[LLC|Logical Link Control]]) es la subcapa superior de la [[Capa de enlace de datos|capa de enlace de datos]] que se encarga fundamentalmente del entramado, control de errores y evitar que un emisor lento sature a un receptor lento.
 
 ## Cuestiones de diseño
 La capa de enlace de datos utiliza los servicios de la [[Capa física|capa física]] para enviar y recibir bits a través de los canales de comunicación. Tiene varias funciones específicas, entre las que se incluyen:

@@ -6,3 +6,5 @@ PPP provee tres características principales:
 3. Un mecanismo para negociar opciones de capa de red con independencia del protocolo de red que se vaya a utilizar. El método elegido debe tener un **NCP (Network Control Protocol)** distinto para cada capa de red soportada.
 
 ![[ppp_trama.png]]
+
+![[ppp_diagrama_estados.png]]

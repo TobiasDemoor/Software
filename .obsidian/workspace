@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/LLC.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/LLC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/LLC.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/LLC.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Subcapa LLC.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Untitled.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/HDLC.md",
+    "Redes de Computadoras/Protocolos/PPP.md",
     "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
     "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
-    "Bases de Datos/Teoría de Normalización/Formas Normales.md",
-    "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
-    "Bases de Datos/Teoría de Normalización.md",
-    "Bases de Datos/Concepts/Atributos primos.md",
-    "Bases de Datos/Concepts/Untitled.md",
-    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
-    "Análisis y Diseño/Patrones/GoF/Adapter.md",
-    "Sistemas Distribuidos/Middleware.md"
+    "Bases de Datos/Teoría de Normalización/Formas Normales.md"
   ]
 }
