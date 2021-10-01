@@ -3,3 +3,16 @@ Los switches son una evolución de los [[Bridge|bridges]]. Sin embargo no solo o
 > Los switches son un tipo particular de bridge específico para la tecnología [[Ethernet]].
 
 Los switches sólo envían tramas a los puertos para los cuales están destinadas. Cuando el puerto de un switch recibe una trama Ethernet de una estación, el switch verifica las direcciones de Ethernet para ver cuál es el puerto de destino de la trama.
+
+Cada puerto del switch es un dominio de colisión distinto CSMA/CD va a trabajar en cada segmento individualmente.
+
+### Llenado de tabla interna
+Utiliza el algorítmo de puente [[Transparencia|transparente]]:
+1. Cuando el destino no se conoce (no  está en la tabla) entonces inundar (copia la trama en todos los puertos energizados).
+2. Cuando la dirección destino se encuentra en la tabla, reenviar al puerto correspondiente.
+3. Cuando la dirección destino se encuentra en la tabla en la misma interfaz asociada a la dirección origen, descartar la trama.
+4. La dirección origen se asocia en la tabla a la interfaz origen.
+
+Se dice que los switch aprenden de lo ocurrido (aprenden por dirección origen) y reenvían por dirección destino. No generan ninguna trama.
+
+Pasado cierto tiempo el switch limpia las entradas de la tabla.
