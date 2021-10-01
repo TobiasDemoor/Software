@@ -26,5 +26,14 @@
     }
   ],
   "editor:insert-wikilink": [],
-  "editor:delete-paragraph": []
+  "editor:delete-paragraph": [],
+  "obsidian-git:push": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ]
 }

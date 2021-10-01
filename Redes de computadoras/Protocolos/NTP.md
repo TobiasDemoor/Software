@@ -4,4 +4,4 @@ El funcionamiento es bastante simple. Primero El cliente envia una solicitud con
 
 $$\theta = T_3 + \frac {(T_2 - T_1)+(T_4-T_3)} 2 - T_4 = \frac {(T_2 - T_1)+(T_3-T_4)} 2$$
 
-Se tienen estratos según la distancia lógica a un servidor que tiene un [[Reloj físico|reloj]] atómico, siendo estos los llamados servidor de estrato 1. Se dice que el propio reloj opera en el estrato 0.
+Se tienen estratos según la distancia lógica a un servidor que tiene un [[Reloj físico|reloj]] atómico, siendo estos los llamados servidor de estrato 1. Se dice que el propio reloj opera en el estrato 0. Después de sincronizarse un equipo con un servidor NTP estrato $n$ el servidor sincronizado pasa a ser estrato $n+1$.
