@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Coordinación/Sincronización.md",
+            "file": "Bases de Datos/Lenguajes/SQL.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Coordinación/Sincronización.md",
+                "file": "Bases de Datos/Lenguajes/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Coordinación/Sincronización.md",
+                "file": "Bases de Datos/Lenguajes/SQL.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Bases de Datos/Lenguajes/SQL.md",
+    "Daily/20210930.md",
+    "Daily/Untitled.md",
     "Sistemas Distribuidos/Coordinación/Sincronización.md",
     "Sistemas Distribuidos/Comunicación/Comunicación.md",
     "Sistemas Distribuidos/Comunicación/Remote Procedure Call.md",
     "Resumenes/Resumen SSDD.md",
     "Sistemas Distribuidos/Comunicación/Message Oriented Middleware.md",
     "Sistemas Distribuidos/Comunicación/Remote Method Invocations.md",
-    "Sistemas Distribuidos/Comunicación/Remote Procedure Calls.md",
-    "Sistemas Distribuidos/Code Migration.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
-    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md"
+    "Sistemas Distribuidos/Comunicación/Remote Procedure Calls.md"
   ]
 }
