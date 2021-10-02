@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Data Models/Data Model.md",
+            "file": "Sistemas Distribuidos/Architecture/Architectural style.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Data Models/Data Model.md",
+                "file": "Sistemas Distribuidos/Architecture/Architectural style.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Data Models/Data Model.md",
+                "file": "Sistemas Distribuidos/Architecture/Architectural style.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Architecture/Architectural style.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Centralized organizations.md",
+    "Sistemas Operativos/Virtualización.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
     "Bases de Datos/Data Models/Data Model.md",
     "Bases de Datos/Data Models/Modelo Orientado a Objetos.md",
-    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
-    "Bases de Datos/Data Models/Modelo Entidad Relación.md",
-    "Bases de Datos/Data Models/Modelo Conceptual.md",
-    "Resumenes/Untitled.md",
-    "Daily/20211001.md",
-    "Redes de Computadoras/Hardware/Switch.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md"
+    "Bases de Datos/Data Models/Modelo Entidad Relación.md"
   ]
 }
