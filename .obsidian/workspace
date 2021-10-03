@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Architecture/Architectural style.md",
-            "mode": "source"
+            "file": "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "desicion",
+                "query": "bizantina",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Architectural style.md",
+                "file": "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Architectural style.md",
+                "file": "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Architecture/Architectural style.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Centralized organizations.md",
-    "Sistemas Operativos/Virtualización.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
     "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
-    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
-    "Bases de Datos/Data Models/Data Model.md",
-    "Bases de Datos/Data Models/Modelo Orientado a Objetos.md",
-    "Bases de Datos/Data Models/Modelo Entidad Relación.md"
+    "attachments/servidor_1.png",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/Decentralized organizations.md",
+    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/Architecture/Architectural style.md",
+    "Sistemas Distribuidos/Comunicación/Comunicación.md",
+    "Sistemas Distribuidos/Comunicación/Remote Method Invocations.md",
+    "attachments/object-based_architectures_1.png"
   ]
 }

@@ -11,7 +11,11 @@ Una alternativa a esto sería correr un servidor como una gran máquina de estad
 
 Una vez que se complete la operación el SO notifica al hilo, el cual entonces buscará el estado de la request y continuará procesandola. Eventualmente se enviará una respuesta al cliente solicitante por medio de una llamada no bloqueante.
 
-![[servidor_1.png]]
+| Modelo                   | Características                                 |
+| ------------------------ | ----------------------------------------------- |
+| Multithreading           | Paralelismo, llamadas al sistema bloqueantes    |
+| Proceso monohilo         | No paralelismo, llamadas al sistema bloqueantes |
+| Máquina de estado finito | Paralelismo, lamadas al sistema no bloqueantes  | 
 
 ### End points
 Otro tema a tratar es a través de dónde se contacta un [[Cliente|cliente]] con el [[Servidor|servidor]]. En todos loss casos, los clientes envían pedidos a un **end point**, también llamado **puerto**, en la máquina donde está corriendo el servidor. Cada servidor escucha un end point específico. Ahora resta determinar cómo conoce un cliente el end point al cual acceder. Una primera alternativa es asignar globalmente end points para servicios conocidos. Este es el caso para las requests FTP con el puerto TCP 21 o con el puerto TCP 80 para los servidores HTTP.
