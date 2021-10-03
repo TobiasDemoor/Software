@@ -55,4 +55,3 @@ Una celda **cons** se compone de dos punteros (car.cdr), **car** y **cdr** son o
 ==
 (setq (list a b c))
 ```
-
