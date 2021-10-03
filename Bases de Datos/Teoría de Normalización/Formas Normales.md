@@ -6,18 +6,12 @@ En todas las formas normales se presentan anomalías pero se van reduciendo a me
 Es parte de la definición formal de una [[Modelo Lógico Relacional|relación]]. Evita atributos multivaluados y compuestos (relaciones adentro de relaciones). Establece que en un esquema de relación los dominios de los atributos deben incluir únicamente valores atómicos, es decir, indivisibles.
 
 ### 2ª Forma Normal (2FN)
-Sea $R(A_1, A_2, \cdots, A_n)$ un esquema de relación y sean X e Y subconjuntos de $\set{A_1, A_2, \cdots, A_n}$.
-
-* <u>Definición DF TOTAL:</u> Una dependencia funcional $X \rightarrow Y$ es TOTAL si la eliminación de algún atributo A de X implica que la dependencia resultante ya no se cumple, es decir, para algún atributo $A \in X$, $(X-\set{A}) \rightarrow Y$ ya no se cumple.
-
-* <u>Definición DF PARCIAL:</u> Una dependencia funcional $X \rightarrow Y$ es PARCIAL si algún atributo $A \in X$ puede ser eliminado de X y la dependencia resultante se sigue manteniendo, $(X-\set{A}) \rightarrow Y$ en R.
-
-R está en 2FN si cada [[Atributos primos|atributo no primo]] de R depende funcionalmente en forma total de cada clave de R (cada atributo no primo no es parcialmente dependiente de alguna clave de R). 
+R está en 2ª Forma Normal si cada [[Atributos primos|atributo no primo]] de R [[Dependencia Funcional#Dependencia Funcional Total o Parcial|depende funcionalmente en forma total]] de cada clave de R (cada atributo no primo no es parcialmente dependiente de alguna clave de R). 
 
 ### 3ª Forma Normal (3FN)
 Sea $R(A_1, A_2, \cdots, A_n)$ un esquema de relación y sean X e Y subconjuntos de $\set{A_1, A_2, \cdots, A_n}$, A atributo de R.
 
-R está en 3FN si para cada dependencia funcional $X \rightarrow Y$ definida sobre R, si cumple una de las dos o ambas:
+R está en 3FN si para cada dependencia funcional $X \rightarrow A$ definida sobre R, si cumple una de las dos o ambas:
 	a. X es superclave de R.
 	b. A es atributo primo de R.
 	

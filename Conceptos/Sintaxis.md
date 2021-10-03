@@ -1,1 +1,1 @@
-Reglas de escritura, influyen en la legibilidad
+La **sintaxis** define las reglas de escritura, influye en la legibilidad de los [[Lenguajes|lenguajes]].

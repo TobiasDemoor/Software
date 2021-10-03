@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
-            "mode": "preview"
+            "file": "Inteligencia Artificial/Lisp.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bizantina",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
+                "file": "Inteligencia Artificial/Lisp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
+                "file": "Inteligencia Artificial/Lisp.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
-    "attachments/servidor_1.png",
-    "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
-    "Sistemas Distribuidos/Architecture/Decentralized organizations/Decentralized organizations.md",
-    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
-    "Sistemas Distribuidos/Architecture/Architectural style.md",
-    "Sistemas Distribuidos/Comunicación/Comunicación.md",
-    "Sistemas Distribuidos/Comunicación/Remote Method Invocations.md",
-    "attachments/object-based_architectures_1.png"
+    "Inteligencia Artificial/Lisp.md",
+    "Conceptos/Lenguajes.md",
+    "Conceptos/Sintaxis.md",
+    "Conceptos/Semántica.md",
+    "Inteligencia Artificial/Daily/20210831.md",
+    "Inteligencia Artificial/Inteligencia Artificial.md",
+    "Inteligencia Artificial/Inteligencia.md",
+    "Inteligencia Artificial/Prueba de Turing.md",
+    "Inteligencia Artificial/Machine Learning.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md"
   ]
 }

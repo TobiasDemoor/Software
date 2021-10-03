@@ -34,6 +34,13 @@ Para determinar estas dependencias inferidas se tiene un **conjunto de reglas de
 ### Análisis
 Observando una instancia no es posible afirmar que dependencias funcionales se cumplen sobre un esquema de relación R. Pero sí se puede afirmar que algunas dependencias funcionales no se cumplen. La única forma de definir correctamente las dependencias funcionales es analizando el significado de los atributos.
 
+### Dependencia Funcional Total o Parcial
+Sea $R(A_1, A_2, \cdots, A_n)$ un esquema de relación y sean X e Y subconjuntos de $\set{A_1, A_2, \cdots, A_n}$.
+
+Una dependencia funcional $X \rightarrow Y$ es **TOTAL** si la eliminación de algún atributo A de X implica que la dependencia resultante ya no se cumple, es decir, para algún atributo $A \in X$, $(X-\set{A}) \rightarrow Y$ ya no se cumple.
+
+Una dependencia funcional $X \rightarrow Y$ es **PARCIAL** si algún atributo $A \in X$ puede ser eliminado de X y la dependencia resultante se sigue manteniendo, $(X-\set{A}) \rightarrow Y$ en R.
+
 ### Clausura de conjunto de DF's
 Sea *F* un conjunto de DFs especificadas sobre un esquema de relación R. El diseñador especifica las dependencias que son semánticamente obvias. Pero, en general, otras DFs aparte de las especificadas se cumplen en todas las instancias de relación legales que satisfacen las DFs en *F*. El conjunto de todas esas DFs se denomina **CLAUSURA DE F** y se denota $\bf{F^+}$.
 $$F^+ = \set{X \rightarrow Y / F \models X \rightarrow Y}$$
@@ -59,3 +66,4 @@ Sea $F_{min}$ la cobertura minimal de F, entonces cada DF en F está en $F_{min}
 1. Cada DF tiene del lado derecho un único atributo (Regla de la descomposición).
 2. Cada DF no tiene del lado izquierdo atributos redundantes ($B\subset X$ es redundante para $X \rightarrow A$ si $A \in (X-B)^+$).
 3. No contiene DF's redundantes (en general las que se obtienen por transitividad). $X \rightarrow A$ es redundante si $(F-\set{X \rightarrow A}) \equiv F$ (para determinar esto basta con ir removiendo uno a uno y verificando si el resultado cubre al conjunto original).
+4. 

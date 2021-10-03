@@ -1,1 +1,1 @@
-significado, limitado por la [[Sintaxis|sintaxis]]
+La semántica da el significado, es limitada por la [[Sintaxis|sintaxis]] del [[Lenguajes|lenguaje]].
