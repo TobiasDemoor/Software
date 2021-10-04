@@ -1,3 +1,2 @@
-Capacidad de entender o comprender.
-Capacidad de resolver problemas.
+Capacidad de entender, comprender, resolver problemas, etc.
 Conocimiento, comprensión, acto de entender.

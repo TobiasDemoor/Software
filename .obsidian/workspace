@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inteligencia Artificial/Lisp.md",
+            "file": "Inteligencia Artificial/Agente Inteligente.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Lisp.md",
+                "file": "Inteligencia Artificial/Agente Inteligente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Lisp.md",
+                "file": "Inteligencia Artificial/Agente Inteligente.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Inteligencia Artificial/Lisp.md",
-    "Conceptos/Lenguajes.md",
-    "Conceptos/Sintaxis.md",
-    "Conceptos/Semántica.md",
-    "Inteligencia Artificial/Daily/20210831.md",
+    "Inteligencia Artificial/Agente Inteligente.md",
     "Inteligencia Artificial/Inteligencia Artificial.md",
-    "Inteligencia Artificial/Inteligencia.md",
-    "Inteligencia Artificial/Prueba de Turing.md",
     "Inteligencia Artificial/Machine Learning.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md"
+    "Inteligencia Artificial/Sistemas Expertos.md",
+    "Inteligencia Artificial/Inteligencia.md",
+    "Inteligencia Artificial/Razonamiento.md",
+    "Inteligencia Artificial/Lisp.md",
+    "Inteligencia Artificial/Prolog.md",
+    "Inteligencia Artificial/Prueba de Turing.md",
+    "Inteligencia Artificial/Conceptos/Androide.md"
   ]
 }

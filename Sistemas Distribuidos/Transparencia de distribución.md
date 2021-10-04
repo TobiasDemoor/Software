@@ -20,10 +20,10 @@ Ocultar las diferencias en representación de datos y la forma en que el usuario
 Ocultar las diferencias donde físicamente se ubican los recursos en un sistema. Utilización de nombres lógicos (ej. [[URL]]).
 
 ##### Transparencia de reubicación 
-El transporte de un recurso de una ubicación a otra no debe ser “notado” mientras lo estamos usando (portátiles en uso de un lugar a otro). En este tipo de transparencia es el sistema distribuido el que mueve el recurso de un lugar a otro.
+El transporte de un recurso de una ubicación a otra no debe ser “notado” mientras lo estamos usando (portátiles en uso de un lugar a otro). En este tipo de transparencia **es el sistema distribuido el que mueve** el recurso de un lugar a otro.
 
 ##### Transparencia de migración 
-Soportar la movilidad de procesos y recursos iniciados por los usuarios. En este tipo de transparencia el sistema distribuido permite la movilidad de los objetos. Un ejemplo claro es la comunicación entre dos dispositivos móviles, aunque ambas personas se estén moviendo el sistema les permite continuar con su conversación.
+Soportar la movilidad de procesos y recursos **iniciados por los usuarios**. En este tipo de transparencia el sistema distribuido permite la movilidad de los objetos. Un ejemplo claro es la comunicación entre dos dispositivos móviles, aunque ambas personas se estén moviendo el sistema les permite continuar con su conversación.
 
 ##### Transparencia de replicación 
 Ocultar que existen diferentes copias del mismo recurso (replicas, [[Tácticas para disponibilidad#Recuperación de fallas|redundancia activa]]). Por lo general para que un sistema pueda permitir transparencia de replicación debe permitir transparencia de ubicación.

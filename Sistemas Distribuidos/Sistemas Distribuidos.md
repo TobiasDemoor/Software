@@ -8,24 +8,24 @@
 La definición de Tannenbaum y Van Steen se refiere a dos características principales de los sistemas distribuidos. La primera es que un sistema distribuido es una colección de elementos autonomos de computacion (**[[Nodo|nodos]]**). La segunda es que los usuarios o aplicaciones lo perciben como un **sistema único** (es [[Transparencia|transparente]]). Es decir que los nodos **necesitan colaborar**. Cómo establecer esta colaboración yace en el centro del desarrollo de los sistemas distribuidos.
 
 ### Colección de elementos autónomos
-Los sistemas distribuidos modernos usualmente están compuestos por todo tipo de nodos, desde equipos muy grandes y de altísima [[Performance|performance]] hasta computadores diminutos. Un principio fundamental es que los nodos pueden actuar independientemente de los otros. Los nodos están programados para lograr objetivos comunos, lo cual logran mediante el intercambio de **mensajes** entre ellos. Un nodo responde a los mensajes entrantes los cuales son procesados y desencadenan el envío de más mensajes perpetuando así la comunicación.
+Los sistemas distribuidos modernos usualmente están compuestos por todo tipo de nodos, desde equipos muy grandes y de altísima performance hasta computadores diminutos. Un principio fundamental es que los nodos pueden actuar independientemente de los otros. Los nodos están programados para lograr objetivos comunes, lo cual logran mediante el intercambio de **mensajes** entre ellos. Un nodo responde a los mensajes entrantes los cuales son procesados y desencadenan el envío de más mensajes perpetuando así la [[Comunicación|comunicación]].
 
-Un observación relevante es que al estar tratando con nodos independientes no hay un **[[Reloj físico|reloj global]]**, sino que cada [[Componente|componente]] tiene su propia noción del tiempo. La falta de esta referencia común lleva a preguntas fundamentales en lo que respecta a la **[[Sincronización|sincronización y coordinación]]** dentro del sistema.
+Un observación relevante es que al estar tratando con nodos independientes no hay un **reloj global**, sino que cada [[Componente|componente]] tiene su propia noción del tiempo. La falta de esta referencia común lleva a preguntas fundamentales en lo que respecta a la **[[Sincronización|sincronización y coordinación]]** dentro del sistema.
 
 El hecho de trabajar con un conjunto de nodos también hace que tengamos que administrar la pertenencia a distintos **grupos** y la organización de estos. Es decir que debemos registrar que nodos pueden o no **pertenecer al sistema**. El manejo de la pertenencia a los distintos grupos es un tema complejo el cuál tiene un efecto sobre la [[Performance|performance]] del sistema y sobre la **seguridad** del mismo.
 
-En lo que respecta a la **organización de la colección**, en la práctica se puede observar que los sistemas distribuidos usualmente están organizados como un **[[Overlay Network|red superpuesta]]**).
+En lo que respecta a la **organización de la colección**, en la práctica se puede observar que los sistemas distribuidos usualmente están organizados como un **[[Overlay Network|red superpuesta]]**.
 
 ### Sistema único y coherente
 Como fue mencionado, un sistema distribuido debería aparentar ser un sistema único y coherente. Se podría afirmar que un sistema es coherente si su comportamiento se adecua a las expectativas del usuario. Más específicamente, en un sistema único y coherente la colección de nodos opera como un todo opera de la misma manera, sin importar dónde, cuándo, o cómo se lleve a cabo la interacción entre el usuario y el sistema.
 
-Para ofrecer una visión única y coherente se requiere que el usuario no pueda deterinar exactamente en cuál dispositvo se está ejecutando un proceso. Así mismo la localización de la información no debería ser relevante y tampoco debería ser relevante que el sistema esté replicando información para mejorar la [[Performance|performance]]. A esto se le llama **[[Transparencia de distribución|transparencia de distribución]]**.
+Para ofrecer una visión única y coherente se requiere que el usuario no pueda determinar exactamente en cuál dispositvo se está ejecutando un proceso. Así mismo la localización de la información no debería ser relevante y tampoco debería ser relevante que el sistema esté replicando información para mejorar la [[Performance|performance]]. A esto se le llama **[[Transparencia de distribución|transparencia de distribución]]**.
 
 ## Objetivos de diseño
 ### Soportar compartir recursos
 Un objetivo importante de un sistema distribuido es facilitar a los usuarios (y aplicaciones) acceder y compartir recursos remotos. Ejemplos canonicos:
-- Almacenamiento basado “en la nube” .
-- Streaming multimedia asistido por redes [[P2P]] .
+- Almacenamiento basado “en la nube”.
+- Streaming multimedia asistido por redes [[P2P]].
 - Servicios de email compartido.
 - Web hosting compartido ([[CDN]])
 
@@ -58,7 +58,7 @@ Lo que necesitamos es una separación entre [[Políticas vs Mecanismos|política
 Los sistemas distribuidos difieren de los sistemas tradicionales centralizados al tener componentes distribuidos a lo largo de una red. El hecho de no tener en cuenta esta distribución de los componentes lleva a cometer errores en el desarrollo relacionados con asumir que:
 - La red es confiable
 - La red es segura
-- La red es homogénea
+- La red es homogénea (la solución que funciona en una red puntual no necesariamente funciona en todas, por ejemplo si lo desarrollas en una LAN y se deploya de manera inalámbrica)
 - La topología no cambia
 - La [[Latencia|latencia]] es cero
 - El [[Ancho de banda|ancho de banda]] es infinito
@@ -102,7 +102,7 @@ Los servicios IaaS a menudo ofrecen recursos como imágenes de disco de [[Virtua
 
 **Application:** aplicaciones completas corren en esta capa y son ofrecidas a los usuarios para mayor customización. Estas aplicaciones son ejecutadas en el cloud del proveedor.
 
-El proveedor forece estas capas a sus clientes mediante varias interfaces, llevando a la definicion de diferentes tipos de servicios:
+El proveedor ofrece estas capas a sus clientes mediante varias interfaces, llevando a la definicion de diferentes tipos de servicios:
 - **Infrastructure-as-a-Service (IaaS)** que incluye las capas de hardware e infraestructura.
 - **Platform-as-a-Service (PaaS)** para la capa de plataforma.
 - **Software-as-a-Service (SaaS)** para la capa de aplicación.

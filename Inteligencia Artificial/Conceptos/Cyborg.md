@@ -1,0 +1,1 @@
+Cyber-Organism. Es esencialmente un sistema hombre-máquina en el cual los mecanismos de control de la porción humana son modificados externamente por medicamentos o dispositivos de regulación para que el ser pueda vivir en un entorno diferente al normal.

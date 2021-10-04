@@ -1,31 +1,46 @@
 Entidad de software que, basándose en su propio conocimiento, realiza un conjunto de operaciones destinadas a satisfacer las necesidades de un usuario o de otro programa, bien por iniciativa propia o porque alguno de éstos se lo requiere.
+
 Todos los agentes inteligentes son [[Programa|programas]], pero no todos los programas que realizan búsquedas son agentes inteligentes. Los agentes en sí mismos pueden ser considerados como entidades individuales (partes de programa que tienen control sobre sus propias vidas y movimientos).
+
 Continuamente están realizando procesos que les indican qué hacer y cómo. Se comunican con otros agentes para resolver de forma adecuada su trabajo.
 
 > Un agente es cualquier cosa que pueda ver en su **entorno** a través de **sensores** y actuar en su entorno a través de **efectores**. - (Rusell & Norving)
 
 > Un agente es un **sistema computacional** que está situado en algún **ambiente**, y que es capaz de actuar **autónomamente y flexiblemente** en dicho ambiente con el fin de cumplir sus **objetivos**. - (Wooldridge & Jennings)
 
-**Agencia**: el grado en el cual el agente puede percibir su entorno y actuar en él. Para que un programa sea un agente debe poseer autonomía, habilidad social, pre actividad y pro actividad.
+## Agencia
+La agencia es el grado en el cual el agente puede percibir su entorno y actuar en él. Para que un programa sea un agente debe poseer autonomía, habilidad social, pre actividad y pro actividad.
 
-**Inteligencia**:Distintos grados en el cual la aplicación utiliza razonamiento, aprendizaje y otras técnicas para interpretar la [[Dato, información y conocimiento|información o conocimiento]] al cual tiene acceso, tales como:
+## Inteligencia
+Distintos grados en el cual la aplicación utiliza [[Razonamiento|razonamiento]], aprendizaje y otras técnicas para interpretar la [[Dato, información y conocimiento|información o conocimiento]] al cual tiene acceso, tales como:
 - Permitir al usuario expresar sus preferencias.
 - Formalizar un conjunto de reglas de razonamiento que combinadas con conocimiento y, siguiendo un proceso de inferencia puede conducir a la toma de alguna acción.
 - Modificar su propia capacidad de razonamiento en la base nuevo conocimiento derivado de muchas fuentes, es decir, aprender.
 
-**Autonomía**: capacidad de actuar basándose en su experiencia. El agente es capaz de adaptarse aunque el entorno cambie severamente.
+## Autonomía
+La autonomía es la capacidad de actuar basándose en su experiencia. El agente es capaz de adaptarse aunque el entorno cambie severamente.
 
-**Flexibilidad** (una o varias de las siguientes capacidades):
+## Flexibilidad
+La flexibilidad es una o varias de las siguientes capacidades:
 - **Reactividad**: capacidad de percibir su ambiente, y responder sin demoras a cambios que ocurren en él.
 - **Pro-actividad**: capacidad de exhibir un comportamiento dirigido a objetivos, tomando la iniciativa.
 - **Habilidad social**: capacidad de interactuar con otros agentes (y posiblemente humanos) a través de un lenguaje de comunicación.
 
-**Agente racional**: Agente que hace lo correcto u obtiene el mejor desempeño, dependiendo de la medida con que se evalúa el grado de éxito logrado.
-**Agente racional ideal**: Agente racional que obtiene la máxima medida de rendimiento.
+## Agentes Racionales
+* *Agente racional**:Agente que hace lo correcto u obtiene el mejor desempeño, dependiendo de la medida con que se evalúa el grado de éxito logrado.
+* *Agente racional ideal**: Agente racional que obtiene la máxima medida de rendimiento.
+
+## Agentes Inteligentes
+Agente cuya conducta está definida por su propia experiencia. (Conocimientos iniciales y capacidad para aprender).
+* **Función de la IA.**  Diseño de programas de agente (Agentes de software o softbots).
+*  Agente = Arquitectura + Programa.
 
 ## Funciones de los Agentes
 ### Percepciones
-Se incorporan en algún tipo de estructura de datos, mediante un procedimiento de toma de decisión se genera la elección de una acción. **Dependen del ambiente**, este influye en las percepciones del agente y condiciona su diseño. Los ambientes se pueden clasificar como:
+Fuentes de información a partir de las cuales y mediante un procedimiento de toma de decisión se genera la elección de una acción.
+
+### Ambiente
+El ambiente influye en las percepciones del agente y condiciona su diseño. Los ambientes se pueden clasificar como:
 - **Accesibles y no accesibles**. Depende de si los sensores detectan todos los aspectos relevantes a la elección de una acción.
 - **Deterministas y no deterministas**. Si el estado siguiente se determina a partir del actual y las acciones escogidas por el agente.
 - **Episódicos y no episódicos**. Si cada episodio depende de un agente.
@@ -79,6 +94,6 @@ Se caracteriza según el mundo en el que actúa por sus:
 - Ambiente
 
 Y por su comportamiento autónomo y flexible:
-- Reactividad: capacidad de precibir el medio ambiente y responder a tiempo a los cambios en él, a través de acciones.
-- Iniciativa (proactivo): capacidad de exhibir un comportamento orientado por sus metas, tomando la iniciativa para satisfacer sus objetivos de diseño.
-- Sociabilidad: capacidad de interaccionar con otros agentes, posiblemente tan complejos como los seres humanos, con miras a la satisfacción de sus objetivos.
+- **Reactividad**: capacidad de precibir el medio ambiente y responder a tiempo a los cambios en él, a través de acciones.
+- **Iniciativa**: capacidad de exhibir un comportamento orientado por sus metas, tomando la iniciativa para satisfacer sus objetivos de diseño (proactivo).
+- **Sociabilidad**: capacidad de interaccionar con otros agentes, posiblemente tan complejos como los seres humanos, con miras a la satisfacción de sus objetivos.
