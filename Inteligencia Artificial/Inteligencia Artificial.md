@@ -19,7 +19,7 @@ Sistemas que **piensan racionalmente** (ver [[Razonamiento]]). El estudio de fac
 ## Prueba de Turing
 Sistemas que **actúan como humanos** (vease [[Prueba de Turing]]). El arte de crear máquinas con capacidad de realizar funciones que son realizadas por personas con inteligencia. El estudio de cómo lograr que las computadoras realicen tareas que, por el momento, los humanos hacen mejor Incluye:
 - Procesamiento de la lengua natural (Natural Language Processing, NLP)
-- Representación del conocimiento
+- Representación del conocimiento ([[Base de Conocimiento]])
 - Razonamiento automático
 - Aprendizaje de máquina ([[Machine Learning]])
 - Visión (Computer vision)
