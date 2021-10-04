@@ -4,7 +4,11 @@ Los switches son una evolución de los [[Bridge|bridges]]. Sin embargo no solo o
 
 Los switches sólo envían tramas a los puertos para los cuales están destinadas. Cuando el puerto de un switch recibe una trama Ethernet de una estación, el switch verifica las direcciones de Ethernet para ver cuál es el puerto de destino de la trama.
 
-Cada puerto del switch es un dominio de colisión distinto CSMA/CD va a trabajar en cada segmento individualmente.
+Cada puerto del switch es un dominio de colisión distinto [[CSMA|CSMA/CD]] va a trabajar en cada segmento individualmente.
+
+Tiene dos mecanismos principales para manejar el reenvio de las tramas:
+* **Store & Forward**: se recibe toda la trama y se reenvia toda. Es la forma más común.
+* **Cut through**: en la medida que ven recibiendo la trama ya van calculando si la tienen que reenviar y a qué interfaz. En este no se puede validar que la trama haya sido recibida correctamente por lo tanto se puede transmitir una trama corrompida..
 
 ### Llenado de tabla interna
 Utiliza el algorítmo de puente [[Transparencia|transparente]]:

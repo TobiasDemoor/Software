@@ -1,0 +1,1 @@
+Es un dispositivo que transforma una interfáz de [[Capa física|capa física]] en otra.

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inteligencia Artificial/Agente Inteligente.md",
+            "file": "Redes de Computadoras/Daily/20211004.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "estacion oculta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Agente Inteligente.md",
+                "file": "Redes de Computadoras/Daily/20211004.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Agente Inteligente.md",
+                "file": "Redes de Computadoras/Daily/20211004.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Inteligencia Artificial/Agente Inteligente.md",
-    "Inteligencia Artificial/Inteligencia Artificial.md",
-    "Inteligencia Artificial/Machine Learning.md",
-    "Inteligencia Artificial/Sistemas Expertos.md",
-    "Inteligencia Artificial/Inteligencia.md",
-    "Inteligencia Artificial/Razonamiento.md",
-    "Inteligencia Artificial/Lisp.md",
-    "Inteligencia Artificial/Prolog.md",
-    "Inteligencia Artificial/Prueba de Turing.md",
-    "Inteligencia Artificial/Conceptos/Androide.md"
+    "Redes de Computadoras/Daily/20211004.md",
+    "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+    "Redes de Computadoras/Estándares/WiFi/Untitled.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
+    "Redes de Computadoras/Estándares/WiFi.md",
+    "Redes de Computadoras/Hardware/Modem.md",
+    "Redes de Computadoras/Software de Redes.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Subcapa LLC.md",
+    "Redes de Computadoras/Hardware/Access Point.md"
   ]
 }
