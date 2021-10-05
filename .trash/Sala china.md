@@ -1,1 +1,0 @@
-John Rogers SEarle (el pensamiento humano no se compone de simples procesos computacionales)

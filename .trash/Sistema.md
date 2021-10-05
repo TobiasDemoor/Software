@@ -1,1 +1,0 @@
->"Un sistema es un conjunto de componentes que interaccionan entre sí para lograr un objetivo en común" - (Coutiño, 2012)
