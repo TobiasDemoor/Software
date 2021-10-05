@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inteligencia Artificial/Daily/20211005.md",
+            "file": "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "estacion oculta",
+                "query": "edge",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20211005.md",
+                "file": "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20211005.md",
+                "file": "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,19 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Inteligencia Artificial/Daily/20211005.md",
-    "Inteligencia Artificial/Prolog.md",
-    "Inteligencia Artificial/Daily/Untitled.md",
+    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
     "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/Escalabilidad.md",
     "Sistemas Distribuidos/Transparencia de distribución.md",
-    "Redes de Computadoras/Software de Redes.md",
-    "Redes de Computadoras/Servicio orientado y no a la conexión.md",
+    "Sistemas Distribuidos/Distributed Transactions.md",
+    "Sistemas Distribuidos/Comunicación/Berkeley Sockets.md",
+    "Sistemas Distribuidos/Comunicación/Comunicación.md",
+    "Sistemas Distribuidos/Comunicación/Untitled.md",
     "Redes de Computadoras/Modelo OSI/Modelo OSI.md",
-    "Redes de Computadoras/Modelo TCP IP.md",
-    "Redes de Computadoras/Protocolos/UDP.md"
+    "Sistemas Operativos/Virtualización.md"
   ]
 }
