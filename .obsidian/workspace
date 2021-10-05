@@ -7,11 +7,8 @@
         "id": "2f118abdb74e56ca",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Inteligencia Artificial/Agente Inteligente.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Agente Inteligente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Agente Inteligente.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,20 +98,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Inteligencia Artificial/Agente Inteligente.md",
-    "Inteligencia Artificial/Inteligencia Artificial.md",
-    "Inteligencia Artificial/Base de Conocimiento.md",
-    "Redes de Computadoras/Daily/20211004.md",
+    "Redes de Computadoras/Software de Redes.md",
+    "Redes de Computadoras/Servicio orientado y no a la conexión.md",
+    "Redes de Computadoras/Modelo OSI/Modelo OSI.md",
+    "Redes de Computadoras/Modelo TCP IP.md",
+    "Redes de Computadoras/Protocolos/UDP.md",
+    "Redes de Computadoras/Protocolos/TCP.md",
     "Redes de Computadoras/Estándares/WiFi/WiFi.md",
-    "Redes de Computadoras/Estándares/WiFi/Untitled.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
-    "Redes de Computadoras/Estándares/WiFi.md",
-    "Redes de Computadoras/Hardware/Modem.md",
-    "Redes de Computadoras/Software de Redes.md"
+    "Resumenes/Resumen Redes.md",
+    "Inteligencia Artificial/Agente Inteligente.md",
+    "Inteligencia Artificial/Inteligencia Artificial.md"
   ]
 }
