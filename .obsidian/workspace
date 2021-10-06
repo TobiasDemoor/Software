@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/DNS.md",
+            "file": "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/DNS.md",
+                "file": "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/DNS.md",
+                "file": "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
+    "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
+    "Bases de Datos/Teoría de Normalización/Formas Normales.md",
+    "Bases de Datos/Teoría de Normalización/Normalización.md",
+    "Bases de Datos/Teoría de Normalización/Denormalización.md",
+    "Bases de Datos/Teoría de Normalización/Denormalization.md",
+    "Bases de Datos/Teoría de Normalización/Normalization.md",
     "Redes de Computadoras/DNS.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Medios de transmisión guiados.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Fibra óptica.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Líneas eléctricas.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Par trenzado.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
-    "Redes de Computadoras/Hardware/Transiever.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md"
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Líneas eléctricas.md"
   ]
 }

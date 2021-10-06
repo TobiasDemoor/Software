@@ -1,6 +1,8 @@
 Las formas normales son listadas en orden creciente de restricción. Una contiene a sus siguientes, y para afirmar que un esquema se encuentra en una forma normal se debe demostrar que no se encuentra en la siguiente.
 
-En todas las formas normales se presentan anomalías pero se van reduciendo a medida que se pasa a formas más restrictivas.
+En todas las formas normales se presentan [[Teoría de Normalización#Anomalías|anomalías]] pero se van reduciendo a medida que se pasa a formas más restrictivas.
+
+> **Forma normal de un diseño**: Un diseño está en la menor forma normal de sus esquemas de relación.
 
 ### 1ª Forma Normal (1FN)
 Es parte de la definición formal de una [[Modelo Lógico Relacional|relación]]. Evita atributos multivaluados y compuestos (relaciones adentro de relaciones). Establece que en un esquema de relación los dominios de los atributos deben incluir únicamente valores atómicos, es decir, indivisibles.
