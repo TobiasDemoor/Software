@@ -1,4 +1,3 @@
-##  Cable coaxial
 El **cable coaxial** es otro medio de transmisión común. Este cable tiene mejor blindaje y mayor ancho de banda que los [[Par trenzado|pares trenzados sin blindaje]], por lo que puede abarcar mayores distancias a velocidades más altas. Hay dos tipos de cable coaxial que se utilizan ampliamente. El de 50 ohms es uno de ellos y se utiliza por lo general cuando se tiene pensado emplear una transmisión digital desde el inicio. El otro tipo es el de 75 ohms y se utiliza para la transmisión analógica y la televisión por cable. Esta distinción se basa en factores históricos más que técnicos.
 
 Un cable coaxial consiste en alambre de cobre rígido como núcleo, rodeado por un material aislante. El aislante está forrado de un conductor cilíndrico, que por lo general es una malla de tejido fuertemente trenzado. El conductor externo está cubierto con una funda protectora de plástico.

@@ -1,1 +1,1 @@
-   Autómata de figura de hombre. También se le define como un robot-humanoide (vease [[Robot]]) y que se caracterizan por imitar conductas humanas.
+ Autómata de figura de hombre. También se le define como un robot-humanoide (vease [[Robot]]) y que se caracterizan por imitar conductas humanas.

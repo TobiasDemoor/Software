@@ -1,1 +1,1 @@
-   Máquina o ingenio electrónico programable, capaz de manipular objetos y realizar operaciones antes reservadas solo a las personas.
+Un **robot** es una máquina programable, capaz de manipular objetos y realizar operaciones que comunmente realizan personas. Está situado en un determinado ambiente y realiza una tarea específica. Para lograr sus objetivos percibe el ambiente y actúa en él. Por ende, un robot es un [[Agente Inteligente|agente]].

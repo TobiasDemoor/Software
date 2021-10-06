@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
+            "file": "Redes de Computadoras/DNS.md",
             "mode": "source"
           }
         }
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
+                "file": "Redes de Computadoras/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
+                "file": "Redes de Computadoras/DNS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Sistemas Distribuidos/Escalabilidad.md",
-    "Sistemas Distribuidos/Transparencia de distribución.md",
-    "Sistemas Distribuidos/Distributed Transactions.md",
-    "Sistemas Distribuidos/Comunicación/Berkeley Sockets.md",
-    "Sistemas Distribuidos/Comunicación/Comunicación.md",
-    "Sistemas Distribuidos/Comunicación/Untitled.md",
-    "Redes de Computadoras/Modelo OSI/Modelo OSI.md",
-    "Sistemas Operativos/Virtualización.md"
+    "Redes de Computadoras/DNS.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Medios de transmisión guiados.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Fibra óptica.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Líneas eléctricas.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Par trenzado.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Cable coaxial.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
+    "Redes de Computadoras/Hardware/Transiever.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md"
   ]
 }
