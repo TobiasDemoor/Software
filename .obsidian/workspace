@@ -7,8 +7,11 @@
         "id": "2f118abdb74e56ca",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "edge",
+                "query": "cdma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,13 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
-    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
-    "Bases de Datos/Teoría de Normalización/Síntesis Relacional.md",
-    "Bases de Datos/Teoría de Normalización/Untitled.md",
-    "Bases de Datos/Teoría de Normalización/Normalización.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
-    "Inteligencia Artificial/Sistemas Expertos.md",
-    "Inteligencia Artificial/Machine Learning.md",
-    "Inteligencia Artificial/Agente Inteligente.md"
+    "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Wireless LAN.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
+    "Redes de Computadoras/Estándares/WiFi/802.11n.md",
+    "Redes de Computadoras/Estándares/WiFi/802.11g.md",
+    "Redes de Computadoras/Estándares/WiFi/802.11a.md",
+    "Redes de Computadoras/Estándares/WiFi/Untitled.md",
+    "Redes de Computadoras/Estándares/WiFi/802.11b.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/CDMA.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/Multiplexión.md"
   ]
 }

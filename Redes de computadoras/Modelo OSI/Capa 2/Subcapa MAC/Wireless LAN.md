@@ -1,5 +1,4 @@
-[[Redes de computadoras#Clasificación según escala|LAN]]
-
+El principal estándar de [[Redes de computadoras#Clasificación según escala|LAN]] inalámbrica es [[WiFi|802.11]].
 
 ### Problema de terminal oculta
 Puede ocurrir que teniendo 3 equipos {A, B, C} el equipo B esté en el rango de A y C pero A y C no se vean mutuamente. En el caso que C esté transmitiendo datos a B, si A quiere transmitir a B interferirá con la transmisión que C está llevando a cabo pero no hay forma que sea conciente de esto. El problema de que una estación no pueda detectar a un competidor potencial por el medio, debido a que dicho competidor está demasiado lejos, se denomina **problema de terminal oculta**.
