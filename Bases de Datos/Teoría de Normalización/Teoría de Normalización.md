@@ -22,31 +22,13 @@ Esquema de ejemplo: PROVEEDOR(P-nro, P-nombre, P-dir, nro-Item, nombre-Item, pre
 ![[Formas Normales]]
 
 ## Propiedades de las descomposiciones relacionales
-Partiendo del esquema de relación universal $R(A_1, A_2,\cdots, A_n)$ se parte hasta tener los distintos subesquemas  de relación en 3FN o FNBC.
+![[Propiedades de las descomposiciones relacionales]]
 
-### Preservación de atributos
-Debemos asegurarnos que cada atributo de R aparezca en al menos un subesquema de D, de forma de no perder atributos.
-$$\bigcup_{i=1}^m R_1 = R$$
+## Síntesis Relacional
+![[Síntesis Relacional]]
 
-### Junta sin pérdida de información (SPI)
-También llamada lossless join.
-$$\Join(\pi_{R1}(r),\cdots,\pi_{Rm}(r)) = r, \forall r(R)$$
-> Cuando se pierde información aparecen tuplas espurias (que no representan la realidad).
-
-#### Propiedad de descomposición binaria
-Una descomposición $\rho$ de R, $\rho = (R_1, R_2)$ es lossless join con respecto a un conjunto de DFs F sii:
-1. la DF $(R_1 \cap R_2) \rightarrow (R_1 - R_2)$ está en $F^+$ o
-2. la DF $(R_1 \cap R_2) \rightarrow (R_2 - R_1)$ está en $F^+$
-
-#### Algorítmo del Tableau
-1. Dados R, F y $\rho = (R_1, R_2, \cdots, R_k)$, se construye una tabla (tableau) inicial $T_0$ donde las columnas son los atributos y las filas los subesquemas de $\rho$.
-2. Se completa el tableau con símbolos distinguidos $a_j$ si $A_j \in R_i$ o con no distinguidos $b_{ij}$ si $A_j \notin R_i$.
-...
-
-### Preservación de dependencias funcionales
-Además de preservar información, una descomposición debería preservar DFs (Sin Perdida de [[Dependencia Funcional|Dependencias Funcionales]], SPDF).
-
-> Una descomposición puede ser SPI y SPDF (deseable), ninguna, solo SPI o solo SPDF.
+## Descomposición FNBC
+[[Descomposición FNBC]]
 
 ## Notas
 [[Normalización]] [[Denormalización]]

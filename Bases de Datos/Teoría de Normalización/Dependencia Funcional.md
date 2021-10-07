@@ -66,4 +66,3 @@ Sea $F_{min}$ la cobertura minimal de F, entonces cada DF en F está en $F_{min}
 1. Cada DF tiene del lado derecho un único atributo (Regla de la descomposición).
 2. Cada DF no tiene del lado izquierdo atributos redundantes ($B\subset X$ es redundante para $X \rightarrow A$ si $A \in (X-B)^+$).
 3. No contiene DF's redundantes (en general las que se obtienen por transitividad). $X \rightarrow A$ es redundante si $(F-\set{X \rightarrow A}) \equiv F$ (para determinar esto basta con ir removiendo uno a uno y verificando si el resultado cubre al conjunto original).
-4. 

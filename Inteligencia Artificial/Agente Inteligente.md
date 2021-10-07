@@ -4,7 +4,7 @@ Todos los agentes inteligentes son [[Programa|programas]], pero no todos los pro
 
 Continuamente están realizando procesos que les indican qué hacer y cómo. Se comunican con otros agentes para resolver de forma adecuada su trabajo.
 
-> Un agente es cualquier cosa que pueda ver en su **entorno** a través de **sensores** y actuar en su entorno a través de **efectores**. - (Rusell & Norving)
+> Un agente es cualquier cosa que pueda ver en su **entorno** a través de **sensores** y actuar en él través de **efectores**. - (Rusell & Norving)
 
 > Un agente es un **sistema computacional** que está situado en algún **ambiente**, y que es capaz de actuar **autónomamente y flexiblemente** en dicho ambiente con el fin de cumplir sus **objetivos**. - (Wooldridge & Jennings)
 

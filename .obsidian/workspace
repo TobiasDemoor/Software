@@ -7,11 +7,8 @@
         "id": "2f118abdb74e56ca",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -109,14 +104,14 @@
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
     "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
-    "Bases de Datos/Teoría de Normalización/Formas Normales.md",
+    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
+    "Bases de Datos/Teoría de Normalización/Síntesis Relacional.md",
+    "Bases de Datos/Teoría de Normalización/Untitled.md",
     "Bases de Datos/Teoría de Normalización/Normalización.md",
-    "Bases de Datos/Teoría de Normalización/Denormalización.md",
-    "Bases de Datos/Teoría de Normalización/Denormalization.md",
-    "Bases de Datos/Teoría de Normalización/Normalization.md",
-    "Redes de Computadoras/DNS.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Medios de transmisión guiados.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Fibra óptica.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Líneas eléctricas.md"
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
+    "Inteligencia Artificial/Sistemas Expertos.md",
+    "Inteligencia Artificial/Machine Learning.md",
+    "Inteligencia Artificial/Agente Inteligente.md"
   ]
 }
