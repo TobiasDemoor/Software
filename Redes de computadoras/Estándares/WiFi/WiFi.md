@@ -72,14 +72,32 @@ El intervalo entre las tramas de datos regulares se conoce como **DIFS (DCF Inte
 
 Los dos intervalos **AIFS (Arbitration InterFrame Spacing)** muestran ejemplos de dos niveles de prioridad distintos. El intervalo corto, AIFS₁, es más pequeño que el intervalo DIFS pero más largo que SIFS. El AP lo puede usar para transportar voz u otro tipo de tráfico de alta prioridad al inicio de la línea.
 
-## Servicios de distribución
+### Trama 802.11
+El estándar 802.11 define tres clases diferentes de tramas en el aire: de datos, de control y de administración. Cada una tiene un encabezado con una variedad de campos que se utilizan dentro de la subcapa MAC.
+
+Se analiza la trama de datos para tener un ejemplo. Primero está el campo de *Control de trama*, que consta de 11 subcampos. El primero es la *Versión de protocolo*, que se establece como 00. Está ahí para que las futuras versiones del protocolo 802.11 funcionen al mismo tiempo en la misma celda. Después están los campos de *Tipo* (de datos, de control o de administración) y de *Subtipo* (por ejemplo, RTS o CTS). Para una trama de datos regular (sin calidad de servicio), se establecen en 10 y 0000 en binario. Los bits *Para DS* y *De DS* se establecen para indicar que la trama va hacia o viene de la red conectada a los APS, a la cual se le conoce como sistema de distribución. El bit *Más fragmentos* indica que siguen más fragmentos. El bit *Retransmitir* marca una retransmisión de una trama que se envió antes. El bit de *Administración de energía* indica que el emisor va a entrar al modo de ahorro de energía. El bit *Más datos* indica que el emisor tiene tramas adicionales para el receptor. El bit *Trama protegida* indica que el cuerpo de la trama se cifró por seguridad. Por último, el bit de *Orden* indica al receptor que la capa superior espera que la secuencia de tramas llegue de modo riguroso en orden.
+
+![[wifi_trama_1.png]]
+
+El segundo campo de la trama de datos, el campo *Duración*, indica cuánto tiempo ocuparán el canal la longitud de la trama y su confirmación de recepción, lo cual se mide en microsegundos. Está presente en todos los tipos de tramas, incluyendo las tramas de control, y es lo que utilizan las estaciones para administrar el mecanismo NAV.
+
+Después siguen las direcciones. Las tramas de datos que se envían hacia o se reciben de un AP tienen tres direcciones, todas en formato estándar de IEEE 802. La primera dirección es el receptor, y la segunda dirección es el transmisor. Sin duda se necesitan pero, ¿para qué es la tercera dirección? Recuerde que el AP sólo es un punto de relevo para las tramas, a medida que viajan entre un cliente y otro punto en la red, tal vez un cliente distante o un portal de Internet. La tercera dirección provee este punto final distante
+
+El campo *Secuencia* numera las tramas de manera que se puedan detectar tramas duplicadas. De los 16 bits disponibles, 4 identifican el fragmento y 12 transportan un número que avanza con cada nueva transmisión. El campo Datos contiene la carga útil, hasta 2312 bytes. Los primeros bytes de esta carga útil están en un formato conocido como **LLC (Logical Link Control)**. Esta capa es la unión que identifica al protocolo de capa superior (por ejemplo, IP) al que se deben pasar las cargas útiles. Por último tenemos la *Secuencia de verificación de tramas*, que se calcula con [[CRC|CRC]] de 32 bits.
+
+Las tramas de administración tienen el mismo formato que las tramas de datos, además de un formato para la parte de los datos que varía con el subtipo (por ejemplo, los parámetros en las tramas de baliza).
+
+Las tramas de control son cortas. Al igual que todas las tramas, tienen los campos *Control de trama*, *Duración* y *Secuencia de verificación de trama*. Sin embargo, ellas pueden tener sólo una dirección y ninguna porción de datos. La mayoría de la información clave se transmite mediante el campo *Subtipo* (por ejemplo, ACK, RTS y CTS).
+
+## Servicios
+### Servicios de distribución
 * **Asociación.** Esto es lo que debe hacer un cliente antes de poder utilizar la red.
 * **Desasociación.** Esto es lo que hace un cliente para dejar de formar parte de la red.
 * **Reasociación**.
 * **Distribución.** Enviar tramas de un AP a otro AP que está en la misma red.
 * **Integración.** Permitir integrar una red WiFi con una red Ethernet.
 
-## Servicios Intra-celda
+### Servicios Intra-celda
 * **Autenticación y Desautenticación** (no se suele hacer)
 * **Privacidad** (cifrado)
 
