@@ -12,7 +12,7 @@ Las redes 802.11 están compuestas de clientes (como laptops y teléfonos móvil
 * [[802.11a]] [[OFDM]] (5 GHz)
 * [[802.11g]] [[OFDM]] (< 54 Mbps) (compatible con 802.11b) (2.4 GHz)
 * [[802.11n]] MIMO (< 600 Mbps suele ser < 150 Mbps)
-* 802.11ac (< 3.6 Gbps)(5 GHz)
+* [[802.11ac]] (< 3.6 Gbps)(5 GHz)
 
 > El modo natural de transmisión del canal es half-duplex. Vea [[#Protocolo MAC]] más abajo.
 
@@ -29,77 +29,40 @@ Todos los protocolos 802, incluyendo 802.11 y [[Ethernet]], tienen ciertas simil
 ![[wifi_pila_de_protocolos_1.png]]
 
 ## Protocolo MAC
-El protocolo de la subcapa MAC para el estándar 802.11 es muy diferente al de [[Ethernet]], debido a dos factores fundamentales para la comunicación inalámbrica.
-
-Primero, **las radios casi siempre son half-dúplex**, lo cual significa que no pueden transmitir y escuchar ráfagas de ruido al mismo tiempo en una sola frecuencia. La señal recibida puede ser un millón de veces más débil que la señal transmitida, por lo que no se puede escuchar al mismo tiempo. Con Ethernet, una estación sólo espera hasta que el medio queda en silencio y después comienza a transmitir. Si no recibe una ráfaga de ruido mientras transmite los primeros 64 bytes, es muy probable que se haya entregado la trama correctamente. En los sistemas inalámbricos, este mecanismo de detección de colisiones no funciona.
-
-En vez de ello, el 802.11 trata de evitar colisiones con un protocolo llamado **[[CSMA|CSMA/CA]] (CSMA with Collision Avoidance)**. En concepto, este protocolo es similar al CSMA/CD de Ethernet, con detección del canal antes de enviar y retroceso exponencial después de las colisiones. Sin embargo, una estación que desee enviar una trama empieza con un retroceso aleatorio, osea cuenta cierto número de ranuras antes de intentar enviar (excepto en el caso en que no haya utilizado el canal recientemente y éste se encuentre inactivo). No espera una colisión. El número de ranuras para el retroceso se elije en el rango de 0 hasta, por decir, 15 en el caso de la capa física OFDM. La estación espera hasta que el canal está inactivo, para lo cual detecta que no hay señal durante un periodo corto y realiza un conteo descendente de las ranuras inactivas, haciendo pausa cuando se envían tramas. Envía su trama cuando el contador llega a 0. Si la trama logra pasar, el destino envía de inmediato una confirmación de recepción corta. La falta de una confirmación de recepción se interpreta como si hubiera ocurrido un error, sea una colisión o cualquier otra cosa. En este caso, el emisor duplica el periodo de retroceso e intenta de nuevo, continuando con el retroceso exponencial como en Ethernet, hasta que la trama se transmita con éxito o se llegue al número máximo de retransmisiones.
-
-![[csma_ca_1.png]]
-
-Este modo de operación se llama **DCF (Distributed Coordination Function)**, ya que cada estación actúa en forma independiente, sin ningún tipo de control central. El estándar también incluye un modo opcional de operación llamado **PCF (Punctual Coordination Function)**, en donde el punto de acceso controla toda la actividad en su celda, justo igual que una estación base celular. Sin embargo, PCF no se utiliza en la práctica debido a que por lo general no hay forma de evitar que las estaciones en otra red cercana transmitan tráfico conflictivo.
-
-El segundo problema es que los rangos de transmisión de las distintas estaciones pueden ser diferentes. Con un cable, el sistema se diseña de tal forma que todas las estaciones se puedan escuchar entre sí. Con las complejidades de la propagación de RF, esta situación no es válida para las estaciones inalámbricas. En consecuencia, pueden surgir situaciones como el [[Wireless LAN#Problema de terminal oculta|problema de la terminal oculta]].
-
-Para reducir las ambigüedades con respecto a qué estación va a transmitir, el 802.11 define la detección del canal como un proceso que consiste tanto de una detección física como de una detección virtual. En la detección física sólo se verifica el medio para ver si hay una señal válida. En la detección virtual, cada estación mantiene un registro lógico del momento en que se usa el canal rastreando el **NAV (Network Allocation Vector)**. Cada trama lleva un campo NAV que indica cuánto tiempo tardará en completarse la secuencia a la que pertenece esta trama.
-
-Hay un mecanismo RTS/CTS opcional que usa el NAV para evitar que las terminales envíen tramas al mismo tiempo como terminales ocultas, este es similar al protocolo **[[Wireless LAN#MACA|MACA]]** pero distinto, ya que todo el que escucha la trama RTS o CTS permanece en silencio para permitir que la trama ACK llegue a su destino sin que haya una colisión. Debido a esto, no es útil con las terminales expuestas como en el caso de MACA, sólo con las terminales ocultas. Lo más frecuente es que haya unas cuantas terminales ocultas y CSMA/CA les ayuda al reducir la velocidad de las estaciones que transmiten sin éxito, sin importar cuál sea la causa, para que sus transmisiones tengan más probabilidades de tener éxito. Aunque el método RTS/CTS suena bien en teoría, es uno de esos diseños que ha demostrado ser de poco valor en la práctica.
-
-![[wifi_rts_cts.png]]
-
-CSMA/CA con detección física y virtual es el núcleo del protocolo 802.11. Sin embargo, existen otros mecanismos que se han desarrollado para trabajar con él. Cada uno de estos mecanismos fue impulsado por las necesidades de la operación real.
-
-### Confiabilidad
-En contraste con las redes convencionales de cables, las redes inalámbricas son ruidosas y poco confiables, lo cual se debe en gran parte a la interferencia de otros tipos de dispositivos.
-
-La principal estrategia que se utiliza en este caso para incrementar las transmisiones exitosas es reducir la tasa de transmisión. Las tasas más bajas usan modulaciones más robustas que tienen mayor probabilidad de ser recibidas correctamente para una relación señal a ruido dada. Si se pierden demasiadas tramas, una estación puede reducir la tasa. Si se entregan tramas con pocas pérdidas, la estación puede algunas veces probar una tasa más alta para ver si es conveniente usarla.
-
-Otra estrategia para mejorar la probabilidad de que la trama llegue sin daños es enviar tramas más cortas. Ya que dada una probabilidad de error en un bit a menor longitud de trama hay mayor probabilidad de recibirla correctamente y no tener que reenviar.
-
-Para implementar tramas más cortas es necesario reducir el tamaño máximo del mensaje que se aceptará de la capa de red. Como alternativa, el 802.11 permite dividir las tramas en piezas más pequeñas llamadas **fragmentos**, cada una con su propia suma de verificación.
-
-### Ahorro de energía
-La vida de las baterías siempre es un asunto importante para los dispositivos inalámbricos móviles. El mecanismo básico para ahorrar energía se basa en las **tramas beacon**. Las balizas son difusiones periódicas que realiza el AP (por ejemplo, cada 100 mseg). Las tramas anuncian la presencia del AP a los clientes y llevan los parámetros del sistema, como el identificador del AP, el tiempo, cuánto falta para el siguiente beacon y la configuración de seguridad
-
-Los clientes pueden establecer un bit de administración de energía en las tramas que envían al AP para indicarle que entrarán en el modo de ahorro de energía. En este modo, el cliente puede dormitar y el AP pondrá en el búfer el tráfico destinado a este cliente. Para verificar el tráfico entrante, el cliente se despierta durante cada baliza y verifica un mapa de tráfico que se envía como parte de ella. Este mapa indica al cliente si hay tráfico en el búfer. De ser así, el cliente envía un mensaje de sondeo al AP, quien a su vez le envía el tráfico que está en el búfer. Después el cliente puede regresar al modo suspendido hasta que se envíe la siguiente baliza.
-
-### Calidad de servicio
-El estándar IEEE 802.11 tiene un mecanismo para proveer calidad de servicio (en lo que respecta a reducir [[Latencia|latencia]] para procesos sensibles a ella), el cual se introdujo como un conjunto de extensiones bajo el nombre 802.11e. Su función consiste en extender el CSMA/CA con intervalos cuidadosamente definidos entre las tramas. Después de enviar una trama, se requiere cierta cantidad de tiempo inactivo antes de que una estación pueda enviar otra para verificar si el canal ya no se está usando. El truco es definir distintos intervalos para los distintos tipos de tramas.
-
-El intervalo entre las tramas de datos regulares se conoce como **DIFS (DCF InterFrame Spacing)**. Cualquier estación puede intentar adquirir el canal para enviar una nueva trama después de que el medio haya estado inactivo durante un tiempo DIFS. Se aplican las reglas de contención usuales y tal vez se requiera el retroceso exponencial binario si ocurre una colisión. El intervalo más corto es **SIFS (Short InterFrame Spacing)** y se utiliza para permitir que las partes en un diálogo sencillo tengan la oportunidad de tomar el primer turno.
-
-![[wifi_csma_ca_difs.png]]
-
-Los dos intervalos **AIFS (Arbitration InterFrame Spacing)** muestran ejemplos de dos niveles de prioridad distintos. El intervalo corto, AIFS₁, es más pequeño que el intervalo DIFS pero más largo que SIFS. El AP lo puede usar para transportar voz u otro tipo de tráfico de alta prioridad al inicio de la línea.
-
-### Trama 802.11
-El estándar 802.11 define tres clases diferentes de tramas en el aire: de datos, de control y de administración. Cada una tiene un encabezado con una variedad de campos que se utilizan dentro de la subcapa MAC.
-
-Se analiza la trama de datos para tener un ejemplo. Primero está el campo de *Control de trama*, que consta de 11 subcampos. El primero es la *Versión de protocolo*, que se establece como 00. Está ahí para que las futuras versiones del protocolo 802.11 funcionen al mismo tiempo en la misma celda. Después están los campos de *Tipo* (de datos, de control o de administración) y de *Subtipo* (por ejemplo, RTS o CTS). Para una trama de datos regular (sin calidad de servicio), se establecen en 10 y 0000 en binario. Los bits *Para DS* y *De DS* se establecen para indicar que la trama va hacia o viene de la red conectada a los APS, a la cual se le conoce como sistema de distribución. El bit *Más fragmentos* indica que siguen más fragmentos. El bit *Retransmitir* marca una retransmisión de una trama que se envió antes. El bit de *Administración de energía* indica que el emisor va a entrar al modo de ahorro de energía. El bit *Más datos* indica que el emisor tiene tramas adicionales para el receptor. El bit *Trama protegida* indica que el cuerpo de la trama se cifró por seguridad. Por último, el bit de *Orden* indica al receptor que la capa superior espera que la secuencia de tramas llegue de modo riguroso en orden.
-
-![[wifi_trama_1.png]]
-
-El segundo campo de la trama de datos, el campo *Duración*, indica cuánto tiempo ocuparán el canal la longitud de la trama y su confirmación de recepción, lo cual se mide en microsegundos. Está presente en todos los tipos de tramas, incluyendo las tramas de control, y es lo que utilizan las estaciones para administrar el mecanismo NAV.
-
-Después siguen las direcciones. Las tramas de datos que se envían hacia o se reciben de un AP tienen tres direcciones, todas en formato estándar de IEEE 802. La primera dirección es el receptor, y la segunda dirección es el transmisor. Sin duda se necesitan pero, ¿para qué es la tercera dirección? Recuerde que el AP sólo es un punto de relevo para las tramas, a medida que viajan entre un cliente y otro punto en la red, tal vez un cliente distante o un portal de Internet. La tercera dirección provee este punto final distante
-
-El campo *Secuencia* numera las tramas de manera que se puedan detectar tramas duplicadas. De los 16 bits disponibles, 4 identifican el fragmento y 12 transportan un número que avanza con cada nueva transmisión. El campo Datos contiene la carga útil, hasta 2312 bytes. Los primeros bytes de esta carga útil están en un formato conocido como **LLC (Logical Link Control)**. Esta capa es la unión que identifica al protocolo de capa superior (por ejemplo, IP) al que se deben pasar las cargas útiles. Por último tenemos la *Secuencia de verificación de tramas*, que se calcula con [[CRC|CRC]] de 32 bits.
-
-Las tramas de administración tienen el mismo formato que las tramas de datos, además de un formato para la parte de los datos que varía con el subtipo (por ejemplo, los parámetros en las tramas de baliza).
-
-Las tramas de control son cortas. Al igual que todas las tramas, tienen los campos *Control de trama*, *Duración* y *Secuencia de verificación de trama*. Sin embargo, ellas pueden tener sólo una dirección y ninguna porción de datos. La mayoría de la información clave se transmite mediante el campo *Subtipo* (por ejemplo, ACK, RTS y CTS).
+![[CSMA CA]]
 
 ## Servicios
-### Servicios de distribución
-* **Asociación.** Esto es lo que debe hacer un cliente antes de poder utilizar la red.
-* **Desasociación.** Esto es lo que hace un cliente para dejar de formar parte de la red.
-* **Reasociación**.
-* **Distribución.** Enviar tramas de un AP a otro AP que está en la misma red.
-* **Integración.** Permitir integrar una red WiFi con una red Ethernet.
+El estándar 802.11 define los servicios que los clientes, los puntos de acceso y la red que los conecta deben proveer para poder ser una [[Wireless LAN|LAN inalámbrica]] que se apegue a dicho estándar. Estos servicios se dividen en varios grupos.
 
-### Servicios Intra-celda
-* **Autenticación y Desautenticación** (no se suele hacer)
-* **Privacidad** (cifrado)
+El servicio de **asociación** lo utilizan las estaciones móviles para conectarse ellas mismas a los AP. Por lo general, se utiliza después de que una estación se mueve dentro del alcance de radio del AP. Al llegar, la estación conoce la identidad y las capacidades del AP, ya sea mediante tramas baliza o preguntando directamente al AP. Entre las capacidades se incluyen las tasas de datos soportadas, los arreglos de seguridad, las capacidades de ahorro de energía, el soporte de la calidad del servicio, etcétera. La estación envía una solicitud para asociarse con el AP. Éste puede aceptar o rechazar dicha solicitud.
+
+La **reasociación** permite que una estación cambie su AP preferido. Esta herramienta es útil para las estaciones móviles que cambian de un AP a otro en la misma LAN 802.11 extendida, como un traspaso (handover) en la red celular. Si se utiliza en forma correcta, no se perderán datos como consecuencia del traspaso. También es posible que la estación o el AP se **desasocien**, con lo que se rompería su relación. Una estación debe usar este servicio antes de desconectarse o salir de la red. El AP lo puede usar antes de desconectarse por cuestión de mantenimiento
+
+Las estaciones también se deben **autentificar** antes de poder enviar tramas por medio del AP, pero la autentificación se maneja en formas distintas dependiendo del esquema de seguridad elegido. Si la red 802.11 está “abierta”, cualquiera puede usarla. En caso contrario, se requieren credenciales para autentificarse. El esquema recomendado, conocido como **WPA2 (WiFi Protected Access 2)**, implementa la seguridad según lo definido en el estándar 802.11i (el WPA simple es un esquema interno que implementa un subconjunto del 802.11i). En el WPA2, el AP se puede comunicar con un servidor de autentificación que tenga una base de datos con nombres de usuario y contraseñas para determinar si la estación puede acceder a la red. Como alternativa se puede configurar una clave precompartida, lo cual es un nombre elegante para una contraseña de red. Se intercambian varias tramas entre la estación y el AP con un reto y respuesta que permite a la estación demostrar que tiene las credenciales apropiadas. Este intercambio ocurre después de la asociación.
+
+El esquema predecesor de WPA se llama **WEP (Wired Equivalent Privacy)**. En este esquema, la autentificación con una clave precompartida ocurre antes de la asociación.
+
+Una vez que las tramas llegan al AP, el servicio de **distribución** determina cómo encaminarlas. Si el destino es local para el AP, las tramas se pueden enviar en forma directa por el aire. En caso contrario, habrá que reenviarlas por la red alámbrica. El servicio de **integración** maneja cualquier traducción necesaria para enviar una trama fuera de la LAN 802.11, o para que llegue desde el exterior de la LAN 802.11. Aquí el caso común es conectar la LAN inalámbrica a [[Internet]].
+
+Y como lo esencial aquí es la transmisión de datos, es lógico que la red 802.11 provea el servicio de **entrega de datos**. Como el estándar 802.11 está modelado en base a Ethernet y no se garantiza que la transmisión por Ethernet sea 100% confiable, tampoco se garantiza que la transmisión por 802.11 sea confiable. Las capas superiores deben lidiar con la detección y corrección de errores.
+
+La señal inalámbrica es de difusión. Para mantener confidencial la información que se envía por una LAN inalámbrica, hay que cifrarla. Para lograr esto se utiliza un servicio de **privacidad** que administra los detalles del cifrado y el descifrado. El algoritmo de cifrado para WPA2 se basa en el estándar **[[AES]] (Advanced Encryption Standard)**. Las claves que se utilizan para el cifrado se determinan durante el procedimiento de autentificación.
+
+Los servicios se pueden clasificar en dos grupos principales:
+* **Servicios de distribución:**
+	* **Asociación.**
+	* **Reasociación**.
+	* **Desasociación.**
+	* **Distribución.**
+	* **Integración.** 
+
+* **Servicios Intra-celda**
+	* **Autenticación**
+	* **Desautenticación**
+	* **Entrega de datos**
+	* **Privacidad**
 
 ## Canales
 Los dispositivos WiFi deben usar el mismo canal para poder comunicarse. Elllos envían y reciben en el mismo conal, por lo que sólo un dispositivo puede transmitir en un instante determinado (half-duplex).
+
+![[wifi_canales.png]]

@@ -10,7 +10,7 @@ Una segunda versión es **CSMA no persistente**. En este protocolo se hace un in
 
 Un último protocolo será **CSMA peristente-p** donde si el canal se encuentra inactivo, la estación transmite con una probabilidad p. Con una probabilidad 1 - p se posterga hasta la siguiente ranura.
 
-## CSMA/CD
+#### CSMA/CD
 Si dos estaciones detectan que el canal está inactivo y empiezan a transmitir al mismo tiempo, sus señales de todas formas sufrirán una colisión. Otra mejora es que las estaciones detecten rápidamente la colisión y dejen de transmitir de inmediato (en vez de terminadas las transmisiones), ya que de todas formas se alterarán y no se podrán recuperar. Esta estrategia ahorra tiempo y ancho de banda.
 
 Este protocolo, conocido como CSMA/CD (CSMA with Collision Detection) y es la base de la clásica LAN [[Ethernet]]. El tiempo mínimo para detectar la colisión es tan sólo el tiempo que tarda la señal en propagarse de una estación a otra. Con base en esta información, podríamos pensar que una estación que no ha detectado una colisión durante un periodo igual al tiempo completo de propagación del cable después de iniciar su transmisión puede estar segura de que ha tomado el cable. Por “tomado” queremos decir que todas las demás estaciones saben que está transmitiendo y no interferirán. Esta conclusión es errónea.

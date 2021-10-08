@@ -1,4 +1,3 @@
-# Modelo de referencia OSI
 El modelo de interconexión de sistemas abiertos (ISO/IEC 7498-1), conocido como "modelo OSI" (Open Systems Interconnection), es el modelo de la ISO que se ocupa de la conexión de sistemas abiertos ([[Redes de computadoras]]). El modelo OSI tiene siete capas. Los principios que se aplicaron para llegar a las siete capas se pueden resumir de la siguiente manera:
 1. Se debe crear una capa en donde se requiere un nivel diferente de [[Abstracción|abstracción]].
 2. Cada capa debe realizar una función bien definida.

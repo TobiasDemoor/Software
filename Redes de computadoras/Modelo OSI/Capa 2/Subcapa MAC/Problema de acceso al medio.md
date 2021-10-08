@@ -2,7 +2,7 @@
 
 La manera tradicional de asignar un solo canal entre múltiples usuarios competidores es dividir su capacidad mediante el uso de uno de los esquemas de [[Multiplexión|multiplexión]]. Si hay N usuarios el [[Ancho de banda|ancho de banda]] se divide en N partes iguales y a cada usuario se le asigna una parte. Con esta organización los usuarios no interfieren entre sí pero solo es eficiente si hay un número de usuarios fijo cada uno con un flujo estable (como es para las radios FM).
 
-## Supuestos para la asignación dinámica de canales
+#### Supuestos para la asignación dinámica de canales
 1. **Tráfico independiente.** . El modelo consiste en N **estaciones** independientes (computadoras, teléfonos), cada una con un programa o usuario que genera tramas para transmisión. El número esperado de tramas que se generan en un intervalo de longitud $\Delta t$ es de $\lambda\Delta t$, donde $\lambda$ es una constante (la tasa de llegada de tramas nuevas). Una vez que se ha generado una trama, la estación se bloquea y no hace nada sino hasta que la trama se haya transmitido con éxito (la llegada de tramas son un fenomeno de **Poisson**).
 2. **Canal único.** Hay un solo canal disponible para todas las comunicaciones. Todas las estaciones pueden transmitir en él y pueden recibir de él.
 3. **Colisiones observables.** Si dos tramas se transmiten en forma simultánea, se traslapan en el tiempo y la señal resultante se altera. Este evento se llama **colisión**. Todas las estaciones pueden detectar una colisión que haya ocurrido. Una trama en colisión se debe volver a transmitir después. No hay otros errores, excepto aquéllos generados por las colisiones.

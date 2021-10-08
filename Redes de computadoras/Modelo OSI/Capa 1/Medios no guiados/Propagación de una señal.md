@@ -1,0 +1,6 @@
+* **Propagación de una señal.**
+	* **Linea de vista (Line-of-sight).** La señal viaja en línea recta, del transmisor al receptor.
+	* Los obstáculos afectan la trayectoria de la señal. Algunos pueden ser traspasados y otros abosrben la señal. La señal está sujeta a 3 fenómenos:
+		* Reflexión: la señal entera o parte de ella regresa a la fuente.
+		* Difracción: la señal se subdivide en ondas secundarias y puede "doblar" al pasar por una abertura de una amplitud del orden de la longitud de onda.
+		* Dispersión: difusión de la señal en múltiples direcciones distintas.

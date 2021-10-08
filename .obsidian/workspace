@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+            "file": "Resumenes/Resumen Redes.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cdma",
+                "query": "multitrayectoria",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+                "file": "Resumenes/Resumen Redes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+                "file": "Resumenes/Resumen Redes.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,20 +103,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Redes de Computadoras/Estándares/WiFi/WiFi.md",
-    "Sistemas Distribuidos/Coordinación/Location systems.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Wireless LAN.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
-    "Redes de Computadoras/Estándares/WiFi/802.11n.md",
-    "Redes de Computadoras/Estándares/WiFi/802.11g.md",
+    "Resumenes/Resumen Redes.md",
     "Redes de Computadoras/Estándares/WiFi/802.11a.md",
-    "Redes de Computadoras/Estándares/WiFi/Untitled.md",
-    "Redes de Computadoras/Estándares/WiFi/802.11b.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/CDMA.md"
+    "Redes de Computadoras/Estándares/WiFi/802.11n.md",
+    "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+    "Redes de Computadoras/Estándares/WiFi/CSMA CA.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Multipath Fading.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Antenas.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Medios de transmisión no guiados.md",
+    "Redes de Computadoras/Daily/20211001.md",
+    "Redes de Computadoras/Daily/20211004.md"
   ]
 }

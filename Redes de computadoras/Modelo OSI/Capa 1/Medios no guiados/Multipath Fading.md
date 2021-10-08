@@ -1,0 +1,1 @@
+Las señales multitrayectoria siguen distintas trayectoras hacia el destino, estas están causadas por la reflexión, difracción y dispersión ([[Propagación de una señal]]). Una ventaja de este fenómeno es que hay más chance de alcanzar el destino. Una desvetaja es el retardo de la señal y la interferencia entre la señal principal y las secundarias.

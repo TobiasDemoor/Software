@@ -10,3 +10,9 @@ La capa de enlace de datos implementa algoritmos para lograr una comunicación c
 
 ## Tipos
 Los enlaces de red se pueden dividir en dos categorías: los que utilizan conexiones [[P2P|punto a punto]] y los que utilizan [[Canales de difusión|canales de difusión]].
+
+## Subcapa LLC
+![[Subcapa LLC]]
+
+## Subcapa MAC
+![[Subcapa MAC]]
