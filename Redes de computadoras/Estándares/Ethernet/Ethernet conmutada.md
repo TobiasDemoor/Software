@@ -11,7 +11,7 @@ La idea básica detrás de Fast Ethernet era simple: mantener todos los formatos
 
 Fast Ethernet permite la interconexión mediante hubs o switches. Para asegurar que el algoritmo CSMA/CD siga trabajando, es necesario mantener la relación entre el tamaño mínimo de trama y la longitud máxima del cable a medida que la velocidad de la red aumenta de 10 Mbps a 100 Mbps. Así, el tamaño mínimo de trama de 64 bytes debe aumentar o la longitud máxima de cable de 2 500 debe disminuir, en forma proporcional. La elección fácil fue reducir la distancia máxima entre dos estaciones cualesquiera por un factor de 10, puesto que un hub con cables de 100 m ya se encuentra dentro de este nuevo valor máximo. Sin embargo, los cables 100Base-FX de 2 km son demasiado largos como para permitir un hub de 100 Mbps con el algoritmo de colisiones normal de Ethernet. Estos cables se deben conectar a un switch y operar en un modo full-dúplex para que no haya colisiones
 
-Para el [[Entramado|entramado]] se utiliza la codificación **4B/5B**.
+Para el [[Entramado|entramado]] se utiliza la codificación **[[4B5B|4B/5B]]**.
 
 ### Cableado
 | Nombre     | Cable            | Max. segmento | Ventajas                                              |
@@ -32,12 +32,12 @@ Para facilitar la actualización, el estándar provee por sí solo un mecanismo 
 Para el [[Entramado|entramado]] se utiliza la codificación **8B/10B**.
 
 ### Cableado
-| Nombre      | Cable            | Max. segmento | Ventajas                                                                               |
-| ----------- | ---------------- | ------------- | -------------------------------------------------------------------------------------- |
-| 1000Base-SX | [[Fibra óptica]] | 550 m         | Fibra multimodo ($\varnothing = 50 \mu m, 62.5 \mu m$)                                 |
-| 1000Base-LX | [[Fibra óptica]] | 5000 m        | Monomodo ($\varnothing = 10 \mu m$) o multimodo ($\varnothing = 50 \mu m, 62.5 \mu m$) | 
-| 1000Base-CX | 2 pares de STP   | 25 m          | [[Par trenzado]] blindado                                                              |
-| 1000Base-TT | 4 parse de UTP   | 100 m         | UTP estándar cat 5                                                                     |
+| Nombre      | Cable            | Max. segmento | Ventajas                                                                                    |
+| ----------- | ---------------- | ------------- | ------------------------------------------------------------------------------------------- |
+| 1000Base-SX | [[Fibra óptica]] | 550 m         | Fibra multimodo ($\varnothing = 50 \mu m, 62.5 \mu m$)                                      |
+| 1000Base-LX | [[Fibra óptica]] | 5000 m        | Monomodo ($\varnothing = 10 \mu m$) o <br> multimodo ($\varnothing = 50 \mu m, 62.5 \mu m$) | 
+| 1000Base-CX | 2 pares de STP   | 25 m          | [[Par trenzado]] blindado                                                                   |
+| 1000Base-TT | 4 pares de UTP   | 100 m         | UTP estándar cat 5                                                                          |
 
 ## 10 Gigabit Ethernet
 Todas las versiones de Ethernet de 10 gigabits soportan sólo la operación full-dúplex. CSMA/CD ya no forma parte del diseño y los estándares se concentran en los detalles de las capas físicas que pueden operar a muy alta velocidad. Pero la compatibilidad aún sigue siendo importante, por lo que las interfaces Ethernet de 10 gigabits usan la autonegociación y cambian a la velocidad más alta soportada por ambos extremos de la línea.

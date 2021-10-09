@@ -18,6 +18,8 @@ La desventaja de la codificación Manchester es que requiere el doble de ancho d
 
 Para dar un paso en la dirección correcta, podemos simplificar la situación al codificar un 1 como una transición y un 0 como una no transición, o viceversa. A esta codificación se le conoce como **NRZI (Non-Return-to-Zero Inverted)**, un giro sobre el NRZ. En la figura 2-20(c) se muestra un ejemplo. El popular estándar **USB (Universal Serial Bus)** para conectar periféricos de computadora utiliza NZRI. Con él, las largas sucesiones de 1s no provocan problemas.
 
+![[4B5B]]
+
 ### Señales balanceadas
 Las señales que tienen la misma cantidad de voltaje positivo y negativo, incluso durante periodos cortos, se conocen como **señales balanceadas**. Su promedio es cero, lo cual significa que no tienen componente eléctrico de corriente directa (CD). La falta de un componente de CD es una ventaja, ya que algunos canales (como el [[Cable coaxial|cable coaxial]] o las líneas con transformadores) atenúan de manera considerable un componente de CD debido a sus propiedades físicas. Además, un método para conectar el receptor al canal, conocido como acoplamiento capacitivo, sólo pasa la porción de corriente alterna de la señal. En cualquier caso, si enviamos una señal cuyo promedio no sea cero desperdiciaremos energía, puesto que se filtrará el componente de CD.
 

@@ -9,4 +9,9 @@ Los distintos estándares de LAN pueden utilizar los pares trenzados de manera d
 
 A los tipos de cables hasta la categoría 6 se les conoce como **UTP (Unshielded Twisted Pair)**, ya que están constituidos tan sólo de alambres y aislantes. En contraste, los cables de categoría 7 tienen blindaje en cada uno de los pares trenzados por separado, así como alrededor de todo el cable (pero dentro de la funda protectora de plástico). El blindaje reduce la susceptibilidad a interferencias externas y la [[Ruido|diafonía]] con otros cables cercanos para cumplir con las especificaciones más exigentes de rendimiento.
 
-![[par_trenzado_categorias_1.png]]
+|                    | Category 3 <br> Class C | Category 5 <br> Class D | Category 5E | Category 6 <br> Class E | Category 7 <br> Class F |
+| ------------------ | ----------------------- | ----------------------- | ----------- | ----------------------- | ----------------------- |
+| [[Ancho de Banda]] | 16 MHz                  | 100 MHz                 | 100 MHz     | 200 MHz                 | 600 MHz                 |
+| Tipo de cable      | UTP                     | UTP/FTP                 | UTP/FTP     | UTP/FTP                 | SSTP                    |
+| Costo (Cat 5 = 1)  | 0.7                     | 1                       | 1.2         | 1.5                     | 2.2                     |
+

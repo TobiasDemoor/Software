@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Resumenes/Resumen Redes.md",
-            "mode": "source"
+            "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "multitrayectoria",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resumenes/Resumen Redes.md",
+                "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resumenes/Resumen Redes.md",
+                "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,19 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Resumenes/Resumen Redes.md",
-    "Redes de Computadoras/Estándares/WiFi/802.11a.md",
-    "Redes de Computadoras/Estándares/WiFi/802.11n.md",
-    "Redes de Computadoras/Estándares/WiFi/WiFi.md",
-    "Redes de Computadoras/Estándares/WiFi/CSMA CA.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Multipath Fading.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Antenas.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Medios de transmisión no guiados.md",
-    "Redes de Computadoras/Daily/20211001.md",
-    "Redes de Computadoras/Daily/20211004.md"
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/4B5B.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Capa física.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Entramado.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/4B 5B.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Transmisión en banda base.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/Multiplexión.md"
   ]
 }
