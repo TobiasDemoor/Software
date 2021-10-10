@@ -1,10 +1,14 @@
 Cuando tratamos con [[Sistemas Distribuidos|sistemas distribuidos]] muy grandes que se encuentran dispersos a través de una WAN, suele ser necesario tener en cuenta la proximidad. Si dos procesos se comunican con frecuencia puede ser conveniente asegurarse de que se encuentren cercanos físicamente.
 
 ### GPS
-El problema del posicionamiento es resuelto, por un sistema distribuido dedicado especifico denominado GPS (sistema de posicionamiento global), el cual es un sistema distribuido basado en satélites. El sistema utiliza 24 [[Satélites de comunicación|satélites]] que orbitan a ~20.200 Km (MEO). Cada satélite tiene hasta cuatro relojes atómicos que son regularmente calibrados. 
+![[GPS]]
 
-Cada satélite difunde continuamente su posición, añadiendo un Timestamp del tiempo local. Esto permite a cada receptor en la tierra calcular su propia posición usando, en principio, solamente 4 satélites.
+### Posicionamiento lógico
+![[Geometric Overlay Networks]]
 
-La forma de calcular un punto en el espacio se hace mediante intersección de 4 casquetes esféricos de radio conocido. El radio del casquete se conoce ya que se conoce el tiempo que demoró la señal en llegar.
+### Posicionamiento centralizado
+Para posicionar un nodo en un espacio geométrico m-dimensional requiere m+1 medidas de distancia a nodos con posiciones conocidas. Surgen inconvenientes por el hecho de que las medidas no son constantes en el tiempo y que por ejemplo en [[Internet]] las mediciones de latencia pueden romper con la [[Desigualdad Triangular]].
 
-El sistema GPS también se utiliza para sincronizar relojes
+Una solución a estos problemas es medir distancias contra nodos que son puntos de referencia (**landmarks**). Los landmarks miden sus latencias par a par y subsecuentemente informan al nodo central de computo las coordenadas para cada landmark. Un parámetro extra para minimizar el error acumulado es la dimensión m.
+
+### Posicionamiento descentralizado

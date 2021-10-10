@@ -1,0 +1,8 @@
+El problema del posicionamiento es resuelto, por un sistema distribuido dedicado especifico denominado **GPS (Global Positioning System)**, el cual es un sistema distribuido basado en satélites lanzado en 1978. El sistema utiliza 24 [[Satélites de comunicación|satélites]] que orbitan a ~20.200 Km (MEO). Cada satélite tiene hasta cuatro relojes atómicos que son regularmente calibrados. 
+
+Cada satélite difunde continuamente su posición, añadiendo un Timestamp del tiempo local. Esto permite a cada receptor en la tierra calcular su propia posición usando, en principio, solamente 4 satélites.
+
+La forma de calcular un punto en el espacio se hace mediante intersección de 4 casquetes esféricos de radio conocido. El radio del casquete se conoce ya que se conoce el tiempo que demoró la señal en llegar. Lo que se tiene es un sistema con cuatro incógnitas, tres posiciones y una diferencia del reloj local al real. Con estos 4 satélites se resuelve por las 4 incógnitas, entonces además de dar una ubicación precisa **permite sincronizar los relojes**
+
+#### Alternativa a GPS
+Un gran inconveniente del GPS es que no se puede usar en interiores. Entonces una alternativa es utilizar los [[Access Point|APs]] disponibles para triangular la posición de un dispositivo. Resta solamente conocer la ubicación de estos APs, para esto se puede utilizar un dispositivo que tenga conectividad WiFi y GPS para poder registrar para un determinado AP (que puede ser identificado por su SSID o su dirección MAC) una posición aproximada.

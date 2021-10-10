@@ -71,3 +71,5 @@ Una vez que el servidor ha sido seleccionado el dispatcher deberá informar al c
 Primero, en vez de enviar la dirección IP del cliente, lo que ocurre es que el servidor DNS local es contactado por el cliente y este a su vez contacta a nuestro dispatcher que funciona como servidor DNS. Osea que la IP que se recibe no es la del cliente.
 
 Segundo, dependiendo del esquema utilizado para resolver un domain name, puede ser que la dirección del servidor DNS local no sea utilizada. En cambio, puede pasar que el servidor DNS que decide la dirección IP a retornar (nuestro dispatcher) sea engañado por el hecho de que la solicitud la realiza otro servidor DNS actuando como intermediario entre el cliente y el DNS final. En estos casos se pierde completamente el conocimiento de [[Locality|localidad]].
+
+Una técnica posible para modelar este problema es el uso de **[[Geometric Overlay Networks|geometric overlay networks]]**. Donde se tienen como nodos en la red a las réplicas y a los clientes, y se busca asignarle a un cliente la réplica a menor distancia dentro de la geometric overlay network.

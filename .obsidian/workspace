@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
-            "mode": "preview"
+            "file": "Sistemas Distribuidos/Coordinación/Location systems.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
+                "file": "Sistemas Distribuidos/Coordinación/Location systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
+                "file": "Sistemas Distribuidos/Coordinación/Location systems.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/4B5B.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Capa física.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Entramado.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/4B 5B.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Transmisión en banda base.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/Multiplexión.md"
+    "Sistemas Distribuidos/Coordinación/Location systems.md",
+    "Conceptos/Untitled.md",
+    "Sistemas Distribuidos/Coordinación/Geometric Overlay Networks.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
+    "Bases de Datos/Teoría de Normalización/Propiedades de las descomposiciones relacionales.md",
+    "Bases de Datos/Teoría de Normalización/Normalización.md",
+    "Bases de Datos/Teoría de Normalización/Síntesis Relacional.md",
+    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
+    "Bases de Datos/Teoría de Normalización/Formas Normales.md",
+    "Redes de Computadoras/Hardware/Switch.md"
   ]
 }
