@@ -13,6 +13,9 @@
 # Capa física
 ![[Capa física]]
 
+## Modems
+![[Modem]]
+
 # Capa de enlace de datos
 ![[Capa de enlace de datos]]
 

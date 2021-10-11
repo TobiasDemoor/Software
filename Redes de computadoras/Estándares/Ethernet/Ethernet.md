@@ -1,4 +1,4 @@
-Ethernet es una tecnología de [[Redes de computadoras#Clasificación según escala|LAN]] definida en el estándar IEEE 802.3. Existen dos tipos de Ethernet: [[Ethernet clásica]] (forma original que operaba de 3 a 10 Mbps) y [[Ethernet conmutada]] en donde se utilizan los switches para conectar distintas computadoras (esta se convirtió en la Ethernet y opera a 100, 1000 y 10.000 Mbps).
+Ethernet es una tecnología de [[LAN]] definida en el estándar IEEE 802.3. Existen dos tipos de Ethernet: [[Ethernet clásica]] (forma original que operaba de 3 a 10 Mbps) y [[Ethernet conmutada]] en donde se utilizan los switches para conectar distintas computadoras (esta se convirtió en la Ethernet y opera a 100, 1000 y 10.000 Mbps).
 
 Ethernet es un protocolo no orientado a la conexión y sin confirmaciones.
 

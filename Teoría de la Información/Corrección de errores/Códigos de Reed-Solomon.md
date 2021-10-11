@@ -1,0 +1,1 @@
+En los **códigos de Reed-Solomon** de corrección de errores se toman los datos como un polinomio de grado 𝑛, por lo que enviando 𝑛 + 1 puntos podemos hallarlo. Entonces, se envían más puntos redundantes sobre la misma curva para utilizar en caso de errores.

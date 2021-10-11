@@ -1,0 +1,1 @@
+En los **códigos de Hamming** de corrección de errores los bits en posiciones potencias de 2 (1, 2, 4…) son bits de verificación para los bits que posean dicha potencia de dos en su descomposición en potencias de dos. 5 = 4 + 1 implica que el bit 5 es igual a la suma del bit 1 y el 4. Los demás bits son de datos.

@@ -1,0 +1,1 @@
+Las redes LAN son redes de propiedad privada que operan dentro de  un solo edificio. Las redes LAN se utilizan ampliamente para conectar computadoras personales y electrodomésticos con el fin de compartir recursos e intercambiar información.

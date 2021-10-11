@@ -6,7 +6,7 @@ Este sistema de transmisión tendría fugas de luz y sería inútil en la práct
 
 La fibra óptica al no utilizar señales eléctricas para transmitir no sufre de [[Ruido|ruido impulsivo ni de diafonía]].
 
-### Transmisión de luz a través de fibras
+#### Transmisión de luz a través de fibras
 El bosquejo de la figura sólo muestra un rayo atrapado, pero como cualquier rayo de luz que incida en la frontera por encima del ángulo crítico se reflejará de manera interna, habrá muchos rayos distintos rebotando con ángulos diferentes. Se dice que cada rayo tiene un modo distinto, por lo que una fibra con esta propiedad se llama **fibra multimodal**.
 
 Pero si el diámetro de la fibra se reduce a unas cuantas longitudes de onda de luz, la fibra actúa como una guía de ondas y la luz se puede propagar sólo en línea recta, sin rebotar, con lo que se obtiene una **fibra monomodo**. Estas fibras son más costosas pero se utilizan mucho para distancias más largas. Las fibras monomodo disponibles en la actualidad pueden transmitir datos a 100 Gbps por 100 km sin necesidad de amplificación. Incluso se han logrado tasas de datos más altas en el laboratorio, para distancias más cortas.
@@ -19,7 +19,7 @@ En la actualidad se utilizan mucho tres bandas de longitud de onda para la comun
 
 La longitud de los pulsos de luz que se transmiten por una fibra aumenta conforme se propagan. A este fenómeno se le conoce como **dispersión cromática**. Su magnitud depende de la longitud de onda. Una forma de evitar que se traslapen estos pulsos dispersos es aumentar la distancia entre ellos, pero esto se puede hacer sólo si se reduce la tasa de transmisión. Por fortuna se descubrió que si se da a los pulsos una forma especial relacionada con el recíproco del coseno hiperbólico, se cancelan casi todos los efectos de la dispersión y es posible enviar pulsos a miles de kilómetros sin una distorsión apreciable de la forma. Estos pulsos se llaman **solitones**.
 
-### Cables de fibras
+#### Cables de fibras
 Los cables de fibra óptica son similares a los coaxiales, excepto por el trenzado. En la figura aparece una fibra óptica individual, vista de lado. Al centro se encuentra el núcleo de vidrio, a través del cual se propaga la luz. En las fibras multimodales, el núcleo es por lo general de 50 micrones de diámetro, aproximadamente el grosor de un cabello humano. En las fibras de monomodo, el núcleo es de 8 a 10 micrones.
 
 El núcleo está rodeado de un revestimiento de vidrio con un índice de refracción más bajo que el del núcleo, con el fin de mantener toda la luz en el núcleo. Después viene una cubierta delgada de plástico para proteger el revestimiento. Por lo general las fibras se agrupan en haces, protegidas por una funda exterior.

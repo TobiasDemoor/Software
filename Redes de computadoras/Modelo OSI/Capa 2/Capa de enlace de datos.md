@@ -16,3 +16,6 @@ Los enlaces de red se pueden dividir en dos categorías: los que utilizan conexi
 
 ## Subcapa MAC
 ![[Subcapa MAC]]
+
+## Switches
+![[Switch]]

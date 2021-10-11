@@ -1,4 +1,4 @@
-Los medios guiados son aquellos que necesitan un "cable" (sea cobre o fibra).
+Los medios guiados comprenden aquellos donde la señal no puede escaparse entre el origen y destino (en principio). Ejemplos de medios guiados son los alámbricos (cobre y fibra óptica).
 
 ### Par trenzado
 ![[Par trenzado]]

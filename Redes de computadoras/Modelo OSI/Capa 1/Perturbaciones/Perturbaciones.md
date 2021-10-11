@@ -1,0 +1,5 @@
+### Atenuación
+![[Atenuación]]
+
+### Ruido
+![[Ruido]]

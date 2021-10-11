@@ -4,10 +4,10 @@ El campo *kind* indica si hay datos en la trama, ya que algunos de los protocolo
 
 Para construir un paquete, la capa de red toma un mensaje de la capa de transporte y le agrega el encabezado de la capa de red. Después este paquete se pasa a la capa de enlace de datos para incluirlo en el campo info de una trama saliente. Cuando ésta llega a su destino, la capa de enlace de datos extrae de ella el paquete y a continuación lo pasa a la capa de red. De esta manera, la capa de red puede actuar como si las máquinas pudieran intercambiar paquetes directamente
 
-#### Stop and wait
+##### Stop and wait
 Una solución general al problema del control de flujo es hacer que el receptor proporcione retroalimentación al emisor. Tras haber pasado un paquete a su capa de red, el receptor regresa al emisor una pequeña trama ficticia que, de hecho, autoriza al emisor para que transmita la siguiente trama. Para esto se requiere un [[Uso del canal|canal semi-dúplex]].
 
-#### Piggybacking
+##### Piggybacking
 Aunque intercalar datos y tramas de control en el mismo enlace es una gran mejora respecto al uso de dos enlaces físicos separados, es posible realizar otra mejora. Cuando llega una trama de datos, en lugar de enviar de inmediato una trama de control independiente, el receptor se aguanta y espera hasta que la capa de red le pasa el siguiente paquete. La confirmación de recepción se anexa a la trama de datos de salida (mediante el uso del campo *ack* del encabezado de la trama). En efecto, la confirmación de recepción viaja gratuitamente en la siguiente trama de datos de salida. La técnica de retardar temporalmente las confirmaciones de recepción salientes para que puedan viajar en la siguiente trama de datos de salida se conoce como **superposición** (*piggybacking*).
 
 La principal ventaja de usar la superposición en lugar de tener tramas de confirmación de recepción independientes, es un mejor aprovechamiento del ancho de banda disponible del canal. El campo *ack* del encabezado de la trama ocupa sólo unos cuantos bits, mientras que una trama separada requeriría de un encabezado, la confirmación de recepción y una suma de verificación. Además, el envío de menos tramas casi siempre representa una carga de procesamiento más ligera en el receptor.

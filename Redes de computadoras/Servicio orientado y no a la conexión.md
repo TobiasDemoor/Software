@@ -2,7 +2,7 @@ El servicio **orientado a la conexión** está modelado a partir del sistema tel
 
 En algunos casos al establecer una conexión, el emisor, el receptor y la [[Subred|subred]] llevan a cabo una **negociación** en cuanto a los parámetros que se van a usar, como el tamaño máximo del mensaje, la calidad requerida del servicio y demás cuestiones relacionadas..
 
-En contraste al servicio orientado a la conexión, el servicio **no orientado a la conexión** está modelado a partir del sistema postal. Cada mensaje lleva la dirección de destino completa, y cada uno es [[Router|enrutado]] hacia los nodos intermedios dentro del sistema, en forma independiente a todos los mensajes subsecuentes. hay distintos nombres para los mensajes en diferentes conextos: un **paquete** es un mensaje en la [[Capa de red|capa de red]].
+En contraste al servicio orientado a la conexión, el servicio **no orientado a la conexión** está modelado a partir del sistema postal. Cada mensaje lleva la dirección de destino completa, y cada uno es [[Router|enrutado]] hacia los nodos intermedios dentro del sistema, en forma independiente a todos los mensajes subsecuentes. Hay distintos nombres para los mensajes en diferentes conextos: un **paquete** es un mensaje en la [[Capa de red|capa de red]].
 
 ![[servicio_orientado_a_la_conexión_1.png]]
 

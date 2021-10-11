@@ -1,0 +1,3 @@
+El **bit de paridad** se elije de manera que el número de bits 1 en la palabra codificada sea par (o impar). Solo detecta errores de un solo bit de manera confiable. Se puede tratar la palabra codificada como una matriz y asignar un bit de paridad a cada fila o cada columna (intercalado).
+
+En caso de **intercalado**, si se envía el bloque de datos de a filas, los bits de paridad conforman la última fila, por lo que si se produce un error en ráfaga (varios errores en una misma fila), puedo detectarlo a través de los bits de paridad que corresponden a la columna de cada bit de la fila afectada.

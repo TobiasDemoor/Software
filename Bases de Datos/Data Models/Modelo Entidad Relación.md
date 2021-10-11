@@ -9,5 +9,5 @@ El MER se basa en los siguientes elementos:
 	Se podrá trabajar con lenguaje formal (por ejemplo, OCL) o con lenguaje informal (por ejemplo, lenguaje natural). Lo importante es que haya la menor pérdida de información entre lo conocido relevante del dominio del problema y lo que se exprese con el modelo.
 
 ## Modelo Entidad Relación Extendido
- Conjunto de herramientas conceptuales para describir los datos, sus relaciones y [[Integrity constraints|restricciones]]. Permite especificar el **diseño conceptual** de la [[Bases de Datos|DB]], a través de un Diagrama Entidad Relación ([[Diagrama Entidad Relación|DER]]) y especificaciones de **[[Integrity constraints|restricciones]]** que no se puedan expresar con los elementos del diagrama.
+ Conjunto de herramientas conceptuales para describir los datos, sus relaciones y [[Integrity constraints|restricciones]]. Permite especificar el **diseño conceptual** de la [[Bases de Datos/Bases de Datos|DB]], a través de un Diagrama Entidad Relación ([[Diagrama Entidad Relación|DER]]) y especificaciones de **[[Integrity constraints|restricciones]]** que no se puedan expresar con los elementos del diagrama.
  Facilita la comunicación con el usuario ya que utiliza un lenguaje de alto nivel abstracción.

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
+            "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"control de flujo\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
+                "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
+                "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,20 +103,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md",
-    "Bases de Datos/Teoría de Normalización/Formas Normales.md",
-    "Sistemas Distribuidos/Coordinación/Location systems.md",
-    "Conceptos/Untitled.md",
-    "Sistemas Distribuidos/Coordinación/Geometric Overlay Networks.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
-    "Bases de Datos/Teoría de Normalización/Propiedades de las descomposiciones relacionales.md",
-    "Bases de Datos/Teoría de Normalización/Normalización.md",
-    "Bases de Datos/Teoría de Normalización/Síntesis Relacional.md",
-    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md"
+    "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+    "Redes de Computadoras/Estándares/WiFi/CSMA CA.md",
+    "Redes de Computadoras/Estándares/WiFi/802.11b.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
+    "Resumenes/Resumen Redes.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Subcapa MAC.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/ALOHA.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Problema de acceso al medio.md",
+    "Redes de Computadoras/Protocolos/PPP.md"
   ]
 }

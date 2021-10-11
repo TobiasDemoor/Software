@@ -8,5 +8,5 @@ Es importante notar que al limitar el ancho de banda se limita la tasa de datos,
 
 Lo definido anterior mente es el **ancho de banda analógico**, como se define en electrónica. Para el area de ciencias de la computación se suele hablar del **ancho de banda digital** que es la tasa de datos máxima de un canal (medido en bps). Esa tasa de datos es el resultado final de usar el ancho de banda analógico de un canal físico para transmisión digital, ambos están relacionados.
 
-## La tasa de datos máxima de un canal
+### Teorema de Nyquist y Shannon
 ![[Teorema de Nyquist y Shannon]]

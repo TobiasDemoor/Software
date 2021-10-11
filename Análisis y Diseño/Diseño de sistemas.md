@@ -51,7 +51,7 @@ ADD es un enfoque para definir una arquitectura de software que basa el proceso 
 - El resultado de ADD son los primeros niveles de una vista de descomposición de módulos de arquitectura y otras vistas, según corresponda.
 
 # Diseñando la persistencia
-%%[[Bases de Datos]]%%
+%%[[Bases de Datos/Bases de Datos]]%%
 Propiedades que se deben tener en cuenta:
 - ¿Qué se almacenará? (esto determina la tecnología que debemos usar, [[SQL]] vs NoSQL).
 - Manejo de metadata (DDL y DML).
