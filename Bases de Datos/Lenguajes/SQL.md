@@ -139,7 +139,7 @@ Un **stored procedure** es un programa almacenado físicamente en una BD que es 
 
 ```SQL
 delimiter && -- cambia el delim de fin de linea para poder utilizar ; en el SP
-CREATE PROCEDUR sp_name
+CREATE PROCEDURE sp_name
 	([parameter [,...]])
 	routine_body
 &&

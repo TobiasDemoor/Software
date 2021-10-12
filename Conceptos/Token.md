@@ -1,0 +1,1 @@
+Un **token** es un elemento que permite definir quién tiene el control de un recurso en un momento dado.

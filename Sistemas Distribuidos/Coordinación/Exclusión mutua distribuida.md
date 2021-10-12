@@ -5,10 +5,13 @@ Una alternativa es un **permission-based approach**. En este caso, un proceso qu
 ### Algorítmo centralizado
 Una forma de lograr la exclusión mutua en sistemas distribuidos es simular lo que ocurre en un sistema mono-procesador. Se elige un proceso como coordinador y cuando un proceso requiere acceso al recurso compartido envía una solicitud. El coordinador luego se encarga de gestionar los permisos. La principal ventaja de este aproach es su simpleza.
 
-El diseño centralizado tiene algunas desventajas. El coordinador es un punto único de falla con todo lo que esto implica. En un sistema grande el tener un único coordinador puede tornarse en un cuello de botella.
+El diseño centralizado tiene algunas desventajas. El coordinador es un punto único de falla con todo lo que esto implica. En un sistema grande el tener un único coordinador puede tornarse en un cuello de botella. Para seleccionar al coordinador existen [[algoritmos de elección]].
+
+#### Solución basada en token
+En esta solución el coordinador tiene un [[Token|token]] para cada recurso, cuando un proceso solicita hacer uso del recurso se le entrega el token y cuando lo libera debe retornar el token al coordinador. Así se asegura la exclusión mutua en el uso del recurso.
 
 ### Algorítmo distribuido
-Para esta solución se requiere un ordenamiento total de los eventos del sistema (utiliza los [[Sincronización#Relojes lógicos de Lamport|relojes lógicos de Lamport]]). El algorítmo es el siguiente. Cuando un proceso quiere acceder a un recurso compartido, construye un mensaje conteniendo el nombre del recurso, su pid y el tiempo (lógico) actual. Envía este mensaje a todos los otros procesos (conceptualmente incluyendose a si mismo). El envío de mensajes se supone fiable (no se pierde ningún mensaje).
+Para esta solución se requiere un ordenamiento total de los eventos del sistema (utiliza los [[Relojes  Lógicos#Relojes lógicos de Lamport|relojes lógicos de Lamport]]). El algorítmo es el siguiente. Cuando un proceso quiere acceder a un recurso compartido, construye un mensaje conteniendo el nombre del recurso, su pid y el tiempo (lógico) actual. Envía este mensaje a todos los otros procesos (conceptualmente incluyendose a si mismo). El envío de mensajes se supone fiable (no se pierde ningún mensaje).
 
 Cuando un proceso recibe un mensaje de solicitud de otro proceso, la acción que toma depende de su estado respecto al recurso. Hay tres casos distinguibles:
 * Si el receptor no está accediendo al recurso y no quiere acceder al recurso, envía un OK al solicitante.

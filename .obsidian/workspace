@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
-            "mode": "preview"
+            "file": "Sistemas Distribuidos/Daily/20211012.md",
+            "mode": "source"
           }
         }
       }
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+                "file": "Sistemas Distribuidos/Daily/20211012.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Estándares/WiFi/WiFi.md",
+                "file": "Sistemas Distribuidos/Daily/20211012.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,19 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "2f118abdb74e56ca",
   "lastOpenFiles": [
-    "Redes de Computadoras/Estándares/WiFi/WiFi.md",
-    "Redes de Computadoras/Estándares/WiFi/CSMA CA.md",
-    "Redes de Computadoras/Estándares/WiFi/802.11b.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
-    "Resumenes/Resumen Redes.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Subcapa MAC.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/ALOHA.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Problema de acceso al medio.md",
-    "Redes de Computadoras/Protocolos/PPP.md"
+    "Sistemas Distribuidos/Daily/20211012.md",
+    "Redes de Computadoras/Protocolos/ARP.md",
+    "Sistemas Distribuidos/Coordinación/Naming.md",
+    "Sistemas Distribuidos/Daily/Untitled.md",
+    "Sistemas Distribuidos/Coordinación/Untitled.md",
+    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
+    "Sistemas Distribuidos/Coordinación/Exclusión mutua distribuida.md",
+    "Análisis y Diseño/Tácticas para disponibilidad.md",
+    "Sistemas Distribuidos/Coordinación/Sincronización.md",
+    "Sistemas Distribuidos/Coordinación/Relojes Lógicos.md"
   ]
 }
