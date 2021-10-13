@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
-            "mode": "preview"
+            "file": "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+                "file": "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+                "file": "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,6 +108,7 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
+    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
     "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Satélites.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Satélites de comunicación.md",
@@ -116,7 +117,6 @@
     "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
     "Redes de Computadoras/Estándares/Ethernet/Ethernet.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/VLAN.md",
-    "Redes de Computadoras/Protocolos/STP.md",
-    "Redes de Computadoras/Daily/20211004.md"
+    "Redes de Computadoras/Protocolos/STP.md"
   ]
 }

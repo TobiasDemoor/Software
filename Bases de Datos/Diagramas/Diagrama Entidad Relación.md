@@ -70,3 +70,5 @@ El solapamiento nos indica si los elementos de la superentidad pueden estar en m
 En algunas ocasiones, durante el proceso de modelado surge la necesidad de representar interrelaciones donde participan otras interrelaciones.
 La agregación es una [[Abstracción|abstracción]] en la cual una interrelación (junto con sus entidades vinculadas) es tratada como una entidad de alto nivel y puede participar de interrelaciones. Por supuesto, las entidades vinculadas a una agregación también pueden tener sus propias interrelaciones individualmente.
 *El concepto de agregación se denota con un rectángulo conteniendo a la interrelación y sus entidades vinculadas.*
+
+> La agregación tiene sentido cuando lo que se agrega es muchos a muchos, si se puede identificar al conjunto con una sola entidad no tiene sentido realizar una agregación.
