@@ -5,5 +5,5 @@ El objetivo de la [[Software Architecture|arquitectura]] de tres schemas para [[
 
 ![[database_three_schema_architecture_1.png]]
 
-#### Data Independence
+### Data Independence
 ![[Data Independence]]

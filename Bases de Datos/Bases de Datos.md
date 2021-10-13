@@ -1,7 +1,7 @@
 >"Una base de datos es una fuente central de [[Dato, información y conocimiento|datos]] con el fin de que varios usuarios la compartan para su uso en varias aplicaciones" - (Kendall, 2005)
 
-Se puede definir una base de datos como una colección de datos relacionados. Esta definición es muy general y usualemente el término *base de datos* es más restrictivo. Una base de datos tiene las siguientes propiedades:
-- Una base de datos representa un aspecto del mundo real, a veces llamado minimundo o universo de discurso (universe of discourde, UoD). Y los cambios al minimundo son reflejados en la base de datos.
+Se puede definir una base de datos como una colección de datos relacionados. Esta definición es muy general y usualmente el término *base de datos* es más restrictivo. Una base de datos tiene las siguientes propiedades:
+- Una base de datos representa un aspecto del mundo real, a veces llamado minimundo o universo de discurso (universe of discourse, UoD). Y los cambios al minimundo son reflejados en la base de datos.
 - Una base de datos es una colección logicamente coherente de datos con un significado inherente. Un conjunto de datos aleatorios no puede ser llamado correctamente una base de datos.
 - Una base de datos es diseñada, construida y populada con datos para un propósito en especifico. Tiene un grupo de usuarios y de aplicaciones para el cual fue diseñado.
 
@@ -19,9 +19,6 @@ En comparación al esquema predecesor de procesamiento de archivos las carácter
 		Una base de datos suele tener muchos tipos de usuarios, cada uno de los cuales puede requerir una perspectiva o **vista** diferente de la base de datos. Una vista puede ser un subset de la base de datos o puede contener **información virtual** (**virtual data**) que es derivada de los archivos de base de datos pero no almacenada explicitamente.
  * **Sharing de información y procesamiento de transacciones multiusuario**
 		Un [[DBMS|DBMS]] multiusuario debe permitir el acceso de multiples usuarios a la base de datos simultaneamente. Esto es esencial si se pretende integrar y mantener información para múltiples aplicaciones en una sola base de datos. El [[DBMS|DBMS]] debe incluir software de **control de concurrencia** para asegurar que varios usuarios intentando modificar la misma información lo hagan en forma controlada. El concepto de [[Transacciones|transacción]] es central para muchas aplicaciones de base de datos.
-
-## Sistema de Base de Datos
-![[Sistema de Base de Datos]]
 
 ## Modelo de Datos
 ![[Data Model]]

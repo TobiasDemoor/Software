@@ -60,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2babf8afbe60deb8",
@@ -109,14 +110,14 @@
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
     "Resumenes/Resumen BD.md",
-    "Bases de Datos/DBMS/DBMS.md",
-    "Bases de Datos/Data Models/Modelo Entidad Relación.md",
-    "Bases de Datos/Data Models/Modelo Conceptual.md",
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
     "Bases de Datos/Data Models/Data Model.md",
     "Bases de Datos/Bases de Datos.md",
     "Bases de Datos/Sistema de Base de Datos.md",
     "Bases de Datos/Arquitectura de tres schemas.md",
-    "Bases de Datos/Concepts/Data Independence.md",
-    "Bases de Datos/Three-Schema Architecture.md"
+    "Bases de Datos/DBMS/DBMS.md",
+    "Resumenes/Bases ⎄de Datos.md",
+    "Bases de Datos/Data Models/Modelo Entidad Relación.md",
+    "Bases de Datos/Data Models/Modelo Conceptual.md"
   ]
 }

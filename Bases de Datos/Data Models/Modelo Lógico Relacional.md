@@ -9,10 +9,11 @@ Describe la relación R como *R(A₁, A₂, ..., An)*. Los *atributos subrayados
 
 Los *atributos subrayados con línea punteada* constituyen una **clave foránea (FK)**, es decir, hacen referencia a valores existentes en atributos *clave* de otra relación. En algunas ocaciones las claves foráneas pueden tomar valor nulo.
 
-El conjunto de esquemas de relación, junto con las restricciones adicionales asociadas, constituyen el **diseño lógico** de la base de datos. Es deseable y necesario que el diseño lógico xumpla con ciertas propiedades y no presenta anomalías. El proceso de *[[Normalización|normalización]]* es una herramienta que posibilita arribar a un buen diseño de base de datos relacional.
+El conjunto de esquemas de relación, junto con las restricciones adicionales asociadas, constituyen el **diseño lógico** de la base de datos. Es deseable y necesario que el diseño lógico cumpla con ciertas propiedades y no presenta anomalías. El proceso de *[[Normalización|normalización]]* es una herramienta que posibilita arribar a un buen diseño de base de datos relacional.
 
-**Instancia de relación de un esquema de relación R(A₁, A₂, ..., An):** r(R) es un subconjunto del producto cartesiano de los dominios que definen R, 
-r(R) pertenece o es igual a (dom(A₁) x dom(A₂) x ... x dom(An)). Una relación, por ser un conjunto, nunca tiene tuplas repetidas.
+> **Instancia de relación de un esquema de relación R(A₁, A₂, ..., An):** r(R) es un subconjunto del producto cartesiano de los dominios que definen R, 
+> $r(R) \subseteq (dom(A_1) x dom(A_1) x \cdots x dom(A_n))$
+> Una relación, por ser un conjunto, nunca tiene tuplas repetidas.
 
 ### Restricciones
 * Dominio:
