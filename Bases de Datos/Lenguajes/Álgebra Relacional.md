@@ -1,6 +1,6 @@
 El [[Modelo Lógico Relacional]] incluye un lenguaje formal que es el álgebra relacional (AR), las consultas realizadas en este se llaman formalmente **queries**.
 
-El AR es considerada como parte integral del modelo relacional por diversos motivos. Ya que es la base formal para los lenguajes de consulta que son utilizados por el usuario fina y permite dar un procedimiento de resolución para estas, y también debido a que es utilizado por el [[DBMS]] para la optimización de consultas.
+El AR es considerada como parte integral del modelo relacional por diversos motivos. Ya que es la base formal para los lenguajes de consulta que son utilizados por el usuario final y permite dar un procedimiento de resolución para estas, y también debido a que es utilizado por el [[DBMS]] para la optimización de consultas.
 
 ## Operadores especificos para RDB
 Son operadores unarios.
@@ -20,7 +20,7 @@ $$\sigma_{<condicion 2>} (\sigma_{<condicion 1>} (R)) = \sigma_{<condicion 1>} (
 *Cascada:*
 $$\sigma_{<c1>} (\sigma_{<c2>} (\cdots\ (\sigma_{<cn>} (R))\cdots)) (R) = \sigma_{<c1>\ AND\ <c2>\ AND\ \cdots\ AND\ <cn>} (R)$$
 
-*Selectividad de la condición:* fracción de tuplas selecionadas.
+> **Selectividad de la condición:** fracción de tuplas selecionadas.
 
 ### PROYECCIÓN ($\pi$)
 $\pi_{<lista atributos>} (R)$: Proyecta la relación sobre los atributos de la lista de atributos. El resultado tiene solo los atributos de la lista de atributos (en ese orden).
@@ -72,9 +72,9 @@ Deben ser compatibles para la unión, es decir tener el mismo grado y cada corre
 
 $R \cup S$: tuplas que están en R o S o en ambas.
 $R \cap S$: tuplas que están en R y en S.
-$R - S$: tupls que están en R pero no están en S.
+$R - S$: tuplas que están en R pero no están en S.
 
-> <u>Convención:</u> los atributos de la relación resultante tienen el mismo nombre que los de la relación R.
+> **Convención:** los atributos de la relación resultante tienen el mismo nombre que los de la relación R.
 
 ### PRODUCTO CARTESIANO($\times$)
 Combina cada tupla de una relación con cada tupla de la otra relación.
@@ -82,7 +82,7 @@ $$Q \leftarrow R(A_1, A_2, \cdots, A_n)\ \times S(B_1, B_2, \cdots, B_n)$$
 $$Q (A_1, A_2, \cdots, A_n, B_1, B_2, \cdots, B_n)$$
  La cardinalidad del resultado es el producto de las cardinalidades de las relaciones iniciales. El grado del resultado es la suma de los grados de las relaciones iniciales.
  
- grado(Q) = n + m y cardinalidad(Q) = |Q| = |R| * |S|
+ $$grado(Q) = n + m ; cardinalidad(Q) = |Q| = |R| * |S|$$
 
 
 ## Conjunto completo de operaciones AR

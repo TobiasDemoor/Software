@@ -1,4 +1,3 @@
-# Diagrama Entidad Relación (DER)
 ## Elementos de un DER
 ### Conjunto de Entidades
 Todos los conceptos, cosas u objetos del mundo real que queremos modelar constituyen las entidades de nuestro modelo. *Las entidades se denotan con un rectángulo, con el nombre dentro de él.*

@@ -6,7 +6,7 @@ Los estándares de SQL representan un kernel de funciones que van a ser implemen
 
 ## Selección
 ```SQL
-SELECT <atributos>
+SELECT [DISTINCT] <atributos>
 FROM <tabla 1 [alias 1], tabla 2 [alias 2], ..., tabla N [alias N]>
 [WHERE <condición>]
 [GROUP BY <atributos>]
@@ -14,7 +14,7 @@ FROM <tabla 1 [alias 1], tabla 2 [alias 2], ..., tabla N [alias N]>
 [ORDER BY <atrib 1 [ASC/DESC], atrib 2 [ASC/DESC], ..., atrib M [ASC/DESC]>];
 ```
 
-El valor que devuelve una sentencia yo no es una relación sino que es una tabla y por lo tanto puede haber filas repetidas, esto en contraste al [[Modelo Lógico Relacional]] teórico.
+El valor que devuelve una sentencia yo no es una relación sino que es una tabla y por lo tanto puede haber filas repetidas, esto en contraste al [[Modelo Lógico Relacional]] teórico. Si se desea que el resultado sea un conjunto basta con agregar DISTINCT luego del SELECT.
 
 ## Operadores de conjunto
 ```SQL
@@ -22,7 +22,7 @@ El valor que devuelve una sentencia yo no es una relación sino que es una tabla
 
 <tabla 1> INTERSECT <tabla 2>;
 
-<tabla 1> EXCEPT <tabla 2>; (diferencia)
+<tabla 1> EXCEPT <tabla 2>; -- (diferencia)
 ```
 Estos operadores dan como resultado conjuntos y por lo tanto no hay filas repetidas. Si se desea que queden los repetidos frente a una unión se puede usar UNION ALL.
 
@@ -31,9 +31,10 @@ Para realizar un producto cartesiano basta con realizar un select con dos tablas
 ## Operadores de junta
 Junta interna:
 ```SQL
+-- usamos esta para la materia
 SELECT <atributos>
 FROM <tabla 1> <alias 1>, <tabla 2> <alias 2>
-WHERE <condición de junta>;		-- usamos esta en papel
+WHERE <condición de junta>;
 
 SELECT <atributos>
 FROM <tabla 1> <alias 1>
@@ -85,12 +86,20 @@ FROM  <tabla 1> <alias 1>
 WHERE <atributo> <op comparación> ANY <tabla 2>;
 -- tabla 2 debe tener 1 columna (generada por subquery)
 -- el dom(<atributo>) debe ser igual a dom(<tabla 2>)
+/*
+	se lee como seleccionar si alguna tupla de tabla 2
+	cumple con la condición
+*/
 
 SELECT <atributos>
 FROM  <tabla 1> <alias 1>
 WHERE <atributo> <op comparación> ALL <tabla 2>;
 -- tabla 2 debe tener 1 columna (generada por subquery)
 -- el dom(<atributo>) debe ser igual a dom(<tabla 2>)
+/*
+	se lee como seleccionar si todas las tuplas de tabla 2
+	cumplen con la condición
+*/
 ```
 
 ## Funciones de agregación
@@ -129,13 +138,14 @@ WHERE NOT EXISTS (
 )
 
 /*
-	Se lee: Los nombres de los empledos tal que no exista una planta en plantas
- 	que no tenga vinculado al empleado con esa planta.
+	Se lee: seleccionar los nombres de los empledos tal que no
+	exista una planta en plantas que no tenga vinculado al
+	empleado con dicha planta.
 */
 ```
 
 ## Stored Procedures
-Un **stored procedure** es un programa almacenado físicamente en una BD que es ejecutado directamente en el motor de BD. Su implementación varía de un DBMS a otro. Los stored procedures no retornan valores pero los parámetros de un stored procedure pueden retornar valores aunque no está bien visto.
+Un **stored procedure** es un programa almacenado físicamente en una BD que es ejecutado directamente en el motor de BD. Su implementación varía de un DBMS a otro. Los stored procedures no retornan valores, los parámetros de un stored procedure si pueden retornar valores aunque no está bien visto.
 
 ```SQL
 delimiter && -- cambia el delim de fin de linea para poder utilizar ; en el SP
@@ -149,7 +159,7 @@ delimiter ;
 	routine_body: comandos SQL válidos (si son más de uno usar BEGIN END)
 */
 
-CALL sp_name -- para ejecutarlo
+CALL sp_name; -- para ejecutarlo
 ```
 
 ## Funciones

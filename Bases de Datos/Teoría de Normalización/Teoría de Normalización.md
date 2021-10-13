@@ -28,7 +28,7 @@ Esquema de ejemplo: PROVEEDOR(P-nro, P-nombre, P-dir, nro-Item, nombre-Item, pre
 ![[Síntesis Relacional]]
 
 ## Descomposición FNBC
-[[Descomposición FNBC]]
+![[Descomposición FNBC]]
 
 ## Notas
 [[Normalización]] [[Denormalización]]

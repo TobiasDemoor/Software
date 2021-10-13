@@ -26,7 +26,9 @@ En comparación al esquema predecesor de procesamiento de archivos las carácter
 ## Diseño de RDBs
 Una técnica para diseñar bases de datos es la **Metodología de Diseño Lógico para Bases de Datos Relacionales** (Logical Relational Design Methodology, LRDM), que utiliza la técnica de [[Diagrama Entidad Relación|DER]] extendido. En líneas generales, los pasos para lograr un diseño de la Base de Datos Relacional con esta metodología son:
 1. Construcción del Modelo Entidad Relación ([[Modelo Entidad Relación|MER]]) a partir de los [[Requerimientos|requerimientos]].
-2. Transformación del MER a Relaciones
-3. Normalización de las Relaciones.
+2. Transformación del MER a [[Modelo Lógico Relacional|Relaciones]]
+3. [[Teoría de Normalización|Normalización]] de las Relaciones.
 
-[[Requerimientos|Requerimientos]] ←> Diseño conceptual ([[Modelo Entidad Relación|MER]]) ←> Diseño lógico ([[Modelo Lógico Relacional|MR]]) ←> [[Teoría de Normalización|Normalización]] ←> Diseño Físico ←> DB
+<div style=text-align:center >
+Requerimientos ↔ Diseño conceptual (MER) ↔ Diseño lógico (MR) ↔ Normalización ↔ Diseño Físico ↔ DB
+</div>
