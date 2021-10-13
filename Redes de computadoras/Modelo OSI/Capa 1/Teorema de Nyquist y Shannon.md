@@ -8,7 +8,7 @@ Hasta ahora hemos considerado sólo los canales sin ruido. Si hay ruido aleatori
 
 El principal resultado de Shannon es que la tasa de datos máxima (o **capacidad**) de un canal ruidoso, cuyo ancho de banda es *B* Hz y cuya relación señal a ruido es S/N, está dada por:
 
-$$Capacidad = B * log_2(1 + S/N)$$
+$$Capacidad = B * log_2(1 + S/N)\ [bits/seg]$$
 
 Esto nos indica las mejores capacidades que pueden tener los canales reales. Por ejemplo, la **ADSL (Línea Asimétrica de Suscriptor Digital)** que provee acceso a Internet a través de líneas telefónicas comunes, utiliza un ancho de banda de aproximadamente 1 MHz. La SNR depende en gran parte de la distancia entre el hogar y la central telefónica; una SNR de alrededor de 40 dB para líneas cortas de 1 a 2 km es algo muy bueno. Con estas características, el canal nunca podrá transmitir a más de 13 Mbps, sin importar cuántos niveles de señal se utilicen ni con qué frecuencia se tomen las muestras. En la práctica, el servicio ADSL se especifica hasta 12 Mbps, aunque es frecuente que los usuarios vean tasas más bajas. En realidad esta tasa de datos es muy buena, con más de 60 años de técnicas de comunicaciones que han reducido la brecha entre la capacidad de Shannon y la capacidad de los sistemas reales.
 

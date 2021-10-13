@@ -20,3 +20,6 @@ Utiliza el algorítmo de puente [[Transparencia|transparente]]:
 Se dice que los switch aprenden de lo ocurrido (aprenden por dirección origen) y reenvían por dirección destino. No generan ninguna trama.
 
 Pasado cierto tiempo el switch limpia las entradas de la tabla.
+
+### STP
+![[STP]]

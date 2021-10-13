@@ -1,10 +1,10 @@
 ## Cableado
-| Nombre   | Cable                         | Max. segmento | Nodos/segmento | Ventajas                 | 
-| -------- | ----------------------------- | ------------- | -------------- | ------------------------ |
-| 10Base5  | Thick [[Cable coaxial\|coax]] | 500 m         | 100            | Original, ahora obsoleta |
-| 10Base2  | Thin [[Cable coaxial\|coax]]  | 185 m         | 30             | No se requiere [[Hub]]   |
-| 10Base-T | [[Par trenzado]]              | 100 m         | 1024           | Muy barato               |
-| 10Base-F | [[Fibra óptica]]              | 2000 m        | 1024           | Entre edificios          |
+|        Nombre        |             Cable             | Max. segmento | Nodos/segmento | Ventajas                 |
+|:--------------------:|:-----------------------------:| ------------- | -------------- | ------------------------ |
+|  10Base5 <br> 802.3  | Thick [[Cable coaxial\|coax]] | 500 m         | 100            | Original, ahora obsoleta |
+| 10Base2 <br> 802.3a  | Thin [[Cable coaxial\|coax]]  | 185 m         | 30             | No se requiere [[Hub]]   |
+| 10Base-T <br> 802.3i |       [[Par trenzado]]        | 100 m         | 1024           | Muy barato               |
+| 10Base-F <br> 802.3j |       [[Fibra óptica]]        | 2000 m        | 1024           | Entre edificios          |
 
 Hasta 10Base2 la topología física era un bus. A partir de 10Base-T pasa a ser una estrella. El 10 es la velocidad (10 Mbps) y el "Base" es de [[Transmisión en banda base|banda base]].
 

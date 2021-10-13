@@ -1,5 +1,5 @@
 ### Satélites
-![[Satélites de comunicación]]
+![[Satélites]]
 
 ### Radio transmisión
 ![[Radiotransmisión]]

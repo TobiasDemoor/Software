@@ -1,4 +1,4 @@
-El problema del posicionamiento es resuelto, por un sistema distribuido dedicado especifico denominado **GPS (Global Positioning System)**, el cual es un sistema distribuido basado en satélites lanzado en 1978. El sistema utiliza 24 [[Satélites de comunicación|satélites]] que orbitan a ~20.200 Km (MEO). Cada satélite tiene hasta cuatro relojes atómicos que son regularmente calibrados. 
+El problema del posicionamiento es resuelto, por un sistema distribuido dedicado especifico denominado **GPS (Global Positioning System)**, el cual es un sistema distribuido basado en satélites lanzado en 1978. El sistema utiliza 24 [[Satélites|satélites]] que orbitan a ~20.200 Km (MEO). Cada satélite tiene hasta cuatro relojes atómicos que son regularmente calibrados. 
 
 Cada satélite difunde continuamente su posición, añadiendo un Timestamp del tiempo local. Esto permite a cada receptor en la tierra calcular su propia posición usando, en principio, solamente 4 satélites.
 
