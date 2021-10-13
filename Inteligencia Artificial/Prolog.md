@@ -2,7 +2,7 @@ El Prolog (del francés **Pro**grammation en **log**ique) es un [[Lenguajes|leng
 
 En Prolog no existen estructuras de control. su ejecución se basa en los conceptos de **unificación** y **backtracking**. Y la representación de la información/conocimiento es mediante predicados. Un programa escrito en Prolog se constituye de hachos y reglas del tipo "modus ponens" (si es verdad el antecedente, entonces es verdad el consecuente) que se transforman a la forma casual y luego a cláusulas de Horn (muchos antecedentes un solo consecuente).
 
-El Prolog funciona como una gran [[Bases de Datos/Bases de Datos|base de datos]] que maneja datos y reglas.
+El Prolog funciona como una gran [[Bases de Datos|base de datos]] que maneja datos y reglas.
 
 ## Programa Prolog
 Cada línea de programa es una **cláusula**. Un **hecho** representa una unidad de información que se asume como verdadera. Una **regla** representa un aserto condicional.

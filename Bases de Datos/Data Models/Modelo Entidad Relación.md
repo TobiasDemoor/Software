@@ -1,4 +1,4 @@
-El **Modelo Entidad-Relación (MER)** es una herramienta que permite realizar una abstracción o modelo de alguna situación de interés presente en el mundo real. El MER se realizará utilizando la técnica Diagramas de Entidad Relación ([[Diagrama Entidad Relación]]). Para construirlo necesitamos modelar las cosas u objetos existentes, sus características y sus relaciones.
+El **Modelo Entidad-Relación (MER)** es una herramienta que permite realizar una abstracción o modelo de alguna situación de interés presente en el mundo real (es un tipo de [[modelo conceptual]]). El MER se realizará utilizando la técnica Diagramas de Entidad Relación ([[Diagrama Entidad Relación]]). Para construirlo necesitamos modelar las cosas u objetos existentes, sus características y sus relaciones.
 
 El MER se basa en los siguientes elementos:
 - **Entidad**: cosa u objeto del mundo real que es distinguible. Todo objeto o concepto del cual queremos registrar información constituye una entidad. Tiene asociado un conjunto de propiedades o atributos.
@@ -8,6 +8,6 @@ El MER se basa en los siguientes elementos:
 - **Reglas de dominio adicionales**: al realizar el MER tenemos la necesidad de modelar ciertas reglas de dominio. En muchos casos el lenguaje que utilizamos no permite expresar a todas ellas. En ese caso, podremos recurrir a ciertas herramientas complementarias que nos permitan expresar ese conocimiento adicional del dominio del problema que no queda expresado en el diagrama. 
 	Se podrá trabajar con lenguaje formal (por ejemplo, OCL) o con lenguaje informal (por ejemplo, lenguaje natural). Lo importante es que haya la menor pérdida de información entre lo conocido relevante del dominio del problema y lo que se exprese con el modelo.
 
-## Modelo Entidad Relación Extendido
- Conjunto de herramientas conceptuales para describir los datos, sus relaciones y [[Integrity constraints|restricciones]]. Permite especificar el **diseño conceptual** de la [[Bases de Datos/Bases de Datos|DB]], a través de un Diagrama Entidad Relación ([[Diagrama Entidad Relación|DER]]) y especificaciones de **[[Integrity constraints|restricciones]]** que no se puedan expresar con los elementos del diagrama.
+##### Modelo Entidad Relación Extendido
+ Conjunto de herramientas conceptuales para describir los datos, sus relaciones y [[Integrity constraints|restricciones]]. Permite especificar el **diseño conceptual** de la [[Bases de Datos|DB]], a través de un Diagrama Entidad Relación ([[Diagrama Entidad Relación|DER]]) y especificaciones de **[[Integrity constraints|restricciones]]** que no se puedan expresar con los elementos del diagrama.
  Facilita la comunicación con el usuario ya que utiliza un lenguaje de alto nivel abstracción.

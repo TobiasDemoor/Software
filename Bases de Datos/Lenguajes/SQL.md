@@ -1,6 +1,6 @@
 **SQL (Structured Query Language)** es un lenguaje de programación diseñado para administrar, y recuperar información de sistemas de gestión de base de datos relacionales ([[RDBMS]]). Es considerado un lenguaje estándar para BD relacionales.
 
-El SQL está basado tanto en el enfoque procedural ([[Álgebra Relacional]]) como en el declarativo ([[Lenguajes Relacionales de Manejo de Datos|Cálculo Relacional]]). Estos lenguajes permiten la manipulación y recuperación de datos de la [[Bases de Datos/Bases de Datos|base de datos]].
+El SQL está basado tanto en el enfoque procedural ([[Álgebra Relacional]]) como en el declarativo ([[Lenguajes Relacionales de Manejo de Datos|Cálculo Relacional]]). Estos lenguajes permiten la manipulación y recuperación de datos de la [[Bases de Datos|base de datos]].
 
 Los estándares de SQL representan un kernel de funciones que van a ser implementados por los lenguajes comerciales.
 

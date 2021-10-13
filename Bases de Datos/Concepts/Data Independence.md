@@ -1,3 +1,3 @@
-La independencia de datos o **data independence** se puede definir como la capacidad de cambiar el schema en una nivel de un [[Database System|sistema de base de datos]] sin tener que cambiar el schema en un nivel superior. Podemos definir dos tipos de data independence:
+La independencia de datos o **data independence** se puede definir como la capacidad de cambiar el schema en una nivel de un [[Sistema de Base de Datos|sistema de base de datos]] sin tener que cambiar el schema en un nivel superior. Podemos definir dos tipos de data independence:
 1. **Logical data independence** es la capacidad de cambiar el schema conceptual sin tener que cambiar los schema externos o programas de aplicación.
 2. **Physical data independence** es la capacidad de cambiar el schema interno sin tener que cambiar el schema conceptual y por lo tanto tampoco el schema externo.

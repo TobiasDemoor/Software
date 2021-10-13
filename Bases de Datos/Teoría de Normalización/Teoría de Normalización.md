@@ -1,4 +1,4 @@
-La teoría de normalización trata de brindar un criterio para elegir un diseño de [[Bases de Datos/Bases de Datos|BD]] frente a otros diseños alternativos. Cuando se transforma el [[Diagrama Entidad Relación]] al [[Modelo Lógico Relacional]] se mide la **calidad del diseño**.
+La teoría de normalización trata de brindar un criterio para elegir un diseño de [[Bases de Datos|BD]] frente a otros diseños alternativos. Cuando se transforma el [[Diagrama Entidad Relación]] al [[Modelo Lógico Relacional]] se mide la **calidad del diseño**.
 
 ## Anomalías
 Se estudian las **anomalías** del diseño. Lo que buscamos son las "buenas propiedades" de los diseños de BD relacionales y evitar los problemas o características no deseables. Estos úlitmos se pueden clasificar de la siguiente manera:

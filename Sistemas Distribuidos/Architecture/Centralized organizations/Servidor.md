@@ -45,7 +45,7 @@ Los clusters de servidores suelen estar organizados lógicamente en tres niveles
 
 Como en cualquier [[Centralized organizations#Arquitecturas multinivel|arquitectura cliente-servidor multinivel]] los clusters de servidores pueden contener servidores dedicados al procesamiento de aplicación que conforman el segundo nivel. Estos suelen correr sobre máquinas de alta performance pero no necesariamente.
 
-Y el tercer nivel consiste de servidores de datos, notablemente file y [[Bases de Datos/Bases de Datos|database]] servers. Dependiendo de los requerimientos estos pueden correr sobre hardware especializado configurado para acceso a disco de alta velocidad y caches locales grandes.
+Y el tercer nivel consiste de servidores de datos, notablemente file y [[Bases de Datos|database]] servers. Dependiendo de los requerimientos estos pueden correr sobre hardware especializado configurado para acceso a disco de alta velocidad y caches locales grandes.
 
 ![[lan_server_cluster_1.png]]
 
