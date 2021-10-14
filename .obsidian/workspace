@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/DBMS/DBMS.md",
+            "file": "Bases de Datos/Arquitectura de tres schemas.md",
             "mode": "preview"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/DBMS/DBMS.md",
+                "file": "Bases de Datos/Arquitectura de tres schemas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/DBMS/DBMS.md",
+                "file": "Bases de Datos/Arquitectura de tres schemas.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
+    "Bases de Datos/Arquitectura de tres schemas.md",
+    "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
+    "Bases de Datos/Data Models/Modelo Entidad Relación.md",
+    "Bases de Datos/Lenguajes/SQL.md",
+    "Bases de Datos/Bases de Datos.md",
     "Bases de Datos/DBMS/DBMS.md",
     "Bases de Datos/Data Models/Data Model.md",
-    "Bases de Datos/Lenguajes/SQL.md",
     "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
-    "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Satélites.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Satélites de comunicación.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Teorema de Nyquist y Shannon.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md"
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Satélites.md"
   ]
 }
