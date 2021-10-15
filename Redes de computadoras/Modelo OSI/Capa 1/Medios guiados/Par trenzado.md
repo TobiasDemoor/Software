@@ -15,3 +15,4 @@ A los tipos de cables hasta la categoría 6 se les conoce como **UTP (Unshielded
 | Tipo de cable      | UTP                     | UTP/FTP                 | UTP/FTP     | UTP/FTP                 | SSTP                    |
 | Costo (Cat 5 = 1)  | 0.7                     | 1                       | 1.2         | 1.5                     | 2.2                     |
 
+> Todos los cables UTP tienen 4 pares.
