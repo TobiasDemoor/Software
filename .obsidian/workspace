@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Arquitectura de tres schemas.md",
+            "file": "Redes de computadoras/Modelo OSI/Capa 1/Medios no guiados/Medios de transmisión no guiados.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "satelites",
+                "query": "\"[[Bases de Datos/Bases de Datos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2babf8afbe60deb8",
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Arquitectura de tres schemas.md",
+                "file": "Redes de computadoras/Modelo OSI/Capa 1/Medios no guiados/Medios de transmisión no guiados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Arquitectura de tres schemas.md",
+                "file": "Redes de computadoras/Modelo OSI/Capa 1/Medios no guiados/Medios de transmisión no guiados.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +109,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
-    "Bases de Datos/Arquitectura de tres schemas.md",
-    "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+    "Redes de computadoras/Modelo OSI/Capa 1/Medios no guiados/Medios de transmisión no guiados.md",
+    "Redes de computadoras/Modelo OSI/Modelo OSI.md",
+    "Redes de computadoras/Modelo OSI/Capa 1/Capa física.md",
+    "Resumenes/Resumen Redes.md",
+    "Redes de computadoras/Redes de computadoras.md",
+    "Resumenes/Resumen BD.md",
     "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
-    "Bases de Datos/Data Models/Modelo Entidad Relación.md",
-    "Bases de Datos/Lenguajes/SQL.md",
-    "Bases de Datos/Bases de Datos.md",
-    "Bases de Datos/DBMS/DBMS.md",
     "Bases de Datos/Data Models/Data Model.md",
-    "Bases de Datos/Teoría de Normalización/Dependencia Funcional.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Satélites.md"
+    "Bases de Datos/Bases de Datos.md",
+    "Bases de Datos/Sistema de Base de Datos.md"
   ]
 }
