@@ -13,6 +13,17 @@
             "mode": "preview"
           }
         }
+      },
+      {
+        "id": "2e9e3aac4aa5b030",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -76,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Perturbaciones.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Perturbaciones.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -106,8 +117,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e3c79d55ab6986c6",
+  "active": "2e9e3aac4aa5b030",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Perturbaciones.md",
     "Bases de Datos/DBMS/DBMS.md",
     "Bases de Datos/Sistema de Base de Datos.md",
@@ -116,7 +128,6 @@
     "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
     "Bases de Datos/Data Models/Modelo Entidad Relación.md",
     "Bases de Datos/Lenguajes/SQL.md",
-    "Bases de Datos/Bases de Datos.md",
-    "Bases de Datos/Data Models/Data Model.md"
+    "Bases de Datos/Bases de Datos.md"
   ]
 }
