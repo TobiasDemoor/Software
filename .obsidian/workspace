@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Resumenes/Resumen Redes.md",
-            "mode": "preview"
+            "file": "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Ruido.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "qam ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resumenes/Resumen Redes.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Ruido.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resumenes/Resumen Redes.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Ruido.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "f9a38514308a36e7",
   "lastOpenFiles": [
-    "Resumenes/Resumen Redes.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Teorema de Nyquist y Shannon.md",
-    "Redes de Computadoras/Estándares/WiFi/WiFi.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Conceptos/Ancho de banda.md",
-    "Redes de Computadoras/Daily/20211015.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Ruido.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Perturbaciones.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Atenuación.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Transmisión pasa-banda.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Par trenzado.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Antenas.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Perturbaciones.md"
+    "Redes de Computadoras/Estándares/WiFi/802.11ac.md",
+    "Redes de Computadoras/Estándares/WiFi/802.11b.md",
+    "Redes de Computadoras/Estándares/Ethernet/Ethernet conmutada.md",
+    "Redes de Computadoras/Protocolos/STP.md",
+    "Redes de Computadoras/Hardware/Switch.md",
+    "Resumenes/Resumen Redes.md"
   ]
 }
