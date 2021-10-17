@@ -6,7 +6,7 @@ En vez de ello, el 802.11 trata de evitar colisiones con un protocolo llamado **
 
 ![[csma_ca_1.png]]
 
-Este modo de operación se llama **DCF (Distributed Coordination Function)**, ya que cada estación actúa en forma independiente, sin ningún tipo de control central. El estándar también incluye un modo opcional de operación llamado **PCF (Punctual Coordination Function)**, en donde el punto de acceso controla toda la actividad en su celda, justo igual que una estación base celular. Sin embargo, PCF no se utiliza en la práctica debido a que por lo general no hay forma de evitar que las estaciones en otra red cercana transmitan tráfico conflictivo.
+Este modo de operación se llama **DCF (Distributed Coordination Function)**, ya que cada estación actúa en forma independiente, sin ningún tipo de control central. El estándar también incluye un modo opcional de operación llamado **PCF (Punctual Coordination Function)**, en donde el punto de acceso controla toda la actividad en su celda, justo igual que una estación base celular. %%Sin embargo, PCF no se utiliza en la práctica debido a que por lo general no hay forma de evitar que las estaciones en otra red cercana transmitan tráfico conflictivo.%%
 
 El segundo problema es que los rangos de transmisión de las distintas estaciones pueden ser diferentes. Con un cable, el sistema se diseña de tal forma que todas las estaciones se puedan escuchar entre sí. Con las complejidades de la propagación de RF, esta situación no es válida para las estaciones inalámbricas. En consecuencia, pueden surgir situaciones como el [[Wireless LAN#Problema de terminal oculta|problema de la terminal oculta]].
 
