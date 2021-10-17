@@ -109,6 +109,7 @@
   "active": "f9a38514308a36e7",
   "lastOpenFiles": [
     "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+    "conflict-files-obsidian-git.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Subcapa LLC.md",
     "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
     "Redes de Computadoras/Estándares/WiFi/WiFi.md",
@@ -116,7 +117,6 @@
     "Redes de Computadoras/Hardware/Modem.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Fibra óptica.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Par trenzado.md",
-    "Redes de Computadoras/Estándares/WiFi/CSMA CA.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Ruido.md"
+    "Redes de Computadoras/Estándares/WiFi/CSMA CA.md"
   ]
 }
