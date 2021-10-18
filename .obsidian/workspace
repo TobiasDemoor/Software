@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f9a38514308a36e7",
+        "id": "e3c79d55ab6986c6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+            "file": "Redes de computadoras/Software de Redes.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"[[Bases de Datos/Bases de Datos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+                "file": "Redes de computadoras/Software de Redes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+                "file": "Redes de computadoras/Software de Redes.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -106,17 +106,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f9a38514308a36e7",
+  "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
-    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
-    "conflict-files-obsidian-git.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Subcapa LLC.md",
-    "Redes de Computadoras/Estándares/Ethernet/Ethernet clásica.md",
-    "Redes de Computadoras/Estándares/WiFi/WiFi.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/CSMA.md",
-    "Redes de Computadoras/Hardware/Modem.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Fibra óptica.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Par trenzado.md",
-    "Redes de Computadoras/Estándares/WiFi/CSMA CA.md"
+    "Redes de computadoras/Software de Redes.md",
+    "Redes de computadoras/Servicio orientado y no a la conexión.md",
+    "Redes de computadoras/P2P.md",
+    "Redes de computadoras/Conceptos/URI.md",
+    "Redes de computadoras/Conceptos/RFC.md",
+    "Redes de computadoras/Conceptos/Producto ancho de banda-retardo.md",
+    "Redes de computadoras/Conceptos/Latencia.md",
+    "Redes de computadoras/Conceptos/Internet.md",
+    "Redes de computadoras/Conceptos/Congestión.md",
+    "Redes de computadoras/Conceptos/Broadcast.md"
   ]
 }
