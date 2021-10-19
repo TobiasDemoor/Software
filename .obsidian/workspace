@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de computadoras/Software de Redes.md",
-            "mode": "preview"
+            "file": "Sistemas Distribuidos/Coordinación/Sistema de Nombres.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de computadoras/Software de Redes.md",
+                "file": "Sistemas Distribuidos/Coordinación/Sistema de Nombres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de computadoras/Software de Redes.md",
+                "file": "Sistemas Distribuidos/Coordinación/Sistema de Nombres.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
-    "Redes de computadoras/Software de Redes.md",
-    "Redes de computadoras/Servicio orientado y no a la conexión.md",
-    "Redes de computadoras/P2P.md",
-    "Redes de computadoras/Conceptos/URI.md",
-    "Redes de computadoras/Conceptos/RFC.md",
-    "Redes de computadoras/Conceptos/Producto ancho de banda-retardo.md",
-    "Redes de computadoras/Conceptos/Latencia.md",
-    "Redes de computadoras/Conceptos/Internet.md",
-    "Redes de computadoras/Conceptos/Congestión.md",
-    "Redes de computadoras/Conceptos/Broadcast.md"
+    "Sistemas Distribuidos/Coordinación/Sistema de Nombres.md",
+    "Sistemas Distribuidos/Daily/20211012.md",
+    "Sistemas Distribuidos/Coordinación/Sistema de Nombres Distribuido.md",
+    "Redes de Computadoras/Protocolos/ARP.md",
+    "Redes de Computadoras/Conceptos/Broadcast.md",
+    "Sistemas Distribuidos/Coordinación/Sincronización.md",
+    "Redes de Computadoras/DNS.md",
+    "Sistemas Distribuidos/Coordinación/Sistema de nombres.md",
+    "Sistemas Distribuidos/Coordinación/Naming.md",
+    "Sistemas Distribuidos/Coordinación/Sistemas de nombres.md"
   ]
 }
