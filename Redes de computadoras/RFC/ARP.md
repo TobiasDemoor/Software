@@ -1,0 +1,1 @@
+**ARP** se encuentra documentado en el **[[RFC]] 826**. Es un [[protocolo]] que se encuentra en la [[Capa de enlace de datos|capa de enlace de datos]]. Es el encargado de mapear direcciones IP a direcciones MAC, se basa en difundir un mensaje consultando donde se encuentra dicha dirección IP. Es un tipo de [[Sistema de Nombres|sistema de nombres]].

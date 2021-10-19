@@ -1,1 +1,0 @@
-Es el [[Protocolo|protocolo]] que utilizan los navegadores web para intercambiar información con los sitios web. Se encuentra en la [[Capa de aplicación|capa de aplicación]].

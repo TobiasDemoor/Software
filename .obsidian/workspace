@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Coordinación/Sistema de Nombres.md",
+            "file": "Redes de Computadoras/Protocolos/PPP.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"[[Bases de Datos/Bases de Datos",
+                "query": "802.2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Coordinación/Sistema de Nombres.md",
+                "file": "Redes de Computadoras/Protocolos/PPP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Coordinación/Sistema de Nombres.md",
+                "file": "Redes de Computadoras/Protocolos/PPP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Coordinación/Sistema de Nombres.md",
-    "Sistemas Distribuidos/Daily/20211012.md",
-    "Sistemas Distribuidos/Coordinación/Sistema de Nombres Distribuido.md",
+    "Redes de Computadoras/Protocolos/PPP.md",
+    "Redes de Computadoras/Protocolos/UDP.md",
+    "Redes de Computadoras/Protocolos/TCP.md",
+    "Redes de Computadoras/Protocolos/ICMP.md",
+    "Redes de Computadoras/Protocolos/NTP.md",
+    "Redes de Computadoras/Protocolos/HTTP.md",
+    "Redes de Computadoras/RFC/ARP.md",
+    "Redes de Computadoras/Conceptos/RFC.md",
     "Redes de Computadoras/Protocolos/ARP.md",
-    "Redes de Computadoras/Conceptos/Broadcast.md",
-    "Sistemas Distribuidos/Coordinación/Sincronización.md",
-    "Redes de Computadoras/DNS.md",
-    "Sistemas Distribuidos/Coordinación/Sistema de nombres.md",
-    "Sistemas Distribuidos/Coordinación/Naming.md",
-    "Sistemas Distribuidos/Coordinación/Sistemas de nombres.md"
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/LLC.md"
   ]
 }

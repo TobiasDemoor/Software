@@ -1,0 +1,1 @@
+El **UDP** o **User Datagram Protocol** es un [[Protocolo|protocolo]] de la [[Capa de transporte|capa de transporte]] que es parte del [[Modelo TCP IP|modelo TCP/IP]]. Es un [[Servicio orientado y no a la conexión|protocolo no orientado a la conexión]]. Este protocolo se encuentra documentado en el **[[RFC]] 768**.

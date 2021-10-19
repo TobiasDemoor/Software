@@ -1,0 +1,1 @@
+Es el [[Protocolo|protocolo]] que utilizan los navegadores web para intercambiar información con los sitios web. Se encuentra en la [[Capa de aplicación|capa de aplicación]]. Está documentado en varios [[RFC]], entre ellos RFC 1945 (HTTP/1.0), RFC 2616 (HTTP/1.1), RFC 2774 (HTTP/1.2), RFC 7540 (HTTP/2).

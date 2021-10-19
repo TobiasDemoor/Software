@@ -1,4 +1,4 @@
-**Network Time Protocol** es un [[Protocolo|protocolo]] de la [[Capa de aplicación|capa de aplicación]] del modelo OSI y pertenece a la pila de protocolos del [[Modelo TCP IP|modelo TCP/IP]].
+**Network Time Protocol** es un [[protocolo]] de la [[Capa de aplicación|capa de aplicación]] del modelo OSI y pertenece a la pila de protocolos del [[Modelo TCP IP|modelo TCP/IP]]. Este protocolo se encuentra documentado en dos [[RFC]], 1305 y 5905 (v4).
 
 El funcionamiento es bastante simple. Primero El cliente envia una solicitud con timestamp T₁ al servidor que al recibir coloca el timestamp T₂ (según su reloj local) y antes de enviar coloca el timestamp T₃, luego al regresar al cliente este almacena el timestamp T₄ de llegada. Ahora suponiendo que el delay de propagación de A a B es aproximadamente igual al delay de B a A se puede calcular el offset necesario $\theta$ mediante la siguiente formula:
 

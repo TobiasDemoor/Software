@@ -1,4 +1,4 @@
-El [[Protocolo|protocolo]] estándar **PPP (Point to Point Protocol**) se utiliza para enviar paquetes a través de los enlaces utilizados para formar las WAN  ([[Capa de enlace de datos]]).
+El [[Protocolo|protocolo]] estándar **PPP (Point to Point Protocol**) se utiliza para enviar paquetes a través de los enlaces utilizados para formar las WAN  ([[Capa de enlace de datos]]). Es un protocolo de comunicación de [[Subcapa LLC|subcapa LLC]] que trabaja entre dos [[Router|routers]].
 
 PPP provee tres características principales:
 1. Un método de entramado que delinea sin ambigüedades el final de una trama y el inicio de la siguiente. El formato de trama también maneja la detección de errores.
