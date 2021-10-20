@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Daily/20211020.md",
+            "file": "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres de DNS.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Daily/20211020.md",
+                "file": "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres de DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Daily/20211020.md",
+                "file": "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres de DNS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres de DNS.md",
+    "Sistemas Distribuidos/Daily/20211019.md",
+    "Redes de Computadoras/DNS.md",
     "Bases de Datos/Daily/20211020.md",
     "Organización de Datos/índice.md",
     "Organización de Datos/Registro.md",
     "Organización de Datos/B Tree.md",
     "Sistemas Operativos/Conceptos/Dato, información y conocimiento.md",
     "Organización de Datos/B+ Tree.md",
-    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
-    "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
-    "Sistemas Distribuidos/Coordinación/Naming/Resolución de nombres.md",
-    "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres.md"
+    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md"
   ]
 }
