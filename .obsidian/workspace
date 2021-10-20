@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Daily/20211019.md",
+            "file": "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "802.2",
+                "query": "dht",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Daily/20211019.md",
+                "file": "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Daily/20211019.md",
+                "file": "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Resolución de nombres.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres.md",
+    "Sistemas Distribuidos/Daily/20211012.md",
     "Sistemas Distribuidos/Daily/20211019.md",
+    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/DHT.md",
     "Redes de Computadoras/DNS.md",
-    "Sistemas Distribuidos/Daily/Untitled.md",
-    "Redes de Computadoras/Protocolos/PPP.md",
-    "Redes de Computadoras/Protocolos/UDP.md",
-    "Redes de Computadoras/Protocolos/TCP.md",
-    "Redes de Computadoras/Protocolos/ICMP.md",
-    "Redes de Computadoras/Protocolos/NTP.md",
-    "Redes de Computadoras/Protocolos/HTTP.md",
-    "Redes de Computadoras/RFC/ARP.md"
+    "Sistemas Distribuidos/Daily/Untitled.md"
   ]
 }

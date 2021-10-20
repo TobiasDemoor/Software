@@ -1,0 +1,1 @@
+El [[Sistemas P2P|sistema punto a punto]] como un todo es responsable ahora de almacenar pares clave-valor. Con este fin, cada nodo es asignado un identificador del mismo conjunto de valores posíbles, y cada nodo es responsable de almacenar los datos asociados con un subconjunto específico de claves. En escencia, el sistema implementa una **distributed hash table (DHT)**.

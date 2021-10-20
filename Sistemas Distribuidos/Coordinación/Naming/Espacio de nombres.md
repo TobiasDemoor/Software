@@ -1,0 +1,7 @@
+Los nombres son comunmente organizados en lo que se suele llamar **espacio de nombres** o **name space**. Los epacios de nombres para nombres estructurados pueden ser representados como grafos dirigidos etiquetados con dos tipos de nodos. Un **nodo hoja** representa una entidad nombrada y tiene la propiedad de no tener arístas salientes. Un nodo hoja generalmente almacena información acerca de la entidad que representa de forma que un cliente pueda accederla.
+
+En contraste a un nodo hoja, un **nodo directorio** tiene un número de aristas salientes, cada una etiquetada con un nombre. Cada nodo en un grafo de nombres es considerado como otra entidad en el sistema distribuido, y, en particualr, tiene un identificador asociado. Un nodo directorio almacena una tabla en la cual una arísta saliente es representada como un par *(identificador de nodo, etiqueta de arista)*. Esta tabla es llamada **tabla directorio**.
+
+![[naming_name_spaces_1.png]]
+
+El o los nodos que no tienen aristas entrantes en un grafo de nombres se llaman **nodo raíz**. Aunque es posible que halla múltiples suele haber solo un por simpleza. Cada camino en el grafo de nombres puede ser referido por la secuencia de etiquetas correspondientes a las aristas en el camino, tal como N:\[label1, label2, ..., labeln], donde N es el primer nodo en el camino. Dicha secuencia es llamada **ruta** o **path name**. Si el primer nodo en una ruta es el nodo raíz se le llama **ruta absoluta** o **absolute path name**. Sino, se lo llama **ruta relativa** o **relative path name**.

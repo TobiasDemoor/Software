@@ -4,5 +4,7 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "clean-embeds-all"
-  ]
+  ],
+  "baseFontSizeAction": false,
+  "cssTheme": ""
 }

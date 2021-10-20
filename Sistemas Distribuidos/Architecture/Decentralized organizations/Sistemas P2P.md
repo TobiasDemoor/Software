@@ -5,8 +5,8 @@ Dado este comportamiento simétrico, las arquitecturas punto a punto evolucionan
 #### Sistemas peer-to-peer estructurados
 Como sugiere el nombre, los nodos están organizados en una estructura que adhiere a una topología específica y determinada ([[Overlay Network|structured overlay network]]). Esta topología es usada para buscar información eficientemente. Algo característico de los sistemas punto a punto estructurados es que generalmente se encuentran basados en el uso de algo llamado indice libre de semántica. Lo que significa que cada item de datos que debe ser mantenido por el sistema está asociado univocamente a una clave y que esta clave puede ser utilizada subsecuentemente como índice.
 
-##### Distributed Hash Table (DHT)
-El sistema punto a punto como un todo es responsable ahora de almacenar pares clave-valor. Con este fin, cada nodo es asignado un identificador del mismo conjunto de valores posíbles, y cada nodo es responsable de almacenar los datos asociados con un subconjunto específico de claves. En escencia, el sistema implementa una **distributed hash table (DHT)**.
+##### Distributed Hash Table
+![[DHT]]
 
 #### Sistemas peer-to-peer no estructurados
 En contraste a los sistemas estructurados, en los sistemas no estructurados cada nodo mantiene una lista ad hoc de vecinos ([[Overlay Network|unstructured overlay network]]). La estructura resultante se conoce como un **grafo aleatorio** (un grafo donde una arista entre dos nodos i, j existe con una cierta probabilidad P(i,j)).
