@@ -1,0 +1,1 @@
+El **motor de la base de datos** acepta peticiones lógicas de los otros subsistemas del [[DBMS]], las convierte en su equivalente físico y accede a la base de datos y diccionario de datos en el dispositivo de almacenamiento.

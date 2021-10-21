@@ -1,0 +1,1 @@
+La meta-data de una base de datos es almacenada por el [[DBMS]] en el **catálogo**.
