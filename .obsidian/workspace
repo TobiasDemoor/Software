@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
+            "file": "Bases de Datos/Daily/20211021.md",
             "mode": "source"
           }
         }
@@ -60,7 +60,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2babf8afbe60deb8",
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
+                "file": "Bases de Datos/Daily/20211021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
+                "file": "Bases de Datos/Daily/20211021.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +109,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
+    "Bases de Datos/Daily/20211021.md",
+    "Bases de Datos/Daily/20211020.md",
+    "Redes de computadoras/Hardware/Router.md",
+    "Bases de Datos/Daily/Untitled.md",
     "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
     "Bases de Datos/Procesamiento de Consultas/Procesamiento de Consultas.md",
     "Bases de Datos/DBMS/Componentes/Catálogo.md",
     "Bases de Datos/Procesamiento de Consultas/Optimizador de Consultas.md",
     "Bases de Datos/DBMS/DBMS.md",
-    "Bases de Datos/Bases de Datos.md",
-    "Bases de Datos/DBMS/Componentes/Motor de Base de datos.md",
-    "Bases de Datos/Daily/20211020.md",
-    "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres de DNS.md",
-    "Sistemas Distribuidos/Daily/20211019.md"
+    "Bases de Datos/Bases de Datos.md"
   ]
 }
