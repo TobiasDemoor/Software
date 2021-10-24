@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Daily/20211021.md",
+            "file": "Sistemas Distribuidos/Replicación/Replicación.md",
             "mode": "source"
           }
         }
@@ -60,8 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2babf8afbe60deb8",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Daily/20211021.md",
+                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Daily/20211021.md",
+                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -109,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
-    "Bases de Datos/Daily/20211021.md",
-    "Bases de Datos/Daily/20211020.md",
-    "Redes de computadoras/Hardware/Router.md",
-    "Bases de Datos/Daily/Untitled.md",
-    "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
-    "Bases de Datos/Procesamiento de Consultas/Procesamiento de Consultas.md",
-    "Bases de Datos/DBMS/Componentes/Catálogo.md",
-    "Bases de Datos/Procesamiento de Consultas/Optimizador de Consultas.md",
-    "Bases de Datos/DBMS/DBMS.md",
-    "Bases de Datos/Bases de Datos.md"
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Sistemas Distribuidos/Replicación/Conit.md",
+    "Sistemas Distribuidos/Daily/20211019.md",
+    "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
+    "Sistemas Distribuidos/Transparencia de distribución.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/Escalabilidad.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
+    "Sistemas Distribuidos/Coordinación/Naming/URI.md",
+    "Sistemas Distribuidos/Coordinación/Naming/URL.md"
   ]
 }

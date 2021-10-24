@@ -1,4 +1,4 @@
-Los **unique resource identifier** o **URI**  son una forma genérica y uniformde de identificar recursos.
+Los **unique resource identifier** o **URI**  son una forma genérica y uniforme de identificar recursos definida en el [[RFC]] 3986.
 Tienen el formato: scheme:\[//authority]path\[?query]\[#fragment].
 Donde authority = \[userinfo@]host\[:port]
 
