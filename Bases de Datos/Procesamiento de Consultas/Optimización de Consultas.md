@@ -45,3 +45,51 @@ Todo registro de una tabla tiene un identificador único llamado rid (record ide
 Usaremos dos tipos de archivos, **heap files** (archivos desordenados) y **sorted files** (archivos ordenados por algún conjunto de atributos).
 
 ![[optimización_archivos_costos.png]]
+
+#### Índices
+Los [[índice|índices]] permiten el acceso a la información de una forma no soportada (o no eficientemente soportada) por la organización básica de un archivo.
+
+Si los datos del archivo están ordenados físicamente en el mismo orden que uno de sus índices, decimos que ese índice es **clustered**. Caso contrario es **unclustered**. Los archivos de datos pueden tener a lo sumo un índice clustered.
+
+Los índices **densos** son los que tienen una entrada de índice por cada valor de clave de búsqueda del archivo de datos. En cambio, si no todos los valores clave están en el índice, se llaman **no densos**. Es usual si se tiene un índice clustered optimizar el uso del espacio de índices manteniendo en un índice no denso solo el primer valor de clave de cada bloque del archivo de datos.
+
+Se llaman índices **primarios** a aquellos que contienen todos los registros completos de un archivo. En caso de tener sólo los rids (solo la referencia al registro) se los llaman índices **secundarios**.
+
+### Evaluación de operaciones relacionales
+Las diferentes implementaciones aprovechan o explotan algunas propiedades de las tablas a efectos de lograr una mejor performance, por ejemplo: 
+* Existencia de índices relevantes en los archivos input
+* Ordenamiento interesante de los archivos de input
+* Tamaño de los archivos de input
+* Tamaño del buffer 
+
+Los diversos algoritmos se basan en algunos de los siguientes principios: 
+* **Iteración:** se examinan todas las tuplas de la relación, aunque a veces se examina el índice.
+* **Indexación:** si hay una condición de selección y/o join y a su vez existe un índice sobre los campos involucrados, se utilizará el índice.
+**Particionamiento:** particionando la relación según una clave de búsqueda podremos descomponer la operación en operaciones menos costosas.
+
+Los diferentes métodos para recuperar tuplas se llaman caminos de acceso: nosotros veremos el **file scan** (recorrido sobre el archivo de datos) y el **index scan** (recorrido sobre las entradas de un índice).
+
+Llamaremos **selectividad** de un predicado p (y lo denotamos sel(p) ) a la proporción de tuplas de una relación que satisfacen ese predicado, es decir, la división entre la cantidad de tuplas que satisfacen el predicado sobre la cantidad total de tuplas de las relación.
+
+#### Proyección
+La operación de proyección $\bf{\pi(l, R, Q)}$ procesa las tuplas de una relación de entrada R y produce un resultado Q con todas las tuplas pero sólo conteniendo los atributos indicados en la lista $l$.
+
+Como una simplificación se considera que la **cantidad de tuplas** resultado es la misma que la cantidad de tuplas de entrada.
+
+Para el enfoque de la materia, el **costo del output** (CO) de una operación, en caso de tener que computarse, siempre es la cantidad de bloques necesarios para escribir el resultado en disco. La cantidad de bloques necesarios se puede calcular a partir de la cantidad de tuplas, la longitud de bloque y la longitud de cada tupla.
+$$FB_Q = \lceil LB / L_Q \rceil$$
+$$CO = B_Q = \lceil T_Q / FB_Q \rceil$$
+
+#### Selección
+La operación de selección $\bf{\sigma (p, R, Q)}$ procesa las tuplas de una relación de entrada R y genera un resultado Q con todas las tuplas que cumplen la condición p.
+
+Para estimar la **cantidad de tuplas** que satisfacen una condición asumiremos (salvo indicación en contrario) que la distribución de valores es uniforme y que los valores de los atributos son probabilísticamente independientes.
+
+En el caso general, estimaremos la cantidad de tuplas a partir de la selectividad, con la siguiente fórmula $T_Q = sel(p) * T_R$.
+
+#### Junta
+La operación de Join $\bf{\Join (p, R, S, Q)}$ procesa las tuplas de dos relaciones de entrada R y S, y produce un resultado Q con todas las tuplas del producto cartesiano R X S que cumplen con la condición p.
+
+> En todo lo que sigue asumiremos que se trata siempre de equijoins, y la condición de junta está dada por R.ri = S.sj.
+
+La **cantidad de tuplas** del resultado estará determinada por el atributo de la junta que tenga mayor imagen en la relación a la que pertenece. Por lo tanto la cantidad de tuplas del resultado será $T_Q = (T_R * T_S) / max(I_{R,ri}, I_{S,sj})$.
