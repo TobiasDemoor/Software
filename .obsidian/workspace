@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Replicación/Replicación.md",
+            "file": "Sistemas Distribuidos/Replicación/Conit.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
+                "file": "Sistemas Distribuidos/Replicación/Conit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
+                "file": "Sistemas Distribuidos/Replicación/Conit.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,8 +108,8 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Replicación/Replicación.md",
     "Sistemas Distribuidos/Replicación/Conit.md",
+    "Sistemas Distribuidos/Replicación/Replicación.md",
     "Sistemas Distribuidos/Daily/20211019.md",
     "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
     "Sistemas Distribuidos/Transparencia de distribución.md",
