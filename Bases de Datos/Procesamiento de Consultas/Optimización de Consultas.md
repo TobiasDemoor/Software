@@ -93,3 +93,71 @@ La operación de Join $\bf{\Join (p, R, S, Q)}$ procesa las tuplas de dos relaci
 > En todo lo que sigue asumiremos que se trata siempre de equijoins, y la condición de junta está dada por R.ri = S.sj.
 
 La **cantidad de tuplas** del resultado estará determinada por el atributo de la junta que tenga mayor imagen en la relación a la que pertenece. Por lo tanto la cantidad de tuplas del resultado será $T_Q = (T_R * T_S) / max(I_{R,ri}, I_{S,sj})$.
+
+> Dada $R \Join S$ R es la relación externa y S la relación interna.
+
+##### Block Nested Loops Join (BNLJ)
+**Precondición**: se tienen B bloques de memoria disponibles para la operación (B-2 bloques se utilizan para el almacenamiento de la relación R, 1 bloque se utiliza para ir leyendo los bloques de S, y el bloque restante se destina para la salida de la operación, en memoria).
+
+**Descripción**:
+```
+Para cada segmento de B-2 bloques de R
+	Para cada bloque de S
+		Para toda tupla r del segmento de R y tupla s del bloque de S
+			Si ri == sj ( o más generalmente, vale p(s) )
+				Agregar <r,s> al resultado
+```
+
+**Costo de input**: $B_R + B_S * \lceil B_R / (B-2) \rceil$
+
+##### Index Nested Loops Join (INLJ)
+**Precondición**: 
+* el archivo tiene un índice I según una clave k 
+* el predicado p del join coincide con el índice I, o p es un predicado conjuntivo de la forma p1 and p2, donde p1 y p2 son dos predicados válidos, y p1 coincide con el índice.
+
+**Descripción**:
+```
+Para cada tupla r de R
+	Para cada tupla s de S / ri = sj (obtenida según el índice de S)
+		Si no hay condicion adicional (o hay y s la cumple )
+			Agregar <r,s> al resultado
+```
+
+**Costo de input**: $B_R + T_R$
+(“buscar para la tupla $t_R$ index entry/ies en índice de S” + “buscar valor/es apuntados por index entry/ies”)
+
+##### Sort Merge Join (SMJ)
+No tiene precondiciones.
+
+**Descripción**:
+```
+Si R no está ordenada en el atributo i 
+	ordenar R
+Si S no está ordenada en el atributo j 
+	ordenar S
+
+r = primera tupla de R // itera sobre R
+s = primera tupla de S // itera sobre S
+
+Mientras r ≠ null y s ≠ null // cuando se llega al final de un archivo se obtiene null
+	si ri < sj
+		// No hay partición en S para ri
+		r = siguiente tupla en R
+	si ri == sj
+		// Se encontró la partición en S para ri...
+		Mientras ri == sj //Se procesa partición actual de R
+			inicio_part_s = s // Marca el inicio de la partición en S para ri 
+			Mientras sj == ri // Se procesa partición actual de S
+				Agregar <r,s> al resultado
+				s = siguiente tupla en S
+			s = inicio_part_s
+			r = siguiente tupla en R
+		si ri > sj
+			// s no apuntaba al inicio de la partición en S de ri
+			// entonces sigo buscando
+			s = siguiente tupla en S
+```
+
+**Costo de input**: el costo involucra el costo de ordenar cada una de las relaciones participantes por el atributo de junta (el cósto genérico es $(\lceil log_{B-1}\lceil B_R/B \rceil \rceil +1)* 2B_R$, pero podría darse el caso que alguna esté ordenada). Y a esto se le adiciona el costo del merge ($B_R + B_S$). 
+
+### Planes de ejecución

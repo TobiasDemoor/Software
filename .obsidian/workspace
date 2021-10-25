@@ -109,6 +109,7 @@
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
     "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
+    "Bases de Datos/Daily/20211021.md",
     "Bases de Datos/Procesamiento de Consultas/Optimizador de Consultas.md",
     "Bases de Datos/Procesamiento de Consultas/Procesamiento de Consultas.md",
     "Organización de Datos/índice.md",
@@ -116,7 +117,6 @@
     "Sistemas Distribuidos/Replicación/Replicación.md",
     "Sistemas Distribuidos/Daily/20211019.md",
     "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
-    "Sistemas Distribuidos/Transparencia de distribución.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md"
+    "Sistemas Distribuidos/Transparencia de distribución.md"
   ]
 }
