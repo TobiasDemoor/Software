@@ -160,4 +160,3 @@ Mientras r ≠ null y s ≠ null // cuando se llega al final de un archivo se ob
 
 **Costo de input**: el costo involucra el costo de ordenar cada una de las relaciones participantes por el atributo de junta (el cósto genérico es $(\lceil log_{B-1}\lceil B_R/B \rceil \rceil +1)* 2B_R$, pero podría darse el caso que alguna esté ordenada). Y a esto se le adiciona el costo del merge ($B_R + B_S$). 
 
-### Planes de ejecución
