@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
+            "file": "Inteligencia Artificial/Daily/20211026.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
+                "file": "Inteligencia Artificial/Daily/20211026.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
+                "file": "Inteligencia Artificial/Daily/20211026.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
+    "Inteligencia Artificial/Daily/20211026.md",
     "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
+    "Bases de Datos/Procesamiento de Consultas/Procesamiento de Consultas.md",
     "Redes de Computadoras/Daily/20211025.md",
     "Bases de Datos/Daily/20211021.md",
     "Bases de Datos/Procesamiento de Consultas/Optimizador de Consultas.md",
-    "Bases de Datos/Procesamiento de Consultas/Procesamiento de Consultas.md",
     "Organización de Datos/índice.md",
     "Sistemas Distribuidos/Replicación/Conit.md",
     "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Sistemas Distribuidos/Daily/20211019.md",
-    "Sistemas Distribuidos/Replicación/Modelo de consistencia.md"
+    "Sistemas Distribuidos/Daily/20211019.md"
   ]
 }
