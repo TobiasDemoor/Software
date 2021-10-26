@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
+    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Conmutación de paquetes.md",
     "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
     "Sistemas Distribuidos/Daily/20211026.md",
     "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
     "Sistemas Distribuidos/Architecture/Architectural style.md",
     "Sistemas Distribuidos/Architecture/Decentralized organizations/Decentralized organizations.md",
     "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
-    "Inteligencia Artificial/Daily/20211026.md",
-    "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
-    "Bases de Datos/Procesamiento de Consultas/Procesamiento de Consultas.md",
-    "Redes de Computadoras/Daily/20211025.md"
+    "Inteligencia Artificial/Daily/20211026.md"
   ]
 }
