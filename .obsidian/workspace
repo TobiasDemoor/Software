@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inteligencia Artificial/Daily/20211026.md",
+            "file": "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20211026.md",
+                "file": "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20211026.md",
+                "file": "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
+    "Sistemas Distribuidos/Daily/20211026.md",
+    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/Architecture/Architectural style.md",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/Decentralized organizations.md",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
     "Inteligencia Artificial/Daily/20211026.md",
     "Bases de Datos/Procesamiento de Consultas/Optimización de Consultas.md",
     "Bases de Datos/Procesamiento de Consultas/Procesamiento de Consultas.md",
-    "Redes de Computadoras/Daily/20211025.md",
-    "Bases de Datos/Daily/20211021.md",
-    "Bases de Datos/Procesamiento de Consultas/Optimizador de Consultas.md",
-    "Organización de Datos/índice.md",
-    "Sistemas Distribuidos/Replicación/Conit.md",
-    "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Sistemas Distribuidos/Daily/20211019.md"
+    "Redes de Computadoras/Daily/20211025.md"
   ]
 }
