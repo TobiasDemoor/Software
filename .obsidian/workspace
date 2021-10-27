@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
+            "file": "Sistemas Distribuidos/Replicación/Replicación.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
+                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
+                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "e3c79d55ab6986c6",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Sistemas Distribuidos/Coordinación/Exclusión mutua distribuida.md",
+    "Sistemas Operativos/Concurrencia/Exclusión Mutua.md",
+    "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/IoT.md",
+    "Sistemas Distribuidos/Daily/20211026.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Conmutación de paquetes.md",
-    "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
-    "Sistemas Distribuidos/Daily/20211026.md",
-    "Sistemas Distribuidos/Architecture/Arquitecturas de Sistemas Distribuidos.md",
-    "Sistemas Distribuidos/Architecture/Architectural style.md",
-    "Sistemas Distribuidos/Architecture/Decentralized organizations/Decentralized organizations.md",
-    "Sistemas Distribuidos/Architecture/Decentralized organizations/Sistemas P2P.md",
-    "Inteligencia Artificial/Daily/20211026.md"
+    "Redes de Computadoras/Modelo OSI/Capa 3/Conmutación de paquetes.md"
   ]
 }

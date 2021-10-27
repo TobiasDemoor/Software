@@ -1,4 +1,4 @@
-Los algoritmos de exculsión mutua [[Sistemas Distribuidos|distribuidos]] pueden clasificarse en dos categorías distintas. Con las **token-based solutions** la [[Mutual exclusion|exclusión mutua]] se logra pasando un token entre [[Proceso|procesos]]. Solo hay un token disponible y quien lo tenga tiene permitido el acceso al recurso compartido. Cuando finaliza, el token es pasado al siguiente proceso. La principal desventaja de estas soluciones es como actuar cuando se pierde un token (por ejemplo, si el proceso poseedor crashea).
+Los algoritmos de exculsión mutua [[Sistemas Distribuidos|distribuidos]] pueden clasificarse en dos categorías distintas. Con las **token-based solutions** la [[exclusión mutua]] se logra pasando un token entre [[Proceso|procesos]]. Solo hay un token disponible y quien lo tenga tiene permitido el acceso al recurso compartido. Cuando finaliza, el token es pasado al siguiente proceso. La principal desventaja de estas soluciones es como actuar cuando se pierde un token (por ejemplo, si el proceso poseedor crashea).
 
 Una alternativa es un **permission-based approach**. En este caso, un proceso que requiere acceso a un recurso primero solicita permiso a otros procesos. Hay muchas maneras de llevara cabo esta alternativa, algunas son las siguientes.
 
@@ -8,10 +8,10 @@ Una forma de lograr la exclusión mutua en sistemas distribuidos es simular lo q
 El diseño centralizado tiene algunas desventajas. El coordinador es un punto único de falla con todo lo que esto implica. En un sistema grande el tener un único coordinador puede tornarse en un cuello de botella. Para seleccionar al coordinador existen [[algoritmos de elección]].
 
 #### Solución basada en token
-En esta solución el coordinador tiene un [[Token|token]] para cada recurso, cuando un proceso solicita hacer uso del recurso se le entrega el token y cuando lo libera debe retornar el token al coordinador. Así se asegura la exclusión mutua en el uso del recurso.
+En esta solución el coordinador tiene un [[token]] para cada recurso, cuando un proceso solicita hacer uso del recurso se le entrega el token y cuando lo libera debe retornar el token al coordinador. Así se asegura la exclusión mutua en el uso del recurso.
 
 ### Algorítmo distribuido
-Para esta solución se requiere un ordenamiento total de los eventos del sistema (utiliza los [[Relojes  Lógicos#Relojes lógicos de Lamport|relojes lógicos de Lamport]]). El algorítmo es el siguiente. Cuando un proceso quiere acceder a un recurso compartido, construye un mensaje conteniendo el nombre del recurso, su pid y el tiempo (lógico) actual. Envía este mensaje a todos los otros procesos (conceptualmente incluyendose a si mismo). El envío de mensajes se supone fiable (no se pierde ningún mensaje).
+Para esta solución se requiere un ordenamiento total de los eventos del sistema (utiliza los [[Relojes Lógicos#Relojes lógicos de Lamport|relojes lógicos de Lamport]]). El algorítmo es el siguiente. Cuando un proceso quiere acceder a un recurso compartido, construye un mensaje conteniendo el nombre del recurso, su pid y el tiempo (lógico) actual. Envía este mensaje a todos los otros procesos (conceptualmente incluyendose a si mismo). El envío de mensajes se supone fiable (no se pierde ningún mensaje).
 
 Cuando un proceso recibe un mensaje de solicitud de otro proceso, la acción que toma depende de su estado respecto al recurso. Hay tres casos distinguibles:
 * Si el receptor no está accediendo al recurso y no quiere acceder al recurso, envía un OK al solicitante.
