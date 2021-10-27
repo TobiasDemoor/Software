@@ -1,0 +1,6 @@
+Un **microcontrolador** o **MCU** (Microcontroller Unit) es una computadora pequeña. El software que se ejecuta en dispositivos basados en MCU tiene como objetivo apoyar tareas específicas. Las características clave de la pila de software que se ejecuta en un dispositivo puede incluir:
+
+* **Sistema operativo IoT:** muchos dispositivos funcionan con 'bare metal ', pero algunos tendrán un SO embedido o real time. Son sistemas que son particularmente adecuados para pequeños dispositivos, y que pueden proporcionar capacidades específicas (por ejemplo de IoT).
+* **Abstracción de hardware:** es una capa de software que permite acceso a las capacidades de hardware el MCU, como memoria flash, GPIOs, interfaces serie, etc.
+* **Soporte para comunicaciones:** drivers y protocolos que permiten conectar al dispositivo: [[Bluetooth]], Z-Wave, Thread, Can Bus, [[MQTT]], CoAP, Lora.
+* **Administración remota:** habilidad para controlar el disposivitvo remotamente para actualizar el firmware o monitorear el nivel de bateria por ejemplo.

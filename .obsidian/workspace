@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e3c79d55ab6986c6",
+        "id": "fd2a741c9d305ede",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Replicación/Replicación.md",
+            "file": "Sistemas Distribuidos/MQTT.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
+                "file": "Sistemas Distribuidos/MQTT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
+                "file": "Sistemas Distribuidos/MQTT.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,20 +103,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "e3c79d55ab6986c6",
+  "active": "fd2a741c9d305ede",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Sistemas Distribuidos/Coordinación/Exclusión mutua distribuida.md",
-    "Sistemas Operativos/Concurrencia/Exclusión Mutua.md",
-    "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/MQTT.md",
     "Sistemas Distribuidos/IoT.md",
     "Sistemas Distribuidos/Daily/20211026.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Conmutación de paquetes.md"
+    "Sistemas Distribuidos/MCU.md",
+    "Redes de Computadoras/IEEE 802/Bluetooth.md",
+    "attachments/IoT_architectures.png",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Sistemas Distribuidos/Coordinación/Exclusión mutua distribuida.md",
+    "Sistemas Operativos/Concurrencia/Exclusión Mutua.md"
   ]
 }

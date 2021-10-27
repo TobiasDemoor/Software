@@ -1,18 +1,17 @@
-Lo que los hace únicos a los **sistemas penetrantes** o **pervasive systems** en comparación a los otros tipos de [[sistemas distribuidos]] es que *la separación entre usuarios y componentes del sistema está mucho menos definida*. Usualmente no hay una sola interfaz dedicada, sino que un pervasive system está equipado con muchos sensores que registran varios aspectos del comportamiento del usuario. A su vez puede tener un conjunto de actuadores para proveer información y feedback, usualmente hasta intencionalmente buscando modificar el comportamiento.
+La solución típica de **IoT** se caracteriza por muchos dispositivos (es decir, cosas) que puede usar alguna forma de gateway para comunicarse a través de una red a un servidor de backend empresarial que ejecuta un a plataforma IoT que ayuda a integrar la información de IoT con la existente en la empresa. Las funciones de los dispositivos, las pasarelas y la plataforma en la nube están bien definidos, y cada uno de ellos proporciona características y funcionalidad requerida por cualquier solución IoT robusta
 
-#### Sistemas ubicuos
-En este tipo de sistema se avanza un poco más, el sistema es pervasive y continuamente presente. Osea que el usuario va a estar continuamente interactuando con el sistema, usualmente sin estar al tento de esto. Hay 5 requerimientos principales para que un sistema sea ubicuo:
+Una arquitectura IoT está compuesta por 4 capas principales. Los sensores y actuadores (las cosas), en el caso de los sensores estos pueden medir una magnitud del ambiente en donde se encuentran y los actuadores llevan a cabo alguna acción (por ej. cerrar una válvula). Luego se encuentran los gateways los cuales se encargan de recolectar los datos crudos de los sensores y procesarlos para convertirlos en algo usable. Luego los servicios de red permiten conectar estos gateways entre sí. Y finalmente se agrega toda la información en los servidores centrales.
 
-1. **Distribution** los dispositivos están conectados, distribuidos, y accesibles de una manera transparente.
-2. **Interaction** la interacción entre los usuarios y dispositivos es altamente unobtrusive ("discreta").
-3. **Context awareness** el sistema está al tanto del contexto del usuario para poder optimizar su interacción.
-4. **Autonomy** los dispositivos operan autonomamente sin intervención humana, y por lo tanto son altamente autoadministrados.
-5. **Intelligence** el sistema como un todo debe manejar un gran rango de acciones e interacciones dinámicas.
+![[IoT_architectures.png]]
 
-#### Mobile computing systems
-En un sistema distribuido móvil se asume que la ubicación de los dispositivos es cambiante. Una ubicación cambiante trae sus inconvenientes, por ejemplo si la ubicación de un dispositivo cambia regularmente también puede ser el caso para los servicios localmente disponibles. Como consecuencia de esto podríamos tener que prestar especial atención a descubrir dinámicamente servicios, y también permitir a los servicios anunciar su presencia.
+Las "Cosas" en el IoT son el punto de partida para una solución de IoT. Típicamente son los creadores de los datos, e interactúan con el mundo físico Las “cosas” a menudo son muy limitadas en términos de tamaño, fuente de alimentación, procesamiento y red; por lo tanto, a menudo se programan usando microcontroladores ([[MCU]]) que tienen capacidades muy limitadas.
 
-Las ubicaciones cambiantes tienen un profundo efecto en la comunicación. Consideremos un MANET (mobile ad hoc network). supongamos que dos dispositivos en un MANET se han descubierto (en el sentido que conocen su dirección), ¿cómo ruteamos mensajes entre estos dos? Las rutas estáticas generalmente no son sostenibles ya que los nodos en el camino de routing pueden moverse fuera del rango del vecino invalidando el camino. Para MANETs grandes, usar caminos establecidos a priori no es una opción viable tampoco. Estamos lideando con lo que se llama redes tolerantes a disrupción o **disruption-tolerant networs**, que son redes en las cuales la conectividad entre dos nodos no puede asegurarse.
+El **gateway IoT** actúa como el punto de agregación para un grupo de sensores y actuadores para coordinar la conectividad de estos dispositivos entre sí y a una red externa. Una puerta de enlace IoT puede ser una pieza física de hardware o funcionalidad incorporada en una "cosa" más grande que está conectada a la red. Por ejemplo, una máquina industrial podría actuar como una puerta de enlace, y también podría ser un automóvil conectado o un electrodoméstico. Una puerta de enlace IoT a menudo ofrecerá el procesamiento de los datos "en el borde" y capacidades de almacenamiento para hacer frente a la [[latencia]] de la red y fiabilidad Para la conectividad entre dispositivos. Un gateway IoT debería tratar con los problemas de interoperabilidad entre dispositivos incompatibles.
 
-#### Sensor networks
-Una sensor network generalmente consiste de decenas hasta centenas o miles de nodos relativamente pequeños, cada uno equipado con uno o más dispositivos de medición. A su vez los nodos también pueden actuar como actuators.
+Para dispositivos de Internet de las Cosas es necesaria la conexión a [[Internet]]. La conexión a Internet permite que los dispositivos trabajen entre ellos y con servicios backend, para esto usualmente utilizan [[MQTT]]. 
+
+Se usa MQTT por ser un protocolo de red liviano y flexible que logra el equilibrio adecuado para los desarrolladores de IoT:
+* Al ser liviano le permite implementarse en hardware de dispositivos altamente limitados y en redes con alta latencia/bajo ancho de banda.
+* Su flexibilidad hace que pueda soportar varios escenarios de aplicaciones para dispositivos y servicios de IoT
+
+No se utiliza HTTP ya que es un protocolo sincrónico. El cliente espera a que el servidor responda. Un protocolo de mensajería asíncrona es mucho más adecuado para las aplicaciones de IoT. Los sensores pueden enviar lecturas y dejar que la red descubra la ruta y el momento óptimo para la entrega a dispositivos y servicios de destino.
