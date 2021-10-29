@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/MQTT.md",
+            "file": "Sistemas Distribuidos/Replicación/Replicación.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/MQTT.md",
+                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/MQTT.md",
+                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -103,19 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "fd2a741c9d305ede",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Sistemas Distribuidos/Coordinación/Exclusión mutua distribuida.md",
+    "Sistemas Distribuidos/Transparencia de distribución.md",
+    "Bases de Datos/Daily/20211021.md",
     "Sistemas Distribuidos/MQTT.md",
     "Sistemas Distribuidos/IoT.md",
     "Sistemas Distribuidos/Daily/20211026.md",
     "Sistemas Distribuidos/MCU.md",
     "Redes de Computadoras/IEEE 802/Bluetooth.md",
-    "attachments/IoT_architectures.png",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Sistemas Distribuidos/Coordinación/Exclusión mutua distribuida.md",
-    "Sistemas Operativos/Concurrencia/Exclusión Mutua.md"
+    "attachments/IoT_architectures.png"
   ]
 }

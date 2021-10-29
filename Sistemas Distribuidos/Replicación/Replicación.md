@@ -75,5 +75,95 @@ Lo que ocurre dentro de un programa es que se opera sobre los datos por una seri
 La **consistencia eventual** es un modelo de consistencia donde se tienen pocos procesos que escriben (o usualmente uno solo), por lo que se evitan los conflictos write-write. Entonces lo único que se debe gestionar en este modelo son los conflictos read-write y que las copias se actualicen. La forma de tratar con esto es tratar las operaciones de escritura como lazy, por lo tanto tomarán lugar cuando puedan, así el almacen llegando a un estado consistente eventualmente.
 
 ## Modelos de consistencia centrados en el cliente
-Los **modelos de consistencia centrados en el cliente** apuntan a proveer una vista consistente a nivel sistema del almacén de datos. Una suposición importante es que los procesos concurrentes pueden estar simultáneamente actualizando el mismo almacén de datos, y que es necesario proveer consistencia frente a esas situaciones.
+Los **modelos de consistencia centrados en el cliente** apuntan a proveer una vista consistente a nivel sistema del almacén de datos. Para el siguiente análisis se consideran almacenes de datos que se caracterízan por el ausencia de actualizaciones simultáneas, o que cuando estas ocurren, se supone que pueden ser resueltas fácilmente. La mayor parte de las operaciones son de lectura de datos. Estos almacenes ofrecen un modelo de consistencia débil, tal como la consistencia eventual. Introduciendo modelos de consistencia centrados en el cliente resulta que muchas inconsistencias se pueden ocultar de una manera relativamente sencilla.
 
+![[modelos_de_consistencia_centrados_en_el_cliente.png]]
+
+Eventualmente los almacenes de datos consistentes generalmente funcionan bien dado que los clientes siempre acceden a la misma réplica. Sin embargo surgen inconveneintes cuando se accede a diferentes réplicas a lo largo del tiempo. Por ejemplo, si un cliente se conecta a una réplica en un momento, realiza operaciones de actualización y luego accede al sistema a través de otra réplica, si los cambios no se han propagado a dicha réplica el cliente notará un estado inconsistente.
+
+El problema anterior puede ser resuelto incorporando **consistencia centrada en el cliente**. En esencia esto provee la garantías *para un solo cliente* con respecto a la consistencia de los accesos al almacen de datos por este cliente. No se proveen garantías en lo que respecta al acceso por parte de clientes diferentes.
+
+### Lecturas monotónicas
+Se dice que un almacén de datos provee **consistencia de lecturas monotónicas** si se cumple la siguiente condición:
+
+> Si un proceso lee el valor de un elemento de datos x, cualquier operación de lectura sucesiva sobre x que haga ese proceso devolverá siempre el mismo valor o un valor más reciente.
+
+En otras palabras la consistencia de lecturas monotónicas garantiza quee una vez que un proceso ha visto un valor de x, nunca verá una versión anterior de x.
+
+Usando una notación similar a la de modelos de consistencia centrada en datos, la consistencia de lecturas monotónicas puede ser representada gráficamente. En vez de mostrar procesos sobre el eje vertical se muestran almacenes de datos locals. Una operación de lectura o escritura es indexada por el proceso que ejecutó la operación. $W_2(x_1;x_2)$ indica que el proceso $P_2$ es responsable de producir la versión $x_2$ que sigue de la $x_1$. Así mismo, $W_2(x_1|x_2)$ denota que el proceso $P_2$ produce la versión $x_2$ concurrentemente a la versión $x_1$ (por lo tanto potencialmente introduciendo un conflicto write-write).
+
+![[lecturas_monotonicas.png]]
+
+### Escrituras monotónicas
+En muchas situaciones es importante que las operaciones de escritura sean propagadas en el orden correcto a todas las copias del almacén. Esta propiedad es expresada en la **consistencia de escrituras monotónicas**. En un almacén consistente en escrituras monotónicas se cumple la siguiente condición:
+
+> Una operación de escritura hecha por un proceso sobre un elemento x se completa antes que cualquier otra operación sucesiva de escritura sobre x realizada por el mismo proceso.
+
+Más formalmente, si tenemos dos operaciónes de escritura sucesivas $W_k(x_i)$ y $W_k(x_j)$ por un mismo proceso $P_k$, entonces, sin importar donde se ejecuta $W_k(x_j)$, también tenemos $WS(x_i;x_j)$. Por lo tanto, completar una operación de escritura significa que esa copia en donde se ha realizado una operación sucesiva refleja el efecto de una operación de escritura previa por el mismo proceso, sin importar donde fue iniciada esta operación. En otras palabras, la operación de escritura en una copia de x es llevada a cabo solo si esa copia ha sido actualizada por medio de alguna operación de escritura previa por el mismo proceso, lo cual puede haber ocurrido en cualquier otra copia de x. Osea la nueva operación debe esperar que la anterior termine.
+
+![[escrituras_monotonicas.png]]
+
+### Lea sus escrituras
+Se dice que un almacén de datos provee **consistencia de lea sus escrituras**, si se cumple la siguiente condición:
+
+> El efecto de una operación de escritura hecha por un proceso sobre un elemento de datos x siempre será visto por una operación de lectura sucesiva sobre x hecha por el mismo proceso.
+
+En otras palabras, una operación de lectura siempre es completada antes de una lectura sucesiva por el mismo proceso, sin importar donde esa lectura toma lugar.
+
+La asusencia de consistencia lea sus escrituras se suele exprimentar cuando se actualiza un documento Web y luego se lo quiere acceder. El problema es que usualmente estos documentos suelen estar cacheados de manera que no ese tengan que pedir al servidor Web. Consecuentemente, cuando se actualiza la página WEb el usuario no verá los efectos.
+
+## Manejo de réplicas
+Un problema clave de cualquier sistema distribuido que soporta replicación es decidir dónde, cuándo y por quién deben ser colocadas estas réplicas y subsecuentemente qué mecanismos se usarán para mantenerlas consistentes. El problema de la ubicación puede ser dividido en dos subproblemas: el que consisten en ubicar **servidores de réplica** y el de ubicar el **contenido**.
+
+### Replicación y ubicación de contenido
+Cuando se trata de replicación y ubicación de contenido, hay tres tipos distinguibles de réplicas.
+
+![[replicacion_y_ubicacion_de_contenido.png]]
+
+#### Réplicas permanentes
+Las réplicas permanentes se pueden considerar el conjunto inicial de réplicas que constituyen el almacén de datos distribuido. En muchos casos el número de réplicas permanentes es reducido. Considerando el ejemplo de un sitio web, su distribución suele presentarse de dos maneras. El primer tipo es en el que el archivo que constituye el sitio es replicado sobre un número limitado de servidores en una ubicación única.
+
+Al segundo tipo se le llama **mirroring**. En este caso un sitio web es copiado a un número limitado de servidores llamados **mirror sites**, los cuales se encuentran distribuidos geográficamente a través de [[Internet]]. en muchos casos, los clientes simplemente eligen uno de los varios mirros sites de una lista ofrecida a ellos.
+
+#### Réplicas iniciadas por el servidor
+En contraste a las réplicas permanentes, las réplicas iniciadas por el servidor son copias de un almacén de datos que existe para mejorar la [[performance]], y  creadas por la iniciativa del dueño del almacén de datos.
+
+#### Réplicas iniciadas por el cliente
+Un tipo importante de réplica es la iniciada por un cliente. Estas se suelen conocer como **(client) caches**. En esencia un cache es almacenamiento local utilizado por un cliente para temporalmente persistir una copia de datos que ha solicitado. En principio su manejo es dejado completamente en manos del cliente. Los client caches son usados solamente para mejorar los tiempos de acceso.
+
+### Distribución de contenido
+El manejo de réplicas también trata con la propagación de contenido actualizado a los servidores de réplicas relevantes.
+
+#### Estado versus operaciones
+Un problema de diseño relevante concierne a qué es lo que se va a propagar. Básicamente se tienen tres posibilidades:
+* Propagar solamente una notificación de la actualización.
+* Transferir los datos de una copia a otra.
+* Propagar la operación de actualización a otras copias.
+
+Propagar una notificación es lo que hacen los **protocolos de invalidación**. En estos, se les informa a las otras copias que se ha llevado a cabo una actualización y que su información ya no es válida. En estos se puede notificar qué parte es invalidada. Su ventaja principal es su bajo consumo de ancho de banda. Estos modelos son convenientes cuando se tiene un bajo ratio lectura/escritura (solo se actualiza una réplica inválida cuando se requiere y se ahorran actualizaciones inútiles).
+
+La segunda alternativa es transferir los datos. Esto es útil cuando el ratio lectura/escritura es alto, en ese caso la posibilidad de que una actualización sea efectiva (osea es leida) antes de que llegue la siguiente es alta.
+
+La tercer alternativa es en vez de transmitir los datos transmitir las operaciones obre estos. Esta alternativa se suele llamar **replicación activa**, y asume que cada réplica es representada por un proceso capaz de "activamente" manter los datos asociados al día llevando a cabo operaciones. Su mayor beneficio es que las actualizaciones usualmente pueden ser propagadas con un costo de ancho de banda bajo, siempre y cuando que el tamaño de los parámetros asociados con la operación sean relativamente pequeños.
+
+#### Protocolos pull versus push
+Otro problema de diseño es si las actualizaciones son pulled o pushes. En un **modelo basado en push**, también referido como **protocolo basado en servidor**, las actualizaciones son propagadas a las otras réplicas sin que esas réplicas lo soliciten. Esto se suele usar con las réplicas iniciadas por el servidor.
+
+Por el contrario en los **modelos basados en pull** un cliente o servidor solicita a otro servidor que le envíe las actualizaciónes que tenga pendientes. Estos modelos también son llamados **protocolos basados en cliente**, y suelen ser usados por los client caches.
+
+| Cuestión                  | Basado en push                                             | Basado en pull                   |
+| ------------------------- | ---------------------------------------------------------- | -------------------------------- |
+| **Estado en el servidor** | Lista de réplicas, clientes y cache                        | Ninguno                          |
+| **Mensajes enviados**     | Actualiza (y posteriormente trae la actualización después) | Sondea y actualiza               |
+| **Tiempo de respuesta**   | Inmediato (o busca el tiempo de actualización)             | Busca el tiempo de actualización | 
+
+#### Web Cache
+Los cache forman un caso especial de replicación ya que, generalmente, son controlados por los clientes.
+
+El proceso de obtención a través de la web es lento y costoso: las respuestas de gran volumen requieren muchos recorridos entre el cliente y el servidor, de lo cual surgen demoras cuando están disponibles y pueden ser procesadas por el navegador, y también genera costos por consumo de datos para el visitante. Como consecuencia, la capacidad de almacenamiento en caché y reutilización de recursos obtenidos previamente es un aspecto crítico de la optimización para lograr un buen rendimiento. Buenas noticias, en todos los navegadores se incluye una implementación de un caché HTTP.
+
+![[web_cache.png]]
+
+Cuando el servidor muestra una respuesta, también emite un conjunto de encabezados HTTP que describen el tipo de contenido, la extensión, las directivas de almacenamiento en caché y el token de validación, entre otros aspectos. Por ejemplo, en el intercambio anterior, en el servidor se muestra una respuesta de 1024 bytes, se indica al cliente que la almacene en caché durante un plazo de hasta 120 segundos y se proporciona el token de validación (“x234dff”) que se puede usar después de que la respuesta caduca para verificar si se modificó el recurso.
+
+Supongamos que ya pasaron 120 segundos desde la obtención inicial y el navegador inició una nueva solicitud para el mismo recurso. Primero, el navegador revisa la caché local y encuentra la respuesta anterior. Desafortunadamente, no puede usarla porque la respuesta caducó, por lo que usa el Etag para volver a consultar.
