@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Replicación/Replicación.md",
+            "file": "Redes de Computadoras/Daily/20211101.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
+                "file": "Redes de Computadoras/Daily/20211101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Replicación/Replicación.md",
+                "file": "Redes de Computadoras/Daily/20211101.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,6 +108,8 @@
   },
   "active": "fd2a741c9d305ede",
   "lastOpenFiles": [
+    "Redes de Computadoras/Daily/20211101.md",
+    "Redes de Computadoras/Daily/Untitled.md",
     "Sistemas Distribuidos/Replicación/Replicación.md",
     "Sistemas Distribuidos/Coordinación/Exclusión mutua distribuida.md",
     "Sistemas Distribuidos/Transparencia de distribución.md",
@@ -115,8 +117,6 @@
     "Sistemas Distribuidos/MQTT.md",
     "Sistemas Distribuidos/IoT.md",
     "Sistemas Distribuidos/Daily/20211026.md",
-    "Sistemas Distribuidos/MCU.md",
-    "Redes de Computadoras/IEEE 802/Bluetooth.md",
-    "attachments/IoT_architectures.png"
+    "Sistemas Distribuidos/MCU.md"
   ]
 }
