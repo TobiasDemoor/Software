@@ -1,0 +1,7 @@
+Para evitar conflictos, los números de red se administran a través de una corporación sin fines de lucro llamada **ICANN (Internet Corporation for Assigned Names and Numbers)**. Esta corporación ha delegado partes de este espacio de direcciones a varias autoridades regionales, las cuales reparten las direcciones IP a los ISP y otras compañías. Éste es el proceso por el cual se asigna un bloque de direcciones IP a una compañía.
+
+Sin embargo, este proceso es sólo el principio de la historia, puesto que la asignación de direcciones IP es continua a medida que crecen las compañías. Ya dijimos antes que el enrutamiento por prefijo requiere que todos los hosts en una red tengan el mismo número de red. Esta propiedad puede provocar problemas a medida que las redes aumentan su tamaño. Si se tiene un número ajustado de direcciones puede que no pueda asignar nuevas direcciones cuando se requiera, pero si se tienen direcciones extra no utilizadas es un desperdicio. Se requiere una organización diferente.
+
+La solución es dividir el bloque de direcciones en varias partes para uso interno en forma de múltiples redes, pero actuar como una sola red para el mundo exterior. A estas partes de la red se les llama **subredes**. Hay que ser conscientes de que este nuevo uso del término entra en conflicto con el uso anterior de “[[subred]]”, cuyo significado es el conjunto de todos los enrutadores y líneas de comunicación en una red, por eso se podría usar subnet.
+
+![[direcciones_ip_subnetting.png]]
