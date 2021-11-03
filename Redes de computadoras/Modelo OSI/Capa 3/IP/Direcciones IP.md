@@ -44,4 +44,3 @@ Con la agregación (superredes), las direcciones IP están contenidas en prefijo
 ![[direcciones_ip_cidr.png]]
 
 En concepto, el CIDR funciona de la siguiente manera. Cuando llega un paquete, se explora la tabla de enrutamiento para determinar si el destino está dentro del prefijo. Es posible que coincidan varias entradas con distintas longitudes de prefijos, en cuyo caso se utiliza la entrada con el prefijo más largo.
-

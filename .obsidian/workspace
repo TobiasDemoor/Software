@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 3/IP/Direcciones IP.md",
+            "file": "Bases de Datos/Daily/20211103.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/IP/Direcciones IP.md",
+                "file": "Bases de Datos/Daily/20211103.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/IP/Direcciones IP.md",
+                "file": "Bases de Datos/Daily/20211103.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "fd2a741c9d305ede",
   "lastOpenFiles": [
+    "Bases de Datos/Daily/20211103.md",
+    "Bases de Datos/Procesamiento de transacciones.md",
+    "Conceptos/Transacciones.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/IP/Direcciones IP.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/IP/Superredes IP.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/IP/Subredes IP.md",
     "Redes de Computadoras/Architecture/Subred.md",
     "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres.md",
     "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/Datagrama IPv4.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/IP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/IPv4.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red de Internet.md"
+    "Redes de Computadoras/Modelo OSI/Capa 3/IP/Datagrama IPv4.md"
   ]
 }
