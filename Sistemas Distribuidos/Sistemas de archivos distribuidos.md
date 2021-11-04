@@ -33,7 +33,7 @@ Cuando dos o más usuarios comparten el mismo archivo al mismo tiempo, es necesa
 
 En un sistema distribuido, la semántica UNIX es fácil de lograr en tanto exista sólo un servidor y los clientes no guarden los archivos en la memoria caché. Todas las operaciones read y write se van directamente al servidor de archivos, el cual las procesa estrictamente en secuencia.
 
-En la práctica, sin embargo, el desempeño de un sistema distribuido en el cual todas las solicitudes de archivo deben dirigirse a un solo servidor con frecuencia es deficiente. Este problema a menudo se resuelve permitiendo que los clientes mantengan copias locales de archivos muy utilizados en sus cachés privados (locales). Con este esquema, si un cliente modifica localmente un archivo guardado en la memoria caché y poco después otro cliente lo lee desde el servidor, el segundo cliente obtendrá un archivo obsoleto.
+En la práctica, sin embargo, el desempeño de un sistema distribuido en el cual todas las solicitudes de archivo deben dirigirse a un solo servidor con frecuencia es deficiente. Este problema a menudo se resuelve permitiendo que los clientes mantengan copias locales de archivos muy utilizados en sus cachés privados ([[replicación]] local). Con este esquema, si un cliente modifica localmente un archivo guardado en la memoria caché y poco después otro cliente lo lee desde el servidor, el segundo cliente obtendrá un archivo obsoleto.
 
 ![[fs_distribuido_semantica_de_lectura_y_escritura.png]]
 
