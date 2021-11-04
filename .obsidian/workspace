@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Sistemas de archivos distribuidos.md",
+            "file": "Bases de Datos/Procesamiento de transacciones.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Sistemas de archivos distribuidos.md",
+                "file": "Bases de Datos/Procesamiento de transacciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Sistemas de archivos distribuidos.md",
+                "file": "Bases de Datos/Procesamiento de transacciones.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,6 +108,8 @@
   },
   "active": "c62b16c9e9f3e913",
   "lastOpenFiles": [
+    "Bases de Datos/Procesamiento de transacciones.md",
+    "Conceptos/Transacciones.md",
     "Sistemas Distribuidos/Sistemas de archivos distribuidos.md",
     "Sistemas Distribuidos/Replicación/Replicación.md",
     "Sistemas Distribuidos/NFS.md",
@@ -115,8 +117,6 @@
     "Sistemas Distribuidos/Architecture/Architectural style.md",
     "Sistemas Distribuidos/Comunicación/Message Oriented Middleware.md",
     "Sistemas Distribuidos/Comunicación/RMI.md",
-    "Sistemas Distribuidos/IoT/IoT.md",
-    "Sistemas Distribuidos/IoT/MCU.md",
-    "Sistemas Distribuidos/Architecture/Decentralized organizations/Decentralized organizations.md"
+    "Sistemas Distribuidos/IoT/IoT.md"
   ]
 }
