@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Procesamiento de transacciones.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Procesamiento de transacciones.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Procesamiento de transacciones.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "c62b16c9e9f3e913",
   "lastOpenFiles": [
+    "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/BGP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Algoritmos de enrutamiento.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios guiados/Par trenzado.md",
     "Bases de Datos/Procesamiento de transacciones.md",
     "Conceptos/Transacciones.md",
     "Sistemas Distribuidos/Sistemas de archivos distribuidos.md",
     "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Sistemas Distribuidos/NFS.md",
-    "Sistemas Distribuidos/Comunicación/RPC.md",
-    "Sistemas Distribuidos/Architecture/Architectural style.md",
-    "Sistemas Distribuidos/Comunicación/Message Oriented Middleware.md",
-    "Sistemas Distribuidos/Comunicación/RMI.md",
-    "Sistemas Distribuidos/IoT/IoT.md"
+    "Sistemas Distribuidos/NFS.md"
   ]
 }

@@ -29,3 +29,9 @@ El [[IP]], que constituye la base de [[Internet]], es el ejemplo dominante de un
 La idea detrás de los circuitos virtuales es evitar la necesidad de elegir una nueva ruta para cada paquete enviado. En cambio, cuando se establece una conexión, se elige una ruta de la máquina de origen a la máquina de destino como parte de la configuración de conexión y se almacena en tablas dentro de los enrutadores. Esa ruta se utiliza para todo el tráfico que fluye a través de la conexión, de la misma forma en que funciona el sistema telefónico. Cuando se libera la conexión, también se termina el circuito virtual. Con el servicio orientado a conexión, cada paquete lleva un identificador que indica a cuál circuito virtual pertenece
 
 En algunos contextos, a este proceso se le conoce como **conmutación mediante etiquetas**. **MPLS (MultiProtocol Label Swithching)** es un ejemplo de servicio de red orientado a conexión. Se utiliza dentro de las redes de ISP en Internet, en donde los paquetes IP se envuelven en un encabezado MPLS que tiene un identificador de conexión o etiqueta de 20 bits.
+
+## Algoritmos de enrutamiento
+![[Algoritmos de enrutamiento]]
+
+## Interconexión de redes
+![[Interconexión de redes]]
