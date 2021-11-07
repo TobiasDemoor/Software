@@ -109,14 +109,14 @@
   "active": "c62b16c9e9f3e913",
   "lastOpenFiles": [
     "Redes de Computadoras/Modelo OSI/Capa 4/Capa de transporte.md",
+    "Redes de Computadoras/Modelo OSI/Capa de aplicación.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
     "Redes de Computadoras/Protocolos/NTP.md",
     "Redes de Computadoras/Conceptos/RFC.md",
     "Redes de Computadoras/Protocolos/ICMP.md",
     "Redes de Computadoras/Protocolos/HTTP.md",
     "Redes de Computadoras/Protocolos/ARP.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/PPP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/Berkeley Sockets.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Capa física.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md"
+    "Redes de Computadoras/Modelo OSI/Capa 4/Berkeley Sockets.md"
   ]
 }
