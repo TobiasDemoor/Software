@@ -1,5 +1,3 @@
-Capa 3 del [[Modelo OSI]]
-
 La **capa de red** controla la operación de la [[Subred|subred]]. Una cuestión clave de diseño es determinar cómo se encaminan los paquetes desde el origen hasta el destino. Las rutas se pueden basar en tablas estáticas que se “codifican” en la red y rara vez cambian, aunque es más común que se actualicen de manera automática para evitar las fallas en los componentes. También se pueden determinar el inicio de cada conversación; por ejemplo, en una sesión de terminal al iniciar sesión en una máquina remota. Por último, pueden ser muy dinámicas y determinarse de nuevo para cada paquete, de manera que se pueda reflejar la carga actual en la red. ^extracto
 
 Si hay demasiados paquetes en la subred al mismo tiempo, se interpondrán en el camino unos con otros y formarán cuellos de botella. El manejo de la [[Congestión|congestión]] también es responsabilidad de la capa de red, en conjunto con las capas superiores que adaptan la carga que colocan en la red. Otra cuestión más general de la capa de red es la calidad del servicio proporcionado (retardo, tiempo de tránsito, variaciones, etcétera)
@@ -8,7 +6,7 @@ Cuando un paquete tiene que viajar de una red a otra para llegar a su destino, p
 > La capa de red es la capa más baja que maneja la transmisión de extremo a extremo.
 
 ## Servicios proporcionados a la capa de transporte
-La capa de red proporciona servicios a la [[capa de transporte]] en la interfaz entre estas. Una pregunta importante es qué tipo de servicios proporciona precisamente la capa de red a la capa de transporte. La discución se centra en determinar si la capa de red debe proporcionar un [[Servicio orientado y no a la conexión|servicio orientado a la conexión o un servicio sin conexión]].
+La capa de red proporciona servicios a la [[Capa de transporte]] en la interfaz entre estas. Una pregunta importante es qué tipo de servicios proporciona precisamente la capa de red a la capa de transporte. La discución se centra en determinar si la capa de red debe proporcionar un [[Servicio orientado y no a la conexión|servicio orientado a la conexión o un servicio sin conexión]].
 
 Un bando (representado por la comunidad de [[Internet]]) declara que la tarea de los enrutadores es mover paquetes de un lado a otro, y nada más. Desde su punto de vista, la red es de naturaleza no confiable, sin importar su diseño. Por lo tanto, los hosts deben aceptar este hecho y efectuar ellos mismos el control de errores y control de flujo.
 
