@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 4/Protocolos de transporte.md",
+            "file": "Redes de Computadoras/Daily/20211108.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 4/Protocolos de transporte.md",
+                "file": "Redes de Computadoras/Daily/20211108.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 4/Protocolos de transporte.md",
+                "file": "Redes de Computadoras/Daily/20211108.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "c62b16c9e9f3e913",
   "lastOpenFiles": [
-    "Redes de Computadoras/Modelo OSI/Capa 4/Protocolos de transporte.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/Capa de transporte.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Protocolos elementales de enlace de datos.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Subcapa LLC.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/Berkeley Sockets.md",
-    "Redes de Computadoras/IEEE 802/Bluetooth.md",
-    "Redes de Computadoras/Modelo OSI/Capa de aplicación.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
-    "Redes de Computadoras/Protocolos/NTP.md"
+    "Redes de Computadoras/Daily/20211108.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres de DNS.md",
+    "Sistemas Distribuidos/Daily/20211019.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/DNS.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Resolución de nombres.md",
+    "Sistemas Distribuidos/Coordinación/Naming/URI.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
+    "Redes de Computadoras/Conceptos/Firewall.md",
+    "Redes de Computadoras/Daily/20211101.md"
   ]
 }

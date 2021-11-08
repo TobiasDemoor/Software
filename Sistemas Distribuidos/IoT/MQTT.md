@@ -16,4 +16,4 @@ Existen mensajes
 
 ![[mqtt_1.png]]
 
-MQTT es un protocolo de [[capa de aplicación]] que especifica cómo se organizan los bytes de datos y cómo se transmiten a través de la red TCP/IP. Pero para propósitos prácticos, los desarrolladores no necesitan entender el protocolo de cable. Todo lo que necesitan saber es que cada mensaje tiene un comando y una carga útil de datos. El comando define el tipo de mensaje.
+MQTT es un protocolo de [[Capa de aplicación]] que especifica cómo se organizan los bytes de datos y cómo se transmiten a través de la red TCP/IP. Pero para propósitos prácticos, los desarrolladores no necesitan entender el protocolo de cable. Todo lo que necesitan saber es que cada mensaje tiene un comando y una carga útil de datos. El comando define el tipo de mensaje.

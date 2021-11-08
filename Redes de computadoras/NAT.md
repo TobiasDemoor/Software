@@ -1,0 +1,1 @@
+**NAT o Network Adress Translation** es una técnica que traduce [[direcciones IP]] privadas a direcciones públicas. Busca solucionar de alguna manera el agotamiento de direcciones IPv4.
