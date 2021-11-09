@@ -1,0 +1,31 @@
+Existen muchas redes distintas con numerosos protocolos con un uso muy difundido a través de estas, en cada capa. Es necesario estudiar con cuidado los aspectos que surgen cuando se conectan dos o más redes para formar una **interred** o simplemente una **internet**.
+
+Como por lo general las redes difrieren en formas importantes, no siempre es tan sencillo enviar paquetes de una red a otra. Debemos lidiar con problemas de heterogeneidad y también con problemas de escala a medida que la interred resultante aumenta su tamaño en forma considerable.
+
+### ¿Cómo se pueden conectar las redes?
+Existen dos opciones básicas para conectar distintas redes: podemos construir dispositivos que traduzcan o conviertan los paquetes de cada tipo de red en paquetes para otra red o, como buenos científicos de la computación, podemos tratar de resolver el problema al agregar una capa de indirección y construir una capa común encima de las distintas redes. En cualquier caso, los dispositivos se colocan en los límites entre las redes.
+
+Desde un principio, Cerf y Kahn (1974) abogaron por una capa común para ocultar las diferencias de las redes existentes. Esta metodología ha tenido un gran éxito, y la capa que propusieron se separó eventualmente en los protocolos TCP e IP. Casi cuatro décadas después, IP es la base de la Internet moderna. IP proporciona un formato de paquete universal que todos los enrutadores reconocen y que se puede pasar casi por cualquier red. IP ha extendido su alcance de las redes de computadoras para apoderarse de la red telefónica. También opera en redes de sensores y en otros dispositivos pequeños que alguna vez se consideraron con recursos demasiado restringidos como para soportarlo.
+
+### Tunelización
+Es en extremo difícil manejar el caso general de hacer que dos redes distintas se interconecten. Sin embargo, hay un caso especial que se puede manejar, incluso para distintos protocolos de red. Este caso es cuando el host de origen y el de destino están en el mismo tipo de red, pero hay una red diferente en medio. Como ejemplo, piense en un banco internacional con una red IPv6 en París, una en Londres y una conectividad entre las oficinas a través de la Internet IPv4.
+
+La solución a este problema es una técnica llamada **tunelización** (tunneling). Para enviar un paquete IP a un host en la oficina de Londres, un host en la oficina de París construye el paquete que contiene una dirección IPv6 en Londres y la envía al enrutador multiprotocolo que conecta la red IPv6 de París con la Internet IPv4. Cuando este enrutador recibe el paquete IPv6, lo encapsula con un encabezado IPv4 dirigido al lado IPv4 del enrutador multiprotocolo que se conecta con la red IPv6 de Londres. Es decir, el enrutador coloca un paquete (IPv6) dentro de un paquete (IPv4). Cuando llega este paquete envuelto, el enrutador de Londres extrae el paquete IPv6 original y lo envía hacia el host de destino.
+
+La desventaja de la tunelización es que no se puede llegar a ninguno de los hosts en la red que se tuneliza debido a que los paquetes no pueden escapar a mitad del túnel. Sin embargo, esta limitación de los túneles se convierte en una ventaja gracias a las redes [[VPN]] (Virtual Private Network).
+
+### Enrutamiento entre redes
+El enrutamiento a través de una interred presenta el mismo problema que el enrutamiento en una sola red, pero con algunas complicaciones adicionales. Para empezar, las redes pueden usar internamente distintos algoritmos de enrutamiento. Por ejemplo, una red podría usar un enrutamiento por estado del enlace y otra un enrutamiento por vector de distancia. Como los algoritmos de estado del enlace necesitan conocer la topología pero los algoritmos de vector de distancia no, tan sólo esta diferencia dificultaría mucho el proceso de encontrar las rutas más cortas a través de la internet.
+
+Las redes manejadas por distintos operadores conducen a problemas más grandes. En primer lugar, tal vez los operadores tengan distintas ideas sobre lo que sería una buena ruta a través de la red. Posiblemente un operador quiera la ruta con el menor retardo, mientras que otro prefiera la ruta menos costosa. Esto obligará a los operadores a usar distintas cantidades para establecer los costos de la ruta más corta (por ejemplo, milisegundos de retardo en comparación con el costo monetario). Como no se compararán los pesos entre las redes, las rutas más cortas en la interred no estarán bien definidas.
+
+O peor aún, tal vez un operador no quiera que otro conozca siquiera los detalles de las rutas en su red, quizá debido a que los pesos y las rutas puedan reflejar información delicada (como el costo monetario) que representa una ventaja comercial competitiva.
+
+Por último, la interred puede ser mucho más grande que cualquiera de las redes que la conforman. Por lo tanto, puede requerir algoritmos de enrutamiento que escalen bien mediante el uso de una jerarquía, incluso si ninguna de las redes individuales necesita usar una jerarquía.
+
+Todas estas consideraciones conducen a un algoritmo de enrutamiento de dos niveles. Dentro de cada red, se utiliza un protocolo** intradominio** o de **puerta de enlace interior** para el enrutamiento (“puerta de enlace” es un término antiguo para “enrutador”). Podría ser un protocolo de estado del enlace del tipo que ya hemos descrito. A través de las redes que conforman la interred se utiliza un **protocolo interdominio** o de **puerta de enlace exterior**. Todas las redes pueden usar distintos protocolos intradominio, pero deben usar el mismo protocolo interdominio. En Internet, el protocolo de enrutamiento interdominio se denomina **[[BGP]] (Border Gateway Protocol)**.
+
+> **Definición de Sistema Autónomo (AS):** Como cada red se opera de manera independiente a las demás, se conoce comúnmente como un AS. Una red de un ISP es un buen modelo mental de un AS. De hecho, una red de ISP puede estar compuesta por más de un AS en caso de ser administrada, o, si ha sido adquirida, por múltiples redes. Pero en general, la diferencia no es importante
+
+### Fragmentación de paquetes
+![[Fragmentación de paquetes]]

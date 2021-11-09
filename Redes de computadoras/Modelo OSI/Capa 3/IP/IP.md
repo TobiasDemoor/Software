@@ -5,3 +5,6 @@ El **IP (Internet Protocol)** se encuentra en la [[Capa de red|capa de red]] y s
 
 ## Direcciones IP
 ![[Direcciones IP]]
+
+## IP versión 6
+[[IPv6]]

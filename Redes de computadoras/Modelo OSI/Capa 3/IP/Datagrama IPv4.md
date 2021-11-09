@@ -2,7 +2,7 @@ Un datagrama IPv4 ([[IP]] versión 4) consiste en dos partes: el encabezado y el
 
 ![[encabezado_IPv4.png]]
 
-El campo Versión lleva el registro de la versión del protocolo al que pertenece el datagrama. Al incluir la versión al inicio de cada datagrama, es posible tener una transición entre versiones a través de un largo periodo de tiempo. De hecho, IPv6 (la siguiente versión de IP) se definió hace más de una década y apenas se está empezando a implementar.
+El campo *Versión* lleva el registro de la versión del protocolo al que pertenece el datagrama. Al incluir la versión al inicio de cada datagrama, es posible tener una transición entre versiones a través de un largo periodo de tiempo. De hecho, IPv6 (la siguiente versión de IP) se definió hace más de una década y apenas se está empezando a implementar.
 
 Dado que la longitud del encabezado no es constante, se incluye un campo en el encabezado (*IHL*) para indicar su longitud en palabras de 32 bits. El valor mínimo es de 5, cifra que se aplica cuando no hay opciones. El valor máximo de este campo de 4 bits es 15, lo que limita el encabezado a 60 bytes y por lo tanto, el campo *Opciones* a 40 bytes. Para algunas opciones, por ejemplo una que registre la ruta que ha seguido un paquete, 40 bytes es muy poco, lo que hace inútiles estas opciones.
 
