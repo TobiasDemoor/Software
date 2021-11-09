@@ -1,0 +1,14 @@
+Para la conexión entre sistemas autonomos distintos se utilizan algoritmos de **enrutamiento interdominio**. para este caso todas las redes deben usar el mismo protocolo de enrutamiento interdominio, o **protocolo de puerta de enlace exterior**. El protocolo que se utiliza en [[Internet]] es **BGP (Border Gateway Protocol)**.
+
+En contraste a los protocolos de [[enrutamiento intradominio]], los protocolos de enrutamiento interdominio tienen que preocuparse en gran manera por la política. Por ejemplo, tal vez un sistema autónomo corporativo desee la habilidad de enviar paquetes a cualquier sitio de Internet y recibir paquetes de cualquier sitio de Internet. Sin embargo, quizás no esté dispuesto a llevar paquetes de tránsito que se originen en un AS foráneo y estén destinados a un AS foráneo diferente, aun cuando su propio AS se encuentre en la ruta más corta entre los dos sistemas autónomos foráneos. Por otro lado, podría estar dispuesto a llevar el tráfico del tránsito para sus vecinos o incluso para otros sistemas autónomos específicos que hayan pagado por este servicio. Por ejemplo, las compañías telefónicas podrían estar contentas de actuar como empresas portadoras para sus clientes, pero no para otros. En general, los protocolos de puerta de enlace exterior (y BGP en particular) se han diseñado para permitir que se implementen muchos tipos de políticas de enrutamiento en el tráfico entre sistemas autónomos.
+
+Las políticas típicas implican consideraciones políticas, de seguridad, o económicas. Algunos ejemplos de posibles restricciones de enrutamiento son:
+1. No transportar tráfico comercial en la red educativa. 
+2. Nunca enviar tráfico del Pentágono por una ruta a través de Irak. 
+3. Usar TeliaSonera en vez de Verizon porque es más económico. 
+4. No usar AT&T en Australia porque el desempeño es pobre. 
+5. El tráfico que empieza o termina en Apple no debe transitar por Google.
+
+Cuando una red solo se conexta el resto de [[Internet]] mediante un enlace se dice que es una **red aislada** (stub network). En este caso no necesita ejectuar BGP, ya que todo su tráfico pasará siempre a traves de ese único enlace.
+
+Por otro lado, las redes de algunas compañías están conectadas a varios ISP. Esta técnica se utiliza para mejorar la confiabilidad, ya que si la ruta a través de un ISP falla, la compañía puede usar la ruta a través del otro ISP. Esta técnica se conoce como **multihoming**. En este caso, la red de la compañía probablemente ejecute un protocolo de enrutamiento interdominio (como BGP) para indicar a otros sistemas autónomos qué enlaces de ISP pueden llegar a cuáles direcciones.

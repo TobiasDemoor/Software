@@ -88,3 +88,8 @@ Cuando se utiliza el enrutamiento jerárquico, los enrutadores se dividen en lo 
 
 ![[enrutamiento_jerarquico.png]]
 
+### Enrutamiento intradominio
+![[Enrutamiento intradominio]]
+
+### Enrutamiento intredominio
+![[Enrutamiento intredominio]]

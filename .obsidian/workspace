@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 3/ICMP.md",
+            "file": "Redes de Computadoras/Hardware/Router.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/ICMP.md",
+                "file": "Redes de Computadoras/Hardware/Router.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/ICMP.md",
+                "file": "Redes de Computadoras/Hardware/Router.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "c62b16c9e9f3e913",
   "lastOpenFiles": [
-    "Redes de Computadoras/Modelo OSI/Capa 3/ICMP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red de Internet.md",
+    "Redes de Computadoras/Hardware/Router.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Algoritmos de enrutamiento.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/BGP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento intradominio.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Interconexión de redes.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Fragmentación de paquetes.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/DHCP.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/ARP.md",
-    "Redes de Computadoras/Protocolos/VoIP.md",
-    "Redes de Computadoras/Protocolos/NTP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/IP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/IPv6.md"
+    "Redes de Computadoras/Modelo OSI/Capa 3/ICMP.md"
   ]
 }
