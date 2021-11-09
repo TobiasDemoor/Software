@@ -1,14 +1,19 @@
 En términos generales, los requisitos son capacidades y condiciones con los cuales debe ser conforme el sistema y más ampliamente el proyecto. Para cada tipo se tienen [[Patrones|patrones]] especificos y probados.
 
+# Functional
 ![[Functional]]
 
+# Usability
 ![[Usability]]
 
+# Reliability
 ![[Reliability]]
 
-[[Performance]]
+# Performance
+![[Performance]]
 
-[[Supportability]]
+# Supportability
+![[Supportability]]
 
 # +
 El + implica:

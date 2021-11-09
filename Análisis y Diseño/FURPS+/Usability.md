@@ -1,4 +1,3 @@
-# Usability
 Capacidad del producto de software para ser entendido, aprendido, usado y resultr atractivo, cuando se usa bajo determinadas condiciones. Aspectos:
 - **Capacidad para reconocer su adecuación**: grado en el cual los usuarios pueden reconocer cuando un sistema es apropieado para sus necesidades.
 - **Capacidad de aprendizaje**: grado en el cual un producto puede ser utilizado de manera más eficiente a medida que se aprende a utilizarlo.

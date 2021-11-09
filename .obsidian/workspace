@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c62b16c9e9f3e913",
+        "id": "7a35da8e360f01c0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Hardware/Router.md",
+            "file": "Sistemas Distribuidos/Daily/20211109.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Hardware/Router.md",
+                "file": "Sistemas Distribuidos/Daily/20211109.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Hardware/Router.md",
+                "file": "Sistemas Distribuidos/Daily/20211109.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -106,17 +106,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c62b16c9e9f3e913",
+  "active": "7a35da8e360f01c0",
   "lastOpenFiles": [
-    "Redes de Computadoras/Hardware/Router.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Algoritmos de enrutamiento.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento intradominio.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Interconexión de redes.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Fragmentación de paquetes.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/DHCP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/ARP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/ICMP.md"
+    "Sistemas Distribuidos/Daily/20211109.md",
+    "Sistemas Distribuidos/CDN.md",
+    "Sistemas Distribuidos/Code Migration.md",
+    "Sistemas Distribuidos/Distributed Transactions.md",
+    "Sistemas Distribuidos/Escalabilidad.md",
+    "Sistemas Distribuidos/Middleware.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Sistemas Distribuidos/Sistemas de archivos distribuidos.md",
+    "Sistemas Distribuidos/NFS.md",
+    "Análisis y Diseño/FURPS+/FURPS+.md"
   ]
 }
