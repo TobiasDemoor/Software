@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Daily/20211109.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 4/UDP.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Daily/20211109.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 4/UDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Daily/20211109.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 4/UDP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "7a35da8e360f01c0",
   "lastOpenFiles": [
+    "Redes de Computadoras/Modelo OSI/Capa 4/UDP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
+    "modelo TCP/IP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 4/Protocolos de transporte.md",
+    "Sistemas Distribuidos/Coordinación/Sincronización.md",
     "Sistemas Distribuidos/Daily/20211109.md",
     "Sistemas Distribuidos/CDN.md",
     "Sistemas Distribuidos/Code Migration.md",
     "Sistemas Distribuidos/Distributed Transactions.md",
-    "Sistemas Distribuidos/Escalabilidad.md",
-    "Sistemas Distribuidos/Middleware.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Sistemas Distribuidos/Sistemas de archivos distribuidos.md",
-    "Sistemas Distribuidos/NFS.md",
-    "Análisis y Diseño/FURPS+/FURPS+.md"
+    "Sistemas Distribuidos/Escalabilidad.md"
   ]
 }
