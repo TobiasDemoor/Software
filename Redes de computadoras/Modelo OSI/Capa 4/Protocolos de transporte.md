@@ -73,3 +73,9 @@ Para ver la relevancia del problema de los dos ejércitos en relación con la li
 En la práctica podemos evitar este dilema al eludir la necesidad de un acuerdo y pasar el problema al usuario de transporte, de modo que cada lado pueda decidir por su cuenta si se completó o no la comunicación. Éste es un problema más fácil de resolver y puede hacerse con un simple acuerdo de 3 vias como se ilustra a continuación.
 
 ![[liberar_una_conexion.png]]
+
+### UDP
+![[UDP]]
+
+### TCP
+![[TCP]]
