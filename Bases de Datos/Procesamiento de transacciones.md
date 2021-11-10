@@ -83,7 +83,7 @@ Los **locks** o **candados** son variables asociadas a un item de datos de la BD
 
 El mecanismo de locking por sí solo no garantiza serializabilidad. Es necesario un protocolo para posicionar locks y unlocks.
 
-> **Protocolo 2PL (Two Phase Locking):** Una transacción T es 2PL si todos los locks preceden al primer unlock.
+> **Protocolo 2PL (Two Phase Locking):** una transacción T es 2PL si todos los locks preceden al primer unlock. Las transacciones que cumplen con 2PL se componen de una etapa de crecimiento donde realiza lock de los recursos seguida de una etapa de decrecimiento donde se realiza unlock de los recursos tomados en la etapa de crecimiento. La variante conservativa es deadlock-free en base a informar los locks antes y pedirlos todos juntos.
 
 > **Teorema 2 de la serializabilidad:** Dado $T = \{T_1, T_2, \cdots, T_n\}$, si toda $T_i$ en T es 2PL, entonces todo H legal sobre T es SR.
 
