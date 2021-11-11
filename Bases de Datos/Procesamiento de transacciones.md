@@ -128,3 +128,6 @@ Las historias recuperables se pueden clasificar según su recuperabilidad en 3 c
 
 > **Protocolo 2PL Estricto:** T cumple con 2PL estricto si cumple con 2PL y además no libera ninguno de sus locks exclusivos hasta después de haber hecho commit o abort.
 > Todo H que cumpla con 2PL estricto es una historia estricta y serializable.
+
+## Recuperación ante fallos
+![[Recuperación ante fallos]]
