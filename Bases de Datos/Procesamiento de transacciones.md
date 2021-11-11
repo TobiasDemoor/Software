@@ -103,3 +103,28 @@ El **locking ternario** permite dos tipos de bloqueo, para lectura (llamado tamb
 **Lock conversion:**
 1. **Upgrade:** Read-Lock (X) → Write-Lock (X), (para 2PL sólo en la fase de crecimiento ya que es una especie de lock).
 2. **Downgrade:** Write-Lock(X) → Read-Lock (X), (para 2PL sólo en la fase de decrecimiento ya que es una especie de unlock).
+
+## Recuperabilidad
+Cualquier transacción puede fallar, por lo tanto es importante caracterizar los tipos de historias con respecto a si son o no recuperables y cuán complejo sería el proceso de recuperación.
+
+> Se dice que $\bf{T_i\ lee\ de\ T_j}$ en H si:
+> 1. $\bf{W_j(X) < R_i(X)}$ (donde < significa "precede en orden de ejecución")
+> 2. $\bf{A_j \nless R_i(X)}$
+> 3. **Si hay algún $\bf{W_k(X)}$ tal que $\bf{W_j(X) < W_k(X) < R_i(X)}$ entonces $\bf{A_k < R_i(X)}$**
+
+> **La imagen anterior de un WRITE (o BEFORE IMAGE)** es el valor que tenía X justo antes de un write.
+> Se asume que el SGBD implementa el Abort restaurando las imágenes anteriores de todos los Write de una transacción
+
+### Clasificación de Historias
+Las historias recuperables se pueden clasificar según su recuperabilidad en 3 categorías:
+
+- **Historias Recuperables (RC):** H es RC si cada Tx hace Commit después de que hayan hecho commit todas las transacciones de las que lee. Dicho de otro modo, siempre que $T_i$ lee de $T_j$ ($i \ne j$) en H y $C_i \in H$ entonces $C_j < C_i$.
+- **Historias que evitan Aborts en Cascada (ACA):** H es ACA si cada Tx puede leer solamente aquellos valores que fueron escritos por transacciones que ya hicieron commit, o por sí misma. Dicho de otro modo, siempre que $T_i$ lee X de $T_j$ ($i \ne j$) en H, entonces $C_j < R_i(X)$.
+- **Historias Estrictas (ST):** H es ST si ningún item X puede ser leído o sobreescrito hasta que la transacción que previamente escribió X haya finalizado haciendo commit o abort. Dicho de otro modo, siempre que $W_j(X) < Oi(X)$ ($i \ne j$) en H, entonces $A_j < O_i(X)$ or $C_j < O_i(X)$ (siendo $O_i(X)$ es $R_i(X)$ o $W_i(X)$)
+
+> **Teorema de la recuperabilidad:** $ST \subset ACA \subset RC$
+> El concepto de recuperabilidad es ortogonal al concepto de serializabilidad.
+> ![[procesamiento_de_transacciones_recuperabilidad.png]]
+
+> **Protocolo 2PL Estricto:** T cumple con 2PL estricto si cumple con 2PL y además no libera ninguno de sus locks exclusivos hasta después de haber hecho commit o abort.
+> Todo H que cumpla con 2PL estricto es una historia estricta y serializable.

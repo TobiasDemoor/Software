@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Daily/20211110.md",
+            "file": "Bases de Datos/Procesamiento de transacciones.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Daily/20211110.md",
+                "file": "Bases de Datos/Procesamiento de transacciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Daily/20211110.md",
+                "file": "Bases de Datos/Procesamiento de transacciones.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,11 +108,11 @@
   },
   "active": "7a35da8e360f01c0",
   "lastOpenFiles": [
+    "Bases de Datos/Procesamiento de transacciones.md",
     "Bases de Datos/Daily/20211110.md",
     "Resumenes/Resumen Redes.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/DNS.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
-    "Bases de Datos/Procesamiento de transacciones.md",
     "Sistemas Operativos/Concurrencia/Deadlock.md",
     "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
     "Redes de Computadoras/Modelo OSI/Capa 4/Protocolos de transporte.md",
