@@ -5,3 +5,6 @@ En contraste a un nodo hoja, un **nodo directorio** tiene un número de aristas 
 ![[naming_name_spaces_1.png]]
 
 El o los nodos que no tienen aristas entrantes en un grafo de nombres se llaman **nodo raíz**. Aunque es posible que halla múltiples suele haber solo un por simpleza. Cada camino en el grafo de nombres puede ser referido por la secuencia de etiquetas correspondientes a las aristas en el camino, tal como N:\[label1, label2, ..., labeln], donde N es el primer nodo en el camino. Dicha secuencia es llamada **ruta** o **path name**. Si el primer nodo en una ruta es el nodo raíz se le llama **ruta absoluta** o **absolute path name**. Sino, se lo llama **ruta relativa** o **relative path name**.
+
+#### Espacio de nombres de DNS
+![[Espacio de nombres de DNS]]

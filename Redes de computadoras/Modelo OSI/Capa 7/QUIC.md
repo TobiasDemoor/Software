@@ -1,0 +1,1 @@
+QUIC es un protocolo de [[capa de aplicación]] que funciona sobre [[UDP]] desarrollado por Google para reemplazar el uso de [[TCP]] para [[HTTP]].

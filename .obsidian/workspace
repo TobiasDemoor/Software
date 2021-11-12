@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Recuperación ante fallos.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Recuperación ante fallos.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Recuperación ante fallos.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "7a35da8e360f01c0",
   "lastOpenFiles": [
-    "Bases de Datos/Recuperación ante fallos.md",
-    "Bases de Datos/Daily/20211110.md",
-    "Bases de Datos/Sistema de Base de Datos.md",
-    "Bases de Datos/Procesamiento de transacciones.md",
-    "Resumenes/Resumen Redes.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/DNS.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
-    "Sistemas Operativos/Concurrencia/Deadlock.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/QUIC.md",
     "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/Protocolos de transporte.md"
+    "Redes de Computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
+    "Conceptos/Idempotencia.md",
+    "Redes de Computadoras/Modelo OSI/Capa 4/UDP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/DNS/Espacio de nombres de DNS.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Resolución de nombres.md"
   ]
 }
