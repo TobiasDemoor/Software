@@ -1,7 +1,7 @@
 Sincronización y coordinación son 2 fenómenos relacionados.
-* En **sincronización de [[Proceso|procesos]]**, nos queremos asegurar que un proceso espera a otro para completar su operación.
-* Cuando hablamos de **sincronización de datos**, el problema es asegurar que 2 conjuntos de datos son los mismos (consistencia de datos).
-* En **coordinación**, el objetivo es manejar las interacciones y dependencias entre actividades en un [[Sistemas Distribuidos|sistema distribuido]].
+- En **sincronización de [[Proceso|procesos]]**, nos queremos asegurar que un proceso espera a otro para completar su operación.
+- Cuando hablamos de **sincronización de datos**, el problema es asegurar que 2 conjuntos de datos son los mismos (consistencia de datos).
+- En **coordinación**, el objetivo es manejar las interacciones y dependencias entre actividades en un [[Sistemas Distribuidos|sistema distribuido]].
 Desde esta perspectiva, podemos afirmar que **la coordinación encapsula la sincronización**.
 
 ## Sincronización del reloj
@@ -9,8 +9,8 @@ Cuando cada máquina tiene su propio [[Reloj físico|reloj]], es posible que a u
 
 ### ¿Qué hora es?
 #### Referencia astronómica
-* **Referencia al sol.** Todos los días, el sol asciende por el este, se posiciona en un punto máximo en el cielo (mediodía), y luego vuelve a descender por el oeste (desde nuestro sistema de referencias, claro). Como se define que un día tiene 24 horas y cada hora contiene 3600 segundos, el **segundo solar** se define como 1/86400 partes de día solar. Se define al **segundo medio solar** tomando la duración media de un día. Un problema que se presenta es que la tierra gira cada vez más lento, el período orbital no es constante. 
-* **Referencia a una estrella más lejana**
+- **Referencia al sol.** Todos los días, el sol asciende por el este, se posiciona en un punto máximo en el cielo (mediodía), y luego vuelve a descender por el oeste (desde nuestro sistema de referencias, claro). Como se define que un día tiene 24 horas y cada hora contiene 3600 segundos, el **segundo solar** se define como 1/86400 partes de día solar. Se define al **segundo medio solar** tomando la duración media de un día. Un problema que se presenta es que la tierra gira cada vez más lento, el período orbital no es constante. 
+- **Referencia a una estrella más lejana**
 
 #### Reloj atómico
 En 1948, se comienza a utilizar el conteo de las transiciones del átomo de cesio 133 (definido como Tiempo Atómico Internacional). Se define a 1 segundo como el tiempo que le toma a un átomo de cesio 133 en realizar 9.192.631.770 transiciones.

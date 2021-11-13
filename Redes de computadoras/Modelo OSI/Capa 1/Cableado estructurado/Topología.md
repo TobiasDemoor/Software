@@ -3,9 +3,9 @@ La **topología** de una [[Redes de computadoras|red]] se refiere a la disposici
 > La topología también se puede referir a la organización lógica y los métodos de transmisión de datos. Por ejemplo se puede tener una red lógica de anillo sobre una red física tipo estrella ([[Overlay Network]]).
 
 Las redes de hoy en día caen en tres categorías:
-* Estrella
-* Bus
-* Anillo
+- Estrella
+- Bus
+- Anillo
 
 ### Topología tipo estrella
 En las topologías tipo estrella todos los nodos se encuentran conectados a un punto único centralizado. Este punto central suele ser un [[Hub|hub]]. Todo el cableado utilizado corre desde el nodo al punto central. Con esta configuración el diagnóstico es muy sencillo.

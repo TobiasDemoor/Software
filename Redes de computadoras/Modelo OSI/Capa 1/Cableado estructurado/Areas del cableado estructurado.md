@@ -2,11 +2,11 @@ El estándar TIA/EIA-568-B divide el cableado estructurado en siete areas. Estas
 
 ### Cableado horizontal
 El cableado horizontal es el cableado que se extiende de la sala de telecomunicaciones al área de trabajo y termina en outlets de comunicación. El cableado horizontal incluye:
-* El cable del patch panel al área de trabajo (patch cord).
-* Los outlets de telecomunicación.
-* Las terminaciones de cables.
-* Cross-connections.
-* Un máximo de un punto de transición.
+ - El cable del patch panel al área de trabajo (patch cord).
+ - Los outlets de telecomunicación.
+ - Las terminaciones de cables.
+ - Cross-connections.
+ - Un máximo de un punto de transición.
 
 ![[cableado_estructurado_cableado_horizontal.png]]
 
@@ -19,9 +19,9 @@ Según estandar cada área de trabajo debe tener un mínimo de dos outlets. Las 
 El cableado vertical es necesario para conectar las EF, ER y TR. Este no consiste solamente de los cables que conectan lo anteriormente mencionado, sino también los cross-connect cables, terminaciones mecánicas, o patch cords utilizado para concexión backbone-to-backbone.
 
 El estandar especifica requerimientos adicionales de diseño para el cableado backbone:
-* Se debe tener cuidado que el tendido no genere interferencia electromagnética o interferencia en radio-frecuencia.
-* No se puede tener más de dos niveles gerárcicos de cross-connectores, **la topología del backbone debe ser estrella**.
-* El cableado debe ser continuo, no se permiten empalmes. 
+ - Se debe tener cuidado que el tendido no genere interferencia electromagnética o interferencia en radio-frecuencia.
+ - No se puede tener más de do- niveles gerárcicos de cross-connectores, **la topología del backbone debe ser estrella**.
+ - El cableado debe ser continuo, no se permiten empalmes. 
 
 ![[cableado_estructurado_cableado_backbone.png]]
 

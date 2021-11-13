@@ -7,12 +7,12 @@ Las redes 802.11 están compuestas de clientes (como laptops y teléfonos móvil
 
 ## Capa física
 [[Capa física|Capas físicas]] por orden cronológico:
-* 802.11 Infrarrojo, FHSS, DSSS (estas dos últimas son codificaciones de espectro expandido)
-* [[802.11b]] HR-DSSS (< 11 Mbps) (utiliza spread-spectrum) (2.4 GHz)
-* [[802.11a]] [[OFDM]] (5 GHz)
-* [[802.11g]] [[OFDM]] (< 54 Mbps) (compatible con 802.11b) (2.4 GHz)
-* [[802.11n]] MIMO (< 600 Mbps suele ser < 150 Mbps)
-* [[802.11ac]] (< 3.6 Gbps)(5 GHz)
+- 802.11 Infrarrojo, FHSS, DSSS (estas dos últimas son codificaciones de espectro expandido)
+- [[802.11b]] HR-DSSS (< 11 Mbps) (utiliza spread-spectrum) (2.4 GHz)
+- [[802.11a]] [[OFDM]] (5 GHz)
+- [[802.11g]] [[OFDM]] (< 54 Mbps) (compatible con 802.11b) (2.4 GHz)
+- [[802.11n]] MIMO (< 600 Mbps suele ser < 150 Mbps)
+- [[802.11ac]] (< 3.6 Gbps)(5 GHz)
 
 > El modo natural de transmisión del canal es half-duplex. Vea [[#Protocolo MAC]] más abajo.
 
@@ -49,18 +49,18 @@ Y como lo esencial aquí es la transmisión de datos, es lógico que la red 802.
 La señal inalámbrica es de difusión. Para mantener confidencial la información que se envía por una LAN inalámbrica, hay que cifrarla. Para lograr esto se utiliza un servicio de **privacidad** que administra los detalles del cifrado y el descifrado. El algoritmo de cifrado para WPA2 se basa en el estándar **[[AES]] (Advanced Encryption Standard)**. Las claves que se utilizan para el cifrado se determinan durante el procedimiento de autentificación.
 
 Los servicios se pueden clasificar en dos grupos principales:
-* **Servicios de distribución:**
-	* **Asociación.**
-	* **Reasociación**.
-	* **Desasociación.**
-	* **Distribución.**
-	* **Integración.** 
+- **Servicios de distribución:**
+	- **Asociación.**
+	- **Reasociación**.
+	- **Desasociación.**
+	- **Distribución.**
+	- **Integración.** 
 
-* **Servicios Intra-celda**
-	* **Autenticación**
-	* **Desautenticación**
-	* **Entrega de datos**
-	* **Privacidad**
+- **Servicios Intra-celda**
+	- **Autenticación**
+	- **Desautenticación**
+	- **Entrega de datos**
+	- **Privacidad**
 
 ## Canales
 Los dispositivos WiFi deben usar el mismo canal para poder comunicarse. Elllos envían y reciben en el mismo conal, por lo que sólo un dispositivo puede transmitir en un instante determinado (half-duplex).

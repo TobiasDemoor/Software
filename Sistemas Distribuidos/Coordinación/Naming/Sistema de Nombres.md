@@ -3,13 +3,13 @@ Los **nombres** juegan un rol importante en los [[Sistemas de Computación]]. So
 En los sistemas distribuidos, la implementación del sistema de nombres es distribuida a lo largo de múltiples máquinas. Cómo se realiza esta distribución juega un rol clave en la eficiencia y escalabilidad del sistema de nombres.
 
 ## Definiciones básicas
-* **Nombre.** Un nombre en un sistema distribuido es una cadena de bits o caracteres que es utilizado para referirse a una entidad.
-* **Entidad.** Una entidad puede ser prácticamente cualquier cosa. Se puede operar sobre las entidades.
-* **Dirección.** Para operar sobre estas hace falta un **access point** o **punto de acceso** que es un tipo especial de entidad en un sistema distribuido. Al nombre de un punto de acceso se le llama **dirección**. Una entidad puede ofrecer más de un access point. Las direcciones son un tipo particular de nombre que se refiere a un punto de acceso de una entidad.
-* **Identificador.** Un identificador es un nombre que cumple con las siguientes propiedades:
-	* Un identificador referencia  a lo sumo a una entidad.
-	* Cada entidad es referenciada por a lo sumo un identificador.
-	* Un identificador siempre referencia a la misma entidad, osea no es reusado.
+- **Nombre.** Un nombre en un sistema distribuido es una cadena de bits o caracteres que es utilizado para referirse a una entidad.
+- **Entidad.** Una entidad puede ser prácticamente cualquier cosa. Se puede operar sobre las entidades.
+- **Dirección.** Para operar sobre estas hace falta un **access point** o **punto de acceso** que es un tipo especial de entidad en un sistema distribuido. Al nombre de un punto de acceso se le llama **dirección**. Una entidad puede ofrecer más de un access point. Las direcciones son un tipo particular de nombre que se refiere a un punto de acceso de una entidad.
+- **Identificador.** Un identificador es un nombre que cumple con las siguientes propiedades:
+	- Un identificador referencia  a lo sumo a una entidad.
+	- Cada entidad es referenciada por a lo sumo un identificador.
+	- Un identificador siempre referencia a la misma entidad, osea no es reusado.
 
 > Nota: siendo que la dirección indica el punto de acceso a una entidad podría parecer adecuado usar estas para referirse directamente a la entidad. Pero esta organización se torna inflexible y poco amigable para humanos. Por esto los nombres suelen diseñarse para ser **independientes de la localización**.
 

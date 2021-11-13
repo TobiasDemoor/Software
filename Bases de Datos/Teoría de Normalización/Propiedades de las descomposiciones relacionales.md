@@ -20,13 +20,13 @@ Una descomposición $\rho$ de R, $\rho = (R_1, R_2)$ es SPI con respecto a un co
 3. Se aplican las DFs al tableau:
 	Para cada DF $X \rightarrow A$, si dos filas coinciden en X entonces el A se modifica para que también coincidan dando prioridad al símbolo distinguido, generando una serie $T_0, T_1, \cdots, T^*$.
 4.  Condición de parada:
-	* Si encuentro una fila con todos los símbolos distinguidos $a_j$ entonces, $\rho$ **es SPI**.
-	* Cuando el último tableau $T^*$ ya no cambia con la aplicación de las DFs. Si no llegué a una fila con todos los símbolos distinguidos, entonces la descomposición **es con pérdida**.
+	- Si encuentro una fila con todos los símbolos distinguidos $a_j$ entonces, $\rho$ **es SPI**.
+	- Cuando el último tableau $T^*$ ya no cambia con la aplicación de las DFs. Si no llegué a una fila con todos los símbolos distinguidos, entonces la descomposición **es con pérdida**.
 
 ### Preservación de dependencias funcionales
 Además de preservar información, una descomposición debería preservar DFs (Sin Perdida de [[Dependencia Funcional|Dependencias Funcionales]], SPDF).
-* Dados R y $\rho = (R_1, R_2, \cdots, R_k)$, decimos que la proyección de F sobre un conjunto de atributos Z, $\pi_Z(F)$, es el conjunto de DFs $X \rightarrow Y \in F^+$ tal que $(X \cup Y) \subseteq Z$.
-* La descomposición $\rho$ preserva DFs F si la unión de todas las proyecciones $\pi_{Ri}(F)$ para $i = 1, \cdots, k$ es un conjunto equivalente a F, es decir:
+- Dados R y $\rho = (R_1, R_2, \cdots, R_k)$, decimos que la proyección de F sobre un conjunto de atributos Z, $\pi_Z(F)$, es el conjunto de DFs $X \rightarrow Y \in F^+$ tal que $(X \cup Y) \subseteq Z$.
+- La descomposición $\rho$ preserva DFs F si la unión de todas las proyecciones $\pi_{Ri}(F)$ para $i = 1, \cdots, k$ es un conjunto equivalente a F, es decir:
 $$F \equiv \bigcup_{i=1}^k \pi_{Ri}(F)$$
 $$F^+ = (\bigcup_{i=1}^k \pi_{Ri}(F))^+$$
 

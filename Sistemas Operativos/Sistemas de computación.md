@@ -10,11 +10,11 @@ El “cerebro” de la computadora es la CPU, que obtiene las instrucciones de l
 Incluye, fundamentalmente, al [[Sistemas Operativos|sistema operativo]] y a las aplicaciones.
 
 ## Recursos básicos de un SC
-* Procesador
-* Memoria principal (volátil)
-* Dispositivos de E/S
-	* Almacenamiento en memoria secundaria (persistente)
-	* Comunicación (placa de [[Redes de computadoras|red]])
-	* Entrada (terminales, teclados, etc.)
-	* Salida (imagen, sonido, etc.)
-* **[[Dato, información y conocimiento|Información]]** (el recurso **más** importante)
+- Procesador
+- Memoria principal (volátil)
+- Dispositivos de E/S
+	- Almacenamiento en memoria secundaria (persistente)
+	- Comunicación (placa de [[Redes de computadoras|red]])
+	- Entrada (terminales, teclados, etc.)
+	- Salida (imagen, sonido, etc.)
+- **[[Dato, información y conocimiento|Información]]** (el recurso **más** importante)

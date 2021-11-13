@@ -215,15 +215,15 @@ CREATE TRIGGER trig_name
 ```
 
 El trigger no puede referirse a tablas directamente por su nombre (depende versión MySQL). Sin embargo, se pueden emplear las palabras clave OLD y NEW.
-* **OLD** se refiere a un registro existente que va a borrarse o que va a actualizarse antes de que esto ocurra.
-* **NEW** se refiere a un registro nuevo que se insertará o a un registro modificado luego de que ocurre la modificación.
+- **OLD** se refiere a un registro existente que va a borrarse o que va a actualizarse antes de que esto ocurra.
+- **NEW** se refiere a un registro nuevo que se insertará o a un registro modificado luego de que ocurre la modificación.
 
 Estas palabras clave se pueden utilizar según la sentencia:
-* **INSERT**: NEW.nom_col; ya que no hay una versión anterior del registro.
-* **DELETE**: OLD.nom_col, porque no hay un nuevo registro
-* **UPDATE**:
-	* OLD.nom_col para referirse a las columnas del registro antes de que sea actualizado.
-	* NEW.nom_col para referirse a las columnas del registro luego de actualizarlo.
+- **INSERT**: NEW.nom_col; ya que no hay una versión anterior del registro.
+- **DELETE**: OLD.nom_col, porque no hay un nuevo registro
+- **UPDATE**:
+	- OLD.nom_col para referirse a las columnas del registro antes de que sea actualizado.
+	- NEW.nom_col para referirse a las columnas del registro luego de actualizarlo.
 
 El trigger no puede invocar stored procedures y tampoco puede utilizar sentencias que inicien o finalizen una transacción.
 

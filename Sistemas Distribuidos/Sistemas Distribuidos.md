@@ -82,11 +82,11 @@ Este subgrupo consiste de sistemas distribuidos usualmente construidos como una 
 
 ![[sistemas_distribuidos_grid_computing.png]]
 
-* **Fabric layer.** Provee interfaces a los recursos locales en un sitio en específico. Estas interfaces están diseñadas para permitir el uso compartido de recursos en una organización virtual.
-* **Connectivity layer.** Consiste en protocolos de comunicación para dar soporte a las transacciones grid que suponen el uso de múltiples recursos. También contiene protocolos de seguridad para autenticar usuarios y recursos.
-* **Resource layer.** Es responsable por administrar un solo recurso en particular (operaciones tales como crear un proceso o almacenar algún dato). Usas las funciones proporcionadas por la capa de conectividad y llama directamente a las interfaces del fabric layer. Se encarga del control de acceso (protección).
-* **Collective layer.** Maneja el acceso a múltiples recursos y típicamente consiste en servicios para descubrimiento de recursos, alojamiento y planificación de tareas sobre múltiples recursos, [[replicación]] de datos, etc.
-* **Application layer.** Consiste en las aplicaciones que operan en la organización virtual y que hacen uso del entorno de computación grid.
+- **Fabric layer.** Provee interfaces a los recursos locales en un sitio en específico. Estas interfaces están diseñadas para permitir el uso compartido de recursos en una organización virtual.
+- **Connectivity layer.** Consiste en protocolos de comunicación para dar soporte a las transacciones grid que suponen el uso de múltiples recursos. También contiene protocolos de seguridad para autenticar usuarios y recursos.
+- **Resource layer.** Es responsable por administrar un solo recurso en particular (operaciones tales como crear un proceso o almacenar algún dato). Usas las funciones proporcionadas por la capa de conectividad y llama directamente a las interfaces del fabric layer. Se encarga del control de acceso (protección).
+- **Collective layer.** Maneja el acceso a múltiples recursos y típicamente consiste en servicios para descubrimiento de recursos, alojamiento y planificación de tareas sobre múltiples recursos, [[replicación]] de datos, etc.
+- **Application layer.** Consiste en las aplicaciones que operan en la organización virtual y que hacen uso del entorno de computación grid.
 
 Las capas de Resource, Collective y Connectivity vendrían a ser el [[Middleware|middleware]] del sistema tipo grid, dado que manejan el acceso a los recursos que se encuentran potencialmente distribuidos en múltiples sitios
 

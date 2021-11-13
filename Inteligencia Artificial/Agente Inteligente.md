@@ -39,10 +39,10 @@ Un **agente racional** es aquél que hace lo correcto u obtiene el mejor desempe
 El término **medición del desempeño** se aplica al cómo: es el criterio que sirve para definir qué tan exitoso ha sido un agente. Desde luego que no existe una medida fija que se pueda aplicar por igual a todos los agentes.
 
 El carácter de |racionalidad de lo que se hace en un momento dado dependerá de cuatro factores:
-* De la medida con la que se evalúa el grado de éxito logrado.
-* De todo lo que hasta ese momento haya percibido el agente. A esta historia perceptual completa se le denomina la secuencia de percepciones.
-* Del conocimiento que posea el agente acerca del medio.
-* De las acciones que el agente puede comprender.
+- De la medida con la que se evalúa el grado de éxito logrado.
+- De todo lo que hasta ese momento haya percibido el agente. A esta historia perceptual completa se le denomina la secuencia de percepciones.
+- Del conocimiento que posea el agente acerca del medio.
+- De las acciones que el agente puede comprender.
 
 Un **agente racional ideal** es aquél que, para cada secuencia de percepciones posible, actúa de manera que se maximice su medida de desempeño.
 
@@ -52,10 +52,10 @@ El cometido de la Inteligencia Artificial es el desempeño de un **programa de a
 La [[Inteligencia Artificial]] se ocupa del diseño del **programa agente**.
 
 Antes de diseñar un programa agente tenemos que conocer los distintos elementos que caracterizan al agente (estos cuatro elementos forman el **PAMA**):
-* **Percepciones.** Percepciones posibles
-* **Acciones.** Acciones posibles
-* **Metas.** Medida de desempeño u objetivos que debe lograr
-* **Ambiente.** Tipo de entorno en el que va a operar
+- **Percepciones.** Percepciones posibles
+- **Acciones.** Acciones posibles
+- **Metas.** Medida de desempeño u objetivos que debe lograr
+- **Ambiente.** Tipo de entorno en el que va a operar
 
 También se pueden caracterizar por su comportamiento autónomo y flexible:
 - **Reactividad**: capacidad de precibir el medio ambiente y responder a tiempo a los cambios en él, a través de acciones.
@@ -68,9 +68,9 @@ Un agente basado en una tabla almacena la **transformación de secuencias de per
 
 **Agentes que razonan de manera lógica**
 Son agentes capaces de elaborar representaciones del mundo y aplicar un proceso de inferencia para obtener nuevas representaciones del mundo. Y utilizarlas para deducir que hacer caracterizados por:
-* Nivel de conocimiento (epistemológico)
-* Nivel lógico
-* Nivel de implementación
+- Nivel de conocimiento (epistemológico)
+- Nivel lógico
+- Nivel de implementación
 
 **Agente de reflejo simple**
 Este agente percibe el ambiente a través de sensores, determina qué es lo que ocurre ahora, a partir de **reglas condición-acción** decide que acción debe tomar y la ejecuta.
@@ -86,20 +86,20 @@ Este agente percibe el ambiente a través de sensores, determina qué es lo que 
 
 ## Ambiente
 El ambiente influye en las percepciones del agente y condiciona su diseño. Los ambientes se pueden clasificar como:
-* **Accesibles y no accesibles.** Si el aparato sensorial de un agente le permite tener **acceso al estado total** de un ambiente, se dice que este es **accesible** a tal agente. Un agente es realmente accesible si los sensores detectan todos los aspectos relevantes a la elección de una acción. Los ambientes accesibles son cómodos, puesto que no es necesario que el agente mantenga un estado interno para estar al tanto de lo que sucede en el mundo.
+- **Accesibles y no accesibles.** Si el aparato sensorial de un agente le permite tener **acceso al estado total** de un ambiente, se dice que este es **accesible** a tal agente. Un agente es realmente accesible si los sensores detectan todos los aspectos relevantes a la elección de una acción. Los ambientes accesibles son cómodos, puesto que no es necesario que el agente mantenga un estado interno para estar al tanto de lo que sucede en el mundo.
 
-* **Deterministas y no deterministas.** Si el estado siguiente de un ambiente se determina completamente mediante el estado actual y las acciones escogidas por los agentes, se dice que el ambiente es determinista. En principio, un agente no tiene por que preocuparse sobre la incertidumbre en un ambiente accesible y determinista. Pero si el ambiente es inaccesible, entonces podría parecer que es no determinista. Lo anterior es especialmente valido cuando el ambiente es complejo, dificultando el estar al tanto de todos los aspectos inaccesibles. Por ello, es mas conveniente calificar el que un ambiente sea determinista o no determinista considerando el punto de vista el agente.
+- **Deterministas y no deterministas.** Si el estado siguiente de un ambiente se determina completamente mediante el estado actual y las acciones escogidas por los agentes, se dice que el ambiente es determinista. En principio, un agente no tiene por que preocuparse sobre la incertidumbre en un ambiente accesible y determinista. Pero si el ambiente es inaccesible, entonces podría parecer que es no determinista. Lo anterior es especialmente valido cuando el ambiente es complejo, dificultando el estar al tanto de todos los aspectos inaccesibles. Por ello, es mas conveniente calificar el que un ambiente sea determinista o no determinista considerando el punto de vista el agente.
 
-* **Episódicos y no episódicos.** En un ambiente episódico, la experiencia del agente se divide en “episodios” cada episodio consta de un agente que percibe y actúa. la calidad de su actuación dependerá del episodio mismo, dado que los episodios subsecuentes no dependerán de las acciones producidas en episodios anteriores. Los ambientes episódicos son más sencillos puesto que el agente no tiene que pensar por adelantado.
+- **Episódicos y no episódicos.** En un ambiente episódico, la experiencia del agente se divide en “episodios” cada episodio consta de un agente que percibe y actúa. la calidad de su actuación dependerá del episodio mismo, dado que los episodios subsecuentes no dependerán de las acciones producidas en episodios anteriores. Los ambientes episódicos son más sencillos puesto que el agente no tiene que pensar por adelantado.
 
-* **Estáticos y dinámicos.** Si existe la posibilidad de que el ambiente sufra modificaciones mientras el agente se encuentra deliberando, se dice que tal ambiente se comporta en forma dinámica en relación con el ambiente; de lo contrario, se dice que es estático. Es mas fácil trabajar con ambientes estáticos puesto que el agente no tiene que observar lo que sucede en el mundo al mismo tiempo que decide sobre el curso de una acción, ni tampoco tiene que preocuparse por el paso del tiempo. Si el ambiente no cambia con el paso del tiempo, pero si se modifica la calificación asignada al desempeño de un agente, se dice que el ambiente es semidinámico.
+- **Estáticos y dinámicos.** Si existe la posibilidad de que el ambiente sufra modificaciones mientras el agente se encuentra deliberando, se dice que tal ambiente se comporta en forma dinámica en relación con el ambiente; de lo contrario, se dice que es estático. Es mas fácil trabajar con ambientes estáticos puesto que el agente no tiene que observar lo que sucede en el mundo al mismo tiempo que decide sobre el curso de una acción, ni tampoco tiene que preocuparse por el paso del tiempo. Si el ambiente no cambia con el paso del tiempo, pero si se modifica la calificación asignada al desempeño de un agente, se dice que el ambiente es semidinámico.
 
-* **Discretos y continuos.** Si existe una cantidad limitada de percepciones y acciones distintas y claramente discernibles, se dice que el ambiente es discreto. El ajedrez es discreto: existe una cantidad fija de posibles jugadas en cada ronda. La conducción de un taxi es continua: la velocidad y la ubicación del taxi y de los demás vehículos se extiende a través de un rango de valores continuos
+- **Discretos y continuos.** Si existe una cantidad limitada de percepciones y acciones distintas y claramente discernibles, se dice que el ambiente es discreto. El ajedrez es discreto: existe una cantidad fija de posibles jugadas en cada ronda. La conducción de un taxi es continua: la velocidad y la ubicación del taxi y de los demás vehículos se extiende a través de un rango de valores continuos
 
 Las características del entorno influyen en el diseñó del agente, por ejemplo:
-* Si el entorno es accesible el agente no necesita un estado interno
-* Si el entorno es episódico el agente no tiene que preocuparse del impacto de sus decisiones 
-* Si el entorno es dinámico el agente tiene que seguir observando mientras razona
+- Si el entorno es accesible el agente no necesita un estado interno
+- Si el entorno es episódico el agente no tiene que preocuparse del impacto de sus decisiones 
+- Si el entorno es dinámico el agente tiene que seguir observando mientras razona
 
 ![[agentes_inteligentes_ambiente_ejemplos.png]]
 

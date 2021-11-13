@@ -26,10 +26,10 @@ En el paradigma lógico no está incluido el concepto de **asignación**, una as
 >La **instanciación**  es el proceso por el cual una variable (local a una cláusula) toma un valor. Es un caso de unificación en la que a una variable no instanciada se le asigna un valor.
 
 Reglas de unificación:
-* Una variable no instanciada unifica con cualquier término.
-* Dos constantes unifican solo si son idénticas.
-* Dos estructuras unifican si tienen igual functor e igual aridad y cada uno de los términos de sus argumentos unifican.
-* Dos términos son unificables si ellos pueden hacerse idénticos.
+- Una variable no instanciada unifica con cualquier término.
+- Dos constantes unifican solo si son idénticas.
+- Dos estructuras unifican si tienen igual functor e igual aridad y cada uno de los términos de sus argumentos unifican.
+- Dos términos son unificables si ellos pueden hacerse idénticos.
 
 ### Asignación
 Las expresiones aritméticas se realizan y unifican mediante el predicado **'is'**. No es un predicado lógico, con lo cual tendrá ciertas restricciones. El predicado 'is' unifica el primer argumento, con el valor calculado del segundo argumento.
@@ -56,19 +56,19 @@ Cuando hay necesidades de generar ciclos, se puede forzar el backtracking median
 La ejecución de un programa Prolog comienza con una pregunta considerada como meta principal. Para evaluar esa meta busca una cláusula tal que pueda unificar todas las variables. La meta es reemplazada por la cabeza de la cláusula, y todas las variables son instanciadas por la substitución obtenida, generando nuevas metas (o submetas).
 
 El proceso de unificación continúa, hasta que una de las siguientes situaciones ocurre:
-* La nueva meta es la **meta vacía**, como resultado de unificar con un **hecho**.
-	* La meta inicial **sucede**.
-	* El sistema compone todos los unificadores obtenidos para retornar una respuesta.
-* La nueva meta no es unificable con la cabeza de ninguna cláusula en el programa.
-	* El sistema retrocede a la meta precedente, y busca otra forma alternativa de ejecución.
-	* El proceso se repite hasta que sucede o una falla total ocurre (es decir, no encuentra más cláusulas para unificar, y no hay metas anteriores sobre las que pueda retroceder).
+- La nueva meta es la **meta vacía**, como resultado de unificar con un **hecho**.
+	- La meta inicial **sucede**.
+	- El sistema compone todos los unificadores obtenidos para retornar una respuesta.
+- La nueva meta no es unificable con la cabeza de ninguna cláusula en el programa.
+	--El sistema retrocede a la meta precedente, y busca otra forma alternativa de ejecución.
+	--El proceso se repite hasta que sucede o una falla total ocurre (es decir, no encuentra más cláusulas para unificar, y no hay metas anteriores sobre las que pueda retroceder).
 
 El proceso utilizado en cada paso (cláusula) se llama **resolución**, y el proceso en conjunto se llama **deducción por resolución**.
 
 #### Orden de metas y cláusulas
-* Si una variable ya está instanciada, no puede instanciar con otro valor. Esta es la llamada **propiedad de unicidad referencial**. 
-* El orden de las metas indica el orden en que los procesos serán ejecutados.
-* El orden de las cláusulas controla el orden en se producen las ramificaciones.
-* No es importante el orden de los procedimientos, si de las cláusulas dentro de cada procedimiento.
+- Si una variable ya está instanciada, no puede instanciar con otro valor. Esta es la llamada **propiedad de unicidad referencial**. 
+- El orden de las metas indica el orden en que los procesos serán ejecutados.
+- El orden de las cláusulas controla el orden en se producen las ramificaciones.
+- No es importante el orden de los procedimientos, si de las cláusulas dentro de cada procedimiento.
 
 ### Control de ejecución

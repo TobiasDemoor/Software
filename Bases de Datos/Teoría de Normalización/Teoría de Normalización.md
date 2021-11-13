@@ -2,12 +2,12 @@ La teoría de normalización trata de brindar un criterio para elegir un diseño
 
 ## Anomalías
 Se estudian las **anomalías** del diseño. Lo que buscamos son las "buenas propiedades" de los diseños de BD relacionales y evitar los problemas o características no deseables. Estos úlitmos se pueden clasificar de la siguiente manera:
-* **Redundancia** (ej: los datos del proveedor aparecen replicados por cada item)
-* **Inconsistencia Potencial** (ej: al estar replicados los datos del proveedor podrían quedar inconsistentes)
-* **Anomalías de Actualización**
-	* **Inserción** (ej: quiero dar de alta un proveedor que no provee ningún item, no puedo)
-	* **Modificación** (ej: quiero modificar los datos de un proveedor tengo que modificar todas sus apariciones)
-	* **Borrado** (ej: quiero borrar todos los items de un proveedor, se borran también los datos del proveedor)
+- **Redundancia** (ej: los datos del proveedor aparecen replicados por cada item)
+- **Inconsistencia Potencial** (ej: al estar replicados los datos del proveedor podrían quedar inconsistentes)
+- **Anomalías de Actualización**
+	- **Inserción** (ej: quiero dar de alta un proveedor que no provee ningún item, no puedo)
+	- **Modificación** (ej: quiero modificar los datos de un proveedor tengo que modificar todas sus apariciones)
+	- **Borrado** (ej: quiero borrar todos los items de un proveedor, se borran también los datos del proveedor)
 
 Esquema de ejemplo: PROVEEDOR(P-nro, P-nombre, P-dir, nro-Item, nombre-Item, precio)
 

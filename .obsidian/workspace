@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"* \"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,14 +117,14 @@
   "active": "7a35da8e360f01c0",
   "lastOpenFiles": [
     "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/World Wide Web.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
-    "Redes de Computadoras/Redes de computadoras.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Bases de Datos/Procesamiento de transacciones.md",
-    "Conceptos/Transacciones.md",
-    "Bases de Datos/Bases de Datos.md",
-    "Sistemas Distribuidos/Sistemas de archivos distribuidos.md"
+    "Inteligencia Artificial/Prolog.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Propagación de una señal.md",
+    "Bases de Datos/Teoría de Normalización/Propiedades de las descomposiciones relacionales.md",
+    "Inteligencia Artificial/Razonamiento.md",
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos funcionales.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Perturbaciones/Ruido.md",
+    "Sistemas Distribuidos/Coordinación/Sincronización.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md"
   ]
 }

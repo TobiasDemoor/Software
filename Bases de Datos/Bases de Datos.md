@@ -13,14 +13,14 @@ Una base de datos computarizada puede ser mantenida por un grupo de programas de
 Cuando se define una base de datos no solo se define la estructura sino que también se definen reglas que restringen los datos que la van a componer. Si de alguna manera los datos que se encuentran en la base de datos no cumplen con estas reglas estaría en un **estado inconsistente**, los datos cumplen todas las reglas se dice que es una **base de datos legal**.
 
 En comparación al esquema predecesor de procesamiento de archivos las carácteristicas del approach de base de datos son las siguientes:
- * **Naturaleza auto descriptiva del sistema de base de datos**
+ - **Naturaleza auto descriptiva del sistema de base de datos**
 		Una característica fundamental del approach de base de datos es que el [[Sistema de Base de Datos|sistema de base de datos]] no solo contiene la base de datos en sí sino también la definición o descripción de la estructura y [[Integrity constraints|restricciones]] de la base de datos (meta-data). Es importante comentar que los sistemas NOSQL no requieren meta-data, sino que la información es almacenada como información auto descriptiva (**self-describing data**).
- * **Aislamiento entre Programas e Información, y Data Abstraction**
+ - **Aislamiento entre Programas e Información, y Data Abstraction**
 		En el procesamiento de archivos tradicional la estructura del almacenamiento está embebido en los programas de aplicación, por lo tanto cualquier cambio a la estructura requiere actualizar todos los programas que accedan al almacenamiento. En contraste los programas de acceso del [[DBMS|DBMS]] no requieren esos cambios en la mayoría de los casos. La estructura del almacenamiento está almacenada en el **[[catálogo]]**, separado de los programas de acceso. A esta propiedad se le llama **independencia programa-información** (**program-data independence**).
 		![[Data Abstraction]]
- * **Soporte de multiples vistas de la información**
+ - **Soporte de multiples vistas de la información**
 		Una base de datos suele tener muchos tipos de usuarios, cada uno de los cuales puede requerir una perspectiva o **vista** diferente de la base de datos. Una vista puede ser un subset de la base de datos o puede contener **información virtual** (**virtual data**) que es derivada de los archivos de base de datos pero no almacenada explicitamente.
- * **Sharing de información y procesamiento de transacciones multiusuario**
+ - **Sharing de información y procesamiento de transacciones multiusuario**
 		Un [[DBMS|DBMS]] multiusuario debe permitir el acceso de multiples usuarios a la base de datos simultaneamente. Esto es esencial si se pretende integrar y mantener información para múltiples aplicaciones en una sola base de datos. El [[DBMS|DBMS]] debe incluir software de **control de concurrencia** para asegurar que varios usuarios intentando modificar la misma información lo hagan en forma controlada. El concepto de [[Transacciones|transacción]] es central para muchas aplicaciones de base de datos.
 
 ## Modelo de Datos

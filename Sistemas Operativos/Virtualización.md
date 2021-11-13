@@ -5,8 +5,8 @@ En esencia la virtualización trata con extender o reemplazar una [[Interfaz|int
 ### Tipos de virtualización
 Para entender los tipos de virtualización primero se debe entender que los [[Sistemas de Computación|sistemas de computación]] generalmente ofrecen cuatro tipos de [[Interfaz|interfaces]] en tres niveles distintos:
 1. Una interfaz entre el hardware y el software, referida como **instruction set architecture (ISA)**, formando el conjunto de intrucciones de máquina. Este conjunto se divide en dos grupos:
-	* Instrucciones privilegiadas, las cuales solo pueden ser ejecutadas por el [[Sistemas Operativos|sistema operativo]].
-	* Instrucciones generales, las cuales pueden ser ejecutadas por cualquier programa.
+	- Instrucciones privilegiadas, las cuales solo pueden ser ejecutadas por el [[Sistemas Operativos|sistema operativo]].
+	- Instrucciones generales, las cuales pueden ser ejecutadas por cualquier programa.
 2. Una interfaz que consiste de la **llamadas al sistema** ofrecidas por el [[Sistemas Operativos|sistema operativo]].
 3. Una interfaz consistente de llamadas a librerías, que generalmente forman lo que es conocido como **application programming interfaze ([[API]])**. En muchos casos, las llamadas al sistema antes mencionadas están [[Encapsulamiento|encapsuladas]] mediante una API.
 
@@ -19,9 +19,9 @@ Una monitor de máquina virtual nativa debe proveer y regular acceso a varios re
 ![[tipos_de_virtualizacion_1.png]]
 
 ### Razones
-* Consolidación de servidores. Puedo tener un solo servidor físico y los demás virtualizados.
-* Eficiencia energética. Puedo virtualizar varios servidores en una misma máquina.
-* Administración centralizada
-* Relocación. Si tengo el servidor en una MV, puedo levantar la MV en otro hardware totalmente distinto, puedo portear el servidor.
-* [[Reliability|Confiabilidad]]
-* [[Abstracción|Abstracción]]
+- Consolidación de servidores. Puedo tener un solo servidor físico y los demás virtualizados.
+- Eficiencia energética. Puedo virtualizar varios servidores en una misma máquina.
+- Administración centralizada
+- Relocación. Si tengo el servidor en una MV, puedo levantar la MV en otro hardware totalmente distinto, puedo portear el servidor.
+- [[Reliability|Confiabilidad]]
+- [[Abstracción|Abstracción]]

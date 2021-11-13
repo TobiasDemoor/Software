@@ -16,17 +16,17 @@ El conjunto de esquemas de relación, junto con las restricciones adicionales as
 > Una relación, por ser un conjunto, nunca tiene tuplas repetidas.
 
 ### Restricciones
-* Dominio:
+- Dominio:
 	> Cada atributo tiene un dominio definido y debe tomar valores pertenecientes a este
-* Clave (superclave - clave candidata, CK - clave primaria, PK):
+- Clave (superclave - clave candidata, CK - clave primaria, PK):
 	> Dado R, para cualquier r(R), t₁ y t₂ dos tuplas distintas cualesquiera, SK conjunto de atributos que constituyen una superclave en $R: t_1[SK] ≠ t_2[SK]$.
 	> La superclave puede tener elementos redundantes, pero la clave debe ser minimal.
 	> Una clave nunca debe tomar valor nulo.
 * Integridad referencial (clave foránea, FK):
 	> Sean R₁ y R₂ dos esquemas de relación y FK un subconjunto de atributos en R₂. FK es **clave foránea** en R₂ si:
-	> * Los atributos en FK tienen el mismo dominio que los atributos de la clave primaria de R₁.
-	> * Un valor para FK en la tupla t₂ en R₂ debe existir como valor de clave primaria para alguna tupla t₁ en R₁, o en caso que no exista debe tomar valor nulo.
-* Dependencias de datos (ej: [[Dependencia Funcional|dependencias funcionales]])
+	> - Los atributos en FK tienen el mismo dominio que los atributos de la clave primaria de R₁.
+	> - Un valor para FK en la tupla t₂ en R₂ debe existir como valor de clave primaria para alguna tupla t₁ en R₁, o en caso que no exista debe tomar valor nulo.
+- Dependencias de datos (ej: [[Dependencia Funcional|dependencias funcionales]])
 %%[[Integrity constraints]]%%
 	
 ### Esquema lógico de la base de datos

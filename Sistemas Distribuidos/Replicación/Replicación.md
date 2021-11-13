@@ -136,9 +136,9 @@ El manejo de réplicas también trata con la propagación de contenido actualiza
 
 #### Estado versus operaciones
 Un problema de diseño relevante concierne a qué es lo que se va a propagar. Básicamente se tienen tres posibilidades:
-* Propagar solamente una notificación de la actualización.
-* Transferir los datos de una copia a otra.
-* Propagar la operación de actualización a otras copias.
+- Propagar solamente una notificación de la actualización.
+- Transferir los datos de una copia a otra.
+- Propagar la operación de actualización a otras copias.
 
 Propagar una notificación es lo que hacen los **protocolos de invalidación**. En estos, se les informa a las otras copias que se ha llevado a cabo una actualización y que su información ya no es válida. En estos se puede notificar qué parte es invalidada. Su ventaja principal es su bajo consumo de ancho de banda. Estos modelos son convenientes cuando se tiene un bajo ratio lectura/escritura (solo se actualiza una réplica inválida cuando se requiere y se ahorran actualizaciones inútiles).
 
