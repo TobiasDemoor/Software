@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 7/DNS/Espacio de nombres de DNS.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 7/DNS.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 7/DNS/Espacio de nombres de DNS.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 7/DNS/Espacio de nombres de DNS.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/DNS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -107,8 +107,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,15 +116,15 @@
   },
   "active": "7a35da8e360f01c0",
   "lastOpenFiles": [
+    "Redes de Computadoras/Modelo OSI/Capa 7/DNS.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/DNS/Espacio de nombres de DNS.md",
-    "attachments/dns_name_space.png",
-    "Redes de Computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
+    "attachments/dns_1.png",
+    "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres.md",
+    "attachments/dns_name_space.png",
     "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
     "Redes de Computadoras/Redes de computadoras.md",
-    "Bases de Datos/Procesamiento de transacciones.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/QUIC.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
-    "Conceptos/Idempotencia.md"
+    "Bases de Datos/Procesamiento de transacciones.md"
   ]
 }
