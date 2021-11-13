@@ -1,3 +1,6 @@
+---
+aliases: [cliente-servidor]
+---
 En el modelo cliente-servidor básico, los procesos en un son divididos en dos grupos (con posible solapamiento). Un proceso **servidor** es un proceso implementando un servicio específico. Un proceso **cliente** es un proceso que solicita un servicio a un servidor mediante el envio de una solicitud y subsecuentemente la espera de la respuesta. La interacción cliente-servidor también es conocida como **request-reply behavior**. ^extracto
 
 ### Contexto - Problema

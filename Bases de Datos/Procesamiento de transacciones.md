@@ -1,4 +1,4 @@
-Trabajaremos con un modelo simplificado de la [[Base de Datos]] donde:
+Trabajaremos con un modelo simplificado de la [[Bases de Datos|base de datos]] donde:
 * Se considera la BD como una colección de items de dato
 * Un Item de dato puede ser campo, registro, bloque, etc.
 * El tamaño del item de dato está definido (este tamaño define la **granularidad** con la que se trabaja).

@@ -1,3 +1,6 @@
+---
+aliases: [red, redes]
+---
 ## Definición
 Se llama **red de computadoras** a un conjunto de computadoras autónomas interconectadas mediante una sola tecnología. Se dice que dos computadoras están interconectadas si pueden intercambiar información. La conexión no necesita ser a través de un cable de cobre; también se puede utilizar fibra óptica, microondas, infrarrojos y satélites de comunicaciones. Las redes pueden ser de muchos tamaños, figuras y formas. Por lo general se conectan entre sí para formar rede más grandes, en donde **[[Internet]]** es el ejemplo más popular de una red de redes.
 

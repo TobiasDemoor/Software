@@ -16,7 +16,7 @@ Los números de puerto menores que 1024 están reservados para los servicios est
 | 20, 21 | FTP         | Transferencia de archivos.                    |
 | 22     | SSH         | Inicio de sesión remoto, reemplazo de Telnet. |
 | 25     | SMTP        | Correo electrónico.                           |
-| 80     | [[HTTP]]    | [[WWW\|World Wide Web]].                      |
+| 80     | [[HTTP]]    | [[World Wide Web]].                      |
 | 110    | POP-3       | Acceso remoto al correo electrónico.          |
 | 143    | IMAP        | Acceso remoto al correo electrónico.          |
 | 443    | [[[HTTPS]]] | Acceso seguro a web (HTTP sobre SSL/TLS).     |

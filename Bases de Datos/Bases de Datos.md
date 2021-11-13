@@ -1,3 +1,6 @@
+---
+aliases: [base de datos, BD, DB]
+---
 >"Una base de datos es una fuente central de [[Dato, información y conocimiento|datos]] con el fin de que varios usuarios la compartan para su uso en varias aplicaciones" - (Kendall, 2005)
 
 Se puede definir una base de datos como una colección de datos relacionados. Esta definición es muy general y usualmente el término *base de datos* es más restrictivo. Una base de datos tiene las siguientes propiedades:

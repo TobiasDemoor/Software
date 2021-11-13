@@ -82,7 +82,7 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -117,14 +117,14 @@
   "active": "7a35da8e360f01c0",
   "lastOpenFiles": [
     "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/World Wide Web.md",
     "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
-    "Sistemas Distribuidos/Sistemas de archivos distribuidos.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/WWW.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/REST.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/DNS/Resolución de nombres DNS.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/DNS/Espacio de nombres de DNS.md",
-    "attachments/dns_1.png"
+    "Redes de Computadoras/Redes de computadoras.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Bases de Datos/Procesamiento de transacciones.md",
+    "Conceptos/Transacciones.md",
+    "Bases de Datos/Bases de Datos.md",
+    "Sistemas Distribuidos/Sistemas de archivos distribuidos.md"
   ]
 }

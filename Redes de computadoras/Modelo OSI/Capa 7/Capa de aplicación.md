@@ -4,4 +4,4 @@ La **capa de aplicación** contiene una variedad de protocolos que los usuarios 
 ![[DNS]]
 
 ## Web
-![[WWW]]
+![[World Wide Web]]
