@@ -72,12 +72,12 @@ HTTP utiliza dos estrategias para lidiar con este problema, las cuales se muestr
 En el caso que no se utilize el encabezado *Expires* se utiliza la segunda estrategia: preguntar al servidor si la copia en caché sigue siendo válida. Esta solicitud es un GET condicional y se muestra como el paso 3. Si el servidor sabe que la copia en caché aún es válida, puede enviar una respuesta corta para decirlo (paso 4a). En caso contrario, debe enviar la respuesta completa (paso 4b).
 
 #### Versiones
-| Version | Novedad                                                      | [[RFC]] |
-| ------- | ------------------------------------------------------------ | ------- |
-| 1.0     | Versión pública inicial, solo tiene GET                      | 1945    |
-| 1.1     | Conexiones persistentes                                      | 2616    |
-| 2.0     | Protocolo binario en vez de texto; multiplexado; server push | 7540    |
-| 3.0     | Adios TCP, hola [[QUIC]]                                     | 9000    |
+| Version  | Novedad                                                      | [[RFC]] |
+| -------- | ------------------------------------------------------------ | ------- |
+| HTTP/1.0 | Versión pública inicial, solo tiene GET                      | 1945    |
+| HTTP/1.1 | Conexiones persistentes                                      | 2616    |
+| HTTP/2   | Protocolo binario en vez de texto; multiplexado; server push | 7540    |
+| HTTP/3   | Adios TCP, hola [[QUIC]]                                     | 9000    |
 
 
 En HTTP/3 se pasa de TCP a QUIC por las ineficiencias de TCP frente a las pérdidas de paquetes y al inicio de la conexión.
