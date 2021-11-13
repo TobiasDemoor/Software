@@ -66,3 +66,6 @@ SPF es otro tipo reciente de registro, el cual permite a un dominio codificar in
 Luego están los registros TXT, cuyo objetivo original era permitir que los dominios se identificaran a sí mismos en formas arbitrarias. En la actualidad usualmente codifican información legible por máquina, por lo general la información SPF.
 
 Finalmente, un registro HINFO (host info) es utilizado para almacenar información adicional del host, tal como su típo de máquina y sistema operativo (está cayendo en desuso por problemas de seguridad). De manera similar los registros TXT son usados para otro tipo de datos que el usuario encuentra útiles de almacenar sobre la entidad representada por el nodo.
+
+### Resolución de nombres
+![[Resolución de nombres DNS]]

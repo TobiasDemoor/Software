@@ -3,5 +3,5 @@ La **capa de aplicación** contiene una variedad de protocolos que los usuarios 
 ## DNS
 ![[DNS]]
 
-## HTTP
-![[HTTP]]
+## Web
+![[WWW]]
