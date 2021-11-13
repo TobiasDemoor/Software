@@ -1,0 +1,1 @@
+HTTPS es la versión segura de [[HTTP]] que cifra los mensajes en tránsito mediante el uso de un protocolo seguro de la capa de transporte (TLS), aunque a menudo se conoce por su anterior encarnación como Secure Sockets Layer (SSL). Utiliza cifrado asimétrico y claves de sesión. HTTPS utiliza el puerto bien conocido TCP/443.

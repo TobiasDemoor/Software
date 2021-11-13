@@ -16,20 +16,38 @@ Sin embargo, las conexiones persistentes no son regaladas, puesto que surge un n
 También es posible enviar una solicitud por cada conexión TCP, y ejecutar varias conexiones TCP en paralelo. Este método de **conexión paralela** se utilizaba mucho en los navegadores antes de las conexiones persistentes. Tiene la misma desventaja que las conexiones secuenciales: una sobrecarga adicional, pero a la vez ofrece un desempeño mucho mayor. Esto se debe a que al establecer y aumentar las conexiones en paralelo se oculta parte de la latencia. En nuestro ejemplo, las conexiones para las imágenes incrustadas se pueden establecer al mismo tiempo. Sin embargo, no se recomienda ejecutar muchas conexiones TCP con el mismo servidor. La razón es que TCP controla la congestión para cada conexión de manera independiente. Como consecuencia, las conexiones compiten entre sí, lo cual provoca una pérdida de paquetes adicional, y en conjunto son usuarios más agresivos de la red que una conexión individual. Las conexiones persistentes son superiores y es preferible usarlas en vez de las conexiones paralelas, ya que evitan una sobrecarga y no sufren de los problemas de congestión
 
 #### Métodos
-Aunque HTTP se diseñó para utilizarlo en la web, se ha hecho intencionalmente más general de lo necesario con miras a futuros usos orientados a objetos. Por esta razón, se soportan otras operaciones, llamadas **métodos**, diferentes a las de solicitar una página web.
+Aunque HTTP se diseñó para utilizarlo en la web, se ha hecho intencionalmente más general de lo necesario con miras a futuros usos orientados a objetos. Por esta razón, se soportan otras operaciones, llamadas **métodos**, diferentes a las de solicitar una página web.
 
-| Método  | Descripción                            |
-| ------- | -------------------------------------- |
-| GET     | Leer una página web.                   |
-| HEAD    | Leer el encabezado de una página web.  |
-| POST    | Adjuntar a una página web.             |
-| PUT     | Almacenar una página web.              |
-| DELETE  | Eliminar la página web.                |
-| TRACE   | Repetir la solicitud entrante          |
-| CONNECT | Conectarse a través de un proxy        |
-| OPTIONS | Consultar las opciones para una página |
+| Método  | Descripción                            | Idempotente | Seguro |
+| ------- | -------------------------------------- | ----------- | ------ |
+| GET     | Leer una página web.                   | SI          | SI     |
+| HEAD    | Leer el encabezado de una página web.  | SI          | SI     |
+| POST    | Adjuntar a una página web.             | NO          | NO     |
+| PUT     | Almacenar una página web.              | SI          | NO     |
+| DELETE  | Eliminar la página web.                | SI          | NO     |
+| TRACE   | Repetir la solicitud entrante          | SI          | SI     |
+| CONNECT | Conectarse a través de un proxy        | SI          | SI     |
+| OPTIONS | Consultar las opciones para una página | SI          | SI     |
 
-Cada solicitud obtiene una respuesta que consiste en una línea de estado, y posiblemente de información adicional (por ejemplo, toda o parte de una página web). La línea de estado contiene un código de estado de tres dígitos que indica si se atendió la solicitud, y si no, por qué. El primer dígito se utiliza para dividir las respuestas en cinco grupos principales. En la práctica, los códigos 1xx no se utilizan con frecuencia. Los códigos 2xx indican que la solicitud se manejó de manera exitosa y que se regresa el contenido (si hay alguno). Los códigos 3xx indican al cliente que busque en otro lado, ya sea mediante el uso de un URL diferente o en su propia caché. Los códigos 4xx significan que la solicitud falló debido a un error del cliente, por ejemplo: una solicitud inválida o una página inexistente. Por último, los errores 5xx indican que el servidor tiene un problema interno, debido a un error en su código o a una sobrecarga temporal.
+> Un método no seguro es aquel que modifica el estado interno del servidor.
+
+El método GET solicita al servidor que envíe la página (objeto en el caso genérico). La cual está codificada de forma adecuada en MIME.
+
+El método HEAD sólo pide el encabezado del mensaje, sin la página real. Este método se puede utilizar para recolectar información para fines de indización, o sólo para evaluar la validez de un URL.
+
+El método POST se utiliza para enviar formularios. Al igual que GET, porta también un URL, pero en lugar de sólo recuperar una página, envía datos al servidor (es decir, el contenido del formulario o los parámetros de RPC). Después el servidor hace algo con los datos que dependen del URL; conceptualmente adjunta los datos al objeto. Finalmente, el método devuelve una página que indica el resultado. 
+
+El método PUT es lo inverso a GET: en lugar de leer la página, la escribe. Este método hace posible la construcción de una colección de páginas web en un servidor remoto. El cuerpo de la solicitud contiene la página. Se puede codificar mediante el uso de MIME, en cuyo caso las líneas que siguen al método PUT podrían incluir encabezados de autentificación, para demostrar que el invocador realmente tiene permiso de realizar la operación solicitada.
+
+DELETE hace lo que usted podría esperar: elimina la página, o al menos indica que el servidor web está de acuerdo con eliminar la página. Al igual que con PUT, la autentificación y el permiso juegan un papel importante aquí.
+
+El método TRACE es para la depuración. Indica al servidor que regrese la solicitud. Este método es útil cuando las solicitudes no se están procesando de manera correcta y el cliente desea saber cuál solicitud ha obtenido realmente el servidor.
+
+El método CONNECT permite a un usuario realizar una conexión con un servidor web por medio de un dispositivo intermedio, como una caché web
+
+El método OPTIONS proporciona una forma para que el cliente consulte al servidor sobre una página y obtenga los métodos y encabezados que se pueden usar con esa página.
+
+Cada solicitud obtiene una respuesta que consiste en una línea de estado, y posiblemente de información adicional (por ejemplo, toda o parte de una página web). La línea de estado contiene un código de estado de tres dígitos que indica si se atendió la solicitud, y si no, por qué. El primer dígito se utiliza para dividir las respuestas en cinco grupos principales. En la práctica, los códigos 1xx no se utilizan con frecuencia. Los códigos 2xx indican que la solicitud se manejó de manera exitosa y que se regresa el contenido (si hay alguno). Los códigos 3xx indican al cliente que busque en otro lado, ya sea mediante el uso de un URL diferente o en su propia caché. Los códigos 4xx significan que la solicitud falló debido a un error del cliente, por ejemplo: una solicitud inválida o una página inexistente. Por último, los errores 5xx indican que el servidor tiene un problema interno, debido a un error en su código o a una sobrecarga temporal.
 
 | Código | Significado        | Ejemplos                                                          |
 | ------ | ------------------ | ----------------------------------------------------------------- |
@@ -45,9 +63,9 @@ A la línea de solicitud (por ejemplo, la línea con el método GET ) le pueden 
 #### Almacenamiento en caché
 A menudo las personas regresan a las páginas web que han visto antes, y es común que las páginas web relacionadas tengan los mismos recursos incrustados. Algunos ejemplos son las imágenes que se utilizan para navegar a través del sitio, así como las hojas de estilo y las secuencias de comandos comunes. Sería un desperdicio obtener todos estos recursos para esas páginas cada vez que se desplieguen en pantalla, puesto que el navegador ya tiene una copia. HTTP tiene soporte integrado para ayudar a los clientes a identificar cuándo pueden reutilizar páginas. Este soporte mejora el desempeño al reducir tanto el tráfico como la latencia en la red. La desventaja es que el navegador ahora debe guardar páginas, pero esto casi siempre vale la pena, ya que el almacenamiento local no es muy costoso. Por lo general las páginas se mantienen en el disco, de modo que se puedan usar al ejecutar el navegador en una fecha posterior.
 
-El verdadero problema con el almacenamiento en caché en HTTP es cómo determinar que una copia de una página previamente colocada en caché es la misma que se obtendría del servidor otra vez. No podemos hacer esta determinación únicamente con base en el URL. Por ejemplo, tal vez el URL puede proporcionar una página que muestra la noticia más reciente. El contenido de esta página se actualizará con frecuencia, incluso cuando el URL permanezca igual. O por el contrario, el contenido de la página puede ser una lista de los dioses de la mitología griega y romana. Lo más seguro es que esta página cambie con menos rapidez.
+El verdadero problema con el almacenamiento en caché en HTTP es cómo determinar que una copia de una página previamente colocada en caché es la misma que se obtendría del servidor otra vez. No podemos hacer esta determinación únicamente con base en el URL. Por ejemplo, tal vez el URL puede proporcionar una página que muestra la noticia más reciente. El contenido de esta página se actualizará con frecuencia, incluso cuando el URL permanezca igual. O por el contrario, el contenido de la página puede ser una lista de los dioses de la mitología griega y romana. Lo más seguro es que esta página cambie con menos rapidez.
 
-HTTP utiliza dos estrategias para lidiar con este problema, las cuales se muestran en la figura 7-40 como formas de procesamiento entre la solicitud (paso 1) y la respuesta (paso 5). La primera estrategia es la validación de páginas (paso 2). Se consulta la caché y, si tiene una copia de una página para el URL solicitado que se sabe está actualizada (es decir, aún es válida), no hay necesidad de obtenerla de nuevo del servidor. En cambio, se puede regresar la página en caché directamente. Para realizar esta determinación podemos utilizar el encabezado *Expires* que se devolvió cuando se obtuvo por primera vez la página en caché, junto con la fecha y hora actuales
+HTTP utiliza dos estrategias para lidiar con este problema, las cuales se muestran en la figura 7-40 como formas de procesamiento entre la solicitud (paso 1) y la respuesta (paso 5). La primera estrategia es la validación de páginas (paso 2). Se consulta la caché y, si tiene una copia de una página para el URL solicitado que se sabe está actualizada (es decir, aún es válida), no hay necesidad de obtenerla de nuevo del servidor. En cambio, se puede regresar la página en caché directamente. Para realizar esta determinación podemos utilizar el encabezado *Expires* que se devolvió cuando se obtuvo por primera vez la página en caché, junto con la fecha y hora actuales
 
 ![[HTTP_almacenamiento_en_cache.png]]
 
@@ -61,8 +79,10 @@ En el caso que no se utilize el encabezado *Expires* se utiliza la segunda estra
 | 2.0     | Protocolo binario en vez de texto; multiplexado; server push | 7540    |
 | 3.0     | Adios TCP, hola [[QUIC]]                                     | 9000    |
 
-> Un método no seguro es aquel que modifica el estado interno del servidor.
 
 En HTTP/3 se pasa de TCP a QUIC por las ineficiencias de TCP frente a las pérdidas de paquetes y al inicio de la conexión.
 
 > TCP slow start se usa porque la ventana TCP arranca chica y se va agrandando. Empieza chica para evitar las retransmisiones. La pérdida de paquetes en TCP genera que se reduzca abruptamente la ventana.
+
+#### HTTPS
+![[HTTPS]]

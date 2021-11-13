@@ -11,17 +11,17 @@ El servicio TCP se obtiene al hacer que tanto el servidor como el receptor creen
 
 Los números de puerto menores que 1024 están reservados para los servicios estándar que, por lo general, sólo los usuarios privilegiados pueden iniciar (por ejemplo, el usuario root en los sistemas UNIX). Éstos se llaman puertos bien conocidos, a continuación se muestra la lista de algunos de los más conocidos, la lista completa se proporciona en www.iana.org.
 
-| Puerto | Protocolo | Uso                                           |
-| ------ | --------- | --------------------------------------------- |
-| 20, 21 | FTP       | Transferencia de archivos.                    |
-| 22     | SSH       | Inicio de sesión remoto, reemplazo de Telnet. |
-| 25     | SMTP      | Correo electrónico.                           |
-| 80     | HTTP      | World Wide Web.                               |
-| 110    | POP-3     | Acceso remoto al correo electrónico.          |
-| 143    | IMAP      | Acceso remoto al correo electrónico.          |
-| 443    | HTTPS     | Acceso seguro a web (HTTP sobre SSL/TLS).     |
-| 543    | RTSP      | Control del reproductor de medios.            |
-| 631    | IPP       | Compartición de impresoras.                   |
+| Puerto | Protocolo   | Uso                                           |
+| ------ | ----------- | --------------------------------------------- |
+| 20, 21 | FTP         | Transferencia de archivos.                    |
+| 22     | SSH         | Inicio de sesión remoto, reemplazo de Telnet. |
+| 25     | SMTP        | Correo electrónico.                           |
+| 80     | [[HTTP]]    | [[WWW\|World Wide Web]].                      |
+| 110    | POP-3       | Acceso remoto al correo electrónico.          |
+| 143    | IMAP        | Acceso remoto al correo electrónico.          |
+| 443    | [[[HTTPS]]] | Acceso seguro a web (HTTP sobre SSL/TLS).     |
+| 543    | RTSP        | Control del reproductor de medios.            |
+| 631    | IPP         | Compartición de impresoras.                   |
 
 Todas las conexiones TCP son full dúplex y de punto a punto. Full dúplex significa que el tráfico puede ir en ambas direcciones al mismo tiempo. Punto a punto significa que cada conexión tiene exactamente dos puntos terminales. TCP no soporta la multidifusión ni la difusión.
 
