@@ -4,7 +4,18 @@ Porque cada nodo en DNS tiene exactamente una sola arista entrante (exceptuando 
 
 Los contenidos de un nodo son una colección de **registros de recursos** o **resource records**. Hay varios típos de registros de recursos.
 
-![[dns_name_space.png]]
+| Tipo  | Significado                              |
+| ----- | ---------------------------------------- |
+| SOA   | Inicio de autoridad                      |
+| A     | Dirección IPv4 de un host                |
+| AAAA  | Dirección IPv6 de un host                |
+| MX    | Intercambio de correo                    |
+| NS    | Servidor de nombres                      |
+| CNAME | Nombre canónico                          |
+| PTR   | Apuntador                  |
+| SRV   | Server a cargo de un servicio específico |
+| HINFO | Información del host                     |
+| TXT   | Texto               |
 
 Un nodo en el espacio de nombres de DNS usualmente representará varias entidades al mismo tiempo. Por ejemplo un nombre de dominio es usuado para representar un dominio y una zona. En este caso el dominio es implementado por medio de varias zonas sin overlap.
 
