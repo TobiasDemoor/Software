@@ -31,19 +31,19 @@ El tercer campo de cada registro de recursos es la *Clase*. Para información de
 
 El campo *Tipo* indica el tipo de registro del que se trata. Hay muchos tipos de registros de DNS.
 
-| Tipo  | Significado                             | Valor                                                     |
-| ----- | --------------------------------------- | --------------------------------------------------------- |
-| SOA   | Inicio de autoridad                     | Parámetros para esta zona                                 |
-| A     | Dirección IPv4 de un host               | Entero de 32 bits.                                        |
-| AAAA  | Dirección IPv6 de un host               | Entero de 128 bits                                        |
-| MX    | Intercambio de correo                   | Prioridad, dominio dispuesto a aceptar correo electrónico |
-| NS    | Servidor de nombres                     | Nombre de un servidor para este dominio                   |
-| CNAME | Nombre canónico                         | Nombre de dominio                                         |
-| PTR   | Apuntador                               | Alias de una dirección IP                                 |
-| SPF   | Marco de trabajo de política del emisor | Codificación de texto de la política de envío de correo   |
-| SRV   | Servicio                                | Host que lo provee                                        |
-| TXT   | Texto                                   | Texto ASCII descriptivo                                   |
-| HINFO | Información del host                    | Información del hardware del host                         |
+| Tipo  | Significado                             | Valor                                                         |
+| ----- | --------------------------------------- | ------------------------------------------------------------- |
+| SOA   | Inicio de autoridad                     | Parámetros para esta zona                                     |
+| A     | Dirección IPv4 de un host               | Entero de 32 bits.                                            |
+| AAAA  | Dirección IPv6 de un host               | Entero de 128 bits                                            |
+| MX    | Intercambio de correo                   | Prioridad, dominio dispuesto a aceptar [[correo electrónico]] |
+| NS    | Servidor de nombres                     | Nombre de un servidor para este dominio                       |
+| CNAME | Nombre canónico                         | Nombre de dominio                                             |
+| PTR   | Apuntador                               | Alias de una dirección IP                                     | 
+| SPF   | Marco de trabajo de política del emisor | Codificación de texto de la política de envío de correo       |
+| SRV   | Servicio                                | Host que lo provee                                            |
+| TXT   | Texto                                   | Texto ASCII descriptivo                                       |
+| HINFO | Información del host                    | Información del hardware del host                             |
 
 Un nodo en el espacio de nombres de DNS usualmente representará varias entidades al mismo tiempo. Por ejemplo un nombre de dominio es usuado para representar un dominio y una zona. En este caso el dominio es implementado por medio de varias zonas sin overlap.
 

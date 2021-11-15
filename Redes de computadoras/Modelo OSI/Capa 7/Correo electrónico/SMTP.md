@@ -1,0 +1,15 @@
+En [[Internet]], el [[correo electrónico]] se entrega al hacer que la computadora emisora establezca una conexión [[TCP]] con el puerto 25 de la computadora receptora. En este puerto escucha un servidor de correo que habla **SMTP (Simple Mail Transfer Protocol)**. Este servidor acepta conexiones entrantes sujetas a ciertas verificaciones de seguridad, y además acepta mensajes para su entrega. Si no se puede entregar un mensaje, se devuelve al emisor un informe de error que contiene la primera parte del mensaje que no se pudo entregar.
+
+SMTP es un protocolo ASCII simple. Esto no es una debilidad, sino una característica. Al usar texto ASCII se facilita el proceso de desarrollar, probar y depurar los protocolos. Se pueden probar al enviar comandos en forma manual, y los registros de los mensajes son fáciles de leer.
+
+![[SMTP_ejemplo_envio_de_mensaje.png]]
+
+Vamos a recorrer una transferencia de un mensaje simple entre servidores de correo para entregar un mensaje. Después de establecer la conexión TCP con el puerto 25, la máquina emisora, que opera como cliente, espera a que la máquina receptora, que opera como servidor, transmita primero. El servidor empieza por enviar una línea de texto en la que proporciona su identidad e indica si está preparado o no para recibir correo. Si no lo está, el cliente libera la conexión y lo intenta después.
+
+Si el servidor está dispuesto a aceptar correo electrónico, el cliente anuncia de quién proviene el mensaje, y a quién está dirigido. Si existe el destinatario en el destino, el servidor da al cliente permiso para enviar el mensaje. A continuación el cliente envía el mensaje y el servidor confirma su recepción. No se requieren sumas de verificación porque TCP proporciona un flujo de bytes confiable. Si hay más correo electrónico, se envía ahora. Una vez que se ha intercambiado todo el correo electrónico en ambas direcciones, se libera la conexión.
+
+El protocolo SMTP básico funciona bien, pero está limitado en varios aspectos. No incluye autentificación. Esto significa que el comando FROM en el ejemplo podría proporcionar cualquier dirección de emisor que desee. Esto es bastante útil para enviar spam. Otra limitación es que el SMTP transfiere mensajes ASCII, no datos binarios (similar a [[HTTP]], se puede solventar usando MIME y codificación base64). Una tercera limitación es que el SMTP envía mensajes sin ningún tipo de cifrado para proveer una medida de privacidad para protegerse contra los entrometidos.
+
+Para lidiar con éstos y otros problemas relacionados con el procesamiento de los mensajes, se revisó el protocolo SMTP para idear un mecanismo de extensión. Este mecanismo es una parte obligatoria del estándar RFC 5321. El uso de SMTP con extensiones se denomina **ESMTP (Extended SMTP)**.
+
+Los clientes que deseen usar una extensión envían al principio un mensaje EHLO en vez de HELO. Si el saludo se rechaza, esto indica que es un servidor SMTP normal, y el cliente debe proceder de la manera normal. Si se acepta el EHLO, el servidor responde con las extensiones que soporta. A continuación el cliente puede usar cualquiera de estas extensiones.

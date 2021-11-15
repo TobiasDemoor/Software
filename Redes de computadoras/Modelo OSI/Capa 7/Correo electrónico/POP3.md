@@ -1,0 +1,4 @@
+---
+aliases: [POP]
+---
+**POP3 (Post Office Protocol, version 3)**, el cual se especifica en el [[RFC]] 1939. POP3 es un protocolo más simple, pero soporta menos características y es menos seguro en el uso común en comparación a [[IMAP]]. Por lo general el [[Correo electrónico|correo]] se descarga a la computadora del agente de usuario, en vez de permanecer en el servidor de correo. Esto facilita la vida al servidor, pero es más difícil para el usuario. No es fácil leer el correo en varias computadoras; además, si la computadora del agente de usuario se descompone, cabe la probabilidad de perder todo el correo electrónico de manera permanente. Sin embargo, el protocolo POP3 se sigue utilizando en muchas partes.

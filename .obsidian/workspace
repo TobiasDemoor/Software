@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 7/Correo electrónico/Correo electrónico.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/Correo electrónico/Correo electrónico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/Correo electrónico/Correo electrónico.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -111,20 +111,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "7a35da8e360f01c0",
   "lastOpenFiles": [
-    "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/Correo electrónico/Correo electrónico.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/Correo electrónico/IMAP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/Correo electrónico/POP3.md",
     "Redes de Computadoras/Daily/20211115.md",
-    "Redes de Computadoras/Daily/20211108.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento intradominio.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Algoritmos de enrutamiento.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/BGP.md",
-    "Bases de Datos/Recuperación ante fallos.md",
-    "Bases de Datos/Procesamiento de transacciones.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/UDP.md"
+    "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/Correo electrónico/SMTP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
+    "Redes de Computadoras/Daily/20211108.md"
   ]
 }
