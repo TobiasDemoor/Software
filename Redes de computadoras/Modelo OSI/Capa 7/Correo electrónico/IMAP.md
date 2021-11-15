@@ -33,3 +33,5 @@ Primero, el cliente iniciará un transporte seguro si se debe usar uno (para man
 IMAP tiene también muchas otras características, como la habilidad de direccionar el correo no con base en el número de mensaje, sino mediante el uso de atributos (por ejemplo, dame el primer mensaje de Alice). Se pueden realizar búsquedas en el servidor para encontrar los mensajes que cumplan con ciertos criterios, de modo que el cliente recupere sólo esos mensajes.
 
 IMAP es una mejora de uno de los primeros protocolos de entrega final, [[POP3]].
+
+![[POP3]]
