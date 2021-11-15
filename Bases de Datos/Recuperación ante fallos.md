@@ -1,9 +1,10 @@
-Hay varios tipos de fallos:
-- Crash del sistema: el contenido de la memoria interna se pierde (puede ser causado por falla de hardware o error de software).
+Hay muchas cosas que pueden fallar a medida que la base de datos recibe consultas y es modificada. Los siguientes items son un catálogo de los modos de fallo más importantes:
+- Fallo de almacenamiento secundario: pueden verse comprometidas solo algunas secciones o todo el disco. En este caso se puede proteger mediante un esquema de RAID.
+- Fallo catastrófico: dentro de esta categoría se incluyen varias situaciones donde el dispositivo almacenando la base de datos puede verse destruido. Por ejemplo, explosionese, incendios, o vandalismo. Se puede proteger de este mediante backups offsite.
+- Fallo del sistema: son problemas que causan que el contenido de la memoria interna se pierda y por ende el estado de las transacciones en ejecución.
 - Error de transacción o sistema: overflow, división por cero, parámetros incorrectos, el usuario cancela la transacción.
 - Errores locales o condiciones de excepción: la transacción no encuentra los datos a ser leídos
 - Mecanismos de control de concurrencia deciden abortar una o más transacciones: puede ser por diversos motivos.
-- Falla de almacenamiento secundario
 
 Para la recuperación ante fallos se definen dentro de las transacciones operaciones primitivas y espacios de memoria (un elemento de dato entra en un bloque). Estas operaciones primitivas son:
 1. **INPUT(X):** copia el bloque de disco conteniendo el elemento de datos X al buffer de memoria. 
@@ -24,6 +25,16 @@ Para la recuperación ante fallos se definen dentro de las transacciones operaci
 - **Recovery:** When a system crash occurs, the log is used to repair the database, restoring it to a consistent state (**recovery manager**).
 
 ![[recuperacion_ante_fallos_componentes.png]]
+
+El **transaction manager** es el componente encargado de asegurar que las transacciones son ejecutadas correctamente. Este subsistema realiza varias funciones, entre ellas:
+1. Enviar señales al **log manager** para que la información necesaria pueda ser almacenada como registros de log en el log.
+2. Asegurar que las transacciones ejecutandosé concurrentemente no interfieran entre ellas de manera que se puedan introducir errores.
+
+El transaction manager envia mensajes acerca de las acciones de transacciones al log manager acerca de cuando es posible o necesario copiar el buffer a disco al **buffer manager** y al **query processor** para ejecutar las queries y otras operaciones de base de datos que formen parte de una transacción.
+
+El **log manager** mantiene el log. Debe trabajar con el buffer manager, ya que el espacio para el log inicialmente aparece en los buffer de memoria principal, y en cierto punto estos buffers deben ser copiados a disco. Tanto el **log** como los **datos** ocupan espacio en el disco.
+
+Finalmente el **recovery manager** se activa cuando hay un crash. Examina el log y lo usa p ara reparar los datos, si es necesario. Como en los casos anteriores, el acceso a disco es a través del buffer manager.
 
 ### Logging
 En la técnica de recuperación ante fallos mediante logging se hace uso de un archivo de logs APPEND ONLY.
