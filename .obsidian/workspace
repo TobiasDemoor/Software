@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Recuperación ante fallos.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Recuperación ante fallos.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Recuperación ante fallos.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -116,15 +116,15 @@
   },
   "active": "7a35da8e360f01c0",
   "lastOpenFiles": [
+    "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
+    "Redes de Computadoras/Daily/20211115.md",
+    "Redes de Computadoras/Daily/20211108.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento intradominio.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Algoritmos de enrutamiento.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/BGP.md",
     "Bases de Datos/Recuperación ante fallos.md",
     "Bases de Datos/Procesamiento de transacciones.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/UDP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/QUIC.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/HTTPS.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
-    "Inteligencia Artificial/Prolog.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Medios no guiados/Propagación de una señal.md"
+    "Redes de Computadoras/Modelo OSI/Capa 4/UDP.md"
   ]
 }
