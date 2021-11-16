@@ -1,9 +1,9 @@
 **NAT o Network Adress Translation** es una técnica que traduce [[direcciones IP]] privadas a direcciones públicas. Busca solucionar de alguna manera el agotamiento de direcciones [[IP|IPv4]]. Se encuentra definida en el [[RFC]] 3022.
 
 La idea básica detrás de NAT es que el ISP asigne a cada hogar o negocio una sola dirección IP para el tráfico de [[Internet]]. Dentro de la red del cliente, cada computadora obtiene una dirección IP única, la cual se utiliza para enrutar el tráfico interno. Sin embargo, justo antes de que un paquete salga de la red del cliente y vaya al ISP, la dirección IP única interna se traduce a la dirección IP pública compartida. Esta traducción hace uso de los tres rangos de direcciones IP que se han declarado como privados. Las redes pueden utilizarlos de manera interna como deseen. La única regla es que no pueden aparecer paquetes que contengan estas mismas direcciones en Internet. Los tres rangos reservados son:
-- 10.0.0.0 2 10.255.255.255/8 (16,777,216 hosts) 
-- 172.16.0.0 2 172.31.255.255/12 (1,048,576 hosts) 
-- 192.168.0.0 2 192.168.255.255/16 (65,536 hosts)
+- 10.0.0.0 - 10.255.255.255/8 (16,777,216 hosts) 
+- 172.16.0.0 - 172.31.255.255/12 (1,048,576 hosts) 
+- 192.168.0.0 - 192.168.255.255/16 (65,536 hosts)
 
 Dentro de las premisas del cliente, cada máquina tiene una dirección única de la forma (por ejemplo) 10.x.y.z. Sin embargo, antes de que un paquete salga de las premisas del cliente, pasa a través de una **caja NAT** que convierte la dirección IP de origen interna, 10.0.0.1 en la figura, a la dirección IP verdadera del cliente, 198.60.42.12 en este ejemplo. A menudo, la caja NAT se combina en un solo dispositivo con un [[firewall]] que proporciona seguridad controlando cuidadosamente lo que entra y sale por la red.
 
