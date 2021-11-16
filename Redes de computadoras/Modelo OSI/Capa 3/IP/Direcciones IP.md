@@ -1,3 +1,6 @@
+---
+aliases: [direcciones IP, dirección IP, IP address]
+---
 Una característica que define a IPv4 consiste en sus direcciones de 32 bits. Cada host y enrutador de [[Internet]] tiene una dirección IP que se puede usar en los campos Dirección de origen y Dirección de destino de los paquetes [[IP]]. Es importante tener en cuenta que una dirección IP en realidad *no se refiere a un host, sino a una interfaz de red*, por lo que si un host está en dos redes, debe tener dos direcciones IP. Sin embargo, en la práctica la mayoría de los hosts están en una red y, por ende, tienen una dirección IP. En contraste, los enrutadores tienen varias interfaces y, por lo tanto, múltiples direcciones IP.
 
 ### Prefijos
@@ -13,13 +16,13 @@ Aunque el uso de una jerarquía permite a Internet escalar, tiene dos desventaja
 
 La segunda desventaja es que la jerarquía desperdicia direcciones a menos que se administre con cuidado. Si se asignan direcciones a las redes en bloques (muy) grandes, habrá (muchas) direcciones que se asignen pero no se utilicen.
 
-### Subredes
-[[Subredes IP]]
+#### Subredes
+![[Subredes IP]]
 
-### Superredes
+#### Superredes
 ![[Superredes IP]]
 
-### Direccionamiento con clases
+#### Direccionamiento con clases
 Antes de 1993, las direcciones IP se dividían en cinco categorías llamadas clases, esta asignación se denominó **direccionamiento con clases**.
 
 ![[direcciones_ip_clases.png]]
@@ -34,7 +37,7 @@ También existen otras direcciones con significados especiales. La dirección IP
 
 ![[direcciones_ip_especiales.png]]
 
-### Enrutamiento Interdominio Classless
+#### Enrutamiento Interdominio Classless
 Los enrutadores en las organizaciones en el extremo de una red, como una universidad, necesitan tener una entrada para cada una de sus subredes, de manera que el enrutador pueda saber qué línea usar para llegar a esa red. Para las rutas a destinos fuera de la organización, sólo necesitan usar la regla simple predeterminada de enviar los paquetes en la línea hacia el ISP que conecta a la organización con el resto de Internet. Las otras direcciones de destino deben estar por ahí en alguna parte.
 
 Los enrutadores en los ISP y las redes troncales en medio de Internet no se pueden dar esos lujos. Ellos deben saber qué ruta tomar hacia cada una de las redes; aquí no funciona la regla simple predeterminada. Se dice que estos enrutadores básicos están en la **zona libre predeterminada** de Internet. Nadie sabe en realidad cuántas redes están conectadas a Internet, pero es una gran cantidad, por lo menos un millón. Esto puede generar una tabla muy grande.

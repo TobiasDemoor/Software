@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,13 +103,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
-    "Resumenes/Resumen Redes.md",
-    "Bases de Datos/Lenguajes/SQL.md"
+    "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/World Wide Web.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/HTTPS.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento intradominio.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Algoritmos de enrutamiento.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/BGP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Interconexión de redes.md"
   ]
 }
