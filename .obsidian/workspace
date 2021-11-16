@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
+            "file": "Resumenes/Resumen Redes.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "802.1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
+                "file": "Resumenes/Resumen Redes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
+                "file": "Resumenes/Resumen Redes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,15 +107,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Resumenes/Resumen Redes.md",
+    "Redes de Computadoras/IEEE 802/802.1/vLAN.md",
+    "Redes de Computadoras/Daily/20211108.md",
+    "Redes de Computadoras/IEEE 802/802.1/STP.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/World Wide Web.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/HTTPS.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento intradominio.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Algoritmos de enrutamiento.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/BGP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Interconexión de redes.md"
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento intradominio.md"
   ]
 }

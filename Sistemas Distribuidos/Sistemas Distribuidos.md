@@ -99,7 +99,7 @@ En la práctica cloud está organizado en cuatro capas:
 
 **Infrastructure:** una capa importante que forma la columna vertebral de la mayor parte de las plataformas de cloud computing. Implementa técnicas de [[Virtualización|virtualización]] para proveer a los clientes una infraestructura consistente de almacenamiento virtual y recursos de computo.
    
-Los servicios IaaS a menudo ofrecen recursos como imágenes de disco de [[Virtualización|máquinas virtuales]], almacenamiento orientado a bloques , almacenamiento de archivos u objetos, firewalls, balanceadores de carga, direcciones IP públicas, redes de área local virtual ([[VLAN]])
+Los servicios IaaS a menudo ofrecen recursos como imágenes de disco de [[Virtualización|máquinas virtuales]], almacenamiento orientado a bloques , almacenamiento de archivos u objetos, firewalls, balanceadores de carga, direcciones IP públicas, redes de área local virtual ([[vLAN]])
 
 **Platform:** se puede argumentar que la capa de plataforma provee al cliente de cloud computing lo que un [[Sistemas Operativos|sistema operativo]] provee a los developers de aplicaciones, osea los medios para desarrollar y deployar aplicaciones con facilidad. En la práctica se le ofrece al developer una [[API]] específica del proveedor que incluye las llamadas para subir y ejecutar un programa en el cloud de dicho proveedor. Al igual que los [[Sistemas Operativos|sistemas operativos]], la capa de plataforma provee abstracciones de más alto nivel para el almacenamiento y el resto de los recursos.
 
