@@ -111,7 +111,7 @@ El proveedor ofrece estas capas a sus clientes mediante varias interfaces, lleva
 - **Software-as-a-Service (SaaS)** para la capa de aplicación.
 
 ### Distributed Information Systems
-Una clase importante de sistema distribuido se encuentra en las organizaciones que tienen una gran cantidad de aplicaciones interconectadas, en estos caso la interoperabilidad de estas aplicaciones se vuelve un punto importante a considerar. Si un programa cliente envia un request que incluye varios request menores (posiblemente para diferentes servers) debe ser ejecutado como una [[Distributed Transactions|transacción distribuida]].
+Una clase importante de sistema distribuido se encuentra en las organizaciones que tienen una gran cantidad de aplicaciones interconectadas, en estos caso la interoperabilidad de estas aplicaciones se vuelve un punto importante a considerar. Si un programa cliente envia un request que incluye varios request menores (posiblemente para diferentes servers) debe ser ejecutado como una [[Transacciones distribuidas|transacción distribuida]].
 
 ### Pervasive systems ([[IoT]])
 Los sistemas antes descriptos se caracterizan por su estabilidad, los nodos son fijos y tienen conexiones de red más o menos permanentes y de alta calidad. Sin embargo, luego de la introducción de dispositivos móviles y embebidos ha habido un cambio que ha llevado a lo que usualmente se denominan **pervasive systems** (literalmente "sistema penetrante"). Estos sistemas se caracterizan y están diseñados para mezclarse en nuestro entorno, son naturalemente sistemas distribuidos.

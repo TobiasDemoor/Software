@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Resumenes/Resumen Redes.md",
-            "mode": "preview"
+            "file": "Sistemas Distribuidos/Daily/20211116.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "802.1",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resumenes/Resumen Redes.md",
+                "file": "Sistemas Distribuidos/Daily/20211116.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resumenes/Resumen Redes.md",
+                "file": "Sistemas Distribuidos/Daily/20211116.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Resumenes/Resumen Redes.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/IP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red de Internet.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Interconexión de redes.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Algoritmos de enrutamiento.md",
-    "Redes de Computadoras/IEEE 802/802.1/vLAN.md",
-    "Redes de Computadoras/Daily/20211108.md",
-    "Redes de Computadoras/IEEE 802/802.1/STP.md"
+    "Sistemas Distribuidos/Daily/20211116.md",
+    "Sistemas Distribuidos/Daily/20211109.md",
+    "Sistemas Distribuidos/Daily/20211026.md",
+    "Sistemas Distribuidos/Daily/20211019.md",
+    "Sistemas Distribuidos/Daily/20211012.md",
+    "Sistemas Distribuidos/Transacciones distribuidas.md",
+    "Sistemas Distribuidos/Comunicación/RPC.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Conceptos/Transacciones.md",
+    "Sistemas Distribuidos/Sistemas de archivos distribuidos.md"
   ]
 }
