@@ -1,3 +1,6 @@
+---
+aliases: [redundancia]
+---
 Hay dos motivos principales para replicar datos. Primero, los datos son replicados para incrementar la fiabilidad de un sistema. Si un sistema de archivos ha sido replicado puede ser posible continuar trabajando si una de las réplicas se cae simplemente trabajando con la otra réplica. También, manteniendo varias copias, es posible proveer protección contra la corrupción de datos.
 
 La otra razón para replicar datos es la [[performance]]. La replicación para performance es importante cuando un [[Sistemas Distribuidos|sistema distribuido]] necesita [[Escalabilidad|escalar]] en términos de tamaño o en términos de área geográfica que cubre.

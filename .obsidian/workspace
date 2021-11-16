@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Daily/20211116.md",
+            "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "commit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Daily/20211116.md",
+                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Daily/20211116.md",
+                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Daily/20211116.md",
-    "Sistemas Distribuidos/Daily/20211109.md",
-    "Sistemas Distribuidos/Daily/20211026.md",
-    "Sistemas Distribuidos/Daily/20211019.md",
-    "Sistemas Distribuidos/Daily/20211012.md",
-    "Sistemas Distribuidos/Transacciones distribuidas.md",
-    "Sistemas Distribuidos/Comunicación/RPC.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md",
-    "Conceptos/Transacciones.md",
-    "Sistemas Distribuidos/Sistemas de archivos distribuidos.md"
+    "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Análisis y Diseño/Conceptos/Fault, Failure.md",
+    "Sistemas Operativos/Conceptos/Dato, información y conocimiento.md",
+    "Análisis y Diseño/FURPS+/Reliability.md",
+    "Análisis y Diseño/FURPS+/Performance.md",
+    "Análisis y Diseño/FURPS+/Mantainability.md",
+    "Análisis y Diseño/FURPS+/Usability.md",
+    "Análisis y Diseño/FURPS+/Supportability.md"
   ]
 }

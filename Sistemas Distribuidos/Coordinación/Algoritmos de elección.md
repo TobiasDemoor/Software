@@ -1,4 +1,8 @@
-En muchos [[Sistemas Distribuidos]] se requiere que un proceso actúe como coordinador, iniciador o que cumpla un rol especial. En general no importa cuál proceso tiene esta responsabilidad, pero uno debe hacerlo y el resto debe estar de acuerdo en quien lo hace.
+---
+aliases: [coordinador]
+---
+
+En muchos [[sistemas distribuidos]] se requiere que un proceso actúe como **coordinador**, iniciador o que cumpla un rol especial. En general no importa cuál proceso tiene esta responsabilidad, pero uno debe hacerlo y el resto debe estar de acuerdo en quien lo hace.
 
 Si todos los procesos son exactamente idénticos es indistinto cuál es elegido. Podemos suponer que cada proceso P tiene un identificador único $id(P)$. En general, los algorítmos de elección intentan localizar el proceso con el mayor id y designarlo como coordinador. Los algorítmos difieren en cómo localizan al coordinador.
 
