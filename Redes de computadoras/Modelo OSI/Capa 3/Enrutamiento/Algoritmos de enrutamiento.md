@@ -91,5 +91,5 @@ Cuando se utiliza el enrutamiento jerárquico, los enrutadores se dividen en lo 
 ### Enrutamiento intradominio
 ![[Enrutamiento intradominio]]
 
-### Enrutamiento intredominio
-![[Enrutamiento intredominio]]
+### Enrutamiento interdominio
+![[Enrutamiento interdominio]]

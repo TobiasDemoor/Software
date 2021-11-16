@@ -28,6 +28,12 @@ La idea detrás de los circuitos virtuales es evitar la necesidad de elegir una 
 
 En algunos contextos, a este proceso se le conoce como **conmutación mediante etiquetas**. **MPLS (MultiProtocol Label Swithching)** es un ejemplo de servicio de red orientado a conexión. Se utiliza dentro de las redes de ISP en Internet, en donde los paquetes IP se envuelven en un encabezado MPLS que tiene un identificador de conexión o etiqueta de 20 bits.
 
+## Algoritmos de enrutamiento
+![[Algoritmos de enrutamiento]]
+
+## Interconexión de redes
+![[Interconexión de redes]]
+
 ## ARP
 ![[ARP]]
 
@@ -39,9 +45,3 @@ En algunos contextos, a este proceso se le conoce como **conmutación mediante e
 
 ## Capa de red de Internet
 ![[Capa de red de Internet]]
-
-## Algoritmos de enrutamiento
-![[Algoritmos de enrutamiento]]
-
-## Interconexión de redes
-![[Interconexión de redes]]
