@@ -103,19 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
     "Resumenes/Resumen Redes.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/IP/IP.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red de Internet.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Interconexión de redes.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Algoritmos de enrutamiento.md",
     "Redes de Computadoras/IEEE 802/802.1/vLAN.md",
     "Redes de Computadoras/Daily/20211108.md",
     "Redes de Computadoras/IEEE 802/802.1/STP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/World Wide Web.md"
+    "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md"
   ]
 }
