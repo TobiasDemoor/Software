@@ -109,14 +109,14 @@
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
     "Bases de Datos/Daily/20211117.md",
-    "Sistemas Operativos/Resumen completo.md",
-    "Teoría de la Información/Resumen completo.md",
+    "Organización de Datos/índice.md",
     "Organización de Datos/Resumen completo.md",
-    "Bases de Datos/Recuperación ante fallos.md",
-    "Conceptos/Idempotencia.md",
-    "Bases de Datos/Daily/idempotente.md",
-    "Conceptos/Transacciones.md",
-    "Bases de Datos/Procesamiento de transacciones.md",
-    "Bases de Datos/Bases de Datos.md"
+    "Teoría de la Información/Control de errores.md",
+    "Teoría de la Información/Resumen completo.md",
+    "Sistemas Operativos/Resumen completo.md",
+    "Sistemas Operativos/Sistemas Operativos.md",
+    "Sistemas Operativos/Sistemas de Computación.md",
+    "Sistemas Operativos/Conceptos/Usuario.md",
+    "Bases de Datos/Recuperación ante fallos.md"
   ]
 }

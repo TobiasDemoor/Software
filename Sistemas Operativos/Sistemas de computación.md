@@ -18,3 +18,25 @@ Incluye, fundamentalmente, al [[Sistemas Operativos|sistema operativo]] y a las 
 	- Entrada (terminales, teclados, etc.)
 	- Salida (imagen, sonido, etc.)
 - **[[Dato, información y conocimiento|Información]]** (el recurso **más** importante)
+
+## Conceptos básicos de SSCC
+### Usuario
+![[Usuario]]
+
+### Dato, información y conocimiento
+![[Dato, información y conocimiento]]
+
+### Archivo
+![[Archivo]]
+
+### Programa
+![[Programa]]
+
+### Proceso
+![[Proceso]]
+
+### Hilo
+![[Thread]]
+
+### Tarea
+![[Tarea]]
