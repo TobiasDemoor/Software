@@ -27,7 +27,7 @@ Todas las conexiones TCP son full dúplex y de punto a punto. Full dúplex signi
 
 Una conexión TCP es un flujo de bytes, no un flujo de mensajes. Los límites de los mensajes no se preservan de un extremo a otro. Por ejemplo, si el proceso emisor realiza cuatro escrituras de 512 bytes en un flujo TCP, tal vez estos datos se entreguen al proceso receptor como cuatro fragmentos de 512 bytes, dos fragmentos de 1024 bytes, uno de 2 048 bytes, o de alguna otra forma. No hay manera de que el receptor detecte la(s) unidad(es) en la(s) que se escribieron los datos, sin importar qué tanto se esfuerce.
 
-![[TCP_flujo_conexion.png]]
+![[RRCC_TCP_flujo_conexion.png]]
 
 #### El protocolo TCP
 Una característica clave de TCP, y una que domina el diseño del protocolo, es que cada byte de una conexión TCP tiene su propio número de secuencia de 32 bits. Cuando Internet comenzó, las líneas entre los enrutadores eran principalmente líneas rentadas de 56 kbps, por lo que un host que mandaba datos a toda velocidad tardaba una semana en recorrer los números de secuencia. A las velocidades de las redes modernas, los números de secuencia se pueden consumir con una rapidez alarmante. Los números de secuencia separados de 32 bits se transmiten en paquetes para la posición de ventana deslizante en una dirección, y para las confirmaciones de recepción en la dirección opuesta.
@@ -41,7 +41,7 @@ El protocolo básico que utilizan las entidades TCP es el protocolo de ventana d
 #### El encabezado del segmento TCP
 Cada segmento comienza con un encabezado de formato fijo de 20 bytes. El encabezado fijo puede ir seguido de encabezado de opciones. Después de las opciones, si las hay, pueden continuar hasta 65 535 − 20 − 20 = 65 495 bytes de datos, donde los primeros 20 se refieren al encabezado IP y los segundos al encabezado TCP. Los segmentos sin datos son legales y se usan por lo común para confirmaciones de recepción y mensajes de control.
 
-![[TCP_encabezado.png]]
+![[RRCC_TCP_encabezado.png]]
 
 Los campos *Puerto de origen* y *Puerto de destino* identifican los puntos terminales locales de la conexión. Un puerto TCP más la dirección IP de su host forman un punto terminal único de 48 bits. Los puntos terminales de origen y de destino en conjunto identifican la conexión. Este identificador de conexión se denomina **5-tupla**, ya que consiste en cinco piezas de información: el protocolo (TCP), IP de origen y puerto de origen, IP de destino y puerto de destino.
 
@@ -84,7 +84,7 @@ Cuando este segmento llega al destino, la entidad TCP de ahí revisa si hay un p
 
 Si algún proceso está escuchando en el puerto, ese proceso recibe el segmento TCP entrante y puede entonces aceptar o rechazar la conexión. Si la acepta, se devuelve un segmento de confirmación de recepción.
 
-![[TCP_establecimiento_de_una_conexion.png]]
+![[RRCC_TCP_establecimiento_de_una_conexion.png]]
 
 #### Liberación de una conexión TCP
 Aunque las conexiones TCP son full dúplex, para entender la manera en que se liberan las conexiones es mejor visualizarlas como un par de conexiones simplex. Cada conexión simplex se libera de manera independiente de su igual. Para liberar una conexión, cualquiera de las partes puede enviar un segmento TCP con el bit *FIN* establecido, lo que significa que no tiene más datos por transmitir. Al confirmarse la recepción de *FIN*, se apaga ese sentido para que no se transmitan nuevos datos. Sin embargo, lo datos pueden seguir fluyendo de manera indefinida por el otro sentido. Cuando se apagan ambos sentidos, se libera la conexión. Por lo general **se requieren cuatro segmentos TCP para liberar una conexión**: un *FIN* y un *ACK* para cada sentido. Sin embargo, es posible que el primer *ACK* y el segundo *FIN* estén contenidos en el mismo segmento, con lo cual se reduce la cuenta total a tres.
@@ -112,12 +112,12 @@ Cada conexión comienza en el estado CLOSED (cerrado) y deja ese estado cuando h
 
 El caso común de un cliente que se conecta activamente a un servidor pasivo se indica con líneas gruesas (continuas para el cliente, punteadas para el servidor). Las líneas delgadas son secuencias de eventos no usuales. Cada línea de la máquina se marca mediante un par *evento/acción*. El evento puede ser una llamada de sistema iniciada por el usuario (CONNECT, LISTEN, SEND o CLOSE), la llegada de un segmento (*SYN*, *FIN*, *ACK* o *RST*) o, en un caso, una expiración de temporizador del doble del tiempo de vida máximo del paquete. La acción es el envío de un segmento de control (*SYN*, *FIN* o *RST*) o nada, lo cual se indica mediante (—). Los comentarios aparecen entre paréntesis.
 
-![[TCP_maquina_de_estados_finitos.png]]
+![[RRCC_TCP_maquina_de_estados_finitos.png]]
 
 #### Ventana deslizante de TCP
 La administración de ventanas en TCP separa los aspectos de la confirmación de la recepción correcta de los segmentos y la asignación del búfer en el receptor. Por ejemplo, suponga que el receptor tiene un búfer de 4096 bytes, como se muestra en la figura 6-40. Si el emisor transmite un segmento de 2048 bytes que se recibe correctamente, el receptor enviará la confirmación de recepción del segmento. Sin embargo, dado que ahora sólo tiene 2048 bytes de espacio de búfer (hasta que la aplicación retire algunos datos de éste), anunciará una ventana de 2048 comenzando con el siguiente byte esperado.
 
-![[TCP_ventana_deslizante.png]]
+![[RRCC_TCP_ventana_deslizante.png]]
 
 Ahora el emisor envía otros 2048 bytes, para los cuales el receptor envía la confirmación de recepción, pero la ventana anunciada tiene un tamaño de 0. El emisor debe detenerse hasta que el proceso de aplicación en el host receptor retire algunos datos del búfer, momento en el que TCP podrá anunciar una ventana más grande y se podrán enviar más datos.
 

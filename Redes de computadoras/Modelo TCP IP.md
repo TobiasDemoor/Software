@@ -1,8 +1,8 @@
 El **modelo de referencia TCP/IP** toma su nombre debido a sus dos [[Protocolo|protocolos]] primarios ([[TCP]] e [[IP]]). Es posterior al [[Modelo OSI|modelo de referencia OSI]] y sus objetivos principales son permitir conectar varias [[Redes de computadoras|redes]] sin problemas y sobrevivir a la pérdida de hardware de la [[Subred|subred]] sin que se interrumpieran las conversaciones existentes.
 
-![[model_tcp_ip_1.png]]
+![[RRCC_model_tcp_ip_1.png]]
 
-![[modelo_tcp_ip_2.png]]
+![[RRCC_modelo_tcp_ip_2.png]]
 
 ## Capas
 ### La capa de enlace

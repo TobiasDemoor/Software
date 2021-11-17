@@ -1,6 +1,6 @@
 Un datagrama IPv4 ([[IP]] versión 4) consiste en dos partes: el encabezado y el cuerpo o carga útil. El encabezado tiene una parte fija de 20 bytes y una parte opcional de longitud variable. Los bits se transmiten en orden de izquierda a derecha y de arriba hacia abajo, comenzando por el bit de mayor orden del campo *Versión* (éste es un orden de bytes de red *big endian*. En las máquinas *little endian*, como las computadoras Intel x86, se requiere una conversión por software tanto para la transmisión como para la recepción). En retrospectiva, el formato *little endian* hubiera sido una mejor opción, pero al momento de diseñar IP nadie sabía que llegaría a dominar la computación
 
-![[encabezado_IPv4.png]]
+![[RRCC_encabezado_IPv4.png]]
 
 El campo *Versión* lleva el registro de la versión del protocolo al que pertenece el datagrama. Al incluir la versión al inicio de cada datagrama, es posible tener una transición entre versiones a través de un largo periodo de tiempo. De hecho, IPv6 (la siguiente versión de IP) se definió hace más de una década y apenas se está empezando a implementar.
 

@@ -22,7 +22,7 @@ En muchos casos la única solución viable es relajar los **requerimientos de co
 ## Modelos de consistencia centrados en datos
 Tradicionalmente la consistencia fue discutida en el contexto de operaciones de lectura/escritura sobre datos compartidos, disponibles por medio de memoria compartida, una base de datos distribuida o un sistema de archivos. Aquí se usará el concepto **almacen de datos** o **data store** que abarca todos los anteriores. Un almacen de datos puede estar distribuido físicamente a través de varias máquinas. En particular se supone que cada proceso que puede acceder a datos del almacen tiene una copia local (o cercana) del almacen entero.
 
-![[replicación_data_store_1.png]]
+![[SSDD_replicación_data_store_1.png]]
 
 ![[Modelo de consistencia]]
 
@@ -46,7 +46,7 @@ Esta clase de modelos proviene del campo de la programación concurrente. Los si
 #### Consistencia Secuencial
 En los siguientes casos se usa una notación donde se representa el eje temporal como un eje horizontal que corre de izquierda a derecha. Se utiliza la notación $W_i (x)a$ para denotar que el proceso $P_i$ escribe un valor $a$ a un item de datos x. Similarmente usamos la notación $R_i (x)b$ para representar que el proceso $P_i$ lee x y el valor leido es b. También se asume que cada item tiene valor inicial NIL.
 
-![[consistencia_secuencial.png]]
+![[SSDD_consistencia_secuencial.png]]
 
 La **consistencia secuencial** es un importante modelo de consistencia centrado en datos (definido por Lamport\[1979] en el contexto de memoria compartida para sistemas multiprocesador).  Un almacen de datos es secuencialmente consistente  si satisface la siguiente condición:
 
@@ -65,7 +65,7 @@ Para que un almacen de datos se considere causalmente consistente, es necesario 
 
 > Escrituras que potencialmente están relacionadas por la causalidad, deben ser vistas por todos los procesos en el mismo orden. Las escrituras concurrentes pueden verse en un orden diferente en diferentes máquinas.
 
-![[consistencia_causal.png]]
+![[SSDD_consistencia_causal.png]]
 
 #### Operaciones de agrupamiento
 Muchos modelos de consistencia están definidos al nivel de operaciones de lectura y escritura. Este nivel de granularidad se debe a razones históricas: estos modelos se desarrollaron inicialmente para sistemas de multiprocesador de memoria compartida, y en realidad se implementaron al nivel de hardware.
@@ -80,7 +80,7 @@ La **consistencia eventual** es un modelo de consistencia donde se tienen pocos 
 ## Modelos de consistencia centrados en el cliente
 Los **modelos de consistencia centrados en el cliente** apuntan a proveer una vista consistente a nivel sistema del almacén de datos. Para el siguiente análisis se consideran almacenes de datos que se caracterízan por el ausencia de actualizaciones simultáneas, o que cuando estas ocurren, se supone que pueden ser resueltas fácilmente. La mayor parte de las operaciones son de lectura de datos. Estos almacenes ofrecen un modelo de consistencia débil, tal como la consistencia eventual. Introduciendo modelos de consistencia centrados en el cliente resulta que muchas inconsistencias se pueden ocultar de una manera relativamente sencilla.
 
-![[modelos_de_consistencia_centrados_en_el_cliente.png]]
+![[SSDD_modelos_de_consistencia_centrados_en_el_cliente.png]]
 
 Eventualmente los almacenes de datos consistentes generalmente funcionan bien dado que los clientes siempre acceden a la misma réplica. Sin embargo surgen inconveneintes cuando se accede a diferentes réplicas a lo largo del tiempo. Por ejemplo, si un cliente se conecta a una réplica en un momento, realiza operaciones de actualización y luego accede al sistema a través de otra réplica, si los cambios no se han propagado a dicha réplica el cliente notará un estado inconsistente.
 
@@ -95,7 +95,7 @@ En otras palabras la consistencia de lecturas monotónicas garantiza quee una ve
 
 Usando una notación similar a la de modelos de consistencia centrada en datos, la consistencia de lecturas monotónicas puede ser representada gráficamente. En vez de mostrar procesos sobre el eje vertical se muestran almacenes de datos locals. Una operación de lectura o escritura es indexada por el proceso que ejecutó la operación. $W_2(x_1;x_2)$ indica que el proceso $P_2$ es responsable de producir la versión $x_2$ que sigue de la $x_1$. Así mismo, $W_2(x_1|x_2)$ denota que el proceso $P_2$ produce la versión $x_2$ concurrentemente a la versión $x_1$ (por lo tanto potencialmente introduciendo un conflicto write-write).
 
-![[lecturas_monotonicas.png]]
+![[SSDD_lecturas_monotonicas.png]]
 
 ### Escrituras monotónicas
 En muchas situaciones es importante que las operaciones de escritura sean propagadas en el orden correcto a todas las copias del almacén. Esta propiedad es expresada en la **consistencia de escrituras monotónicas**. En un almacén consistente en escrituras monotónicas se cumple la siguiente condición:
@@ -104,7 +104,7 @@ En muchas situaciones es importante que las operaciones de escritura sean propag
 
 Más formalmente, si tenemos dos operaciónes de escritura sucesivas $W_k(x_i)$ y $W_k(x_j)$ por un mismo proceso $P_k$, entonces, sin importar donde se ejecuta $W_k(x_j)$, también tenemos $WS(x_i;x_j)$. Por lo tanto, completar una operación de escritura significa que esa copia en donde se ha realizado una operación sucesiva refleja el efecto de una operación de escritura previa por el mismo proceso, sin importar donde fue iniciada esta operación. En otras palabras, la operación de escritura en una copia de x es llevada a cabo solo si esa copia ha sido actualizada por medio de alguna operación de escritura previa por el mismo proceso, lo cual puede haber ocurrido en cualquier otra copia de x. Osea la nueva operación debe esperar que la anterior termine.
 
-![[escrituras_monotonicas.png]]
+![[SSDD_escrituras_monotonicas.png]]
 
 ### Lea sus escrituras
 Se dice que un almacén de datos provee **consistencia de lea sus escrituras**, si se cumple la siguiente condición:
@@ -121,7 +121,7 @@ Un problema clave de cualquier sistema distribuido que soporta replicación es d
 ### Replicación y ubicación de contenido
 Cuando se trata de replicación y ubicación de contenido, hay tres tipos distinguibles de réplicas.
 
-![[replicacion_y_ubicacion_de_contenido.png]]
+![[SSDD_replicacion_y_ubicacion_de_contenido.png]]
 
 #### Réplicas permanentes
 Las réplicas permanentes se pueden considerar el conjunto inicial de réplicas que constituyen el almacén de datos distribuido. En muchos casos el número de réplicas permanentes es reducido. Considerando el ejemplo de un sitio web, su distribución suele presentarse de dos maneras. El primer tipo es en el que el archivo que constituye el sitio es replicado sobre un número limitado de servidores en una ubicación única.
@@ -165,7 +165,7 @@ Los cache forman un caso especial de replicación ya que, generalmente, son cont
 
 El proceso de obtención a través de la web es lento y costoso: las respuestas de gran volumen requieren muchos recorridos entre el cliente y el servidor, de lo cual surgen demoras cuando están disponibles y pueden ser procesadas por el navegador, y también genera costos por consumo de datos para el visitante. Como consecuencia, la capacidad de almacenamiento en caché y reutilización de recursos obtenidos previamente es un aspecto crítico de la optimización para lograr un buen rendimiento. Buenas noticias, en todos los navegadores se incluye una implementación de un caché [[HTTP]].
 
-![[web_cache.png]]
+![[SSDD_web_cache.png]]
 
 Cuando el servidor muestra una respuesta, también emite un conjunto de encabezados [[HTTP]] que describen el tipo de contenido, la extensión, las directivas de almacenamiento en caché y el token de validación, entre otros aspectos. Por ejemplo, en el intercambio anterior, en el servidor se muestra una respuesta de 1024 bytes, se indica al cliente que la almacene en caché durante un plazo de hasta 120 segundos y se proporciona el token de validación (“x234dff”) que se puede usar después de que la respuesta caduca para verificar si se modificó el recurso.
 

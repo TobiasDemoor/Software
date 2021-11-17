@@ -2,6 +2,6 @@ Una arquitectura de capas bien conocida es la de los *communication-protocol sta
 
 Es importante comprender la diferencia entre un servicio ofrecido por una capa, la interfaz mediante la cual el servicio se hace disponible y el [[Protocolo|protocolo]] que esa capa implementa para establecer la comunicación.
 
-![[layered_communication_protocols_1.png]]
+![[RRCC_layered_communication_protocols_1.png]]
 
 Para reforzar la distincion, consideremos un servicio orientado a conexión fiable, el cual es proveido por varios sistemas de comunicación. En este caso, un miembro de la comunicación primero debe establecer una conexión con el otro miembro antes que puedan enviar y recibir mensajes. El ser fiable significa que se da una importante garantía de que los mensajes enviados llegarán a destino, hasta cuando el riesgo de pérdida de mensajes sea alto. Además estos servicios generalmente aseguran que los mensajes sean recibidos en el mismo orden que en el que fueron enviados. Este tipo de servicio se encuentra realizado en el Transmission Control Protocol (TCP).

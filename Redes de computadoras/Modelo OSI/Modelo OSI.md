@@ -5,7 +5,7 @@ El modelo de interconexión de sistemas abiertos (ISO/IEC 7498-1), conocido como
 4. Es necesario elegir los límites de las capas de modo que se minimice el flujo de informacion a través de las [[Interfaz|interfaces]].
 5. La cantidad de capas debe ser suficiente como para no tener que agrupar funciones distintas en la misma capa; además, debe ser lo basstante pequeña como para que la arquitectura no se vuelva inmanejable.
 
-![[modelo_osi_1.png]]
+![[RRCC_modelo_osi_1.png]]
 
 Se debe tener en cuenta que el modelo OSI en sí no es una arquitectura de red, ya que no especifica los servicios y protocolos exactos que se van a utilizar en cada capa. Sólo indica lo que una debe hacer. Sin embargo, la ISO también ha elaborado estándares para todas las capas, aunque no son parte del modelo de referencia en sí. Cada uno se publicó como un estándar internacional separado. Aunque el modelo (en parte) es muy usado, los protocolos asociados han estado en el olvido desde hace tiempo.
 
@@ -50,7 +50,7 @@ Por último, la capa es la que debe decidir qué *protocolos* de iguales utiliza
 ### Mala sincronización
 El tiempo en el cual se establece un estándar es absolutamente imprescindible para su éxito. David Clark, del MIT, tiene una teoría de estándares a la que llama el *apocalipsis de los dos elefantes*, la cual se ilustra en la siguiente figura.
 
-![[apocalipsis_de_los_dos_elefantes.png]]
+![[RRCC_apocalipsis_de_los_dos_elefantes.png]]
 
 Esta figura muestra la cantidad de actividad alrededor de un nuevo tema. Cuando se descubre el tema por primera vez, hay una ráfaga de actividades de investigación en forma de discusiones, artículos y reuniones. Después de cierto tiempo esta actividad disminuye, las corporaciones descubren el tema y llega la ola de inversión de miles de millones de dólares.
 

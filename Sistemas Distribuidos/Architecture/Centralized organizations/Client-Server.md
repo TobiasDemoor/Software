@@ -16,7 +16,7 @@ Los [[Cliente|clientes]] interactúan mediante peticiones de servicios al [[Serv
 ### ¿Dónde está la linea entre cliente y servidor?
 En esta organización todo es controlado por el servidor mientras el cliente no es nada más que una terminal boba (dumb terminal), posiblemente con solo una GUI. Sin embargo hay otras posibilidades y se puede distribuir de distintas maneras la aplicación entre estas dos máquinas, desde que la máquina servidor tenga control total sobre la interfaz que corre en la máquina cliente (el extremo de un **thin client**) hasta que la máquina cliente contenga toda la lógica de aplicación y posiblemente parte de la capa de datos (el extremo de un **fat client**).
 
-![[client_server_fat_thin_clients.png]]
+![[SSDD_client_server_fat_thin_clients.png]]
 
 ## Cliente
 ![[Cliente]]

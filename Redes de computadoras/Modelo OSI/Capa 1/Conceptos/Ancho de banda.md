@@ -4,7 +4,7 @@ El ancho de banda es una propiedad física del medio de transmisión que depende
 
 Es importante notar que al limitar el ancho de banda se limita la tasa de datos, incluso en canales perfecto. En la siguiente tabla se muestra que ocurre al aumentar la tasa de datos con un ancho de banda base fijo en 3000 Hz.
 
-![[ancho_de_banda_tasa_de_datos.png]]
+![[RRCC_ancho_de_banda_tasa_de_datos.png]]
 
 Lo definido anterior mente es el **ancho de banda analógico**, como se define en electrónica. Para el area de ciencias de la computación se suele hablar del **ancho de banda digital** que es la tasa de datos máxima de un canal (medido en bps). Esa tasa de datos es el resultado final de usar el ancho de banda analógico de un canal físico para transmisión digital, ambos están relacionados.
 

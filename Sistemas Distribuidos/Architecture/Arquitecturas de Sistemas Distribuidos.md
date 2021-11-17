@@ -26,7 +26,7 @@ Un uso notable de las arquitecturas híbridas es en los sistemas colaborativos d
 #### BitTorrent
 Un ejemplo concreto de esto es **BitTorrent**, que es un [[Sistemas P2P|sistema punto a punto]] de descarga de archivos. La concepto básico de su funcionamiento es que un usuario busca un archivo, descarga fragmentos del archivo de otros usuarios hasta que está que estos pueden ser ensamblados generando el archivo completo. Un objetivo importante es el asegurar la colaboración, y en estos sistemas hay una fracción importante de participantes que solamente descargan archivos, pero sin contribuir nada, a este fenomeno se lo llama **free riding**.
 
-![[collaborative_distributed_systems_bit_torrent_1.png]]
+![[SSDD_collaborative_distributed_systems_bit_torrent_1.png]]
 
 Para descargar un archivo, el usuario accede a un directorio global. Ese directorio contiene referencias a lo que se llama archivos torrent. Un archivo torrent o **torrent file** contiene información que es necesaria para descargar un archivo específico. En particular contiene un link a lo que es conocido como un **tracker**, el cual es un servidor que mantiene un recuento preciso de los nodos activos que tienen (segmentos) del archivo solicitado. Un nodo activo es uno que está actualmente descargando un archivo. 
 

@@ -3,9 +3,9 @@ La idea básica de un sistema ALOHA es sencilla: permitir que los usuarios trans
 
 Si la trama fue destruida, el emisor simplemente espera un tiempo aleatorio y la envía de nuevo. El tiempo de espera debe ser aleatorio o las mismas tramas chocarán una y otra vez, en sincronía. Los sistemas en los cuales varios usuarios comparten un canal común de modo tal que puede dar pie a conflictos se conocen como sistemas de **contención**. A esta versión del algoritmo se la denomina **ALOHA puro** al ser un algorítmo tan simple es ineficiente, ronda en un 18% de uso del canal.
 
-![[aloha_puro.png]]
+![[RRCC_aloha_puro.png]]
 
 #### ALOHA ranurado
 Si se definen [[Problema de acceso al medio|ranuras]] donde se pueden enviar tramas la eficiencia mejora mucho (se duplica), ya que sin esto basta con que se solapen ligeramente dos tramas para que ambas se pierdan. A este algorítmo se lo llama **ALOHA ranurado**.
 
-![[aloha_ranurado.png]]
+![[RRCC_aloha_ranurado.png]]

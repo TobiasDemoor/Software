@@ -44,7 +44,7 @@ Todo registro de una tabla tiene un identificador único llamado rid (record ide
 
 Usaremos dos tipos de archivos, **heap files** (archivos desordenados) y **sorted files** (archivos ordenados por algún conjunto de atributos).
 
-![[optimización_archivos_costos.png]]
+![[BD_optimización_archivos_costos.png]]
 
 #### Índices
 Los [[índice|índices]] permiten el acceso a la información de una forma no soportada (o no eficientemente soportada) por la organización básica de un archivo.

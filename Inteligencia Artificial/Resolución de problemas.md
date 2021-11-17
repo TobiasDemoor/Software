@@ -12,7 +12,7 @@ En esta representación:
 2. Si un nodo etiquetado con un problema se reduce a **subproblemas**, ellos se unen en un **manojo**. 
 3. Si un nodo etiquetado con un problema empareja con un **aserto**, se une a un **nodo vacío**.
 
-![[res_de_problemas_ejemplo_repr_arborescente.png]]
+![[IA_res_de_problemas_ejemplo_repr_arborescente.png]]
 
 ## Cambio de estados
 Para resolver un problema es necesario definir el problema con precisión ¿Qué quiero, dónde estoy, qué puedo hacer?

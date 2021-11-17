@@ -7,10 +7,9 @@
         "id": "9af80757492d1e1a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
-            "mode": "source"
+            "file": "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png"
           }
         }
       }
@@ -76,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+                "file": "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+                "file": "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,20 +102,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
-    "Inteligencia Artificial/Agente Inteligente.md",
-    "Inteligencia Artificial/Base de Conocimiento.md",
-    "Inteligencia Artificial/Inteligencia Artificial.md",
-    "Inteligencia Artificial/Resolución de problemas.md",
-    "Conceptos/Análisis computacional.md",
-    "Inteligencia Artificial/Prolog.md",
-    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
-    "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Análisis y Diseño/Conceptos/Fault, Failure.md"
+    "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png",
+    "attachments/SSDD_wrappers_1.png",
+    "attachments/SSDD_web_cache.png",
+    "attachments/RRCC_VLAN_trama_8021Q.png",
+    "attachments/RRCC_URN.png",
+    "attachments/RRCC_UDP_pseudoencabezado_IP.png",
+    "attachments/SSDD_tolerancia_a_fallos_tmr.png",
+    "attachments/SSDD_tolerancia_a_fallas_organizacion_de_grupos.png",
+    "attachments/SSDD_tolerancia_a_fallas_modelos_de_fallas.png",
+    "attachments/SSDD_tolerancia_a_fallas_fallos_servidor_client_server.png"
   ]
 }

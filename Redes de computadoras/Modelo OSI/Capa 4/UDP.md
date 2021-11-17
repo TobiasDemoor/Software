@@ -4,7 +4,7 @@ UDP proporciona una forma para que las aplicaciones envíen datagramas IP encaps
 
 UDP transmite **segmentos** que consisten en un encabezado de 8 bytes seguido de la carga útil. En el encabezado los dos **puertos** sirven para identificar los puntos terminales dentro de las máquinas de origen y destino. Cuando llega un paquete UDP, su carga útil se entrega al proceso que está conectado al puerto de destino. El valor principal de contar con UDP en lugar de simplemente utilizar IP puro es la adición de los puertos de origen y destino. Sin los campos de puerto, la capa de transporte no sabría qué hacer con cada paquete entrante. Con ellos, entrega el segmento incrustado a la aplicación correcta.
 
-![[UDP_encabezado.png]]
+![[RRCC_UDP_encabezado.png]]
 
 El puerto de origen se necesita principalmente cuando hay que enviar una respuesta al origen. Al copiar el campo *Puerto de origen* del segmento entrante en el campo *Puerto de destino* del segmento que sale, el proceso que envía la respuesta puede especificar cuál proceso de la máquina emisora va a recibirlo.
 
@@ -14,7 +14,7 @@ También se proporciona un campo *Suma de verificación* opcional para una confi
 
 El pseudoencabezado IP contiene las direcciones IPv4 de 32 bits de las máquinas de origen y de destino, el número de protocolo para UDP (17) y la cuenta de bytes para el segmento UDP (incluyendo el encabezado). Es distinto pero análogo a IPv6. Es útil incluir el pseudoencabezado en el cálculo de la suma de verificación de UDP para detectar paquetes mal entregados, pero al incluirlo también se viola la jerarquía de protocolos debido a que las direcciones IP en él pertenecen a la capa IP, no a la capa UDP. TCP usa el mismo pseudoencabezado para su suma de verificación.
 
-![[UDP_pseudoencabezado_IP.png]]
+![[RRCC_UDP_pseudoencabezado_IP.png]]
 
 Vale la pena mencionar de manera explícita algunas de las cosas que UDP no realiza. No realiza control de flujo, control de congestión o retransmisión cuando se recibe un segmento erróneo. Todo lo anterior le corresponde a los procesos de usuario. Lo que sí realiza es proporcionar una interfaz para el protocolo IP con la característica agregada de demultiplexar varios procesos mediante el uso de los puertos y la detección de errores extremo a extremo opcional. Esto es todo lo que hace.
 

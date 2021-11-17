@@ -2,7 +2,7 @@ Un **sistema de gestión de base de datos** (database management system, DBMS) e
 
 Otra función importante provista por el DBMS incluye la *protección* y *mantenimiento* de la base de datos a través de un período de tiempo prolongado. La **protección** incluye la *protección del sistema* contra errores de hardware o software y *protección de seguridad* contra uso no autorizado o malicioso. Una base de datos puede tener un ciclo de vida de muchos años y el DBMS debe ser capaz de **mantener** la base de datos, permitiendo que el sistema evolucione a medida que los [[Requerimientos|requerimientos]] cambian a través del tiempo.
 
-![[database_management_system_1.png]]
+![[BD_database_management_system_1.png]]
 
 ## Componentes
 ![[Motor de Base de datos]]
@@ -27,7 +27,7 @@ La ventaja de esta arquitectura es su simplicidad y compatibilidad con los siste
 ## Arquitectura cliente-servidor de tres niveles
 Muchas aplicaciones Web utilizan la arquitectura de tres niveles, la cual añade una capa intermedia entre el cliente y el servidor de base de datos (comparado a la [[#Arquitectura cliente-servidor de dos niveles|arquitectura de dos niveles]]).
 
-![[database_three_tiered_client_sever_architecture.png]]
+![[BD_database_three_tiered_client_sever_architecture.png]]
 
 Esa capa intermedia es llamada servidor de aplicación o web server. Este juega un rol intermediario corriendo los programas de aplicación y almacenando reglas de negocios que son utilizadas para acceder a la información del servidor de base de datos.
 

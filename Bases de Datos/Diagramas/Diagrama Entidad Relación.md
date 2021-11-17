@@ -5,13 +5,13 @@ El nombre de la entidad lo escribimos en singular. Debe ser claro y explícito d
 Las entidades pueden ser **fuertes** o **débiles**. Las entidades fuertes son aquellas que tienen una existencia independiente de cualquier otra entidad, se identifican sólo por atributos propios. Las entidades débiles son aquellas que derivan su existencia de otra entidad y necesitan la identificación de dicha entidad para distinguirse de otras.
 Las entidades fuertes se denotan con un rectángulo con línea simple. *Las entidades débiles se denotan con un rectángulo con línea doble.*
 
-![[der_entidades_fuertes_1.png]]
+![[BD_der_entidades_fuertes_1.png]]
 
-![[der_entidades_debiles_1.png]]
+![[BD_der_entidades_debiles_1.png]]
 
 ### Atributos
 Los atributos describen a las entidades. Son la información concreta que queremos mantener para una entidad. *Se denotan con una elipse vinculada a una entidad, con el nombre dentro de la elipse.*
-![[der_atributos_1.png]]
+![[BD_der_atributos_1.png]]
 
 #### Atributos identificatorios
 Los elementos de cualquier entidad se distinguen por el valor de algún atributo identificatorio (o de varios atributos en conjunto). A este atributo (o conjunto de atributos) se lo denomina **clave primaria** (PK – Primary Key). La clave primaria es un **conjunto minimal** (que no tiene elementos redundantes) de atributos identificatorios y *se denota subrayando a los mismos con una línea continua*. **Toda** entidad debe tener indefectivlemente una clave primaria.
@@ -20,7 +20,7 @@ Hay ocasiones donde hay más de un atributo que distingue unívocamente a los el
 
 Se llama **discriminante** o **clave parcial** al conjunto de atributos que se usa para distinguir una entidad débil de las otras con la misma relación o para distinguir una interrelacion N:M de otra con las mismas entidades participantes. Se *identifican mediante un subrayado discontinuo*.
 
-![[der_atributos_identificatorios_1.png]]
+![[BD_der_atributos_identificatorios_1.png]]
 
 #### Atributo cálculado
 Si un atributo de una entidad se obtiene a partir de una operación con los otros atributos se dice que es una atributo cálculado. *Un atributo cálculado se denota con una elipse de trazo discontinuo vinculada a la entidad.*
@@ -29,7 +29,7 @@ Si un atributo de una entidad se obtiene a partir de una operación con los otro
 Una interrelación es una asociación entre entidades. Formalmente una interrelación es una relación matemática sobre n>=2 entidades (no necesariamente distintas). *Las interrelaciones se representan con un rombo que vincula las distintas entidades participantes de la misma*.
 Cada interrelación tiene un nombre, que debe ser lo más representativo posible, ya que ese nombre nos va a indicar la semántica de la interrelación. El nombre de la interrelación en lo posible debe estar expresado como un predicado.
 Cuando se trata de interrelaciones, hay 3 características a considerar: el **grado**, la **cardinalidad** y la **participación** de las entidades.
-![[der_interrelaciones_1.png]]
+![[BD_der_interrelaciones_1.png]]
 
 #### Grado
 El grado de una interrelación se refiere a la cantidad de entidades que intervienen en ella.

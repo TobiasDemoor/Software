@@ -11,7 +11,7 @@ Hasta 10Base2 la topología física era un bus. A partir de 10Base-T pasa a ser 
 ## Protocolo MAC
 El formato utilizado por el protocolo de la [[Subcapa MAC|subcapa MAC]] de la Ethernet clásica para enviar tramas se muestra en la figura 4-14. Primero viene un Preámbulo de 8 bytes, cada uno de los cuales contiene el patrón de bits 10101010 (con la excepción del último byte, en el que los últimos 2 bits se establecen a 11). Este último byte se llama delimitador de Inicio de trama en el 802.3. La [[Codificación Manchester|codificación Manchester]] de este patrón produce una onda cuadrada de 10 MHz durante 6.4 μseg para permitir que el reloj del receptor se sincronice con el del emisor. Los últimos dos bits indican al receptor que está a punto de empezar el resto de la trama
 
-![[ethernet_clasica_protocolo_mac.png]]
+![[RRCC_ethernet_clasica_protocolo_mac.png]]
 
 Después vienen dos direcciones, una para el destino y una para el origen. Cada una de ellas tiene una longitud de 6 bytes. El primer bit transmitido de la dirección de destino es un 0 para direcciones ordinarias y un 1 para direcciones de grupo. Las direcciones de grupo permiten que varias estaciones escuchen en una sola dirección. Cuando una trama se envía a una dirección de grupo, todas las estaciones del grupo la reciben. El envío a un grupo de estaciones se llama multicasting. La dirección especial que consiste únicamente en bits 1 (FF:FF:FF:FF:FF:FF) está reservada para [[Broadcast|broadcasting]]. Una trama que contiene sólo bits 1 en el campo de destino se acepta en todas las estaciones de la red.
 
@@ -28,7 +28,7 @@ Ethernet clásica utiliza el algorítmo [[CSMA#CSMA/CD|CSMA/CD persistente-1]].
 ## Detección de colisiones
 Al tener un medio con características conocidas se pueden detectar colisiones. Al colisionar dos paquetes la potencia recibida es mayor a la enviada (desde la perspectiva de una estación) y así es como se detecta la colisión. La detección de colisiones puede tardar a lo sumo $2\tau$ siendo $\tau$ el tiempo de propagación entre emisor y receptor. Podemos conocer el tiempo para el peor caso ya que todo está cronometrado y ya que la red está construida acorde a especificaciones específicas (es por esto que hay un límite a la cantidad de [[Repeater|repetidores]]). El valor entonces será $2\tau = 50 \mu s$.
 
-![[ethernet_deteccion_de_colisiones_1.png]]
+![[RRCC_ethernet_deteccion_de_colisiones_1.png]]
 
 Cuando B detecta que está recibiendo más potencia de la que está enviando, sabe que ha ocurrido una colisión, por lo que aborta su transmisión y genera una ráfaga de ruido de 48 bits para avisar a las demás estaciones. En otras palabras, bloquea el cable para asegurarse de que el emisor no ignore la colisión.
 

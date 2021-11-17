@@ -4,4 +4,4 @@ Sin embargo, este proceso es sólo el principio de la historia, puesto que la as
 
 La solución es dividir el bloque de direcciones en varias partes para uso interno en forma de múltiples redes, pero actuar como una sola red para el mundo exterior. A estas partes de la red se les llama **subredes**. Hay que ser conscientes de que este nuevo uso del término entra en conflicto con el uso anterior de “[[subred]]”, cuyo significado es el conjunto de todos los enrutadores y líneas de comunicación en una red, por eso se podría usar subnet.
 
-![[direcciones_ip_subnetting.png]]
+![[RRCC_direcciones_ip_subnetting.png]]

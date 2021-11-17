@@ -24,7 +24,7 @@ Hay muchos servicios que no requieren un end point preasignado. Para estos podem
 
 Usualmente implementar cada servicio en un servidor separado suele ser un desperdicio de recursos. Una solución común es tener un solo **superserver** escuchando cada end point asociado con un servicio específico. Cuando entra un pedido, el daemon crea un proceso para manejarlo.
 
-![[servidor_endpoint_1.png]]
+![[SSDD_servidor_endpoint_1.png]]
 
 ### Stateless vs stateful
 Una decisión de diseño importante es si el [[Servidor|servidor]] va a ser stateless o no. Un **servidor stateless** (sin estado) es aquel que trata cada petición como si fuera independiente de las anteriores (no guarda estado). Notesé que en varios diseños stateless el servidor mantiene información acerca de sus [[Cliente|clientes]], pero lo crucial es que si dicha información se pierde, esto no llevará a una disrupción del servicio.
@@ -47,7 +47,7 @@ Como en cualquier [[Centralized organizations#Arquitecturas multinivel|arquitect
 
 Y el tercer nivel consiste de servidores de datos, notablemente file y [[Bases de Datos|database]] servers. Dependiendo de los requerimientos estos pueden correr sobre hardware especializado configurado para acceso a disco de alta velocidad y caches locales grandes.
 
-![[lan_server_cluster_1.png]]
+![[SSDD_lan_server_cluster_1.png]]
 
 ##### Request dispatching
 Un objetivo de diseño importante para los clusters de servidores es ocultar el hecho de que hay múltiples servidores. Esta [[Transparencia de distribución#Transparencia de acceso|transparencia de acceso]] es ofrecida a través de un solo punto de entrada. El switch forma el punto de entrada para el cluster de servidores, ofreciendo una sola dirección de red. Por motivos de [[Escalabilidad|escalabilidad]] y [[Reliability|disponibilidad]], un cluster puede tener múltiples puntos de acceso, donde cada punto de acceso es implementado en una máquina separada (no se considera esto en lo siguiente).

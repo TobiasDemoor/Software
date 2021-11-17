@@ -44,7 +44,7 @@ En un esquema jerárquico la red es dividida en una colección de **dominios**. 
 
 Cada dominio D tiene asociado un nodo directorio *dir(D)* que lleva cuenta de las entidades en ese dominio. Esto lleva a un árbol de nodos directorio. El nodo directorio del dominio raíz, llamado **nodo (directorio) raíz**, conoce todas las entidades.
 
-![[sistema_de_nombres_hierarchical_approches_1.png]]
+![[SSDD_sistema_de_nombres_hierarchical_approches_1.png]]
 
 Para rastrear la localización de una entidad, cada entidad que se encuentra actualmente en un dominido D es represetnada por un **registro de localización** en el nodo directorio *dir(D)*. Un registro de localización para la entidad E en el nodo directorio N para un dominio hoja D contiene la dirección actual de la entidad en ese dominio. En contraste el nodo directorio N' para el dominio de un nivel superior D' que contiene a D, va a tener el registro de localización para E conteniendo soo un puntero a N. Así mismo, el nodo padre de N' va a mantener un registro de localización para E conteniendo solo un puntero a N'.
 
@@ -71,21 +71,21 @@ La **capa de administración** o **administration layer** está formada por nodo
 
 Finalmente la **capa gerencial** o **managerial layer** consiste de nodos que pueden cambiar frecuentemente. Estos nodos representan hosts en la red local, archivos compartidos y, directorios y archivos definidos por usuarios.
 
-![[dns_1.png]]
+![[RRCC_dns_1.png]]
 
 #### Implementación de resolución de nombres
 La distribución de el espacio de nombres a lo largo de múltiples servidores de nombres afecta la implementación de la resolución de nombres. Cada cliente tiene acceso a un **name resolver** local, el cual es responsable de asegurar que se lleve a cabo el proceso de resolución de nombres. Hay dos maneras principales de implementar la resolución de nombres.
 
 En la **resolución de nombres iterativa**, un name resolver entrega el nombre completo al servidor raíz. Es asumido que la dirección donde se puede contactar al servidor raíz es conocida. El servidor raíz resuelve la ruta hasta donde puede y retorna el resultado al cliente. En ese punto el cliente pasa la ruta restante al nuevo servidor de nombres retornado por el primero. Y así continua iterativamente hasta que un servidor tiene la información de la entidad puntual que se está buscando.
 
-![[naming_iterative_name_resolution.png]]
+![[RRCC_naming_iterative_name_resolution.png]]
 
 La alternativa a una resolución iterativa es una **resolución de nombres recursiva**. En esta el proceso de  encadenamiento de servidores de nombres ocurre entre los servidores. Entonces el name resolver contacta a el servidor raíz y este contacta a su vez al próximo servidor, y este al próximo, así hasta obtener un resultado, el cual vuelve sobre la pila y es retornado al name resolver.
 
-![[naming_recursive_name_resolution_1.png]]
+![[RRCC_naming_recursive_name_resolution_1.png]]
 
 La principal desventaja de la resolución recursiva es que pone una demanda mucho mayor sobre cada servidor de nombres. Básicamente, se requiere que un servidor de nombres pueda manejar la resolución completa de una ruta, aunque pueda hacerlo en cooperación con otros servidores. Esta sobrecarga es tán alta que los servidores en la capa global solo suelen soportar resolución iterativa.
 
 Una ventaja importante de la resolución recursiva es que permite un caching más efectivo de los resultados en comparación con la resolución iterativa. Una segunda ventaja es que los costos de comunicación pueden ser reducidos, esto se puede ilustrar más fácilmente en la siguiente figura.
 
-![[naming_recursive_name_resolution_2.png]]
+![[RRCC_naming_recursive_name_resolution_2.png]]

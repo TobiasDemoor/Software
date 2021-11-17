@@ -4,7 +4,7 @@ aliases: [e-mail]
 
 La arquitectura del sistema, que consiste en dos tipos de subsistemas: los **agentes de usuario (UA)**, que permiten a la gente leer y enviar correo electrónico, y los **agentes de transferencia de mensajes (MTA)**, que mueven los mensajes del origen al destino. También nos referiremos a los agentes de transferencia de mensajes de una manera informal como **servidores de correo**.
 
-![[correo_electronico_arquitectura.png]]
+![[RRCC_correo_electronico_arquitectura.png]]
 
 El agente de usuario es un programa que proporciona una interfaz gráfica, o algunas veces una interfaz basada en texto y comandos, que permite interactuar con el sistema de correo electrónico. Incluye un medio para redactar mensajes y respuestas a éstos, desplegar los mensajes entrantes y organizarlos al archivarlos, realizar búsquedas y eliminarlos. El acto de enviar nuevos mensajes al sistema de correo para su entrega se conoce como **envío de correo**.
 
@@ -22,7 +22,7 @@ Una idea clave en el formato de los mensajes es la distinción entre el **envelo
 
 El mensaje dentro de la envoltura consiste en dos partes separadas: el **encabezado** y el **cuerpo**. El primero contiene la información de control para los agentes de usuario. El cuerpo es exclusivo para el destinatario humano; a ninguno de los agentes le importa mucho.
 
-![[correo_electronico_disposicion.png]]
+![[RRCC_correo_electronico_disposicion.png]]
 
 ### Formatos de mensaje
 Los mensajes consisten en una envoltura primitiva (descrita como parte del [[SMTP]] en el [[RFC]] 5321), cierto número de campos de encabezado, una línea en blanco y después el cuerpo del mensaje. Cada campo de encabezado consiste (lógicamente) en una sola línea de texto ASCII que contiene el nombre del campo, un signo de dos puntos y para la mayoría de los campos un valor.

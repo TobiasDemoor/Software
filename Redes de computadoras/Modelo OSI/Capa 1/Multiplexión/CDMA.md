@@ -4,4 +4,4 @@ En CDMA, cada tiempo de bit se subdivide en m intervalos cortos llamados **chips
 
 En las figuras 2-28(a) y (b) mostramos las secuencias de chip asignadas a cuatro estaciones de ejemplo y las señales que representan. Cada estación tiene su propia secuencia de chip única. Utilizaremos el símbolo **S** para indicar el vector de m chips para la estación S, y **-S** para su negación. Todas las secuencias de chip son **ortogonales** por pares, lo que quiere decir que el producto interno normalizado de dos distintas secuencias de chip cualesquiera, **S** y **T** (lo que se escribe como **S**•**T**), es 0. Se sabe cómo generar dichas secuencias de chip ortogonales mediante un método conocido como **códigos de Walsh**. Tambien es importante que **S**•**S** = 1 y **S**•**-S** = 1 para cualquier **S**.
 
-![[multiplexion_por_division_de_codigo_1.png]]
+![[RRCC_multiplexion_por_division_de_codigo_1.png]]

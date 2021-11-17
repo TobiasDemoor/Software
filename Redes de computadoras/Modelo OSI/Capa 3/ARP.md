@@ -4,7 +4,7 @@ Aunque en Internet cada máquina tiene una o más direcciones IP, en realidad é
 
 Entonces se requiere un mecanismo para mapear direcciones IP a direcciones MAC para poder direccionar dentro de una subred. Esta es la funcionalidad que cubre ARP, el protocolo consta de que el host que desea enviar un paquete IP a otro host en su misma red primero envía una difusión preguntando a todas las máquinas en su subred quién es la que tiene la IP destinataria. Esa única máquina con dicha IP responde y en esta respuesta se incluye la MAC perteneciente a la NIC de dicha máquina. Entonces ahora el host inicial puede enviar el paquete IP al host correcto.
 
-![[arp_ejemplo.png]]
+![[RRCC_arp_ejemplo.png]]
 
 Es posible hacer varias optimizaciones para que ARP trabaje con más eficiencia. Para empezar, una vez que una máquina ha ejecutado ARP, guarda el resultado en caché, en caso de que tenga que ponerse en contacto con la misma máquina en poco tiempo. La siguiente vez encontrará la asociación en su propio caché, con lo cual se elimina la necesidad de una segunda difusión. En muchos casos, el host 2 necesitará devolver una respuesta y se verá forzado también a ejecutar el ARP para determinar la dirección Ethernet del emisor. Podemos evitar esta difusión de ARP haciendo que el host 1 incluya su asociación IP a Ethernet en el paquete ARP. Cuando la difusión de ARP llega al host 2, se introduce el par (192.32.65.7, E1) en la caché ARP del host 2. De hecho, todas las máquinas en Ethernet pueden introducir esta asociación en su caché ARP.
 

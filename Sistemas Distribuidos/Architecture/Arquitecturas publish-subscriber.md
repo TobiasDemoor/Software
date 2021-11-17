@@ -15,4 +15,4 @@ Un último caso es la combinación de desacoplamiento temporal y referencial, ll
 
 Estos dos últimos son **arquitecturas de publicación-suscripción**.
 
-![[arquitecturas_publicacion-suscripcion_1.png]]
+![[SSDD_arquitecturas_publicacion-suscripcion_1.png]]

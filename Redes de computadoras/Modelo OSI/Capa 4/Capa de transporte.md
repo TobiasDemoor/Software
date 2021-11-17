@@ -7,7 +7,7 @@ La capa de transporte es una verdadera capa de extremo a extremo; lleva los dato
 ## Servicios proporcionados a capas superiores
 La meta fundamental de la capa de transporte es proporcionar un servicio de transmisión de datos eficiente, confiable y económico a sus usuarios, procesos que normalmente son de la [[Capa de aplicación]]. Para lograr este objetivo, la capa de transporte utiliza los servicios proporcionados por la [[capa de red]]. El hardware o software de la capa de transporte que se encarga del trabajo se llama **entidad de transporte**, la cual puede localizarse en el kernel (núcleo) del [[Sistemas Operativos|sistema operativo]], en un paquete de biblioteca que forma parte de las aplicaciones de red, en un proceso de usuario separado o incluso en la tarjeta de interfaz de red. Las primeras dos opciones son las más comunes en Internet.
 
-![[capa_de_transporte_1.png]]
+![[RRCC_capa_de_transporte_1.png]]
 
 Así como hay dos tipos de servicio de red, orientado a conexión y sin conexión, también hay dos tipos de servicio de transporte. El que está orientado a conexión es parecido en muchos sentidos al servicio de red orientado a conexión. En ambos casos, las conexiones tienen tres fases: establecimiento, transferencia de datos y liberación. El direccionamiento y el control de flujo también son similares en ambas capas. Además, el servicio de transporte sin conexión es muy parecido al servicio de red sin conexión. Sin embargo, puede ser difícil proveer un servicio de transporte sin conexión encima de un servicio de red orientado a conexión, ya que es ineficiente establecer una conexión para enviar un solo paquete y deshacerla justo después.
 
@@ -35,7 +35,7 @@ Una segunda diferencia entre los servicios de red y de transporte es a quién es
 | DISCONNECT | DISCONNECTION REQ. | Solicita que se libere la conexión                     |
 
 > Se utilza el término **segmento** para indicar los mensajes que se envían de una entidad de transporte a otra. TCP, UDP y otros protocolos de Internet usan este término. Algunos protocolos antíguos usaban el nombre **TPDU (Transport Protocol Data Unit)**. Este término ya no se utiliza mucho, pero todavía se puede ver en publicaciones y libros antiguos.
-> ![[capa_de_transporte_segmento.png]]
+> ![[RRCC_capa_de_transporte_segmento.png]]
 
 ### Berkeley Sockets
 ![[Berkeley Sockets]]

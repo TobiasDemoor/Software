@@ -80,7 +80,7 @@ Similar al tipo clúster, pero los nodos computacionales que lo conforman pueden
 
 Este subgrupo consiste de sistemas distribuidos usualmente construidos como una federación de sistemas de computación, donde cada sistema puede caer bajo un dominio administrativo diferente, y puede ser muy diferente en lo que se refiere al hardware, software, y la tecnología de red.
 
-![[sistemas_distribuidos_grid_computing.png]]
+![[SSDD_sistemas_distribuidos_grid_computing.png]]
 
 - **Fabric layer.** Provee interfaces a los recursos locales en un sitio en específico. Estas interfaces están diseñadas para permitir el uso compartido de recursos en una organización virtual.
 - **Connectivity layer.** Consiste en protocolos de comunicación para dar soporte a las transacciones grid que suponen el uso de múltiples recursos. También contiene protocolos de seguridad para autenticar usuarios y recursos.

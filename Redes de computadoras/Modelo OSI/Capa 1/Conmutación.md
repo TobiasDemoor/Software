@@ -1,8 +1,8 @@
 Hoy en día se utilizan dos técnicas de conmutación diferentes en las redes: conmutación de circuitos y conmutación de paquetes. El sistema telefónico tradicional está basado en la conmutación de circuitos, aunque la conmutación de paquetes está empezando a tener avances significativos con el surgimiento de la tecnología de voz sobre IP.
 
-![[conmutacion_1.png]]
+![[RRCC_conmutacion_1.png]]
 
-![[conmutacion_2.png]]
+![[RRCC_conmutacion_2.png]]
 
 ### Conmutación de circuitos
 En teoría, cuando usted o su computadora hacen una llamada telefónica, el equipo de conmutación dentro del sistema telefónico busca una trayectoria física desde su teléfono hasta el teléfono del receptor. Esta técnica se conoce como **conmutación de circuitos**.

@@ -101,5 +101,5 @@ Las características del entorno influyen en el diseñó del agente, por ejemplo
 - Si el entorno es episódico el agente no tiene que preocuparse del impacto de sus decisiones 
 - Si el entorno es dinámico el agente tiene que seguir observando mientras razona
 
-![[agentes_inteligentes_ambiente_ejemplos.png]]
+![[IA_agentes_inteligentes_ambiente_ejemplos.png]]
 

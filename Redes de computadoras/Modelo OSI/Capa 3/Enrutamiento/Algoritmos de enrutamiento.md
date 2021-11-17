@@ -32,7 +32,7 @@ En el enrutamiento por vector de distancia, cada enrutador mantiene una tabla de
 #### El problema del conteo infinito
 Al proceso de establecer los enrutamientos con base en las mejores rutas a través de la red se le conoce como **convergencia**. El enrutamiento por vector de distancia es útil como una simple técnica mediante la cual los enrutadores pueden calcular las rutas más cortas en forma colectiva, pero tiene una grave desventaja en la práctica: aunque converge hacia la respuesta correcta, puede llegar a hacerlo con lentitud. Básicamente reacciona rápido a las buenas noticias, pero es lento con las malas. Considere un enrutador cuya mejor ruta al destino X es larga. Si en el siguiente intercambio el vecino A informa de manera repentina un retardo corto a X, el enrutador simplemente cambia y usa la línea A para enviar tráfico a X. En un intercambio de vectores, se procesan las buenas noticias.
 
-![[el_problema_del_conteo_infinito.png]]
+![[RRCC_el_problema_del_conteo_infinito.png]]
 
 En la anterior figura debe quedar clara la razón por la que las malas noticias viajan con lentitud: no hay ningún enrutador que tenga en algún momento un valor mayor en más de una unidad que el mínimo de todos sus vecinos. Gradualmente, todos los enrutadores elevan su cuenta hacia el infinito, pero el número de intercambios requerido depende del valor numérico usado para el infinito. Por esta razón, es prudente hacer que el infinito sea igual a la ruta más larga, más 1.
 
@@ -61,7 +61,7 @@ Si la red está geográficamente dispersa, el retardo de los enlaces se puede co
 #### Construcción de los paquetes de estado del enlace
 Una vez que se ha recabado la información necesaria para el intercambio, el siguiente paso es que cada enrutador construya un paquete que contenga todos los datos. El paquete comienza con la identidad del emisor, seguida de un número de secuencia, una edad y una lista de vecinos. También se proporciona el costo para cada vecino.
 
-![[enrutamiento_de_estado_del_enlace_paquetes.png]]
+![[RRCC_enrutamiento_de_estado_del_enlace_paquetes.png]]
 
 Es fácil construir los paquetes de estado del enlace. La parte difícil es determinar cuándo construirlos. Una posibilidad es construirlos de manera periódica; es decir, a intervalos regulares. Otra posibilidad es construirlos cuando ocurra un evento significativo, como la caída o la reactivación de una línea o de un vecino, o cuando sus propiedades cambien en forma considerable.
 
@@ -86,7 +86,7 @@ En comparación con el enrutamiento por vector de distancia, el enrutamiento por
 ### Enrutamiento jerárquico
 Cuando se utiliza el enrutamiento jerárquico, los enrutadores se dividen en lo que llamaremos **regiones**. Cada enrutador conoce todos los detalles para enrutar paquetes a destinos dentro de su propia región, pero no sabe nada de la estructura interna de las otras regiones. Cuando se interconectan diferentes redes, es natural considerar cada una como región independiente con el fin de liberar a los enrutadores de una red de la necesidad de conocer la estructura topológica de las demás redes.
 
-![[enrutamiento_jerarquico.png]]
+![[RRCC_enrutamiento_jerarquico.png]]
 
 ### Enrutamiento intradominio
 ![[Enrutamiento intradominio]]

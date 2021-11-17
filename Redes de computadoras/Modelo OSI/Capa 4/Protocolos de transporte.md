@@ -2,14 +2,14 @@ El servicio de transporte se implementa mediante un **protocolo de transporte** 
 
 Sin embargo, existen diferencias considerables entre los dos, las cuales se deben a disimilitudes importantes entre los entornos en que operan ambos protocolos. En la capa de enlace de datos, dos enrutadores se comunican de forma directa mediante un canal físico, ya sea cableado o inalámbrico, mientras que, en la capa de transporte, ese canal físico se sustituye por la red completa. Esta diferencia tiene muchas implicaciones importantes para los protocolos.
 
-![[entorno_protocolos_de_transporte.png]]
+![[RRCC_entorno_protocolos_de_transporte.png]]
 
 ### Direccionamiento
 Cuando un proceso de aplicación (por ejemplo, un usuario) desea establecer una conexión con un proceso de aplicación remoto, debe especificar a cuál se conectará. El método que se emplea por lo general es definir direcciones de transporte en las que los procesos puedan escuchar las solicitudes de conexión. En Internet, estos puntos terminales se denominan **puertos**. Usaremos el término genérico **TSAP (Transport Service Access Point)** para indicar un endpoint específico en la capa de transporte. Así mismo, los puntos terminales análogos en la capa de red (es decir, direcciones de capa de red) se llamen **NSAP (Network Service Access Point)**. Las [[direcciones IP]] son ejemplos de NSAP.
 
 Los procesos de aplicación, tanto clientes como servidores, se pueden enlazar por sí mismos a un TSAP para establecer una conexión a un TSAP remoto. Estas conexiones se realizan a través de puntos NSAP en cada host, como se muestra. El propósito de tener puntos TSAP es que, en algunas redes, cada computadora tiene un solo NSAP, por lo que se necesita alguna forma de diferenciar los múltiples puntos terminales de transporte que comparten ese punto NSAP.
 
-![[direccionamiento_tsap_nsap.png]]
+![[RRCC_direccionamiento_tsap_nsap.png]]
 
 ### Establecimiento de una conexión
 El proceso de establecer una conexión suena fácil, pero en realidad es sorprendentemente complicado. A primera vista parecería suficiente con que una entidad de transporte enviara tan sólo un segmento CONNECTION REQUEST al destino y esperara una respuesta CONNECTION ACCEPTED. El problema ocurre cuando la red puede perder, retrasar, corromper y duplicar paquetes. Este comportamiento causa complicaciones serias.
@@ -45,7 +45,7 @@ El método basado en reloj resuelve el problema de no poder diferenciar los segm
 
 Para resolver este problema específico se desarrolló el **acuerdo de tres vías** (three-way handshake). Este protocolo de establecimiento implica que un igual verifique con el otro que la solicitud de conexión sea realmente actual. El host 1 escoge un número de secuencia, x, y envía al host 2 un segmento CONNECTION REQUEST que contiene ese número. El host 2 responde con un segmento ACK para confirmar la recepción de x y anunciar su propio número de secuencia inicial, y. Por último, el host 1 confirma la recepción del número de secuencia inicial seleccionado por el host 2 en el primer segmento de datos que envía
 
-![[acuerdo_de_tres_vias.png]]
+![[RRCC_acuerdo_de_tres_vias.png]]
 
 Ahora veamos la manera en que funciona el acuerdo de tres vías en presencia de segmentos de control duplicados con retardo. En la segunda figura, el primer segmento es un CONNECTION REQUEST duplicado con retardo de una conexión antigua. Este segmento llega al host 2 sin el conocimiento del host 1. El host 2 reacciona a este segmento y envía al host 1 un segmento ACK, para solicitar en efecto la comprobación de que el host 1 haya tratado realmente de establecer una nueva conexión. Cuando el host 1 rechaza el intento del host 2 por establecer una conexión, el host 2 se da cuenta de que fue engañado por un duplicado con retardo y abandona la conexión. De esta manera, un duplicado con retardo no causa daño.
 
@@ -54,7 +54,7 @@ Es más fácil liberar una conexión que establecerla. No obstante, hay más obs
 
 La liberación asimétrica es abrupta y puede provocar la pérdida de datos. Considere el escenario de la figura 6-12. Una vez que se establece la conexión, el host 1 envía un segmento que llega en forma apropiada al host 2. A continuación, el host 1 envía otro segmento. Por desgracia, el host 2 emite un DISCONNECT antes de que llegue el segundo segmento. El resultado es que se libera la conexión y se pierden los datos.
 
-![[desconexion_asimetrica.png]]
+![[RRCC_desconexion_asimetrica.png]]
 
 Es obvio que se requiere un protocolo de liberación más sofisticado para evitar la pérdida de los datos. Una posibilidad es usar la liberación simétrica, en la que cada dirección se libera en forma independiente de la otra. Aquí, un host puede continuar recibiendo datos, aun después de haber enviado un segmento DISCONNECT.
 
@@ -64,7 +64,7 @@ Por desgracia, este protocolo no siempre funciona. Hay un problema famoso que ti
 
 Los ejércitos azules quieren sincronizar sus ataques. Sin embargo, su único medio de comunicación es el envío de mensajeros a pie a través del valle, donde podrían ser capturados y se perdería el mensaje (es decir, tienen que usar un canal de comunicación no confiable). La pregunta es: ¿existe un protocolo que permita que los ejércitos azules ganen?
 
-![[problema_de_los_dos_ejercitos.png]]
+![[RRCC_problema_de_los_dos_ejercitos.png]]
 
 Se puede discutir mucho, pero podemos demostrar que no existe un protocolo que funcione. Supongamos que existiera algún protocolo. O el último mensaje del protocolo es esencial, o no lo es. Si no lo es, podemos eliminarlo (así como los demás mensajes no esenciales) hasta que quede un protocolo en el que todos los mensajes sean esenciales. ¿Qué ocurre si el mensaje final no pasa? Acabamos de decir que es esencial, por lo que, si se pierde, el ataque no ocurrirá. Dado que el emisor del mensaje final nunca puede estar seguro de su llegada, no se arriesgará a atacar. Peor aún, el otro ejército azul sabe esto, por lo que tampoco atacará.
 
@@ -72,7 +72,7 @@ Para ver la relevancia del problema de los dos ejércitos en relación con la li
 
 En la práctica podemos evitar este dilema al eludir la necesidad de un acuerdo y pasar el problema al usuario de transporte, de modo que cada lado pueda decidir por su cuenta si se completó o no la comunicación. Éste es un problema más fácil de resolver y puede hacerse con un simple acuerdo de 3 vias como se ilustra a continuación.
 
-![[liberar_una_conexion.png]]
+![[RRCC_liberar_una_conexion.png]]
 
 ### UDP
 ![[UDP]]

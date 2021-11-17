@@ -4,4 +4,4 @@ CRC funciona como una división de polinomios, considera una trama como un polin
 
 A la trama se le agrega padding a derecha por el grado del polinomio generador (o su longitud - 1). Luego se van realizando xor con el polinomio generador rellenado a derecha para tener la misma longitud que la trama más su padding (siempre que el otro empiece con 1, caso contrario se hace xor con 0) y desplazando a derecha por su longitud hasta tener el resto en los últimos dígitos.
 
-![[crc_1.png]]
+![[TI_crc_1.png]]

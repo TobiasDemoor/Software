@@ -4,7 +4,7 @@ Primero, **las radios casi siempre son half-dúplex**, lo cual significa que no 
  
 En vez de ello, el 802.11 trata de evitar colisiones con un protocolo llamado **[[CSMA|CSMA/CA]] (CSMA with Collision Avoidance)**. En concepto, este protocolo es similar al CSMA/CD de Ethernet, con detección del canal antes de enviar y retroceso exponencial después de las colisiones. Sin embargo, una estación que desee enviar una trama empieza con un retroceso aleatorio, osea cuenta cierto número de ranuras antes de intentar enviar (excepto en el caso en que no haya utilizado el canal recientemente y éste se encuentre inactivo). No espera una colisión. El número de ranuras para el retroceso se elije en el rango de 0 hasta, por decir, 15 en el caso de la capa física OFDM. La estación espera hasta que el canal está inactivo, para lo cual detecta que no hay señal durante un periodo corto y realiza un conteo descendente de las ranuras inactivas, haciendo pausa cuando se envían tramas. Envía su trama cuando el contador llega a 0. Si la trama logra pasar, el destino envía de inmediato una confirmación de recepción corta. La falta de una confirmación de recepción se interpreta como si hubiera ocurrido un error, sea una colisión o cualquier otra cosa. En este caso, el emisor duplica el periodo de retroceso e intenta de nuevo, continuando con el retroceso exponencial como en Ethernet, hasta que la trama se transmita con éxito o se llegue al número máximo de retransmisiones.
 
-![[csma_ca_1.png]]
+![[RRCC_csma_ca_1.png]]
 
 Este modo de operación se llama **DCF (Distributed Coordination Function)**, ya que cada estación actúa en forma independiente, sin ningún tipo de control central. El estándar también incluye un modo opcional de operación llamado **PCF (Punctual Coordination Function)**, en donde el punto de acceso controla toda la actividad en su celda, justo igual que una estación base celular. %%Sin embargo, PCF no se utiliza en la práctica debido a que por lo general no hay forma de evitar que las estaciones en otra red cercana transmitan tráfico conflictivo.%%
 
@@ -14,7 +14,7 @@ Para reducir las ambigüedades con respecto a qué estación va a transmitir, el
 
 Hay un mecanismo RTS/CTS opcional que usa el NAV para evitar que las terminales envíen tramas al mismo tiempo como terminales ocultas, este es similar al protocolo **[[Wireless LAN#MACA|MACA]]** pero distinto, ya que todo el que escucha la trama RTS o CTS permanece en silencio para permitir que la trama ACK llegue a su destino sin que haya una colisión. Debido a esto, no es útil con las terminales expuestas como en el caso de MACA, sólo con las terminales ocultas. Lo más frecuente es que haya unas cuantas terminales ocultas y CSMA/CA les ayuda al reducir la velocidad de las estaciones que transmiten sin éxito, sin importar cuál sea la causa, para que sus transmisiones tengan más probabilidades de tener éxito. Aunque el método RTS/CTS suena bien en teoría, es uno de esos diseños que ha demostrado ser de poco valor en la práctica.
 
-![[wifi_rts_cts.png]]
+![[RRCC_wifi_rts_cts.png]]
 
 CSMA/CA con detección física y virtual es el núcleo del protocolo 802.11. Sin embargo, existen otros mecanismos que se han desarrollado para trabajar con él. Cada uno de estos mecanismos fue impulsado por las necesidades de la operación real.
 
@@ -37,7 +37,7 @@ El estándar IEEE 802.11 tiene un mecanismo para proveer calidad de servicio (en
 
 El intervalo entre las tramas de datos regulares se conoce como **DIFS (DCF InterFrame Spacing)**. Cualquier estación puede intentar adquirir el canal para enviar una nueva trama después de que el medio haya estado inactivo durante un tiempo DIFS. Se aplican las reglas de contención usuales y tal vez se requiera el retroceso exponencial binario si ocurre una colisión. El intervalo más corto es **SIFS (Short InterFrame Spacing)** y se utiliza para permitir que las partes en un diálogo sencillo tengan la oportunidad de tomar el primer turno.
 
-![[wifi_csma_ca_difs.png]]
+![[RRCC_wifi_csma_ca_difs.png]]
 
 Los dos intervalos **AIFS (Arbitration InterFrame Spacing)** muestran ejemplos de dos niveles de prioridad distintos. El intervalo corto, AIFS₁, es más pequeño que el intervalo DIFS pero más largo que SIFS. El AP lo puede usar para transportar voz u otro tipo de tráfico de alta prioridad al inicio de la línea.
 
@@ -46,7 +46,7 @@ El estándar 802.11 define tres clases diferentes de tramas en el aire: de datos
 
 Se analiza la trama de datos para tener un ejemplo. Primero está el campo de *Control de trama*, que consta de 11 subcampos. El primero es la *Versión de protocolo*, que se establece como 00. Está ahí para que las futuras versiones del protocolo 802.11 funcionen al mismo tiempo en la misma celda. Después están los campos de *Tipo* (de datos, de control o de administración) y de *Subtipo* (por ejemplo, RTS o CTS). Para una trama de datos regular (sin calidad de servicio), se establecen en 10 y 0000 en binario. Los bits *Para DS* y *De DS* se establecen para indicar que la trama va hacia o viene de la red conectada a los APS, a la cual se le conoce como sistema de distribución. El bit *Más fragmentos* indica que siguen más fragmentos. El bit *Retransmitir* marca una retransmisión de una trama que se envió antes. El bit de *Administración de energía* indica que el emisor va a entrar al modo de ahorro de energía. El bit *Más datos* indica que el emisor tiene tramas adicionales para el receptor. El bit *Trama protegida* indica que el cuerpo de la trama se cifró por seguridad. Por último, el bit de *Orden* indica al receptor que la capa superior espera que la secuencia de tramas llegue de modo riguroso en orden.
 
-![[wifi_trama_1.png]]
+![[RRCC_wifi_trama_1.png]]
 
 El segundo campo de la trama de datos, el campo *Duración*, indica cuánto tiempo ocuparán el canal la longitud de la trama y su confirmación de recepción, lo cual se mide en microsegundos. Está presente en todos los tipos de tramas, incluyendo las tramas de control, y es lo que utilizan las estaciones para administrar el mecanismo NAV.
 

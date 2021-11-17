@@ -2,7 +2,7 @@ Al proceso de buscar un nombre y encontrar una dirección se le conoce como **re
 
 ¿Qué pasa cuando el dominio es remoto, como cuando flits.cs.vu.nl desea encontrar la dirección IP de robot.cs.washington.edu en la UW (Universidad de Washington)? En este caso y si no hay información en la caché sobre el dominio disponible en forma local, el servidor de nombres empieza una consulta remota. Esta consulta sigue el proceso que se muestra en la figura 7-6. El paso 1 muestra la consulta que se envía al servidor de nombres local. Esta consulta contiene el nombre de dominio buscado, el tipo (A) y la clase (IN).
 
-![[dns_resolucion_de_nombres.png]]
+![[RRCC_dns_resolucion_de_nombres.png]]
 
 El siguiente paso es empezar en la parte superior de la jerarquía de nombres y preguntar a cada uno de los servidores raíz de nombres. Estos servidores tienen información sobre cada dominio de nivel superior. Esto se muestra como el paso 2 en la figura 7-6. Para contactarse con un servidor raíz, cada servidor de nombres debe tener información sobre uno o más servidores raíz de nombres. Esta información por lo general está presente en un archivo de configuración del sistema que se carga en la caché DNS al momento de iniciar el servidor DNS. En esencia, es una lista de registros NS para la raíz y los registros A correspondientes.
 

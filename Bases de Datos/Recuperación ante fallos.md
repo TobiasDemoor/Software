@@ -16,7 +16,7 @@ Para la recuperación ante fallos se definen dentro de las transacciones operaci
 
 > Ejemplo:
 > Sea una transacción **T = READ(A,t); t := t*2; WRITE(A.t); READ(B.t); t := t* 2 ; WRITE(B,t);**
-> ![[recuperacion_ante_fallos_ejemplo_1.png]]
+> ![[SSDD_recuperacion_ante_fallos_ejemplo_1.png]]
 
 ### Componentes
 - **Transaction Management:** The two principal tasks of the **transaction manager** are assuring recoverability of database actions through logging, and assuring correct, concurrent behavior of transactions through the **scheduler**.
@@ -24,7 +24,7 @@ Para la recuperación ante fallos se definen dentro de las transacciones operaci
 - **Logging:** A record of every important action of a transaction — beginning, changing a database element, committing, or aborting — is stored on a log. The log must be backed up on disk at a time that is related to when the corresponding database changes migrate to disk, but that time depends on the particular logging method used.
 - **Recovery:** When a system crash occurs, the log is used to repair the database, restoring it to a consistent state (**recovery manager**).
 
-![[recuperacion_ante_fallos_componentes.png]]
+![[SSDD_recuperacion_ante_fallos_componentes.png]]
 
 El **transaction manager** es el componente encargado de asegurar que las transacciones son ejecutadas correctamente. Este subsistema realiza varias funciones, entre ellas:
 1. Enviar señales al **log manager** para que la información necesaria pueda ser almacenada como registros de log en el log.
@@ -43,17 +43,17 @@ En la técnica de recuperación ante fallos mediante logging se hace uso de un a
 - **U1:** si la transacción T modifica el elemento de datos X, entonces se loguea un registro de la forma < T ,X ,v > previo a que el nuevo valor de X sea escrito en disco.
 - **U2:** si una transacción commitea, entonces se loguea su registro de log < COMMIT T > solo después de que los elementos de la base de datos hayan sido modificados por la transacción, pero tan pronto como sea posible.
 
-![[recuperacion_ante_fallos_logging_undo_ejemplo.png]]
+![[SSDD_recuperacion_ante_fallos_logging_undo_ejemplo.png]]
 
 #### REDO Logging
 - **R1:** antes de modificar cualquier elemento de datos X en disco es necesario que todos los registros de log pertinantes a esta modificación de X, incluyendo tanto el registro de update < T ,X ,v > y el registro < COMMIT T >, deben estar en disco.
 
-![[recuperacion_ante_fallos_logging_redo_ejemplo.png]]
+![[SSDD_recuperacion_ante_fallos_logging_redo_ejemplo.png]]
 
 #### UNDO/REDO Logging
 - **UR1:** antes de modificar cualquier elemento de datos X en disco por los cambios realizado por una transacción T, es necesario que el registro de update < T,X,v,w > esté en disco.
 - **UR2:** un registro < COMMIT T> debe ser flusheado a disco tan pronto como aparezca en el log.
 
-![[recuperacion_ante_fallos_logging_undo_redo_ejemplo.png]]
+![[SSDD_recuperacion_ante_fallos_logging_undo_redo_ejemplo.png]]
 
 %%Fuente: “DATABASE SYSTEMS The Complete Book”, Second Edition, Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom. Department of Computer Science Stanford University, Pearson-Prentice Hall, 2009. Chapter 17: Coping With System Failures.%%

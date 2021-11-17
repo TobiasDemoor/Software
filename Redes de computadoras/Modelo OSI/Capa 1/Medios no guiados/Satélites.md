@@ -4,4 +4,4 @@ De acuerdo con la ley de Kepler, el periodo orbital de un satélite varía segú
 
 El periodo de un satélite es importante, pero no es la única razón para determinar en dónde colocarlo. Otra cuestión es la presencia de los cinturones de Van Allen: capas de partículas altamente cargadas, atrapadas por el campo magnético de la Tierra. Cualquier satélite que volara dentro de los cinturones quedaría destruido casi al instante debido a las partículas. Estos factores condujeron a tres regiones en las que se pueden colocar los satélites de forma segura.
 
-![[satelites_1.png]]
+![[RRCC_satelites_1.png]]

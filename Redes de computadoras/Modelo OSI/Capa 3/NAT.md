@@ -7,7 +7,7 @@ La idea básica detrás de NAT es que el ISP asigne a cada hogar o negocio una s
 
 Dentro de las premisas del cliente, cada máquina tiene una dirección única de la forma (por ejemplo) 10.x.y.z. Sin embargo, antes de que un paquete salga de las premisas del cliente, pasa a través de una **caja NAT** que convierte la dirección IP de origen interna, 10.0.0.1 en la figura, a la dirección IP verdadera del cliente, 198.60.42.12 en este ejemplo. A menudo, la caja NAT se combina en un solo dispositivo con un [[firewall]] que proporciona seguridad controlando cuidadosamente lo que entra y sale por la red.
 
-![[NAT.png]]
+![[RRCC_NAT.png]]
 
 Ahora, cuando la respuesta vuelve se dirige naturalmente a la IP pública asignada a la caja NAT, por lo que, ¿cómo sabe esta con qué dirección interna se reemplaza? Aquí está el problema con NAT. Si hubiera un campo extra en el encabezado IP, ese campo podría usarse para guardar el registro del emisor real, pero sólo queda 1 bit sin usar. En principio, podría crearse una nueva opción para mantener la verdadera dirección de origen, pero para ello habría que cambiar el código IP en todas las máquinas de todo Internet para manejar la nueva opción
 

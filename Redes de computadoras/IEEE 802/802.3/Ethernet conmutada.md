@@ -1,6 +1,6 @@
 Los hubs fueron una solución para sacarse de encima el bus. Hoy en día se utiliza mayormente **Ethernet conmutada**. El corazón de este sistema es un **conmutador** ([[Switch|switch]]) que contiene un plano posterior (backplane) de alta velocidad, el cual conecta a todos los puertos. Los switches sólo envían tramas a los puertos para los cuales están destinadas. Cuando el puerto de un switch recibe una trama Ethernet de una estación, el switch verifica las direcciones de Ethernet para ver cuál es el puerto de destino de la trama.
 
-![[ethernet_conmutada_1.png]]
+![[RRCC_ethernet_conmutada_1.png]]
 
 En un hub, todas las estaciones están en el mismo **dominio de colisión**. Deben usar el algoritmo CSMA/CD para programar sus transmisiones. En un switch, cada puerto es su propio dominio de colisión independiente.
 

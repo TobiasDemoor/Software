@@ -2,7 +2,7 @@ En [[Internet]], el [[correo electrónico]] se entrega al hacer que la computado
 
 SMTP es un protocolo ASCII simple. Esto no es una debilidad, sino una característica. Al usar texto ASCII se facilita el proceso de desarrollar, probar y depurar los protocolos. Se pueden probar al enviar comandos en forma manual, y los registros de los mensajes son fáciles de leer.
 
-![[SMTP_ejemplo_envio_de_mensaje.png]]
+![[RRCC_SMTP_ejemplo_envio_de_mensaje.png]]
 
 Vamos a recorrer una transferencia de un mensaje simple entre servidores de correo para entregar un mensaje. Después de establecer la conexión TCP con el puerto 25, la máquina emisora, que opera como cliente, espera a que la máquina receptora, que opera como servidor, transmita primero. El servidor empieza por enviar una línea de texto en la que proporciona su identidad e indica si está preparado o no para recibir correo. Si no lo está, el cliente libera la conexión y lo intenta después.
 

@@ -16,7 +16,7 @@ El otro bando (representado por las compañías telefónicas) argumenta que la r
 
 Si se ofrece el servicio sin conexión, los paquetes se transmiten por separado en la red y se enrutan de manera independiente. No se necesita una configuración por adelantado. En este contexto, por lo general los paquetes se conocen como **datagramas** y la red se conoce como **red de datagramas**. Si se utiliza el servicio orientado a conexión, hay que establecer una ruta del enrutador de origen al enrutador de destino antes de poder enviar cualquier paquete de datos. Esta conexión se conoce como **VC (circuito virtual)**, en analogía con los circuitos físicos establecidos por el sistema telefónico, y la red se denomina **red de circuitos virtuales**.
 
-![[capa_de_red_comparacion_1.png]]
+![[RRCC_capa_de_red_comparacion_1.png]]
 
 ### Implementación red de datagramas
 Cuando un host envía un paquete a través de una red de datagramas, este paquete es recibido por el primer enrutador, el cual analiza el destino deseado y determina la ruta más adecuada en ese instante. Al recibir el siguiente paquete vuelve a realizar el mismo proceso, el cual puede dar una ruta distinta a la primera por haber cambiado algo en la red. El algorítmo que maneja las tablas y realiza las decisiones de enrutamiento se conoce como **algoritmo de enrutamiento**.

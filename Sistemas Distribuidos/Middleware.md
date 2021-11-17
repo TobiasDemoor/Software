@@ -23,7 +23,7 @@ Aunque originalmente fueron definidos en el contexto de [[OOP]], en el contexto 
 
 Una tarea del middleware es minimizar la cantidad de estos wrappers, ya que si cada aplicación se conectara con todas las otras mediante un adapter distinto habría un número inmanejable. Una forma de lograr esto es implementando un **broker**, que es un componente centralizado que administra los accesos entre aplicaciones.
 
-![[wrappers_1.png]]
+![[SSDD_wrappers_1.png]]
 
 ### Interceptors
 Conceptualmente un **interceptor** es nada más que una construcción de software que va a interrumpir el flujo de control usual y permitir que se ejecute otro código. Los interceptors son el medio principal para adaptar middleware a las necesidades específicas de una aplicación.
@@ -33,7 +33,7 @@ Para llevarlo a un ejemplo concreto, supongamos tener un objeto A que puede invo
 2. La llamada de A es transformada en una invocación genérica a objeto, gracias a una interfaz general de invocación de objetos ofrecida por el middleware.
 3. La invocación genérica a objeto es transformada en un mensaje que es enviado a través de la red de [[Capa de transporte|capa de transporte]].
 
-![[interceptors_1.png]]
+![[SSDD_interceptors_1.png]]
 
 Supongamos que en el ejemplo anterior ahora B se encuentra replicado. En este casa cada réplica debería ser invocada. Este es un punto claramente definido donde la intercepción puede ayudar. Lo que realizara el **request-level interceptor** es simplemente realizar la invocación genérica para cada una de las réplicas. Esto es ideal ya que ni el objeto A ni el middleware tienen que estar al tanto de que B está replicado.
 

@@ -1,6 +1,6 @@
 La forma más simple de modulación digital es utilizar un voltaje positivo para representar un 1 y un voltaje negativo para representar un 0. Para una [[Fibra óptica|fibra óptica]], la presencia de luz podría representar un 1 y la ausencia de luz podría representar un 0. Este esquema se denomina **NRZ (Non-Return-to-Zero)**. En la figura 2-20(b) se muestra un ejemplo.
 
-![[codigos_de_linea_1.png]]
+![[RRCC_codigos_de_linea_1.png]]
 
 ### Eficiencia del ancho de banda
 Con NRZ, la señal puede alternar entre los niveles positivo y negativo hasta cada 2 bits (en caso de alternar 1 s y 0 s). Esto significa que necesitamos un [[Ancho de banda|ancho de banda]] de por lo menos B/2 Hz cuando la tasa de bits es de B bits/seg. Esta relación proviene de la [[Teorema de Nyquist y Shannon|tasa de Nyquist]]. Es un límite fundamental, por lo que no podemos operar el esquema NRZ a una mayor velocidad sin usar más ancho de banda. Por lo general el ancho de banda es un recurso limitado, incluso para los canales con cables. Entre más altas sean las frecuencias de las señales su [[Atenuación|atenuación]] es cada vez mayor, lo que las hace menos útiles; además las señales de frecuencias más altas también requieren componentes electrónicos más rápidos.

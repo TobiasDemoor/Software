@@ -4,7 +4,7 @@ En algunos casos al establecer una conexión, el emisor, el receptor y la [[Subr
 
 En contraste al servicio orientado a la conexión, el servicio **no orientado a la conexión** está modelado a partir del sistema postal. Cada mensaje lleva la dirección de destino completa, y cada uno es [[Router|enrutado]] hacia los nodos intermedios dentro del sistema, en forma independiente a todos los mensajes subsecuentes. Hay distintos nombres para los mensajes en diferentes conextos: un **paquete** es un mensaje en la [[Capa de red|capa de red]].
 
-![[servicio_orientado_a_la_conexión_1.png]]
+![[RRCC_servicio_orientado_a_la_conexión_1.png]]
 
 ### Confiabilidad
 Cada tipo de servicio se puede caracterizar con base en su confiabilidad. Algunos servicios son confiables en cuanto a que nunca pierden datos. Por lo general, para implementar un servicio confiable, el receptor tiene que confirmar la recepción de cada mensaje, de manera que el emisor esté seguro de que hayan llegado. El proceso de confirmación de recepción introduce sobrecarga y retardos, que a menudo valen la pena pero algunas veces no son deseables.

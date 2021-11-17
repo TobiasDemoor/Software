@@ -16,7 +16,7 @@ Una alternativa es proveer un sistema que es implementado como una capa que enca
 
 Una monitor de máquina virtual nativa debe proveer y regular acceso a varios recursos, como almacenamiento externo y redes. Como cualquier sistema operativo, esto implica que debe implementar drivers de dispositivo para estos recursos. En vez de rehacer todo esto, un **hosted virtual machine monitor** corre arriba de un **host operating system** de confianza. En este caso el monitor de máquina virtual puede hacer uso de las facilidades provistas por el sistema operativo anfitrión.
 
-![[tipos_de_virtualizacion_1.png]]
+![[SO_tipos_de_virtualizacion_1.png]]
 
 ### Razones
 - Consolidación de servidores. Puedo tener un solo servidor físico y los demás virtualizados.

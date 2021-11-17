@@ -4,7 +4,7 @@ La idea básica detrás del NFS es que cada servidor de archivos proporcione una
 
 El NFS ha sido implementado para un gran número de sistemas operativos, aunque predominan las versiones basadas en UNIX. Para virtualmente todos los sistemas UNIX modernos, el NFS generalmente se implementa siguiendo la arquitectura en capas mostrada a continuación.
 
-![[nfs_arquitectura_basica.png]]
+![[RRCC_nfs_arquitectura_basica.png]]
 
 Un cliente accede al sistema de archivo usando las invocaciones a sistema provistas por su sistema operativo local. Sin embargo, la interfaz del sistema de archivo UNIX es reemplazada poruna interfaz para comunicarse con el **sistema de archivo virtual (VFS)** el cual por ahora es efectivamente el estándar para comunicarse con sistemas de archivo distribuidos diferentes. Virtualmente todos los [[sistemas operativos]] modernos proporcionan un VFS, y de no ser así los desarrolladores se ven obligados a reimplementar un sistema operativo enorme cuando adoptan una nueva estructura de sistema de archivo. Con el NFS, las operaciones de interfaz se transfieren o a un sistema de archivo local o a otro componente conocido como **cliente NFS**, el cual se encarga de manejar el acceso a los archivos guardados en un servidor remoto. En el NFS, toda la comunicación entre cliente y servidor se realiza mediante [[RPC]].
 
@@ -20,7 +20,7 @@ Este método requería dos RPC sucesivas. La desventaja fue evidente cuando se c
 ### Asignación de nombres
 La idea fundamental que constituye la base del modelo de asignación de nombres NFS es proporcionar a los clientes un acceso completamente transparente a un sistema de archivo remoto mantenido por un servidor. Esta transparencia se logra permitiendo que el cliente sea capaz de montar un sistema de archivo remoto en su propio sistema de archivo local.
 
-![[nfs_montaje.png]]
+![[RRCC_nfs_montaje.png]]
 
 En lugar de montar todo un sistema de archivo, el NFS permite que los clientes monten sólo una parte. Se dice que un servidor **exporta** un directorio cuando pone a éste y a sus entradas a disposición de sus clientes. Un directorio exportado puede montarse en el espacio de nombre local del cliente.
 
@@ -28,4 +28,4 @@ Este método de diseño tiene una seria implicación: en principio, los usuarios
 
 Un servidor NFS, por sí mismo, puede montar directorios exportados por otros servidores. Sin embargo, no se permite que los exporte a sus propios clientes. En cambio, un cliente tendrá que montarlos explícitamente del servidor que los contiene. Esta restricción se deriva en parte de la simplicidad. Si un servidor pudiera exportar un directorio montado desde otro servidor, tendría que regresar manejadores de archivo especiales que incluyan un identificador para un servidor. El NFS no soporta esa clase de manejadores de archivo.
 
-![[nfs_montaje_anidado.png]]
+![[RRCC_nfs_montaje_anidado.png]]

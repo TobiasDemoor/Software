@@ -62,7 +62,7 @@ Ejemplo 1:
 Listar los nombres de los empleados que trabajaron en todas las plantas de Córdoba.
 
 Ejemplo 2:
-![[algebra_relacional_division_1.png]]
+![[BD_algebra_relacional_division_1.png]]
 
 ## Operadores de conjunto
 Son operadores binarios.

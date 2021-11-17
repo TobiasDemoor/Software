@@ -8,4 +8,4 @@ Dada la extensa experiencia con otros protocolos de enrutamiento, el grupo dise�
 
 Para operar, OSPF resume la colección de redes reales, enrutadores y enlaces en un grafo dirigido en el que a cada arco se le asigna un peso (distancia, retardo, etc.). Una conexión punto a punto entre dos enrutadores se representa por un par de arcos, uno en cada dirección. Sus pesos pueden ser diferentes. Una red de difusión se representa con un nodo para la red en sí, más un nodo para cada enrutador. Los arcos de ese nodo de la red a los enrutadores tienen un peso de 0. Sin embargo son importantes, puesto que sin ellos no habrá una ruta a través de la red. Otras redes, que sólo tienen hosts, tienen únicamente un arco que llega a ellas y no uno que regresa. Esta estructura proporciona rutas a los hosts, pero no a través de ellos.
 
-![[ospf_1.png]]
+![[RRCC_ospf_1.png]]

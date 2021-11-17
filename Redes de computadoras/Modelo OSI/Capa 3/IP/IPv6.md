@@ -22,7 +22,7 @@ Una cuarta área en la que IPv6 representa un gran avance es la seguridad. La au
 Por último, se puso más énfasis en la calidad del servicio. Se han hecho varios esfuerzos carentes de entusiasmo para mejorar la QoS en el pasado, pero ahora con el crecimiento de la multimedia en Internet, la sensación de urgencia es mayor.
 
 ### Encabezado principal
-![[IPv6_encabezado_principal.png]]
+![[RRCC_IPv6_encabezado_principal.png]]
 
 El campo *Versión* siempre es 6 para IPv6 (y 4 para IPv4). Durante el periodo de transición de IPv4 los enrutadores podrán examinar este campo para saber qué tipo de paquete tienen.
 

@@ -15,7 +15,7 @@ El [[espacio de nombres]] del DNS se encuentra organizado jerárquicamente como 
 
 Porque cada nodo en DNS tiene exactamente una sola arista entrante (exceptuando al raíz), la etiqueta adherida a la arista también es usada como el nombre para dicho nodo. Un subárbol es llamado **dominio** o **domain** y una ruta de el nodo raíz es llamada **nombre de dominio** o **domain name**.
 
-![[dns_1.png]]
+![[RRCC_dns_1.png]]
 
 ### Registros de recursos de dominio
 Cada dominio, sea un host individual o un dominio de nivel superior, puede tener un grupo de **registros de recursos** asociados a él. Estos registros son la base de datos del DNS. En un host individual, el registro de recursos más común es simplemente su dirección IP, pero también existen muchos otros tipos de registros de recursos. Cuando un resolvedor asigna un nombre de dominio al DNS, lo que recibe son los registros de recursos asociados a ese nombre. Por lo tanto, **la función principal del DNS es relacionar los nombres de dominios con los registros de recursos.**

@@ -16,7 +16,7 @@ Esta separación nos permite colocar una interfaz en una máquina mientras que e
 
 Cuando un cliente **binds** a un objeto distribuido, una implementación de la interfaz del objeto, llamada [[Proxy|proxy]], es cargada en el espacio de direcciones del cliente ([[RMI]]).
 
-![[object-based_architectures_1.png]]
+![[RRCC_object-based_architectures_1.png]]
 
 Una continuación de esto son las **arquitecturas orientadas a servicios**. En las arquitecturas orientadas a servicios, una aplicación distribuida o [[Sistemas Distribuidos|sistema distribuido]] es esencialmente construida como una composición de diferentes servicios. Estos servicios pueden no pertenecer todos a la misma entidad administrativa.
 

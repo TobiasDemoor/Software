@@ -6,7 +6,7 @@ PPP provee tres características principales:
 3. Un mecanismo para negociar opciones de capa de red con independencia del protocolo de red que se vaya a utilizar. El método elegido debe tener un **NCP (Network Control Protocol)** distinto para cada capa de red soportada.
 
 **Formato de trama**
-![[ppp_trama.png]]
+![[RRCC_ppp_trama.png]]
 
 * **Dirección.** Siempre se establece en 0𝑥𝐹 para indicar que todas las estaciones deben aceptar la trama en caso de usarlo para enlace de difusión.
 * **Control.** Siempre se establece en 0𝑥3 . Indica que la trama no está numerada. o LCP proporciona los mecanismos necesarios para que las dos partes negocien una opción que omita los campos dirección y control y ahorre 2 bytes por trama.
@@ -15,7 +15,7 @@ PPP provee tres características principales:
 * **Checksum.** Código de detección de errores. [[CRC]] de 32 o 16 bits (negociable).
 
 **Estados de un enlace**
-![[ppp_diagrama_estados.png]]
+![[RRCC_ppp_diagrama_estados.png]]
 
 1. **Muerto.** Estado inicial. No hay conexión de capa física. 
 2. **Establecer.** Se estableció la conexión en capa física. Las estaciones negocian intercambiando paquetes LCP. 

@@ -31,6 +31,6 @@ Hay otras situaciones en las que también es razonable abandonar la naturaleza s
 
 Estos nodos que mantienen un índice o actuan como un broker suelen ser llamados **super peers**. Como el nombre sugiere, los super peers suelen estar organizados en una red peer-to-peer, llevando a una organización jerárquica. A continuación se anexa un ejemplo donde podemos ver que todos los nodos regulares ahora llamados weak peers, están conectados a un super peer correspondiente y que todo su tráfico se rutea a través de estos.
 
-![[p2p_systems_hierarchical_organization.png]]
+![[SSDD_p2p_systems_hierarchical_organization.png]]
 
 En muchos casos la asociación entre weak peers y super peers es estática; cuando un weak peer se conecta a la red, se asocia a un super peer y permanece asociado hasta que se va de la red. Obviamente se espera que los super peers sean procesos con alta disponibilidad y una larga esperanza de vida.

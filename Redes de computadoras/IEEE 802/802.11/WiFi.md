@@ -21,12 +21,12 @@ Las redes 802.11 se pueden utilizar en dos modos. El modo **infraestructura** do
 
 El otro modo es una **red ad hoc**. Este modo es una colección de computadoras que están asociadas de manera que puedan enviarse tramas directamente unas a otras. No hay punto de acceso. Como el acceso a Internet es la aplicación esencial para las redes inalámbricas, las redes ad hoc no son muy populares. 
 
-![[wifi_infraestructura_ad_hoc.png]]
+![[RRCC_wifi_infraestructura_ad_hoc.png]]
 
 ## Pila de protocolos
 Todos los protocolos 802, incluyendo 802.11 y [[Ethernet]], tienen ciertas similitudes en su estructura. La pila es la misma para los clientes y APs. La capa física corresponde muy bien con la [[Capa física|capa física]] OSI, pero la [[Capa de enlace de datos|capa de enlace de datos]] en todos los protocolos 802 se divide en dos o más subcapas. En el estándar 802.11, la [[Subcapa MAC|subcapa MAC]] determina la forma en que se asigna el canal; es decir, a quién le toca transmitir a continuación. Arriba de dicha subcapa se encuentra la [[Subcapa LLC|subcapa LLC]], cuya función es ocultar las diferencias entre las variantes 802 con el fin de que sean imperceptibles en lo que respecta a la [[Capa de red|capa de red]].
 
-![[wifi_pila_de_protocolos_1.png]]
+![[RRCC_wifi_pila_de_protocolos_1.png]]
 
 ## Protocolo MAC
 ![[CSMA CA]]
@@ -65,4 +65,4 @@ Los servicios se pueden clasificar en dos grupos principales:
 ## Canales
 Los dispositivos WiFi deben usar el mismo canal para poder comunicarse. Elllos envían y reciben en el mismo conal, por lo que sólo un dispositivo puede transmitir en un instante determinado (half-duplex).
 
-![[wifi_canales.png]]
+![[RRCC_wifi_canales.png]]

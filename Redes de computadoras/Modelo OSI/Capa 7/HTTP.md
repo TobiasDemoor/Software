@@ -9,7 +9,7 @@ En los primeros días de la web con el HTTP 1.0, una vez que se establecía la c
 
 Esta observación condujo al HTTP 1.1, que soporta **conexiones persistentes** (keep-alive). Con ellas es posible establecer una conexión TCP, enviar una solicitud y obtener una respuesta, para después enviar solicitudes adicionales y obtener respuestas adicionales. A esta estrategia se le conoce también como **reutilización de la conexión**. Al amortizar los costos de establecimiento, inicio y liberación de TCP entre varias solicitudes, se reduce la sobrecarga relativa debido a TCP por cada solicitud. También es posible canalizar solicitudes; es decir, enviar la solicitud 2 antes de que haya llegado la respuesta a la solicitud 1.
 
-![[HTTP_conexiones.png]]
+![[RRCC_HTTP_conexiones.png]]
 
 Sin embargo, las conexiones persistentes no son regaladas, puesto que surge un nuevo problema: cuándo cerrar la conexión. Una conexión a un servidor debe permanecer abierta mientras se carga la página. Entonces, ¿cuál es el problema? Hay una buena probabilidad de que el usuario haga clic en un vínculo que solicite otra página al servidor. Si la conexión permanece abierta, la siguiente solicitud se puede enviar de inmediato. Por lo tanto, no hay garantía de que el cliente vaya a hacer otra solicitud al servidor en cualquier momento. En la práctica, es común que los clientes y los servidores mantengan abiertas las conexiones persistentes hasta que hayan estado inactivos durante un intervalo corto (por ejemplo, 60 segundos), o cuando tengan una gran cantidad de conexiones abiertas y necesiten cerrar algunas.
 
@@ -67,7 +67,7 @@ El verdadero problema con el almacenamiento en caché en HTTP es cómo determina
 
 HTTP utiliza dos estrategias para lidiar con este problema, las cuales se muestran en la figura 7-40 como formas de procesamiento entre la solicitud (paso 1) y la respuesta (paso 5). La primera estrategia es la validación de páginas (paso 2). Se consulta la caché y, si tiene una copia de una página para el URL solicitado que se sabe está actualizada (es decir, aún es válida), no hay necesidad de obtenerla de nuevo del servidor. En cambio, se puede regresar la página en caché directamente. Para realizar esta determinación podemos utilizar el encabezado *Expires* que se devolvió cuando se obtuvo por primera vez la página en caché, junto con la fecha y hora actuales
 
-![[HTTP_almacenamiento_en_cache.png]]
+![[RRCC_HTTP_almacenamiento_en_cache.png]]
 
 En el caso que no se utilize el encabezado *Expires* se utiliza la segunda estrategia: preguntar al servidor si la copia en caché sigue siendo válida. Esta solicitud es un GET condicional y se muestra como el paso 3. Si el servidor sabe que la copia en caché aún es válida, puede enviar una respuesta corta para decirlo (paso 4a). En caso contrario, debe enviar la respuesta completa (paso 4b).
 

@@ -1,6 +1,6 @@
 Un área donde [[UDP]] se utiliza mucho es en las aplicaciones multimedia en tiempo real. A raíz de esto fue que nació el **RTP (Real-time Transport Protocol)**. Se describe en el [[RFC]] 3550 y ahora se utiliza ampliamente para aplicaciones multimedia. 
 
-![[RTP_1.png]]
+![[RRCC_RTP_1.png]]
 
 Por lo general, RTP se ejecuta en espacio de usuario sobre UDP (en el sistema operativo). Opera como se muestra a continuación. La aplicación multimedia consiste en múltiples flujos de audio, video, texto y quizás otros flujos. Éstos se colocan en la biblioteca RTP, la cual está en el espacio de usuario junto con la aplicación. Esta biblioteca multiplexa los flujos y los codifica en paquetes RTP, que después coloca en un socket. En el extremo del socket correspondiente al sistema operativo, se generan paquetes UDP para envolver los paquetes RTP y se entregan al IP para que los transmita a través de un enlace tal como Ethernet. En el receptor se lleva a cabo el proceso inverso. En un momento dado la aplicación multimedia recibirá datos multimedia de la biblioteca RTP. Es responsable de reproducir los medios.
 
@@ -18,7 +18,7 @@ El encabezado RTP consiste de tres palabras de 32 bits y potencialmente de algun
 
 El bit *P* indica que el paquete se ha rellenado para formar un múltiplo de 4 bytes. El último byte de relleno indica cuántos bytes se agregaron. El bit *X* indica que hay un encabezado de extensión. El formato y el significado de este encabezado no se definen. Lo único que se define es que la primera palabra de la extensión proporciona la longitud. Ésta es una puerta de escape para cualquier requerimiento imprevisto
 
-![[RTP_encabezado.png]]
+![[RRCC_RTP_encabezado.png]]
 
 El campo *CC* indica cuántas fuentes de contribución están presentes, de 0 a 15 (vea abajo). El bit *M* es un bit marcador específico de la aplicación. Puede utilizarse para marcar el inicio de una trama de video, el inicio de una palabra en un canal de audio o algo más que la aplicación entienda. El campo *Tipo de carga útil* indica cuál algoritmo de codificación se utilizó (por ejemplo, audio de 8 bits sin compresión, MP3, etc.). Puesto que cada paquete lleva este campo, la codificación puede cambiar durante la transmisión. El *Número de secuencia* es simplemente un contador que se incrementa con cada paquete RTP enviado. Se utiliza para detectar paquetes perdidos.
 

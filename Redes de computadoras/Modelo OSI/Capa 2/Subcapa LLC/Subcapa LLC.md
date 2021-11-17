@@ -8,7 +8,7 @@ La capa de enlace de datos utiliza los servicios de la [[Capa física|capa físi
 
 Para cumplir con estas metas, la capa de enlace de datos toma los paquetes que obtiene de la [[Capa de red|capa de red]] y los encapsula en tramas para transmitirlos. Cada trama contiene un encabezado, un campo de carga útil (payload) para almacenar el paquete y un terminador, como se muestra en la figura 3-1. El manejo de las tramas es la tarea más importante de la capa de enlace de datos.
 
-![[capa_de_enlace_de_datos_1.png]]
+![[RRCC_capa_de_enlace_de_datos_1.png]]
 
 #### Servicios proporcionados a la capa de red
 La función de la capa de enlace de datos es proveer servicios a la [[Capa de red|capa de red]]. El servicio principal es la transferencia de datos de la capa de red en la máquina de origen, a la capa de red en la máquina de destino. En la capa de red de la máquina de origen está una entidad, llamada [[Proceso|proceso]], que entrega algunos bits a la capa de enlace de datos para que los transmita al destino. La tarea de la capa de enlace de datos es transmitir los bits a la máquina de destino, de modo que se puedan entregar a la capa de red de esa máquina.

@@ -124,7 +124,7 @@ Las historias recuperables se pueden clasificar según su recuperabilidad en 3 c
 
 > **Teorema de la recuperabilidad:** $ST \subset ACA \subset RC$
 > El concepto de recuperabilidad es ortogonal al concepto de serializabilidad.
-> ![[procesamiento_de_transacciones_recuperabilidad.png]]
+> ![[BD_procesamiento_de_transacciones_recuperabilidad.png]]
 
 > **Protocolo 2PL Estricto:** T cumple con 2PL estricto si cumple con 2PL y además no libera ninguno de sus locks exclusivos hasta después de haber hecho commit o abort.
 > Todo H que cumpla con 2PL estricto es una historia estricta y serializable.

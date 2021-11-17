@@ -14,7 +14,7 @@ Hablando en sentido general existen dos tipos de tecnología de transmisión que
 ![[Broadcast#^extracto]]
 
 ## Clasificación según escala
-![[clasificacion_segun_escala.png]]
+![[RRCC_clasificacion_segun_escala.png]]
 
 ### LAN
 ![[LAN]]

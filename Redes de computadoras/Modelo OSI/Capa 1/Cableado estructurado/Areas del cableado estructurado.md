@@ -8,7 +8,7 @@ El cableado horizontal es el cableado que se extiende de la sala de telecomunica
  - Cross-connections.
  - Un máximo de un punto de transición.
 
-![[cableado_estructurado_cableado_horizontal.png]]
+![[RRCC_cableado_estructurado_cableado_horizontal.png]]
 
 Los componentes específicos de aplicación no deben ser instalados como parte del cableado horizontal. Sino que deben instalarse en las salas de telecomunicaciones o áreas de trabajo.
 
@@ -23,7 +23,7 @@ El estandar especifica requerimientos adicionales de diseño para el cableado ba
  - No se puede tener más de do- niveles gerárcicos de cross-connectores, **la topología del backbone debe ser estrella**.
  - El cableado debe ser continuo, no se permiten empalmes. 
 
-![[cableado_estructurado_cableado_backbone.png]]
+![[RRCC_cableado_estructurado_cableado_backbone.png]]
 
 ### Área de trabajo (WA)
 El área de trabajo es donde termina el cableado horizontal en un outlet. En el área de trabajo, los usuarios y los equipos de telecomunicaciones se conectan a la infraestructura de cableado estructurado.

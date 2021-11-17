@@ -2,7 +2,7 @@ La solución típica de **IoT** se caracteriza por muchos dispositivos (es decir
 
 Una arquitectura IoT está compuesta por 4 capas principales. Los sensores y actuadores (las cosas), en el caso de los sensores estos pueden medir una magnitud del ambiente en donde se encuentran y los actuadores llevan a cabo alguna acción (por ej. cerrar una válvula). Luego se encuentran los gateways los cuales se encargan de recolectar los datos crudos de los sensores y procesarlos para convertirlos en algo usable. Luego los servicios de red permiten conectar estos gateways entre sí. Y finalmente se agrega toda la información en los servidores centrales.
 
-![[IoT_architectures.png]]
+![[SSDD_IoT_architectures.png]]
 
 Las "Cosas" en el IoT son el punto de partida para una solución de IoT. Típicamente son los creadores de los datos, e interactúan con el mundo físico Las “cosas” a menudo son muy limitadas en términos de tamaño, fuente de alimentación, procesamiento y red; por lo tanto, a menudo se programan usando microcontroladores ([[MCU]]) que tienen capacidades muy limitadas.
 

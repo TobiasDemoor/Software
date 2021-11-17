@@ -21,7 +21,7 @@ Hay dos métodos básicos disponibles para tratar con los errores en presencia d
 
 La otra estrategia general para el manejo de errores cuando las tramas se colocan en canalizaciones se conoce como **repetición selectiva**. Cuando se utiliza, si se recibe una trama dañada se descarta, pero las tramas en buen estado que se reciban después de ésa se aceptan y almacenan en el búfer. Cuando expira el temporizador del emisor, sólo se retransmite la última trama sin confirmación de recepción. Si la trama llega correctamente, el receptor puede entregar a la capa de red, en secuencia, todas las tramas que ha almacenado en el búfer. La repetición selectiva corresponde a una ventana del receptor mayor a 1. Este método puede requerir grandes cantidades de memoria en la capa de enlace de datos, si la ventana es grande.
 
-![[protocolos_de_ventana_deslizante_canalizacion.png]]
+![[RRCC_protocolos_de_ventana_deslizante_canalizacion.png]]
 
 A menudo, la repetición selectiva se combina con el hecho de que el receptor envíe una confirmación de recepción negativa NAK (*negative aknowledgement*) al detectar un error; por ejemplo, cuando recibe un error de suma de verificación o una trama fuera de secuencia. Las NAK estimulan la retransmisión antes de que el temporizador correspondiente expire y, por lo tanto, mejoran el rendimiento.
 

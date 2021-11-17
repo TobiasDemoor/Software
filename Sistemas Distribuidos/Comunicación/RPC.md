@@ -9,7 +9,7 @@ Los RPC se utilizan en redes LAN y se implementan sobre [[UDP]].
  
  Cuando el mensaje llega al servidor, el sistema operativo lo pasa al **server stub**. Este es el equivalente al client stub: es código que transforma requests a través de red en llamadas a procedimientos locales. El stub desarma el mensaje y pasa los parámetros al procedimiento real, luego empaqueta la respuesta y la envia al cliente.
  
- ![[RPC_operation_1.png]]
+ ![[RRCC_RPC_operation_1.png]]
  
  ### Pasaje de parámetros
  Al empaquetamiento de parámetros en un mensaje se lo denomina **parameter marshaling**. Uno de los inconvenientes que surge al empaquetar los parámetros es que la máquina destino puede tener una arquitectura distinta a la de origen y por ejemplo puede utilizar una representación little-endian en vez de big-endian. Para solucionar incompatibilidades entre los formatos de representación de distintas arquitecturas se debe transformar los datos a enviar a un formato independiente.
@@ -19,4 +19,4 @@ Los RPC se utilizan en redes LAN y se implementan sobre [[UDP]].
  ### Asynchronous RPC
  Con RPC asíncrono el servidor responde inmediatamente luego de recibir la solicitud luego de lo cual procede a llamar al procedimiento. Esta respuesta sirve como un acknowledgement de que el servidor recibió la respuesta. El cliente entonces sigue ejecutando y una vez que recibe la respuesta se ejecuta un callback (o no). También hay variaciones en las que el cliente no espera el acknowledgement.
  
- ![[rpc_async_rpc.png]]
+ ![[RRCC_rpc_async_rpc.png]]
