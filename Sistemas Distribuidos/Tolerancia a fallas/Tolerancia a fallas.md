@@ -59,3 +59,41 @@ Cada una de estas organizaciones tiene sus ventajas y desventajas. Un grupo plan
 
 #### Manejo de membresía
 Cuando en un grupo existe comunicación, se requiere de algún método para crear y eliminar grupos, así como también para permitir que los procesos se unan a los grupos o los abandonen. Un método es tener un **servidor de grupo** al cual todas estas solicitudes pueden ser enviadas. La táctica opuesta es manejar la membresía en forma distribuida.
+
+#### Enmascaramiento de fallas y replicación
+Se dice que un sistema es **tolerante a k fallas** si puede sobrevivir a las fallas de k componentes y continuar satisfaciendo sus especificaciones. Si los componentes, por ejemplo procesos, fallan silenciosamente, es suficiente con tener k + 1 de ellos para proveer la tolerancia k a fallas. Si k de los componentes simplemente se detienen, podemos utilizar la respuesta del otro componente.
+
+En cambio, si un proceso exhibe fallas bizantinas, continuando su ejecución mientras falla y enviando respuestas aleatorias o erroneas, se requiere un mínimo de 2k + 1 procesos para lograr la tolerancia a k fallas (ya que el cliente o el votante tiene que creerle a la mayoría). En el peor caso donde k componentes fallan y generan la misma respuesta (sea accidental o intencionalmente) se tienen k + 1 que darán la respuesta correcta por ende el cliente puede creerle a la mayoría.
+
+#### Acuerdo en sistemas defectuosos
+Como se mencionó, adoptamos el modelo donde una colección potencialmente a un *grupo de procesos* que se comportan como *un proceso altamente robusto*. Para lograr que esto funciones es necesario asumir lo siguiente:
+> En un grupo de procesos con tolerancia a fallas, cada proceso sin fallas ejecuta los mismos comandos, en el mismo orden que cualquier otro proceso sin errores
+
+Formalmente, esto implica que los miembros del grupo necesitan llegar a un **consenso** en cuales comandos ejecutar. Si no ocurren fallas llegar a un concenso es sencillo. sin embargo, los fallos ocurren, y alcanzar un concenso en un grupo de procesos en situaciones más realisticas se vuelve más complicado.
+
+Para ilustrar el problema, se asume que se tiene un grupo de procesos P = {P1,...,Pn} trabajando con el modelo de fallas fail-stop, es decir que la falla de un proceso se puede detectar fiablemente desde otro proceso. Donde cada miembro mantiene una lista de comandos propuestos (de los cuales algunos se reciben de clientes y otros de otros miembros). Una técnica para lograr el conceso en situaciones adversas es el **concenso por inundación**. Conceptualmente el algorítmo opera por rondas. En cada ronda, un proceso Pi envía su lista de comandos propuestos a todo el resto de los miembros. Al final de una ronda, cada proceso combina todos los comandos propuestos recibidos en una nueva lista, de la cual selecciona determinísticamente el comando a ejecutar, si es posible. El algorítmo de selección es el mismo para todos los procesos, es decir, si tienen la misma lista eligirán el mismo comando.
+
+![[tolerancia_a_fallas_flooding_concensus.png]]
+
+#### Paxos
+El conceso por inundación no es muy realista por su dependencia del modelo fail-stop. Es más realista asumir un modelo de fallos fail-noisy, en donde un proceso *eventualmente* podrá detectar que otro proceso ha crasheado. **Paxos** es un algorítmo de concenso desarrollado por Lamport que utiliza este modelo.
+
+Supongamos una colección de procesos que pueden proponer valores. Un algoritmo de consenso asegura que se elija uno solo entre los valores propuestos. Si no se propone ningún valor, no se debe elegir. Si se ha elegido un valor, los procesos deberían poder aprender el valor elegido. Los requisitos de seguridad para el consenso son:
+-Solo se puede elegir un valor que se haya propuesto 
+- Se elige un solo valor 
+- Un proceso nunca aprende que se ha elegido un valor a menos que realmente lo haya sido ([[Relojes Lógicos#Relojes lógicos de Lamport|Lamport]])
+
+### Comunicación confiable entre cliente y servidor
+Los modelos de fallas analizados previamente aquí también son válidos en su mayoría para canales de comunicación. En particular, un canal de comunicación puede presentar fallas por congelación, omisión, temporización, y arbitrarias. En la práctica, cuando se construyen canales de comunicación confiables, se presta especial atención al ocultamiento de fallas por congelación y omisión.
+
+En muchos sistemas distribuidos, la comunicación punto a punto confiable se establece por medio de un protocolo de transporte confiable, tal como el TCP. Éste oculta las fallas por omisión, las cuales se presentan en la forma de mensajes perdidos, por medio de reconocimientos y retransmisiones.
+
+#### Semántica RPC en presencia de fallas
+Se pueden distinguir cinco clases de fallas diferentes que pueden ocurrir en sistemas [[RPC]]: 
+1. El cliente es incapaz de localizar el servidor. 
+2. El mensaje de solicitud (petición) del cliente al servidor se pierde. 
+3. El servidor se congela después de recibir una petición (Server crash) 
+4. El mensaje de respuesta del servidor al cliente se pierde. 
+5. El cliente se congela después de enviar una solicitud.
+
+![[tolerancia_a_fallas_fallos_servidor_client_server.png]]

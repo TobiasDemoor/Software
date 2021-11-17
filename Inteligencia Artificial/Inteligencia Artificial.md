@@ -6,13 +6,13 @@ Desarrollo y utilización de ordenadores con los que se intenta reproducir los p
 | **Heurístico**        | Computación exhaustiva con control heurístico | **Inteligencia Artificial** |
 
 ## Modelo cognoscitivo
-Sistemas que **piensan como humanos**. Máquinas con mente. Automatización de actividades que vinculamos con procesos del pensamiento humano, actividades tales como la toma de decisiones, resolución de problemas, aprendizaje, etc. Incluye:
+Sistemas que **piensan como humanos**. Máquinas con mente. Automatización de actividades que vinculamos con procesos del pensamiento humano, actividades tales como la toma de decisiones, [[resolución de problemas]], aprendizaje, etc. Incluye:
 - Modelos computacionales.
 - Técnicas experimentales de psicología
 - Teorías precisas y verificables del funcionamiento de la mente humana
 
 ## Leyes del pensamiento
-Sistemas que **piensan racionalmente** (ver [[Razonamiento]]). El estudio de facultades mentales mediante el uso de modelos computacionales. Estudio de los cálculos que permiten percibir, razonar y actuar. Pensar correctamente, deducción lógica. Incluye
+Sistemas que **piensan racionalmente** (ver [[razonamiento]]). El estudio de facultades mentales mediante el uso de modelos computacionales. Estudio de los cálculos que permiten percibir, razonar y actuar. Pensar correctamente, deducción lógica. Incluye
 - Pensamiento correcto
 - Deducción lógica
 

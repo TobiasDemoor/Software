@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inteligencia Artificial/Prolog.md",
+            "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Prolog.md",
+                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Prolog.md",
+                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Inteligencia Artificial/Prolog.md",
     "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+    "Inteligencia Artificial/Agente Inteligente.md",
+    "Inteligencia Artificial/Base de Conocimiento.md",
+    "Inteligencia Artificial/Inteligencia Artificial.md",
+    "Inteligencia Artificial/Resolución de problemas.md",
+    "Conceptos/Análisis computacional.md",
+    "Inteligencia Artificial/Prolog.md",
     "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
     "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Análisis y Diseño/Conceptos/Fault, Failure.md",
-    "Sistemas Operativos/Conceptos/Dato, información y conocimiento.md",
-    "Análisis y Diseño/FURPS+/Reliability.md",
-    "Análisis y Diseño/FURPS+/Performance.md",
-    "Análisis y Diseño/FURPS+/Mantainability.md",
-    "Análisis y Diseño/FURPS+/Usability.md"
+    "Análisis y Diseño/Conceptos/Fault, Failure.md"
   ]
 }
