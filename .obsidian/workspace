@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Tolerancia a fallas/Transacciones distribuidas.md",
+            "file": "Bases de Datos/Daily/20211117.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Tolerancia a fallas/Transacciones distribuidas.md",
+                "file": "Bases de Datos/Daily/20211117.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Tolerancia a fallas/Transacciones distribuidas.md",
+                "file": "Bases de Datos/Daily/20211117.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,6 +108,7 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Bases de Datos/Daily/20211117.md",
     "Sistemas Distribuidos/Tolerancia a fallas/Transacciones distribuidas.md",
     "attachments/SSDD_transacciones_distribuidas_three-phase_commit.png",
     "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png",
@@ -116,7 +117,6 @@
     "attachments/RRCC_VLAN_trama_8021Q.png",
     "attachments/RRCC_URN.png",
     "attachments/RRCC_UDP_pseudoencabezado_IP.png",
-    "attachments/SSDD_tolerancia_a_fallos_tmr.png",
-    "attachments/SSDD_tolerancia_a_fallas_organizacion_de_grupos.png"
+    "attachments/SSDD_tolerancia_a_fallos_tmr.png"
   ]
 }
