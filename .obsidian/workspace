@@ -7,9 +7,10 @@
         "id": "9af80757492d1e1a",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png"
+            "file": "Sistemas Distribuidos/Tolerancia a fallas/Transacciones distribuidas.md",
+            "mode": "source"
           }
         }
       }
@@ -75,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png",
+                "file": "Sistemas Distribuidos/Tolerancia a fallas/Transacciones distribuidas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png",
+                "file": "Sistemas Distribuidos/Tolerancia a fallas/Transacciones distribuidas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,10 +103,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Tolerancia a fallas/Transacciones distribuidas.md",
+    "attachments/SSDD_transacciones_distribuidas_three-phase_commit.png",
     "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png",
     "attachments/SSDD_wrappers_1.png",
     "attachments/SSDD_web_cache.png",
@@ -113,8 +117,6 @@
     "attachments/RRCC_URN.png",
     "attachments/RRCC_UDP_pseudoencabezado_IP.png",
     "attachments/SSDD_tolerancia_a_fallos_tmr.png",
-    "attachments/SSDD_tolerancia_a_fallas_organizacion_de_grupos.png",
-    "attachments/SSDD_tolerancia_a_fallas_modelos_de_fallas.png",
-    "attachments/SSDD_tolerancia_a_fallas_fallos_servidor_client_server.png"
+    "attachments/SSDD_tolerancia_a_fallas_organizacion_de_grupos.png"
   ]
 }
