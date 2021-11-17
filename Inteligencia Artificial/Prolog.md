@@ -72,3 +72,16 @@ El proceso utilizado en cada paso (cláusula) se llama **resolución**, y el pro
 - No es importante el orden de los procedimientos, si de las cláusulas dentro de cada procedimiento.
 
 ### Control de ejecución
+**Predicados dinámicos**
+Posibilidad de añadir y eliminar cláusulas en tiempo de ejecución (assert/1 y retract/1). Se requiere la línea ```:- dynamic functor/aridad.``` al principio.
+
+**Retroceso**
+Mediante un predicado sin argumentos (fail) permite provocar el retroceso en determinados puntos de un programa.
+
+**Búsqueda**
+Mediante un predicado (!) sin argumentos permite eliminar ramas del árbol de búsqueda de un programa o encontrar todas las soluciones posibles (findall).
+
+### Bases de datos
+En general un programa Prolog puede ser visto como una base de datos, pero en la práctica esta palabra se reserva para programas que tienen un gran número de hechos y pocas reglas. Los hechos representan datos explícitos y las reglas contienen la información implícita. Una BD en Prolog, puede ser vista como:
+- Un conjunto de registros: PROVEEDOR(SNUMERO, SNOMBRE, CIUDAD)
+- Un conjunto de atributos: SNOMBRE(SNUMERO, < nombre >)

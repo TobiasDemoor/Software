@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+            "file": "Inteligencia Artificial/Prolog.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+                "file": "Inteligencia Artificial/Prolog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+                "file": "Inteligencia Artificial/Prolog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,6 +108,7 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Inteligencia Artificial/Prolog.md",
     "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
     "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
     "Sistemas Distribuidos/Replicación/Replicación.md",
@@ -116,7 +117,6 @@
     "Análisis y Diseño/FURPS+/Reliability.md",
     "Análisis y Diseño/FURPS+/Performance.md",
     "Análisis y Diseño/FURPS+/Mantainability.md",
-    "Análisis y Diseño/FURPS+/Usability.md",
-    "Análisis y Diseño/FURPS+/Supportability.md"
+    "Análisis y Diseño/FURPS+/Usability.md"
   ]
 }
