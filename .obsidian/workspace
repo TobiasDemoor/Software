@@ -109,14 +109,14 @@
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
     "Bases de Datos/Daily/20211117.md",
-    "Sistemas Distribuidos/Tolerancia a fallas/Transacciones distribuidas.md",
-    "attachments/SSDD_transacciones_distribuidas_three-phase_commit.png",
-    "attachments/RRCC_wireless_lan_problema_terminal_oculta_2.png",
-    "attachments/SSDD_wrappers_1.png",
-    "attachments/SSDD_web_cache.png",
-    "attachments/RRCC_VLAN_trama_8021Q.png",
-    "attachments/RRCC_URN.png",
-    "attachments/RRCC_UDP_pseudoencabezado_IP.png",
-    "attachments/SSDD_tolerancia_a_fallos_tmr.png"
+    "Sistemas Operativos/Resumen completo.md",
+    "Teoría de la Información/Resumen completo.md",
+    "Organización de Datos/Resumen completo.md",
+    "Bases de Datos/Recuperación ante fallos.md",
+    "Conceptos/Idempotencia.md",
+    "Bases de Datos/Daily/idempotente.md",
+    "Conceptos/Transacciones.md",
+    "Bases de Datos/Procesamiento de transacciones.md",
+    "Bases de Datos/Bases de Datos.md"
   ]
 }
