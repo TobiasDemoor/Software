@@ -56,4 +56,32 @@ En la técnica de recuperación ante fallos mediante logging se hace uso de un a
 
 ![[BD_recuperacion_ante_fallos_logging_undo_redo_ejemplo.png]]
 
+#### Checkpointing
+El objetivo del checkpointing es limitar la cantidad de registros del Log que deben ser examinados en la recuperación. Marca un punto desde donde se puede estar seguro que todas las transacciones anteriores terminaron correctamente o fueron abortadas correctamente. Hay dos tipos principales de checkpointing, **quiescent** y **non-quiescent**. 
+
+##### Quiescent checkpointing
+1. Se dejan de aceptar nuevas transacciones (el sistema queda "inactivo").
+2. Se espera hasta que todas las transacciones activas hagan COMMIT o ABORT y que dichos registros sean escritos en el Log en disco.
+3. Se escribe el registro < CKPT> en el Log en disco, indicando el checkpoint.
+4. Se aceptan nuevas transacciones.
+
+Para el **recovery** se lee el Log a partir del último registro y hasta el punto de **checkpint**. Sabemos que hasta ahí todas las transacciones terminaron y sus cambios fueron guardados en disto. Luego se aplica la política de recuperación correspondiente al modelo de logging.
+
+##### Non-quiescent checkpointing
+1. Escribir en el Log < START CKPT (lista de transacciones activas)> y flushear log a disco.
+2. Esperar hasta que todas las transaccions activas del START CKPT hagan COMMIT o ABORT sin dejar de aceptar nuevas transacciones.
+3. Una vez finalizadas todas las transacciones de la lista del START CKPT, se escribe el registro < END CKPT> en el log en disco.
+
+Para el **recovery** se lee el log a partir del último registro, aplicando la política **UNDO**
+1. Si encuentro un < END CKPT>, debo leer no más allá del < START CKPT ...>. Ya que todas las transacciones iniciadas previo al START CKPT terminaron correctamente o fueron abortadas correctamente.
+2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> devido a un crash). Debo leer el Log hasta el START más antiguo de las transacciones de la lista del START CKPT que quedaron incompletas.
+
+Para el **recovery** aplicando la política **REDO**
+1. Si encuentro un < END CKPT>, indica que las transacciones que hicieron commit antes del START CKPT tienen sus cambios en disco, por lo tanto las ignoro. Rehago las transacciones que hicieron COMMIT, y que comenzaron luego del START CKPT, o que estuvieron activas en ese momento. Leo hasta el START más antiguo de estas transacciones.
+2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> devido a un crash). Debo leer el Log hasta el END CKPT anterior o hasta el comienzo del Log, si no hubiera checkpoints.
+
+Para el **recovery** aplicando la política **UNDO?REDO**
+1. Si encuentro un < END CKPT>, indica que todos los cambios antes del START CKPT están en disco.
+2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> devido a un crash). Debo leer el Log hasta el END CKPT anterior o hasta el comienzo del Log, si no hubiera checkpoints.
+
 %%Fuente: “DATABASE SYSTEMS The Complete Book”, Second Edition, Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom. Department of Computer Science Stanford University, Pearson-Prentice Hall, 2009. Chapter 17: Coping With System Failures.%%
