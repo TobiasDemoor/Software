@@ -1,4 +1,4 @@
-# Sistemas Distribuidos
+%%# Sistemas Distribuidos
 ![[Sistemas Distribuidos]]
 
 # Middleware
@@ -20,4 +20,23 @@
 ![[Comunicación]]
 
 # Sincronización
-![[Sincronización]]
+![[Sincronización]]%%
+
+
+# Sincronización
+![[Relojes Lógicos#Relojes Vectoriales]]
+
+# Naming
+![[Sistema de Nombres]]
+
+# Replicación
+![[Replicación]]
+
+# Almacenamiento distribuido
+![[Sistemas de archivos distribuidos]]
+
+# Tolerancia a fallas
+![[Tolerancia a fallas]]
+
+# Blockchain
+![[Blockchain]]

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
+            "file": "Resumenes/Resumen SSDD.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
+                "file": "Resumenes/Resumen SSDD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
+                "file": "Resumenes/Resumen SSDD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Resumenes/Resumen SSDD.md",
+    "Sistemas Distribuidos/Coordinación/Sincronización.md",
+    "Sistemas Distribuidos/Coordinación/Relojes Lógicos.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
+    "Sistemas Distribuidos/Blockchain.md",
+    "Sistemas Distribuidos/Daily/20211116.md",
+    "attachments/SSDD_arboles_merkle_1.png",
     "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
     "Resumenes/Resumen Redes.md",
-    "Bases de Datos/Daily/20211117.md",
-    "Organización de Datos/índice.md",
-    "Organización de Datos/Resumen completo.md",
-    "Teoría de la Información/Control de errores.md",
-    "Teoría de la Información/Resumen completo.md",
-    "Sistemas Operativos/Resumen completo.md",
-    "Sistemas Operativos/Sistemas Operativos.md",
-    "Sistemas Operativos/Sistemas de Computación.md"
+    "Bases de Datos/Daily/20211117.md"
   ]
 }
