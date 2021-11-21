@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Análisis y Diseño/FURPS+/Reliability.md",
-            "mode": "source"
+            "file": "Sistemas Distribuidos/Blockchain.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis y Diseño/FURPS+/Reliability.md",
+                "file": "Sistemas Distribuidos/Blockchain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis y Diseño/FURPS+/Reliability.md",
+                "file": "Sistemas Distribuidos/Blockchain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Análisis y Diseño/FURPS+/Reliability.md",
+    "Sistemas Distribuidos/Blockchain.md",
     "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+    "Análisis y Diseño/FURPS+/Reliability.md",
     "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md",
     "Sistemas Operativos/Sistemas de archivos.md",
     "Sistemas Operativos/Resumen completo.md",
     "Sistemas Distribuidos/Almacenamiento distribuido/Almacenamiento distribuido.md",
     "Sistemas Operativos/RAID.md",
     "Resumenes/Resumen SSDD.md",
-    "Sistemas Distribuidos/Almacenamiento distribuido/NFS.md",
-    "Sistemas Distribuidos/Sistemas Distribuidos.md"
+    "Sistemas Distribuidos/Almacenamiento distribuido/NFS.md"
   ]
 }

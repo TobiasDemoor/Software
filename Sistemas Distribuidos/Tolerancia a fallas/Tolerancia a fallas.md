@@ -6,7 +6,7 @@ El que un sistema sea tolerante a fallas está muy relacionado a los **sistemas 
 - Seguridad: se refiere a la situación en que no acontece nada catastrófico cuando un sistema deja de funcionar correctamente durante un tiempo.
 - [[Mantainability|Mantenibilidad]]: qué tan facil puede ser reparado.
 
-Es importante diferenciar [[Fault, Failure|falla de error]]. Se dice que un sistema falla cuando no puede cumplir sus promesas. Un error en cambio es una parte del estado de un sistema que puede conducir a una falla.
+Es importante [[Fault, Failure|diferenciar falla de error]]. Se dice que un sistema falla cuando no puede cumplir sus promesas. Un error en cambio es una parte del estado de un sistema que puede conducir a una falla.
 
 La construcción de sistemas fiables tiene mucho que ver con el control de fallas. Se puede hacer una distinción entre evitar, eliminar, y pronosticar fallas. Para nuestros propósitos, el tema más importante es la **tolerancia a las fallas** lo que significa que un sistema puede proveer sus servicios incluso en presencia de fallas. En otros términos, el sistema puede tolerarlas y continuar operando con normalidad.
 
@@ -22,7 +22,7 @@ Si se considera un sistema distribuido como un conjunto de servidores que se com
 
 Un **crash failure** ocurre cuando un servidor termina prematuramente, pero estaba funcionando correctamente hasta ese momento.
 
-Una **falla de omisión** ocurre cuando el servidor falla en responder a una solicitud. Muchas cosas pueden haber salido mal. En el caso de **fallas de omisión de recepción** el servidor posiblemente no recibió la solicitud en primer lugar. De manera similar las **fallas de omisión de respuesta** ocurren cuando el servidor ha realizado su trabajo pero de alguna manera falla en enviar la respuesta. En este último contrario al primero hay un posible cambio de estado por parte del servidor.
+Una **falla de omisión** ocurre cuando el servidor falla en responder a una solicitud. Muchas cosas pueden haber salido mal. En el caso de **fallas de omisión de recepción** el servidor posiblemente no recibió la solicitud en primer lugar. De manera similar las **fallas de omisión de respuesta** ocurren cuando el servidor ha realizado su trabajo pero de alguna manera falla en enviar la respuesta. En este último contrario al primero hay un posible cambio de estado por parte del servidor (para evitar esto se fomenta la creación de operaciones [[Idempotencia|idempotentes]]).
 
 Las **fallas de timing** ocurren cuando la respuesta cae fuera de un intervalo de tiempo especificado.
 
