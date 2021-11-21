@@ -20,7 +20,7 @@ Si se considera un sistema distribuido como un conjunto de servidores que se com
 
 ![[SSDD_tolerancia_a_fallas_modelos_de_fallas.png]]
 
-Un **crash failure** ocurre cuando un servidor termina prematuramente, pero estaba funcionando correctamente hasta ese momento.
+Un **crash failure (falla de congelación)** ocurre cuando un servidor termina prematuramente, pero estaba funcionando correctamente hasta ese momento.
 
 Una **falla de omisión** ocurre cuando el servidor falla en responder a una solicitud. Muchas cosas pueden haber salido mal. En el caso de **fallas de omisión de recepción** el servidor posiblemente no recibió la solicitud en primer lugar. De manera similar las **fallas de omisión de respuesta** ocurren cuando el servidor ha realizado su trabajo pero de alguna manera falla en enviar la respuesta. En este último contrario al primero hay un posible cambio de estado por parte del servidor (para evitar esto se fomenta la creación de operaciones [[Idempotencia|idempotentes]]).
 

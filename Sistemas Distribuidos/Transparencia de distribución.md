@@ -34,6 +34,8 @@ Un usuario no debería notar que otro está haciendo uso del mismo recurso. Al f
 ##### Transparencia de fallas
 Un usuario o aplicación no debe notar que alguna parte del sistema falla. Muchas veces es prácticamente imposible. Un gran inconveniente es *la incapacidad de distinguir un proceso penosamente lento de uno muerto o una red severamente congestionada*.
 
+Esto se desarrolla extensamente en el tema [[tolerancia a fallas]].
+%%
 ###### Tipos de fallas
 - **Falla de congelación** ("no responde más")
 - **Falla de omision**
@@ -44,4 +46,4 @@ Un usuario o aplicación no debe notar que alguna parte del sistema falla. Mucha
 	- Falla de valor
 	- Falla de transición de estado 
 - **Falla arbitraria o Bizantina**: Un equipo o conjunto de equipos devuelven valores que no son los correctos, pero maliciosamente erróneos, es decir, pueden parecer estar bien.
-
+%%

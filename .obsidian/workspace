@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/Blockchain.md",
-            "mode": "preview"
+            "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+            "mode": "source"
           }
         }
       }
@@ -76,13 +76,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/Blockchain.md",
+                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/Blockchain.md",
+                "file": "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Blockchain.md",
     "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Conceptos/Transacciones.md",
+    "Sistemas Distribuidos/Replicación/Conit.md",
+    "Sistemas Distribuidos/Transparencia de distribución.md",
+    "Sistemas Distribuidos/Blockchain.md",
     "Análisis y Diseño/FURPS+/Reliability.md",
     "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md",
     "Sistemas Operativos/Sistemas de archivos.md",
-    "Sistemas Operativos/Resumen completo.md",
-    "Sistemas Distribuidos/Almacenamiento distribuido/Almacenamiento distribuido.md",
-    "Sistemas Operativos/RAID.md",
-    "Resumenes/Resumen SSDD.md",
-    "Sistemas Distribuidos/Almacenamiento distribuido/NFS.md"
+    "Sistemas Operativos/Resumen completo.md"
   ]
 }
