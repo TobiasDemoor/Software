@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -114,7 +114,7 @@
     "Sistemas Distribuidos/Almacenamiento distribuido/Almacenamiento distribuido.md",
     "Sistemas Operativos/RAID.md",
     "Resumenes/Resumen SSDD.md",
-    "Sistemas Distribuidos/NFS.md",
+    "Sistemas Distribuidos/Almacenamiento distribuido/NFS.md",
     "Sistemas Distribuidos/Sistemas Distribuidos.md",
     "Teoría de la Información/Resumen completo.md"
   ]
