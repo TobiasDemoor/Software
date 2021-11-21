@@ -40,3 +40,9 @@ En Berkeley Unix hay un time server (en realidad es un time daemon) activo que c
 
 ## Relojes Lógicos
 ![[Relojes Lógicos]]
+
+## Exclusión mutua distribuida
+![[Exclusión mutua distribuida]]
+
+## Algoritmos de elección
+![[Algoritmos de elección]]

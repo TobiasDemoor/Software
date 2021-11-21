@@ -80,7 +80,7 @@ Para el **recovery** aplicando la política **REDO**
 1. Si encuentro un < END CKPT>, indica que las transacciones que hicieron commit antes del START CKPT tienen sus cambios en disco, por lo tanto las ignoro. Rehago las transacciones que hicieron COMMIT, y que comenzaron luego del START CKPT, o que estuvieron activas en ese momento. Leo hasta el START más antiguo de estas transacciones.
 2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> devido a un crash). Debo leer el Log hasta el END CKPT anterior o hasta el comienzo del Log, si no hubiera checkpoints.
 
-Para el **recovery** aplicando la política **UNDO?REDO**
+Para el **recovery** aplicando la política **UNDO/REDO**
 1. Si encuentro un < END CKPT>, indica que todos los cambios antes del START CKPT están en disco.
 2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> devido a un crash). Debo leer el Log hasta el END CKPT anterior o hasta el comienzo del Log, si no hubiera checkpoints.
 

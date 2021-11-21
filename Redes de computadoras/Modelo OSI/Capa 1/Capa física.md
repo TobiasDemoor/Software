@@ -1,3 +1,6 @@
+---
+aliases: [capa 1]
+---
 La **capa física** se relaciona con la transmisión de bits puros a través de un canal de transmisión. Los aspectos de diseño tienen que ver con la acción de asegurarse que cuando uno de los lados envíe un bit 1 el otro lado lo reciba como un bit 1, no como un bit 0. También tienen que ver son las interfaces mecánica, eléctrica y de temporización, así como con el medio físico que se encuentra bajo la capa. ^extracto
 
 La capa física es la capa más baja del [[Modelo OSI|modelo OSI]]. Ésta define las interfaces eléctricas, de temporización y demás interfaces mediante las cuales se envían los bits como señales a través de los canales. La capa física es la base sobre la cual se construye la red. 

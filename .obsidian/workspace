@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Recuperación ante fallos.md",
+            "file": "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Recuperación ante fallos.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Recuperación ante fallos.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Bases de Datos/Recuperación ante fallos.md",
-    "Bases de Datos/Daily/20211117.md",
-    "Bases de Datos/Procesamiento de transacciones.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
+    "Redes de Computadoras/Modelo OSI/Capa 4/Capa de transporte.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Capa de red.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Capa de enlace de datos.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Capa física.md",
     "Resumenes/Resumen SSDD.md",
-    "Sistemas Distribuidos/Coordinación/Sincronización.md",
-    "Sistemas Distribuidos/Coordinación/Relojes Lógicos.md",
-    "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
-    "Sistemas Distribuidos/Blockchain.md",
-    "Sistemas Distribuidos/Daily/20211116.md",
-    "attachments/SSDD_arboles_merkle_1.png"
+    "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Sistemas Distribuidos/Replicación/Conit.md",
+    "Resumenes/Resumen BD.md"
   ]
 }

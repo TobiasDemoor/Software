@@ -24,7 +24,12 @@
 
 
 # Sincronización
+## Relojes Lógicos
 ![[Relojes Lógicos#Relojes Vectoriales]]
+
+![[Sincronización#Exclusión mutua distribuida]]
+
+![[Sincronización#Algoritmos de elección]]
 
 # Naming
 ![[Sistema de Nombres]]

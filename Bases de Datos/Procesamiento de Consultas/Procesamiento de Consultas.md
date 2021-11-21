@@ -12,8 +12,8 @@ La idea general es que luego del parsing se construya una expresión algebraica 
 
 Luego, esta consulta es pasada al otro componente generalmente llamando **Procesador de Consultas**, que es el que se encarga de ejecutar físicamente la consulta de acuerdo al plan de ejecución, produciendo y devolviendo el resultado.
 
-## Optimizador de Consultas
-![[Optimizador de Consultas]]
+## Optimizador de consultas
+![[Optimizador de consultas]]
 
-## Optimización de Consultas
-![[Optimización de Consultas]]
+## Optimización de consultas
+![[Optimización de consultas]]
