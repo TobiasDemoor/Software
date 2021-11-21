@@ -10,14 +10,14 @@ Un cliente accede al sistema de archivo usando las invocaciones a sistema provis
 
 Del lado del servidor, la organización es similar. El **servidor NFS** se encarga de manejar las solicitudes de clientes. El resguardo de RPC desempaqueta las solicitudes y el servidor NFS las transforma en operaciones con archivos VFS regulares que posteriormente se transfieren a la capa VFS
 
-### RPC en NFS
+#### RPC en NFS
 En NFS toda la comunicación entre un cliente y el servidor ocurre a lo largo de un protocolo **RPC de computación de red abierta (ONC [[RPC]])**.
 
 Cada operación NFS puede ser implementada como una llamada a un procedimiento remoto única realizada a un servidor de archivos. En realidad, hasta el NFSv4, el cliente era responsable de hacer la vida del servidor tan fácil como fuera posible manteniendo las solicitudes relativamente simples. Por ejemplo, para leer datos de un archivo por primera vez, un cliente normalmente debía buscar el manejador del archivo con una operación *lookup*, después de lo cual podía emitir una solicitud *read*.
 
 Este método requería dos RPC sucesivas. La desventaja fue evidente cuando se consideró el uso del NFS en un sistema de área amplia. En ese caso, la latencia extra de una segunda RPC degradó el desempeño. Para evitar esos problemas, el NFSv4 soporta **procedimientos compuestos** mediante los cuales varias RPC pueden agruparse en una sola solicitud.
 
-### Asignación de nombres
+#### Asignación de nombres
 La idea fundamental que constituye la base del modelo de asignación de nombres NFS es proporcionar a los clientes un acceso completamente transparente a un sistema de archivo remoto mantenido por un servidor. Esta transparencia se logra permitiendo que el cliente sea capaz de montar un sistema de archivo remoto en su propio sistema de archivo local.
 
 ![[RRCC_nfs_montaje.png]]

@@ -1,4 +1,4 @@
-El [[protocolo]] **MQTT (Message Queue Telemetry Transport)**, que está construido sobre la pila de [[TCP]]/[[IP]], se ha convertido en el estándar para las comunicaciones de [[IoT]].
+El [[protocolo]] **MQTT (Message Queue Telemetry Transport)**, que está construido sobre la pila de [[TCP|TCP/IP]], se ha convertido en el estándar para las comunicaciones de [[IoT]].
 
 Originariamente, MQTT fue inventado y desarrollado por IBM a finales de los 90. Su aplicación original era conectar sensores de los oleoductos con satélites. Es un protocolo de comunicación de [[Arquitecturas publish-subscriber|publish subscriber]] de cola de mensajes no persistente (osea, tiene acoplamiento temporal) que soporta la comunicación asíncrona entre las partes mediante un broker.
 
@@ -16,4 +16,4 @@ Existen mensajes
 
 ![[SSDD_mqtt_1.png]]
 
-MQTT es un protocolo de [[Capa de aplicación]] que especifica cómo se organizan los bytes de datos y cómo se transmiten a través de la red TCP/IP. Pero para propósitos prácticos, los desarrolladores no necesitan entender el protocolo de cable. Todo lo que necesitan saber es que cada mensaje tiene un comando y una carga útil de datos. El comando define el tipo de mensaje.
+MQTT es un protocolo de [[capa de aplicación]] que especifica cómo se organizan los bytes de datos y cómo se transmiten a través de la red TCP/IP. Pero para propósitos prácticos, los desarrolladores no necesitan entender el protocolo de cable. Todo lo que necesitan saber es que cada mensaje tiene un comando y una carga útil de datos. El comando define el tipo de mensaje.

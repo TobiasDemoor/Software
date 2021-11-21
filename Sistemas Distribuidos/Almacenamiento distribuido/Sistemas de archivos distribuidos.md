@@ -1,9 +1,9 @@
-Si consideramos que el compartir datos es fundamental en los [[sistemas distribuidos]], no sorprende que los [[sistemas de archivo]] compartidos constituyan el fundamento de muchas aplicaciones. Los sistemas de archivo distribuidos permiten que múltiples procesos compartan datos durante largos periodos en forma segura y confiable.
+Si consideramos que el compartir datos es fundamental en los [[sistemas distribuidos]], no sorprende que los [[Sistemas de archivos]] compartidos constituyan el fundamento de muchas aplicaciones. Los sistemas de archivo distribuidos permiten que múltiples procesos compartan datos durante largos periodos en forma segura y confiable.
 
-## Arquitectura
+### Arquitectura
 La mayoría se construye siguiendo una [[Client-Server|arquitectura cliente-servidor]] tradicional, aunque también existen soluciones [[Decentralized organizations|descentralizadas]].
 
-### Arquitecturas cliente-servidor
+#### Arquitecturas cliente-servidor
 Muchos sistemas de archivo distribuidos se organizan a lo largo de las líneas de arquitecturas clienteservidor, siendo el **sistema de archivo de red ([[NFS]])** de Sun Microsystem una de las más ampliamente utilizadas en los sistemas basados en UNIX.
 
 El modelo que sirve de fundamento al NFS y a sistemas similares es de un **servicio de archivos remoto**. Este modelo ofrece a los clientes un acceso transparente a un sistema de archivo gestionado por un servidor remoto. Sin embargo, los clientes normalmente desconocen la ubicación de los archivos. En cambio, disponen de una interfaz para que interactúen con el sistema de archivo similar a la interfaz ofrecida por un sistema de archivo convencional. En particular, al cliente sólo se le ofrece una interfaz que contiene varias operaciones de archivo, pero el servidor es responsable de implementarlas. Por consiguiente, a este modelo también se le denomina **modelo de acceso remoto**.
@@ -12,23 +12,23 @@ El modelo que sirve de fundamento al NFS y a sistemas similares es de un **servi
 
 Por contraste, en el **modelo de carga y descarga** un cliente accede a un archivo localmente después de haberlo descargado del servidor. Cuando el cliente termina con el archivo, lo carga otra vez en el servidor para que pueda ser utilizado por otro cliente. El servicio FTP de internet se utiliza de esta manera cuando un cliente descarga un archivo completo, lo modifica y luego lo repone.
 
-### Sistemas basados en cluster
+#### Sistemas basados en cluster
 Si consideramos que los grupos de servidores a menudo se utilizan en aplicaciones en paralelo, no sorprende que sus sistemas de archivo asociados se ajusten como corresponde. Una técnica muy conocida es desplegar **técnicas de distribución de archivos**, mediante las cuales un archivo se distribuye a través de múltiples servidores. La idea básica es simple: distribuyendo un archivo grande entre múltiples servidores, es posible buscar sus diferentes partes en paralelo. Desde luego, semejante organización funciona bien sólo si la aplicación se organiza de tal forma que el acceso a los datos en paralelo tenga sentido. Esto requiere generalmente que los datos, tal como se guardan en el archivo, tengan una estructura muy regular, por ejemplo, una matriz (densa).
 
 ![[SSDD_fs_distribuido_distribucion_de_archivos.png]]
 
-### Arquitecturas simétricas
+#### Arquitecturas simétricas
 Desde luego, también existen organizaciones totalmente simétricas basadas en técnicas punto a punto. Todas las propuestas actuales utilizan un sistema basado en [[DHT]] de distribución de datos, combinado con un mecanismo de búsqueda basado en una clave. Una importante diferencia es decidir si construyen un sistema de archivos sobre una capa de almacenamiento distribuido, o si archivos completos deben guardarse en los nodos participantes.
 
-## Procesos
+### Procesos
 El aspecto más interesante con respecto a procesos de sistemas de archivo es si deberán o no ser sin estado. El [[NFS]] es un buen ejemplo que ilustra los compromisos. Una de sus características distintivas de larga duración (comparada con otros sistemas de archivo distribuidos) fue el hecho de que los servidores eran sin estado. En otros términos, el protocolo NFS no requería que los servidores mantuvieran cualquier estado de cliente. Este método se siguió en las versiones 2 y 3, pero fue abandonado en la versión 4.
 
 La ventaja principal del método sin estado es la simplicidad. Por ejemplo, cuando un servidor sin estado se congela, esencialmente no hay necesidad de entrar a una fase de recuperación para llevarlo a un estado previo.
 
-## Sincronización
+### Sincronización
 Existen varios aspectos que requieren atención. En primer lugar, implementar la sincronización en los sistemas de archivo no sería un problema si los archivos no fueran compartidos. Sin embargo, en un sistema distribuido, la semántica de archivos compartidos se vuelve un poco engañosa cuando el desempeño está en peligro. Con esta finalidad, se han propuesto diferentes soluciones.
 
-### Semántica de archivos compartidos
+#### Semántica de archivos compartidos
 Cuando dos o más usuarios comparten el mismo archivo al mismo tiempo, es necesario definir con precisión la **semántica de lectura y escritura** para evitar problemas. En sistemas de un solo procesador que permiten a los procesos compartir archivos, tal como UNIX, la semántica establece normalmente que una operación read sigue a una operación write, la operación read regresa el valor que se acaba de escribir. Asimismo, ocurren dos operaciones write en rápida sucesión, seguidas por una operación read, el valor leído es el valor guardado por la última operación de escritura. A este modelo se lo denomina **semántica UNIX**.
 
 En un sistema distribuido, la semántica UNIX es fácil de lograr en tanto exista sólo un servidor y los clientes no guarden los archivos en la memoria caché. Todas las operaciones read y write se van directamente al servidor de archivos, el cual las procesa estrictamente en secuencia.
@@ -58,5 +58,5 @@ Una cuarta forma de ocuparse de los archivos compartidos en un sistema distribui
 | Archivos inmutables | No son posibles actualizaciones; simplifica el compartimentar y la replicación        |
 | Transacciones       | Todos los cambios ocurren atómicamente                                                | 
 
-## NFS
+### NFS
 ![[NFS]]

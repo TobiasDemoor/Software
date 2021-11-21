@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Resumenes/Resumen SSDD.md",
-            "mode": "preview"
+            "file": "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "commit",
+                "query": "raid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resumenes/Resumen SSDD.md",
+                "file": "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resumenes/Resumen SSDD.md",
+                "file": "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,14 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md",
+    "Sistemas Operativos/Sistemas de archivos.md",
+    "Sistemas Operativos/Resumen completo.md",
+    "Sistemas Distribuidos/Almacenamiento distribuido/Almacenamiento distribuido.md",
+    "Sistemas Operativos/RAID.md",
     "Resumenes/Resumen SSDD.md",
-    "Sistemas Distribuidos/Coordinación/Naming/UUID.md",
-    "Sistemas Distribuidos/Daily/20211012.md",
-    "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
-    "Sistemas Distribuidos/Daily/20211026.md",
-    "Sistemas Distribuidos/Daily/20211019.md",
-    "Sistemas Distribuidos/Daily/20211109.md",
-    "Sistemas Distribuidos/Coordinación/Naming/Espacio de nombres.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/Capa de aplicación.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/Capa de transporte.md"
+    "Sistemas Distribuidos/NFS.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Teoría de la Información/Resumen completo.md"
   ]
 }

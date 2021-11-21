@@ -37,8 +37,11 @@
 # Replicación
 ![[Replicación]]
 
+# IoT
+![[IoT]]
+
 # Almacenamiento distribuido
-![[Sistemas de archivos distribuidos]]
+![[Almacenamiento distribuido]]
 
 # Tolerancia a fallas
 ![[Tolerancia a fallas]]

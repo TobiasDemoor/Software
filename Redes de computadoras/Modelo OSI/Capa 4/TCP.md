@@ -1,3 +1,6 @@
+---
+aliases: [TCP/IP]
+---
 El **TCP (Transmission Control Protocol)** es un [[protocolo]] orientado a la conexión  de comunicación que especifica qué mensajes deben ser intercambiados para establecer o desestablecer una conexión, qué necesita hacerse para preservar el ordenamiento de la información transmitida, y qué necesitan ambas partes para detectar y corregir información que fue perdida durante la transmisión. Se encuentra en la [[capa de transporte]]. TCP se definió formalmente en el [[RFC]] 793 en septiembre de 1981. Luego de esto tuvo muchos más RFC sumando aclaraciones, correcciones y extensiones.
 
 TCP se diseñó específicamente para proporcionar un flujo de bytes confiable de extremo a extremo a través de una interred no confiable. TCP se diseñó para adaptarse de manera dinámica a las propiedades de la interred y sobreponerse a muchos tipos de fallas.

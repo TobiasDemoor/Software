@@ -15,3 +15,9 @@ Se usa MQTT por ser un protocolo de red liviano y flexible que logra el equilibr
 * Su flexibilidad hace que pueda soportar varios escenarios de aplicaciones para dispositivos y servicios de IoT
 
 No se utiliza HTTP ya que es un protocolo sincrónico. El cliente espera a que el servidor responda. Un protocolo de mensajería asíncrona es mucho más adecuado para las aplicaciones de IoT. Los sensores pueden enviar lecturas y dejar que la red descubra la ruta y el momento óptimo para la entrega a dispositivos y servicios de destino.
+
+## MQTT
+![[MQTT]]
+
+## MCU
+![[MCU]]
