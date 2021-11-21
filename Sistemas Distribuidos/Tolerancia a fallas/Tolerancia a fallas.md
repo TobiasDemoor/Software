@@ -1,6 +1,6 @@
 Una característica de los [[sistemas distribuidos]] que los distingue de los sistemas tradicionales es el concepto de una **falla parcial**. Una falla parcial ocurre cuando una parte del sistema está fallando mientras que el resto sigue operando correctamente. Un objetivo importante de un sistema distribuido es construir el sistema de manera que pueda recuperarse automáticamente de fallas parciales sin afectar significativamente la performance.
 
-El que un sistema sea tolerante a fallas está muy relacionado a los sistemas fiables. La [[Reliability|fiabilidad]] es un concepto que cubre un número de requerimientos útiles para sistemas distribuidos, incluyendo los siguientes:
+El que un sistema sea tolerante a fallas está muy relacionado a los **sistemas fiables**. La [[Reliability|fiabilidad]] es un concepto que cubre un número de requerimientos útiles para sistemas distribuidos, incluyendo los siguientes:
 - Disponibilidad: se define como la propiedad de que un sistema está listo para ser utilizado de inmediato.
 - Confiabilidad: se refiere a la propiedad de que un sistema sea capaz de funcionar de manera continua sin fallar (a diferencia de la disponibilidad se define para unintervalo de tiempo en lugar de para un instante).
 - Seguridad: se refiere a la situación en que no acontece nada catastrófico cuando un sistema deja de funcionar correctamente durante un tiempo.
