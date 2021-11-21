@@ -39,6 +39,9 @@ Una desventaja de esta alternativa es la latencia generada por el hecho de que l
 ### Distributed Hash Table
 El sistema de nombres se puede implementar también como una [[DHT]].
 
+### UUID
+![[UUID]]
+
 ### Alternativas Jerárquicas
 En un esquema jerárquico la red es dividida en una colección de **dominios**. hay un único dominio raíz que abarca toda la red. Cada dominio puede ser subdividido en múltiples subdominios menores. Un dominio del nivel más bajo, llamado **dominio hoja**, típicamente corresponde a una LAN en un red de computadoras o a una celda en el sistema telefónico. La suposición general es que dentro de un dominio pequeño el tiempo que toma transferir un mensaje de un nodo a otro es menor que en un dominio mayor.
 
