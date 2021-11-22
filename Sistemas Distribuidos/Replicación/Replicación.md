@@ -70,7 +70,7 @@ Para que un almacen de datos se considere causalmente consistente, es necesario 
 #### Operaciones de agrupamiento
 Muchos modelos de consistencia están definidos al nivel de operaciones de lectura y escritura. Este nivel de granularidad se debe a razones históricas: estos modelos se desarrollaron inicialmente para sistemas de multiprocesador de memoria compartida, y en realidad se implementaron al nivel de hardware.
 
-Esta granularidad en muchos casos no coincide con la granularidad provista por aplicaciones. Lo que vemos es que la concurrencia entre programas compartiendo información es generalmente controlada mediante mecanísmos de sincronización para [[Exclusión mutua distribuida|exclusión mutua]] y [[transacciones]].
+Esta granularidad en muchos casos no coincide con la granularidad provista por aplicaciones. Lo que vemos es que la concurrencia entre programas compartiendo información es generalmente controlada mediante mecanísmos de sincronización para [[Exclusión mutua distribuida|exclusión mutua]] y [[Transacciones]].
 
 Lo que ocurre dentro de un programa es que se opera sobre los datos por una serie de operaciones de lectura y escritura protegidas contra el acceso concurrente. Osea, se transforma una serie de operaciones en una unidad de ejecución atómica, por lo tanto, elevando el nivel de granularidad.
 

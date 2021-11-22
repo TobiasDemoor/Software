@@ -37,7 +37,7 @@ Una técnica clave para ocultar fallas es el uso de [[Replicación|redundancia]]
 
 Con la **redundancia de información**, se añaden bits extra para permitir la recuperación de bits corrompidos. Un ejemplo de esto sería utilizar los [[códigos de Hamming]].
 
-Con la **redundancia de tiempo**, una acción es realizada, y luego, si es necesario es realizada nuevamente. Las [[transacciones]] utilizan esta táctica. Si una transacción aborta, puede ser realizada nuevamente sin problema. La redundancia temporal es particularmente útil cuando las fallas con transitorias o intermitentes.
+Con la **redundancia de tiempo**, una acción es realizada, y luego, si es necesario es realizada nuevamente. Las [[Transacciones]] utilizan esta táctica. Si una transacción aborta, puede ser realizada nuevamente sin problema. La redundancia temporal es particularmente útil cuando las fallas con transitorias o intermitentes.
 
 Con la **redundancia física** se añaden equipos o procesos adicionales para permitir que el sistema como un todo tolere la pérdida o malfuncionamiento de alguno de sus componentes. La redunancia física puede ser realizada por hardware o software.
 

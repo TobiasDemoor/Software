@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/IoT/MQTT.md",
-            "mode": "preview"
+            "file": "Resumenes/Resumen BD.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/IoT/MQTT.md",
+                "file": "Resumenes/Resumen BD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/IoT/MQTT.md",
+                "file": "Resumenes/Resumen BD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/IoT/MQTT.md",
-    "Sistemas Distribuidos/Architecture/Arquitecturas publish-subscriber.md",
-    "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
-    "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Conceptos/Transacciones.md",
-    "Sistemas Distribuidos/Replicación/Conit.md",
-    "Sistemas Distribuidos/Transparencia de distribución.md",
-    "Sistemas Distribuidos/Blockchain.md",
-    "Análisis y Diseño/FURPS+/Reliability.md",
-    "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md"
+    "Resumenes/Resumen BD.md",
+    "Resumenes/Resumen Redes.md",
+    "Bases de Datos/Concepts/Data Independence.md",
+    "Bases de Datos/Concepts/Data Abstraction.md",
+    "Bases de Datos/Concepts/Integrity constraints.md",
+    "Bases de Datos/Teoría de Normalización/Atributos primos.md",
+    "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md",
+    "Bases de Datos/Transacciones.md",
+    "Bases de Datos/Procesamiento de transacciones/Recuperación ante fallos.md",
+    "Bases de Datos/Procesamiento de consultas/Optimización de consultas.md"
   ]
 }
