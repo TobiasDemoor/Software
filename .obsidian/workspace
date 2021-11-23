@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
+            "file": "Resumenes/Resumen SSDD.md",
             "mode": "source"
           }
         }
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
+                "file": "Resumenes/Resumen SSDD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
+                "file": "Resumenes/Resumen SSDD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -103,19 +103,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Resumenes/Resumen SSDD.md",
+    "Sistemas Distribuidos/Coordinación/Sincronización.md",
+    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
+    "Sistemas Distribuidos/Architecture/Decentralized organizations/DHT.md",
+    "Resumenes/Resumen Redes.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Interconexión de redes.md",
-    "Resumenes/Resumen SSDD.md",
     "Resumenes/Resumen Lenguajes Formales.md",
     "Sistemas Operativos/Sistemas Operativos.md",
-    "Sistemas Operativos/Resumen SSOO.md",
-    "Sistemas Operativos/Sistemas de Computación.md",
-    "Sistemas Operativos/Concurrencia/Deadlock.md",
-    "Resumenes/Resumen BD.md",
-    "Resumenes/Resumen Redes.md"
+    "Sistemas Operativos/Resumen SSOO.md"
   ]
 }

@@ -32,7 +32,7 @@ Hay situaciones en donde varios nodos deberían ser selecionados, este es el cas
 
 Afortunadamente estos requerimientos se relativamente sencillos de cumplir en la mayoría de los sistemas P2P.
 
-En el caso de los sistemas basados en DHT, la idea básica es reservar una fracción del estaco de identificación para los super peers. En estos sistemas cada nodo recibe un identificador de m bits aleatorio. Se podrían reservar los primeros k bits para identificar a los super peers.
+En el caso de los sistemas basados en [[DHT]], la idea básica es reservar una fracción del estaco de identificación para los super peers. En estos sistemas cada nodo recibe un identificador de m bits aleatorio. Se podrían reservar los primeros k bits para identificar a los super peers.
 
 Una solución completamente distinta se basa en posicionar los nodos en un espacio geométrico m-dimensional. En este daso asumimos que necesitamos posicionar N super nodos *uniformemente* a través de la red superpuesta. El concepto básico consiste de un total de N tokens distribuidos en N nodos elegidos aleatoriamente. Ningún nodo puede retener más de un token. Cada token representa una fuerza de repulsión mediante la cual otro token se aleja. El efecto neto (siempre que todos los tokens ejerzan la misma fuerza) es que estos tokens quedan distribuidos uniformemente en el espacio.
 
