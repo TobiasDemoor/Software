@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Resumenes/Resumen SSDD.md",
-            "mode": "preview"
+            "file": "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resumenes/Resumen SSDD.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,22 +93,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resumenes/Resumen SSDD.md",
+                "file": "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Interconexión de redes.md",
     "Resumenes/Resumen SSDD.md",
     "Resumenes/Resumen Lenguajes Formales.md",
     "Sistemas Operativos/Sistemas Operativos.md",
@@ -116,8 +116,6 @@
     "Sistemas Operativos/Sistemas de Computación.md",
     "Sistemas Operativos/Concurrencia/Deadlock.md",
     "Resumenes/Resumen BD.md",
-    "Resumenes/Resumen Redes.md",
-    "Bases de Datos/Concepts/Data Independence.md",
-    "Bases de Datos/Concepts/Data Abstraction.md"
+    "Resumenes/Resumen Redes.md"
   ]
 }
