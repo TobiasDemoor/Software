@@ -22,10 +22,24 @@
       }
     },
     {
+      "query": "path:\"Teoría de la Información\"",
+      "color": {
+        "a": 1,
+        "rgb": 13149913
+      }
+    },
+    {
       "query": "path:\"Bases de Datos\"",
       "color": {
         "a": 1,
         "rgb": 1874716
+      }
+    },
+    {
+      "query": "path:\"Organización de Datos\"",
+      "color": {
+        "a": 1,
+        "rgb": 1003527
       }
     },
     {
@@ -60,6 +74,6 @@
   "repelStrength": 12.4786324786325,
   "linkStrength": 1,
   "linkDistance": 80,
-  "scale": 0.059326171875000076,
+  "scale": 0.08317427835927574,
   "close": true
 }
