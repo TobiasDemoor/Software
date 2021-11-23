@@ -4,117 +4,7 @@
 # Sistema Operativo (SO)
 ![[Sistemas Operativos]]
 
-# **Ejecución del sistema operativo**
-Funciona de la misma manera que el software normal de una computadora, dado que es un programa ejecutado por el procesador. El sistema operativo abandona el control del procesador para que ejecute otros procesos. El SO se carga en la memoria al encender el equipo (Boot).
-
-# **El SO como administrador de recursos**
-El trabajo del sistema operativo es proporcionar una asignación ordenada y controlada de los procesadores, memorias y dispositivos de E/S, entre los diversos programas que compiten por estos recursos.
-
-La administración de recursos incluye el multiplexaje (compartir) de recursos en dos formas distintas:
-
-- *En el tiempo.* Cuando un recurso es multiplexado en el tiempo, los distintos programas o usuarios toman turnos para utilizarlo: uno de ellos obtiene acceso al recurso, después otro, y así en lo sucesivo. 
-- *En el espacio.* En vez de que los clientes tomen turnos, cada uno obtiene una parte del recurso. Por ejemplo, asignar espacio en disco y llevar el registro de quién está utilizando cuáles bloques de disco es una tarea típica de administración de recursos común del sistema operativo.
-# **Arquitectura del SO (Núcleo)**
-Parte del sistema operativo se encuentra en la memoria principal, incluyendo las funciones utilizadas con más frecuencia. Esta parte imprescindible se denomina kernel. Los demás programas tales como drivers y otras funciones del SO no se cargan en memoria, no son procesos residentes en la misma.
-
-Se puede contemplar el sistema como una serie de niveles, donde cada uno de ellos lleva a cabo un determinado subconjunto de funciones. Cada nivel se basa en el nivel inferior para llevar a cabo funciones más primitivas. De este modo, se descompone un problema en un número de subproblemas más manejables. A medida que descendemos de nivel, el nivel de abstracción disminuye, hasta llegar a los circuitos electrónicos.
-
-- *Driver.* Software dentro del so que permite la operación lógica de un dispositivo.
-- *Controlador.* Hardware que permite manipular mecánicamente un dispositivo.
-
-### Tipos de sistemas operativos (por arquitectura - capacidades)
-#### *Monolítico*
-Sistema operativo con núcleo muy grande que es cargado completamente en memoria. No deja mucho espacio para la ejecución de procesos del usuario. Ineficiente en el manejo de memoria principal. El proceso de boot es muy largo y los tiempos de respuesta son rápidos, pero ocupan mucho espacio en memoria.
-
-En este diseño, que hasta ahora se considera como la organización más común, todo el sistema operativo se ejecuta como un solo programa en modo kernel. El sistema operativo se escribe como una colección de procedimientos, enlazados entre sí en un solo programa binario ejecutable extenso.
-
-#### *Sistemas de capas*
-Sistema operativo organizado como una jerarquía de capas, cada una construida encima de la que tiene abajo. 
-
-- En el *nivel 0* se suele manejar la asignación del procesador, cambiar entre un proceso y otro en caso de interrupciones, etc. 
-- En el *nivel 1* se suele manejar la administración de la memoria. 
-- En el *nivel 2* la comunicación entre procesos y operadores. 
-- En el *nivel 3* se administra la E/S.
-- En el *nivel 4* suelen encontrarse los programas de usuario y, finalmente. 
-- En el *nivel 5* se encuentra el operador del sistema. 
-
-A medida que se desciende de nivel, se tiene mayor privilegio. Cuando un procedimiento de un cierto nivel quiere llamar a otro de un nivel inferior, debe realizar el equivalente a una llamada al sistema; es decir, una instrucción TRAP.
-
-#### *Micro-Kernel*
-Con el diseño de capas, los diseñadores podían elegir en dónde dibujar el límite entre kernel y usuario. Tradicionalmente todas las capas iban al kernel, pero eso no es necesario. De hecho, puede tener mucho sentido poner lo menos que sea posible en modo kernel, debido a que los errores en el kernel pueden paralizar el sistema de inmediato. En contraste, los procesos de usuario se pueden configurar para que tengan menos poder, por lo que un error en ellos tal vez no sería fatal.
-
-La idea básica detrás del diseño de microkernel es lograr una alta confiabilidad al dividir el sistema operativo en módulos pequeños y bien definidos, sólo uno de los cuales (el microkernel) se ejecuta en modo kernel y el resto se ejecuta como procesos de usuario ordinarios, sin poder relativamente, por lo cual se asignan solamente unas pocas funciones esenciales al núcleo. Se cargan en memoria los servicios que se solicitan y SOLO cuando son solicitados. Se asignan unas pocas funciones esenciales al núcleo, tales como el manejo de espacios de direcciones, comunicación de procesos (IPC) y servicios de planificación básica.
-
-Así, un error en el driver del dispositivo de audio hará que el sonido sea confuso o se detenga, pero la computadora no fallará. En contraste, en un sistema monolítico con todos los drivers en el kernel, un driver de audio con errores puede hacer fácilmente referencia a una dirección de memoria inválida y llevar a todo el sistema a un alto rotundo en un instante.
-
-Posee un booteo mucho más rápido y ocupan menor espacio en memoria, pero el tiempo de respuesta a las solicitudes de servicios es más lento dado que se deben cargar en memoria en el momento que se requiere dicho servicio.
-
-
-### Evolución de los SSOO
-#### *Primera generación (1945 a 1955): Procesamiento en serie*
-No había un sistema operativo como tal, las operaciones con estas máquinas se realizaban desde una consola que constaban de unos indicadores luminosos, unos conmutadores (0 o 1), un dispositivo de entrada y una impresora. Eran operados únicamente por los Switcher Masters (programador + administrador + usuario).
-
-La preparación incluía cargar un compilador, un programa fuente, salvar el programa compilado y, por último, cargar, ejecutar y descargar. La planificación de tareas era manual. Procesos rutinarios que podían automatizarse.
-
-Toda la programación se realizaba exclusivamente en lenguaje máquina o, peor aún, creando circuitos eléctricos mediante la conexión de miles de cables a tableros de conexiones (plugboards) para controlar las funciones básicas de la máquina. Los lenguajes de programación eran desconocidos (incluso se desconocía el lenguaje ensamblador). Los sistemas operativos también se desconocían.
-#### *Segunda generación (1955 a 1965). Sistemas sencillos de procesamiento por lotes: transistores y mainframes*
-La introducción del transistor a mediados de la década de 1950 cambió radicalmente el panorama. Las computadoras se volvieron lo bastante confiables como para poder fabricarlas y venderlas a clientes dispuestos a pagar por ellas, con la expectativa de que seguirían funcionando el tiempo suficiente como para poder llevar a cabo una cantidad útil de trabajo.
-
-Estas máquinas, ahora conocidas como mainframes, constaban en un monitor residente: un software que controla los programas que están en la cola (lotes) y el que se está ejecutando. Los trabajos se agrupaban por lotes. El proceso volvía al monitor al terminar su procesamiento. El monitor residente está siempre en la memoria principal y disponible para su ejecución. Primer intento de sistema operativo.
-
-##### SO Mono Programado
-`		`Capacidad de mantener un solo programa en memoria (código en memoria). Carga P1, ejecuta P1, descarga P1… carga P2, ejecuta P2, descarga P2… etc.
-
-#### *Tercera generación (1965 a 1980). Circuitos integrados y multiprogramación*
-Se adoptaron nuevas técnicas referidas a la multiprogramación, por lo cual el SO tiene la capacidad de mantener varios programas en memoria a la vez. Se aprovechan los tiempos muertos de carga y descarga de código. Siempre hay un solo proceso en ejecución. Se populariza la técnica de spooling.
-
-La aparición de los circuitos integrados permitió ofrecer una mayor ventaja precio/rendimiento en comparación a las máquinas de segunda generación.
-
-Aparecen las primeras implementaciones de timesharing (tiempo compartido), una variante de la multiprogramación donde cada usuario tenía una terminal en línea para operar el computador.
-##### Mono Tarea
-`		`El SO tiene la capacidad de ejecutar solo una tarea por vez.
-##### Multi Tarea
-`		`El SO tiene la capacidad de ejecutar varias tareas a la vez. El tiempo de procesador se comparte entre los diversos usuarios (tiempo compartido). Se aprovechan las llamadas al sistema de los procesos (E/S) para ejecutar otra tarea. Esto genera una ilusión de “cuasi concurrencia”.
-
-##### Mono usuario
-El SO tiene la capacidad de atender un solo usuario a la vez
-##### Multi Usuario
-El SO tiene la capacidad de atender varios usuarios de manera concurrente. Por ello requiere un registro de usuario con identificación y autenticación de identidad.
-
-##### Mono Procesador
-El SO tiene la capacidad de trabajar con un solo procesador.
-##### Multi Procesador
-El SO tiene la capacidad de trabajar con varios procesadores a la vez. Los procesos comparten la misma memoria principal y secundaria, periféricos y demás, pero pueden ejecutarse en simultáneo.
-####
-#### *Cuarta generación (1980 - actualidad). GUI’S y computadoras personales.*	
-Con el desarrollo de los circuitos LSI (Large Scale Integration, Integración a gran escala), que contienen miles de transistores en un centímetro cuadrado de silicio (chip), nació la era de la computadora personal.
-
-Junto a las computadoras de uso personal, comenzaron a aparecer las primeras interfaces gráficas de usuario, con el fin de que cualquier persona ajena al mundo de la informática pudiera operar una computadora.
-
-### Sistemas operativos de mainframe
-Las mainframes son computadoras del tamaño de un cuarto completo que aún se encuentran en los principales centros de datos corporativos. Las mainframes también están volviendo a figurar en el ámbito computacional como servidores Web de alto rendimiento, servidores para sitios de comercio electrónico a gran escala y servidores para transacciones de negocio a negocio. 
-
-Los sistemas operativos para las mainframes están profundamente orientados hacia el procesamiento de muchos trabajos a la vez, de los cuales la mayor parte requiere muchas operaciones de E/S. Por lo general ofrecen tres tipos de servicios: procesamiento por lotes, procesamiento de transacciones y tiempo compartido
-
-### Sistemas operativos de servidores
-Se ejecutan en servidores, que son computadoras personales muy grandes, estaciones de trabajo o incluso mainframes. Dan servicio a varios usuarios a la vez a través de una red y les permiten compartir los recursos de hardware y de software.
-
-
-### SSOO Distribuidos
-- Proporciona la ilusión de un único espacio de memoria principal y un único espacio de memoria secundaria (virtuales).
-- Utilizado para el [[sistemas de archivos distribuidos]].
-- Un sistema operativo distribuido se presenta a sus usuarios en forma de un sistema tradicional con un procesador, aun cuando en realidad está compuesto de varios procesadores.
-- Los sistemas distribuidos permiten con frecuencia que las aplicaciones se ejecuten en varios procesadores al mismo tiempo.
-
-
-### Tipos de SSOO (por interacción)
-#### *Batch (por lotes)*
-No hay dialogo Usuario-Proceso. Por ejemplo, un programa para calcular la cantidad de días de vacaciones, no permite consultar por un solo empleado, sino que requiere todos los datos cargados en un archivo y cuando se ejecuta, por ejemplo, calcula las vacaciones para todos los empleados y los imprime en pantalla.
-#### *Interactivo*
-Hay diálogo Usuario-Proceso, iniciado por el proceso. Por ejemplo, ejecutar un sistema que solicita un dato al usuario necesario para realizar una tarea. El proceso espera a que el usuario responda para poder seguir ejecutándose. El tiempo de respuesta depende del usuario.
-#### *Tiempo Real (RTOS)*
-Hay un diálogo Usuario-Proceso, iniciado por el usuario, el cual es el que le pregunta y es el proceso quien le responde. Por ejemplo, una aplicación que conste en que se le ingrese una temperatura y que ésta indique si está por prenderse fuego algo o no.
-# **Interrupciones**
+## Interrupciones
 Es el mecanismo mediante el cual el SO se entera que ha ocurrido un evento que es de su interés y que debe ser atendido.
 
 Es la interrupción de un proceso debida a un factor externo al mismo y que se lleva a cabo de tal modo que el procesador pueda atender la demanda y reanudar luego la ejecución de dicho proceso.
@@ -155,7 +45,7 @@ Hace que se interrumpa la rutina de tratamiento de prioridad más baja (desalojo
 
 Por ejemplo, cuando llega una interrupción desde la línea de comunicaciones, se necesita atender ésta rápidamente para hacer lugar a nuevas entradas.
 
-# **Modo dual de protección**
+## Modo dual de protección
 Es un mecanismo de protección de los recursos del SC que implementa el sistema operativo (información, procesador, memoria y dispositivos de E/S) y debe tener soporte de hardware (bit de modo en el procesador).
 
 - El *modo Kernel* es el estado del sistema operativo en el cual tiene acceso completo a todo el hardware y puede ejecutar cualquier instrucción. Aquí se van a incluir los servicios de uso más frecuentes.
@@ -174,13 +64,14 @@ Para que el procesador conozca el tipo de instrucción que se está ejecutando, 
 
 # **Procesos**
 El procesador es el recurso más utilizado demandado, dado que permite la ejecución de los procesos.
-# **Objetivo de gestión de SO**
+
+## **Objetivo de gestión de SO**
 1. Intercalar la ejecución de múltiples procesos para maximizar la utilización del procesador ofreciendo un tiempo de respuesta razonable pero siempre maximizando el uso del procesador, de modo de aprovechar de la mejor manera los tiempos muertos.
 1. Asignar los recursos a los procesos de forma tal que dichos recursos son asignados, utilizados y liberados lo más rápido posible. 
 1. Dar soporte a la comunicación entre procesos y la creación de procesos por parte del usuario.
 1. Mejorar permanentemente los indicadores de desempeño.
 
-# **Indicadores básicos de desempeño**
+## **Indicadores básicos de desempeño**
 1. *% de uso efectivo del procesador.* Solamente se toma como tiempo efectivo el tiempo que el procesador estuvo atendiendo procesos DE USUARIO y no procesos del sistema operativo o de burocracia (operaciones de memoria, creación de procesos, etc.). Es un indicador del sistema de computación en general.
 
 1. *Productividad.* Es un número que indica la cantidad de procesos terminados por unidad de tiempo. Es un indicador del sistema de computación en general.
@@ -342,7 +233,6 @@ Es una estructura creada y administrada por el SO. La utilidad más significativ
   - *Privilegios de los procesos.* A los procesos se les otorgan privilegios en términos de la memoria a la que pueden acceder y el tipo de instrucciones que pueden ejecutar. Además, también se pueden aplicar privilegios al uso de los servicios y utilidades del sistema.
   - *Gestión de memoria.* Esta sección puede incluir punteros a las tablas de páginas o segmentos que describen la memoria virtual asignada al proceso.
   - *Propiedad de los recursos y utilización.* Se pueden indicar los recursos controlados por el proceso, como los archivos abiertos. También puede incluir un historial de la utilización del procesador o de otros recursos.
-
 
 
 # **Estado del procesador**
@@ -1422,8 +1312,7 @@ Usualmente, es el usuario quien define los AR para un objeto. Por ejemplo, cuand
 - Se deben definir políticas que garanticen un equilibrio entre Seguridad y Protección en base al fin pretendido.
 
 
-# **Deadlocks**
-# **Procesos y recursos**
+# Procesos y recursos
 - Los procesos solicitan recursos al sistema y los liberan voluntariamente cuando ya lo utilizaron. 
   - El Proceso solicita un recurso (System Call).
   - El SO verifica la disponibilidad del recurso.
@@ -1439,170 +1328,8 @@ Usualmente, es el usuario quien define los AR para un objeto. Por ejemplo, cuand
 - Existen **recursos reusables** (dispositivos de I/O, procesador, memoria principal y secundaria, etc.) cuyo uso no deteriora el recurso en sí, y existen otros que son **consumibles,** los cuales son creados y destruidos (interrupciones, señales, mensajes, información en los buffers de I/O. 
   - Por lo tanto, puede existir deadlock sin necesidad de implicar recursos de I/O. Por ejemplo, dos procesos se comunican y esperan recibir un mensaje del otro. Si un proceso envía un mensaje al otro, se queda en espera. El otro proceso envía el mensaje de respuesta y queda a la espera de otro mensaje. Si el mensaje de éste último se pierde, ambos procesos se quedan esperando una respuesta por parte del otro proceso.
 
-# **Definición de Deadlock**
-El **Deadlock** o **Interbloqueo** es un problema que afecta a *procesos* concurrentes que utilizan *recursos* en un sistema.
-
-**Es una situación en el Sistema de Computación donde un conjunto de procesos se encuentran bloqueados, cada uno de ellos esperando por un recurso que retiene otro proceso de ese conjunto (quien lo está utilizando).**
-
-Ningún proceso del conjunto puede avanzar en su ejecución, dado que todos están bloqueados en espera de un evento que debe ser determinado por otro proceso que también está bloqueado a la espera de un recurso.
-
-Throughput tiende a cero, turn around y tiempo de espera tienden a infinito.
-
-Un deadlock puede aparecer cuando se tiene un conjunto de procesos cada uno bloqueado en espera de un evento que sólo otro puede provocar. A esta situación se le conoce como *interbloqueo de comunicación*. Por ejemplo, en los sistemas de comunicaciones (como las redes), en donde dos o más procesos se comunican mediante el envío de mensajes. Un arreglo común es que el proceso A envía un mensaje de petición al proceso B y después se bloquea hasta que B envía de vuelta un mensaje de respuesta. Suponiendo que el mensaje de petición se pierde, A se bloquea en espera de la respuesta y B se bloquea en espera de una petición. Finalmente, se produce un deadlock.
-
-
-### Condiciones para el Deadlock
-Hay 4 condiciones simultáneas, necesarias y suficientes para que un Deadlock ocurra:
-
-1. *Exclusión mutua.*
-   1. Sólo un proceso puede usar un recurso cada vez. 
-   1. Sólo los recursos no compartibles se ven involucrados en un Deadlock.
-
-1. *Retención y Espera.*
-   1. Un proceso solicita recursos no disponibles manteniendo asignados otros recursos (sin liberarlos). Espera por recursos que están en uso por otros procesos y por ende no libera los que tiene él asignados.
-   1. Reteniendo algunos, espera por otros.
-1. *No Apropiación.*
-   1. Los recursos asignados no pueden ser arrebatados al proceso que los tiene; los libera voluntariamente (únicamente). Si no se diera esta condición, otros procesos podrían robar recursos a otros procesos.
-
-1. *Espera circular.*
-   1. Existe una serie de procesos en espera P0,  P1,  ... ,  Pn en la que todo Pi espera por un recurso retenido por Pi+1; y Pn espera por un recurso retenido por P0.
-   1. Ejemplo: dos personas en una misma habitación quieren escribir una carta y necesitan papel, lápiz y luz.
-      1. P1 tiene luz y lápiz, pero no tiene papel. P1 se encuentra a la espera de papel.
-      1. P2 tiene luz y papel, pero no tiene lápiz. P2 se encuentra a la espera de lápiz.
-      1. Ninguno de los dos continúa su tarea. Ambos mueren por inanición. Tiempo de turn arround tiende a infinito.
-
-
-
-### Impresora – Caso puntual
-El uso de colas (spooling) es una manera de lidiar con los dispositivos de E/S dedicados en un sistema de multiprogramación. Considere un dispositivo común que utiliza colas: una impresora. Aunque sería técnicamente sencillo dejar que cualquier proceso de usuario abriera el archivo de caracteres especial para la impresora, suponga que un proceso lo abriera y no hiciera nada durante horas. Ningún otro proceso podría imprimir nada (Deadlock).
-
-En vez de ello, lo que se hace es crear un proceso especial, conocido como demonio, y un directorio especial llamado directorio de cola de impresión. Para imprimir un archivo, un proceso genera primero todo el archivo que va a imprimir y lo coloca en el directorio de la cola de impresión. Es responsabilidad del demonio, que es el único proceso que tiene permiso para usar el archivo especial de la impresora, imprimir los archivos en el directorio. Al proteger el archivo especial contra el uso directo por parte de los usuarios, se elimina el problema de que alguien lo mantenga abierto por un tiempo innecesariamente extenso.
-
-El uso de colas no es exclusivo de las impresoras. También se utiliza en otras situaciones de E/S. Por ejemplo, la transferencia de archivos a través de una red utiliza con frecuencia un demonio de red. Para enviar un archivo a cierta parte, un usuario lo coloca en un directorio de la cola de red. Más adelante, el demonio de red lo toma y lo transmite.
-
-
-# **Representación de las asignaciones**
-### Grafo de asignación de recursos
-Sirve para representar el estado de un sistema de asignación de recursos. Consta en un conjunto de vértices y aristas como todo grafo, pero el conjunto de vértices se encuentra dividido en dos tipos de nodos: Los nodos que representan procesos activos P y los nodos que representan todos los recursos del sistema diferenciándolos por su tipo R convención de Silberschatz.
-
-Muestra:
-
-- Cuántas instancias hay de cada tipo de recurso.
-- Los procesos activos en el sistema.
-- Qué recursos (instancias) están asignados y a qué procesos.
-- Qué procesos están bloqueados y por cuáles recursos.
-
-#### *Construcción*
-- *Círculos:*  Procesos.
-- *Cuadrados:* Recursos.
-- *Un arco* P→ R*  indica una solicitud aún no satisfecha (proceso bloqueado en espera del recurso). **REQUEST**
-- *Un arco* R→ P  indica que ese recurso (instancia) está asignado a ese proceso. **ASSIGNMENT**
-- *Ciclo en el grafo:* Posible deadlock. **Si cada recurso posee una sola instancia, entonces el ciclo implica un Deadlock.**
-
-# **Opciones de abordaje**
-1. Permitir la aparición de deadlocks y recuperarse cuando ocurran (Detección y Recuperación)
-   0. Permitir que ocurra el Deadlock y luego salvarlo.
-   0. Se requiere de un sistema de detección y de un mecanismo de recuperación.
-1. Garantizar que nunca ocurran deadlocks
-   0. Evitación: tratar de no caer nunca en un deadlock. Evitar una de las condiciones necesarias y suficientes.
-   0. Prevención: diseñar el sistema de manera que nunca se cumpla alguna de las cuatro condiciones del deadlock.
-1. Hacer caso omiso al problema
-   0. Si hay deadlock, el usuario tiene que darse cuenta y resolverlo.
-# **Detección y recuperación de deadlocks**
-### Detección del deadlock
-El interbloqueo se puede detectar comprobando si existe una secuencia de terminación de procesos (similar a la sec. segura). Es un proceso que consume recursos.
-
-Sea L la lista de procesos del sistema y R el conjunto de recursos disponibles.
-
-1. Buscar en L un proceso que puede continuar con los recursos disponibles en R.
-1. Si no se encuentra ningún proceso, ir al paso 5.
-1. Suponer que P termina (lo retiramos de L) y que libera los recursos que retiene (los añadimos a R).
-1. Volver al paso 1.
-1. Si L no está vacía, hay interbloqueo.
-
-### Recuperación del deadlock
-Un sistema que pretenda recuperarse del deadlock, debe invocar a un algoritmo de detección cuando lo considere oportuno (ej. periódicamente). Tener en cuenta la inanición y el reinicio infinito de un proceso (mato y lo vuelvo a instanciar infinitamente).
-#### *Formas de intentar la recuperación:*
-1. *Terminación de procesos.* 
-   1. Matar todos los procesos implicados en el deadlock, que ya son conocidos por la detección.
-   1. Matar de a un proceso hasta romper el deadlock. ¿Cuál elegir?
-      1. El que más recursos libere.
-      1. El que menos tiempo lleve en ejecución. Si mato un proceso que lleva mucho tiempo, reiniciarlo será más costoso.
-      1. Se debe llamar a un método de detección de deadlock inmediatamente después de matar un proceso para decidir si continuar con la terminación de procesos o no.
-   1. Retrocediendo la ejecución de algún proceso (rollback)
-      1. Muy complicado de implementar y debe diseñarse los programas para que éstos puedan retroceder (implementar puntos de rollback, transacciones, etc.).
-
-1. *Expropiación de recursos.*
-   1. *Selección del proceso víctima.* ¿Qué recursos y de qué proceso se expropian? Se debe reducir el impacto general.
-   1. *Retroceso.* Si expropiamos un recurso de un proceso, ¿Qué hacemos con ese proceso? Si el proceso no está preparado para rollback, estaríamos matando al proceso por completo.
-   1. *Puede suceder, en un sistema que elija el proceso víctima como el que menos costo genere, que éste muera por inanición por ser siempre elegido como víctima.* Se puede solucionar llevando un contador y definiendo un número máximo de veces que el proceso puede ser elegido como víctima.
-# **Garantizar la no ocurrencia del deadlock**
-### Evitación del deadlock (algoritmo del banquero)
-- Se trata de conceder los recursos sólo cuando no representen un riesgo futuro de interbloqueo (los bancos dan préstamos solo cuando tienen garantía de que éstos serán pagados a futuro).
-- Lo procesos han de declarar por anticipado la cantidad máxima de instancias de cada recurso que van a utilizar a lo largo de su vida.
-- Sistema de computación en estado Seguro o Inseguro.
-- Es un proceso costoso y difícil de implementar.
-- Garantiza riesgo 0 de deadlock.
-- Se necesitan varias estructuras de datos:
-  - *Disponibles.* Vector que indica la cantidad disponible de cada recurso.
-  - *Matriz de máximos.* Matriz que indique la cantidad máxima de instancias de cada recurso para cada proceso.
-  - *Matriz de Alocación.* Indica la cantidad de cada recurso asignada a cada proceso.
-  - *Matriz de necesidades.* Indica la cantidad de recursos restantes que cada proceso puede solicitar.
-
-
-
-
-#### *Estado seguro*
-Estado en el cual no hay riesgo inminente de deadlock. Un estado es seguro si en él podemos encontrar una **secuencia segura** con todos los procesos del sistema.
-
-- {P1,  P2,  ...,  PN} es una **secuencia segura** si los recursos que Pi puede pedir en el peor caso se pueden atender con lo que hay disponible más los recursos retenidos por todos los procesos Pj, j<i
-- Sólo concedemos recursos si el estado resultante tras la petición es seguro. El sistema simula que le está prestando el recurso al proceso y se asegura que el estado en el que queda el sistema de computación sea un estado seguro.
-- Si el nuevo estado no es seguro, el proceso queda bloqueado aunque existan recursos suficientes para atender la petición.
-#### *Secuencia segura*
-- Nos ponemos en el peor caso del sistema: que todos los procesos soliciten al mismo tiempo el máximo de recursos a los que tiene derecho.
-- El primer proceso de la secuencia es uno que podría finalizar en ese peor caso, con los recursos disponibles en el sistema.
-- El segundo proceso es uno que puede finalizar con lo que hay disponible más los recursos que liberaría el primer proceso.
-- De la misma forma, los siguientes procesos pueden finalizar con los recursos que han liberado los anteriores en la secuencia.
-- Y si todos los procesos pueden terminar, es que no hay o no habrá deadlock. Podemos satisfacer la petición con seguridad.
-
-### Prevención del deadlock
-Se trata de eliminar la aparición de alguna de las cuatro condiciones necesarias para el Deadlock, dado que **son necesarias y suficientes**.
-
-- *Exclusión mutua.* Depende de la naturaleza del recurso, así que esta condición no se puede eliminar.
-
-- *Romper retención y espera. Hay que garantizar que un proceso no pueda quedar bloqueado si retiene algún recurso. ¿Cómo conseguirlo?
-  - El proceso tiene que pedir todos sus recursos de una vez, p.ej. antes de empezar a ejecutarse. De esta manera el proceso nunca se bloqueará por espera de un recurso.
-    - *Efecto negativo*. Muchos recursos retenidos, pero no usados. Puede suceder que, dependiendo del flujo de ejecución, no utilice uno o más de uno de los recursos que tiene asignado. **Mayor consumo de recursos.**
-  - Un proceso sólo puede solicitar recursos cuando no tiene ninguno asignado. Cuando un proceso solicita un recurso, debe liberar todos los que tiene asignados y pedir ahora en una nueva transacción los recursos que acaba de liberar y el nuevo que quiere obtener. Si todos los recursos no están disponibles, no se le asigna ninguno, pero no queda reteniendo ninguno. Espera, pero no retiene.
-    - *Efecto negativo:* puede ocurrir que tengamos que liberar un recurso y volver a pedirlo para poder solicitar otros recursos.
-  - En ambos casos: inanición. Un proceso se queda con todos los recursos y los demás procesos tendrán que esperar.
-
-- *No expropiación. Permitir que el SO desasigne recursos a un proceso bloqueado.
-  - Si un proceso se bloquea por un recurso, los recursos retenidos quedan a disposición de los procesos activos
-  - El proceso bloqueado tiene ahora que esperar por todos los recursos.
-  - Penaliza a los procesos que necesitan muchos recursos.
-  - Es posible seguir este protocolo en recursos cuyo estado se puede guardar fácilmente y después restaurarse (registros de CPU, espacio de memoria donde la posibilidad de rollback existe, etc.). Generalmente no puede aplicarse a recursos tales como impresoras y unidades de cinta, no puedo interrumpir una impresión, dado que sería abortar completamente el proceso.
-
-- *Espera circular. Se puede evitar forzando un orden en la petición de los recursos.
-  - Cada recurso tiene asignado un número de orden.
-  - Los recursos se deben pedir en orden ascendente.
-  - Aconsejable: que el orden de petición de los recursos se establezca según el orden de uso normal de los recursos de un sistema. Establecer una jerarquía de recursos (impresora, memoria, escáner). Primero se debe pedir jerarquía 1 y luego 2 y 3 etc. No se puede solicitar un recurso de un orden menor de jerarquía. 
-  - Obliga a definir una jerarquía que a priori se desconoce.
-  - *Efectos negativos:*
-    - Se limita la libertad de escritura de código. El programador debe conocer la jerarquización de los recursos para realizar las peticiones y debe pedirlos sí o sí de esa manera, aunque la secuencia del código no sea la ideal.
-    - Se puede inducir a una mala utilización de los recursos. 
-    - Un cambio en la categorización implicaría que todos los procesos que corren a partir de un código escrito con otra categorización quedan obsoletos.
-
-### Algoritmo del Avestruz (Hacer caso omiso al deadlock)
-Agachar la cabeza y no hacer nada. El usuario debe intervenir y decidir cómo sale del deadlock.
-
-Depende de la frecuencia de ocurrencia de un deadlock y del costo que implica recuperarse del deadlock. En un sistema con miles de procesos, el algoritmo del banquero es infinitamente costoso por la cantidad de procesos.
-
-Solo se justifica la prevención de deadlocks en sistemas mono propósito o autogestionados, como pueden ser los embebidos o un satélite.
-
-Por ejemplo, en Windows, cuando una tarea no responde y es indicado (Windows detecta el deadlock pero no lo resuelve) y tenemos que ir nosotros a matar la tarea al administrador de tareas. 
-
-
+# Deadlocks
+![[Deadlock]]
 
 # **Procesamiento concurrente**
 - Dos procesos son concurrentes cuando se ejecutan de manera que sus intervalos de ejecución se solapan (multitarea pero no multiprocesamiento).
@@ -1695,14 +1422,11 @@ La ejecución concurrente que requiere **cooperación** entre procesos necesita 
 - No se pueden hacer suposiciones sobre la *velocidad relativa* de los procesos ni el número de procesadores.
 - Un proceso permanece en su sección crítica durante un *tiempo finito.*
 
-
-
-
-
 ### Enfoques para manejar las secciones críticas en un SO
 - *Kernel con desalojo.* Permite que un proceso sea desalojado cuando está corriendo en modo kernel. Mejor para sistemas operativos de tiempo real. Más complejo de implementar, se debe sincronizar el acceso a los datos del kernel.
 
 - *Kernel sin desalojo.* No permite que un proceso sea desalojado cuando está corriendo en modo kernel. Un proceso en modo kernel solo dejará el procesador si sale del modo kernel, si es bloqueado o deja voluntariamente el control del cpu. Estos kernels están libres de condiciones de competencia en las estructuras de datos del kernel, dado que solo un proceso está activado en modo kernel a la vez (no lo deja salir hasta que cambie el modo).
+
 # **Exclusión Mutua**
 ### Algoritmo de Dekker (Dijkstra)
 - Solución por software

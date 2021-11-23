@@ -28,17 +28,15 @@ Propiedades:
 1. La función longitud de una palabra tiene, respecto a la concatenación, propiedades semejantes a las de la función logaritmo respecto de la multiplicación: | xy | = | x | + | y |
 
 #### *Potencia de una cadena*
-`	`Se denomina potencia i-ésima de una palabra a la concatenación consigo misma i veces.
+Se denomina potencia i-ésima de una palabra a la concatenación consigo misma i veces.
 
 #### *Trasposición de cadenas*
-`	`Sea x = A1A2A3 .... An, se denomina palabra traspuesta o inversa de x, representado por x-1 o xt o x~ o xR a AnAn-1  ....  A3A2A1.
+Sea x = A1A2A3 .... An, se denomina palabra traspuesta o inversa de x, representado por x-1 o xt o x~ o xR a AnAn-1  ....  A3A2A1.
 
 ## **Lenguaje**
-`	`Se llama lenguaje a un conjunto de cadenas.
+Se llama lenguaje a un conjunto de cadenas.
 
 ***CONVENCION*** → Se usarán letras mayúsculas para representar los lenguajes.
-
-
 
 Se denomina lenguaje sobre el alfabeto A a cualquier subconjunto del lenguaje universal A\* →L *Ì* A\*. 
 
@@ -49,7 +47,7 @@ El conjunto vacío, *f*, es un subconjunto de A\*, no debe confundirse con aquel
 
 ### ***Operaciones con lenguajes***
 #### *Unión*
-`	`Sean dos lenguajes diferentes definidos sobre el mismo alfabeto L1 *Ì* A\* y L2 *Ì* A\*. Se denomina unión de ambos lenguajes, L1 *È* L2, al lenguaje definido así:  { x / x *Î* L1 ó x *Î* L2}.
+Sean dos lenguajes diferentes definidos sobre el mismo alfabeto L1 *Ì* A\* y L2 *Ì* A\*. Se denomina unión de ambos lenguajes, L1 *È* L2, al lenguaje definido así:  { x / x *Î* L1 ó x *Î* L2}.
 
 Propiedades
 
@@ -60,7 +58,7 @@ Propiedades
 1. *Propiedad de idempotencia.* *"*L, se verifica que L *È* L = L
 
 #### *Concatenación de lenguajes*
-`	`Consideremos dos lenguajes definidos sobre el mismo alfabeto, L1 y L2. Se denomina concatenación de estos lenguajes al lenguaje definido así: { xy / x *Î* L1 e y *Î* L2} (todas las palabras de este lenguaje estarán formadas al concatenar cada una palabra del primero de los lenguajes con otra del segundo).
+Consideremos dos lenguajes definidos sobre el mismo alfabeto, L1 y L2. Se denomina concatenación de estos lenguajes al lenguaje definido así: { xy / x *Î* L1 e y *Î* L2} (todas las palabras de este lenguaje estarán formadas al concatenar cada una palabra del primero de los lenguajes con otra del segundo).
 
 Propiedades
 
@@ -84,11 +82,11 @@ L\*= 0∞Li
 Análogo para cadenas
 
 #### *Trasposición de lenguajes*
-`	`Sea L un lenguaje cualquiera. Se llama lenguaje traspuesto o inverso de L, representándose por L-1 o LT a { x-1 / x *Î* L }. Es decir, se trata de un lenguaje que contiene las palabras inversas a las palabras de L.
+Sea L un lenguaje cualquiera. Se llama lenguaje traspuesto o inverso de L, representándose por L-1 o LT a { x-1 / x *Î* L }. Es decir, se trata de un lenguaje que contiene las palabras inversas a las palabras de L.
 
 ##
 ## **Gramáticas**
-`	`Una gramática describe la estructura de las frases y palabras de un lenguaje a través del uso de reglas definidas.
+Una gramática describe la estructura de las frases y palabras de un lenguaje a través del uso de reglas definidas.
 
 Una gramática G = <VN,  VT,  S,  P>  consta de 4 elementos ordenados dónde: 
 
@@ -101,7 +99,7 @@ Una gramática G = <VN,  VT,  S,  P>  consta de 4 elementos ordenados dónde:
 
 Dos gramáticas G y G' se dicen equivalentes (G ≡ G') si generan el mismo lenguaje, es decir, si L(G) = L(G').
 ### ***Derivación***
-`	`*Si* α, β *Î* V\*,* 
+*Si* α, β *Î* V\*,* 
 
 *se dice que* α → β (“β deriva de α”) 
 
@@ -121,13 +119,13 @@ A toda secuencia de derivación de una gramática le corresponde un árbol de de
 A lo largo del proceso de construcción del árbol, los nodos finales de cada paso, leídos de izquierda a derecha, forman la forma sentencial obtenida por la derivación representada por el árbol.
 
 ### ***Ambigüedad***
-`	`En algunas gramáticas, una misma cadena/sentencia puede obtenerse como resultado de varias derivaciones diferentes, pero a las que les corresponde un único árbol de derivación. *Pero hay otros casos en que para una misma cadena/sentencia podemos tener varios árboles de derivación diferentes. En este caso, se dice que la gramática es ambigua*. Hay lenguajes para los cuales es imposible encontrar gramáticas no ambiguas. Estos lenguajes se denominan inherentemente ambiguos.
+En algunas gramáticas, una misma cadena/sentencia puede obtenerse como resultado de varias derivaciones diferentes, pero a las que les corresponde un único árbol de derivación. *Pero hay otros casos en que para una misma cadena/sentencia podemos tener varios árboles de derivación diferentes. En este caso, se dice que la gramática es ambigua*. Hay lenguajes para los cuales es imposible encontrar gramáticas no ambiguas. Estos lenguajes se denominan inherentemente ambiguos.
 
 Si un lenguaje puede ser representado mediante una expresión regular, entonces es un lenguaje regular.
 
 # **Lenguajes regulares**
 ## **Expresiones regulares**
-`	`Las expresiones regulares pueden considerarse como una forma alternativa de descripción de lenguajes regulares, con la ventaja de ser fáciles de entender y describir.
+Las expresiones regulares pueden considerarse como una forma alternativa de descripción de lenguajes regulares, con la ventaja de ser fáciles de entender y describir.
 
 Un lenguaje es **regular** si existe una expresión regular que lo describa. **Todo lenguaje finito es regular.**
 
@@ -149,29 +147,29 @@ Cuyas reglas de producción tendrán la forma:
 A ::= a,  A ::= Ba,  A ::= λ  (donde A,B Î VN, a Î VT ) 
 
 ### ***Gramáticas lineales por derecha***
-`	`Cuyas reglas de producción tendrán la forma:
+Cuyas reglas de producción tendrán la forma:
 
 A ::= a,  A ::= aB,  A ::= λ  (donde A,B Î VN, a Î VT ) 
 
 
 
 # **Autómatas**
-`	`Representa un cambio de estado en un grafo. Debe haber una única situación inicial, pero puede haber múltiples estados finales. 
+Representa un cambio de estado en un grafo. Debe haber una única situación inicial, pero puede haber múltiples estados finales. 
 
 ## **Autómata parcialmente especificado**
-`	`Solo muestra los caminos hacia el estado de aceptación. Cuando armo la matriz, me quedan espacios en blanco. Puedo solucionarlo poniendo un estado terminal que no sea aceptable y que no tenga flechas salientes a él.
+Solo muestra los caminos hacia el estado de aceptación. Cuando armo la matriz, me quedan espacios en blanco. Puedo solucionarlo poniendo un estado terminal que no sea aceptable y que no tenga flechas salientes a él.
 
 ## **Autómatas finitos**
-`	`Un autómata finito tiene una cantidad finita de estados. Todo autómata finito acepta un lenguaje regular.
+Un autómata finito tiene una cantidad finita de estados. Todo autómata finito acepta un lenguaje regular.
 
-`	`Los autómatas finitos sirven para describir lenguajes regulares. 
+Los autómatas finitos sirven para describir lenguajes regulares. 
 
 Dos AF M y M' se dicen equivalentes (M ≡ M') si reconocen el mismo lenguaje, es decir, si L(M) = L(M')
 
 ### ***AF determinísticos***
-`	`Es aquel que para cualquier estado se cumple que no posee más de un resultado para una misma transición.
+Es aquel que para cualquier estado se cumple que no posee más de un resultado para una misma transición.
 
-`	`Formalmente, un Autómata Finito Determinista (AFD) se define como una tupla 
+Formalmente, un Autómata Finito Determinista (AFD) se define como una tupla 
 
 AFD = A, Q, δ, q0, F ,  δ : Q × Σ→ Q
 
@@ -183,7 +181,7 @@ AFD = A, Q, δ, q0, F ,  δ : Q × Σ→ Q
 Lenguaje aceptado por un AFD L(M) = { ω *Î* A\* / δ\* (q0, ω) *Î* F }
 
 ### ***AF No determinísticos***
-`	`Es aquel que para alguno de sus estados posee más de un resultado para una misma transición.
+Es aquel que para alguno de sus estados posee más de un resultado para una misma transición.
 
 Formalmente, un Autómata Finito No Determinista (AFND) se define como una tupla 
 
@@ -195,10 +193,10 @@ Lenguaje aceptado por un AFND L(M) = { ω *Î* A\* / δ\* (q0, ω) ∩ F ≠ Æ 
 
 
 ### ***AFND – λ***
-`	`AFND que admite transiciones lambda.
+AFND que admite transiciones lambda.
 
 ## **AFND a AFD**
-`	`Hacer la tabla de transición de estados y definir estados que son conjuntos de otros estados a partir de las transiciones posibles. Los estados de aceptación serán aquellos conjuntos que posean un estado de aceptación del AFND.
+Hacer la tabla de transición de estados y definir estados que son conjuntos de otros estados a partir de las transiciones posibles. Los estados de aceptación serán aquellos conjuntos que posean un estado de aceptación del AFND.
 
 
 
@@ -209,7 +207,7 @@ Todo AFND-λ puede convertirse en un AFD equivalente. Se realiza de forma simila
 
 
 ### ***λ-clausura***
-`	`Sea q ∈ Q, se llama λ-clausura(q) al conjunto de estados de Q que son accesibles desde q mediante una o más λ-transiciones.
+Sea q ∈ Q, se llama λ-clausura(q) al conjunto de estados de Q que son accesibles desde q mediante una o más λ-transiciones.
 
 Se define V Ì Q x Q (pares de estados con transiciones lambda).
 
@@ -218,7 +216,7 @@ Se define V Ì Q x Q (pares de estados con transiciones lambda).
 - (q,q) *Î* V , *"* q *Î* Q
 
 ## **Minimización de un AFD**
-`	`El objetivo es, dado un AFD, construir otro que reconoce el mismo lenguaje con un número mínimo de estados. La idea básica que permite reducir el número de estados de un AFD consiste en eliminar un estado siempre que ya exista otro que realiza la misma función.
+El objetivo es, dado un AFD, construir otro que reconoce el mismo lenguaje con un número mínimo de estados. La idea básica que permite reducir el número de estados de un AFD consiste en eliminar un estado siempre que ya exista otro que realiza la misma función.
 
 Dos estados realizan la misma función cuando cualquier palabra de entrada da el mismo resultado tanto si se parte de uno como de otro estado. Se dice que los dos estados son, en este caso, indistinguibles.
 
@@ -274,9 +272,9 @@ Sea X ε VN, se dice **útil** si es alcanzable y generador.
 
 - **GR→ER:** igualación.
 # **Lenguajes regulares**
-`	`Un lenguaje regular es todo aquel que es generado por una gramática regular y puede ser definido mediante una expresión regular.
+Un lenguaje regular es todo aquel que es generado por una gramática regular y puede ser definido mediante una expresión regular.
 ## **Operaciones entre lenguajes regulares**
-`	`Algunas operaciones sobre lenguajes regulares garantizan producir lenguajes regulares: 
+Algunas operaciones sobre lenguajes regulares garantizan producir lenguajes regulares: 
 
 - *Unión:* L ∪ M (lenguajes con cadenas de L, M o ambos).
 - *Intersección:* L ∩ M  (lenguajes con cadenas de ambos). 
@@ -289,10 +287,10 @@ Sea X ε VN, se dice **útil** si es alcanzable y generador.
 - *Homomorfismo inverso (sustitución inversa):*  h-1 (L) = {w ∈ Σ : h(w) ∈ L,  h : Σ →} es un homomorfismo.
 
 ## **No todo subconjunto de un lenguaje regular es regular**
-`	`Si tenemos a\*b\* que es un lenguaje regular, y tomo las cadenas tales que anbn con    n≥0, no obtengo un lenguaje regular.
+Si tenemos a\*b\* que es un lenguaje regular, y tomo las cadenas tales que anbn con    n≥0, no obtengo un lenguaje regular.
 
 ## **Lema de Pumping (PL)**
-`	`Si L es un lenguaje regular, entonces existe una constante n tal que cada cadena w ∈ L, de longitud n o más, puede ser escrita como w=xyz, donde:
+Si L es un lenguaje regular, entonces existe una constante n tal que cada cadena w ∈ L, de longitud n o más, puede ser escrita como w=xyz, donde:
 
 1. y ≠λ 
 1. |xy| ≤ n 
@@ -317,18 +315,18 @@ En particular, xz ∈ L, pero xz tiene menos 0’s que 1’s.
 En las Gramáticas Independientes del Contexto las producciones son menos restrictivas que en las gramáticas regulares. En este caso, la parte izquierda de la producción también está formada por un único símbolo no terminal, pero no hay restricciones respecto a la parte derecha de la producción. Por lo tanto, **las producciones pueden derivar en cualquier combinación de símbolos terminales y no terminales y lambda.**
 
 ### ***Derivación más a izquierda***
-`	`Siempre se reemplaza el VN más a la izquierda por uno de los cuerpos de sus producciones. Por lo que a la izquierda del VN elegido solamente hay símbolos terminales.
+Siempre se reemplaza el VN más a la izquierda por uno de los cuerpos de sus producciones. Por lo que a la izquierda del VN elegido solamente hay símbolos terminales.
 
 ### ***Derivación más a la derecha***
-`	`Siempre se reemplaza el VN más a la derecha por uno de los cuerpos de sus producciones. Por lo que a la derecha del VN elegido solamente hay símbolos terminales.
+Siempre se reemplaza el VN más a la derecha por uno de los cuerpos de sus producciones. Por lo que a la derecha del VN elegido solamente hay símbolos terminales.
 
 
 # **Autómatas de pila**
-`	`Es como un autómata finito, pero con memoria, capaz de reconocer CFL.  Es decir, recuerda cuáles símbolos puso antes, por lo que el autómata va cambiando de estado no solo en función de la entrada, sino también de los datos en la pila.
+Es como un autómata finito, pero con memoria, capaz de reconocer CFL.  Es decir, recuerda cuáles símbolos puso antes, por lo que el autómata va cambiando de estado no solo en función de la entrada, sino también de los datos en la pila.
 
-`	`Dependiendo del estado actual del Autómata, del símbolo que hay en la cima de la pila y del que hay en la cadena de entrada, habrá que elegir entre un conjunto de posibles transiciones. Cada transición está formada por un posible cambio de estado y por una cadena (puede ser λ) que reemplazará al símbolo que ocupa la cima de la pila. Después de realizar un movimiento se avanza en el análisis de la cinta de entrada.
+Dependiendo del estado actual del Autómata, del símbolo que hay en la cima de la pila y del que hay en la cadena de entrada, habrá que elegir entre un conjunto de posibles transiciones. Cada transición está formada por un posible cambio de estado y por una cadena (puede ser λ) que reemplazará al símbolo que ocupa la cima de la pila. Después de realizar un movimiento se avanza en el análisis de la cinta de entrada.
 
-`	`Un **AP es** <AE, Ap, z0, Q, q0, F, δ>
+Un **AP es** <AE, Ap, z0, Q, q0, F, δ>
 
 - AE: alfabeto de Entrada. Puede estar incluido en el alfabeto de pila. 
 - AP: alfabeto de Pila. 
@@ -380,7 +378,7 @@ Es el pasaje de una descripción instantánea a otra.
 
 
 ## **Propiedades de lenguajes libres de contexto**
-`	`Sean L1,  L2 dos lenguajes libres de contexto tal que L1:G1<VN1 ,  VT1 ,  S1 ,  P1> y L2:G2= <VN2 ,  VT2 ,  S2 ,  P2 >   y     VN1 ∩VN2= ∅
+Sean L1,  L2 dos lenguajes libres de contexto tal que L1:G1<VN1 ,  VT1 ,  S1 ,  P1> y L2:G2= <VN2 ,  VT2 ,  S2 ,  P2 >   y     VN1 ∩VN2= ∅
 
 1. *Unión.* 
 
@@ -421,7 +419,7 @@ PL1   \*=P1 ∪S0∷=S0S1  λ}
 
 Segundo Parcial
 # **Lenguajes Linealmente Acotados (Tipo 1)**
-`	`También llamados lenguajes sensibles al contexto. Las gramáticas pueden tener más de un símbolo a la izquierda ya sea terminal o no terminal.
+También llamados lenguajes sensibles al contexto. Las gramáticas pueden tener más de un símbolo a la izquierda ya sea terminal o no terminal.
 
 α M β :≔α γ β
 
@@ -524,7 +522,7 @@ M∈VN
 
 
 #### *Prefijo viable*
-`	`Es un prefijo sentencial derecha que puede aparecer en la pila de un analizador sintáctico shift-reduce.
+Es un prefijo sentencial derecha que puede aparecer en la pila de un analizador sintáctico shift-reduce.
 
 A *®* *b*1 *b*2  es válido para un prefijo viable α*b*1 si hay una derivación
 
@@ -721,11 +719,11 @@ Una conversión automática se conoce como **coerción**.
 
 # **Lenguajes sin restricciones (T0)**
 ## **Máquinas de Turing**
-`	`Consiste en un control finito que puede estar en cualquier estado de un conjunto finito de estados. Se tiene una cinta dividida en celdas, cada celda con un símbolo. Inicialmente, la entrada (cadena finita de símbolos del alfabeto) se coloca en la cinta, el resto de las celdas tienen el símbolo especial vacío.
+Consiste en un control finito que puede estar en cualquier estado de un conjunto finito de estados. Se tiene una cinta dividida en celdas, cada celda con un símbolo. Inicialmente, la entrada (cadena finita de símbolos del alfabeto) se coloca en la cinta, el resto de las celdas tienen el símbolo especial vacío.
 
-`	`La cabeza de la cinta está siempre sobre una celda y al principio está sobre la celda más a la izquierda con el primer símbolo de la cadena de entrada (a menos que se indique otra cosa). Un movimiento o transición puede cambiar de estado (o quedarse en el actual), escribir un símbolo (reemplazando el símbolo que existía o dejando el mismo) y mover la cabeza la izquierda o derecha o no moverla (**R L H** (Halt, fin)) .
+La cabeza de la cinta está siempre sobre una celda y al principio está sobre la celda más a la izquierda con el primer símbolo de la cadena de entrada (a menos que se indique otra cosa). Un movimiento o transición puede cambiar de estado (o quedarse en el actual), escribir un símbolo (reemplazando el símbolo que existía o dejando el mismo) y mover la cabeza la izquierda o derecha o no moverla (**R L H** (Halt, fin)) .
 
-`	`Todas las celdas tienen un símbolo que indica que están en blanco. En algún lugar de la cinta, está la sarta con la que queremos trabajar.
+Todas las celdas tienen un símbolo que indica que están en blanco. En algún lugar de la cinta, está la sarta con la que queremos trabajar.
 
 
 Una MT es <Q,  A,  φ,  q0,  δ>

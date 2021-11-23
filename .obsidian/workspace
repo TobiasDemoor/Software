@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Resumenes/Resumen BD.md",
-            "mode": "source"
+            "file": "Resumenes/Resumen SSDD.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resumenes/Resumen BD.md",
+                "file": "Resumenes/Resumen SSDD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,13 +93,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resumenes/Resumen BD.md",
+                "file": "Resumenes/Resumen SSDD.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,15 +109,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Resumenes/Resumen SSDD.md",
+    "Resumenes/Resumen Lenguajes Formales.md",
+    "Sistemas Operativos/Sistemas Operativos.md",
+    "Sistemas Operativos/Resumen SSOO.md",
+    "Sistemas Operativos/Sistemas de Computación.md",
+    "Sistemas Operativos/Concurrencia/Deadlock.md",
     "Resumenes/Resumen BD.md",
     "Resumenes/Resumen Redes.md",
     "Bases de Datos/Concepts/Data Independence.md",
-    "Bases de Datos/Concepts/Data Abstraction.md",
-    "Bases de Datos/Concepts/Integrity constraints.md",
-    "Bases de Datos/Teoría de Normalización/Atributos primos.md",
-    "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md",
-    "Bases de Datos/Transacciones.md",
-    "Bases de Datos/Procesamiento de transacciones/Recuperación ante fallos.md",
-    "Bases de Datos/Procesamiento de consultas/Optimización de consultas.md"
+    "Bases de Datos/Concepts/Data Abstraction.md"
   ]
 }
