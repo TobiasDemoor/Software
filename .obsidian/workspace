@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Resumenes/Resumen SSDD.md",
-            "mode": "source"
+            "file": "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "raid",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resumenes/Resumen SSDD.md",
+                "file": "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resumenes/Resumen SSDD.md",
+                "file": "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Resumenes/Resumen SSDD.md",
-    "Sistemas Distribuidos/Coordinación/Sincronización.md",
-    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
-    "Sistemas Distribuidos/Architecture/Decentralized organizations/DHT.md",
-    "Resumenes/Resumen Redes.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Enrutamiento/Enrutamiento interdominio.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/Interconexión de redes/Interconexión de redes.md",
-    "Resumenes/Resumen Lenguajes Formales.md",
-    "Sistemas Operativos/Sistemas Operativos.md",
-    "Sistemas Operativos/Resumen SSOO.md"
+    "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md",
+    "Bases de Datos/Procesamiento de consultas/Procesamiento de consultas.md",
+    "Bases de Datos/Procesamiento de consultas/Optimizador de consultas.md",
+    "Sistemas Distribuidos/IoT/MQTT.md",
+    "Redes de Computadoras/Daily/20211115.md",
+    "Redes de Computadoras/Daily/20211108.md",
+    "Redes de Computadoras/Daily/20211101.md",
+    "Redes de Computadoras/Daily/20211025.md",
+    "Redes de Computadoras/Daily/20211004.md",
+    "Redes de Computadoras/Daily/20211015.md"
   ]
 }
