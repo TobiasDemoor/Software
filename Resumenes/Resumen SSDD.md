@@ -1,4 +1,4 @@
-%%# Sistemas Distribuidos
+# Sistemas Distribuidos
 ![[Sistemas Distribuidos]]
 
 # Middleware
@@ -20,16 +20,7 @@
 ![[Comunicación]]
 
 # Sincronización
-![[Sincronización]]%%
-
-
-# Sincronización
-## Relojes Lógicos
-![[Relojes Lógicos#Relojes Vectoriales]]
-
-![[Sincronización#Exclusión mutua distribuida]]
-
-![[Sincronización#Algoritmos de elección]]
+![[Sincronización]]
 
 # Naming
 ![[Sistema de Nombres]]

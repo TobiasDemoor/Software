@@ -1,4 +1,3 @@
-%%
 # Redes de computadoras
 ![[Redes de computadoras]]
 
@@ -25,7 +24,7 @@
 
 # WiFi
 ![[WiFi]]
-%%
+
 # Capa de red
 ![[Capa de red]]
 
