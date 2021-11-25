@@ -19,10 +19,10 @@ Para la recuperación ante fallos se definen dentro de las transacciones operaci
 > ![[BD_recuperacion_ante_fallos_ejemplo_1.png]]
 
 ### Componentes
-- **Transaction Management:** The two principal tasks of the **transaction manager** are assuring recoverability of database actions through logging, and assuring correct, concurrent behavior of transactions through the **scheduler**.
-- **Database Elements:** The database is divided into elements, which are typically disk blocks, but could be tuples or relations, for instance. Database elements are the units for both logging and scheduling.
-- **Logging:** A record of every important action of a transaction — beginning, changing a database element, committing, or aborting — is stored on a log. The log must be backed up on disk at a time that is related to when the corresponding database changes migrate to disk, but that time depends on the particular logging method used.
-- **Recovery:** When a system crash occurs, the log is used to repair the database, restoring it to a consistent state (**recovery manager**).
+- **Transaction Managment:** Las dos tareas principales del **transaction manager** son asegurar la recuperabilidad de la base de datos a través del logging y asegurar el correcto comportamiento concurrente de las transacciones a través del **scheduler**.
+- **Database Elements:** La base de datos se encuentra dividida en elementos, los cuales son típicamente bloques de disco, pero pueden ser tuplas o relaciones, por ejemplo. Los elementos de base de datos son las unidades tanto para logging como para scheduling.
+- **Logging:** En el log se almacena un registro de cada acción importante de una transación (su comienzo, cambios a un elemento de base de datos, commitear o abortar). El log se debe persistir en disco en ciertos momentos relacionados a la persistencia de los cambios correspondientes en disco, este momento depende de la estrategia de logging utilizada.
+- **Recovery:** Cuando un sistema crashea el log es usado para reparar la base de datos, restaurandola a un estado consistente, el **recovery manager** es el encargado de esta tarea.
 
 ![[BD_recuperacion_ante_fallos_componentes.png]]
 
@@ -68,20 +68,33 @@ El objetivo del checkpointing es limitar la cantidad de registros del Log que de
 Para el **recovery** se lee el Log a partir del último registro y hasta el punto de **checkpint**. Sabemos que hasta ahí todas las transacciones terminaron y sus cambios fueron guardados en disto. Luego se aplica la política de recuperación correspondiente al modelo de logging.
 
 ##### Non-quiescent checkpointing
-1. Escribir en el Log < START CKPT (lista de transacciones activas)> y flushear log a disco.
-2. Esperar hasta que todas las transaccions activas del START CKPT hagan COMMIT o ABORT sin dejar de aceptar nuevas transacciones.
-3. Una vez finalizadas todas las transacciones de la lista del START CKPT, se escribe el registro < END CKPT> en el log en disco.
+El checkpointing non-quiescent varía según la estrategia de logging utilizada:
 
-Para el **recovery** se lee el log a partir del último registro, aplicando la política **UNDO**
-1. Si encuentro un < END CKPT>, debo leer no más allá del < START CKPT ...>. Ya que todas las transacciones iniciadas previo al START CKPT terminaron correctamente o fueron abortadas correctamente.
-2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> devido a un crash). Debo leer el Log hasta el START más antiguo de las transacciones de la lista del START CKPT que quedaron incompletas.
+> Si se utiliza **UNDO**
+> 1. Escribir en el Log < START CKPT (lista de transacciones activas)> y flushear log a disco.
+> 2. Esperar hasta que todas las transaccions activas del START CKPT hagan COMMIT o ABORT sin dejar de aceptar nuevas transacciones.
+> 3. Una vez finalizadas todas las transacciones de la lista del START CKPT, se escribe el registro < END CKPT> en el log y flushear.
+>
+> **Recovery:** se lee el log a partir del último registro, aplicando la política UNDO.
+> 1. Si encuentro un < END CKPT>, debo leer no más allá del < START CKPT ...>. Ya que todas las transacciones iniciadas previo al START CKPT terminaron correctamente o fueron abortadas correctamente.
+> 2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> debido a un crash). Debo leer el Log hasta el START más antiguo de las transacciones de la lista del START CKPT que quedaron incompletas.
 
-Para el **recovery** aplicando la política **REDO**
-1. Si encuentro un < END CKPT>, indica que las transacciones que hicieron commit antes del START CKPT tienen sus cambios en disco, por lo tanto las ignoro. Rehago las transacciones que hicieron COMMIT, y que comenzaron luego del START CKPT, o que estuvieron activas en ese momento. Leo hasta el START más antiguo de estas transacciones.
-2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> devido a un crash). Debo leer el Log hasta el END CKPT anterior o hasta el comienzo del Log, si no hubiera checkpoints.
+> Si se utiliza **REDO**
+> 1. Escribir en el Log < START CKPT (lista de transacciones activas)> y flushear log a disco.
+> 2. Escribir en disco todos los items modificados por transacciones que hicieron COMMIT al momento del START CKPT, que están en buffer y aún no fueron a disco sin dejar de aceptar nuevas transacciones.
+> 3. Escribir el registro < END CKPT > en el log y flushear.
+>
+> **Recovery:** se aplica la política REDO.
+> 1. Si encuentro un < END CKPT>, indica que las transacciones que hicieron commit antes del START CKPT tienen sus cambios en disco, por lo tanto las ignoro. Rehago las transacciones que hicieron COMMIT, y que comenzaron luego del START CKPT, o que estuvieron activas en ese momento. Leo hasta el START más antiguo de estas transacciones.
+> 2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> debido a un crash). Debo leer el Log hasta el END CKPT anterior o hasta el comienzo del Log, si no hubiera checkpoints.
 
-Para el **recovery** aplicando la política **UNDO/REDO**
-1. Si encuentro un < END CKPT>, indica que todos los cambios antes del START CKPT están en disco.
-2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> devido a un crash). Debo leer el Log hasta el END CKPT anterior o hasta el comienzo del Log, si no hubiera checkpoints.
+> Si se utiliza **UNDO/REDO**
+> 1. Escribir en el Log < START CKPT (lista de transacciones activas)> y flushear log a disco.
+> 2. Escribir en disco todos los items modificados por todas las transacciones al momento del START CKPT, que están en buffer y aún no fueron a disco sin dejar de aceptar nuevas transacciones.
+> 3. Escribir el registro < END CKPT > en el log y flushear.
+>
+> **Recovery:** se aplica la política UNDO/REDO.
+> 1. Si encuentro un < END CKPT>, indica que todos los cambios antes del START CKPT están en disco.
+> 2. Si encuentro un < START CKPT ...> (osea no hay un < END CKPT> debido a un crash). Debo leer el Log hasta el END CKPT anterior o hasta el comienzo del Log, si no hubiera checkpoints.
 
 %%Fuente: “DATABASE SYSTEMS The Complete Book”, Second Edition, Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom. Department of Computer Science Stanford University, Pearson-Prentice Hall, 2009. Chapter 17: Coping With System Failures.%%
