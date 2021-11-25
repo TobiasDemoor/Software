@@ -5,8 +5,10 @@ Este es un modelo simplificado, en las bases de datos reales por lo general se e
 Las relaciones se dividen en bloques o páginas. La longitud de estos bloques se define a nivel general (se lo denota con **LB**), por lo que todas las relaciones poseen bloques del mismo tamaño.
 
 Dada una relación R, se conocen los siguientes datos: 
-* **BR**: Cantidad de bloques que ocupa R. 
+* $\bf{B_R}$: Cantidad de bloques que ocupa R. 
+> $B_R = \lceil T_R/FB_R \rceil \ [bloques]$
 * $\bf{FB_R}$: Cantidad de tuplas por bloque de R (factor de bloqueo) 
+> $FB_R = \lfloor LB/L_R \rfloor \ [tuplas/bloque]$
 * $\bf{L_R}$: Longitud de una tupla de R 
 * $\bf{T_R}$: Cantidad total de tuplas de R 
 * $\bf{I_{R,A}}$: Imagen del atributo A de R. Denota la cantidad de valores distintos de ese atributo en la relación. 
@@ -123,11 +125,11 @@ Para cada tupla r de R
 			Agregar <r,s> al resultado
 ```
 
-**Costo de input**: $B_R + T_R$
-(“buscar para la tupla $t_R$ index entry/ies en índice de S” + “buscar valor/es apuntados por index entry/ies”)
+**Costo de input**: $B_R + T_R * \alpha$
+$\alpha =$ (“buscar para la tupla $t_R$ index entry/ies en índice de S” + “buscar valor/es apuntados por index entry/ies”)
 
 ##### Sort Merge Join (SMJ)
-No tiene precondiciones.
+**Precondición**: se tienen B bloques de memoria disponibles para la operación de ordenamiento si se requiere.
 
 **Descripción**:
 ```
