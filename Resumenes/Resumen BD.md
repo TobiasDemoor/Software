@@ -1,4 +1,4 @@
-%%# Bases de Datos
+# Bases de Datos
 ![[Bases de Datos]]
 
 # Database Managment System (DMBS)
@@ -14,7 +14,7 @@
 ![[SQL]]
 
 # Teoría de Normalización
-![[Teoría de Normalización]]%%
+![[Teoría de Normalización]]
 
 # Procesamiento de consultas
 ![[Procesamiento de consultas]]
