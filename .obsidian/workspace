@@ -109,14 +109,14 @@
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
     "Bases de Datos/NOSQL.md",
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
+    "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
     "Bases de Datos/DBMS/DDBMS.md",
     "Bases de Datos/Data Models/Data Model.md",
     "Bases de Datos/Procesamiento de transacciones/Recuperación ante fallos.md",
     "Resumenes/Resumen BD.md",
     "Bases de Datos/Procesamiento de consultas/Optimización de consultas.md",
-    "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md",
-    "Bases de Datos/Procesamiento de consultas/Optimizador de consultas.md",
-    "Bases de Datos/Procesamiento de consultas/Procesamiento de consultas.md",
-    "Resumenes/Resumen Lenguajes Formales.md"
+    "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md"
   ]
 }

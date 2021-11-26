@@ -29,16 +29,7 @@ Tradicionalmente la consistencia fue discutida en el contexto de operaciones de 
 A falta de un reloj global es difícil determinar precisamente que operación de escritura es la última. Como alternativa, necesitamos proveer otras definiciones, llevando a un rango de modelos de consistencia. Cada modelo efectivamente restringe los valores que una operación de lectura en un ítem puede retornar.
 
 ### Consistencia continua
-Hay diferentes maneras para que las aplicaciones puedan especificar que inconsistencias puede tolerar. Un approach distingue tres ejes independientes para definir inconsistencias: desviación de valores numéricos entre réplicas, desviación en deterioro de las réplicas, y desviación con respecto al orden de las operaciones de actualización. Estas desviaciones forman rangos de **consistencia continua**.
-
-La inconsistencia en términos de desviación númerica puede ser usada en aplicaciones para las cuales los datos tienen significado numérico. Por ejemplo se puede establecer un límite de *desviación numérica absoluta* para un precio determinado o una *desviación numérica relativa*. En ambos casos si el precio se modifica pero se mantiene dentro del rango determinado las réplicas se seguirían considerando consistentes.
-
-La inconsistencia de deterioro de las réplicas consiste en establecer un plazo máximo para que la réplica sea actualizada. Por lo tanto si la réplica no se actualiza desde hace más tiempo del permitido se considera inconsistente y debe actualizarse.
-
-Finalmente respecto al orden de las operaciones de actualización, hay clases de aplicaciones en donde es permitido que el ordenamiento de las actualizaciones sea dirente en varias réplicas, siempre y cuando las diferencias permanezcan dentro de un límite. Una forma de pensar estas actualizaciones es que son aplicadas tentativamente a la copia local, esperando aceptación global de todas las réplicas. Como consecuencia algunas actualizaciones deberán ser canceladas y aplicadas en un orden distinto para pasar a ser permanentes.
-
-#### Conits
-![[Conit]]
+![[Consistencia continua]]
 
 ### Ordenamiento consistente de operaciones
 Esta clase de modelos proviene del campo de la programación concurrente. Los siguientes modelos tratan con ordenar consistentemente las operaciones sobre información replicada y compartida.
@@ -75,7 +66,7 @@ Esta granularidad en muchos casos no coincide con la granularidad provista por a
 Lo que ocurre dentro de un programa es que se opera sobre los datos por una serie de operaciones de lectura y escritura protegidas contra el acceso concurrente. Osea, se transforma una serie de operaciones en una unidad de ejecución atómica, por lo tanto, elevando el nivel de granularidad.
 
 ### Consistencia Eventual
-La **consistencia eventual** es un modelo de consistencia donde se tienen pocos procesos que escriben (o usualmente uno solo), por lo que se evitan los conflictos write-write. Entonces lo único que se debe gestionar en este modelo son los conflictos read-write y que las copias se actualicen. La forma de tratar con esto es tratar las operaciones de escritura como lazy, por lo tanto tomarán lugar cuando puedan, así el almacen llegando a un estado consistente eventualmente.
+![[Consistencia eventual]]
 
 ## Modelos de consistencia centrados en el cliente
 Los **modelos de consistencia centrados en el cliente** apuntan a proveer una vista consistente a nivel sistema del almacén de datos. Para el siguiente análisis se consideran almacenes de datos que se caracterízan por el ausencia de actualizaciones simultáneas, o que cuando estas ocurren, se supone que pueden ser resueltas fácilmente. La mayor parte de las operaciones son de lectura de datos. Estos almacenes ofrecen un modelo de consistencia débil, tal como la consistencia eventual. Introduciendo modelos de consistencia centrados en el cliente resulta que muchas inconsistencias se pueden ocultar de una manera relativamente sencilla.
@@ -161,12 +152,4 @@ Por el contrario en los **modelos basados en pull** un cliente o servidor solici
 | **Tiempo de respuesta**   | Inmediato (o busca el tiempo de actualización)             | Busca el tiempo de actualización | 
 
 #### Web Cache
-Los cache forman un caso especial de replicación ya que, generalmente, son controlados por los clientes.
-
-El proceso de obtención a través de la web es lento y costoso: las respuestas de gran volumen requieren muchos recorridos entre el cliente y el servidor, de lo cual surgen demoras cuando están disponibles y pueden ser procesadas por el navegador, y también genera costos por consumo de datos para el visitante. Como consecuencia, la capacidad de almacenamiento en caché y reutilización de recursos obtenidos previamente es un aspecto crítico de la optimización para lograr un buen rendimiento. Buenas noticias, en todos los navegadores se incluye una implementación de un caché [[HTTP]].
-
-![[SSDD_web_cache.png]]
-
-Cuando el servidor muestra una respuesta, también emite un conjunto de encabezados [[HTTP]] que describen el tipo de contenido, la extensión, las directivas de almacenamiento en caché y el token de validación, entre otros aspectos. Por ejemplo, en el intercambio anterior, en el servidor se muestra una respuesta de 1024 bytes, se indica al cliente que la almacene en caché durante un plazo de hasta 120 segundos y se proporciona el token de validación (“x234dff”) que se puede usar después de que la respuesta caduca para verificar si se modificó el recurso.
-
-Supongamos que ya pasaron 120 segundos desde la obtención inicial y el navegador inició una nueva solicitud para el mismo recurso. Primero, el navegador revisa la caché local y encuentra la respuesta anterior. Desafortunadamente, no puede usarla porque la respuesta caducó, por lo que usa el Etag para volver a consultar.
+![[Web cache]]
