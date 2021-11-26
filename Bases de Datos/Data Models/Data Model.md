@@ -1,3 +1,6 @@
+---
+aliases: [modelo de datos, modelos de datos, data models]
+---
 Informalmente, un **modelo de datos** o **data model** es un tipo de  [[Data Abstraction|abstracción de datos]] que es usada para proveer una **representación conceptual**. El modelo de datos utiliza conceptos lógicos, tales como [[OOP|objetos]], sus propiedades, y sus interrelaciones, de manera que pueda ser más sencillo para la mayoría de los usuarios entender que los conceptos de almacenamiento. Por lo tanto, el modelo de datos *[[Ocultamiento de la información|oculta]]* detalles del almacenamiento e implementación que no son de interés para la mayoría de usuarios de [[Bases de Datos|base de datos]]. Los modelos de datos también suelen incluir un conjunto de **basic operations** para especificar consultas y modificaciones en la base de datos.
 
 Además de las operaciones básicas, es común incluir conceptos en el modelo de datos que especifiquen el aspecto dinámico (**dynamic aspect**) o comportamiento (**behavior**) de la aplicación de base de datos. Esto permite al diseñador especificar un conjunto de operaciones válidas definidas por el usuario que son permitidas sobre los objetos de la base. En el modelo básico de datos relacionales, existen los **stored procedures** o **persistent stored modules** para añadir comportamiento a las relaciones.

@@ -1,0 +1,15 @@
+El término **NOSQL** se suele interpretar como Not Only [[SQL]] (en vez de No SQL) e intenta comunicar que muchas aplicaciones necesitan sistemas distintos a los SQL relacionales tradicionales para cumplir con sus necesidades de manejo de datos. La mayoría de los sistemas NOSQL son [[DDBMS|bases de datos distribuidas]] o [[Almacenamiento distribuido|sistemas de almacenamiento distribuido]], con un foco en almacenamiento de datos semiestructurados, alta performance, disponibilidad, replicación, y escalabilidad en contraposición con el enfasis en consistencia imediata, lenguajes de query poderosos, y almacenamiento de datos estructurados.
+
+## Emergencia de los sistemas NOSQL
+Muchas compañias y organizaciones se enfrentan con tener aplicaciones que almacenan vastas cantidades de datos. Por ejemplo el caso de las aplicaciones de e-mail grátis, como Gmail o otro servicio similar, estas aplicaciones pueden tener miles de millones de usuarios, y cada usuario puede tener miles de e-mails. Hay una necesidad de un sistema de almacenamiento que pueda manejar este volumen de e-mails; un sistema SQL estructurado relacional puede no ser apropiado por dos motivos:
+1. Los sistemas SQL ofrecen muchos servicios (como un lenguaje de query poderoso, control de concurrencia, etc.) que esta aplicación puede no necesitar.
+2. Un modelo de datos estructurado como el modelo relacional tradicional puede ser demasiado restrictivo.
+
+Como un segundo ejemplo consideremos Facebook con miles de millones de usuarios que agregan publicaciones, con imágenes y videos, que luego deben ser mostrados a otros usuarios utilizando las relaciones entre usuarios de la red social. Los perfiles de usuarios, sus relaciones, y sus posts deben estar disponibles a los conjuntos de usuarios que se han enlistado para ver estos posts. Una parte de los datos para este tipo de aplicación no son adecuados para los sistemas relacionales tradicionales y típicamente necesitan múltiples tipos de bases de datos y sistemas de almacenamiento de datos.
+
+## Características de los sistemas NOSQL
+Podemos analizar las características comunes de los sistemas NOSQL dividiendolas en dos grupos, las que están relacionadas a las [[DDBMS|bases de datos distribuidas]] y [[sistemas distribuidos]], y las que están relacionadas a los [[Data Model|modelos de datos]] y lenguajes de query.
+
+### Características relacionadas a SSDD
+Los sistemas NOSQL ponen énfasis en la alta [[Reliability|disponibilidad]], por lo tanto la [[replicación]] es inherente en muchos de estos sistemas. La [[escalabilidad]] es otra característica importante, ya que muchas aplicaciones que utilizan sistemas NOSQL tienen a tener datos con un crecimiento constante. La alta [[performance]] es otra característica requerida, mientras que la consistencia puede no ser tan importante para algunas aplicaciones NOSQL.
+1. **Escalabilidad:** 

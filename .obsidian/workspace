@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Procesamiento de transacciones/Recuperación ante fallos.md",
-            "mode": "preview"
+            "file": "Bases de Datos/NOSQL.md",
+            "mode": "source"
           }
         }
       }
@@ -76,14 +76,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Procesamiento de transacciones/Recuperación ante fallos.md",
+                "file": "Bases de Datos/NOSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Procesamiento de transacciones/Recuperación ante fallos.md",
+                "file": "Bases de Datos/NOSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Bases de Datos/NOSQL.md",
+    "Bases de Datos/DBMS/DDBMS.md",
+    "Bases de Datos/Data Models/Data Model.md",
     "Bases de Datos/Procesamiento de transacciones/Recuperación ante fallos.md",
     "Resumenes/Resumen BD.md",
     "Bases de Datos/Procesamiento de consultas/Optimización de consultas.md",
     "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md",
     "Bases de Datos/Procesamiento de consultas/Optimizador de consultas.md",
     "Bases de Datos/Procesamiento de consultas/Procesamiento de consultas.md",
-    "Resumenes/Resumen Lenguajes Formales.md",
-    "Resumenes/Resumen Redes.md",
-    "Resumenes/Resumen SSDD.md",
-    "Sistemas Distribuidos/IoT/MQTT.md"
+    "Resumenes/Resumen Lenguajes Formales.md"
   ]
 }
