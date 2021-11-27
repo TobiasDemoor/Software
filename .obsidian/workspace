@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "schema",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,14 +109,14 @@
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
     "Bases de Datos/NOSQL.md",
-    "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
-    "Redes de Computadoras/Modelo OSI/Capa 4/TCP.md",
-    "Bases de Datos/DBMS/DDBMS.md",
-    "Bases de Datos/Data Models/Data Model.md",
-    "Bases de Datos/Procesamiento de transacciones/Recuperación ante fallos.md",
-    "Resumenes/Resumen BD.md",
-    "Bases de Datos/Procesamiento de consultas/Optimización de consultas.md",
-    "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md"
+    "Organización de Datos/XML.md",
+    "Organización de Datos/HTML.md",
+    "Organización de Datos/Resumen completo.md",
+    "Análisis y Diseño/Patrones/Arquitectónicos/Layers.md",
+    "Organización de Datos/JSON.md",
+    "Bases de Datos/Sistema de Base de Datos.md",
+    "Bases de Datos/Arquitectura de tres schemas.md",
+    "Bases de Datos/Bases de Datos.md",
+    "Bases de Datos/Data Models/Data Model.md"
   ]
 }
