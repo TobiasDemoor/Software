@@ -25,3 +25,8 @@ Los sistemas NOSQL ponen énfasis en la performance y flexibilidad sobre poder d
 3. **Versionado:** algunos sistemas NOSQL proveen múltiples versiones de los items de datos, con timestamps de cuándo esa versión fue creada.
 
 ## Categorías de sistemas NOSQL
+Los sistemas NOSQL se clasifican en tres categorías principales, con algunas categorías adicionales que cubren otros tipos de sistemas. Las más comunes son las cuatro siguientes:
+1. **Document-based NOSQL systems:** estos sistemas almacenan la información en forma de documentos utilizando formatos bien conocidos, como [[JSON]]. Los documentos son accesibles a través de su id, pero también pueden ser accedidos rápidamente usando otros índices.
+2. **NOSQL key-value stores:** estos sistemas tienen un modelo de datos simple basado en el acceso rápido mediante la clave asociada al valor, el valor puede ser un registro, un objeto, un documento, o hasta una estructura de datos más compleja.
+3. **Column-based or wide column NOSQL systems:** estos sistemas particionan una tabla por columnas en familias de columnas (una forma de particionamiento vertical), donde cada familia de columnas es almacenada en sus propios archivos. También permiten versionar los datos.
+4. **Graph-based NOSQL systems:** 
