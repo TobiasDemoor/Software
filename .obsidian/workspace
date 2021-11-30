@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/NOSQL.md",
-            "mode": "source"
+            "file": "Bases de Datos/NOSQL/NOSQL.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/NOSQL.md",
+                "file": "Bases de Datos/NOSQL/NOSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/NOSQL.md",
+                "file": "Bases de Datos/NOSQL/NOSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -108,15 +108,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Bases de Datos/NOSQL.md",
+    "Bases de Datos/NOSQL/NOSQL.md",
+    "Bases de Datos/NOSQL/CAP Theorem.md",
+    "Sistemas Distribuidos/Replicación/Consistencia eventual.md",
+    "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
     "Organización de Datos/XML.md",
     "Organización de Datos/HTML.md",
     "Organización de Datos/Resumen completo.md",
     "Análisis y Diseño/Patrones/Arquitectónicos/Layers.md",
     "Organización de Datos/JSON.md",
-    "Bases de Datos/Sistema de Base de Datos.md",
-    "Bases de Datos/Arquitectura de tres schemas.md",
-    "Bases de Datos/Bases de Datos.md",
-    "Bases de Datos/Data Models/Data Model.md"
+    "Bases de Datos/Sistema de Base de Datos.md"
   ]
 }

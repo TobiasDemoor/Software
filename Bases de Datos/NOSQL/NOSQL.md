@@ -29,4 +29,7 @@ Los sistemas NOSQL se clasifican en tres categorías principales, con algunas ca
 1. **Document-based NOSQL systems:** estos sistemas almacenan la información en forma de documentos utilizando formatos bien conocidos, como [[JSON]]. Los documentos son accesibles a través de su id, pero también pueden ser accedidos rápidamente usando otros índices.
 2. **NOSQL key-value stores:** estos sistemas tienen un modelo de datos simple basado en el acceso rápido mediante la clave asociada al valor, el valor puede ser un registro, un objeto, un documento, o hasta una estructura de datos más compleja.
 3. **Column-based or wide column NOSQL systems:** estos sistemas particionan una tabla por columnas en familias de columnas (una forma de particionamiento vertical), donde cada familia de columnas es almacenada en sus propios archivos. También permiten versionar los datos.
-4. **Graph-based NOSQL systems:** 
+4. **Graph-based NOSQL systems:**  la información es representada como grafos, y los nodos relacionados se pueden encontrar recorriendo aristas utilizando expresiones de camino.
+
+## CAP Theorem
+![[CAP Theorem]]
