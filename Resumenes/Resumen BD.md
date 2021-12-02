@@ -21,3 +21,6 @@
 
 # Procesamiento de transacciones
 ![[Procesamiento de transacciones]]
+
+# NOSQL
+![[NOSQL]]

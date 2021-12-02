@@ -1,6 +1,6 @@
 La tecnología **RAID (Redundant Array of Independent Disks o Redundant Array of Inexpensive Disks)** permite simular un dispositivo de almacenamiento lógico utilizando en paralelo varios físicos.
 
-Tiene como objetivos mejorar el [[Performance|rendimiento]] del almacenamiento, aumentando el **paralelismo de operaciones** y por consecuente mejorando la **tasa de transferencia**. Y además mejorar la **seguridad** aumentando la tolerancia a fallos mediante el uso de redundancia.
+Tiene como objetivos mejorar el [[Performance|rendimiento]] del almacenamiento, aumentando el **paralelismo de operaciones** y por consecuente mejorando la **tasa de transferencia**. Y además mejorar la **[[seguridad]]** aumentando la tolerancia a fallos mediante el uso de redundancia.
 
 ## Distribución de los datos
 ### Direccionamiento independiente
@@ -43,7 +43,7 @@ Utilizando [[códigos de Hamming]] puedo detectar errores de bits en caliente. T
 ## Implementación
 La **implementación por software** consta de un programa que gestiona los discos rígidos haciendo uso del procesador. Por otro lado, si implementamos por hardware, una placa física es la encargada de gestionar las operaciones de E/S de los discos.
 
-La **implementación por software** no tiene un incremento en rendimiento muy alto, por lo que es conveniente utilizarlo en casos donde no se priorice el rendimiento, pero si la alta disponibilidad de los datos.
+La **implementación por software** no tiene un incremento en [[Performance|rendimiento]] muy alto, por lo que es conveniente utilizarlo en casos donde no se priorice el rendimiento, pero si la alta [[Reliability|disponibilidad]] de los datos.
 
 ## Niveles de RAID
 ### RAID 0 - Not redundant

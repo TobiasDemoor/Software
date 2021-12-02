@@ -1,4 +1,4 @@
-Es la interfaz entre el usuario y el hardware. Es una máquina extendida virtual que ofrece un conjunto de funciones e [[Interfaz|interfaces]] para utilizar los recursos del hardware. Es un manejador de eventos, gestiona la ejecución de [[Proceso|procesos]] (avance de las instrucciones de los [[Programa|programas]]). Es por ello que el SO es el responsable de la seguridad del [[Sistemas de Computación|sistema de computación]] (SC) y la protección de sus recursos.
+Es la interfaz entre el usuario y el hardware. Es una máquina extendida virtual que ofrece un conjunto de funciones e [[Interfaz|interfaces]] para utilizar los recursos del hardware. Es un manejador de eventos, gestiona la ejecución de [[Proceso|procesos]] (avance de las instrucciones de los [[Programa|programas]]). Es por ello que el SO es el responsable de la [[seguridad]] del [[Sistemas de Computación|sistema de computación]] (SC) y la [[protección]] de sus recursos.
 
  El SO ofrece una transparencia al usuario, es decir, crea una “ilusión” de invisibilidad del hardware al usuario.
 
@@ -27,7 +27,7 @@ Es la interfaz entre el usuario y el hardware. Es una máquina extendida virtual
 	- Incapacidad del SO para satisfacer la solicitud de un proceso.
 - **Contabilidad (indicadores)**.
 	- Recoger estadísticas.
-	- Supervisar rendimiento.
+	- Supervisar [[Performance|rendimiento]].
 	- Utilizado para anticiparse a las mejoras futuras
 	- Utilizado para los [[Usuario|usuarios]] de cuotas.
 
@@ -54,7 +54,7 @@ La administración de recursos incluye el multiplexaje (compartir) de recursos e
 ## Arquitectura del SO (Núcleo)
 Parte del sistema operativo se encuentra en la memoria principal, incluyendo las funciones utilizadas con más frecuencia. Esta parte imprescindible se denomina kernel. Los demás programas tales como drivers y otras funciones del SO no se cargan en memoria, no son procesos residentes en la misma.
 
-Se puede contemplar el sistema como una serie de niveles, donde cada uno de ellos lleva a cabo un determinado subconjunto de funciones. Cada nivel se basa en el nivel inferior para llevar a cabo funciones más primitivas. De este modo, se descompone un problema en un número de subproblemas más manejables. A medida que descendemos de nivel, el nivel de abstracción disminuye, hasta llegar a los circuitos electrónicos.
+Se puede contemplar el sistema como una serie de niveles, donde cada uno de ellos lleva a cabo un determinado subconjunto de funciones. Cada nivel se basa en el nivel inferior para llevar a cabo funciones más primitivas. De este modo, se descompone un problema en un número de subproblemas más manejables. A medida que descendemos de nivel, el nivel de [[abstracción]] disminuye, hasta llegar a los circuitos electrónicos.
 
 - *Driver.* Software dentro del so que permite la operación lógica de un dispositivo.
 - *Controlador.* Hardware que permite manipular mecánicamente un dispositivo.
@@ -151,3 +151,68 @@ No hay dialogo Usuario-Proceso. Por ejemplo, un programa para calcular la cantid
 Hay diálogo Usuario-Proceso, iniciado por el proceso. Por ejemplo, ejecutar un sistema que solicita un dato al usuario necesario para realizar una tarea. El proceso espera a que el usuario responda para poder seguir ejecutándose. El tiempo de respuesta depende del usuario.
 #### *Tiempo Real (RTOS)*
 Hay un diálogo Usuario-Proceso, iniciado por el usuario, el cual es el que le pregunta y es el proceso quien le responde. Por ejemplo, una aplicación que conste en que se le ingrese una temperatura y que ésta indique si está por prenderse fuego algo o no.
+
+## Interrupciones
+Es el mecanismo mediante el cual el SO se entera que ha ocurrido un evento que es de su interés y que debe ser atendido.
+
+Es la interrupción de un proceso debida a un factor externo al mismo y que se lleva a cabo de tal modo que el procesador pueda atender la demanda y reanudar luego la ejecución de dicho proceso.
+
+### Interrupciones de hardware
+#### *Sincrónicas*
+Se producen con una determinada frecuencia. Por ejemplo, el reloj interrumpe a cada segundo para que el SO lo plasme en la pantalla.
+#### *Asincrónicas*
+Provocadas por dispositivos o fallas de hardware.
+
+### Interrupciones de software
+#### *Explícitas*
+Llamadas al sistema. Un proceso solicita la utilización del hardware.
+#### *Implícitas*
+Desbordamiento aritmético, división por cero, intento de ejecutar una instrucción ilegal, referencia a una zona de memoria fuera del espacio de direcciones permitido al usuario.
+
+### Tratamiento de la interrupción
+Cuando el SO identifica una interrupción pendiente, se detiene la ejecución del proceso de usuario y se transfiere el control al SO.
+
+El SO identifica la interrupción por un número que usa como subíndice en el vector de interrupciones para obtener la dirección del código de la interrupción y lo ejecuta.
+
+El SO devuelve el control al proceso de usuario que reanuda su ejecución.
+
+1. Un proceso o dispositivo causa una interrupción.
+1. El procesador verifica si hay un pedido de interrupción pendiente y atiende la que corresponda.
+1. Se almacenan los datos necesarios para continuar posteriormente la ejecución del proceso (registros de datos del procesador, PC, PSW, etc.).
+1. El procesador carga el PC con la ubicación de entrada de la rutina de tratamiento de la interrupción correspondiente y comienza su ejecución. 
+1. Cuando el proceso de interrupción se completa, se restauran los datos necesarios para retomar la ejecución del proceso que causó la ejecución y se continúa con la misma.
+### Interrupciones múltiples
+#### *Secuenciales*
+Termina la ejecución de la rutina de atención una interrupción para luego atender la siguiente.
+#### *Anidadas*
+Interrumpe (dada las prioridades) una rutina de atención de una interrupción para atender la nueva interrupción.
+### Prioridad de las interrupciones
+Las interrupciones de prioridad más alta pueden hacer que las de prioridad más bajas tengan que esperar (No desalojo).
+
+Hace que se interrumpa la rutina de tratamiento de prioridad más baja (desalojo – Tiempo Real)
+
+Por ejemplo, cuando llega una interrupción desde la línea de comunicaciones, se necesita atender ésta rápidamente para hacer lugar a nuevas entradas.
+
+## Modo dual de protección
+Es un mecanismo de protección de los recursos del SC que implementa el sistema operativo (información, procesador, memoria y dispositivos de E/S) y debe tener soporte de hardware (bit de modo en el procesador).
+
+- El *modo Kernel* es el estado del sistema operativo en el cual tiene acceso completo a todo el hardware y puede ejecutar cualquier instrucción. Aquí se van a incluir los servicios de uso más frecuentes.
+- El *modo usuario* es el estado del sistema operativo en el cual solo un subconjunto de instrucciones es permitido, aquellas que no requieren acceso al hardware. Se recurre a llamadas al sistema para E/S.
+
+### Instrucciones privilegiadas
+Comprenden las llamadas al sistema. Son aquellas que requieren la manipulación del hardware.
+
+### Instrucciones no privilegiadas
+No requieren la manipulación del hardware, pueden ser ejecutadas por el proceso. Comprenden las instrucciones lógicas tales como “a+b”.
+
+El sistema operativo debe resolver las instrucciones privilegiadas, mientras que debe solicitar a un tercero que resuelva las no privilegiadas.
+
+Para que el procesador conozca el tipo de instrucción que se está ejecutando, existe el *Bit de Modo* para indicar que el proceso cargado en memoria es un proceso del sistema operativo (1), que por sí solo podrá resolver la instrucción, o bien es un proceso del usuario que requerirá una llamada al sistema para resolver ciertas instrucciones (0).
+
+## **Ejecución del sistema operativo**
+Dado que el sistema operativo es un conjunto de programas y es ejecutado por el procesador como cualquier otro programa, ¿Es el SO un proceso? ¿Quién y cómo lo controla?
+
+La ejecución del SO puede darse por procesos que se encuentran dentro de:
+
+1. *Núcleo (fuera de todo proceso de usuario).* Ejecuta el kernel del SO fuera de cualquier proceso. El SO tiene su propia región de memoria para utilizar, así como su propia pila del sistema para controlar llamados a procedimientos y retornos de los mismos. A su vez, el mismo se encarga de completar la función de guardar el entorno del procesador y proceder a cambiar a otro proceso. Es por ello que el concepto de proceso sólo se utiliza para programas de usuario. El código del SO se ejecuta como una entidad separada que opera en modo privilegiado.
+2. *Ejecución dentro de los procesos de usuario.* Software del SO en el contexto de un proceso de usuario. Un proceso se ejecuta en modo privilegiado SÓLO cuando se ejecuta el código del SO. Cuando se produce una interrupción en el programa de usuario, el procesador realiza un Mode Switch al modo kernel y le pasa el control al SO, pero sin realizar un Process Switch.

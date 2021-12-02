@@ -3,7 +3,7 @@ Un **sistema de archivos** es un elemento que controla cómo se almacenan y recu
 ## Archivo
 Es la unidad de representación de la información en un sistema de computación. Es el medio para concretar la persistencia de la información (permite el guardado y recuperación de la información no volátil).
 
-Cada archivo es tratado como una entidad única y es identificado por un nombre o File-ID unívoco.
+Cada [[archivo]] es tratado como una entidad única y es identificado por un nombre o File-ID unívoco.
 
 Toda información almacenada tiene forma de archivo. Es un conjunto de bits o bien un conjunto de registros homogéneos (compuestos por campos).
 
@@ -21,7 +21,7 @@ El sistema de gestión de archivos asume a los dispositivos como un conjunto de 
 
 #### Funciones de un sistema de gestión de archivos
 1. *Identificar y ubicar un archivo en cuestión.* Para ello, utiliza un directorio que describe la ubicación de todos los archivos y sus atributos.
-1. *Aplicar el control de acceso a los usuarios (Protección).* Gestionar los privilegios de usuario sobre un archivo.
+1. *Aplicar el control de acceso a los usuarios ([[Protección]]).* Gestionar los privilegios de usuario sobre un archivo.
 1. ` `*Asignar los archivos a los bloques disponibles.* Decide físicamente dónde se van a ubicar los archivos dentro del dispositivo de almacenamiento.
 1. *Gestionar el espacio libre, de manera que se conozca qué bloques están disponibles.*
 
@@ -39,7 +39,7 @@ Cuando hablamos de “*el File System de mi PC…”* nos estamos refiriendo al 
 
 
 
-Dos sistemas de computación con el mismo SO tienen iguales FS en sentido amplio, pero diferentes en sentido estricto, dado que la información propiamente dicha que manejan es diferente, pero en ambos casos respetan las mismas convenciones de diseño al tener el mismo sistema operativo.
+Dos [[sistemas de computación]] con el mismo SO tienen iguales FS en sentido amplio, pero diferentes en sentido estricto, dado que la información propiamente dicha que manejan es diferente, pero en ambos casos respetan las mismas convenciones de diseño al tener el mismo sistema operativo.
 
 
 #### Convenciones de diseño
@@ -213,7 +213,7 @@ El usuario puede:
 - *Bloquear el archivo entero cuando lo vaya a actualizar*. Dos procesos no pueden trabajar en simultáneo sobre un mismo archivo.
 - *Bloquear el archivo a nivel registros.* Permite que dos o más procesos trabajen sobre un mismo archivo, siempre que no sea sobre los mismos registros.
 
-Al diseñar la posibilidad de accesos compartidos, deben abordarse aspectos de la exclusión mutua e interbloqueo entre procesos (deadlock).
+Al diseñar la posibilidad de accesos compartidos, deben abordarse aspectos de la [[exclusión mutua]] e interbloqueo entre procesos ([[deadlock]]).
 
 #### Record blocking
 En la mayoría de los sistemas los bloques son de longitud fija para simplificar operaciones de E/S, la organización de los mismos y demás. Por otro lado, los registros que se encuentran dentro de cada bloque pueden organizarse de distinta manera:
@@ -276,7 +276,7 @@ Permite el crecimiento dinámico de un archivo.
 
 ##### *Indexada*
 - Dos tipos de bloques:
-  - *Bloques de índices*. Solo contienen punteros, información burocrática.
+  - *Bloques de [[índice|índices]]*. Solo contienen punteros, información burocrática.
   - *Bloques de datos.* Contienen la información propiamente dicha del archivo. Bloques similares a los de la asignación contigua.
 - La tabla de asignación de archivos contiene un puntero al primer bloque de índices del archivo.
 - Los bloques de índices contienen N punteros ordenados a bloques de datos del archivo.
@@ -316,103 +316,12 @@ Es el conjunto de bloques disponibles contiguos. Para la selección del espacio 
 - *Best Fit.* Mejor hueco, menos fragmentación externa, ideal para archivos inmutables. Se complica para archivos que poseen grandes posibilidades de crecimiento.
 - *Worst Fit.* Peor hueco, más fragmentación externa y chances de crecimiento para los archivos sin necesidad de realojarlos. Ideal para archivos de datos que poseen alta chance de crecer.
 
-## **UNIX**
-#### Tipos de archivos
-*Regular u ordinario.* Contiene datos arbitrarios en cero o más bloques de datos. Contienen información introducida por un usuario, una aplicación de usuario o de utilidad del sistema.
+## UNIX (EXT)
+![[EXT]]
 
-*Directorio.* Contiene una lista de nombres y punteros a inodos asociados. Poseen una organización jerárquica. Cada directorio puede contener otro directorio y archivos. Los directorios son archivos tratados de una manera especial y que poseen privilegios de protección de escritura, donde solo el FS puede escribir en él, pero los accesos de lectura están permitidos para los programas de usuario. Este archivo solo contiene una lista de punteros a inodos y nombres de archivos. Esto nos indica que un mismo inodo puede contener uno o más nombres, dependiendo del directorio en el que se encuentra.
+## Windows (NTFS)
+![[NTFS]]
 
-*Especiales.* No contienen datos, pero proveen un mecanismo para mapear dispositivos físicos a nombres de archivos. Estos nombres de archivo son usados para acceder a dispositivos periféricos, tales como terminales e impresoras. Cada dispositivo de E/S está asociado a un archivo especial.
-
-*Named pipes.* Archivos que funcionan como búfer de datos de entrada para que un proceso pueda leer dichos datos desde la salida del “canal”.
-
-*Links.* Nombre de archivo alternativo para un archivo ya existente.
-
-*Links simbólicos.* Archivo de datos que contiene el nombre del archivo al cual está linkeado.
-
-
-
-#### Inodos
-Un inodo es una estructura de control que contienen información clave requerida por el sistema operativo para un archivo particular. Unix almacena los nombres de los archivos fuera de estos inodos, de forma que varios nombres pueden referenciar al mismo inodo, pero un archivo está asociado a un solo inodo.
-##### *Principales atributos:*
-- Tipo y modo de acceso del archivo.
-- Dueño del archivo e identificador de grupo de acceso.
-- Timestamp de creación y última modificación.
-- Tamaño en bytes
-- Secuencia de punteros a bloques
-- Número de bloques físicos utilizados por el archivo, incluyendo bloques indirectos.
-- Número de entradas de directorio que referencian al archivo.
-- Flags que describen características del archivo.
-
-
-
-#### Asignación de archivos
-- Utiliza una variación de la asignación vinculada que evita el acceso secuencial a la cadena de bloques de índices.
-  - *Bloques de índices de 1er nivel* (contienen punteros directos a bloques de datos)
-  - *Bloques de índices de 2do nivel* (contienen punteros a bloques de índices que, a su vez, contienen punteros directos a bloques de datos).
-  - *Bloques de índices de 3er nivel….*
-  - *Bloques de datos (información propiamente dicha).*
-- Los bloques de índices de 2do y 3er nivel disminuyen exponencialmente el tiempo de acceso a un bloque de datos, al no tener que recorrer secuencialmente como en la indexada pura (que puede ser una cadena muy larga en archivos grandes).
-- No hay fragmentación externa.
-- El acceso es pseudo-directo, pero mucho más rápido: secuencial a los bloques de índices (a lo sumo 3 accesos a bloques de índices y uno a bloques de datos).
-- La tabla de asignación de archivos contiene una estructura de acceso para cada archivo denominada i-nodo que contiene 13 punteros:
-  - *10 punteros a bloques de datos.* Cada puntero señala a un bloque de datos puros y garantiza que el acceso a los primeros bloques de datos del archivo sea directo. Si un archivo tuviera un solo registro, sería un desperdicio indexar ese único registro.
-  - *1 puntero a bloque de índices de 1er nivel.*
-  - *1 puntero a bloque de índices de 2er nivel.*
-  - *1 puntero a bloque de índices de 3er nivel.*
-
-#### Estructura del volumen
-*Bloque de booteo.* Contiene código requerido para iniciar el sistema operativo.
-
-*Super bloque.* Contiene atributos e información acerca del file system, como el tamaño de partición y el tamaño de la tabla de inodos.
-
-*Tabla de inodos de cada archivo.*
-
-*Bloques de datos.*
-
-
-## **Windows File System - NTFS**
-New Technology File System está diseñado para cumplir con los requisitos de gama alta para estaciones de trabajo y servidores, tales como aplicaciones de cliente/servidor, servidores de bases de datos, etc.
-#### Características clave
-- ##### *Recuperabilidad.* Posee una gran capacidad para recuperarse de crasheos del sistema y fallos en el disco. Cuando suceden estos eventos, NTFS es capaz de reconstruir volúmenes de disco y devolverlos a un estado consistente. Esto lo realiza usando un modelo de proceso-transacción para cambios en el FS. Cada cambio significativo es tratado como una acción atómica que se realiza en su totalidad o no se realiza en absoluto. Cada transacción que se encontraba en un proceso a la hora del error, es posteriormente retirada o llevada a cabo. Además, mantiene una copia del sistema de archivo a modo de back up.
-
-- ##### *Seguridad.* NTFS utiliza el modelo de objetos de Windows para reforzar la seguridad. Un archivo abierto es implementado como un objeto archivo con un descriptor de seguridad que define sus atributos de seguridad. Este descriptor es almacenado como un atributo de cada archivo en disco.
-##### 
-- ##### *Tamaños máximos soportados.* NTFS soporta tamaños muy grandes de discos de almacenamiento de una manera más eficiente que otros FS tales como FAT.
-
-- ##### *Múltiples flujos de datos. NTFS* trata los contenidos de un archivo como flujos de bytes (No estructurados). De esta forma, es posible definir múltiples flujos de datos para un mismo archivo.
-
-- ##### *Información mantenida.* NTFS almacena un log de todos los datos realizados sobre un archivo en los volúmenes. Los programas pueden leer esta información para identificar cuáles archivos han sido modificados.
-
-- ##### *Compresión y encriptado.* Los directorios y archivos pueden ser comprimidos de una forma transparente o encriptados en su totalidad.
-
-- ##### *Hard and symbolic links. NTFS* soporta hard links, que permite que un archivo sea accesible desde múltiples rutas en el mismo volumen. Además, soporta links simbólicos, lo que permite además acceder a archivos o directorios que se encuentran en otro volumen. Además, Windows soporta puntos de montaje, lo cual permite que un mismo volumen fijo sea dividido en múltiples volúmenes virtuales tratados de manera independiente.
-
-#### Volumen y estructura de archivos
-NTFS utiliza los siguientes conceptos de almacenamiento en un disco:
-- ##### *Sector.* Unidad física mínima de almacenamiento en un disco. 
-- ##### *Clúster.* Uno o más sectores contiguos entre sí en un disco. Es la unidad fundamental de almacenamiento en NTFS, dado que éste no reconoce sectores para la lectura y escritura de datos. Al definir un clúster como una cantidad fija de sectores, el sistema de archivos se independiza del tamaño de sector de la unidad física de almacenamiento.
-- ##### *Volumen.* Partición lógica en un disco, que consiste en uno o más clústeres y es usada por el FS para alojar espacio. El volumen consiste en información del FS, una colección de archivos y espacio libre para almacenar archivos nuevos. Un volumen puede ser una partición de un solo disco o extenderse en múltiples discos.
-
-#### Estructura de un volumen NTFS
-Cada elemento en un volumen es un archivo, y cada archivo consiste en una colección de atributos. Incluso los datos de un archivo son tratados como un atributo del mismo.
-
-##### *Boot sector*
-Se encuentra en las regiones iniciales del volumen. Contiene información acerca del diseño del volumen y la estructura del FS y el código e información necesaria para el inicio del sistema.
-
-##### *Master file table (MFT)*
-Contiene información acerca de todos los archivos y directorios. Consiste en una lista de todos los archivos y sus atributos.
-
-##### *System files*
-###### MFT2. Copia de las primeras filas de la tabla de archivos, usada para garantizar acceso al volumen en caso de que se corrompa el sector donde se almacena la MFT.
-###### Log file. Lista de pasos de transacciones usadas por NTFS para restauraciones.
-###### Cluster bit map. Representación del espacio en el volumen, que indica cuáles clústers de datos están en uso y cuáles no.
-###### Tabla de definición de atributos. Define los tipos de atributos soportados en volumen e indica si pueden ser indexados y si pueden ser recuperados en una operación de recuperación del sistema.
-
-## **MS – DOS**
-Es un sistema de archivo basado en una tabla de asignación de archivos (FAT). El propósito de dicha tabla es realizar un seguimiento para saber dónde encontrar archivos en el disco.
-
-El directorio raíz es “drive:\”. El separador de directorios es usualmente “\”, pero el sistema operativo también reconoce internamente una “/”. Las unidades físicas y virtuales son nombradas con una letra de dispositivo, en vez de ser fusionados. Esto significa que no hay un directorio raíz formal, sino que hay un directorio raíz independiente en cada unidad. Cada directorio puede contener otros directorios o archivos.
-
-Limita el nombre de los archivos a 8 caracteres y la extensión a 3 caracteres.
+## MS – DOS (FAT)
+![[FAT]]
 

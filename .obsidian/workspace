@@ -7,11 +7,8 @@
         "id": "9af80757492d1e1a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Bases de Datos/NOSQL/NOSQL.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/NOSQL/NOSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/NOSQL/NOSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -108,15 +103,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Bases de Datos/NOSQL/NOSQL.md",
-    "Bases de Datos/NOSQL/CAP Theorem.md",
-    "Sistemas Distribuidos/Replicación/Consistencia eventual.md",
-    "Sistemas Distribuidos/Tolerancia a fallas/Tolerancia a fallas.md",
-    "Organización de Datos/XML.md",
-    "Organización de Datos/HTML.md",
-    "Organización de Datos/Resumen completo.md",
-    "Análisis y Diseño/Patrones/Arquitectónicos/Layers.md",
-    "Organización de Datos/JSON.md",
-    "Bases de Datos/Sistema de Base de Datos.md"
+    "Sistemas Operativos/Uso del procesador.md",
+    "Sistemas Operativos/Virtualización.md",
+    "Sistemas Operativos/Gestión de la memoria principal.md",
+    "Sistemas Operativos/Sistemas Operativos.md",
+    "Sistemas Operativos/Sistemas de Computación.md",
+    "Sistemas Operativos/Sistemas de archivos/Sistemas de archivos.md",
+    "Sistemas Operativos/Seguridad.md",
+    "Sistemas Operativos/Schedulers.md",
+    "Sistemas Operativos/RAID.md",
+    "Sistemas Operativos/Protección.md"
   ]
 }
