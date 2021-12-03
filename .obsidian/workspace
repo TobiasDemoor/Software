@@ -7,11 +7,8 @@
         "id": "9af80757492d1e1a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Bases de Datos/NOSQL/NOSQL.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/NOSQL/NOSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,13 +89,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/NOSQL/NOSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,15 +104,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Bases de Datos/NOSQL/NOSQL.md",
-    "Sistemas Operativos/Uso del procesador.md",
-    "Sistemas Operativos/Virtualización.md",
-    "Sistemas Operativos/Gestión de la memoria principal.md",
-    "Sistemas Operativos/Sistemas Operativos.md",
-    "Sistemas Operativos/Sistemas de Computación.md",
-    "Sistemas Operativos/Sistemas de archivos/Sistemas de archivos.md",
-    "Sistemas Operativos/Seguridad.md",
-    "Sistemas Operativos/Schedulers.md",
-    "Sistemas Operativos/RAID.md"
+    "Sistemas Distribuidos/Almacenamiento distribuido/NFS.md",
+    "Organización de Datos/XML.md",
+    "Sistemas Operativos/Sistemas de archivos/VFS.md",
+    "Organización de Datos/Registro.md",
+    "Organización de Datos/Organización de Datos.md",
+    "Organización de Datos/Organización de archivos.md",
+    "Organización de Datos/Motores de búsqueda.md",
+    "Organización de Datos/Árboles/Árbol binario de búsqueda.md",
+    "Organización de Datos/índice.md",
+    "Organización de Datos/JSON.md"
   ]
 }

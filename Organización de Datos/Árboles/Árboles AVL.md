@@ -1,0 +1,3 @@
+Un árbol AVL es un [[árbol binario de búsqueda]] (ABB) que tiene como característica que siempre está balanceado. Cuando se realiza una inserción o una eliminación, se comprueba si el árbol está desequilibrado y se realiza el balanceo. Todo árbol AVL tiene altura logarítmica (el árbol AVL con mayor desequilibro es el llamado árbol Fibonacci).
+
+Un árbol binario es un AVL si y sólo si cada uno de sus nodos tiene un factor de equilibrio (altura del subárbol derecho menos altura del subárbol izquierdo) de -1, 0 o 1.

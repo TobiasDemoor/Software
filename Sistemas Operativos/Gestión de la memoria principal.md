@@ -170,7 +170,7 @@ Para solucionar este problema, se utiliza un buffer de traducción anticipada *(
 Tomando una dirección lógica en la que los primeros n bits son el número de página y los m restantes son el desplazamiento: 
 
 1. Primero se extrae el número de página como los n bits más significativos de la dirección lógica. 
-1. Se usa el número de página como un índice en la tabla de páginas del proceso para encontrar el número de frame, k.
+1. Se usa el número de página como un [[índice]] en la tabla de páginas del proceso para encontrar el número de frame, k.
 1. La dirección física de comienzo del frame es k \* tamaño de página, y la dirección física del byte referenciado es ese número más el desplazamiento.
 
 

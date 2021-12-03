@@ -1,4 +1,5 @@
 New Technology File System está diseñado para cumplir con los requisitos de gama alta para estaciones de trabajo y servidores, tales como aplicaciones de cliente/servidor, servidores de bases de datos, etc.
+
 #### Características clave
 - *Recuperabilidad.* Posee una gran capacidad para recuperarse de crasheos del sistema y fallos en el disco. Cuando suceden estos eventos, NTFS es capaz de reconstruir volúmenes de disco y devolverlos a un estado consistente. Esto lo realiza usando un modelo de proceso-transacción para cambios en el FS. Cada cambio significativo es tratado como una acción atómica que se realiza en su totalidad o no se realiza en absoluto. Cada transacción que se encontraba en un proceso a la hora del error, es posteriormente retirada o llevada a cabo. Además, mantiene una copia del sistema de archivo a modo de back up.
 
@@ -28,8 +29,14 @@ Se encuentra en las regiones iniciales del volumen. Contiene información acerca
 ##### *Master file table (MFT)*
 Contiene información acerca de todos los archivos y directorios. Consiste en una lista de todos los archivos y sus atributos.
 
+- Habrá una file o record (entrada en la tabla) por cada archivo que exista en el sistema de archivos.
+- Ahora bien, el concepto de archivo es bastante amplio: toda entidad almacenada individualmente es un archivo. La propia MFT es considerada un archivo y tiene su propia entrada en la MFT.
+- Las primeras 16 entradas de la MFT están reservadas para almacenar archivos del sistema, es decir, información sobre el propio sistema de archivos. El resto de entradas se corresponden con los archivos y carpetas de datos.
+
 ##### *System files*
 - **MFT2.** Copia de las primeras filas de la tabla de archivos, usada para garantizar acceso al volumen en caso de que se corrompa el sector donde se almacena la MFT.
 - **Log file.** Lista de pasos de transacciones usadas por NTFS para restauraciones.
 - **Cluster bit map.** Representación del espacio en el volumen, que indica cuáles clústers de datos están en uso y cuáles no.
 - **Tabla de definición de atributos.** Define los tipos de atributos soportados en volumen e indica si pueden ser indexados y si pueden ser recuperados en una operación de recuperación del sistema.
+
+
