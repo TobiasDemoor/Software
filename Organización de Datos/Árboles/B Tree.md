@@ -4,7 +4,7 @@ aliases: [árboles B, árbol B]
 Los sistemas de almacenamiento masivo suelen tener un tiempo de acceso mucho mayor que el tiempo de transferencia: la localización de un elemento es mucho más costosa que la lectura secuencial de datos, una vez localizados. Esto supone un problema para estructuras enlazadas, como los [[árboles AVL]], donde las operaciones acceden a bastantes nodos de pequeño tamaño. Para grandes volúmenes se datos, sería conveniente reducir el número de accesos, a cambio de que esos accesos contuvieran elementos de mayor tamaño.
 
 > **Árboles (a, b)**
-> Los árboles (a, b) son árboles generales donde cada nodo interno puede tener un número de hijos *m+1* en el rango \[a, b]. Cada nodo almacena *m* claves (elementos comparables por ≤), ordenadas de menor a mayor que sirven para que se pueda usar como árbol de búsqueda.
+> Los árboles (a, b) son [[árboles]] generales donde cada nodo interno puede tener un número de hijos *m+1* en el rango \[a, b]. Cada nodo almacena *m* claves (elementos comparables por ≤), ordenadas de menor a mayor que sirven para que se pueda usar como árbol de búsqueda.
 
 Un árbol B de orden d es un árbol (d+1, 2d+1) con las propiedades adicionales siguientes:
 
