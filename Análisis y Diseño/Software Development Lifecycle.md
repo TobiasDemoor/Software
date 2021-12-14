@@ -33,19 +33,16 @@ La fase de diseño también incluye el diseño de bases de datos que almacenará
 Por último, el analista debe diseñar controles y procedimientos de respaldo para proteger el sistema y los datos, y para producir paquetes de especificación de programas para los programadores. Cada paquete debe contener los diseños de las entradas y las salidas, las especificaciones de los archivos y los detalles sobre el procesamiento; también puede incluir árboles o tablas de decisión, UML o diagramas de flujo de datos, junto con los nombres y las funciones de cualquier código previamente escrito dentro de la empresa o que utilice código u otras bibliotecas de clases.
 
 ### Desarrollo y documentación del software
-
 En la quinta fase del SDLC, el analista trabaja con los programadores para desarrollar el software original requerido. Durante ella, el analista desarrolla junto con los usuarios una documentación efectiva para el software, incluyendo manuales de procedimientos, ayuda en línea, sitios Web con preguntas frecuentes (FAQ) y archivos Read Me para incluir con el nuevo software. Como los usuarios están involucrados desde el principio, la fase de documentación debe lidiar con las preguntas que hicieron y resolvieron junto con el analista. La documentación indica a los usuarios cómo deben usar el software y qué deben hacer en caso de que ocurran problemas.
 
 Los programadores desempeñan un rol clave en esta fase, ya que diseñan, codifican y eliminan los errores sintácticos de los programas de computadora. Para asegurar la calidad, un programador puede llevar a cabo un recorrido por el diseño o por el código para explicar las porciones complejas del programa a un equipo formado por otros programadores.
 
 ### Prueba y mantenimiento del sistema
-
 Antes de utilizar el sistema de información, se debe probar. Es mucho menos costoso detectar los problemas antes de entregar el sistema a los usuarios. Una parte del procedimiento de prueba es llevado a cabo por los programadores solos; la otra la realizan junto con los analistas de sistemas. Primero se completa una serie de pruebas para señalar los problemas con datos de muestra y después se utilizan datos reales del sistema actual. A menudo, los planes de prueba se crean en las primeras etapas del SDLC y se refinan a medida que el proyecto progresa.
 
 El mantenimiento del sistema y la documentación de este mantenimiento empieza en esta fase y se lleva a cabo de manera rutinaria durante toda la vida del sistema de información. Gran parte del trabajo rutinario del programador consiste en el mantenimiento, por lo cual las empresas invierten una gran cantidad de dinero en este proceso. Ciertos procedimientos de mantenimiento, como las actualizaciones de los programas, se pueden llevar a cabo a través del sitio Web del distribuidor. Muchos de los procedimientos sistemáticos que emplea el analista durante el SDLC pueden ayudar a asegurar que el mantenimiento siempre se mantenga en el nivel mínimo necesario.
 
 ### Implementación y evaluación del sistema
-
 En esta última fase del desarrollo de sistemas, el analista ayuda a implementar el sistema de información. En esta fase hay que capacitar a los usuarios para operar el sistema. Los distribuidores se encargan de una parte de la capacitación, pero la supervisión de la capacitación es responsabilidad del analista de sistemas. Además, el analista necesita planear una conversión sin problemas del sistema antiguo al nuevo. Este proceso incluye convertir los archivos de los formatos anteriores a los nuevos, o crear una [[Bases de Datos|base de datos]], instalar equipo y llevar el nuevo sistema a producción.
 
 La evaluación se incluye como parte de esta fase final del SDLC principalmente por cuestiones informativas. En realidad, la evaluación se realiza durante cada fase. El criterio clave que debemos satisfacer es si los usuarios previstos están utilizando el sistema.

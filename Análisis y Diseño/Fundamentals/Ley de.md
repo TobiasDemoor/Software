@@ -1,0 +1,1 @@
+“Organizations which design systems \[...] are constrained to produce designs which are copies of the communication structures of these organizations”, en criollo, las organizaciones que diseñan sistemas tienden a replicar sus estructuras en estos sistemas

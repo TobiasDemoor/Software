@@ -1,0 +1,3 @@
+En el número de abril de 1968 de la revista *Datamation*, Melvin Conway observó que si se asignan n personas para escribir un compilador, se obtendrá un compilador de n pasos o, en forma más general, **la estructura del software reflejará la estructura del grupo que la produjo**.
+
+> “Organizations which design systems \[...] are constrained to produce designs which are copies of the communication structures of these organizations”

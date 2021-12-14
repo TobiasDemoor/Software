@@ -1,4 +1,3 @@
-# Software Architecture
 Es el conjunto de estructuras necesarias para razonar sobre el sistema, que comprende los elementos de software, las relaciones entre ellos y las propiedades de ambos. Es la parte *"gruesa"* del [[Diseño de sistemas|diseño]], con menor nivel de detalle pero definiendo la estructura general. La documentación de la arquitectura es prescriptiva y debe ser validada contra lo que se implementó.
 
 La arquitectura actúa como "puente" entre los [[Requerimientos]] del sistema y su implementación. Es la que habilita la ejecución del [[Modelo de negocio|modelo de negocio]] para crear el mayor valor al cliente, minimizando costos y maximizando ingresos. No debe ignorar la complejidad de las relaciones entre los 4 componentes ([[Dominio|dominio]], [[Modelo de negocio|modelo de negocio]], [[Estructura organizacional|estructura organizacional]] y arquitectura de software en sí).
@@ -10,7 +9,7 @@ Una definición es:
 **Architectural design** is the resolution of these forces and requirements in the design of the software, the hardware and networking, operations, policies, and so forth.
 In the [[Unified Process|UP]], architectural investigation and design are together called **[[Architecture analysis|architectural analysis]]**.
 
-# Actividades
+## Actividades
 - Crear el negocio del sistema.
 - Comprender [[Requerimientos|requerimientos]]. En particular los [[Requerimientos no funcionales#Atributos de Calidad|QA]].
 - Crear o seleccionar la arquitectura.
@@ -18,7 +17,7 @@ In the [[Unified Process|UP]], architectural investigation and design are togeth
 - Analizar o evaluar la arquitectura.
 - Asegurar la construcción del sistema sobre esa arquitectura.
 
-# Beneficios
+## Beneficios
 - Comunicación con los stakeholders.
 - Análisis del sistema de manera temprana.
 - Reutilización a gran escala y [[Patrones|patrones]].
@@ -34,7 +33,7 @@ In the [[Unified Process|UP]], architectural investigation and design are togeth
 - Es un registro que se lleva desde el inicio del proyecto sobre las decisiones de diseño tomadas respecto del producto.
 - Es una [[Abstracción|abstracción]] representada en un modelo reusable y transferible de un sistema, utilizado además como una prescripción para la implementación.
 
-# Architectural Business Cycle (ABC)
+## Architectural Business Cycle (ABC)
 Es el ciclo en el cual la arquitectura del sistema se define como consecuencia de una serie de influencias provenientes del [[#Contexto técnico|contexto técnico]], el [[#Contexto de negocios|contexto de negocios]], el [[#Contexto del proyecto|contexto del proyecto]] y el [[#Contexto profesional|contexto profesional]]. A su vez, la existencia de esta arquitectura afecta a dichos contextos, que posteriormente influirán en arquitecturas futuras y así sucesivamente. El ciclo puede describirse a partir de los siguientes tópicos:
 
 ## Contexto técnico
@@ -49,7 +48,7 @@ El equipo de desarrollo debe crear un caso de negocios para el sistema, entender
 ## Contexto profesional
 Tanto el diseño como la implementación de la arquitectura requieren habilidades y conocimientos que influirán en el resultado. A su vez, cada sistema y entorno tiene sus particularidades que requerirán que tanto el arquitecto como el equipo de desarrollo amplíen su conocimiento y habilidades a medida que van ganando experiencia.
 
-# Dcoumentación de la Arquitectura de Software
+## Dcoumentación de la Arquitectura de Software
 Documentar una arquitectura de software es una cuestión de documentar las vistas relevantes y luego agregar información que se aplica a más de una vista.
 Se produce el SAD ([[Software Architecture Document]]):
 - Sirve principalmente para la educación, comunicación y análisis de la arquitectura.

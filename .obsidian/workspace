@@ -7,8 +7,11 @@
         "id": "9af80757492d1e1a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Redes de Computadoras/IEEE 802/Bluetooth.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "schema",
+                "query": "conway",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Redes de Computadoras/IEEE 802/Bluetooth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Redes de Computadoras/IEEE 802/Bluetooth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -104,15 +109,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Organización de Datos/Árboles/Árboles.md",
-    "Organización de Datos/Árboles/Árboles binarios.md",
-    "Organización de Datos/Compresión.md",
-    "Organización de Datos/Árboles/B Tree.md",
-    "Organización de Datos/Motores de búsqueda.md",
-    "Sistemas Distribuidos/Almacenamiento distribuido/NFS.md",
-    "Organización de Datos/XML.md",
-    "Sistemas Operativos/Sistemas de archivos/VFS.md",
-    "Organización de Datos/Registro.md",
-    "Organización de Datos/Organización de Datos.md"
+    "Redes de Computadoras/IEEE 802/Bluetooth.md",
+    "Análisis y Diseño/Diseño de objetos.md",
+    "Análisis y Diseño/Tácticas para disponibilidad.md",
+    "Análisis y Diseño/Software Development Lifecycle.md",
+    "Análisis y Diseño/Software Architecture.md",
+    "Análisis y Diseño/Fundamentals/Estructura organizacional.md",
+    "Análisis y Diseño/Fundamentals/Ley de Conway.md",
+    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/TDM.md",
+    "Redes de Computadoras/IEEE 802/802.11/WiFi.md",
+    "Organización de Datos/Árboles/Árboles.md"
   ]
 }
