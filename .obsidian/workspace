@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de Computadoras/IEEE 802/Bluetooth.md",
+            "file": "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de Computadoras/IEEE 802/Bluetooth.md",
+                "file": "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de Computadoras/IEEE 802/Bluetooth.md",
+                "file": "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,15 +110,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Redes de Computadoras/IEEE 802/Bluetooth.md",
     "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
+    "Análisis y Diseño/Patrones/GoF/Abstract Factory.md",
+    "Bases de Datos/Lenguajes/SQL.md",
+    "Redes de Computadoras/IEEE 802/Bluetooth.md",
     "Análisis y Diseño/Patrones/GoF/Strategy.md",
     "Análisis y Diseño/Diseño de objetos.md",
     "Análisis y Diseño/Tácticas para disponibilidad.md",
     "Análisis y Diseño/Software Development Lifecycle.md",
     "Análisis y Diseño/Software Architecture.md",
-    "Análisis y Diseño/Fundamentals/Estructura organizacional.md",
-    "Análisis y Diseño/Fundamentals/Ley de Conway.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/TDM.md"
+    "Análisis y Diseño/Fundamentals/Estructura organizacional.md"
   ]
 }
