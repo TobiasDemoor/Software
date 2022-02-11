@@ -9,7 +9,7 @@
 # Patrones de diseño
 | Scope      | Creational             | Structural             | Behavioral                |
 | ---------- | ---------------------- | ---------------------- | ------------------------- |
-| **Class**  | - [[Factory]]          | - [[Adapter]] (class)  | - Interpreter             | 
+| **Class**  | - [[Factory]]          | - [[Adapter]] (class)  | - Interpreter             |
 |            |                        |                        | - [[Template Method]]     |
 | **Object** | - [[Abstract Factory]] | - [[Adapter]] (object) | - Chain of Responsibility |
 |            | - Builder              | - Bridge               | - [[Command]]             |
