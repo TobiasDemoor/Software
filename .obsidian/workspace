@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "modelo 802",
+                "query": "rfid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
