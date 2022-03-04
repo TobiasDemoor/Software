@@ -7,8 +7,12 @@
         "id": "9af80757492d1e1a",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Seguridad Informática/Daily/20220304.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Seguridad Informática/Daily/20220304.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Seguridad Informática/Daily/20220304.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -104,6 +110,8 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Seguridad Informática/Daily/20220304.md",
+    "Seguridad Informática/D.md",
     "Redes de Computadoras/IEEE 802/Bluetooth.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Protocolos elementales de enlace de datos.md",
     "Redes de Computadoras/IEEE 802/802.3/Ethernet.md",
@@ -111,8 +119,6 @@
     "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/TDM.md",
     "Redes de Computadoras/Redes de computadoras.md",
     "Redes de Computadoras/IEEE 802/802.11/WiFi.md",
-    "Redes de Computadoras/Modelo OSI/Modelo OSI.md",
-    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
-    "Análisis y Diseño/Patrones/GoF/Abstract Factory.md"
+    "Redes de Computadoras/Modelo OSI/Modelo OSI.md"
   ]
 }
