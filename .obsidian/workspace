@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Daily/20220304.md",
+            "file": "Taller de Prog II/Daily/20220311.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Daily/20220304.md",
+                "file": "Taller de Prog II/Daily/20220311.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Daily/20220304.md",
+                "file": "Taller de Prog II/Daily/20220311.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Seguridad Informática/Daily/20220304.md",
+    "Taller de Prog II/Daily/20220311.md",
+    "Software Libre/Daily/20220314.md",
+    "Seguridad Informática/Daily/20220310.md",
     "Seguridad Informática/D.md",
     "Redes de Computadoras/IEEE 802/Bluetooth.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Protocolos elementales de enlace de datos.md",
     "Redes de Computadoras/IEEE 802/802.3/Ethernet.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/FDM.md",
     "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/TDM.md",
-    "Redes de Computadoras/Redes de computadoras.md",
-    "Redes de Computadoras/IEEE 802/802.11/WiFi.md",
-    "Redes de Computadoras/Modelo OSI/Modelo OSI.md"
+    "Redes de Computadoras/Redes de computadoras.md"
   ]
 }
