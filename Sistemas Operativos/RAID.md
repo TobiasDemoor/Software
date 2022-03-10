@@ -1,6 +1,6 @@
 La tecnología **RAID (Redundant Array of Independent Disks o Redundant Array of Inexpensive Disks)** permite simular un dispositivo de almacenamiento lógico utilizando en paralelo varios físicos.
 
-Tiene como objetivos mejorar el [[Performance|rendimiento]] del almacenamiento, aumentando el **paralelismo de operaciones** y por consecuente mejorando la **tasa de transferencia**. Y además mejorar la **[[seguridad]]** aumentando la tolerancia a fallos mediante el uso de redundancia.
+Tiene como objetivos mejorar el [[Performance|rendimiento]] del almacenamiento, aumentando el **paralelismo de operaciones** y por consecuente mejorando la **tasa de transferencia**. Y además mejorar la **[[Seguridad]]** aumentando la tolerancia a fallos mediante el uso de redundancia.
 
 ## Distribución de los datos
 ### Direccionamiento independiente

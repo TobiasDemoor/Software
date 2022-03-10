@@ -66,7 +66,7 @@ El conjunto de programas del sistema operativo encargados de proveer la visión 
 
 #### Funciones de un sistema operativo
 - Identificación y ubicación de archivos (Directorio Estructura Jerárquica o catalogo)
-- Brindar [[seguridad]] (Usuarios y Grupos; permiso de acceso a los datos)
+- Brindar [[Seguridad]] (Usuarios y Grupos; permiso de acceso a los datos)
 - Asignación de espacio en dispositivos de almacenamiento (Administra lo que ocupa cada archivo, y las Unidades de asignación libre)
 - Coordinación de transferencia (Atender y resolver las solicitudes simultaneas; Priorizar lectura/escritura de registros)
 - Administrar la comunicación entre la CPU y los dispositivos de almacenamiento (Administrar el acceso concurrente de procesos a un mismo registro físico)

@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Daily/20220311.md",
-            "mode": "source"
+            "file": "Seguridad Informática/Seguridad.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -39,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rfid",
+                "query": "seguridad",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Daily/20220311.md",
+                "file": "Seguridad Informática/Seguridad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Daily/20220311.md",
+                "file": "Seguridad Informática/Seguridad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +110,8 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
+    "Seguridad Informática/Seguridad.md",
+    "Organización de Datos/Organización de Datos.md",
     "Taller de Prog II/Daily/20220311.md",
     "Software Libre/Daily/20220314.md",
     "Seguridad Informática/Daily/20220310.md",
@@ -116,8 +119,6 @@
     "Redes de Computadoras/IEEE 802/Bluetooth.md",
     "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Protocolos elementales de enlace de datos.md",
     "Redes de Computadoras/IEEE 802/802.3/Ethernet.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/FDM.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/TDM.md",
-    "Redes de Computadoras/Redes de computadoras.md"
+    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/FDM.md"
   ]
 }
