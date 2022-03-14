@@ -1,3 +1,4 @@
+> La seguridad es una tendecia, algo a buscar.
 - **“Seguridad”** es un concepto muy amplio, que va más allá de la informática. 
 - Es un concepto instalado en la sociedad y está íntimamente relacionado con los riesgos. 
 - **Seguridad es ausencia de riesgos.** Una medida de confiabilidad del Sistema de Computación (SC) relacionada, fundamentalmente a la garantía de la integridad del propio SC y de la capacidad de discriminar el acceso al mismo.
