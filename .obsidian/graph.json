@@ -15,6 +15,48 @@
       }
     },
     {
+      "query": "path:\"Bases de Datos\"",
+      "color": {
+        "a": 1,
+        "rgb": 1874716
+      }
+    },
+    {
+      "query": "path:\"Inteligencia Artificial\"",
+      "color": {
+        "a": 1,
+        "rgb": 1148639
+      }
+    },
+    {
+      "query": "path:\"Organización de Datos\"",
+      "color": {
+        "a": 1,
+        "rgb": 1003527
+      }
+    },
+    {
+      "query": "path:\"Redes de computadoras\"",
+      "color": {
+        "a": 1,
+        "rgb": 3224024
+      }
+    },
+    {
+      "query": "path:\"Seguridad Informática\"",
+      "color": {
+        "a": 1,
+        "rgb": 16737792
+      }
+    },
+    {
+      "query": "path:\"Sistemas Distribuidos\"",
+      "color": {
+        "a": 1,
+        "rgb": 11613168
+      }
+    },
+    {
       "query": "path:\"Sistemas Operativos\"",
       "color": {
         "a": 1,
@@ -26,41 +68,6 @@
       "color": {
         "a": 1,
         "rgb": 13149913
-      }
-    },
-    {
-      "query": "path:\"Bases de Datos\"",
-      "color": {
-        "a": 1,
-        "rgb": 1874716
-      }
-    },
-    {
-      "query": "path:\"Organización de Datos\"",
-      "color": {
-        "a": 1,
-        "rgb": 1003527
-      }
-    },
-    {
-      "query": "path:\"Inteligencia Artificial\"",
-      "color": {
-        "a": 1,
-        "rgb": 1148639
-      }
-    },
-    {
-      "query": "path:\"Sistemas Distribuidos\"",
-      "color": {
-        "a": 1,
-        "rgb": 11613168
-      }
-    },
-    {
-      "query": "path:\"Redes de computadoras\"",
-      "color": {
-        "a": 1,
-        "rgb": 3224024
       }
     }
   ],
@@ -74,6 +81,6 @@
   "repelStrength": 12.9411764705882,
   "linkStrength": 1,
   "linkDistance": 80,
-  "scale": 0.05932617187500099,
+  "scale": 0.042315902689759946,
   "close": true
 }
