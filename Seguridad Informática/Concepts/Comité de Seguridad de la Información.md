@@ -1,0 +1,1 @@
+El **comité de seguridad de la información** es un cuerpo integrado por representantes de todas las áreas sustantivas del Organismo, destinado a garantizar el apoyo manifiesto de las autoridades a las iniciativas de seguridad.

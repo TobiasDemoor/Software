@@ -1,0 +1,1 @@
+El **responsable de seguridad informática** es la persona que cumple la función de supervisar el cumplimiento de la presente Política y de asesorar en materia de [[Seguridad de la Información|seguridad de la información]] a los integrantes del Organismo que así lo requieran.
