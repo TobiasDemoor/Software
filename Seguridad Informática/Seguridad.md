@@ -1,7 +1,51 @@
-> La seguridad es una tendecia, algo a buscar.
-- **“Seguridad”** es un concepto muy amplio, que va más allá de la informática. 
-- Es un concepto instalado en la sociedad y está íntimamente relacionado con los riesgos. 
-- **Seguridad es ausencia de riesgos.** Una medida de confiabilidad del Sistema de Computación (SC) relacionada, fundamentalmente a la garantía de la integridad del propio SC y de la capacidad de discriminar el acceso al mismo.
+---
+aliases: ["seguridad"]
+---
+ La **seguridad** es un concepto muy amplio, que va más allá de la informática, es un concepto instalado en la sociedad y está íntimamente relacionado con los **riesgos**. 
+ 
+La seguridad es una medida de [[Reliability|fiabilidad]] del [[Sistemas de Computación|sistema de computación]] relacionada, fundamentalmente a la garantía de la **[[Integridad|integridad]]** del propio SC y de la capacidad de discriminar el acceso al mismo. Es una característica que implica que un sistema está libre de peligro, daño o riesgo.
+
+> La seguridad es una **tendecia**, algo a buscar.
+
+Fundamentalmente queremos proteger el hardware, el software, los datos y principalmente **la información**.
+
+Hay cuatro tipos de ataques generales, no solo en el contexto de [[Sistema de Información|sistemas de información]] sino también cuando se habla de seguridad en general:
+1. **Interrupción**: consiste en que un objeto del sistema se pierda, quede inutilizable o no disponible. Ejemplos de estos ataques son desde desconectar físicamente un equipo hasta un DOS.
+2. **Interceptación**: acceso no autorizado a un objeto del sistema. Un ejemplo claro de esto es el **snooping** donde un actor malicioso intercepta paquetes mandados a través de una red (por ejemplo si se usa un medio inalámbrico o una conexión cableada no conmutada). Este tipo de ataque **no agrega latencia** por lo tanto es muy difícil de detectar.
+3. **Modificación**: consiste en interceptar y modificar un mensaje. Esto podría ocurrir con un server proxy que recibe y reenvia mensajes, posiblemente modificandolos. Una característica de este tipo de ataque es que **agrega latencia** ya que hay un proceso intermedio en al comunicación, y gracias a esto se puede detectar con relativa facilidad.
+4. **Fabricación**: directamente se fabrica un nuevo objeto.
+
+Nos queremos proteger de 3 agentes:
+1. **Personas**
+	1. Personal (accidentes por error o desconocimiento)
+	2. Ex-empleados
+	3. Curiosos (atacantes no destructivos)
+	4. Crackers (scanners, expoits)
+	5. Terroristas (ataques a DB, WEBS, etc.)
+	6. Intrusos remunerados (pagos por otras empresas)
+2. **Amenazas lógicas**
+	1. Software incorrecto (bugs, etc.)
+	2. Herramientas de seguridad (las mísmas herramientas que permiten detectar intrusos se pueden utilizar para atacar)
+	3. Backdoors
+	4. Bombas lógicas (activadas ante un evento)
+	5. Canales cubiertos
+	6. Virus
+	7. Gusanos (se propagan a través de una red, son los "portadores" de un virus)
+	8. Caballos de troya
+	9. Programas conejo o bacteria
+	10. Técnicas  Salami
+3. **Catastrofes**
+	1. Naturales
+	2. Artificiales
+
+Y para protegernos hay 4 mecanísmos de seguridad generales:
+1. **Prevención**
+2. **Detección**
+3. **Recuperación**
+4. **Análisis forense**
+
+
+## Resumen Polo
 - Cuando decimos que una ciudad es segura o insegura, estamos hablando de una “medida” o “grado” de la ciudad en relación a los riesgos a los que uno se expone viviendo en ella. Riesgo, por ejemplo, de que te maten o te roben en la ciudad. 
 - La seguridad es una medida de confiabilidad del sistema (en general, en sentido amplio).
   - Incluso el sistema “ciudad”, “casa”, “persona” tiene su medida en términos de seguridad. 
@@ -20,10 +64,6 @@ Hay mecanismos de seguridad que actúan a **priori** (alarma, puerta con llave, 
 Hay otros mecanismos que actúan a **posteriori** (seguro contra incendios), tratando de reparar el efecto ocasionado por el incidente.
 
 Con todos ellos llegamos a cierto punto o nivel, **la garantía o “seguridad total” no existe. El riesgo siempre está. Tratamos de minimizarlo.**
-
-## **Seguridad en sistemas de computación**
-### Integridad
-Cuando hablamos de **integridad**, nos referimos a la capacidad del sistema para hacer aquello para lo que está previsto (**funcionalidad**) y que esté disponible para hacerlo (**disponibilidad**).
 
 ### Control de acceso
 Cuando hablamos del **Control de Acceso**, nos referimos a la capacidad de verificar que solamente acceda al sistema quien está autorizado para ello.
@@ -82,6 +122,7 @@ En el **plano de la implementación** se concretan los instrumentos o mecanismos
 
 ## **Autenticación de acceso**
 Para el **Control de Acceso** implementa la identificación y autenticación, que permite definir usuarios (en tiempo de registro de los mismos) e identificarlos y autenticarlos (en tiempo de acceso de los mismos al SC).
+
 ### Registro de usuarios
 - Dar de alta usuarios y contraseñas en la tabla de usuarios (enrolamientos).
 - La contraseña (como mecanismo de autenticación) que el usuario elige a la hora de su registro es encriptada por el sistema para su almacenamiento.
@@ -93,17 +134,9 @@ fk=kregistrada
 
 ### Identificación de usuarios
 Poder saber cuál es el usuario registrado que pretende ingresar al SC.
+
 ### Autenticación
 Poder verificar si realmente el usuario que pretende ingresar al SC es quien dice ser (contraseña).
-
-### Secuencia de acceso
-1. Se solicita el nombre de usuario.
-1. Se solicita la contraseña al usuario.
-1. Se aplica la función de encriptación a la contraseña.
-1. Se autentica.
-   1. Se valida la existencia del usuario en la tabla.
-   1. Se comparan los hashes de las contraseñas.
-1. Se permite el acceso o no. No es conveniente indicar en qué fallo el login (si en usuario o en contraseña)
 
 ### Integridad
 - El SO debe proveer mecanismos para garantizar la integridad del SC (firewalls) y delega a terceros la administración de la seguridad.

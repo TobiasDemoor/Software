@@ -1,0 +1,1 @@
+Cuando hablamos de **integridad**, nos referimos a la capacidad del sistema para hacer aquello para lo que está previsto (**funcionalidad**) y que esté disponible para hacerlo (**[[Reliability|disponibilidad]]**).

@@ -1,0 +1,1 @@
+El **hardware** es el conjunto de elementos físicos o materiales que constituyen una computadora o un sistema informático.

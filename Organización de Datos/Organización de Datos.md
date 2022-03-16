@@ -10,7 +10,7 @@ Representación de una cosa real o ideal o de un evento ocurrido o programado pa
 Unidad lógica de almacenamiento permanente de registros, administrada por un [[Sistemas Operativos|sistema operativo]]. Dentro de un [[archivo]] los registros pueden organizarse en otras unidades lógicas llamadas bloques o páginas.
 ### Clasificación de archivos por función
 - Archivos de datos maestros:
-	Datos de un sistema de información que representan entidades de existencia real o ideal, por ejemplo, productos o servicios, o valores de referencia para determinar características o atributos de otros datos (dominios de atributos definidos por extensión).
+	Datos de un [[sistema de información]] que representan entidades de existencia real o ideal, por ejemplo, productos o servicios, o valores de referencia para determinar características o atributos de otros datos (dominios de atributos definidos por extensión).
 
 - Archivos de datos transaccionales:
 	Registros de hechos o eventos relacionados con datos maestros, por ejemplo, de ventas de productos o de prestaciones de servicios.

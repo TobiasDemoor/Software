@@ -1,0 +1,1 @@
+El **software** es el conjunto de los programas de cómputo, procedimientos, reglas, documentación y datos asociados, que forman parte de las operaciones de un [[Sistemas de Computación|sistema de computación]].

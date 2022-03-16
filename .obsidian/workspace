@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Daily/20220315.md",
+            "file": "Conceptos/Sistema de Información.md",
             "mode": "source",
             "source": false
           }
@@ -35,26 +35,26 @@
             }
           },
           {
+            "id": "1c8c931615770d34",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
             "id": "691f9e843a052598",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "rfid",
+                "query": "\"software\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "1c8c931615770d34",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           }
         ]
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Daily/20220315.md",
+                "file": "Conceptos/Sistema de Información.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,14 +94,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Daily/20220315.md",
+                "file": "Conceptos/Sistema de Información.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,15 +109,15 @@
   },
   "active": "9af80757492d1e1a",
   "lastOpenFiles": [
-    "Taller de Prog II/Daily/20220315.md",
-    "Software Libre/Daily/20220314.md",
+    "Conceptos/Sistema de Información.md",
+    "Sistemas Operativos/Sistemas de Computación.md",
+    "Conceptos/Software.md",
+    "Conceptos/Hardware.md",
+    "Seguridad Informática/Seguridad de la Información.md",
+    "Sistemas Operativos/Conceptos/Dato, información y conocimiento.md",
     "Seguridad Informática/Daily/20220314.md",
-    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
     "Seguridad Informática/Seguridad.md",
-    "Seguridad Informática/D.md",
-    "Redes de Computadoras/IEEE 802/Bluetooth.md",
-    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa LLC/Protocolos elementales de enlace de datos.md",
-    "Redes de Computadoras/IEEE 802/802.3/Ethernet.md",
-    "Redes de Computadoras/Modelo OSI/Capa 1/Multiplexión/FDM.md"
+    "Seguridad Informática/Firma digital.md",
+    "Seguridad Informática/Criptología.md"
   ]
 }
