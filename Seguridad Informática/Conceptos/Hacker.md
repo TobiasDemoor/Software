@@ -1,0 +1,1 @@
+Una persona que le encuentra usos creativos a tecnologías que ya existen.

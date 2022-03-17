@@ -5,3 +5,5 @@ El **firewall** es una de las herramientas de seguridad más eficaces disponible
 - Inspección de paquetes con estado (SPI):
 
 Cuando se tiene una computadora linux ruteando se puede utilizar iptables para que trabaje como firewall.
+
+El firewall se encuentra en [[Capa de transporte|capa de transporte]].
