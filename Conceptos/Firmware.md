@@ -1,0 +1,1 @@
+[[Software|software]] que está metido y controla [[Hardware|hardware]]
