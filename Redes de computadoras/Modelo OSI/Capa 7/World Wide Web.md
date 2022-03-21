@@ -1,3 +1,6 @@
+---
+aliases: ["WEB", "aplicaciones WEB", "páginas WEB"]
+---
 Desde el punto de vista del usuario, la web consiste en una enorme colección de contenido en forma de **páginas web**. Cada una puede contener vínculos a otras páginas en cualquier lugar del mundo. Para seguir un vínculo, los usuarios pueden hacer clic en él, y a continuación los llevará a la página apuntada. Este proceso se puede repetir de manera indefinida. La idea de hacer que una página apunte a otra, lo que ahora se conoce como **hipertexto**. A cada página se le asigna un [[URL]] que sirva de manera efectiva como el nombre mundial de la página.
 
 Por lo general, las páginas se ven mediante un programa llamado **navegador**. El navegador obtiene la página solicitada, interpreta el contenido y despliega la página en pantalla con el formato adecuado. El contenido en sí puede ser una mezcla de texto, imágenes y comandos de formato, ya sea en forma de un documento tradicional u otras formas de contenido, como un video o programas que produzcan una interfaz gráfica con la que puedan interactuar los usuarios. La web es el ejemplo primo de una arquitectura [[Client-Server]].
