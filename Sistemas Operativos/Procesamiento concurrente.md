@@ -33,7 +33,7 @@ Sucede cuando múltiples procesos o hilos leen y escriben datos de manera que el
 ## **Creación de procesos**
 Durante su ejecución, un proceso puede crear varios procesos nuevos invocando llamadas al sistema. El proceso que crea es el **proceso padre**, y los creados se denominan **procesos hijos.** Los procesos mantienen el PID del proceso padre.
 
-- *UNIX.* Sentencia fork copia el espacio de direcciones del original, y ambos procesos (padre e hijo) continúan la ejecución juntos.
+- *[[UNIX]].* Sentencia fork copia el espacio de direcciones del original, y ambos procesos (padre e hijo) continúan la ejecución juntos.
   - Genera dos ejecuciones concurrentes en un programa (nuevo proceso, mismo programa).
   - El nuevo proceso empieza en una instrucción etiquetada L.
   - *JOIN.* Permite recombinar varias ejecuciones paralelas en una sola. La rama que ejecuta primero la instrucción JOIN termina su ejecución. Para saber el número de ramas que se deben reunir se usa un parámetro con JOIN (una variable entera no negativa que se inicializa con el número de ejecuciones paralelas a reunir).

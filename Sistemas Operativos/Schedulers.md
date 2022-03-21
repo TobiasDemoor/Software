@@ -101,9 +101,9 @@ El Fair-Share Scheduling consta de, en sistemas multiusuarios, dividir el uso de
 Se le denomina efecto convoy cuando el CPU se encuentra ejecutando un proceso que consumirá mucho más tiempo que los procesos que se encuentran en espera.
 
 ### Unix scheduling
-El scheduler tradicional de UNIX emplea un feedback de multinivel utilizando round robin dentro de cada una de las colas de prioridad. Utiliza un desalojo adelantado de un segundo, es decir, si un proceso en ejecución no finaliza o no es bloqueado en un segundo, es desalojado del procesador. 
+El scheduler tradicional de [[UNIX]] emplea un feedback de multinivel utilizando round robin dentro de cada una de las colas de prioridad. Utiliza un desalojo adelantado de un segundo, es decir, si un proceso en ejecución no finaliza o no es bloqueado en un segundo, es desalojado del procesador. 
 
-La prioridad que utiliza UNIX está basada en el tipo de proceso y la historia de ejecución del mismo. Esta prioridad es recalculada cada un segundo.
+La prioridad que utiliza [[UNIX]] está basada en el tipo de proceso y la historia de ejecución del mismo. Esta prioridad es recalculada cada un segundo.
 
 En orden de prioridad decreciente, los tipos de procesos son:
 

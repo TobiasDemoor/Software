@@ -36,7 +36,7 @@ En las especificaciones de un [[Reloj físico|reloj físico]] se incluye su **ma
 ![[NTP]]
 
 #### Berkeley algorithm
-En Berkeley Unix hay un time server (en realidad es un time daemon) activo que consulta periodicamente al resto de los equipos sus tiempos. En base a esas respuestas, calcula un tiempo promedio y le comunica a las otras máquinas que avancen  o retrasen sus relojes al tiempo nuevo. Este método es adecuado para un sistema en el que ninguna máquina tiene un receptor de UTC. El tiempo del time daemon debe ser seteado periódicamente por un operador.
+En Berkeley [[UNIX]] hay un time server (en realidad es un time daemon) activo que consulta periodicamente al resto de los equipos sus tiempos. En base a esas respuestas, calcula un tiempo promedio y le comunica a las otras máquinas que avancen  o retrasen sus relojes al tiempo nuevo. Este método es adecuado para un sistema en el que ninguna máquina tiene un receptor de UTC. El tiempo del time daemon debe ser seteado periódicamente por un operador.
 
 ## Relojes Lógicos
 ![[Relojes Lógicos]]

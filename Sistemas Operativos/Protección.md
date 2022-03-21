@@ -93,7 +93,7 @@ Usualmente, es el usuario quien define los AR para un objeto. Por ejemplo, cuand
 
 ### Bits de protección - Unix
 - Es una implementación para Archivos, generalizable a otros objetos.
-- Consiste en agregar un atributo de 9 bits por archivo, que indican si el Dueño, Grupo u otros usuarios pueden Leer, Escribir o Ejecutar el archivo (Unix).
+- Consiste en agregar un atributo de 9 bits por archivo, que indican si el Dueño, Grupo u otros usuarios pueden Leer, Escribir o Ejecutar el archivo ([[UNIX]]).
 
 ### ACL vs CL
 - La ACL se corresponde con necesidades del usuario. Se carga cuando un proceso de un dominio solicita una operación sobre el objeto. Muchas listas cortas.

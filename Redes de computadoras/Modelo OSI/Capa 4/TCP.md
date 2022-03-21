@@ -12,7 +12,7 @@ La capa IP no ofrece ninguna garantía de que los datagramas se entregarán de m
 #### El servicio TCP
 El servicio TCP se obtiene al hacer que tanto el servidor como el receptor creen puntos terminales, llamados sockets. Cada socket tiene un número (dirección) que consiste en la dirección IP del host y un número de 16 bits que es local para ese host, llamado **puerto**. Un puerto es el nombre TCP para un TSAP. Para obtener el servicio TCP, hay que establecer de manera explícita una conexión entre un socket en una máquina y un socket en otra máquina.
 
-Los números de puerto menores que 1024 están reservados para los servicios estándar que, por lo general, sólo los usuarios privilegiados pueden iniciar (por ejemplo, el usuario root en los sistemas UNIX). Éstos se llaman puertos bien conocidos, a continuación se muestra la lista de algunos de los más conocidos, la lista completa se proporciona en www.iana.org.
+Los números de puerto menores que 1024 están reservados para los servicios estándar que, por lo general, sólo los usuarios privilegiados pueden iniciar (por ejemplo, el usuario root en los sistemas [[UNIX]]). Éstos se llaman puertos bien conocidos, a continuación se muestra la lista de algunos de los más conocidos, la lista completa se proporciona en www.iana.org.
 
 | Puerto | Protocolo | Uso                                           |
 | ------ | --------- | --------------------------------------------- |
