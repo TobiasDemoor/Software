@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Conceptos/Hacker.md",
+            "file": "Taller de Prog II/Daily/20220318.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Conceptos/Hacker.md",
+                "file": "Taller de Prog II/Daily/20220318.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Conceptos/Hacker.md",
+                "file": "Taller de Prog II/Daily/20220318.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
-    "Seguridad Informática/Conceptos/Hacker.md",
-    "Seguridad Informática/Daily/20220317.md",
-    "Seguridad Informática/Pentesting.md",
-    "Redes de computadoras/Modelo OSI/Capa 7/World Wide Web.md",
-    "Seguridad Informática/Conceptos/DoS.md",
-    "Software Libre/Daily/20220318.md",
     "Taller de Prog II/Daily/20220318.md",
-    "Seguridad Informática/Daily/Untitled.md",
-    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
-    "Redes de computadoras/Conceptos/Firewall.md"
+    "Seguridad Informática/Ingeniería Social.md",
+    "Seguridad Informática/Gestión de Riesgos.md",
+    "Seguridad Informática/Pentesting.md",
+    "Seguridad Informática/Administración de Riesgos.md",
+    "Seguridad Informática/Herramientas/nmap.md",
+    "Seguridad Informática/Herramientas/whois.md",
+    "Seguridad Informática/Herramientas/Google dork.md",
+    "Seguridad Informática/Daily/20220317.md",
+    "Seguridad Informática/Evaluación de Riesgos.md"
   ]
 }
