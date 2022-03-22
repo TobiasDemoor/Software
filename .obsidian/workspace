@@ -7,12 +7,8 @@
         "id": "17eeedbcb6589a9f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Taller de Prog II/Conceptos/Directivo.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Conceptos/Directivo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Conceptos/Directivo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +103,15 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Software Libre/Linux.md",
+    "Software Libre/UNIX.md",
+    "Software Libre/Licencias.md",
+    "Software Libre/Proyecto GNU.md",
+    "Software Libre/Conceptos/Software Libre.md",
+    "Software Libre/Daily/20220321.md",
+    "Sistemas Operativos/Sistemas Operativos.md",
+    "Análisis y Diseño/Fundamentals/Ley de Conway.md",
     "Taller de Prog II/Conceptos/Directivo.md",
-    "Taller de Prog II/Daily/20220315.md",
-    "Taller de Prog II/Conceptos/Empresario.md",
-    "Taller de Prog II/Gestión de Proyectos de Software.md",
-    "Taller de Prog II/Conceptos/Empresa.md",
-    "Taller de Prog II/Conceptos/Gestión.md",
-    "Seguridad Informática/Gestión de Riesgos.md",
-    "Seguridad Informática/Evaluación de Riesgos.md",
-    "Seguridad Informática/Administración de Riesgos.md",
-    "Seguridad Informática/Seguridad de la Información.md"
+    "Taller de Prog II/Daily/20220315.md"
   ]
 }

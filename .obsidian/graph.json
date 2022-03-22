@@ -64,10 +64,24 @@
       }
     },
     {
+      "query": "path:\"Software Libre\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
       "query": "path:\"Teoría de la Información\"",
       "color": {
         "a": 1,
         "rgb": 13149913
+      }
+    },
+    {
+      "query": "path:\"Taller de Prog II\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
       }
     }
   ],
@@ -81,6 +95,6 @@
   "repelStrength": 12.9411764705882,
   "linkStrength": 1,
   "linkDistance": 80,
-  "scale": 0.05081612025490522,
+  "scale": 0.05081612025490558,
   "close": true
 }
