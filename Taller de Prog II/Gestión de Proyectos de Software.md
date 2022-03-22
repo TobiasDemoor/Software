@@ -40,3 +40,9 @@ Dirigir un proyecto implica:
 - Liderar efectivamente un grupo humano
 - Equilibrar las restricciones contrapuestas de proyecto que se relacionan, entre calidad, costos y duración.
 - Identificar y gestionar riesgos.
+
+![[Gestión]]
+
+![[Empresa]]
+
+![[Empresario]]
