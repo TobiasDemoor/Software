@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Daily/20220318.md",
+            "file": "Taller de Prog II/Daily/20220325.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Daily/20220318.md",
+                "file": "Taller de Prog II/Daily/20220325.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Daily/20220318.md",
+                "file": "Taller de Prog II/Daily/20220325.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,7 +109,6 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
-    "Software Libre/Daily/20220318.md",
     "Taller de Prog II/Daily/20220325.md",
     "Software Libre/Linux.md",
     "Software Libre/UNIX.md",
@@ -118,6 +117,7 @@
     "Software Libre/Conceptos/Software Libre.md",
     "Software Libre/Daily/20220321.md",
     "Sistemas Operativos/Sistemas Operativos.md",
-    "Análisis y Diseño/Fundamentals/Ley de Conway.md"
+    "Análisis y Diseño/Fundamentals/Ley de Conway.md",
+    "Taller de Prog II/Conceptos/Directivo.md"
   ]
 }
