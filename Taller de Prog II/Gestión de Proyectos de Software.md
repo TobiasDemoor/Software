@@ -46,3 +46,45 @@ Dirigir un proyecto implica:
 ![[Empresa]]
 
 ![[Empresario]]
+
+### Fases de un Proyecto
+Las fases de un proyecto son divisiones dentro del mismo proyecto, donde es necesario ejercer un control adicional para gestionar eficazmente la conclusión de un entregable mayor.
+
+![[TP2_fases_de_un_proyecto.png]]
+
+#### Fase de planeación
+Es importante tener en claro: 
+- El problema a solucionar 
+- El producto/servicio a obtener 
+- Costos económicos 
+- Recursos humanos
+
+[[Estudio de Viabilidad]]
+
+1. **Inicio y definición del problema**
+   - Trabajar con los usuarios, directores y clientes
+   - Objetivo del proyecto
+   - Donde está el problema
+   - Identificar el problema: Identificar causas, síntomas y necesidades
+   - Donde está la oportunidad
+2. 
+
+
+Actividades en la definición del problema:
+- **Estimar** el tamaño de la aplicación a desarrollar
+- Discutir y **analizar** lo que se desea obtener
+- **Estudiar** el sistema y el contexto actual
+- Clarificar las **áreas de la empresa** afectadas
+- Identificar las **tareas** a realizar
+- **Asignar recursos** a cada tarea
+- Crear un **calendario** de tareas
+- Realizar un **estudio económico**
+- **Definir** el problema y sus componentes, aclarando:
+	- ¿Qué es fundamental?
+	- ¿Qué es deseable?
+	- ¿Qué es opcional?
+- Identificar los **procesos** afectados
+- Crear una **definición clara** de los que se va a solucionar
+- **Validar** la definición
+
+(queda en diapositiva 27)
