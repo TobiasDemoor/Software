@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Daily/20220328.md",
+            "file": "Software Libre/Daily/20220328.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Daily/20220328.md",
+                "file": "Software Libre/Daily/20220328.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Daily/20220328.md",
+                "file": "Software Libre/Daily/20220328.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +109,7 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Software Libre/Daily/20220328.md",
     "Seguridad Informática/Daily/20220328.md",
     "Seguridad Informática/Criptología.md",
     "Seguridad Informática/Seguridad.md",
@@ -117,7 +118,6 @@
     "Seguridad Informática/Ingeniería Social.md",
     "Seguridad Informática/Firma digital.md",
     "Seguridad Informática/Evaluación de Riesgos.md",
-    "Taller de Prog II/Gestión de Proyectos de Software.md",
-    "Taller de Prog II/Proyecto Informático.md"
+    "Taller de Prog II/Gestión de Proyectos de Software.md"
   ]
 }
