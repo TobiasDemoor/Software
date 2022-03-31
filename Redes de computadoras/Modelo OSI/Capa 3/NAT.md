@@ -5,7 +5,7 @@ La idea básica detrás de NAT es que el ISP asigne a cada hogar o negocio una s
 - 172.16.0.0 - 172.31.255.255/12 (1,048,576 hosts) 
 - 192.168.0.0 - 192.168.255.255/16 (65,536 hosts)
 
-Dentro de las premisas del cliente, cada máquina tiene una dirección única de la forma (por ejemplo) 10.x.y.z. Sin embargo, antes de que un paquete salga de las premisas del cliente, pasa a través de una **caja NAT** que convierte la dirección IP de origen interna, 10.0.0.1 en la figura, a la dirección IP verdadera del cliente, 198.60.42.12 en este ejemplo. A menudo, la caja NAT se combina en un solo dispositivo con un [[firewall]] que proporciona seguridad controlando cuidadosamente lo que entra y sale por la red.
+Dentro de las premisas del cliente, cada máquina tiene una dirección única de la forma (por ejemplo) 10.x.y.z. Sin embargo, antes de que un paquete salga de las premisas del cliente, pasa a través de una **caja NAT** que convierte la dirección IP de origen interna, 10.0.0.1 en la figura, a la dirección IP verdadera del cliente, 198.60.42.12 en este ejemplo. A menudo, la caja NAT se combina en un solo dispositivo con un [[Firewall]] que proporciona seguridad controlando cuidadosamente lo que entra y sale por la red.
 
 ![[RRCC_NAT.png]]
 
