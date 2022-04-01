@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Daily/20220331.md",
+            "file": "Taller de Prog II/Daily/20220401.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Daily/20220331.md",
+                "file": "Taller de Prog II/Daily/20220401.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Daily/20220331.md",
+                "file": "Taller de Prog II/Daily/20220401.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +109,8 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Taller de Prog II/Daily/20220401.md",
+    "Conceptos/Riesgo.md",
     "Seguridad Informática/Daily/20220331.md",
     "Seguridad Informática/Firewall.md",
     "Software Libre/Daily/20220328.md",
@@ -116,8 +118,6 @@
     "Taller de Prog II/Estudio de Viabilidad.md",
     "Taller de Prog II/Daily/20220325.md",
     "Software Libre/Linux.md",
-    "Software Libre/UNIX.md",
-    "Software Libre/Licencias.md",
-    "Software Libre/Proyecto GNU.md"
+    "Software Libre/UNIX.md"
   ]
 }
