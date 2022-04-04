@@ -7,7 +7,7 @@
         "id": "17eeedbcb6589a9f",
         "type": "leaf",
         "state": {
-          "type": "graph",
+          "type": "empty",
           "state": {}
         }
       }
@@ -103,6 +103,7 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Software Libre/Daily/20220404.md",
     "Bases de Datos/Lenguajes/Álgebra Relacional.md",
     "Taller de Prog II/Mantenimiento.md",
     "Análisis y Diseño/Software Development Lifecycle.md",
@@ -111,7 +112,6 @@
     "Taller de Prog II/Proyecto Informático.md",
     "Taller de Prog II/Proyecto.md",
     "Software Libre/Linux.md",
-    "Software Libre/Licencias.md",
-    "Software Libre/UNIX.md"
+    "Software Libre/Licencias.md"
   ]
 }
