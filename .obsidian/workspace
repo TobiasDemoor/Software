@@ -103,6 +103,7 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
     "Taller de Prog II/Mantenimiento.md",
     "Análisis y Diseño/Software Development Lifecycle.md",
     "Taller de Prog II/Gestión de Proyectos de Software.md",
@@ -111,7 +112,6 @@
     "Taller de Prog II/Proyecto.md",
     "Software Libre/Linux.md",
     "Software Libre/Licencias.md",
-    "Software Libre/UNIX.md",
-    "Software Libre/Proyecto GNU.md"
+    "Software Libre/UNIX.md"
   ]
 }
