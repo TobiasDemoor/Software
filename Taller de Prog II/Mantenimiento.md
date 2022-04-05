@@ -1,5 +1,5 @@
 ---
-aliases: ["manenimiento"]
+aliases: ["mantenimiento"]
 ---
 Es el proceso de mejora y optimización del software después de su entrega al usuario final.
 > El proyecto no finaliza cuando se entrega el producto, sino cuando el cliente está satisfecho - Craig Larman
