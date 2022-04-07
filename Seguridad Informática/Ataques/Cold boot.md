@@ -1,0 +1,4 @@
+---
+aliases: ["cold boot", "arranque en frío"]
+---
+Un ataque de arranque en frío es un tipo de ataque side-channel en el que un atacante con acceso físico a una computadora realiza un volcado de memoria de la memoria de acceso aleatorio (RAM) de una computadora. Por lo general, los ataques de arranque en frío se utilizan para recuperar claves de cifrado de un sistema operativo en ejecución por razones de investigación criminal o maliciosa. El ataque se basa en la propiedad de remanencia de datos de DRAM y SRAM para recuperar el contenido de la memoria que permanece legible en los segundos o minutos posteriores a la desconexión de la energía.

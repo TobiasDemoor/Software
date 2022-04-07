@@ -1,0 +1,2 @@
+### Salt
+Para hacer que el descifrado usando [[Rainbow tables|rainbow tables]] sea un poco más difícil, se puede usar algo llamado “sal”: cuando un usuario establece una contraseña, el sistema también crea un valor aleatorio, la sal. Este valor entra junto con la contraseña en la función hash y, por lo tanto, genera un valor diferente al de la contraseña sola.

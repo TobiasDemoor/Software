@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "086635c55577e0a1",
+        "id": "17eeedbcb6589a9f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Daily/20220407.md",
+            "file": "Seguridad Informática/Herramientas/dm-crypt.md",
             "mode": "source",
             "source": false
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"software\"",
+                "query": "hashing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Daily/20220407.md",
+                "file": "Seguridad Informática/Herramientas/dm-crypt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Daily/20220407.md",
+                "file": "Seguridad Informática/Herramientas/dm-crypt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "086635c55577e0a1",
+  "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
-    "Software Libre/Daily/20220407.md",
-    "Taller de Prog II/Mantenimiento.md",
-    "Taller de Prog II/Daily/20220405.md",
-    "Taller de Prog II/Gestión de Proyectos de Software.md",
-    "Taller de Prog II/Estudio de Viabilidad.md",
-    "Software Libre/Daily/20220404.md",
-    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
-    "Análisis y Diseño/Software Development Lifecycle.md",
-    "Taller de Prog II/Proyecto Informático.md",
-    "Taller de Prog II/Proyecto.md"
+    "Seguridad Informática/Herramientas/dm-crypt.md",
+    "Seguridad Informática/Passwords.md",
+    "Seguridad Informática/Ataques/Rainbow tables.md",
+    "Seguridad Informática/Cifrado de archivos.md",
+    "Organización de Datos/Organización de archivos.md",
+    "Organización de Datos/Hashing.md",
+    "Seguridad Informática/Herramientas/LUKS.md",
+    "Seguridad Informática/Herramientas/Google dork.md",
+    "Seguridad Informática/Herramientas/PBKDF.md",
+    "Seguridad Informática/Herramientas/EncFS.md"
   ]
 }

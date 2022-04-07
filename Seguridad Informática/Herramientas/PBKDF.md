@@ -1,0 +1,1 @@
+PBKDF1 y PBKDF2 (Password-Based Key Derivation Function 1 y 2) son funciones de derivación de claves con un costo computacional móvil, utilizadas para reducir las vulnerabilidades de los ataques de fuerza bruta.
