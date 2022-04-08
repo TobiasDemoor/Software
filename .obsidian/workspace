@@ -7,8 +7,12 @@
         "id": "17eeedbcb6589a9f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Taller de Prog II/Daily/20220408.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hashing",
+                "query": "orden total",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Taller de Prog II/Daily/20220408.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Taller de Prog II/Daily/20220408.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -103,15 +109,15 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
-    "Seguridad Informática/Herramientas/dm-crypt.md",
-    "Seguridad Informática/Passwords.md",
-    "Seguridad Informática/Ataques/Rainbow tables.md",
-    "Seguridad Informática/Cifrado de archivos.md",
-    "Organización de Datos/Organización de archivos.md",
-    "Organización de Datos/Hashing.md",
-    "Seguridad Informática/Herramientas/LUKS.md",
-    "Seguridad Informática/Herramientas/Google dork.md",
-    "Seguridad Informática/Herramientas/PBKDF.md",
-    "Seguridad Informática/Herramientas/EncFS.md"
+    "Taller de Prog II/Daily/20220408.md",
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Sistemas Distribuidos/Replicación/Conit.md",
+    "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
+    "Sistemas Distribuidos/Replicación/Consistencia eventual.md",
+    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
+    "Sistemas Distribuidos/Comunicación/Comunicación.md",
+    "Sistemas Distribuidos/Coordinación/Sincronización.md",
+    "Análisis y Diseño/Conceptos/Ley de Conway.md",
+    "Taller de Prog II/Daily/20220315.md"
   ]
 }
