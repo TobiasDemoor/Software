@@ -15,7 +15,7 @@ Existen dos técnicas comunes para proteger criptográficamente el almacenamient
 En ambos casos todos los datos que se escriben se cifran automáticamente y se descifran sobre la marcha cuando se leen de nuevo. Los archivos solo están disponibles para el sistema operativo y las aplicaciones en forma legible mientras el sistema se ejecuta y desbloquea por un usuario de confianza. Una persona no autorizada que mira los contenidos del disco directamente, solo encontrará datos confusos de aspecto aleatorio en lugar de los archivos reales.
 
 El **cifrado solo de datos de usuario** no es muy seguro ya que en los sistemas modernos, hay muchos procesos en segundo plano que pueden almacenar o ubicar en caché información sobre los datos del usuario o partes de los mismos en áreas no encriptadas del disco duro, como:
-- particiones swap (un remedio potencial para esto es deshabilitar el swap o usar un swapping cifrado).
+- [[Partición de swap|particiones swap]] (un remedio potencial para esto es deshabilitar el swap o usar un swapping cifrado).
 - archivos temporales /tmp (un remedio potencial es evitar las aplicaciones que los generan o montar el /tmp dentro de un ramdisk)
 - archivos variables /var (archivos de log, bases de datos y similares)
 

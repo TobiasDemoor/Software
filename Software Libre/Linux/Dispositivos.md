@@ -1,0 +1,3 @@
+Históricamente en [[Linux]] los dispositivos se debían asociar a un archivo especial mediante la herramienta mknod.
+
+Más recientemente el deamon udev crea y elimina dinámicamente archivos de dispositivo para nosotros dependiendo de si están conectados o no. Hay un demonio udevd que se está ejecutando en el sistema y escucha los mensajes del kernel sobre los dispositivos conectados al sistema. udevd analiza esa información y hace coincidir los datos con reglas que se especifican en /etc/udev/rules.d, dependiendo de esas reglas, se que crean nodos de dispositivo y enlaces simbólicos para los dispositivos.

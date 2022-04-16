@@ -1,3 +1,6 @@
+---
+aliases: ["memoria virtual"]
+---
 Memoria virtual es una técnica de administración de memoria que permite la ejecución de procesos que no están completamente cargados en memoria (rompe el principio de completitud).
 
 Todas las referencias a memoria serán direcciones lógicas que se traducirán dinámicamente a direcciones físicas durante la ejecución (realocación dinámica).

@@ -4,13 +4,9 @@ aliases: ["sistema de archivo", "sistema de archivos"]
 Un **sistema de archivos** es un elemento que controla cómo se almacenan y recuperan los datos. Este comunmente es una parte central de un [[Sistemas Operativos|sistema operativo]].
 
 ## Archivo
-Es la unidad de representación de la información en un sistema de computación. Es el medio para concretar la persistencia de la información (permite el guardado y recuperación de la información no volátil).
+![[Archivo]]
 
-Cada [[archivo]] es tratado como una entidad única y es identificado por un nombre o File-ID unívoco.
-
-Toda información almacenada tiene forma de archivo. Es un conjunto de bits o bien un conjunto de registros homogéneos (compuestos por campos).
-
-## **Sistema de gestión de Archivos**
+## Sistema de gestión de Archivos
 El sistema de gestión de archivos es un módulo del sistema operativo y permite que un usuario o proceso pueda acceder a los archivos y manipularlos. Brinda una interfaz que evita que el programador tenga que desarrollar software específico para interactuar con sus archivos. Garantiza la corrección de los datos y la estructura de los archivos.
 
 Ofrece un conjunto estándar de rutinas de interfaz y operaciones de E/S. Es decir, es el sistema de archivos el que decide qué operaciones puede realizar un usuario o proceso sobre un archivo. 
@@ -25,25 +21,20 @@ El sistema de gestión de archivos asume a los dispositivos como un conjunto de 
 #### Funciones de un sistema de gestión de archivos
 1. *Identificar y ubicar un archivo en cuestión.* Para ello, utiliza un directorio que describe la ubicación de todos los archivos y sus atributos.
 1. *Aplicar el control de acceso a los usuarios ([[Protección]]).* Gestionar los privilegios de usuario sobre un archivo.
-1. ` `*Asignar los archivos a los bloques disponibles.* Decide físicamente dónde se van a ubicar los archivos dentro del dispositivo de almacenamiento.
+1. *Asignar los archivos a los bloques disponibles.* Decide físicamente dónde se van a ubicar los archivos dentro del dispositivo de almacenamiento.
 1. *Gestionar el espacio libre, de manera que se conozca qué bloques están disponibles.*
 
 
-## **File System**
+## File System
 En **sentido amplio**, es el conjunto de convenciones de diseño que determinan el manejo de la información en un SO. Estas convenciones se establecen en tiempo de diseño del producto, luego se implementan y rigen la vida de los usuarios del SO en lo que respecta al manejo de la información.
 
 Cuando hablamos de “*el File System de Linux…”*  nos referimos al File System de un SO en **sentido amplio.**
-**
 
-**
 En **sentido estricto,** es el conjunto de información, estructurada bajo determinadas pautas, en un sistema de computación. Es decir, es una **instancia.** Es el conjunto de información de cada sistema de computación.
 
 Cuando hablamos de “*el File System de mi PC…”* nos estamos refiriendo al file system de un SO en sentido estricto.
 
-
-
 Dos [[sistemas de computación]] con el mismo SO tienen iguales FS en sentido amplio, pero diferentes en sentido estricto, dado que la información propiamente dicha que manejan es diferente, pero en ambos casos respetan las mismas convenciones de diseño al tener el mismo sistema operativo.
-
 
 #### Convenciones de diseño
 Son las reglas o pautas para la manipulación de información que el sistema de gestión de archivos implementará y el usuario respetará. Refieren a:
@@ -91,15 +82,10 @@ Un **archivo** es una colección de registros similares. Es tratado como una ent
 
 Un **bloque** es la unidad mínima de lectura-escritura de la información en un dispositivo de almacenamiento. Está formado por una serie de campos.
 
-
-
 ##### *Tipos de archivos*
 - *Texto.* Cadenas de caracteres sin estructura alguna.
 - *Datos (registros).* Tienen una estructura de registros que permite almacenar la información.
 - *Ejecutables.* Archivos que permiten iniciar la ejecución de un proceso.
-
-
-
 
 ##### *Atributos de archivos – Metadatos*
 Los atributos de los archivos son tan persistentes como los archivos a los cuales pertenecen, al contrario de los atributos de un proceso, los cuales son volátiles por su naturaleza.
@@ -140,11 +126,11 @@ El archivo, para el SO, es un tipo de dato abstracto. Todas estas operaciones so
 A su vez, el sistema puede proveer de funciones al usuario que consten de una serie de operaciones de archivos, tales como el copy/paste.
 
 ###### Open-file table
-`		`Cuando un archivo es abierto por un proceso o usuario, el sistema operativo mantiene en memoria una pequeña tabla de archivos abiertos, que contiene información acerca de todos los archivos que se encuentran abiertos. De esta manera, cuando una operación sobre un archivo abierto es requerida, se accede al mismo mediante esta tabla, sin necesidad de tener que buscar el archivo nuevamente. Cuando un archivo es cerrado, el sistema operativo elimina la entrada del mismo en esta tabla.
+Cuando un archivo es abierto por un proceso o usuario, el sistema operativo mantiene en memoria una pequeña tabla de archivos abiertos, que contiene información acerca de todos los archivos que se encuentran abiertos. De esta manera, cuando una operación sobre un archivo abierto es requerida, se accede al mismo mediante esta tabla, sin necesidad de tener que buscar el archivo nuevamente. Cuando un archivo es cerrado, el sistema operativo elimina la entrada del mismo en esta tabla.
 
-`		`En cada entrada se contiene información referida al modo en el cual fue abierto el archivo (create, read only, write, read-write, append-only). 
+En cada entrada se contiene información referida al modo en el cual fue abierto el archivo (create, read only, write, read-write, append-only). 
 
-`		`A su vez, el sistema operativo mantiene dos de estas tablas: una a nivel proceso, que contiene todos los archivos abiertos por un proceso y un puntero a la segunda tabla que es a nivel sistema.
+A su vez, el sistema operativo mantiene dos de estas tablas: una a nivel proceso, que contiene todos los archivos abiertos por un proceso y un puntero a la segunda tabla que es a nivel sistema.
 
 #### Organización lógica de los archivos
 Forma en que los archivos son organizados lógicamente por el usuario. Determina la estructura organizativa con la que el usuario dispone los archivos en los dispositivos.
@@ -194,38 +180,13 @@ Consiste en un único directorio que aloja todos los archivos. Su principal vent
 - Permite ciclos. Un directorio puede acceder a un directorio que se encuentra en otra parte del FS. 
 - Requiere un Garbage Collector para eliminar todas las estructuras cíclicas que no son alcanzables desde ningún punto del FS.
 - La actividad del GC consta de recorrer el dispositivo de almacenamiento marcando los elementos que son alcanzables. Luego, en una segunda recorrida recolecta todo lo que no fue marcado como alcanzable y lo coloca en una lista de espacio libre.
-## **Archivos compartidos**
-En un sistema multiusuario, existe la necesidad de permitir a los usuarios compartir archivos. Se deben tener en cuenta dos cuestiones: los derechos de acceso y la gestión de los accesos simultáneos.
-#### Tipos de acceso
-- *Read.*
-- *Write.*
-- *Execute.*
-- *Append.*
-- *Delete.*
-- *List.* Listar el nombre y los atributos del archivo.
-#### Derechos de acceso
-Cada archivo tiene un propietario, el cual dispone de todos los derechos de los derechos de acceso y manipulación sobre el archivo. A su vez, puede otorgar derechos a otros utilizando las siguientes clases de usuarios:
 
-- *Usuario específico.* Se requiere una lista que contenga los identificadores de los usuarios a los cuales se les otorga cierto acceso.
-- *Grupos de usuarios.*
-- *Todos los usuarios (archivos públicos).*
+## Archivos compartidos
+![[Archivos compartidos]]
 
-#### Acceso simultáneo a los archivos
-El usuario puede:
-
-- *Bloquear el archivo entero cuando lo vaya a actualizar*. Dos procesos no pueden trabajar en simultáneo sobre un mismo archivo.
-- *Bloquear el archivo a nivel registros.* Permite que dos o más procesos trabajen sobre un mismo archivo, siempre que no sea sobre los mismos registros.
-
-Al diseñar la posibilidad de accesos compartidos, deben abordarse aspectos de la [[exclusión mutua]] e interbloqueo entre procesos ([[deadlock]]).
-
-#### Record blocking
-En la mayoría de los sistemas los bloques son de longitud fija para simplificar operaciones de E/S, la organización de los mismos y demás. Por otro lado, los registros que se encuentran dentro de cada bloque pueden organizarse de distinta manera:
-
-- *Registros de longitud fija.*  En cada bloque existe una cantidad fija de registros enteros almacenados, lo cual puede resultar en espacio desperdiciado.
-- *Registros de longitud variable con encadenamiento.* Se utilizan registros de longitud variable y se permite particionar un registro para almacenarlo en dos bloques consecutivos.
-- *Registros de longitud variable sin encadenamiento.* No permite particionar registros. Fragmentación a nivel bloque.
-## **Modos de acceso a los archivos**
+## Modos de acceso a los archivos
 Métodos que definen el acceso a los bloques de datos de un archivo.
+
 #### Directo
 El acceso a un bloque del archivo se hace en forma directa, sin necesidad de haber accedido a los anteriores para lograrlo (técnicas de hashing).
 
@@ -235,7 +196,7 @@ El acceso a un bloque del archivo se hace de forma secuencial, requiriendo indef
 #### Indexado
 El acceso a un bloque del archivo se hace mediante un puntero en una tabla (archivo) de índices que nos lleva al mismo. Como mínimo, se requiere un acceso al archivo de índices y otro al archivo de datos.
 
-## **Alocación de archivos**
+## Alocación de archivos
 El sistema de gestión de archivos debe asignar espacio a los archivos (organización física). Esto sucede en tiempo de ejecución.
 
 El sistema de gestión de archivos debe conocer el espacio disponible en bloques para asignar a los archivos (gestión de espacios libres).
@@ -247,9 +208,6 @@ El sistema de gestión de archivos debe conocer el espacio disponible en bloques
 
 #### Alocación dinámica
 Permite el crecimiento dinámico de un archivo.
-
-
-
 
 #### Métodos de asignación de espacio
 ##### *Contigua*
@@ -274,7 +232,7 @@ Permite el crecimiento dinámico de un archivo.
   - *En este caso, la tabla de asignación necesita una entrada adicional, la dirección del último bloque.*
   - *Si se daña un bloque, se pierde solo ese y se permite reconstruir el archivo.*
 
-` 	`Este método de asignación posee una gran desventaja: acceso secuencial a los registros del archivo. Para leer el bloque 50, tengo que pasar por los 49 anteriores.
+Este método de asignación posee una gran desventaja: acceso secuencial a los registros del archivo. Para leer el bloque 50, tengo que pasar por los 49 anteriores.
 
 
 ##### *Indexada*
@@ -288,8 +246,9 @@ Permite el crecimiento dinámico de un archivo.
 - Fragmentación interna en los bloques de índices y en el último bloque de datos.
 - El acceso es pseudo-directo: secuencial a la lista de bloques de índices y directo a los bloques de datos.
 
-## **Gestión del espacio libre: estructuras**
+## Gestión del espacio libre: estructuras
 Para la gestión del espacio libre, el SO requiere estructuras de soporte. Las más conocidas son listas de libres (Free List); lista de principio y cuenta; mapas de bits (BitMaps).
+
 #### Lista de libres
 - Es una lista encadenada de bloques libres. 
 - Cada bloque tiene un puntero al próximo bloque libre.
