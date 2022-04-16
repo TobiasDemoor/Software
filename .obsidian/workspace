@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Linux/Linux.md",
+            "file": "Software Libre/Linux/Proceso de arranque.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Linux/Linux.md",
+                "file": "Software Libre/Linux/Proceso de arranque.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Linux/Linux.md",
+                "file": "Software Libre/Linux/Proceso de arranque.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,9 +109,9 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Software Libre/Linux/Proceso de arranque.md",
     "Software Libre/Linux/Linux.md",
     "Software Libre/Linux/Permisos.md",
-    "Software Libre/Linux/Proceso de arranque.md",
     "Software Libre/Linux/procfs.md",
     "Software Libre/Linux/Dispositivos.md",
     "Software Libre/Linux/Terminales.md",
