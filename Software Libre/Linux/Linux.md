@@ -29,9 +29,6 @@ Linux tiene su sistema de archivos estándar, que determina dónde se ubican los
 ## Package manager
 Un **gestor de paquetes** se ocupa de paquetes, distribuciones de software y archivos en almacenamiento. Los paquetes fundamentalmente resuelven las dependencias necesarias para que el software se ejecute correctamente. Tras la instalación, los metadatos se almacenan en una base de datos de paquetes local. Trabajan en estrecha colaboración con repositorios de software, administradores de repositorios binarios y tiendas de aplicaciones.
 
-## El Kernel
-
-
 ## Proceso de arranque
 ![[Proceso de arranque]]
 
