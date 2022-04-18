@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Daily/20220418.md",
+            "file": "Software Libre/Daily/20220418.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Daily/20220418.md",
+                "file": "Software Libre/Daily/20220418.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Daily/20220418.md",
+                "file": "Software Libre/Daily/20220418.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +109,8 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Software Libre/Daily/20220418.md",
+    "Sistemas Operativos/RAID.md",
     "Seguridad Informática/Daily/20220418.md",
     "Software Libre/Daily/20220411.md",
     "Software Libre/Licencias.md",
@@ -116,8 +118,6 @@
     "Sistemas Distribuidos/Replicación/Replicación.md",
     "Sistemas Distribuidos/Replicación/Conit.md",
     "Sistemas Distribuidos/Replicación/Modelo de consistencia.md",
-    "Sistemas Distribuidos/Replicación/Consistencia eventual.md",
-    "Sistemas Distribuidos/Coordinación/Algoritmos de elección.md",
-    "Sistemas Distribuidos/Comunicación/Comunicación.md"
+    "Sistemas Distribuidos/Replicación/Consistencia eventual.md"
   ]
 }
