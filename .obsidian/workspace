@@ -100,7 +100,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,14 +111,14 @@
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
     "Software Libre/Deamon.md",
+    "Software Libre/Linux/Procesos huérfanos.md",
+    "Software Libre/Linux/Funciones/fork().md",
+    "Software Libre/Linux/Funciones/setsid().md",
+    "Software Libre/Linux/Dispositivos.md",
+    "Software Libre/Linux/Terminales.md",
+    "Software Libre/Linux/Linux.md",
     "Taller de Prog II/Contratos.md",
     "Taller de Prog II/Conceptos/Bienes Informáticos.md",
-    "Taller de Prog II/Conceptos/Servicios Informáticos.md",
-    "Taller de Prog II/Conceptos/Contratos de adhesión.md",
-    "Software Libre/Linux/Proceso de arranque.md",
-    "Software Libre/Linux/Linux.md",
-    "Software Libre/Linux/Permisos.md",
-    "Software Libre/Linux/procfs.md",
-    "Software Libre/Linux/Dispositivos.md"
+    "Taller de Prog II/Conceptos/Servicios Informáticos.md"
   ]
 }
