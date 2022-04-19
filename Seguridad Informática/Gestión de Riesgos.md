@@ -22,8 +22,8 @@ Tratamiento de riesgo
 1. Evitar el riesgo no iniciando o deteniendo la actividad.
 2. Tomando o incrementando el riesgo por una posible oportunidad.
 3. Eliminando el riesgo.
-4.  Cambiando la probabilidad.
-5.  Cambiando las consecuencias.
+4. Cambiando la probabilidad.
+5. Cambiando las consecuencias.
 6. Compartiendo el riesgo con otros (companias de seguros).
 7. Aceptando el riesgo mediante una decisión informada.
 
