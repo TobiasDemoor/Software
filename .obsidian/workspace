@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Deamon.md",
+            "file": "Software Libre/Linux/Proceso de arranque.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Deamon.md",
+                "file": "Software Libre/Linux/Proceso de arranque.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,14 +94,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Deamon.md",
+                "file": "Software Libre/Linux/Proceso de arranque.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,15 +109,15 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Software Libre/Linux/Proceso de arranque.md",
+    "Software Libre/Linux/systemd.md",
+    "Sistemas Operativos/Sistemas de archivos/Sistemas de archivos.md",
     "Software Libre/Deamon.md",
     "Software Libre/Linux/Procesos huérfanos.md",
     "Software Libre/Linux/Funciones/fork().md",
     "Software Libre/Linux/Funciones/setsid().md",
     "Software Libre/Linux/Dispositivos.md",
     "Software Libre/Linux/Terminales.md",
-    "Software Libre/Linux/Linux.md",
-    "Taller de Prog II/Contratos.md",
-    "Taller de Prog II/Conceptos/Bienes Informáticos.md",
-    "Taller de Prog II/Conceptos/Servicios Informáticos.md"
+    "Software Libre/Linux/Linux.md"
   ]
 }

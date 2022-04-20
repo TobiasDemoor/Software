@@ -1,5 +1,5 @@
 ---
-aliases: ["sistema de archivo", "sistema de archivos"]
+aliases: ["sistema de archivo", "sistema de archivos", "file systems"]
 ---
 Un **sistema de archivos** es un elemento que controla cómo se almacenan y recuperan los datos. Este comunmente es una parte central de un [[Sistemas Operativos|sistema operativo]].
 
