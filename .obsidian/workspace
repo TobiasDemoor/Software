@@ -110,6 +110,7 @@
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
     "Software Libre/Linux/Proceso de arranque.md",
+    "Seguridad Informática/Gestión de Riesgos.md",
     "Software Libre/Linux/systemd.md",
     "Sistemas Operativos/Sistemas de archivos/Sistemas de archivos.md",
     "Software Libre/Deamon.md",
@@ -117,7 +118,6 @@
     "Software Libre/Linux/Funciones/fork().md",
     "Software Libre/Linux/Funciones/setsid().md",
     "Software Libre/Linux/Dispositivos.md",
-    "Software Libre/Linux/Terminales.md",
-    "Software Libre/Linux/Linux.md"
+    "Software Libre/Linux/Terminales.md"
   ]
 }
