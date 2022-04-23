@@ -2,13 +2,13 @@
 aliases: ["proceso de arranque"]
 ---
 
-Cuando se inicia un sistema el procesador ejecuta código en un lugar bien conocido. En una computadora personal, este lugar se encuentra en la BIOS (basic input/output system), que se encuentra almacenado en flash en el motherboard.
+Cuando se inicia un sistema el procesador ejecuta código en un lugar bien conocido. En una computadora personal, este lugar se encuentra en la [[BIOS]] (basic input/output system), que se encuentra almacenado en flash en el motherboard.
 
 ![[SL_Linux_Proceso_de_arranque.png]]
 
 El primer paso es la realización del POST (power-on self test). El trabajo del POST es chequear el hardware. El segundo paso de la BIOS es enumerar e inicializar los dispositivos locales.
 
-Para bootear un sistema operativo, el runtime de la BIOS busca dispositivos activos y booteables en el orden de preferencia definido por la configuración del CMOS. Un disco booteable contiene un [[MBR]] (en caso de un sistema UEFI se tiene un [[GPT]]), este es un sector de 512 bytes que se ubica como el primer sector del cilindro 0 cabeza 0. Luego de que el MBR es cargado en memoria principal la BIOS cede el control.
+Para bootear un sistema operativo, el runtime de la BIOS busca dispositivos activos y booteables en el orden de preferencia definido por la configuración del CMOS. Un disco booteable contiene un [[MBR]] (en caso de un sistema [[UEFI]] se tiene un [[GPT]]), este es un sector de 512 bytes que se ubica como el primer sector del cilindro 0 cabeza 0. Luego de que el MBR es cargado en memoria principal la BIOS cede el control.
 
 El boot loader primario que reside en el MBR es una imagen de 512 bytes que contiene tanto código de programa como una pequeña tabla de particiones. Los primeros 446 bytes son el boot loader primario, los siguientes 64 bytes son la tabla de particiones, que contiene un registro por cada una de las 4 particiones (de aquí el límite). El MBR finaliza con 2 bytes que son definidos como el magic number (0xAA55). El magic number sirve como una validación del MBR.
 
