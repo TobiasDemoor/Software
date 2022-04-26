@@ -1,3 +1,6 @@
+---
+aliases: ["ciclo de vida del software"]
+---
 ### Identificación de los problemas, oportunidades y objetivos
 En la primera fase el analista debe analizar con honestidad lo que está ocurriendo en la empresa. Después, junto con otros miembros de la organización, debe comenzar a **señalar los problemas**. A menudo, otras personas habrían planteado también estos problemas, razón por la cual se llamó en un principio al analista. Las **oportunidades residen en las situaciones que el analista cree poder mejorar mediante el uso de [[Sistema de Información|sistemas de información]] computarizados**. Al aprovechar estas oportunidades, la empresa puede obtener una ventaja competitiva o establecer un estándar en la industria.
 

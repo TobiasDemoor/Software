@@ -1,4 +1,6 @@
-# Requerimientos funcionales
+---
+aliases: ["requerimientos funcionales"]
+---
 > “Son las declaraciones de los servicios que debe responder el sistema y de la manera en la que debe reaccionar a las entradas. **Describen lo que el sistema debe hacer**.” -(Sommerville, 2005)
 
 La especificación de requerimientos funcionales debe estar completa y ser consistente:

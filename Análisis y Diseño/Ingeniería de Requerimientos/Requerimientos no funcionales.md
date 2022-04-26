@@ -1,4 +1,6 @@
-# Requerimientos no funcionales
+---
+aliases: ["requerimientos no funcionales"]
+---
 > “Son restricciones establecidas de algunas características o propiedades, que en general afectan a todo el sistema.” -(Sommerville, 2005)
 
 Son más críticos que los requerimientos funcionales porque el incumplimiento de un requerimiento no funcional puede significar que el sistema entero sea inutilizable.

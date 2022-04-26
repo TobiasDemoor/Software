@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Herramientas/iptables.md",
+            "file": "Taller de Prog II/Calidad de software.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Herramientas/iptables.md",
+                "file": "Taller de Prog II/Calidad de software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Herramientas/iptables.md",
+                "file": "Taller de Prog II/Calidad de software.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
-    "Seguridad Informática/Herramientas/iptables.md",
+    "Taller de Prog II/Calidad de software.md",
+    "Análisis y Diseño/Software Development Lifecycle.md",
+    "Taller de Prog II/Costos de la calidad.md",
+    "Análisis y Diseño/FURPS+/Performance.md",
+    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
+    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos no funcionales.md",
+    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos funcionales.md",
     "Taller de Prog II/Calidad.md",
-    "Software Libre/Linux/Terminales.md",
     "Taller de Prog II/Daily/20220426.md",
-    "Taller de Prog II/Daily/20220419.md",
-    "Seguridad Informática/Daily/20220425.md",
-    "Taller de Prog II/Daily/20220422.md",
-    "Software Libre/Deamon.md",
-    "Software Libre/Linux/Funciones/setsid().md",
-    "Software Libre/Linux/Proceso de arranque.md"
+    "Seguridad Informática/Herramientas/iptables.md"
   ]
 }
