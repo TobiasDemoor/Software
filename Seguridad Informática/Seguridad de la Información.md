@@ -27,6 +27,15 @@ El objetivo de una **política de seguridad de la información** es proteger los
 
 Su finalidad es dar confidencialidad, integridad, disponibilidad, legalidad y confiabilidad de la información. Y debe asegurar la implementación de las medidas de seguridad comprendidas en las politicas, y el mantenimiento de las políticas, a efectos de asegurar su vigencia y nivel de eficacia.
 
+Para una política se deben definir:
+- **Alcance**. Las políticas se aplican en todo el ámbito de la organización, a sus recursos y a la totalidad de los procesos, ya sean interno o externos vinculados a la entidad a través de contactos o acuerdos con terceros.
+	- Se deben tener políticas para la utilización e interacción con sistemas o software de terceros.
+- **Responsabilidad**. Todos los integrantes de la organización de acuerdo a su relación con la misma. Todos están involucrados, pero cambian los niveles de seguridad. 
+- **Objetivo**. Proteger los recursos de información de la organización y la tecnología utilizada para su procesamiento de las amenazas internas o externas deliberadas o accidentales. 
+- **Finalidad**. Dar confidencialidad, integridad, disponibilidad, legalidad y confiabilidad de la información. 
+- **Debe asegurar**: 
+	- La implementación de las medidas de seguridad comprendidas en las políticas. 
+	- Mantenimiento de las Políticas, a efectos de asegurar su vigencia y nivel de eficacia.
 
 ### ¿Por qué tener políticas escritas?
 1. Para cumplir con regulaciones legales o técnicas.

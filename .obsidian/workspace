@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Daily/20220429.md",
+            "file": "Seguridad Informática/Criptología.md",
             "mode": "source",
             "source": false
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pcb",
+                "query": "políticas de seguridad ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,13 +77,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Daily/20220429.md",
+                "file": "Seguridad Informática/Criptología.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Daily/20220429.md",
+                "file": "Seguridad Informática/Criptología.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
-    "Taller de Prog II/Daily/20220429.md",
-    "Taller de Prog II/Calidad de software.md",
-    "Taller de Prog II/Software Quality Assurance.md",
-    "Taller de Prog II/Daily/20220426.md",
-    "Taller de Prog II/Contratos.md",
-    "Análisis y Diseño/Software Development Lifecycle.md",
-    "Taller de Prog II/Costos de la calidad.md",
-    "Análisis y Diseño/FURPS+/Performance.md",
-    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
-    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos no funcionales.md"
+    "Seguridad Informática/Criptología.md",
+    "Seguridad Informática/Pentesting.md",
+    "Seguridad Informática/Gestión de Riesgos.md",
+    "Seguridad Informática/Seguridad de la Información.md",
+    "Seguridad Informática/Administración de Riesgos.md",
+    "Seguridad Informática/Evaluación de Riesgos.md",
+    "Seguridad Informática/Daily/20220314.md",
+    "Seguridad Informática/Conceptos/Comité de Seguridad de la Información.md",
+    "Seguridad Informática/Conceptos/Amenaza.md",
+    "Taller de Prog II/Daily/20220429.md"
   ]
 }

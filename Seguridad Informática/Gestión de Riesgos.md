@@ -3,6 +3,7 @@ aliases: ["gestión de riesgos"]
 ---
 La **gestión de riesgos** es un enfoque estructurado para manejar la incertidumbre relativa a una [[Amenaza|amenaza]], a través de una secuencia de actividades.
 
+#### ISO
 La metodología de gestión de riesgos según la ISO 31000 consiste en 3 pasos:
 - Establecimiento del contexto
 	- Identificar [[dominio]] de interés.
@@ -27,6 +28,7 @@ Tratamiento de riesgo
 6. Compartiendo el riesgo con otros (companias de seguros).
 7. Aceptando el riesgo mediante una decisión informada.
 
+#### PMI
 Según el Project Managment Institute (PMI) consiste de las siguientes etapas que forman un proceso cíclico:
 - Planeamiento de gestión de riesgos
 	- Entradas

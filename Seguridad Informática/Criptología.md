@@ -1,4 +1,4 @@
-La criptología estudia los problemas teóricos en la [[Seguridad]] en el intercambio de mensajes. Tiene dos ramas, la criptografía (el arte de escribir mensajes secretos) y el criptoanálisis (el arte de descifrar mensajes secretos).
+La criptología estudia los problemas teóricos en la [[Seguridad|seguridad]] en el intercambio de mensajes. Tiene dos ramas, la criptografía (el arte de escribir mensajes secretos) y el criptoanálisis (el arte de descifrar mensajes secretos).
 
 ## Criptosistemas
 Se define a un criptosistema como la quíntupla (M, C, K, E, D), donde:
