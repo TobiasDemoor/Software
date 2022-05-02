@@ -1,4 +1,4 @@
-El objetivo es poder enviar un documento firmado a través de medios electrónicos de manera que ese documento cuente, por lo menos, con las mismas características técnicas de [[Seguridad]] y legales que tiene un documento firmado holográficamente.
+El objetivo es poder enviar un documento firmado a través de medios electrónicos de manera que ese documento cuente, por lo menos, con las mismas características técnicas de [[Seguridad|seguridad]] y legales que tiene un documento firmado holográficamente.
 
 La firma digital es una solución tecnológica que permite autenticar el origen y verificar la integridad del contenido de un mensaje de tal manera que ambas características sean demostrables ante terceros. Es el resultado de aplicarle a un documento digital un procedimiento matemático que requiere información de exclusivo conocimiento del firmante, encontrándose ésta bajo su absoluto control. Debe ser susceptible de verificación por terceras partes, de manera tal que dicha verificación permita simultáneamente identificar al firmante y detectar cualquier alteración del documento digital posterior a su firma.
 

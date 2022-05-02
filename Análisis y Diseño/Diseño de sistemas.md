@@ -1,4 +1,4 @@
-"El diseño es la actividad del ciclo de desarrollo del software donde se unen la creatividad, los [[Requerimientos]] de los participantes, las necesidades del negocio y las consideraciones técnicas para formular un sistema o producto" -(Pressman, 2010)
+> "El diseño es la actividad del ciclo de desarrollo del software donde se unen la creatividad, los [[Requerimientos]] de los participantes, las necesidades del negocio y las consideraciones técnicas para formular un sistema o producto" -(Pressman, 2010)
 
 El diseño es la actividad que tiene que ver con la toma de decisiones importantes, toma las decisiones más generals que afectan fuertemente a todo el producto. Esta es la etapa en la cuál se genera la [[Deuda técnica|deuda técnica]].
 
