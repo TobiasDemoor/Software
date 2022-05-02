@@ -9,3 +9,5 @@ Donde
 - e: llave pública
 - d: llave privada
 - n = P\*Q (ya calculado)
+
+> Las cuentas de exponenciación mod n pueden realizarse muy rápidamente utilizando el algorítmo square & multiply

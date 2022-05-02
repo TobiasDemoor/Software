@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Seguridad de la Información.md",
+            "file": "Teoría de la Información/Encriptación/RSA.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Seguridad de la Información.md",
+                "file": "Teoría de la Información/Encriptación/RSA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Seguridad de la Información.md",
+                "file": "Teoría de la Información/Encriptación/RSA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +109,7 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Teoría de la Información/Encriptación/RSA.md",
     "Seguridad Informática/Seguridad de la Información.md",
     "Seguridad Informática/Seguridad.md",
     "Seguridad Informática/Gestión de Riesgos.md",
@@ -117,7 +118,6 @@
     "Seguridad Informática/Evaluación de Riesgos.md",
     "Seguridad Informática/Pentesting.md",
     "Seguridad Informática/Firma digital/Firma digital.md",
-    "Seguridad Informática/Firma digital/Firma digital Argentina.md",
-    "Seguridad Informática/Conceptos/Gobierno electrónico.md"
+    "Seguridad Informática/Firma digital/Firma digital Argentina.md"
   ]
 }
