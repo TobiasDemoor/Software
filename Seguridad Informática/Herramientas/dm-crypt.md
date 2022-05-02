@@ -6,7 +6,7 @@ El usuario puede básicamente especificar uno de los **cifrados simétricos que 
 
 Las escrituras en este dispositivo serán encriptadas y se leerán descifradas. Puede montar su sistema de archivos como de costumbre o apilar el dispositivo dm-crypt con otro dispositivo como volumen RAID o LVM.
 
-Algunas distribuciones de Linux admiten el uso de dm-crypt en el sistema de archivos raíz. Estas distribuciones usan initrd para solicitar al usuario que ingrese una frase de contraseña en la consola o que inserte una tarjeta inteligente antes del proceso de inicio normal. Es decir permiten arrancar un sistema operativo con el sistema de archivos casi completamente cifrado.
+Algunas distribuciones de Linux admiten el uso de dm-crypt en el sistema de archivos raíz. Estas distribuciones usan initrd ([[Proceso de arranque]]) para solicitar al usuario que ingrese una frase de contraseña en la consola o que inserte una tarjeta inteligente antes del proceso de inicio normal. Es decir permiten arrancar un sistema operativo con el sistema de archivos casi completamente cifrado.
 
 ### cryptsetup
 El mapeador de dispositivos dm-crypt reside completamente en el espacio del kernel y solo se ocupa del cifrado del dispositivos de bloque, **no interpreta ningún dato por sí mismo**. Se basa en las utilidades userspace para crear y activar volúmenes cifrados y administrar la autenticación.

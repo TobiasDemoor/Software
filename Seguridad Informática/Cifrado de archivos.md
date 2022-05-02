@@ -27,3 +27,15 @@ También tiene como desventajas que el desbloqueo de las partes cifradas del dis
 
 ### ¿Cómo funciona?
 Todos los métodos de cifrado de disco funcionan de tal manera que, aunque el disco contiene datos encriptados, el sistema operativo y las aplicaciones "lo ven" como los datos legibles normales correspondientes, siempre que el contenedor criptográfico (es decir, la parte lógica del disco que contiene los datos encriptados) han sido "desbloqueados" y montados. Para que esto suceda, el usuario debe proporcionar cierta "información secreta" (generalmente en forma de un archivo de clave y / o frase de [[Passwords|contraseña]]), de la cual se puede derivar la clave de cifrado real (y almacenarla en el llavero del núcleo durante el tiempo de la sesión).
+
+Se llama clave maestra a la clave con la que efectivamente se cifran los datos. La clave de usuario solo sirve para llegar a la clave maestra, esto permite cambiar la clave de usuario sin tener que descifrar y volver a cifrar todo el disco y asegura que la clave de cifrado sea robusta. Se encuentra en el disco, por lo que si se rompe la parte del disco donde se encuentra, tenemos un problemita (para esto se suele replicar).
+
+### Ejemplos
+#### EncFS
+![[EncFS]]
+
+#### dm-crypt
+![[dm-crypt]]
+
+#### LUKS
+![[LUKS]]

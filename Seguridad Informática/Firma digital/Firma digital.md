@@ -1,3 +1,6 @@
+---
+aliases: ["firma digital"]
+---
 El objetivo es poder enviar un documento firmado a través de medios electrónicos de manera que ese documento cuente, por lo menos, con las mismas características técnicas de [[Seguridad|seguridad]] y legales que tiene un documento firmado holográficamente.
 
 La firma digital es una solución tecnológica que permite autenticar el origen y verificar la integridad del contenido de un mensaje de tal manera que ambas características sean demostrables ante terceros. Es el resultado de aplicarle a un documento digital un procedimiento matemático que requiere información de exclusivo conocimiento del firmante, encontrándose ésta bajo su absoluto control. Debe ser susceptible de verificación por terceras partes, de manera tal que dicha verificación permita simultáneamente identificar al firmante y detectar cualquier alteración del documento digital posterior a su firma.
@@ -14,24 +17,17 @@ Se requiere:
 - **Atribuir** el documento a su autor (una persona) en forma fehaciente (autenticar al autor).
 - **Verificar** la no alteración del contenido del documento luego de que fue firmado (integridad del contenido).
 - **Garantizar** el no repudio.
-  
+
 ### Firma electrónica
 Se entiende por firma electrónica al conjunto de datos electrónicos integrados, ligados o asociados de manera lógica a otros datos electrónicos, utilizado por el signatario como su medio de identificación, que carezca de algunos de los requisitos legales para ser considerada una firma digital.
 
 Un documento firmado digitalmente que no tenga un certificado emitido por un certificador licenciado es una firma electrónica pero no es una firma digital.
 
-### Ley N ° 25.506 de firma digital.
-Establece una infraestructura de firma digital nacional.
+### Firma digital Argentina
+![[Firma digital Argentina]]
 
-- Autoridad de aplicación: Ministerio de modernización.
-- Certificadores licenciados: sistema de acreditación obligatorio.
-- Firma digital: presunción de autoría e integridad, salvo prueba en contrario.
-- Principio de equivalencia funcional.
-- Firma electrónica: se invierte la carga probatoria.
-- Despapelización del Estado.
-- Neutralidad tecnológica.
-- Reconocimiento de certificados extranjeros.
-- Protección del suscriptor del certificado (quien firma).
-  
+### Infraestructura de clave pública (PKI)
+![[PKI]]
+
 ### Certificado de clave pública
-Los certificados de clave pública son documentos digitales firmados digitalmente por una autoridad certificante que vinculan la clave pública de una persona a sus datos de identidad.
+![[Certificado de clave pública]]

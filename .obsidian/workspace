@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Cifrado de archivos.md",
+            "file": "Seguridad Informática/Firma digital/Firma digital Argentina.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Cifrado de archivos.md",
+                "file": "Seguridad Informática/Firma digital/Firma digital Argentina.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Cifrado de archivos.md",
+                "file": "Seguridad Informática/Firma digital/Firma digital Argentina.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
-    "Seguridad Informática/Cifrado de archivos.md",
-    "Análisis y Diseño/Diseño de sistemas.md",
-    "Seguridad Informática/Criptología.md",
-    "Seguridad Informática/Firma digital.md",
-    "Teoría de la Información/Encriptación/RSA.md",
-    "Teoría de la Información/Encriptación/Clave Privada/AES.md",
-    "Teoría de la Información/Encriptación/Untitled.md",
-    "Teoría de la Información/Encriptación/Clave Privada/Feistel.md",
-    "Teoría de la Información/Encriptación/Clave Privada/DES.md",
-    "Seguridad Informática/Pentesting.md"
+    "Seguridad Informática/Firma digital/Firma digital Argentina.md",
+    "Seguridad Informática/Firma digital/Firma digital.md",
+    "Seguridad Informática/Conceptos/Gobierno electrónico.md",
+    "Seguridad Informática/Firma digital/Certificado de clave pública.md",
+    "Seguridad Informática/Firma digital/PKI.md",
+    "Seguridad Informática/Herramientas/OpenSSL.md",
+    "Seguridad Informática/Firma digital/UIT-T.md",
+    "Seguridad Informática/Firma digital/PKCS.md",
+    "Seguridad Informática/Administración de Riesgos.md",
+    "Seguridad Informática/Cifrado de archivos.md"
   ]
 }
