@@ -20,7 +20,7 @@ Consideraciones sobre la calidad:
 
 #### ¿Cómo se puede conseguir la satisfacción del cliente?
 Con **buenas cualidades**, como buen funcionamiento, fiabilidad, durabilidad, facilidad de uso, estética, personalización, servicio a tiempo, seguridad, cortesía, etc.
-**Sin defectos** a la entrega, durante el suo, en los procesos administrativos y en la facturación.
+**Sin defectos** a la entrega, durante el suo, en los [[Taller de Prog II/Proceso|procesos]] administrativos y en la facturación.
 
 #### ¿Por qué es tan importante la satisfacción del cliente?
 Porque el **96%** de los clientes insatisfechos nunca protestan, por tanto no podemos saber su insatisfacción.

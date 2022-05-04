@@ -7,12 +7,8 @@
         "id": "17eeedbcb6589a9f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Taller de Prog II/Mejora continua.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "políticas de seguridad ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +73,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Mejora continua.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Mejora continua.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +103,15 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
-    "Taller de Prog II/Mejora continua.md",
-    "Taller de Prog II/Procesos en una organización.md",
     "Taller de Prog II/Proceso.md",
-    "Sistemas Operativos/Conceptos/Proceso.md",
-    "Taller de Prog II/Conceptos/Mapa de procesos.md",
-    "Teoría de la Información/Encriptación/RSA.md",
-    "Seguridad Informática/Seguridad de la Información.md",
-    "Seguridad Informática/Seguridad.md",
     "Seguridad Informática/Gestión de Riesgos.md",
-    "Seguridad Informática/Ataques/Rubber-hose cryptanalysis.md"
+    "Taller de Prog II/Mejora continua.md",
+    "Taller de Prog II/Calidad.md",
+    "Taller de Prog II/Contratos.md",
+    "Análisis y Diseño/Software Development Lifecycle.md",
+    "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
+    "Taller de Prog II/Costos de la calidad.md",
+    "Seguridad Informática/Daily/20220317.md",
+    "Taller de Prog II/Procesos en una organización.md"
   ]
 }

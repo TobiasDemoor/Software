@@ -22,7 +22,7 @@ Cada desarrollo de software es único, aún cuando se usen los mismos métodos y
 - Registro y realización de informes.
 
 #### Funciones SQA
-- Como policía del proceso (monitorea constantemente al proceso)
+- Como policía del [[Taller de Prog II/Proceso|proceso]] (monitorea constantemente al proceso)
 	- Auditar los productos del trabajo para identificar deficiencias.
 	- Determinar el cumplimiento del plan de desarrollo del proyecto y del proceso de desarrollo de software.
 	- Juzgar el proceso y no el producto.
