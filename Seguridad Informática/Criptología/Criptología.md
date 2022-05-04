@@ -1,4 +1,4 @@
-La criptología estudia los problemas teóricos en la [[Seguridad|seguridad]] en el intercambio de mensajes. Tiene dos ramas, la criptografía (el arte de escribir mensajes secretos) y el criptoanálisis (el arte de descifrar mensajes secretos).
+La criptología estudia los problemas teóricos en la [[Seguridad|seguridad]] en el intercambio de mensajes. Tiene dos ramas, la [[Criptografía|criptografía]] (el arte de escribir mensajes secretos) y el [[Criptoanálisis|criptoanálisis]] (el arte de descifrar mensajes secretos).
 
 ## Criptosistemas
 Se define a un criptosistema como la quíntupla (M, C, K, E, D), donde:
@@ -22,10 +22,10 @@ Kp se conoce como clave pública y sirve para la transformación de cifrado (E).
 Estos criptosistemas deben cumplir además que el conocimiento de la clave pública no permita calcular la clave privada. Pueden emplearse para establecer comunicaciones seguras por canales inseguros.
 
 ## Esteganografía
-Consiste en ocultar en el interior de una información, aparentemente inocua, otro tipo de información (cifrada o no). Permite burlar diferentes sistemas de control y encubrir mensajes cifrados. La técnica se conoce como *chaffing and winnowing*, que se traduciría como separar la paja del trigo.
+![[Esteganografía]]
 
 ## Criptoanálisis
-La idea es comprometer la seguridad de un criptosistema. Se puede hacer de dos formas, descifrando el mensaje sin conocer la llave, o bien obteniendo a partir de uno o más criptogramas la clave que ha sido empleada en su codificación. No es criptoanálisis el descubrimiento de un algoritmo secreto de cifrado, suponemos, por el contrario, que **los algoritmos son siempre conocidos.**
+![[Criptoanálisis]]
 
 ## Criptosistemas específicos
 ### El cuadrado de Polibio

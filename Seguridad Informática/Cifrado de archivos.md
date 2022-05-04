@@ -1,4 +1,4 @@
-El cifrado de archivos implica **[[Criptología|cifrar]] a nivel de los datos almacenados en un equipo**. Cuando se cifra un archivo o directorio, su contenido se codifica y solamente quien tenga la clave de cifrado correcta podrá decodificarlo y leerlo. Esto ayuda a aumentar la seguridad de los archivos y directorios individuales.
+El cifrado de archivos implica **[[Criptografía|cifrar]] a nivel de los datos almacenados en un equipo**. Cuando se cifra un archivo o directorio, su contenido se codifica y solamente quien tenga la clave de cifrado correcta podrá decodificarlo y leerlo. Esto ayuda a aumentar la seguridad de los archivos y directorios individuales.
 
 El cifrado de archivos es útil para evitar la visualización no autorizada de los datos cuando la computadora o el disco:
 - Están ubicados en un lugar al que las personas no confiables podrían tener acceso mientras estás fuera

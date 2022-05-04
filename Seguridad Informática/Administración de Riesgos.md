@@ -5,5 +5,8 @@ Se entiende por **administración de riesgos** al proceso de identificación, co
 
 > La administración de riesgos es un proceso. Los riesgos no se pueden elminar, solo se puede reducir su probabilidad de ocurrencia.
 
-
+### Gestión de Riesgos
 ![[Gestión de Riesgos]]
+
+### Evaluación de Riesgos
+![[Evaluación de Riesgos]]

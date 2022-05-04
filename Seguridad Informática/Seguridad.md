@@ -44,7 +44,10 @@ Y para protegernos hay 4 mecanísmos de seguridad generales:
 3. **Recuperación**
 4. **Análisis forense**
 
+## Seguridad de la Información
+![[Seguridad de la Información]]
 
+%%
 ## Resumen Polo
 - Cuando decimos que una ciudad es segura o insegura, estamos hablando de una “medida” o “grado” de la ciudad en relación a los riesgos a los que uno se expone viviendo en ella. Riesgo, por ejemplo, de que te maten o te roben en la ciudad. 
 - La seguridad es una medida de confiabilidad del sistema (en general, en sentido amplio).
@@ -144,3 +147,4 @@ Poder verificar si realmente el usuario que pretende ingresar al SC es quien dic
 - Como dijimos, no hay conjunto de mecanismos capaz de GARANTIZAR la seguridad total. 
 - **El único mecanismo que puede brindar garantías de recuperación del SC cuando todos los mecanismos preventivos fallan, es el BACK UP.**
 - El resguardo de la información del SC es clave a la hora de definir una política.
+%%

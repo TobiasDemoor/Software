@@ -1,4 +1,4 @@
-Una **infraestructura de clave pública** (PKI) es una combinación de hardware, software y políticas y procedimientos de seguridad que permiten la ejecución con garantías de [[Criptología|operaciones criptográficas]], como el cifrado, la [[Firma digital|firma digital]] y el no repudio de las transacciones electrónicas.
+Una **infraestructura de clave pública** (PKI) es una combinación de hardware, software y políticas y procedimientos de seguridad que permiten la ejecución con garantías de [[Criptografía|operaciones criptográficas]], como el cifrado, la [[Firma digital|firma digital]] y el no repudio de las transacciones electrónicas.
 
 Usos de PKI:
 - Identificación de usuarios y sistemas (''login'')
