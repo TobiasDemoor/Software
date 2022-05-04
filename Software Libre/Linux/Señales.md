@@ -1,4 +1,4 @@
-Los [[Proceso|procesos]] en [[Linux]] pueden recibir señales de otros procesos. Las señales se usan para notificar a otros procesos y "avisarles" cosas, como por ejemplo que un hijo suyo ha ejecutado exit (SIGCHLD) o que debe finalizar su ejecución (SIGKILL, SIGTERM).
+Los [[Sistemas Operativos/Conceptos/Proceso|procesos]] en [[Linux]] pueden recibir señales de otros procesos. Las señales se usan para notificar a otros procesos y "avisarles" cosas, como por ejemplo que un hijo suyo ha ejecutado exit (SIGCHLD) o que debe finalizar su ejecución (SIGKILL, SIGTERM).
 
 |  Señal  |  Valor   | Acción | Comentario                                                                       |
 |:-------:|:--------:| ------ | -------------------------------------------------------------------------------- |

@@ -1,6 +1,6 @@
 El procesador es el recurso más utilizado demandado, dado que permite la ejecución de los procesos.
 
-Un [[proceso]] es un **[[programa]] en ejecución**. Es la unidad de procesamiento del SO (la del usuario es la [[Tarea]]).
+Un [[Sistemas Operativos/Conceptos/Proceso]] es un **[[programa]] en ejecución**. Es la unidad de procesamiento del SO (la del usuario es la [[Tarea]]).
 
 La taza o flujo de ejecución del proceso es la secuencia de instrucciones que se ejecutan para dicho proceso. No necesariamente se ejecutan de manera consecutiva, pueden existir bucles, ramas condicionales, etc., por lo que **no es posible saber a priori observando el código del programa cuál va a ser el flujo de ejecución del proceso**, dado que puede variar en tiempo de ejecución dependiendo de la información que dicha ejecución posea. Solo se puede saber cuando el proceso finaliza. NO HAY DOS PROCESOS IGUALES.
 

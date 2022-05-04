@@ -1,7 +1,7 @@
 ---
 aliases: ["deamon"]
 ---
-Un deamon es un [[Proceso|proceso]] de **larga duración** (a menudo, se crea un deamon al iniciar el sistema y se ejecuta hasta que el sistema está apagado) que **se ejecuta en segundo plano** y **no tiene terminal de control**. La falta de una terminal de control asegura que el kernel nunca genere automáticamente señales de control de trabajo o relacionadas con la terminal (como SIGINT, SIGTSTP y SIGHUP) para un deamon.
+Un deamon es un [[Sistemas Operativos/Conceptos/Proceso|proceso]] de **larga duración** (a menudo, se crea un deamon al iniciar el sistema y se ejecuta hasta que el sistema está apagado) que **se ejecuta en segundo plano** y **no tiene terminal de control**. La falta de una terminal de control asegura que el kernel nunca genere automáticamente señales de control de trabajo o relacionadas con la terminal (como SIGINT, SIGTSTP y SIGHUP) para un deamon.
 
 Muchos daemons estándar se ejecutan como procesos con [[Permisos|privilegios]] (es decir, ID de usuario efectivo de 0). Esto no es lo ideal.
 

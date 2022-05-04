@@ -36,7 +36,7 @@ Incluye, fundamentalmente, al [[Sistemas Operativos|sistema operativo]] y a las 
 ![[Programa]]
 
 ### Proceso
-![[Proceso]]
+![[Sistemas Operativos/Conceptos/Proceso]]
 
 ### Hilo
 ![[Thread]]

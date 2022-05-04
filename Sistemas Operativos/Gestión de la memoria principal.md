@@ -2,7 +2,7 @@ La memoria es uno de los recursos básicos del Sistema de Computación. Necesita
 **
 La memoria principal y los registros del procesador son las únicas unidades de almacenamiento a las que el CPU puede acceder de manera directa. Para los registros, solo basta con un ciclo de reloj, mientras que para el acceso a memoria se requieren dos o más ciclos de reloj. Para solventar esta situación, se añaden memorias caché (más veloces que la principal) intermedias entre el procesador y la memoria principal, la cual actúa como buffer de memoria.
 
-La administración de memoria central es la función del sistema operativo que lleva el registro de cuáles partes de la memoria están en uso, asigna memoria a los procesos cuando la precisan y los desaloja cuando terminan. Cuando se requiere que un sistema albergue más de un [[proceso]] en memoria, se deben adoptar políticas de administración de la memoria, debiéndose implementar medidas de [[protección]] para que un proceso no viole el espacio asignado a otro y establecer criterios para asignar el espacio a los procesos a cargar.
+La administración de memoria central es la función del sistema operativo que lleva el registro de cuáles partes de la memoria están en uso, asigna memoria a los procesos cuando la precisan y los desaloja cuando terminan. Cuando se requiere que un sistema albergue más de un [[Sistemas Operativos/Conceptos/Proceso]] en memoria, se deben adoptar políticas de administración de la memoria, debiéndose implementar medidas de [[protección]] para que un proceso no viole el espacio asignado a otro y establecer criterios para asignar el espacio a los procesos a cargar.
 ## **Fragmentación**
 Es la cantidad de memoria ociosa (no utilizada efectivamente), esté disponible o no.
 

@@ -1,5 +1,5 @@
 Sincronización y coordinación son 2 fenómenos relacionados.
-- En **sincronización de [[Proceso|procesos]]**, nos queremos asegurar que un proceso espera a otro para completar su operación.
+- En **sincronización de [[Sistemas Operativos/Conceptos/Proceso|procesos]]**, nos queremos asegurar que un proceso espera a otro para completar su operación.
 - Cuando hablamos de **sincronización de datos**, el problema es asegurar que 2 conjuntos de datos son los mismos (consistencia de datos).
 - En **coordinación**, el objetivo es manejar las interacciones y dependencias entre actividades en un [[Sistemas Distribuidos|sistema distribuido]].
 Desde esta perspectiva, podemos afirmar que **la coordinación encapsula la sincronización**.

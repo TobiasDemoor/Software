@@ -7,7 +7,7 @@ Cuando hablamos de **PROTECCIÓN**, nos referimos a un problema interno del SC, 
 - *Garantizar la Protección de un SC es administrar, conforme la política establecida, los privilegios que los procesos tienen sobre los recursos (e instancias) del SC.*
 - Un sistema es una colección de procesos y recursos (hardware o software).
 - Los recursos básicos (4) tienen una granularidad muy grande para ser susceptibles de asignar privilegios. Incluso si hablamos de instancias.
-- Un [[proceso]] no puede tener tal o cual privilegio sobre “la información” como recurso, dado que es un recurso muy amplio y es conveniente asignar privilegios según una unidad menor (carpeta o [[archivo]] o celda de un archivo, por ejemplo). Si un proceso tuviese privilegios sobre un dispositivo de E/S por ejemplo, podría manipular TODA la información que maneje dicho dispositivo.
+- Un [[Sistemas Operativos/Conceptos/Proceso]] no puede tener tal o cual privilegio sobre “la información” como recurso, dado que es un recurso muy amplio y es conveniente asignar privilegios según una unidad menor (carpeta o [[archivo]] o celda de un archivo, por ejemplo). Si un proceso tuviese privilegios sobre un dispositivo de E/S por ejemplo, podría manipular TODA la información que maneje dicho dispositivo.
 - Si la granularidad la hacemos muy fina, nos quedamos con una unidad de asignación de privilegios muy pequeña y, entonces, la asignación de privilegios es interminable.
 
 ## **Principio del mínimo privilegio**

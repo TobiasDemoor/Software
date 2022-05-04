@@ -6,7 +6,7 @@ Therefore, it should be written with this audience and goal in mind: What do I n
 	- Organización conceptual del software en términos de las [[Layers|capas]], subsistemas, paquetes, [[Framework|frameworks]], clases e interfaces más importantes.
 	- Muestra realización de [[Use Case|casos de uso]] sobresalientes (como diagramas de interacción) que ilustran aspectos claves del sistema.
 2. **Process architecture**
-	- [[Proceso|Procesos]] e [[Thread|hilos]]. Sus responsabilidades, colaboraciones y su la alocación de elementos lógicos a ellos.
+	- [[Sistemas Operativos/Conceptos/Proceso|Procesos]] e [[Thread|hilos]]. Sus responsabilidades, colaboraciones y su la alocación de elementos lógicos a ellos.
 3. **Deployment architecture** describe el sistema en terminos de la alocación de procesos a unidades de procesamiento y la configuración de red. Resume la topología del sistema, comunicaciones y mapeo de los elementos ejecutables a nodos de procesamiento, es un término similar a arquitectura de sistema.
 	- Deployment físico de procesos y [[Componente|componentes]] a nodos de procesamiento y la configuración red física entre los nodos.
 	- Una vista al Deployment Model visualizado con [[Deployment Diagram|deployment diagrams]].

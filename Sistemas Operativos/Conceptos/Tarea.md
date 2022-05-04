@@ -1,1 +1,1 @@
-Es la unidad de procesamiento vista desde la perspectiva del usuario. Una tarea se descompone como un conjunto de [[Proceso|procesos]], que es lo que el [[Sistemas Operativos|sistema operativo]] ve.
+Es la unidad de procesamiento vista desde la perspectiva del usuario. Una tarea se descompone como un conjunto de [[Sistemas Operativos/Conceptos/Proceso|procesos]], que es lo que el [[Sistemas Operativos|sistema operativo]] ve.

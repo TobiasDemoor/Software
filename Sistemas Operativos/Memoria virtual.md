@@ -5,7 +5,7 @@ Memoria virtual es una técnica de administración de memoria que permite la eje
 
 Todas las referencias a memoria serán direcciones lógicas que se traducirán dinámicamente a direcciones físicas durante la ejecución (realocación dinámica).
 
-Un [[proceso]] puede dividirse en varias partes y no es necesario que todas estas partes estén en la memoria ppal. durante la ejecución. Es decir, no será necesario que estén todas las páginas o segmentos del proceso cargadas en memoria en tiempo de ejecución.
+Un [[Sistemas Operativos/Conceptos/Proceso]] puede dividirse en varias partes y no es necesario que todas estas partes estén en la memoria ppal. durante la ejecución. Es decir, no será necesario que estén todas las páginas o segmentos del proceso cargadas en memoria en tiempo de ejecución.
 
 La memoria virtual es una memoria situada en disco (área de swap) y permite una multiprogramación más eficiente.
 

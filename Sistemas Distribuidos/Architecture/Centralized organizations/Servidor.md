@@ -1,8 +1,8 @@
 %%[[Client-Server]]%%
-Un servidor es un [[Proceso|proceso]] implementando un servicio específico para un conjunto de [[Cliente|clientes]]. En esencia, cada servidor está organizado de la misma manera: espera un pedido de un cliente y subsecuentemente se asegura que dicho pedido sea resuelto, luego de lo cual espera el siguiente pedido.
+Un servidor es un [[Sistemas Operativos/Conceptos/Proceso|proceso]] implementando un servicio específico para un conjunto de [[Cliente|clientes]]. En esencia, cada servidor está organizado de la misma manera: espera un pedido de un cliente y subsecuentemente se asegura que dicho pedido sea resuelto, luego de lo cual espera el siguiente pedido.
 
 ### Servidores concurrentes vs iterativos
-Hay varias maneras de organizar servidores. En el caso de un **servidor iterativo** el servidor en sí resuelve el pedido y, si es necesario, envía la respuesta al cliente solicitante. Un **servidor concurrente** no se encarga personalmente de resolver el pedido, sino que lo delega a otro [[Thread|hilo de ejecución]] o a otro [[Proceso|proceso]]. Un servidor multihilo es un ejemplo de servidor concurrente. Otra alternativa es crear un nuevo proceso para cada request recibida.
+Hay varias maneras de organizar servidores. En el caso de un **servidor iterativo** el servidor en sí resuelve el pedido y, si es necesario, envía la respuesta al cliente solicitante. Un **servidor concurrente** no se encarga personalmente de resolver el pedido, sino que lo delega a otro [[Thread|hilo de ejecución]] o a otro [[Sistemas Operativos/Conceptos/Proceso|proceso]]. Un servidor multihilo es un ejemplo de servidor concurrente. Otra alternativa es crear un nuevo proceso para cada request recibida.
 
 #### Servidor multihilo
 El servidor usualmente se espera por una solicitud, la lleva a cabo y envía la respuesta. Una organización particularmente popular es en la cual se tiene un [[Thread|hilo]] llamado **dispatcher**, el cual lee requests entrantes y luego de examinarlas elige un **worker thread** que se encuentre suspendido y le entrega la request.

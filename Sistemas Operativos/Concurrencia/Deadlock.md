@@ -1,4 +1,4 @@
-El **deadlock** o **interbloqueo** es un problema que afecta a [[Proceso|procesos]] concurrentes que utilizan recursos en un sistema.
+El **deadlock** o **interbloqueo** es un problema que afecta a [[Sistemas Operativos/Conceptos/Proceso|procesos]] concurrentes que utilizan recursos en un sistema.
 
 Es una situación en el [[Sistemas de Computación]] donde un conjunto de procesos se encuentran bloqueados, cada uno de ellos esperando por un recurso que retiene otro proceso de ese conjunto.
 

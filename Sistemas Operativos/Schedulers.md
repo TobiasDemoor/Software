@@ -1,4 +1,4 @@
-Siempre que hay un recurso no compartible y un conjunto de procesos que compiten por él, el SO debe decidir qué [[proceso]] asignarlo. Recurre, entonces, a un planificador.
+Siempre que hay un recurso no compartible y un conjunto de procesos que compiten por él, el SO debe decidir qué [[Sistemas Operativos/Conceptos/Proceso]] asignarlo. Recurre, entonces, a un planificador.
 
 Solo se encargan de PLANIFICAR, pero no es el que materializa dicha planificación. Es decir, es el autor INTELECTUAL del uso de los recursos.
 

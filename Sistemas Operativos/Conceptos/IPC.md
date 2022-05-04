@@ -1,1 +1,1 @@
-Inter-process comunication (comunicación entre [[Proceso|procesos]]). Los procesos se comunican usualmente mediante archivos, dado que no existen espacios de direcciones solapados entre procesos.
+Inter-process comunication (comunicación entre [[Sistemas Operativos/Conceptos/Proceso|procesos]]). Los procesos se comunican usualmente mediante archivos, dado que no existen espacios de direcciones solapados entre procesos.
