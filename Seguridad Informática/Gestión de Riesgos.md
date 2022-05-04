@@ -18,15 +18,14 @@ La metodología de gestión de riesgos según la ISO 31000 consiste en 3 pasos:
 		- Experiencias
 - Evaluación ([[Evaluación de Riesgos]])
 	- Evaluados en cuanto a su gravedad potencial de impacto y la probabilidad de ocurrencia (en cuanto a la **[[Riesgo|magnitud del riesgo]]**).
-
-Tratamiento de riesgo
-1. Evitar el riesgo no iniciando o deteniendo la actividad.
-2. Tomando o incrementando el riesgo por una posible oportunidad.
-3. Eliminando el riesgo.
-4. Cambiando la probabilidad.
-5. Cambiando las consecuencias.
-6. Compartiendo el riesgo con otros (companias de seguros).
-7. Aceptando el riesgo mediante una decisión informada.
+- Tratamiento de riesgo
+	1. Evitar el riesgo no iniciando o deteniendo la actividad.
+	2. Tomando o incrementando el riesgo por una posible oportunidad.
+	3. Eliminando el riesgo.
+	4. Cambiando la probabilidad.
+	5. Cambiando las consecuencias.
+	6. Compartiendo el riesgo con otros (companias de seguros).
+	7. Aceptando el riesgo mediante una decisión informada.
 
 #### PMI
 Según el Project Managment Institute (PMI) consiste de las siguientes etapas que forman un proceso cíclico:
