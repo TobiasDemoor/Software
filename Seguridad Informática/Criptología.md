@@ -63,6 +63,9 @@ La gran mayoría de los algoritmos de cifrado simétricos se apoyan en los conce
 ### DES
 ![[DES]]
 
+### IDEA
+![[IDEA]]
+
 ## Algoritmos asimétricos de cifrado
 Constan de dos claves diferentes denominadas clave privada y clave pública. Una de ellas se emplea para codificar, mientras que la otra se usa para decodificar. Dependiendo de la aplicación que le demos al algoritmo la clave pública será la de cifrado o viceversa. En el caso de comunicación privada se cifra con la clave pública y en caso de autenticación se cifra con la clave privada.
 

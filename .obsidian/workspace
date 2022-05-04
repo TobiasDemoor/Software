@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Mejora continua.md",
+            "file": "Teoría de la Información/Encriptación/Clave Privada/IDEA.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Mejora continua.md",
+                "file": "Teoría de la Información/Encriptación/Clave Privada/IDEA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Mejora continua.md",
+                "file": "Teoría de la Información/Encriptación/Clave Privada/IDEA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -104,20 +104,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Teoría de la Información/Encriptación/Clave Privada/IDEA.md",
+    "Seguridad Informática/Criptología.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/ALOHA.md",
+    "Seguridad Informática/Herramientas/OpenSSL.md",
+    "Seguridad Informática/Herramientas/LUKS.md",
     "Taller de Prog II/Mejora continua.md",
     "Taller de Prog II/Daily/20220422.md",
     "Taller de Prog II/Proceso.md",
     "Seguridad Informática/Gestión de Riesgos.md",
-    "Taller de Prog II/Calidad.md",
-    "Taller de Prog II/Contratos.md",
-    "Análisis y Diseño/Software Development Lifecycle.md",
-    "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
-    "Taller de Prog II/Costos de la calidad.md",
-    "Seguridad Informática/Daily/20220317.md"
+    "Taller de Prog II/Calidad.md"
   ]
 }
