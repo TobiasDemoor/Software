@@ -1,3 +1,6 @@
+---
+aliases: ["mejora continua"]
+---
 La mejora continua es una conducta (una **actitud**) que intenta optimizar y aumentar la calidad de un producto, [[Taller de Prog II/Proceso|proceso]] o servicio. Consiste en revisar continuamente las operaciones de los problemas, la reducción de costos oportunidad y la racionalización.
 
 Los recursos económicos son limitados y el mundo es cada vez más competitivo a nivel de costos.

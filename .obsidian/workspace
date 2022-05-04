@@ -7,8 +7,12 @@
         "id": "17eeedbcb6589a9f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Taller de Prog II/Mejora continua.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Taller de Prog II/Mejora continua.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Taller de Prog II/Mejora continua.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -103,15 +109,15 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Taller de Prog II/Mejora continua.md",
+    "Taller de Prog II/Daily/20220422.md",
     "Taller de Prog II/Proceso.md",
     "Seguridad Informática/Gestión de Riesgos.md",
-    "Taller de Prog II/Mejora continua.md",
     "Taller de Prog II/Calidad.md",
     "Taller de Prog II/Contratos.md",
     "Análisis y Diseño/Software Development Lifecycle.md",
     "Bases de Datos/Diagramas/Diagrama Entidad Relación.md",
     "Taller de Prog II/Costos de la calidad.md",
-    "Seguridad Informática/Daily/20220317.md",
-    "Taller de Prog II/Procesos en una organización.md"
+    "Seguridad Informática/Daily/20220317.md"
   ]
 }
