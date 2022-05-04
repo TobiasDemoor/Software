@@ -1,0 +1,1 @@
+Un mapa de procesos es un diagrama que representa gráficamente los [[Taller de Prog II/Proceso|procesos]] de una organización en forma interrelacionada.
