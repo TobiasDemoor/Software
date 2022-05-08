@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
+            "file": "Taller de Prog II/Mejora continua.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
+                "file": "Taller de Prog II/Mejora continua.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
+                "file": "Taller de Prog II/Mejora continua.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +109,7 @@
   },
   "active": "17eeedbcb6589a9f",
   "lastOpenFiles": [
+    "Taller de Prog II/Mejora continua.md",
     "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
     "Análisis y Diseño/FURPS+/Reliability.md",
     "Análisis y Diseño/FURPS+/FURPS+.md",
@@ -117,7 +118,6 @@
     "Seguridad Informática/Pentesting.md",
     "Seguridad Informática/Ataques/Ingeniería Social.md",
     "Seguridad Informática/Gestión de Riesgos.md",
-    "Seguridad Informática/Evaluación de Riesgos.md",
-    "Seguridad Informática/Criptología/Cifrado de archivos.md"
+    "Seguridad Informática/Evaluación de Riesgos.md"
   ]
 }
