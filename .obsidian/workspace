@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "17eeedbcb6589a9f",
+        "id": "21d42d0fa73eb318",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Mejora continua.md",
+            "file": "Taller de Prog II/Kanban.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Mejora continua.md",
+                "file": "Taller de Prog II/Kanban.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Mejora continua.md",
+                "file": "Taller de Prog II/Kanban.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -107,8 +107,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "17eeedbcb6589a9f",
+  "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
+    "Taller de Prog II/Kanban.md",
     "Taller de Prog II/Mejora continua.md",
     "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
     "Análisis y Diseño/FURPS+/Reliability.md",
@@ -117,7 +118,6 @@
     "Seguridad Informática/Seguridad.md",
     "Seguridad Informática/Pentesting.md",
     "Seguridad Informática/Ataques/Ingeniería Social.md",
-    "Seguridad Informática/Gestión de Riesgos.md",
-    "Seguridad Informática/Evaluación de Riesgos.md"
+    "Seguridad Informática/Gestión de Riesgos.md"
   ]
 }

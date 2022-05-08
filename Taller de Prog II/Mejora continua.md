@@ -19,7 +19,7 @@ Se basa en la medición y retroalimentación sobre el rendimiento del proceso pa
 ### Pilares de la mejora continua
 - Mantenimiento productivo total
 - SMED
-- Kanban
+- [[Kanban]]
 - Jidoka
 - Just in time
 - Poka-yoke
