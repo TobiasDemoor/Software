@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Herramientas/bind9.md",
+            "file": "Seguridad Informática/Daily/20220509.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Herramientas/bind9.md",
+                "file": "Seguridad Informática/Daily/20220509.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Herramientas/bind9.md",
+                "file": "Seguridad Informática/Daily/20220509.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,8 +109,8 @@
   },
   "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
-    "Seguridad Informática/Herramientas/bind9.md",
     "Seguridad Informática/Daily/20220509.md",
+    "Seguridad Informática/Herramientas/bind9.md",
     "Redes de computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
     "Taller de Prog II/Kanban.md",
     "Redes de computadoras/Conceptos/Internet.md",
