@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Kanban.md",
+            "file": "Seguridad Informática/Daily/20220509.md",
             "mode": "source",
             "source": false
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Kanban.md",
+                "file": "Seguridad Informática/Daily/20220509.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Kanban.md",
+                "file": "Seguridad Informática/Daily/20220509.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,18 +109,15 @@
   },
   "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
+    "Seguridad Informática/Daily/20220509.md",
+    "Redes de computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
     "Taller de Prog II/Kanban.md",
+    "Redes de computadoras/Conceptos/Internet.md",
+    "Seguridad Informática/Ataques/DNS cache poisoning.md",
+    "Sistemas Distribuidos/Coordinación/Naming/URL.md",
     "Taller de Prog II/Mejora continua.md",
     "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
     "Análisis y Diseño/FURPS+/Reliability.md",
-    "Análisis y Diseño/FURPS+/FURPS+.md",
-    "Seguridad Informática/Seguridad de la Información/Seguridad de la Información.md",
-    "Seguridad Informática/Seguridad.md",
-    "Seguridad Informática/Pentesting.md",
-    "Seguridad Informática/Daily/20220317.md",
-    "Seguridad Informática/Criptología/Firma digital/X.509.md",
-    "Teoría de la Información/Encriptación/Clave Privada/DES.md",
-    "Seguridad Informática/Ataques/Ingeniería Social.md",
-    "Seguridad Informática/Gestión de Riesgos.md"
+    "Análisis y Diseño/FURPS+/FURPS+.md"
   ]
 }
