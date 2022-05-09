@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "17eeedbcb6589a9f",
+        "id": "21d42d0fa73eb318",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sistemas Distribuidos/IoT/MQTT.md",
+            "file": "Taller de Prog II/Kanban.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemas Distribuidos/IoT/MQTT.md",
+                "file": "Taller de Prog II/Kanban.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemas Distribuidos/IoT/MQTT.md",
+                "file": "Taller de Prog II/Kanban.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -107,17 +107,20 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "17eeedbcb6589a9f",
+  "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/IoT/MQTT.md",
-    "Seguridad Informática/Seguridad de la Información/Políticas de Seguridad de la Información.md",
+    "Taller de Prog II/Kanban.md",
+    "Taller de Prog II/Mejora continua.md",
+    "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
+    "Análisis y Diseño/FURPS+/Reliability.md",
+    "Análisis y Diseño/FURPS+/FURPS+.md",
+    "Seguridad Informática/Seguridad de la Información/Seguridad de la Información.md",
+    "Seguridad Informática/Seguridad.md",
     "Seguridad Informática/Pentesting.md",
     "Seguridad Informática/Daily/20220317.md",
     "Seguridad Informática/Criptología/Firma digital/X.509.md",
     "Teoría de la Información/Encriptación/Clave Privada/DES.md",
     "Seguridad Informática/Ataques/Ingeniería Social.md",
-    "Seguridad Informática/Criptología/Firma digital/Firma digital.md",
-    "Seguridad Informática/Seguridad de la Información/Seguridad de la Información.md",
-    "Seguridad Informática/Seguridad de la Información/Activos de Información.md"
+    "Seguridad Informática/Gestión de Riesgos.md"
   ]
 }
