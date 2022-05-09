@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Daily/20220509.md",
+            "file": "Seguridad Informática/Herramientas/bind9.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Daily/20220509.md",
+                "file": "Seguridad Informática/Herramientas/bind9.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Daily/20220509.md",
+                "file": "Seguridad Informática/Herramientas/bind9.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +109,7 @@
   },
   "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
+    "Seguridad Informática/Herramientas/bind9.md",
     "Seguridad Informática/Daily/20220509.md",
     "Redes de computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
     "Taller de Prog II/Kanban.md",
@@ -117,7 +118,6 @@
     "Sistemas Distribuidos/Coordinación/Naming/URL.md",
     "Taller de Prog II/Mejora continua.md",
     "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
-    "Análisis y Diseño/FURPS+/Reliability.md",
-    "Análisis y Diseño/FURPS+/FURPS+.md"
+    "Análisis y Diseño/FURPS+/Reliability.md"
   ]
 }
