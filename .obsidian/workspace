@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "17eeedbcb6589a9f",
+        "id": "21d42d0fa73eb318",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Kanban.md",
+            "file": "Taller de Prog II/just-in-time.md",
             "mode": "source",
             "source": false
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "estegano",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Kanban.md",
+                "file": "Taller de Prog II/just-in-time.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Kanban.md",
+                "file": "Taller de Prog II/just-in-time.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,20 +104,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "17eeedbcb6589a9f",
+  "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
+    "Taller de Prog II/just-in-time.md",
     "Taller de Prog II/Kanban.md",
-    "Análisis y Diseño/Conceptos/Agile methodologies.md",
-    "Taller de Prog II/Mejora continua.md",
-    "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
-    "Análisis y Diseño/FURPS+/Reliability.md",
-    "Análisis y Diseño/FURPS+/FURPS+.md",
-    "Seguridad Informática/Seguridad de la Información/Seguridad de la Información.md",
-    "Seguridad Informática/Seguridad.md",
-    "Seguridad Informática/Pentesting.md",
-    "Seguridad Informática/Ataques/Ingeniería Social.md"
+    "Taller de Prog II/ust-in-time.md",
+    "Seguridad Informática/Daily/20220509.md",
+    "Seguridad Informática/Herramientas/bind9.md",
+    "Redes de computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
+    "Redes de computadoras/Conceptos/Internet.md",
+    "Seguridad Informática/Ataques/DNS cache poisoning.md",
+    "Sistemas Distribuidos/Coordinación/Naming/URL.md",
+    "Taller de Prog II/Mejora continua.md"
   ]
 }
