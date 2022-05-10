@@ -6,7 +6,7 @@ Un efecto secundario interesante de los sistemas de arrastre es que limitan el t
 
 Los kanban permiten lograr un **ritmo sustentable de trabajo**, es decir un nivel de producción que se puede mantener en el tiempo. En este ritmo los trabajadores mantienen un buen balance entre su vida laboral y personal y no se sienten aplastados por el trabajo.
 
-Taiichi Ohno uno de los creadores del TPS dijo: “Los dos pilares del sistema de producción Toyota son just-in-time y la automatización con un toque humano (o Autonomatización). La herramienta utilizada para operar el sistema es kanban.” Kanban es fundamental para el kaizen (o mejora continua) utilizado en Toyota. Es el mecanismo que lo hace funcionar.
+Taiichi Ohno uno de los creadores del TPS y el creador del sistema Kanban dijo: “Los dos pilares del sistema de producción Toyota son just-in-time y la automatización con un toque humano (o Autonomatización). La herramienta utilizada para operar el sistema es kanban.” Kanban es fundamental para el kaizen (o mejora continua) utilizado en Toyota. Es el mecanismo que lo hace funcionar.
 
 ### Sistema Kanban
 Un número de kanban (tarjetas) equivalente a la capacidad (acordada) del sistema es puesto en circulación. Una tarjeta es adjuntada a una parte del trabajo. Cada tarjeta actúa como un mecanismo de señalización. Una nueva parte del trabajo puede iniciarse solamente cuando una tarjeta está disponible. Esta tarjeta libre es adjuntada a una parte el trabajo y se permanece con ese trabajo a medida que fluye a través del sistema. Cuando no hay más tarjetas libres, no se puede iniciar ningún trabajo adicional. Todo trabajo nuevo tiene que esperar en cola hasta que una tarjeta esté disponible. Cuando algún trabajo ha sido completado, su tarjeta es desprendida y reciclada. Con una tarjeta ahora libre, una parte nueva del trabajo en cola puede iniciarse.
@@ -24,3 +24,18 @@ Utilizamos un sistema Kanban para limitar la capacidad del trabajo-en-proceso en
 Kanban también hace rápidamente obvios los asuntos que afectan el desempeño y reta al equipo a enfocarse en resolver esos asuntos con el fin de mantener un flujo continuo de trabajo. Dando visibilidad a lo problemas de calidad y de proceso se hace obvio el impacto de los defectos, los cuellos de botella, la variabilidad y los costos económicos en el flujo y en el throughput.
 
 Haciendo todo esto, Kanban cotribuye a la evolución cultural de las organizaciones. Exponiendo los problemas, enfocando la organización en resolverlos y eliminando sus efectos en el futuro, Kanban faciliita el surgimiento de una organización de [[Mejora continua|mejora continua]] altamente apoderada que es altamente colaborativa y tiene alta confianza.
+
+### Reconociendo una implementación del método Kanban
+Un equipo que sigue el método Kanban exhibirá 5 propiedades fundamentales:
+1. Visualizar el flujo de trabajo.
+2. Limitar el trabajo-en-progreso.
+3. Medir y administrar el flujo.
+4. Hacer las políticas del proceso explícitas.
+5. Utilizar modelos para reconocer oportunidades de mejora.
+
+Y hay 5 propiedades emergentes que deberíamos esperar de una implementación de Kanban:
+1. Priorizar el trabajo por costo oportunidad de retrazo.
+2. Optimizar valor por medio de clases de servicio.
+3. Distribuir el riesgo con la asignación de capacidad.
+4. Incentivar la innovación de procesos.
+5. Administrar cuantitativamente.
