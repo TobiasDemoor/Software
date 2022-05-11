@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/GlusterFS.md",
+            "file": "Organización de Datos/FUSE.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/GlusterFS.md",
+                "file": "Organización de Datos/FUSE.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/GlusterFS.md",
+                "file": "Organización de Datos/FUSE.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +109,8 @@
   },
   "active": "99212547863aa3c8",
   "lastOpenFiles": [
+    "Organización de Datos/FUSE.md",
+    "Sistemas Operativos/Sistemas de archivos/VFS.md",
     "Software Libre/GlusterFS.md",
     "docs.gluster.org/en/latest.md",
     "Seguridad Informática/Herramientas/EncFS.md",
@@ -116,8 +118,6 @@
     "Sistemas Distribuidos/Replicación/Replicación.md",
     "Sistemas Distribuidos/Network-attached storage.md",
     "Taller de Prog II/Mejora continua.md",
-    "Taller de Prog II/Mantenimiento Productivo Total.md",
-    "Taller de Prog II/just-in-time.md",
-    "Taller de Prog II/Kanban.md"
+    "Taller de Prog II/Mantenimiento Productivo Total.md"
   ]
 }

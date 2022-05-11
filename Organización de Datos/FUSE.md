@@ -1,9 +1,6 @@
-FUSE permite implementar un Sistema de archivo funcional en le espacio de usuario de programas. Las características que incluyen son:
-
-- Una librería simple.
-- El módulo está incorporado al kernel.
+FUSE (Filesystem in USErspace) es una interfáz de software para [[UNIX]] y sistemas compatibles que permite implementar un [[Sistemas de archivos|sistema de archivos]] funcional en userspace. FUSE es [[Software Libre|software libre]] y las características que incluyen son:
+- Una librería simple
 - Correr el sistema de archivo en “userspace”, esto implica que no necesita ser usuario privilegiado.
-- Corre en Linux 2.4.X en adelante.
 - Ha probado ser estable.
 
-FUSE fue desarrollado para soportar el sistema de archivo AVFS, posteriormente se convirtió en un proyecto aparte.
+El módulo está incorporado al kernel de [[Linux]] desde la versión 2.6.14 y además está disponible para FreeBSD, NetBSD, OpenSolaris, Minix 3, macOS y Windows.
