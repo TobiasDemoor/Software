@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Daily/20220512.md",
+            "file": "Taller de Prog II/Diagrama Ishikawa.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Daily/20220512.md",
+                "file": "Taller de Prog II/Diagrama Ishikawa.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Daily/20220512.md",
+                "file": "Taller de Prog II/Diagrama Ishikawa.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +109,8 @@
   },
   "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
+    "Taller de Prog II/Diagrama Ishikawa.md",
+    "Taller de Prog II/Daily/20220513.md",
     "Seguridad Informática/Daily/20220512.md",
     "Taller de Prog II/Mantenimiento Productivo Total.md",
     "Taller de Prog II/just-in-time.md",
@@ -116,8 +118,6 @@
     "Análisis y Diseño/Conceptos/Agile methodologies.md",
     "Taller de Prog II/ust-in-time.md",
     "Seguridad Informática/Daily/20220509.md",
-    "Seguridad Informática/Herramientas/bind9.md",
-    "Redes de computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
-    "Redes de computadoras/Conceptos/Internet.md"
+    "Seguridad Informática/Herramientas/bind9.md"
   ]
 }
