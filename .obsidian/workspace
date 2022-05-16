@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Daily/20220513.md",
+            "file": "Software Libre/Daily/20221605.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Daily/20220513.md",
+                "file": "Software Libre/Daily/20221605.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Daily/20220513.md",
+                "file": "Software Libre/Daily/20221605.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
-    "Taller de Prog II/Daily/20220513.md",
-    "Taller de Prog II/Diagrama Ishikawa.md",
-    "Seguridad Informática/Daily/20220512.md",
-    "Taller de Prog II/Mantenimiento Productivo Total.md",
-    "Taller de Prog II/just-in-time.md",
-    "Taller de Prog II/Kanban.md",
-    "Análisis y Diseño/Conceptos/Agile methodologies.md",
-    "Taller de Prog II/ust-in-time.md",
-    "Seguridad Informática/Daily/20220509.md",
-    "Seguridad Informática/Herramientas/bind9.md"
+    "Software Libre/Daily/20221605.md",
+    "Sistemas Operativos/Virtualización.md",
+    "Software Libre/Containers.md",
+    "Software Libre/Docker.md",
+    "Software Libre/Conceptos/Software Libre.md",
+    "Seguridad Informática/Pentesting.md",
+    "Seguridad Informática/Seguridad de la Información/Políticas de Seguridad de la Información.md",
+    "Seguridad Informática/Seguridad de la Información/Propietario de la Información.md",
+    "Seguridad Informática/Seguridad de la Información/Seguridad de la Información.md",
+    "Seguridad Informática/Seguridad de la Información/Activos de Información.md"
   ]
 }
