@@ -1,3 +1,6 @@
+---
+aliases: ["virtualización"]
+---
 La virtualización permite a una aplicación, y posiblemente su entorno completo incluyendo el [[Sistemas Operativos|sistema operativo]], correr concurrentemente con otras aplicaciones pero de una manera altamente independiente del hardware subyacente, llevando esto a un alto nivel de portabilidad.
 
 En esencia la virtualización trata con extender o reemplazar una [[Interfaz|interfaz]] existente con el fin de imitar el comportamiento de otro sistema.

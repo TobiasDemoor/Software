@@ -1,5 +1,5 @@
 ---
-aliases: ["software libre"]
+aliases: ["software libre", "código abierto"]
 ---
 **Software libre** significa que los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software.
 
