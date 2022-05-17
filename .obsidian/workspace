@@ -110,6 +110,7 @@
   "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
     "Software Libre/Containers.md",
+    "Software Libre/GlusterFS.md",
     "Resumenes/Resumen Organización de Datos.md",
     "Software Libre/Linux/Docker/UnionFS.md",
     "Software Libre/Linux/Docker/Kubernetes.md",
@@ -117,7 +118,6 @@
     "Software Libre/Linux/Docker/Docker.md",
     "Software Libre/Linux/Docker/cgroups.md",
     "Sistemas Operativos/Sistemas de archivos/Sistemas de archivos.md",
-    "Software Libre/Daily/20221605.md",
-    "Sistemas Distribuidos/Escalabilidad.md"
+    "Software Libre/Daily/20221605.md"
   ]
 }
