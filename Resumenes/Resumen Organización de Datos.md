@@ -24,18 +24,18 @@ Es el que indica como se organiza la información dentro de los medios físicos.
 
 Los sistemas de archivos pueden ser clasificados por medio, de red y de propósito especial.
 
-- Discos de plato magnético o Flash (acceso aleatorio): FAT, NTFS, HFS+, UFS, EXT2/3/4, XFS, BRTFS, Veritas File system, ZFS, ReiserFS
+- Discos de plato magnético o Flash (acceso aleatorio): [[FAT]], [[NTFS]], HFS+, UFS, [[EXT|EXT2/3/4]], XFS, BRTFS, Veritas File system, ZFS, ReiserFS
 - Discos Ópticos: ISO9660, UDF
 - Flash file System (Especialmente embebidos): JFFS, UBIFS, LogFS, F2FS, SquashFS
-- Network File System: NFS, AFS (Sistema de compartición de Apple), SMB (Sistema de compartición de Microsoft), FTP, Webdav, SSHFS.
+- Network File System: [[NFS]], AFS (Sistema de compartición de Apple), SMB (Sistema de compartición de Microsoft), FTP, Webdav, SSHFS.
 - Sistemas de archivos en Cluster: 
   - Shared-disk / storage area network: GFS2 (Red hat), GPFS (IBM), CSV (Microsoft), OCFS (Oracle)
-  - Distributed file systems: GFS (Google), HDFS (Apache), Ceph (Red Hat), DFS (Microsoft), GlusterFS (Red Hat)
+  - Distributed file systems: GFS (Google), HDFS (Apache), Ceph (Red Hat), DFS (Microsoft), [[GlusterFS]] (Red Hat)
 - Especiales:
   - procfs --> Mapeo de procesos y estructuras en Linux
   - configfs y sysfs --> Muestra como archivos los parámetros de consulta y configuración de un Linux
   - devfs --> los archivos en este FS representan a dispositivos. Y permite utilizar las primitivas de cualquier FS para acceder al dispositivo.
-  - Superpuestos --> overlayFS, UnionFS, aufs
+  - Superpuestos --> [[UnionFS|OverlayFS]], [[UnionFS]], aufs
 ## Aspectos a evaluar en un sistema de archivos
 - Manejo de espacio.
   - Manejo de nombres de los objetos (directorio y archivos).

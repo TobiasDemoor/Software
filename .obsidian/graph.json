@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Análisis y Diseño\"",
@@ -85,7 +85,7 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.9,
   "nodeSizeMultiplier": 1.73333333333333,
@@ -95,6 +95,6 @@
   "repelStrength": 12.9411764705882,
   "linkStrength": 0.779761904761905,
   "linkDistance": 410,
-  "scale": 0.04231590268975924,
+  "scale": 0.0423159026897594,
   "close": true
 }
