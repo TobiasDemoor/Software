@@ -1,3 +1,6 @@
+---
+aliases: ["escalabilidad"]
+---
 La escalabilidad es la capacidad de crecer a un costo razonable.
 
 #### Dimensiones de la escalabilidad

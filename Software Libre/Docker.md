@@ -1,1 +1,0 @@
-Docker es una plataforma de [[Containers|containers]] de [[Software Libre|código abierto]]
