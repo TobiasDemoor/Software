@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Containers.md",
+            "file": "Seguridad Informática/Daily/20220523.md",
             "mode": "source",
             "source": false
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "FTP",
+                "query": "dirección MAC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Containers.md",
+                "file": "Seguridad Informática/Daily/20220523.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Containers.md",
+                "file": "Seguridad Informática/Daily/20220523.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
-    "Software Libre/Containers.md",
-    "Software Libre/GlusterFS.md",
-    "Resumenes/Resumen Organización de Datos.md",
-    "Software Libre/Linux/Docker/UnionFS.md",
-    "Software Libre/Linux/Docker/Kubernetes.md",
-    "Software Libre/Linux/Docker/Docker Compose.md",
-    "Software Libre/Linux/Docker/Docker.md",
-    "Software Libre/Linux/Docker/cgroups.md",
-    "Sistemas Operativos/Sistemas de archivos/Sistemas de archivos.md",
-    "Software Libre/Daily/20221605.md"
+    "Seguridad Informática/Daily/20220523.md",
+    "Redes de computadoras/IEEE 802/802.3/Ethernet.md",
+    "Redes de computadoras/IEEE 802/802.3/Ethernet clásica.md",
+    "Redes de computadoras/Modelo OSI/Capa 3/IP/IP.md",
+    "Redes de computadoras/Modelo OSI/Capa 3/IPX.md",
+    "Redes de computadoras/Modelo OSI/Capa 2/Subcapa MAC/Subcapa MAC.md",
+    "Sistemas Distribuidos/Daily/20211012.md",
+    "Redes de computadoras/Modelo OSI/Capa 2/PPP.md",
+    "Redes de computadoras/Hardware/Router.md",
+    "Redes de computadoras/Modelo OSI/Capa 7/Capa de aplicación.md"
   ]
 }

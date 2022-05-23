@@ -1,5 +1,5 @@
 ---
-aliases: [capa 1]
+aliases: ["capa 1"]
 ---
 La **capa física** se relaciona con la transmisión de bits puros a través de un canal de transmisión. Los aspectos de diseño tienen que ver con la acción de asegurarse que cuando uno de los lados envíe un bit 1 el otro lado lo reciba como un bit 1, no como un bit 0. También tienen que ver son las interfaces mecánica, eléctrica y de temporización, así como con el medio físico que se encuentra bajo la capa. ^extracto
 
