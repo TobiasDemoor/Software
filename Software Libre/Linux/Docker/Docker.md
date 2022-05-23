@@ -65,7 +65,7 @@ $ docker container run -t -i ubuntu:20.04 /bin/bash
 
 ```sh
 # aquí primero creamos un volumen apache-data y luego levantamos un container
-# con apache (httpd) que levanta el volumen y su puerto 80 es forwardeado al
+# con apache ([[Apache HTTP Server|httpd]]) que levanta el volumen y su puerto 80 es forwardeado al
 # puerto 8080 de la máquina host
 $ docker volume create apache-data
 $ docker run -d --name apache-server -p 8080:80 -v apache-data:/usr/local/apache2/htdocs httpd

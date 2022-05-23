@@ -12,7 +12,7 @@ En [[Linux]], ciertos demonios se ejecutan como subprocesos del kernel. El códi
 ### Ejemplos de deamons
 - **cron**: un deamon que ejecuta comandos a una hora programada. (clasificación polémica)
 - **sshd**: el deamon de shell seguro, que permite inicios de sesión desde hosts remotos utilizando un protocolo de comunicaciones seguro
-- **httpd**: el deamon del servidor HTTP (Apache), que sirve a las páginas web.
+- **[[Apache HTTP Server|httpd]]**: el deamon del servidor HTTP (Apache), que sirve a las páginas web.
 - **inetd**: ex deamon superservidor de Internet, que escuchaba las conexiones de red entrantes en los puertos TCP / IP especificados y lanza los programas de servidor adecuados para manejar estas conexiones.
 
 ### Cómo crear un deamon
