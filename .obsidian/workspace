@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/CouchDB.md",
+            "file": "Redes de Computadoras/IEEE 802/802.11/Untitled.md",
             "mode": "source",
             "source": false
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pouch",
+                "query": "\"dirección MAC\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/CouchDB.md",
+                "file": "Redes de Computadoras/IEEE 802/802.11/Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/CouchDB.md",
+                "file": "Redes de Computadoras/IEEE 802/802.11/Untitled.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,20 +104,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "21d42d0fa73eb318",
   "lastOpenFiles": [
-    "Software Libre/CouchDB.md",
-    "Seguridad Informática/Daily/20220523.md",
-    "Software Libre/Daily/20220523.md",
-    "Software Libre/Daily/20220516.md",
-    "Sistemas Distribuidos/Replicación/Consistencia eventual.md",
-    "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md",
-    "Sistemas Distribuidos/Almacenamiento distribuido/Almacenamiento distribuido.md",
-    "Sistemas Distribuidos/Almacenamiento distribuido/NFS.md",
-    "Organización de Datos/Árboles/B Tree.md",
-    "Bases de Datos/Lenguajes/SQL.md"
+    "Redes de Computadoras/IEEE 802/802.11/Untitled.md",
+    "Redes de Computadoras/Modelo OSI/Capa 2/Subcapa MAC/Direcciones MAC.md",
+    "Sistemas Distribuidos/Coordinación/Naming/Sistema de Nombres.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/ARP.md",
+    "Redes de Computadoras/IEEE 802/802.1/VLAN.md",
+    "Redes de Computadoras/IEEE 802/802.1/Untitled.md",
+    "Redes de Computadoras/IEEE 802/802.3/Ethernet clásica.md",
+    "Redes de Computadoras/Conceptos/Broadcast.md",
+    "Redes de Computadoras/Conceptos/Multicast.md",
+    "Software Libre/Apache HTTP Server.md"
   ]
 }

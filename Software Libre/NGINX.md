@@ -1,1 +1,1 @@
-NGINX es un servidor web ligero [[Software Libre|software libre]].
+NGINX es un [[Servidor|servidor]] [[World Wide Web|WEB]] ligero [[Software Libre|software libre]].

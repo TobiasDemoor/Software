@@ -1,3 +1,6 @@
+---
+aliases: ["servidor", "server"]
+---
 %%[[Client-Server]]%%
 Un servidor es un [[Sistemas Operativos/Conceptos/Proceso|proceso]] implementando un servicio específico para un conjunto de [[Cliente|clientes]]. En esencia, cada servidor está organizado de la misma manera: espera un pedido de un cliente y subsecuentemente se asegura que dicho pedido sea resuelto, luego de lo cual espera el siguiente pedido.
 
