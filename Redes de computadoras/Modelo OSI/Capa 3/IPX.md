@@ -1,1 +1,1 @@
-Otro protocolo de [[Capa de red|capa 3]], similar a [[IP]] pero agregaba un campo para la MAC (o algo así)
+Otro protocolo de [[Capa de red|capa 3]], similar a [[IP]] pero agregaba un campo para la [[Direcciones MAC|MAC]] (o algo así)

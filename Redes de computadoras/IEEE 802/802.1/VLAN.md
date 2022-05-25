@@ -12,7 +12,7 @@ Las VLAN son una herramienta que permite definir un dominio de [[broadcast]] o [
 #### Tipos de VLANS
 Los distintos  criterios para definir a los miembros de una VLAN son los siguientes:
 - **Puertos del switch:** el puerto al que está conectada la estación determina la VLAN.
-- **Direcciones MAC:** la MAC del dispositivo determina a qué VLAN pertenece (no es seguro ya que las MAC son modificables).
+- **Direcciones MAC:** la [[Direcciones MAC|MAC]] del dispositivo determina a qué VLAN pertenece (no es seguro ya que las MAC son modificables).
 - **Direcciones IP de subred:** las estaciones pertenecen a la VLAN según su IP (tampoco es seguro ya que la IP es modificable).
 - **Por protocolos de red:** las estaciones pertenecen según el protocolo de capa 3. Esto es útil cuando se tienen dispositivos utilizando varios protodolos de capa 3 en una misma red de capa 2, como por ejemplo si se tiene televisión digital. Es útil ya que estos dispositivos no podrían interactuar entre sí sin otro dispositivo que actue de intermediario.
 

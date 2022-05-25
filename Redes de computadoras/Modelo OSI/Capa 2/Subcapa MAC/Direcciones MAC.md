@@ -1,3 +1,4 @@
 ---
 aliases: ["direcciones MAC", "dirección MAC", "MAC address"]
 ---
+En las redes de computadoras, la dirección MAC (siglas en inglés de Media Access Control) es un identificador de 48 bits (6 bloques de dos caracteres hexadecimales, 8 bits) que corresponde de forma única a una tarjeta o dispositivo de red. Se la conoce también como **dirección física**, y es única para cada dispositivo. Está determinada y configurada por el IEEE (los primeros 24 bits) y el fabricante (últimos 24 bits) utilizando el organizationally unique identifier (OUI). La mayoría de los protocolos que trabajan en la [[Capa de enlace de datos|capa 2]] del modelo OSI usan una de las tres numeraciones manejadas por el IEEE: MAC-48, EUI-48, y EUI-64, las cuales han sido diseñadas para ser identificadores globalmente únicos. No todos los protocolos de comunicación usan direcciones MAC, y no todos los protocolos requieren identificadores globalmente únicos.

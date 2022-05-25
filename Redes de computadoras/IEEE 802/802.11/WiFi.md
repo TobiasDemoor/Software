@@ -69,3 +69,6 @@ Los servicios se pueden clasificar en dos grupos principales:
 Los dispositivos WiFi deben usar el mismo canal para poder comunicarse. Elllos envían y reciben en el mismo conal, por lo que sólo un dispositivo puede transmitir en un instante determinado (half-duplex).
 
 ![[RRCC_wifi_canales.png]]
+
+## SSID
+![[SSID]]

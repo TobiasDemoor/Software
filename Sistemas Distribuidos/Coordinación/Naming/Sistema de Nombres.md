@@ -22,7 +22,7 @@ Ambas soluciones descritas a continuación solo son aplicables a redes LAN. Sin 
 #### Broadcasting
 Considere un sistema distribuido construido sobre una red que ofrece capacidades de [[Broadcast|difusión]] eficientes. Localizar una entidad en dicho entorno es simple: un mensaje conteniendo el identificador de dicha entidad se envía a cada máquina y cada máquina verifica si es esa entidad.
 
-Este principio es utilizado en el protocolo [[ARP]] para encontrar la dirección de capa 2 de una máquina sabiendo solo su IP. En esencia una máquina envia un paquete en la red local preguntando quién es el dueño de una IP particular. Cuando dicho mensaje llega a una máquina el receptor verifica si debería escuchar a la IP solicitada. Si es así entonces envía una respuesta conteniendo, por ejemplo su dirección MAC.
+Este principio es utilizado en el protocolo [[ARP]] para encontrar la dirección de capa 2 de una máquina sabiendo solo su IP. En esencia una máquina envia un paquete en la red local preguntando quién es el dueño de una IP particular. Cuando dicho mensaje llega a una máquina el receptor verifica si debería escuchar a la IP solicitada. Si es así entonces envía una respuesta conteniendo, por ejemplo su [[Direcciones MAC|dirección MAC]].
 
 La difusión se torna ineficiente a medida que la red crece.
 
