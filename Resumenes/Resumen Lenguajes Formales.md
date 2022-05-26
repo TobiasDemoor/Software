@@ -125,16 +125,7 @@ Si un lenguaje puede ser representado mediante una expresión regular, entonces 
 
 # **Lenguajes regulares**
 ## **Expresiones regulares**
-Las expresiones regulares pueden considerarse como una forma alternativa de descripción de lenguajes regulares, con la ventaja de ser fáciles de entender y describir.
-
-Un lenguaje es **regular** si existe una expresión regular que lo describa. **Todo lenguaje finito es regular.**
-
-- Æ es una ER 
-- l es una ER 
-- "a Î A, a es una ER (A alfabeto) 
-- Si *a* y *b* son ER Þ *a* | *b*   y   *ab* son ER 
-- Si *a* es ER *Þ* *a*  \*     es ER (clausura) 
-- Notación extendida: *a* n = *aa*…*a*    (Sandra does not like this)
+![[Expresiones regulares]]
 
 ## **Gramáticas regulares**
 Los lenguajes representados por este tipo de gramáticas se denominan lenguajes regulares. **Un lenguaje se dice regular si existe una gramática regular que lo genere.**
@@ -451,7 +442,7 @@ M∈VN
 - El compilador revisa y controla que las palabras estén bien escritas y pertenezcan a algún tipo de token (lexema o cadena) definido dentro del lenguaje (palabra reservada, id escrito de acuerdo a las pautas de definición del lenguaje).
 - Se crea la tabla de símbolos: contiene las variables y el tipo de dato al que pertenece, las constantes literales, el nombre de funciones y los argumentos que reciben.
 - Este análisis se organiza de acuerdo a la sintaxis del lenguaje que se va a compilar (CFG).
-- La tarea que realiza el analizador Lexicográfico es un caso especial de coincidencia de patrones, por lo que principalmente se utilizan las expresiones regulares y los autómatas finitos.
+- La tarea que realiza el analizador Lexicográfico es un caso especial de coincidencia de patrones, por lo que principalmente se utilizan las [[Expresiones regulares|expresiones regulares]] y los autómatas finitos.
 - Ejemplo: escribir un nombre de una variable en C que inicie con un número es un error de léxico.
 
 ### ***Análisis sintáctico***
