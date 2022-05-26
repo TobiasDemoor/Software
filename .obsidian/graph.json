@@ -5,41 +5,13 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Análisis y Diseño\"",
       "color": {
         "a": 1,
         "rgb": 14096665
-      }
-    },
-    {
-      "query": "path:\"Bases de Datos\"",
-      "color": {
-        "a": 1,
-        "rgb": 1874716
-      }
-    },
-    {
-      "query": "path:\"Inteligencia Artificial\"",
-      "color": {
-        "a": 1,
-        "rgb": 1148639
-      }
-    },
-    {
-      "query": "path:\"Organización de Datos\"",
-      "color": {
-        "a": 1,
-        "rgb": 1003527
-      }
-    },
-    {
-      "query": "path:\"Redes de computadoras\"",
-      "color": {
-        "a": 1,
-        "rgb": 4013486
       }
     },
     {
@@ -50,6 +22,41 @@
       }
     },
     {
+      "query": "path:\"Lenguajes Formales\"",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"Bases de Datos\"",
+      "color": {
+        "a": 1,
+        "rgb": 1874716
+      }
+    },
+    {
+      "query": "path:\"Organización de Datos\"",
+      "color": {
+        "a": 1,
+        "rgb": 479251
+      }
+    },
+    {
+      "query": "path:\"Redes de computadoras\"",
+      "color": {
+        "a": 1,
+        "rgb": 4013486
+      }
+    },
+    {
+      "query": "path:\"Taller de Prog II\"",
+      "color": {
+        "a": 1,
+        "rgb": 7021762
+      }
+    },
+    {
       "query": "path:\"Sistemas Distribuidos\"",
       "color": {
         "a": 1,
@@ -57,17 +64,17 @@
       }
     },
     {
-      "query": "path:\"Sistemas Operativos\"",
+      "query": "path:\"Inteligencia Artificial\"",
       "color": {
         "a": 1,
-        "rgb": 16777215
+        "rgb": 1148639
       }
     },
     {
       "query": "path:\"Software Libre\"",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 5431473
       }
     },
     {
@@ -78,10 +85,10 @@
       }
     },
     {
-      "query": "path:\"Taller de Prog II\"",
+      "query": "path:\"Sistemas Operativos\"",
       "color": {
         "a": 1,
-        "rgb": 7021762
+        "rgb": 16777215
       }
     }
   ],
@@ -90,11 +97,11 @@
   "textFadeMultiplier": -0.9,
   "nodeSizeMultiplier": 1.73333333333333,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.147058823529412,
   "repelStrength": 12.9411764705882,
   "linkStrength": 0.779761904761905,
   "linkDistance": 410,
-  "scale": 0.04586330952518257,
-  "close": true
+  "scale": 0.030182895067324255,
+  "close": false
 }
