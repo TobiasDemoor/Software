@@ -1,4 +1,4 @@
-El DNS (Domain Name System) es una [[Bases de Datos|base de datos]] distribudida y jerárquica. En ella se almacena información que mapea nombres de host a [[direcciones IP]] y visceversa.
+El DNS (Domain Name System) es una [[Sistemas de archivos distribuidos|base de datos distribudida]] y jerárquica. En ella se almacena información que mapea nombres de host a [[direcciones IP]] y visceversa.
 
 Las solicitudes se envían utilizando [[UDP]] (a través del puerto bien conocido UDP/53). Los nombres de dominio de nivel superior son controlados por la ICANN.
 
@@ -69,3 +69,12 @@ Finalmente, un registro HINFO (host info) es utilizado para almacenar informaci�
 
 ### Resolución de nombres
 ![[Resolución de nombres DNS]]
+
+### Servidores de acuerdo a su función
+- **Primarios o maestros:** guardan los datos de un espacio de nombres en sus ficheros.
+- **Secundarios o esclavos:** obtienen los datos de los servidores primarios a través de una transferencia de zona.
+- **Locales o caché:** funcionan con el mismo software, pero no contienen la base de datos para la resolución de nombres. Cuando se les realiza una consulta, estos a su vez consultan a los servidores DNS correspondientes.
+- **De Renvio (Forwarding):** Reenvia las peticiones a una lista de servidores de nombres
+
+### bind9
+![[BIND 9]]
