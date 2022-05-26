@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lenguajes Formales/Lenguajes regulares/Expresiones regulares.md",
+            "file": "Lenguajes Formales/Lenguajes regulares/Gramáticas regulares.md",
             "mode": "source",
             "source": false
           }
@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lenguajes Formales/Lenguajes regulares/Expresiones regulares.md",
+                "file": "Lenguajes Formales/Lenguajes regulares/Gramáticas regulares.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lenguajes Formales/Lenguajes regulares/Expresiones regulares.md",
+                "file": "Lenguajes Formales/Lenguajes regulares/Gramáticas regulares.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +108,15 @@
   },
   "active": "4d54ab45b381da32",
   "lastOpenFiles": [
-    "Lenguajes Formales/Lenguajes regulares/Expresiones regulares.md",
+    "Lenguajes Formales/Lenguajes regulares/Gramáticas regulares.md",
     "Resumenes/Resumen Lenguajes Formales.md",
+    "Lenguajes Formales/Lenguajes regulares/Expresiones regulares.md",
     "Seguridad Informática/Conceptos/Validación de entradas.md",
     "Seguridad Informática/Ataques/SQL Injection.md",
     "Seguridad Informática/Herramientas/Untitled.md",
     "Bases de Datos/Lenguajes/SQL.md",
     "Seguridad Informática/Daily/20220512.md",
     "Seguridad Informática/Ataques/Arbitrary Code Excecution.md",
-    "Seguridad Informática/Daily/20220509.md",
-    "Seguridad Informática/Daily/20220516.md"
+    "Seguridad Informática/Daily/20220509.md"
   ]
 }

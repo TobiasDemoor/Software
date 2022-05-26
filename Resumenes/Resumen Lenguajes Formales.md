@@ -121,26 +121,14 @@ A lo largo del proceso de construcción del árbol, los nodos finales de cada pa
 ### ***Ambigüedad***
 En algunas gramáticas, una misma cadena/sentencia puede obtenerse como resultado de varias derivaciones diferentes, pero a las que les corresponde un único árbol de derivación. *Pero hay otros casos en que para una misma cadena/sentencia podemos tener varios árboles de derivación diferentes. En este caso, se dice que la gramática es ambigua*. Hay lenguajes para los cuales es imposible encontrar gramáticas no ambiguas. Estos lenguajes se denominan inherentemente ambiguos.
 
-Si un lenguaje puede ser representado mediante una expresión regular, entonces es un lenguaje regular.
+Si un lenguaje puede ser representado mediante una [[Expresiones regulares|expresión regular]], entonces es un lenguaje regular.
 
 # **Lenguajes regulares**
-## **Expresiones regulares**
+## Expresiones regulares
 ![[Expresiones regulares]]
 
 ## **Gramáticas regulares**
-Los lenguajes representados por este tipo de gramáticas se denominan lenguajes regulares. **Un lenguaje se dice regular si existe una gramática regular que lo genere.**
 
-Estas gramáticas se clasifican en los dos grupos siguientes:
-
-### ***Gramáticas lineales por izquierda***
-Cuyas reglas de producción tendrán la forma:
-
-A ::= a,  A ::= Ba,  A ::= λ  (donde A,B Î VN, a Î VT ) 
-
-### ***Gramáticas lineales por derecha***
-Cuyas reglas de producción tendrán la forma:
-
-A ::= a,  A ::= aB,  A ::= λ  (donde A,B Î VN, a Î VT ) 
 
 
 
@@ -263,7 +251,7 @@ Sea X ε VN, se dice **útil** si es alcanzable y generador.
 
 - **GR→ER:** igualación.
 # **Lenguajes regulares**
-Un lenguaje regular es todo aquel que es generado por una gramática regular y puede ser definido mediante una expresión regular.
+Un lenguaje regular es todo aquel que es generado por una gramática regular y puede ser definido mediante una [[Expresiones regulares|expresión regular]].
 ## **Operaciones entre lenguajes regulares**
 Algunas operaciones sobre lenguajes regulares garantizan producir lenguajes regulares: 
 

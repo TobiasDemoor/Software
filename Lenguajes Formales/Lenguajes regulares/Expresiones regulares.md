@@ -1,5 +1,5 @@
 ---
-aliases: ["expresiones regulares", "regular expresions", "expresión regular", "regular expresion" "regex"]
+aliases: ["expresiones regulares", "regular expresions", "expresión regular", "regular expresion", "regex"]
 ---
 Las expresiones regulares pueden considerarse como una forma alternativa de descripción de lenguajes regulares, con la ventaja de ser fáciles de entender y describir.
 
