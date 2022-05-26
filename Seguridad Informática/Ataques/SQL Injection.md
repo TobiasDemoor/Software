@@ -6,4 +6,4 @@ Una inyección de SQL es un tipo de [[Arbitrary Code Excecution|arbitrary code e
 1. Uso de declaraciones ya preparadas (con consultas parametrizadas). 
 2. Uso de stored procedures.
 3. [[Validación de entradas]] con lista de datos permitidos (“sanitizar”). 
-4. Escapar todas las entradas proporcionadas por el usuario.
+4. Escapar todas las entradas proporcionadas por el usuario (este es el último recurso).

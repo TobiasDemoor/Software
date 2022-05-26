@@ -1,3 +1,4 @@
+%%chequear símbolos%%
 # **Definiciones básicas**
 ## **Alfabeto**
 Conjunto no vacío y finito de símbolos. A estos símbolos también se les suele llamar letras del alfabeto.
@@ -11,11 +12,11 @@ La longitud de una palabra se determina por el número de símbolos que la compo
 
 Se define la palabra vacía como aquella cuya longitud es cero. Se representa mediante la letra l (lambda). Cualquiera que sea el alfabeto considerado, siempre puede formarse con sus símbolos la palabra vacía (bastaría formar una palabra sin seleccionar a ninguno de ellos).
 
-***CONVENCION*** → Se usarán letras minúsculas para representar las palabras de un alfabeto.
+CONVENCION → Se usarán letras minúsculas para representar las palabras de un alfabeto.
 
-***CONVENCION*** →  l no será parte de ningún alfabeto.
+CONVENCION →  l no será parte de ningún alfabeto.
 
-### ***Operaciones con cadenas***
+### Operaciones con cadenas
 #### *Concatenación de cadenas*
 Se llama concatenación de las palabras x y w (y se representa por xw o x.w) a otra palabra (z) obtenida poniendo los símbolos de w a continuación de las de x.
 
@@ -36,16 +37,16 @@ Sea x = A1A2A3 .... An, se denomina palabra traspuesta o inversa de x, represent
 ## **Lenguaje**
 Se llama lenguaje a un conjunto de cadenas.
 
-***CONVENCION*** → Se usarán letras mayúsculas para representar los lenguajes.
+CONVENCION → Se usarán letras mayúsculas para representar los lenguajes.
 
 Se denomina lenguaje sobre el alfabeto A a cualquier subconjunto del lenguaje universal A\* →L *Ì* A\*. 
 
 El conjunto vacío, *f*, es un subconjunto de A\*, no debe confundirse con aquel que contiene únicamente a la palabra vacía.  *f* = 0  y  | { *l* } | = 1
 
-***CONVENCION*** →   *l* = *L*
+CONVENCION →   *l* = *L*
 
 
-### ***Operaciones con lenguajes***
+### Operaciones con lenguajes
 #### *Unión*
 Sean dos lenguajes diferentes definidos sobre el mismo alfabeto L1 *Ì* A\* y L2 *Ì* A\*. Se denomina unión de ambos lenguajes, L1 *È* L2, al lenguaje definido así:  { x / x *Î* L1 ó x *Î* L2}.
 
@@ -98,7 +99,7 @@ Una gramática G = <VN,  VT,  S,  P>  consta de 4 elementos ordenados dónde:
 - Se define V = VN *È*  VT 
 
 Dos gramáticas G y G' se dicen equivalentes (G ≡ G') si generan el mismo lenguaje, es decir, si L(G) = L(G').
-### ***Derivación***
+### Derivación
 *Si* α, β *Î* V\*,* 
 
 *se dice que* α → β (“β deriva de α”) 
@@ -110,7 +111,7 @@ Dos gramáticas G y G' se dicen equivalentes (G ≡ G') si generan el mismo leng
 Se indica con ∗→ la aplicación de una o más operaciones de derivación. 
 
 Se dice que una palabra α es una forma sentencial si S ∗→ α con α *Î* V\*
-### ***Árboles de derivación***
+### Árboles de derivación
 A toda secuencia de derivación de una gramática le corresponde un árbol de derivación, que se construye así: 
 
 - La raíz del árbol corresponde al símbolo no terminal inicial 
@@ -118,19 +119,10 @@ A toda secuencia de derivación de una gramática le corresponde un árbol de de
 
 A lo largo del proceso de construcción del árbol, los nodos finales de cada paso, leídos de izquierda a derecha, forman la forma sentencial obtenida por la derivación representada por el árbol.
 
-### ***Ambigüedad***
+### Ambigüedad
 En algunas gramáticas, una misma cadena/sentencia puede obtenerse como resultado de varias derivaciones diferentes, pero a las que les corresponde un único árbol de derivación. *Pero hay otros casos en que para una misma cadena/sentencia podemos tener varios árboles de derivación diferentes. En este caso, se dice que la gramática es ambigua*. Hay lenguajes para los cuales es imposible encontrar gramáticas no ambiguas. Estos lenguajes se denominan inherentemente ambiguos.
 
 Si un lenguaje puede ser representado mediante una [[Expresiones regulares|expresión regular]], entonces es un lenguaje regular.
-
-# **Lenguajes regulares**
-## Expresiones regulares
-![[Expresiones regulares]]
-
-## **Gramáticas regulares**
-
-
-
 
 # **Autómatas**
 Representa un cambio de estado en un grafo. Debe haber una única situación inicial, pero puede haber múltiples estados finales. 
@@ -138,165 +130,16 @@ Representa un cambio de estado en un grafo. Debe haber una única situación ini
 ## **Autómata parcialmente especificado**
 Solo muestra los caminos hacia el estado de aceptación. Cuando armo la matriz, me quedan espacios en blanco. Puedo solucionarlo poniendo un estado terminal que no sea aceptable y que no tenga flechas salientes a él.
 
-## **Autómatas finitos**
-Un autómata finito tiene una cantidad finita de estados. Todo autómata finito acepta un lenguaje regular.
-
-Los autómatas finitos sirven para describir lenguajes regulares. 
-
-Dos AF M y M' se dicen equivalentes (M ≡ M') si reconocen el mismo lenguaje, es decir, si L(M) = L(M')
-
-### ***AF determinísticos***
-Es aquel que para cualquier estado se cumple que no posee más de un resultado para una misma transición.
-
-Formalmente, un Autómata Finito Determinista (AFD) se define como una tupla 
-
-AFD = A, Q, δ, q0, F ,  δ : Q × Σ→ Q
-
-- A es el alfabeto de entrada 
-- Q es el conjunto finito y no vacío de los estados del Autómata 
-- q0 ∈ Q es el estado inicial 
-- F ⊂ Q es el conjunto de estados finales de aceptación F ≠ Æ
-
-Lenguaje aceptado por un AFD L(M) = { ω *Î* A\* / δ\* (q0, ω) *Î* F }
-
-### ***AF No determinísticos***
-Es aquel que para alguno de sus estados posee más de un resultado para una misma transición.
-
-Formalmente, un Autómata Finito No Determinista (AFND) se define como una tupla 
-
-AFND = A, Q, δ, q0, F ,  δ : Q × Σ→P{Q} 
-
-- PQ Es el conjunto de partes de los estados, el cual es conjunto de todos los subconjuntos posibles de Q.
-
-Lenguaje aceptado por un AFND L(M) = { ω *Î* A\* / δ\* (q0, ω) ∩ F ≠ Æ }
-
-
-### ***AFND – λ***
-AFND que admite transiciones lambda.
-
-## **AFND a AFD**
-Hacer la tabla de transición de estados y definir estados que son conjuntos de otros estados a partir de las transiciones posibles. Los estados de aceptación serán aquellos conjuntos que posean un estado de aceptación del AFND.
-
-
-
-
-## **AFND – λ a AFD**
-Todo AFND-λ puede convertirse en un AFD equivalente. Se realiza de forma similar a AFND a AFD pero en vez de analizar los conjuntos de estados, se analizan las clausuras lambda de los estados, que indican el conjunto de nodos a los cuales se pueden llegar a partir de una o más transiciones lambda. 
-
-
-
-### ***λ-clausura***
-Sea q ∈ Q, se llama λ-clausura(q) al conjunto de estados de Q que son accesibles desde q mediante una o más λ-transiciones.
-
-Se define V Ì Q x Q (pares de estados con transiciones lambda).
-
-- q, q’*Î* V si *d*(q, *l*) = q’ 
-- Si q,q’*Î* V     y     (q’,q”) *Î* V       entonces       (q,q”) *Î*   V2 *Ì* V\* 
-- (q,q) *Î* V , *"* q *Î* Q
-
-## **Minimización de un AFD**
-El objetivo es, dado un AFD, construir otro que reconoce el mismo lenguaje con un número mínimo de estados. La idea básica que permite reducir el número de estados de un AFD consiste en eliminar un estado siempre que ya exista otro que realiza la misma función.
-
-Dos estados realizan la misma función cuando cualquier palabra de entrada da el mismo resultado tanto si se parte de uno como de otro estado. Se dice que los dos estados son, en este caso, indistinguibles.
-
-Procedimiento:
-
-1. Dividir el conjunto de estados en dos subconjuntos iniciales:
-   1. *Terminales.* 
-   1. *No terminales.*
-1. Llamar a todos con el mismo nombre que el representante (Q0 por ej).
-1. Armar la tabla de transición de estados usando la nomenclatura.
-1. Verificar si hay símbolos cuyas transiciones son equivalentes y subdividir los subconjuntos.
-1. Repetir hasta tener dos iteraciones seguidas iguales.
-
-
-## **Tipos de Reglas**
-- **Lexicográficas:**  VN  :: = VT
-- **Borradoras:** VN  ::= λ
-- **Recursivas:** A ::= aA
-### ***Eliminación de borradoras***
-Para cada producción N::=λ (excepto S::=λ) eliminarla.
-
-Por cada producción M::=aN, agregar M::=a. N, M ε VN
-### ***Eliminación de Lexicográficas*** 
-Sea Z ε VN U VT y VN’= VN U{Z}
-
-Cada producción N :: = a, la reemplazo por N::=aZ y agrego Z ::=λ 
-
-***No se puede dar un lenguaje sin lexicográficas o borradoras.***
-
-### ***Eliminación de Símbolos Inútiles***
-
-Sea X ε VN, se dice **útil** si es alcanzable y generador.
-
-- **Generador:** Э α ε VT\* / X →\* α
-- **Alcanzable:** Э α ε VT\* / S →\*Xα y S →\* αX
-
-## **Equivalencia Entre Formalismos**
-- **ER→AF:** dada una ER siempre es posible encontrar un AF equivalente.
-- **AF→GR:** para todo AF existe una GR equivalente, pero el AF no debe tener transiciones λ.
-  - VN = Q
-  - VT = A 
-  - S = q0
-  - Producciones
-    - Si qi  ε F → qi  ::= λ ε P
-    - Si (qi, a, qj) ε δ → qi ::=a  qj ε P
-
-- **GR→AF:** la gramática no debe tener lexicográficas.
-  - Q = VN
-  - A = VT
-  - q0 = S
-  - F = {X ε VN / X ::= λ ε P}
-  - δ = si  N ::= aM ε P → (N, a, M) ε δ
-
-- **GR→ER:** igualación.
 # **Lenguajes regulares**
-Un lenguaje regular es todo aquel que es generado por una gramática regular y puede ser definido mediante una [[Expresiones regulares|expresión regular]].
-## **Operaciones entre lenguajes regulares**
-Algunas operaciones sobre lenguajes regulares garantizan producir lenguajes regulares: 
-
-- *Unión:* L ∪ M (lenguajes con cadenas de L, M o ambos).
-- *Intersección:* L ∩ M  (lenguajes con cadenas de ambos). 
-- *Complemento:* L (cadenas que no están en L).
-- *Diferencia:* L – M (cadenas de L que no están en M). 
-- *Trasposición:* LT = {wT / w ∈ L} 
-- *Clausura:* L\* 
-- *Concatenación:* LM 
-- *Homomorfismo (sustitución):* Sea w = a1a2 . . . an ∈ Σ. Entonces                             h(w) = h(a1)h(a2). . . h(an) y* h(L) = hw∈ L *s*iendo h un homomorfismo. 
-- *Homomorfismo inverso (sustitución inversa):*  h-1 (L) = {w ∈ Σ : h(w) ∈ L,  h : Σ →} es un homomorfismo.
-
-## **No todo subconjunto de un lenguaje regular es regular**
-Si tenemos a\*b\* que es un lenguaje regular, y tomo las cadenas tales que anbn con    n≥0, no obtengo un lenguaje regular.
-
-## **Lema de Pumping (PL)**
-Si L es un lenguaje regular, entonces existe una constante n tal que cada cadena w ∈ L, de longitud n o más, puede ser escrita como w=xyz, donde:
-
-1. y ≠λ 
-1. |xy| ≤ n 
-1. Para todo     i ≥ 0,    wyiz     también está en L. 
-
-El Lema de Pumping se utiliza para mostrar que un lenguaje L no es regular. 
-
-1. Se inicia asumiendo que L es regular. 
-1. Luego, debe haber alguna n que sirva como la constante de PL. Puede que no sepamos el valor de n, pero podemos seguir con el resto del “juego” con n como un parámetro. 
-1. Escogemos una w que sabemos que está en L. Típicamente, w depende de n. 
-1. Aplicando el PL, sabemos que w puede descomponerse en xyz, satisfaciendo las propiedades del PL. De nuevo, puede que no sepamos como descomponer w, así que utilizaremos x, y, z como parámetros. 
-1. Derivamos una contradicción escogiendo i (la cual puede depender de n, x, y, y/o z) tal que   xyiz   no está en L.
-
-
-### ***Ejemplo*** 
-Considere el lenguaje de cadenas con el mismo número de 0’s y 1’s. Por el pumping lemma, w = xyz , |xy| ≤ n ,  y≠λ y xy^k z ∈ L.
-
-
-En particular, xz ∈ L, pero xz tiene menos 0’s que 1’s.
+![[Lenguajes regulares]]
 
 # **Gramáticas libres del contexto (CFG)**
 En las Gramáticas Independientes del Contexto las producciones son menos restrictivas que en las gramáticas regulares. En este caso, la parte izquierda de la producción también está formada por un único símbolo no terminal, pero no hay restricciones respecto a la parte derecha de la producción. Por lo tanto, **las producciones pueden derivar en cualquier combinación de símbolos terminales y no terminales y lambda.**
 
-### ***Derivación más a izquierda***
+### Derivación más a izquierda
 Siempre se reemplaza el VN más a la izquierda por uno de los cuerpos de sus producciones. Por lo que a la izquierda del VN elegido solamente hay símbolos terminales.
 
-### ***Derivación más a la derecha***
+### Derivación más a la derecha
 Siempre se reemplaza el VN más a la derecha por uno de los cuerpos de sus producciones. Por lo que a la derecha del VN elegido solamente hay símbolos terminales.
 
 
@@ -410,7 +253,7 @@ M∈VN
 
 # **Análisis sintáctico**
 ## **Etapas básicas de un compilador**
-### ***Fase de análisis***
+### Fase de análisis
 #### *Análisis lexicográfico*
 - Tokens o palabras bien escritas de acuerdo a las reglas del lenguaje. Ejemplo: escribir un nombre de una variable en C que inicie con un número es un error de léxico.
 - ER
@@ -426,18 +269,18 @@ M∈VN
 - Verificación estática de tipos.
 - Verifica que tengan sentido las frases.
 
-### ***Análisis léxico***
+### Análisis léxico
 - El compilador revisa y controla que las palabras estén bien escritas y pertenezcan a algún tipo de token (lexema o cadena) definido dentro del lenguaje (palabra reservada, id escrito de acuerdo a las pautas de definición del lenguaje).
 - Se crea la tabla de símbolos: contiene las variables y el tipo de dato al que pertenece, las constantes literales, el nombre de funciones y los argumentos que reciben.
 - Este análisis se organiza de acuerdo a la sintaxis del lenguaje que se va a compilar (CFG).
 - La tarea que realiza el analizador Lexicográfico es un caso especial de coincidencia de patrones, por lo que principalmente se utilizan las [[Expresiones regulares|expresiones regulares]] y los autómatas finitos.
 - Ejemplo: escribir un nombre de una variable en C que inicie con un número es un error de léxico.
 
-### ***Análisis sintáctico***
+### Análisis sintáctico
 - Se revisa que los tokens estén ubicados y agrupados de acuerdo a la definición del lenguaje. O sea, que los tokens pertenezcan a frases gramaticales válidas que por lo general son representadas por medio de árboles de análisis sintáctico. 
 - En esta etapa se completa la tabla de símbolos con la dimensión de los identificadores y los atributos necesarios.
 
-### ***Análisis Semántico***
+### Análisis Semántico
 - Utiliza el árbol sintáctico y la tabla de símbolos para comprobar la consistencia semántica del programa fuente.
 - Se reúne la información sobre los tipos para la fase posterior.
 - Se hace la verificación estática de tipos.
@@ -448,12 +291,12 @@ M∈VN
 - Es accedida tanto para escritura como para lectura por todas las etapas.
 
 
-### ***Fase de síntesis***
+### Fase de síntesis
 - Generación de código intermedio.
 - Optimización de código.
 - Generación de código.
 
-### ***Detector de errores o manejador de errores***
+### Detector de errores o manejador de errores
 - Tampoco es una etapa del proceso de compilación, sino que es una función.
 - Al ocurrir un error esta función debe tratar de alguna forma el error para seguir con el proceso de compilación (la mayoría de errores son detectados en las etapas de análisis léxico, análisis sintáctico, análisis semántico).
 - Los errores estáticos (tiempo de compilación) deben ser notificados por un compilador, y el compilador debería ser capaz de generar mensajes de error significativos y reanudar la compilación después de cada error.
@@ -469,29 +312,29 @@ M∈VN
 - Compiladores con optimizaciones utilizan más de una pasada. Una pasada para análisis léxico y sintáctico, otra pasada para análisis semántico y optimización a nivel del fuente, y una tercera pasada para generación de código y optimización a nivel del objeto.
 
 ## **Análisis sintáctico**
-### ***Funciones del análisis sintáctico***
+### Funciones del análisis sintáctico
 - Comprobar que la secuencia de componentes léxicos cumple las reglas de la gramática 
 - Generar el árbol sintáctico
 
-### ***Tipos de analizadores sintáctico***
+### Tipos de analizadores sintáctico
 - Descendentes (top-down)
 - Ascendentes (bottom-up)
   - Construyen el árbol de análisis sintáctico desde abajo hacia arriba.
   - Analizadores de Precedencia de Operador.
   - Analizadores LR(k) (L: se analiza desde la izquierda, R: RM, k 0 o 1).
 
-### ***Definiciones***
+### Definiciones
 - *Reducción:* inverso de un paso en una derivación.
 - *Árbol de Derivación:* representación que describe el proceso de derivación.
 - *Forma Sentencial:* secuencia de terminales y no terminales obtenida mediante derivaciones a partir del no terminal inicial.
 - *Derivación por la derecha (rm):* derivación dónde el no terminal más a la derecha se sustituye a cada paso.
 - *Pivote:* es un substring que concuerda con un lado derecho de alguna producción y que representa un paso reverso de la derivación más a la derecha. No todo substring es un pivote. Si la gramática fuera ambigua el pivote no es único. El pivote puede ser reemplazado por un lado izquierdo de una gramática.
 
-### ***Análisis sintáctico ascendente***
+### Análisis sintáctico ascendente
 - Corresponde a la construcción de un árbol de análisis sintáctico para una cadena de entrada que empieza en las hojas y avanza hacia la raíz. 
 - Un tipo general de análisis sintáctico es el que se conoce como de desplazamiento-reducción (shift-reduce). La clase de gramáticas para las cuales pueden construirse estos analizadores se denominan LR. 
 - En cada paso de una reducción un substring que concuerde con el lado derecho de alguna producción, se reemplaza por el lado izquierdo de la misma.
-### ***Shift/Reduce***
+### Shift/Reduce
 - Este algoritmo se basa en una pila de estados y una tabla de análisis. Existen diferentes métodos para generar la tabla de análisis (LR(0), SLR, LALR, LR(1)).
   - El método LR(1) genera la tabla para cualquier gramática LR(1), pero genera tablas muy grandes.
   - El método SLR genera tablas muy compactas pero no puede aplicarse a todas las gramáticas LR(1)
@@ -539,34 +382,34 @@ Un elemento LR(0) (item) de una gramática G es una producción de G con un punt
 - A ® X.YZ significa que se espera una cadena que pueda derivarse de YZ y que ya se analizado una entrada que puede derivarse de X.
 
 - El conjunto de ítems LR(0) canónico es un AFD. Cada estado es un conjunto de ítems. Para definir ese AFD se necesitan 3 cosas:
-  - Una gramática aumentada: P ∪ { S´ *®* S }. Esta nueva producción sirve para que el analizador sintáctico sepa cuando debe aceptar la entrada y dejar de analizar. **Aumentamos la gramática agregando la producción** S´ ***®*** S **y sólo se acepta cuando la reducción que corresponde es** S´ ***®*** S**.**
-  - La función ***CLAUSURA.***
-  - La función ***GOTO***
+  - Una gramática aumentada: P ∪ { S´ *®* S }. Esta nueva producción sirve para que el analizador sintáctico sepa cuando debe aceptar la entrada y dejar de analizar. **Aumentamos la gramática agregando la producción** S´ ® S **y sólo se acepta cuando la reducción que corresponde es** S´ ® S**.**
+  - La función CLAUSURA.
+  - La función GOTO
 
-### ***Clausura LR(0)***
+### Clausura LR(0)
 Si I es un conjunto de ítems, la **CLAUSURA(I)** se construye así:
 
 - Todos los elementos de **I** pertenecen a la **CLAUSURA(I)** 
-- Si A ***®*** α.Bβ está en la CLAUSURA(I) y B ***®***  γ  (B es no terminal) es una producción, entonces agregar B ***®*** .γ si no pertenece ya al conjunto. Aplicar esta regla hasta que no haya más elementos para agregar.
+- Si A ® α.Bβ está en la CLAUSURA(I) y B ®  γ  (B es no terminal) es una producción, entonces agregar B ® .γ si no pertenece ya al conjunto. Aplicar esta regla hasta que no haya más elementos para agregar.
 - Se clausura siempre que se tenga una producción con un punto a la izquierda de un no terminal.
 
-### ***Función GOTO***
+### Función GOTO
 Sea I un conjunto de elementos y X un símbolo de la gramática (terminal o no terminal), la operación Ir\_A(I, X) da como resultado otro conjunto de ítems. Se utiliza para definir la transiciones en el autómata LR(0).
 
-- Para cada ítem de I de la forma A ***®*** α.Xβ se agrega a Ir\_A(I,X) los elementos del conjunto clausura (A ***®*** αX.β)
+- Para cada ítem de I de la forma A ® α.Xβ se agrega a Ir\_A(I,X) los elementos del conjunto clausura (A ® αX.β)
 - Si se representan los conjuntos de la colección como estados y las operaciones Ir\_A() como transiciones, se obtiene un autómata reconocedor de prefijos viables.
 
 
 
 
-### ***Uso del autómata***
+### Uso del autómata
 El estado inicial del autómata LR(0) es CLAUSURA([S’ ® .S]), dónde S’ es el símbolo inicial de la gramática aumentada. Cuando se llega a un estado se elige: 
 
 - un desplazamiento por el siguiente símbolo de entrada si el estado tiene una transición por él, o 
 - se elige reducir, los ítems en el estado indicarán qué regla utilizar.
 
 
-### ***Estructura de la tabla de ANÁLISIS SINTÁCTICO***
+### Estructura de la tabla de ANÁLISIS SINTÁCTICO
 - La tabla de análisis sintáctico consta de dos partes: ACCION e Ir\_A. El estado inicial del autómata LR(0) es CLAUSURA([S’ ® S]), dónde S’ es el símbolo inicial de la gramática aumentada. Cuando se llega a un estado si es posible reducir, se reduce; sino, se elige un desplazamiento por el siguiente símbolo de entrada.
 - La tabla tiene tantas filas como estados en el autómata y tantas columnas como símbolos en la gramática. 
 - Los símbolos terminales determinan la acción que realiza el analizador en cada situación y los símbolos no terminales determina la función Ir\_a.
@@ -584,7 +427,7 @@ Contenido de la sección Acción de la tabla de análisis
 
 Las celdas que queden vacías representan errores sintácticos.
 
-### ***Análisis LR0***
+### Análisis LR0
 El algoritmo LR(0) no requiere de la consideración de ningún símbolo de preanálisis. Cuando se alcanza un estado que sólo tiene acciones de reducción, se aplican éstas sin necesidad de estudiar el siguiente símbolo de la cadena de entrada. Cuando se alcanza un estado que no es de reducción, se lee el símbolo de la cadena de entrada y se ejecuta la acción de desplazar correspondiente (o Aceptar o Error).
 
 1. Inicializar la pila al estado 0. 
@@ -595,7 +438,7 @@ El algoritmo LR(0) no requiere de la consideración de ningún símbolo de prean
 
 
 
-### ***Conflictos***
+### Conflictos
 Se dice que una gramática es LR(0) si las reglas anteriores son no ambiguas. Esto significa que si un estado contiene un elemento completo [A *®* α.] no puede contener otros.
 
 - Si un estado así también contiene un elemento “desplazado” [A *®* α.X*b*] (donde X es un terminal), entonces surge una ambigüedad (conflicto shift/reduce).
@@ -610,7 +453,7 @@ Este algoritmo es idéntico al algoritmo LR(0) salvo en la forma de rellenar las
 
 - Para los estados i que contengan un elemento con el punto al final de la regla k-ésima [X → b.] colocar Rk en todas las celdas de los tokens pertenecientes a SIGUIENTE(X).
 
-### ***Cálculo del PRIMERO***
+### Cálculo del PRIMERO
 PRIMERO(α) es el “conjunto de terminales que inician las cadenas derivadas de α” y, en el caso de que desde α se pueda derivar la cadena vacía (λ), entonces λ también pertenecerá a PRIMERO(α).
 
 - *P1.* Si X es terminal, entonces PRIMERO(X) es {X} 
@@ -618,7 +461,7 @@ PRIMERO(α) es el “conjunto de terminales que inician las cadenas derivadas de
 - *P3.* Si X es no terminal y X*®* Y1 Y2 ...  Yk es una producción, entonces poner a en PRIMERO(X) si, para alguna i, a está en PRIMERO(Yi) y l está en todos los PRIMERO(Y1)
 
 
-### ***Cálculo del SIGUIENTE***
+### Cálculo del SIGUIENTE
 Si X es un símbolo no terminal, SIGUIENTE(X) es el “conjunto de terminales que pueden aparecer inmediatamente a la derecha de X en alguna forma sentencial”. Si X puede ser el símbolo situado más a la derecha de una forma sentencial, entonces $ pertenecerá a SIGUIENTE(X).
 
 - *S1.* Poner $ en SIGUIENTE(S), con S símbolo inicial y $ delimitador derecho de la entrada. 
@@ -628,7 +471,7 @@ Si X es un símbolo no terminal, SIGUIENTE(X) es el “conjunto de terminales qu
 
 # **Análisis semántico**
 ## **Gramáticas de atributos**
-Un ***atributo*** es cualquier propiedad de una construcción del lenguaje de programación. Los atributos pueden variar ampliamente en cuanto a la información que contienen y su complejidad. 
+Un atributo es cualquier propiedad de una construcción del lenguaje de programación. Los atributos pueden variar ampliamente en cuanto a la información que contienen y su complejidad. 
 
 - Ejemplos típicos de atributos son: el tipo de datos de una variable, el valor de una expresión
 
@@ -636,13 +479,13 @@ Un ***atributo*** es cualquier propiedad de una construcción del lenguaje de pr
 - *Tiempo de fijación:* momento (compilación/ejecución) en el que se da la fijación del atributo.
   - Los atributos que pueden fijarse antes de la ejecución se denominan *estáticos*, mientras que los atributos que sólo se pueden fijar durante la ejecución son *dinámicos*. (un escritor de compiladores está interesado en aquellos atributos que se fijan durante el tiempo de traducción).
 
-### ***Atributos y reglas semánticas***
+### Atributos y reglas semánticas
 - *Atributos:* Se asocian a los símbolos no terminales.
 - *Reglas:* Se asocian a las producciones. 
 
 Si X es un símbolo y a un atributo X.a denota el valor de a en el nodo del árbol de análisis sintáctico etiquetado con X.
 
-### ***Tipos de atributos estáticos***
+### Tipos de atributos estáticos
 - *Sintetizados:* un atributo sintetizado en el nodo N define su valor en términos de los valores de los atributos en el hijo de N. (de abajo hacia arriba).
 - *Heredados:* un atributo heredado en el nodo N define su valor en términos de los valores de los atributos en el padre de N y es posible utilizar los hermanos de N. (de arriba hacia abajo).
   - Los terminales pueden tener atributos sintetizados, pero no atributos heredados.
@@ -666,14 +509,14 @@ Los atributos pueden utilizarse para la comprobación de tipos.
   - Tales tipos con frecuencia son denominados **tipos estructurados**.
 - Los lenguajes que tienen un rico conjunto de constructores de tipo por lo regular también tienen un mecanismo para que un programador asigne nombres a expresiones de tipo (**definiciones de tipo**).
 
-### ` `***Equivalencia de tipos***
+### ` `Equivalencia de tipos
 Dadas las posibles expresiones de tipo de un lenguaje, un verificador de tipo con frecuencia debe responder la cuestión de cuándo dos expresiones de tipo representan al mismo tipo: **equivalencia de tipos.** 
 
 - *Equivalencia estructural:* dos expresiones son o bien del mismo tipo básico o están formadas aplicando el mismo constructor (C).
 - *Equivalencia por nombre:* esto puede darse cuando las expresiones de tipos pueden tener nombre. Esta equivalencia es más restrictiva. Dos expresiones son el mismo tipo simple o tienen el mismo nombre de tipo (Pascal y C). 
   - Dos expresiones pueden tener la misma estructura, pero distinto nombre y, por ejemplo, pascal no las considera equivalentes.
 
-### ***Conversiones de TIPOS***
+### Conversiones de TIPOS
 #### *Sobrecarga*
 Un operador está sobrecargado si se utiliza el mismo nombre de operador para dos operaciones diferentes.
 
@@ -720,8 +563,8 @@ Las transiciones son  α, β/M
 - β  Es el símbolo que reemplazará a α en la cinta
 - M Es el movimiento del cabezal de lectura (R, L, H)
 
-### ***Descripción instantánea***
+### Descripción instantánea
 α, q,β con α∈ φ\*,  q ∈Q,  β ∈ φ\* 
 ###
-### ***Movimiento atómico***
+### Movimiento atómico
 

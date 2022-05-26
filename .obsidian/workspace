@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lenguajes Formales/Lenguajes regulares/Gramáticas regulares.md",
+            "file": "Seguridad Informática/Ataques/SQL Injection.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lenguajes Formales/Lenguajes regulares/Gramáticas regulares.md",
+                "file": "Seguridad Informática/Ataques/SQL Injection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lenguajes Formales/Lenguajes regulares/Gramáticas regulares.md",
+                "file": "Seguridad Informática/Ataques/SQL Injection.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -104,19 +104,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "4d54ab45b381da32",
   "lastOpenFiles": [
-    "Lenguajes Formales/Lenguajes regulares/Gramáticas regulares.md",
-    "Resumenes/Resumen Lenguajes Formales.md",
-    "Lenguajes Formales/Lenguajes regulares/Expresiones regulares.md",
-    "Seguridad Informática/Conceptos/Validación de entradas.md",
     "Seguridad Informática/Ataques/SQL Injection.md",
+    "Seguridad Informática/Conceptos/Validación de entradas.md",
+    "Lenguajes Formales/Lenguajes regulares/Expresiones regulares.md",
+    "Lenguajes Formales/Lenguajes regulares/Autómatas finitos.md",
+    "Resumenes/Resumen Lenguajes Formales.md",
+    "Lenguajes Formales/Lenguajes regulares/Lenguajes regulares.md",
+    "Lenguajes Formales/Lenguajes regulares/Gramáticas regulares.md",
     "Seguridad Informática/Herramientas/Untitled.md",
     "Bases de Datos/Lenguajes/SQL.md",
-    "Seguridad Informática/Daily/20220512.md",
-    "Seguridad Informática/Ataques/Arbitrary Code Excecution.md",
-    "Seguridad Informática/Daily/20220509.md"
+    "Seguridad Informática/Daily/20220512.md"
   ]
 }
