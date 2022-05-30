@@ -1,0 +1,1 @@
+Secure Socket Layer es un [[protocolo]] de [[Capa de transporte|capa 4]]

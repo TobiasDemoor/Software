@@ -36,7 +36,7 @@ Al proceso de establecer los enrutamientos con base en las mejores rutas a trav�
 
 En la anterior figura debe quedar clara la razón por la que las malas noticias viajan con lentitud: no hay ningún enrutador que tenga en algún momento un valor mayor en más de una unidad que el mínimo de todos sus vecinos. Gradualmente, todos los enrutadores elevan su cuenta hacia el infinito, pero el número de intercambios requerido depende del valor numérico usado para el infinito. Por esta razón, es prudente hacer que el infinito sea igual a la ruta más larga, más 1.
 
-No es del todo sorprendente que a éste se le conozca como el problema del **conteo al infinito**. Se han dado muchos intentos por resolverlo; por ejemplo, evitar que los enrutadores anuncien sus mejores rutas de vuelta a los vecinos de quienes las escucharon mediante la regla del horizonte dividido con envenenamiento en reversa que se describe en el RFC 1058. Sin embargo, ninguna de estas heurísticas funciona bien en la práctica a pesar de los nombres tan coloridos.
+No es del todo sorprendente que a éste se le conozca como el problema del **conteo al infinito**. Se han dado muchos intentos por resolverlo; por ejemplo, evitar que los enrutadores anuncien sus mejores rutas de vuelta a los vecinos de quienes las escucharon mediante la regla del horizonte dividido con envenenamiento en reversa que se describe en el [[RFC]] 1058. Sin embargo, ninguna de estas heurísticas funciona bien en la práctica a pesar de los nombres tan coloridos.
 
 > El núcleo del problema es que, cuando X dice a Y que tiene una ruta hacia alguna parte, Y no tiene forma de saber si él mismo está en esa ruta.
 

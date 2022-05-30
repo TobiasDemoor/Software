@@ -1,0 +1,1 @@
+Secure Shell es un servicio de [[Capa de aplicación|capa 7]]

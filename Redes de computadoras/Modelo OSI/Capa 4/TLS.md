@@ -1,0 +1,1 @@
+Transport Layer Security es un [[protocolo]] de [[Capa de transporte|capa 4]]

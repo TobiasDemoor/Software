@@ -1,4 +1,4 @@
-Uno de los principales protocolos que se utilizan para la entrega final de [[correo electrónico ]]es **IMAP (Internet Message Access Protocol)**. La versión 4 del protocolo se define en el RFC 3501. Para usar IMAP, el servidor de correo ejecuta un servidor IMAP que escucha en el puerto 143. El agente de usuario ejecuta un cliente IMAP. El cliente se conecta al servidor y empieza a emitir comandos de los que figuran en la siguiente tabla.
+Uno de los principales protocolos que se utilizan para la entrega final de [[correo electrónico ]]es **IMAP (Internet Message Access Protocol)**. La versión 4 del protocolo se define en el [[RFC]] 3501. Para usar IMAP, el servidor de correo ejecuta un servidor IMAP que escucha en el puerto 143. El agente de usuario ejecuta un cliente IMAP. El cliente se conecta al servidor y empieza a emitir comandos de los que figuran en la siguiente tabla.
 
 | Comando      | Descripción                                                     |
 | ------------ | --------------------------------------------------------------- |
