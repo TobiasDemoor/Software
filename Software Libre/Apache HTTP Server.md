@@ -1,7 +1,6 @@
 ---
 aliases: ["httpd", "Apache server"]
 ---
-
 [[Servidor]] [[World Wide Web|WEB]] [[Software Libre|software libre]] que corre en sistemas [[Linux]] como el [[Deamon|deamon]] httpd. El usuario con el cual se ejecuta dicho deamon es **www-data**.
 
 ### Configuración
