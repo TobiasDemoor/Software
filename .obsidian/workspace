@@ -7,8 +7,12 @@
         "id": "b07dc0e0d4c8cbce",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Redes de computadoras/IEEE 802/Bluetooth.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Redes de computadoras/IEEE 802/Bluetooth.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Redes de computadoras/IEEE 802/Bluetooth.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -103,15 +109,15 @@
   },
   "active": "b07dc0e0d4c8cbce",
   "lastOpenFiles": [
+    "Redes de computadoras/IEEE 802/Bluetooth.md",
+    "Conceptos/Software.md",
+    "Lenguajes Formales/Lenguajes regulares/Lenguajes regulares.md",
+    "Inteligencia Artificial/Inteligencia Artificial.md",
+    "Inteligencia Artificial/Agente Inteligente.md",
     "Software Libre/Daily/20220530.md",
     "Sistemas Distribuidos/Replicación/Consistencia eventual.md",
     "Bases de Datos/NOSQL/NOSQL.md",
     "Software Libre/CouchDB.md",
-    "Seguridad Informática/Daily/Untitled.md",
-    "Taller de Prog II/Daily/20220527.md",
-    "Taller de Prog II/Mejora continua/Mejora continua.md",
-    "Taller de Prog II/Software Quality Assurance.md",
-    "Taller de Prog II/Diagrama Ishikawa.md",
-    "Taller de Prog II/Mejora continua/Mantenimiento Productivo Total.md"
+    "Seguridad Informática/Daily/Untitled.md"
   ]
 }

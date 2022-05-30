@@ -1,4 +1,4 @@
-**802.15**
+**[[RFC]] 802.15**
 
 Los protocolos de **Bluetooth** permiten a estos dispositivos encontrarse y conectarse entre sí, a lo cual se le conoce como **emparejamiento** (*pairing*), además de que pueden transferir datos en forma segura.
 
