@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Redes de computadoras/IEEE 802/Bluetooth.md",
+            "file": "Software Libre/Apache HTTP Server.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redes de computadoras/IEEE 802/Bluetooth.md",
+                "file": "Software Libre/Apache HTTP Server.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redes de computadoras/IEEE 802/Bluetooth.md",
+                "file": "Software Libre/Apache HTTP Server.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "b07dc0e0d4c8cbce",
   "lastOpenFiles": [
-    "Redes de computadoras/IEEE 802/Bluetooth.md",
-    "Conceptos/Software.md",
-    "Lenguajes Formales/Lenguajes regulares/Lenguajes regulares.md",
-    "Inteligencia Artificial/Inteligencia Artificial.md",
-    "Inteligencia Artificial/Agente Inteligente.md",
-    "Software Libre/Daily/20220530.md",
-    "Sistemas Distribuidos/Replicación/Consistencia eventual.md",
-    "Bases de Datos/NOSQL/NOSQL.md",
-    "Software Libre/CouchDB.md",
-    "Seguridad Informática/Daily/Untitled.md"
+    "Software Libre/Apache HTTP Server.md",
+    "Redes de computadoras/Modelo OSI/Capa 1/Multiplexión/Multiplexión.md",
+    "Redes de computadoras/Modelo OSI/Capa 1/Multiplexión/Wave-length Division Multiplexing.md",
+    "Redes de computadoras/Modelo OSI/Capa 1/Multiplexión/Code Division Multiple Access.md",
+    "Redes de computadoras/IEEE 802/802.11/802.11b.md",
+    "Redes de computadoras/Modelo OSI/Capa 1/Multiplexión/Time Division Multiplexing.md",
+    "Redes de computadoras/Modelo OSI/Capa 1/Multiplexión/Orthogonal Frequency Division Multiplexing.md",
+    "Redes de computadoras/Modelo OSI/Capa 1/Multiplexión/Frecuency Division Multiplexing.md",
+    "Redes de computadoras/IEEE 802/802.11/WiFi.md",
+    "Redes de computadoras/Hardware/Modem.md"
   ]
 }

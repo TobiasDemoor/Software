@@ -12,8 +12,8 @@ Las redes 802.11 están compuestas de clientes (como laptops y teléfonos móvil
 [[Capa física|Capas físicas]] por orden cronológico:
 - 802.11 Infrarrojo, FHSS, DSSS (estas dos últimas son codificaciones de espectro expandido)
 - [[802.11b]] HR-DSSS (< 11 Mbps) (utiliza spread-spectrum) (2.4 GHz)
-- [[802.11a]] [[OFDM]] (5 GHz)
-- [[802.11g]] [[OFDM]] (< 54 Mbps) (compatible con 802.11b) (2.4 GHz)
+- [[802.11a]] [[Orthogonal Frequency Division Multiplexing|OFDM]] (5 GHz)
+- [[802.11g]] [[Orthogonal Frequency Division Multiplexing|OFDM]] (< 54 Mbps) (compatible con 802.11b) (2.4 GHz)
 - [[802.11n]] MIMO (< 600 Mbps suele ser < 150 Mbps)
 - [[802.11ac]] (< 3.6 Gbps)(5 GHz)
 

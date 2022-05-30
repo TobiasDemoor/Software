@@ -1,3 +1,6 @@
+---
+aliases: ["CDM", "Code Division Multiplexing", "CDMA", "Multiplexión por división de código"]
+---
 **CDM (Code Division Multiplexing)** es una forma de comunicación de **espectro disperso** en la que una señal de banda estrecha se dispersa sobre una banda de frecuencia más amplia. Esto puede hacerla más tolerante a la interferencia, al tiempo que permite que varias señales de distintos usuarios compartan la misma banda de frecuencia. Como la multiplexión por división de código se utiliza la mayoría de las veces para este último propósito, se le conoce comúnmente como **CDMA (Code Division Multiple Access)**. CDMA permite que cada estación transmita en todo el espectro de frecuencia todo el tiempo. Las múltiples transmisiones simultáneas se separan mediante el uso de la teoría de codificación.
 
 En CDMA, cada tiempo de bit se subdivide en m intervalos cortos llamados **chips**. Por lo general hay 64 o 128 chips por cada bit. A cada estación se le asigna un código único de m bits, o **secuencia de chip**. Para transmitir un bit 1, una estación envía su secuencia de chip. Para transmitir un bit 0, envía la negación de su secuencia de chip. No se permite ningún otro patrón.

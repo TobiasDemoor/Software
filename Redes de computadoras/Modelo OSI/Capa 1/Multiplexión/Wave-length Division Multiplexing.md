@@ -1,3 +1,6 @@
+---
+aliases: ["WDM", "Multiplexión por división de longitud de onda"]
+---
 El principio básico de la **WDM (Wave-length Division Multiplexing)** en [[Fibra óptica|fibra óptica]] se ilustra en la figura 2-41. En este ejemplo se juntan cuatro fibras en un combinador óptico, cada una con su energía presente en una longitud de onda distinta. Los cuatro haces se combinan en una sola fibra compartida para transmitirla a un destino distante. En el extremo lejano, el haz se divide en la cantidad de fibras que había en el lado de entrada. Cada fibra de salida contiene un núcleo corto construido de manera especial, que filtra todas las longitudes de onda excepto una. Las señales resultantes se pueden encaminar a su destino o se pueden recombinar de distintas formas para un transporte multiplexado adicional.
 
 ![[RRCC_multiplexion_por_division_de_longitud_de_onda_1.png]]
