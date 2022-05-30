@@ -7,12 +7,8 @@
         "id": "b07dc0e0d4c8cbce",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Software Libre/CouchDB.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "software libre]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/CouchDB.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/CouchDB.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +103,15 @@
   },
   "active": "b07dc0e0d4c8cbce",
   "lastOpenFiles": [
-    "Software Libre/CouchDB.md",
     "Software Libre/Daily/20220530.md",
+    "Sistemas Distribuidos/Replicación/Consistencia eventual.md",
+    "Bases de Datos/NOSQL/NOSQL.md",
+    "Software Libre/CouchDB.md",
     "Seguridad Informática/Daily/Untitled.md",
     "Taller de Prog II/Daily/20220527.md",
     "Taller de Prog II/Mejora continua/Mejora continua.md",
     "Taller de Prog II/Software Quality Assurance.md",
     "Taller de Prog II/Diagrama Ishikawa.md",
-    "Taller de Prog II/Mejora continua/Mantenimiento Productivo Total.md",
-    "Taller de Prog II/Daily/20220513.md",
-    "Taller de Prog II/Conceptos/Customer Journey.md"
+    "Taller de Prog II/Mejora continua/Mantenimiento Productivo Total.md"
   ]
 }
