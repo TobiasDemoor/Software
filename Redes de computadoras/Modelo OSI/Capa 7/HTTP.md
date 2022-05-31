@@ -26,7 +26,7 @@ Aunque HTTP se diseñó para utilizarlo en la web, se ha hecho intencionalmente 
 | PUT     | Almacenar una página web.              | SI          | NO     |
 | DELETE  | Eliminar la página web.                | SI          | NO     |
 | TRACE   | Repetir la solicitud entrante          | SI          | SI     |
-| CONNECT | Conectarse a través de un proxy        | SI          | SI     |
+| CONNECT | Conectarse a través de un [[Proxys|proxy]]        | SI          | SI     |
 | OPTIONS | Consultar las opciones para una página | SI          | SI     |
 
 > Un método no seguro es aquel que modifica el estado interno del servidor.

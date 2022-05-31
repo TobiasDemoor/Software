@@ -17,7 +17,7 @@
 |            | - [[Singleton]]        | - Decorator            | - Mediator                |
 |            |                        | - [[Facade]]           | - Memento                 |
 |            |                        | - Flyweight            | - [[Observer]]            |
-|            |                        | - [[Proxy]]            | - [[State]]               |
+|            |                        | - [[Patrón Proxy\|Proxy]] | - [[State]]               |
 |            |                        |                        | - [[Strategy]]            |
 |            |                        |                        | - Visitor                 |
 

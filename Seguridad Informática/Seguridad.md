@@ -12,7 +12,7 @@ Fundamentalmente queremos proteger el hardware, el software, los datos y princip
 Hay cuatro tipos de ataques generales, no solo en el contexto de [[Sistema de Información|sistemas de información]] sino también cuando se habla de seguridad en general:
 1. **Interrupción**: consiste en que un objeto del sistema se pierda, quede inutilizable o no disponible. Ejemplos de estos ataques son desde desconectar físicamente un equipo hasta un DOS.
 2. **Interceptación**: acceso no autorizado a un objeto del sistema. Un ejemplo claro de esto es el **snooping** donde un actor malicioso intercepta paquetes mandados a través de una red (por ejemplo si se usa un medio inalámbrico o una conexión cableada no conmutada). Este tipo de ataque **no agrega latencia** por lo tanto es muy difícil de detectar.
-3. **Modificación**: consiste en interceptar y modificar un mensaje. Esto podría ocurrir con un server proxy que recibe y reenvia mensajes, posiblemente modificandolos. Una característica de este tipo de ataque es que **agrega latencia** ya que hay un proceso intermedio en al comunicación, y gracias a esto se puede detectar con relativa facilidad.
+3. **Modificación**: consiste en interceptar y modificar un mensaje. Esto podría ocurrir con un [[Proxys|server proxy]] que recibe y reenvia mensajes, posiblemente modificandolos. Una característica de este tipo de ataque es que **agrega latencia** ya que hay un proceso intermedio en al comunicación, y gracias a esto se puede detectar con relativa facilidad.
 4. **Fabricación**: directamente se fabrica un nuevo objeto.
 
 Nos queremos proteger de 3 agentes:

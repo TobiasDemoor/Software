@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "a64c0657cf7c2fab",
+        "id": "488bb305e5ec8029",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Herramientas/VPN.md",
+            "file": "Seguridad Informática/Proxys.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Herramientas/VPN.md",
+                "file": "Seguridad Informática/Proxys.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Herramientas/VPN.md",
+                "file": "Seguridad Informática/Proxys.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -107,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a64c0657cf7c2fab",
+  "active": "488bb305e5ec8029",
   "lastOpenFiles": [
-    "Seguridad Informática/Herramientas/VPN.md",
-    "Redes de Computadoras/Según escala/LAN.md",
-    "Seguridad Informática/Seguridad de la Información/Seguridad de la Información.md",
+    "Seguridad Informática/Proxys.md",
     "Seguridad Informática/Daily/20220530.md",
-    "Seguridad Informática/IPSEC.md",
-    "Teoría de la Información/Encriptación/Clave Privada/3DES.md",
-    "Teoría de la Información/Encriptación/Clave Privada/AES.md",
-    "Teoría de la Información/Encriptación/Clave Privada/Feistel.md",
-    "Teoría de la Información/Encriptación/Clave Privada/IDEA.md",
-    "Teoría de la Información/Encriptación/Clave Privada/DES.md"
+    "Seguridad Informática/Firewall/Firewall.md",
+    "Análisis y Diseño/Patrones/GoF/Patrón Proxy.md",
+    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
+    "Sistemas Distribuidos/Architecture/Architectural style.md",
+    "Seguridad Informática/Firewall/DMZ.md",
+    "Redes de Computadoras/Modelo OSI/Capa 4/Capa de transporte.md",
+    "Seguridad Informática/Conceptos/PBKDF.md",
+    "Seguridad Informática/Conceptos/Passwords.md"
   ]
 }

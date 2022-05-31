@@ -14,7 +14,7 @@ Estas arquitecturas son atractivas ya que proveen una manera natural de [[Encaps
 
 Esta separación nos permite colocar una interfaz en una máquina mientras que el objeto en sí reside en otra. Esta organización se suele llamar objeto distribuido o **distributed object**.
 
-Cuando un cliente **binds** a un objeto distribuido, una implementación de la interfaz del objeto, llamada [[Proxy|proxy]], es cargada en el espacio de direcciones del cliente ([[RMI]]).
+Cuando un cliente **binds** a un objeto distribuido, una implementación de la interfaz del objeto, llamada [[Patrón Proxy|proxy]], es cargada en el espacio de direcciones del cliente ([[RMI]]).
 
 ![[RRCC_object-based_architectures_1.png]]
 
