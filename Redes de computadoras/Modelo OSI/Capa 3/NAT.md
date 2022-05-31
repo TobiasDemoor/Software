@@ -1,4 +1,4 @@
-**NAT o Network Adress Translation** es una técnica que traduce [[direcciones IP]] privadas a direcciones públicas. Busca solucionar de alguna manera el agotamiento de direcciones [[IP|IPv4]]. Se encuentra definida en el [[RFC]] 3022.
+**NAT o Network Adress Translation** es una técnica que traduce [[Direcciones IP|direcciones IP]] privadas a direcciones públicas. Busca solucionar de alguna manera el agotamiento de direcciones [[IP|IPv4]]. Se encuentra definida en el [[RFC]] 3022.
 
 La idea básica detrás de NAT es que el ISP asigne a cada hogar o negocio una sola dirección IP para el tráfico de [[Internet]]. Dentro de la red del cliente, cada computadora obtiene una dirección IP única, la cual se utiliza para enrutar el tráfico interno. Sin embargo, justo antes de que un paquete salga de la red del cliente y vaya al ISP, la dirección IP única interna se traduce a la dirección IP pública compartida. Esta traducción hace uso de los tres rangos de direcciones IP que se han declarado como privados. Las redes pueden utilizarlos de manera interna como deseen. La única regla es que no pueden aparecer paquetes que contengan estas mismas direcciones en Internet. Los tres rangos reservados son:
 - 10.0.0.0 - 10.255.255.255/8 (16,777,216 hosts) 
@@ -37,3 +37,8 @@ De estos nombrados anteriormente se consideran los tres principales:
 - NAT cambia a Internet de una red sin conexión a un tipo especial de red orientada a la conexión
 
 En el RFC 2993 se explican éstos y otros problemas con NAT. A pesar de estas cuestiones, NAT se utiliza mucho en la práctica, en especial para las redes domésticas y de negocios pequeños, como la única técnica conveniente para lidiar con la escasez de direcciones IP. Se ha visto envuelta con los firewalls y la privacidad debido a que bloquea de manera predeterminada los paquetes entrantes no solicitados. Por esta razón es muy poco probable que desaparezca, incluso aunque el IPv6 se implemente de manera amplia.
+
+### Tipos de NAT
+- **Estática (NAT 1:1):** Una dirección IP privada se traduce a una dirección IP pública.
+- **Dinámica (NAT 1:N):** Cada dirección Privada IP se mapea a una IP pública basándose en una tabla de direcciones. Permite enmascarar la IP Privada aumenta la seguridad. Es el tipo más común.
+- **Sobrecarga (NAPT 1:N):** Cada dirección Privada IP se mapea a una IP pública basándose en una tabla de direcciones. Este metodo almacena IP_Origen,Puerto_Origen; Ip_Destino, Puerto Destino.

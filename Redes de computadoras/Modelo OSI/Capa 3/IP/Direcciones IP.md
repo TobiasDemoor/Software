@@ -1,5 +1,5 @@
 ---
-aliases: [direcciones IP, dirección IP, IP address]
+aliases: ["direcciones IP", "dirección IP", "IP address"]
 ---
 Una característica que define a IPv4 consiste en sus direcciones de 32 bits. Cada host y enrutador de [[Internet]] tiene una dirección IP que se puede usar en los campos Dirección de origen y Dirección de destino de los paquetes [[IP]]. Es importante tener en cuenta que una dirección IP en realidad *no se refiere a un host, sino a una interfaz de red*, por lo que si un host está en dos redes, debe tener dos direcciones IP. Sin embargo, en la práctica la mayoría de los hosts están en una red y, por ende, tienen una dirección IP. En contraste, los enrutadores tienen varias interfaces y, por lo tanto, múltiples direcciones IP.
 
@@ -47,3 +47,9 @@ Con la agregación (superredes), las direcciones IP están contenidas en prefijo
 ![[RRCC_direcciones_ip_cidr.png]]
 
 En concepto, el CIDR funciona de la siguiente manera. Cuando llega un paquete, se explora la tabla de enrutamiento para determinar si el destino está dentro del prefijo. Es posible que coincidan varias entradas con distintas longitudes de prefijos, en cuyo caso se utiliza la entrada con el prefijo más largo.
+
+### Rangos reservados
+Los tres rangos reservados (definidos en [[RFC]] 1918) son:
+- 10.0.0.0 - 10.255.255.255/8 (16,777,216 hosts) 
+- 172.16.0.0 - 172.31.255.255/12 (1,048,576 hosts) 
+- 192.168.0.0 - 192.168.255.255/16 (65,536 hosts)
