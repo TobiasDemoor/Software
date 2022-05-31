@@ -1,0 +1,1 @@
+**3DES** es un [[Criptosistemas|criptosistema]] de clave secreta que consiste en aplicar [[DES]] 3 veces.

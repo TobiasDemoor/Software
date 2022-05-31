@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Mejora continua/Test Driven Development.md",
+            "file": "Seguridad Informática/Herramientas/VPN.md",
             "mode": "source",
             "source": false
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "criptosistema",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,14 +77,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Mejora continua/Test Driven Development.md",
+                "file": "Seguridad Informática/Herramientas/VPN.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Mejora continua/Test Driven Development.md",
+                "file": "Seguridad Informática/Herramientas/VPN.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "a64c0657cf7c2fab",
   "lastOpenFiles": [
-    "Taller de Prog II/Mejora continua/Test Driven Development.md",
-    "Taller de Prog II/Mejora continua/Lean Software Development.md",
-    "Taller de Prog II/Mejora continua/Jidoka.md",
-    "Taller de Prog II/Mejora continua/Mantenimiento Productivo Total.md",
-    "Taller de Prog II/Mejora continua/SMED.md",
-    "Taller de Prog II/Mejora continua/just-in-time.md",
-    "Taller de Prog II/Mejora continua/Kanban.md",
-    "Taller de Prog II/Mejora continua/Poka-yoke.md",
-    "Análisis y Diseño/Conceptos/Agile methodologies.md",
-    "Taller de Prog II/Mejora continua/Mejora continua.md"
+    "Seguridad Informática/Herramientas/VPN.md",
+    "Redes de Computadoras/Según escala/LAN.md",
+    "Seguridad Informática/Seguridad de la Información/Seguridad de la Información.md",
+    "Seguridad Informática/Daily/20220530.md",
+    "Seguridad Informática/IPSEC.md",
+    "Teoría de la Información/Encriptación/Clave Privada/3DES.md",
+    "Teoría de la Información/Encriptación/Clave Privada/AES.md",
+    "Teoría de la Información/Encriptación/Clave Privada/Feistel.md",
+    "Teoría de la Información/Encriptación/Clave Privada/IDEA.md",
+    "Teoría de la Información/Encriptación/Clave Privada/DES.md"
   ]
 }
