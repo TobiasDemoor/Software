@@ -20,6 +20,6 @@ Se basa en la medición y retroalimentación sobre el rendimiento del proceso pa
 - [[Mantenimiento Productivo Total]]
 - [[SMED]]
 - [[Kanban]]
-- Jidoka
+- [[Jidoka]]
 - [[just-in-time]]
 - [[Poka-yoke]]

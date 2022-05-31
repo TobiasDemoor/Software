@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Mejora continua/SMED.md",
+            "file": "Taller de Prog II/Mejora continua/Lean Software Development.md",
             "mode": "source",
             "source": false
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RFC",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Mejora continua/SMED.md",
+                "file": "Taller de Prog II/Mejora continua/Lean Software Development.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Mejora continua/SMED.md",
+                "file": "Taller de Prog II/Mejora continua/Lean Software Development.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "a64c0657cf7c2fab",
   "lastOpenFiles": [
-    "Taller de Prog II/Mejora continua/SMED.md",
-    "Taller de Prog II/Mejora continua/Poka-yoke.md",
-    "Taller de Prog II/Mejora continua/Mejora continua.md",
+    "Taller de Prog II/Mejora continua/Lean Software Development.md",
+    "Taller de Prog II/Mejora continua/Jidoka.md",
+    "Taller de Prog II/Mejora continua/Test Driven Development.md",
     "Taller de Prog II/Mejora continua/Mantenimiento Productivo Total.md",
-    "Taller de Prog II/Mejora continua/Kanban.md",
+    "Taller de Prog II/Mejora continua/SMED.md",
     "Taller de Prog II/Mejora continua/just-in-time.md",
-    "Taller de Prog II/Daily/20220531.md",
-    "Seguridad Informática/Daily/20220530.md",
-    "Seguridad Informática/Herramientas/Firewall/iptables.md",
-    "Análisis y Diseño/Patrones/GoF/Proxy.md"
+    "Taller de Prog II/Mejora continua/Kanban.md",
+    "Taller de Prog II/Mejora continua/Poka-yoke.md",
+    "Análisis y Diseño/Conceptos/Agile methodologies.md",
+    "Taller de Prog II/Mejora continua/Mejora continua.md"
   ]
 }

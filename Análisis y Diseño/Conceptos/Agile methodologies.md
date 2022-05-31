@@ -1,3 +1,6 @@
+---
+aliases: ["metodología ágil", "metodologías agiles"]
+---
 In software development, agile practices involve discovering requirements and developing solutions through the collaborative effort of self-organizing and cross-functional teams and their customer(s)/end user(s). It advocates adaptive planning, evolutionary development, early delivery, and continual improvement, and it encourages flexible responses to change.
 
 # Agile Manifesto

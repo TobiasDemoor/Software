@@ -14,11 +14,5 @@ SMED (Single-Minute digit Exchange of Die) es una técnica de producción que bu
 - Etapa 2: se empiezan a realizar la actividades externas en paralelo a la producción.
 - Etapa 3: se busca simplificar las tareas, subdividirlas y optimizarlas.
 
-### Principios lean trasladados al desarrollo de software
-1. Eliminar el desperdicio (desperdicio es todo lo que pueda ser excluido sin afectar el resultado deseado del proceso)
-2. Amplificar el aprendizaje
-3. Decidir lo más tarde posible (ante las incertidumbres, se debe evitar decidir hasta que sea necesario)
-4. Entregar tan rápido como sea posible
-5. Empoderar al equipo (darles voz a los developers)
-6. Lograr integridad (asegurarse que todos los componentes de un sistema puedan trabajar en conjunto)
-7. Optimizar el todo (definir las interacciones entre las diferentes partes del sistema)
+### Lean Software Development
+![[Lean Software Development]]
