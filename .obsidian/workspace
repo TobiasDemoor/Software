@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Taller de Prog II/Mejora continua/Lean Software Development.md",
+            "file": "Taller de Prog II/Mejora continua/Test Driven Development.md",
             "mode": "source",
             "source": false
           }
@@ -77,14 +77,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taller de Prog II/Mejora continua/Lean Software Development.md",
+                "file": "Taller de Prog II/Mejora continua/Test Driven Development.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taller de Prog II/Mejora continua/Lean Software Development.md",
+                "file": "Taller de Prog II/Mejora continua/Test Driven Development.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,9 +109,9 @@
   },
   "active": "a64c0657cf7c2fab",
   "lastOpenFiles": [
+    "Taller de Prog II/Mejora continua/Test Driven Development.md",
     "Taller de Prog II/Mejora continua/Lean Software Development.md",
     "Taller de Prog II/Mejora continua/Jidoka.md",
-    "Taller de Prog II/Mejora continua/Test Driven Development.md",
     "Taller de Prog II/Mejora continua/Mantenimiento Productivo Total.md",
     "Taller de Prog II/Mejora continua/SMED.md",
     "Taller de Prog II/Mejora continua/just-in-time.md",
