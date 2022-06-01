@@ -1,6 +1,6 @@
 Guster es un tipo de [[Network-attached storage|NAS]] que se puede implementar en hardware estándar. 
 
-El [[Sistemas de archivos|sistema de archivos]] Gluster incluye recursos de procesamiento, almacenamiento y entrada/salida agrupados en un espacio de nombres. Cada server con su almacenamiento se considera “un nodo”. La capacidad se puede escalar agregando nodos adicionales o almacenamiento adicional a cada nodo. La performance se aumenta distribuyendo el almacenamiento entre nodos. La disponibilidad se obtiene replicando el contenido de datos entre nodos.
+El [[Sistemas de archivos distribuidos|sistema de archivos]] Gluster incluye recursos de procesamiento, almacenamiento y entrada/salida agrupados en un espacio de nombres. Cada server con su almacenamiento se considera “un nodo”. La capacidad se puede escalar agregando nodos adicionales o almacenamiento adicional a cada nodo. La performance se aumenta distribuyendo el almacenamiento entre nodos. La disponibilidad se obtiene replicando el contenido de datos entre nodos.
 
 GlusterFS tiene un componente de cliente y servidor. Los servidores normalmente se implementan como **bricks** (ladrillos) de almacenamiento, y cada servidor ejecuta un daemon glusterfsd para exportar un sistema de archivos local como un volumen. El proceso de cliente glusterfs, que se conecta a servidores con un protocolo personalizado a través de TCP/IP, InfiniBand o Sockets Direct Protocol, crea volúmenes virtuales compuestos desde múltiples servidores remotos utilizando **translators** apilables.
 

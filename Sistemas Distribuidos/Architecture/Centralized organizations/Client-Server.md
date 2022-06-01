@@ -1,7 +1,7 @@
 ---
-aliases: [cliente-servidor]
+aliases: ["cliente-servidor"]
 ---
-En el modelo cliente-servidor básico, los procesos en un son divididos en dos grupos (con posible solapamiento). Un proceso **servidor** es un proceso implementando un servicio específico. Un proceso **cliente** es un proceso que solicita un servicio a un servidor mediante el envio de una solicitud y subsecuentemente la espera de la respuesta. La interacción cliente-servidor también es conocida como **request-reply behavior**. ^extracto
+En el modelo cliente-servidor básico, los procesos en un son divididos en dos grupos (con posible solapamiento). Un proceso **[[Servidor|servidor]]** es un proceso implementando un servicio específico. Un proceso **[[Cliente|cliente]]** es un proceso que solicita un servicio a un servidor mediante el envio de una solicitud y subsecuentemente la espera de la respuesta. La interacción cliente-servidor también es conocida como **request-reply behavior**. ^extracto
 
 ### Contexto - Problema
 Existen recursos compartidos entre una gran cantidad de clientes distribuidos ([[Sistemas Distribuidos|sistema distribuido]]) en el espacio físico conectados por una [[Redes de computadoras|red]] que desean acceder a los mismos. Se debe controlar el acceso y la calidad de los servicios.

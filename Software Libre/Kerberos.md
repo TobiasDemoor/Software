@@ -1,0 +1,3 @@
+Un [[Servidor|servidor]] Kerberos o centro de distribución de claves (KDC) mantiene una base de datos de sujetos principales y las contraseñas asociadas a ellos. Está compuesto por el servidor de autenticación y el servidor de otorgamiento de tickets.
+
+Es un protocolo de autenticación de redes de ordenador creado por el MIT que permite a dos ordenadores en una red insegura demostrar su identidad mutuamente de manera segura utilizando [[Criptografía|criptografía]] de claves simétricas.

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Linux/Syslog.md",
+            "file": "Software Libre/GlusterFS.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Linux/Syslog.md",
+                "file": "Software Libre/GlusterFS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Linux/Syslog.md",
+                "file": "Software Libre/GlusterFS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "488bb305e5ec8029",
   "lastOpenFiles": [
-    "Software Libre/Linux/Syslog.md",
-    "Software Libre/Daily/20220418.md",
-    "Seguridad Informática/Firewall/iptables.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/Direcciones IP.md",
-    "Seguridad Informática/Proxys.md",
-    "Seguridad Informática/Daily/20220530.md",
-    "Seguridad Informática/Firewall/Firewall.md",
-    "Análisis y Diseño/Patrones/GoF/Patrón Proxy.md",
-    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md"
+    "Software Libre/GlusterFS.md",
+    "Sistemas Distribuidos/Network-attached storage.md",
+    "Software Libre/Kerberos.md",
+    "Sistemas Distribuidos/Almacenamiento distribuido/NFS.md",
+    "Seguridad Informática/Criptología/Criptografía.md",
+    "Seguridad Informática/Criptología/Criptología.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Cliente.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Client-Server.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
+    "Sistemas Distribuidos/Almacenamiento distribuido/SAMBA.md"
   ]
 }

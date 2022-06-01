@@ -1,3 +1,6 @@
+---
+aliases: ["cliente", "client"]
+---
 Una de las tareas más importantes de las máquinas cliente es la de permitir a los usuarios interactuar con servidores remotos. Existen dos maneras para dar soporte a esta comunicación.
 1. Por cada servicio remoto, el cliente tendrá una contraparte local que puede contactar el servicio en la red. El ejemplo típico es el calendario corriendo en el smartphone del usuario que necesita sincronizar con un calendario compartido remoto.
 2. **Dumb client**. La segunda opción es proveer acceso directo a servicios remotos ofreciendo solamente una interfaz de usuario conveniente. La máquina de usuario es usada únicamente como una terminal que no necesita almacenamiento local.
