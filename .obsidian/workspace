@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Seguridad Informática/Firewall/iptables.md",
+            "file": "Software Libre/Linux/Syslog.md",
             "mode": "source",
             "source": false
           }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ip privadas",
+                "query": "syslog",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/Firewall/iptables.md",
+                "file": "Software Libre/Linux/Syslog.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/Firewall/iptables.md",
+                "file": "Software Libre/Linux/Syslog.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,6 +109,8 @@
   },
   "active": "488bb305e5ec8029",
   "lastOpenFiles": [
+    "Software Libre/Linux/Syslog.md",
+    "Software Libre/Daily/20220418.md",
     "Seguridad Informática/Firewall/iptables.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/IP/Direcciones IP.md",
@@ -116,8 +118,6 @@
     "Seguridad Informática/Daily/20220530.md",
     "Seguridad Informática/Firewall/Firewall.md",
     "Análisis y Diseño/Patrones/GoF/Patrón Proxy.md",
-    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
-    "Sistemas Distribuidos/Architecture/Architectural style.md",
-    "Seguridad Informática/Firewall/DMZ.md"
+    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md"
   ]
 }
