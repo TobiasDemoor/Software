@@ -1,0 +1,1 @@
+**RIP (Routing Information Protocol)** es el principal ejemplo de [[Enrutamiento intradominio|enrutamiento intradominio]] que se usa en la actualidad. Funciona bien en sistemas pequeños, pero su desempeño disminuye a medida que las redes aumentan su tamaño. También sufre del problema del conteo al infinito y por lo general de una convergencia lenta.
