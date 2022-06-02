@@ -9,7 +9,7 @@ Desde el punto de vista de la organización existen tres modos principales:
 
 - Secuencial: Un [[registro]] a continuación de otro.
 - Directo: Los registros binarios no se disponen en el soporte atendiendo a un algoritmo de cálculo.
-- Indexado: Los registros generalmente se almacenan secuencialmente y van con un [[índice]].
+- Indexado: Los registros generalmente se almacenan secuencialmente y van con un [[Índice]].
 ## Primitivas de organización de archivos
 - De creación: creación y carga inicial sin validación de unicidad ni búsqueda de espacio libre.
 - De actualización de registros: inserción con validación de unicidad y búsqueda de espacio libre, modificación y supresión.

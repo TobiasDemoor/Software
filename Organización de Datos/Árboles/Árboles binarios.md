@@ -1,5 +1,5 @@
 ---
-aliases: [árbol binario]
+aliases: ["árbol binario"]
 ---
 Los árboles binarios son [[árboles]] de grado 2, un árbol donde cada nodo puede tener como máximo 2 subárboles, siendo necesario distinguir entre el subárbol derecho y el subárbol izquierdo.
 

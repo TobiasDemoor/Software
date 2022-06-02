@@ -1,5 +1,5 @@
 ---
-aliases: [árbol]
+aliases: ["árbol"]
 ---
 Los árboles representan estructuras no lineales (porque a cada elemento del árbol puede seguirle varios elementos) y dinámicas (puesto que la estructura del árbol puede variar durante la ejecución del programa). Un árbol es una estructura jerárquica aplicada sobre una colección de elementos u objetos llamados nodos; uno de los cuales se denomina raíz.
 

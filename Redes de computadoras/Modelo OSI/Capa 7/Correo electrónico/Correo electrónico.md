@@ -1,5 +1,5 @@
 ---
-aliases: [e-mail]
+aliases: ["e-mail"]
 ---
 
 La arquitectura del sistema, que consiste en dos tipos de subsistemas: los **agentes de usuario (UA)**, que permiten a la gente leer y enviar correo electrónico, y los **agentes de transferencia de mensajes (MTA)**, que mueven los mensajes del origen al destino. También nos referiremos a los agentes de transferencia de mensajes de una manera informal como **servidores de correo**.

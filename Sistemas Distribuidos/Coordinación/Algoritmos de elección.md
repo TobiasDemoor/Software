@@ -1,5 +1,5 @@
 ---
-aliases: [coordinador]
+aliases: ["coordinador"]
 ---
 
 En muchos [[sistemas distribuidos]] se requiere que un proceso actúe como **coordinador**, iniciador o que cumpla un rol especial. En general no importa cuál proceso tiene esta responsabilidad, pero uno debe hacerlo y el resto debe estar de acuerdo en quien lo hace.

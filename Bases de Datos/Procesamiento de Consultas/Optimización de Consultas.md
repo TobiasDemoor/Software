@@ -49,7 +49,7 @@ Usaremos dos tipos de archivos, **heap files** (archivos desordenados) y **sorte
 ![[BD_optimización_archivos_costos.png]]
 
 #### Índices
-Los [[índice|índices]] permiten el acceso a la información de una forma no soportada (o no eficientemente soportada) por la organización básica de un archivo.
+Los [[Índice|índices]] permiten el acceso a la información de una forma no soportada (o no eficientemente soportada) por la organización básica de un archivo.
 
 Si los datos del archivo están ordenados físicamente en el mismo orden que uno de sus índices, decimos que ese índice es **clustered**. Caso contrario es **unclustered**. Los archivos de datos pueden tener a lo sumo un índice clustered.
 

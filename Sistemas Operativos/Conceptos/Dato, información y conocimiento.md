@@ -1,5 +1,5 @@
 ---
-aliases: [dato, información, conocimiento]
+aliases: ["dato", "información", "conocimiento"]
 ---
 Un **dato** es una representación de la información, el cual no es posible interpretarlo sin un contexto. Por ejemplo, _“33 es una edad”_.
 

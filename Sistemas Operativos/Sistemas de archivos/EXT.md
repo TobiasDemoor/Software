@@ -34,7 +34,7 @@ Un inodo es una estructura de control que contienen información clave requerida
 - Flags que describen características del archivo.
 
 #### Asignación de archivos
-- Utiliza una variación de la asignación vinculada que evita el acceso secuencial a la cadena de bloques de [[índice|índices]].
+- Utiliza una variación de la asignación vinculada que evita el acceso secuencial a la cadena de bloques de [[Índice|índices]].
   - *Bloques de índices de 1er nivel* (contienen punteros directos a bloques de datos)
   - *Bloques de índices de 2do nivel* (contienen punteros a bloques de índices que, a su vez, contienen punteros directos a bloques de datos).
   - *Bloques de índices de 3er nivel….*

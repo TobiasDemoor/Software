@@ -1,4 +1,4 @@
-Es un sistema que construye un [[índice]] a partir de texto y responde a consultas utilizando este índice. Utilizan índices invertidos. El archivo invertido se crea siguiendo cuatro pasos principales: parseo, ordenamiento, agrupamiento, y generación del diccionario y posting.
+Es un sistema que construye un [[Índice]] a partir de texto y responde a consultas utilizando este índice. Utilizan índices invertidos. El archivo invertido se crea siguiendo cuatro pasos principales: parseo, ordenamiento, agrupamiento, y generación del diccionario y posting.
 
 1. Parseo: a cada documento se le extrae los términos y un id documento.
 1. Ordenamiento: se ordena al archivo creado por términos manteniendo los duplicados.

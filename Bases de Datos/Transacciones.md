@@ -1,5 +1,5 @@
 ---
-aliases: [transacción, transaction]
+aliases: ["transacción", "transaction", "ACID"]
 ---
 Una **transacción** es una interacción con una estructura de datos compleja, compuesta por varios procesos que se han de aplicar uno después del otro. La transacción debe realizarse de una sola vez y sin que la estructura a medio manipular pueda ser alcanzada por el resto del sistema hasta que se hayan finalizado todos sus procesos. Debe cumplir con las siguientes características (**ACID**):
 - **Atomic**: (*Atomicidad*) una operación consiste en una serie de pasos, de los que o bien se ejecutan todos o ninguno, es decir, las transacciones son completas.

@@ -1,5 +1,5 @@
 ---
-aliases: [802.11]
+aliases: ["802.11"]
 ---
 Se le conoce como WiFi al estándar de [[Wireless LAN|LAN inalámbrica]] definida en la norma **IEEE 802.11**. Es un estandar que se utiliza en la [[Capa de enlace de datos|capa de enlace a datos]] del modelo OSI. Al momento de su diseño se tomó como modelo a [[Ethernet]].
 

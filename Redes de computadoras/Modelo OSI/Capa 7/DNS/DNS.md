@@ -1,4 +1,4 @@
-El DNS (Domain Name System) es una [[Sistemas de archivos distribuidos|base de datos distribudida]] y jerárquica. En ella se almacena información que mapea nombres de host a [[direcciones IP]] y visceversa.
+El DNS (Domain Name System) es una [[DDBMS|base de datos distribudida]] y jerárquica. En ella se almacena información que mapea nombres de host a [[direcciones IP]] y visceversa.
 
 Las solicitudes se envían utilizando [[UDP]] (a través del puerto bien conocido UDP/53). Los nombres de dominio de nivel superior son controlados por la ICANN.
 

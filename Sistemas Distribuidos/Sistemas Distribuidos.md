@@ -1,5 +1,5 @@
 ---
-aliases: [sistema distribuido]
+aliases: ["sistemas distribuidos", "sistema distribuido"]
 ---
 ## Definición
 *Aquellos sistemas que tienen componentes que están en distinto hardware conectados por una [[Redes de computadoras|red]].*

@@ -1,5 +1,5 @@
 ---
-aliases: [árboles B, árbol B]
+aliases: ["árboles B", "árbol B"]
 ---
 Los sistemas de almacenamiento masivo suelen tener un tiempo de acceso mucho mayor que el tiempo de transferencia: la localización de un elemento es mucho más costosa que la lectura secuencial de datos, una vez localizados. Esto supone un problema para estructuras enlazadas, como los [[árboles AVL]], donde las operaciones acceden a bastantes nodos de pequeño tamaño. Para grandes volúmenes se datos, sería conveniente reducir el número de accesos, a cambio de que esos accesos contuvieran elementos de mayor tamaño.
 

@@ -237,7 +237,7 @@ Este método de asignación posee una gran desventaja: acceso secuencial a los r
 
 ##### *Indexada*
 - Dos tipos de bloques:
-  - *Bloques de [[índice|índices]]*. Solo contienen punteros, información burocrática.
+  - *Bloques de [[Índice|índices]]*. Solo contienen punteros, información burocrática.
   - *Bloques de datos.* Contienen la información propiamente dicha del archivo. Bloques similares a los de la asignación contigua.
 - La tabla de asignación de archivos contiene un puntero al primer bloque de índices del archivo.
 - Los bloques de índices contienen N punteros ordenados a bloques de datos del archivo.

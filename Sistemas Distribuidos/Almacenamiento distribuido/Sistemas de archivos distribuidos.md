@@ -1,4 +1,4 @@
-Si consideramos que el compartir datos es fundamental en los [[sistemas distribuidos]], no sorprende que los [[Sistemas de archivos]] compartidos constituyan el fundamento de muchas aplicaciones. Los sistemas de archivo distribuidos permiten que múltiples procesos compartan datos durante largos periodos en forma segura y confiable.
+Si consideramos que el compartir datos es fundamental en los [[sistemas distribuidos]], no sorprende que los [[Sistemas de archivos|sistemas de archivos]] compartidos constituyan el fundamento de muchas aplicaciones. Los sistemas de archivo distribuidos permiten que múltiples procesos compartan datos durante largos periodos en forma segura y confiable.
 
 ### Arquitectura
 La mayoría se construye siguiendo una [[Client-Server|arquitectura cliente-servidor]] tradicional, aunque también existen soluciones [[Decentralized organizations|descentralizadas]].

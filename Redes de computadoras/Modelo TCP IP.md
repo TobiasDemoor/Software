@@ -1,5 +1,5 @@
 ---
-aliases: [modelo TCP/IP]
+aliases: ["modelo TCP/IP"]
 ---
 El **modelo de referencia TCP/IP** toma su nombre debido a sus dos [[Protocolo|protocolos]] primarios ([[TCP]] e [[IP]]). Es posterior al [[Modelo OSI|modelo de referencia OSI]] y sus objetivos principales son permitir conectar varias [[Redes de computadoras|redes]] sin problemas y sobrevivir a la pérdida de hardware de la [[Subred|subred]] sin que se interrumpieran las conversaciones existentes.
 

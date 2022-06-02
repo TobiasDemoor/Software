@@ -1,5 +1,5 @@
 ---
-aliases: [peer-to-peer, punto a punto]
+aliases: ["peer-to-peer", "punto a punto"]
 ---
 
 Los **enlaces de punto a punto** conectan pares individuales de máquinas. Para ir del origen al destino en una red formada por enlaces de punto a punto, los mensajes cortos (conocidos como **paquetes** en ciertos contextos) tal vez tengan primero que visitar una o más máquinas intermedias. A menudo es posible usar varias rutas de distintas longitudes, por lo que es importante encontrar las más adecuadas en las redes de punto a punto. A la transmisión punto a punto en donde sólo hay un emisor y un receptor se le conoce como **unidifusión** (*unicasting*). ^extracto

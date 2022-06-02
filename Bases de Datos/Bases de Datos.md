@@ -1,5 +1,5 @@
 ---
-aliases: [base de datos, BD, DB]
+aliases: ["bases de datos", "base de datos", "BD", "DB"]
 ---
 > "Una base de datos es una fuente central de [[Dato, información y conocimiento|datos]] con el fin de que varios usuarios la compartan para su uso en varias aplicaciones" - (Kendall, 2005)
 

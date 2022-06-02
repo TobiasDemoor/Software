@@ -1,5 +1,5 @@
 ---
-aliases: [idempotente]
+aliases: ["idempotente"]
 ---
 Propiedad de una operación o función. Que al aplicarse repetidamente el resultado siempre es el mismo (una consulta es una opración idempotente).
 

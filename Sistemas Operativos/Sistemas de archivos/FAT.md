@@ -13,7 +13,7 @@ Siempre es el primer sector de la partición (volumen) e incluye información b�
 Contiene dos copias de la tabla de asignación de archivos (por motivos de seguridad). Estos son mapas de la partición, indicando que clusters están ocupados por los archivos.
 
 - **La región del directorio raíz.**
-Es el [[índice]] principal de carpetas y archivos.
+Es el [[Índice]] principal de carpetas y archivos.
 
 - **La región de datos.**
 Es el lugar donde se almacena el contenido de archivos y carpetas. Por tanto, ocupa casi toda la partición. El tamaño de cualquier archivo o carpeta puede ser ampliado siempre que queden suficientes clusters libres. Cada cluster está enlazado con el siguiente mediante un puntero. Si un determinado cluster no se ocupa por completo su espacio remanente se desperdicia.

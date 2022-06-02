@@ -2,6 +2,24 @@ CouchDB es una [[Bases de Datos|base de datos]] [[Software Libre|software libre]
 
 Los documentos son la unidad principal de datos en CouchDB y constan de cualquier número de campos y archivos adjuntos, en formato [[JSON]] (schemaless). Los documentos también incluyen metadatos que mantiene el sistema de base de datos. Los campos del documento tienen un nombre único y contienen valores de diferentes tipos (texto, número, booleano, listas, etc.), y no hay un límite establecido para el tamaño del texto o el recuento de elementos. 
 
+Características:
+- [[Transacciones|Transacciones ACID]]
+- Administrador visual "Fauxton"
+- Basada en documentos
+- API [[REST]]
+- Consultas
+- [[Índice|Índices]]
+- Schemaless
+- Vistas
+- Búsqueda
+- [[Decentralized organizations|Arquitectura distribuida]] mediante replicación
+- Suscripción a cambios
+
+### Fauxton
+Fauxton es una interfaz web nativa integrada en CouchDB. Proporciona una interfaz básica para la mayoría de las funciones. Proporciona acceso a los parámetros de configuración y una interfaz para iniciar la replicación.
+
+Una vez instalado CouchDB se puede acceder al panel en el puerto 5984 y el path /\_utils. Por ejemplo: http://127.0.0.1:5984/_utils
+
 ### Documentos
 El modelo de actualización de documentos de CouchDB es optimista y sin bloqueo. Las ediciones de documentos se realizan mediante aplicaciones cliente que cargan documentos, aplican cambios y los guardan en la base de datos. Si otro cliente que edita el mismo documento guarda sus cambios primero, el cliente obtiene un error de conflicto de edición al guardar. Para resolver el conflicto de actualización, se puede abrir la última versión del documento, volver a aplicar las ediciones y volver a intentar la actualización.
 
@@ -31,7 +49,7 @@ Pero CouchDB está diseñado para evitar costos adicionales: solo se ejecuta a t
 Los índices de búsqueda permiten consultar una base de datos utilizando la sintaxis del analizador de consultas de Lucene (Apache Lucene). Un índice de búsqueda utiliza uno o varios campos de los documentos. Se puede utilizar un índice de búsqueda para ejecutar consultas, buscar documentos según el contenido que contienen o trabajar con grupos, facetas o búsquedas geográficas.
 
 ### Arquitectura distribuida mediante replicación
-CouchDB es un [[Sistemas de archivos distribuidos|sistema de base de datos distribuido]] basado en pares. Permite a los usuarios y servidores acceder y actualizar los mismos datos compartidos mientras están desconectados. Cada uno tiene una instancia de base de datos local. Posteriormente, esos cambios se pueden replicar bidireccionalmente.
+CouchDB es un [[DDBMS|sistema de base de datos distribuido]] basado en pares. Permite a los usuarios y servidores acceder y actualizar los mismos datos compartidos mientras están desconectados. Cada uno tiene una instancia de base de datos local. Posteriormente, esos cambios se pueden replicar bidireccionalmente.
 
 Utiliza un modelo de replicación llamado [[Consistencia eventual|consistencia eventual]]. En este sistema, los clientes pueden escribir datos en un nodo de la base de datos sin esperar a que otros nodos se pongan de acuerdo (inclusive puede estar offline). El sistema copia incrementalmente los cambios de documentos entre los nodos, lo que significa que eventualmente estarán sincronizados (si lo vemos a través del [[CAP Theorem]] CouchDB cumpliría con Availability y Partitioning).
 

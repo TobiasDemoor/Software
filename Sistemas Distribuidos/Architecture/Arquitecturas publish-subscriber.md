@@ -1,5 +1,5 @@
 ---
-aliases: [publish-subscriber, publicación-subscripción]
+aliases: ["publish-subscriber", "publicación-subscripción"]
 ---
 A medida que los sistemas siguen creciendo y los procesos pueden unirse e irse más fácilmente, es importante tener una arquitectura donde las dependencias entre procesos sean lo más sueltas posibles. Una gran clase de [[Sistemas Distribuidos|sistemas distribuidos]] han adoptado una arquitectura en la que hay una gran separación entre **procesamiento** y **coordinación**. La idea es ver al sistema como una colección de procesos operando autónomamente. En este modelo, coordinación cubre la comunicacion y cooperación entre procesos. Forma el pegamento que une las actividades realizadas por procesos en un todo.
 

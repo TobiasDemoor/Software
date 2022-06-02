@@ -7,7 +7,12 @@ Los containers o contenedores son posibles gracias al aislamiento y la virtualiz
 
 ![[SL_Containers.png]]
 
-> La virtualización a nivel SO no es única de los containers sino que también se utiliza en las zones (Solaris containers), virtual private servers (OpenVZ), virtual kernels (DragonFly BSD), jails (FreeBSD, IOS), etc.
+> La virtualización a nivel SO no es única de los containers sino que también se utiliza en:
+> - zones (Solaris containers)
+> - virtual private servers (OpenVZ)
+> - virtual kernels (DragonFly BSD)
+> - jails (FreeBSD, IOS)
+> - etc.
 
 ### Ventajas
 Los containers traen los mismos beneficios que las [[Virtualización#Razones|máquinas virtuales]] (VMs), incluido el aislamiento de aplicaciones, la [[Escalabilidad|escalabilidad]] y la [[Reliability|disponibilidad]]. Además tienen ventajas respecto a las VMs.

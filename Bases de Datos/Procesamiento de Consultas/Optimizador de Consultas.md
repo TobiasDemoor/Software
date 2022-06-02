@@ -13,7 +13,7 @@ En general, el objetivo principal es **minimizar la cantidad de accesos a disco*
 * Los distintos algoritmos implementados en el procesador de consultas y disponibles al optimizador que implementan las operaciones de álgebra relacional (Proyección, Selección, Unión, Intersección, Resta, Join).
 * Información acerca de:
 	* La estructura física de los datos (ordenamiento, clustering, hashing).
-	* La existencia de [[índice|índices]] e información sobre ellos (ej : nro de niveles que posee).
+	* La existencia de [[Índice|índices]] e información sobre ellos (ej : nro de niveles que posee).
 	* Estadísticas guardadas en el [[catálogo]] (esta información no está “al día” constantemente por razones de eficiencia, sino que se actualiza periódicamente):
 		* Tamaño de archivos y factor de bloqueo. 
 		* Cantidad de tuplas de la relación 

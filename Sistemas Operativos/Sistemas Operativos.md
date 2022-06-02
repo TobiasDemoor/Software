@@ -1,5 +1,5 @@
 ---
-aliases: [sistema operativo]
+aliases: ["sistema operativo"]
 ---
 Es la interfaz entre el usuario y el hardware. Es una máquina extendida virtual que ofrece un conjunto de funciones e [[Interfaz|interfaces]] para utilizar los recursos del hardware. Es un manejador de eventos, gestiona la ejecución de [[Sistemas Operativos/Conceptos/Proceso|procesos]] (avance de las instrucciones de los [[Programa|programas]]). Es por ello que el SO es el responsable de la [[Seguridad]] del [[Sistemas de Computación|sistema de computación]] (SC) y la [[protección]] de sus recursos.
 
@@ -144,7 +144,7 @@ Se ejecutan en servidores, que son computadoras personales muy grandes, estacion
 - Proporciona la ilusión de un único espacio de memoria principal y un único espacio de memoria secundaria (virtuales).
 - Utilizado para el [[sistemas de archivos distribuidos]].
 - Un sistema operativo distribuido se presenta a sus usuarios en forma de un sistema tradicional con un procesador, aun cuando en realidad está compuesto de varios procesadores.
-- Los sistemas distribuidos permiten con frecuencia que las aplicaciones se ejecuten en varios procesadores al mismo tiempo.
+- Los [[Sistemas Distribuidos|sistemas distribuidos]] permiten con frecuencia que las aplicaciones se ejecuten en varios procesadores al mismo tiempo.
 
 
 ### Tipos de SSOO (por interacción)
