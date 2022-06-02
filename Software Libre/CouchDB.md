@@ -87,4 +87,7 @@ De esta forma, si se quiere mantener sincronizadas varias bases de datos, simple
 </script>
 ```
 
+### PouchDB
+PouchDB es una base de datos “inspirada” en CouchDB, implementada en JavaScript y optimizada para ejecutarse en navegadores. Su principal objetivo es ayudar en el desarrollo de aplicaciones offline. Al tener una API compatible con CouchDB, la aplicación puede tener una base de datos local PouchDB y sincronizarse mediante mecanismos de replicación con una base de datos remota CouchDB
+
 #ApacheFoundation

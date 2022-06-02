@@ -110,6 +110,7 @@
   "active": "488bb305e5ec8029",
   "lastOpenFiles": [
     "Software Libre/CouchDB.md",
+    "Bases de Datos/NOSQL/CAP Theorem.md",
     "Redes de Computadoras/IEEE 802/802.11/WiFi.md",
     "Sistemas Distribuidos/Almacenamiento distribuido/Almacenamiento distribuido.md",
     "Sistemas Distribuidos/Almacenamiento distribuido/Sistemas de archivos distribuidos.md",
@@ -117,7 +118,6 @@
     "Sistemas Distribuidos/Sistemas Distribuidos.md",
     "Software Libre/GlusterFS.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
-    "Bases de Datos/DBMS/DDBMS.md",
-    "Resumenes/Resumen SSDD.md"
+    "Bases de Datos/DBMS/DDBMS.md"
   ]
 }
