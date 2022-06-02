@@ -85,7 +85,6 @@ Análogo para cadenas
 #### *Trasposición de lenguajes*
 Sea L un lenguaje cualquiera. Se llama lenguaje traspuesto o inverso de L, representándose por L-1 o LT a { x-1 / x *Î* L }. Es decir, se trata de un lenguaje que contiene las palabras inversas a las palabras de L.
 
-##
 ## **Gramáticas**
 Una gramática describe la estructura de las frases y palabras de un lenguaje a través del uso de reglas definidas.
 
@@ -238,8 +237,6 @@ PL1   \*=P1 ∪S0∷=S0S1  λ}
 *Los CFL NO SON cerrados respecto de la intersección, ni del complemento ni de la diferencia.* 
 \*
 
-
-Segundo Parcial
 # **Lenguajes Linealmente Acotados (Tipo 1)**
 También llamados lenguajes sensibles al contexto. Las gramáticas pueden tener más de un símbolo a la izquierda ya sea terminal o no terminal.
 
@@ -509,7 +506,7 @@ Los atributos pueden utilizarse para la comprobación de tipos.
   - Tales tipos con frecuencia son denominados **tipos estructurados**.
 - Los lenguajes que tienen un rico conjunto de constructores de tipo por lo regular también tienen un mecanismo para que un programador asigne nombres a expresiones de tipo (**definiciones de tipo**).
 
-### ` `Equivalencia de tipos
+### Equivalencia de tipos
 Dadas las posibles expresiones de tipo de un lenguaje, un verificador de tipo con frecuencia debe responder la cuestión de cuándo dos expresiones de tipo representan al mismo tipo: **equivalencia de tipos.** 
 
 - *Equivalencia estructural:* dos expresiones son o bien del mismo tipo básico o están formadas aplicando el mismo constructor (C).
@@ -541,30 +538,4 @@ Una conversión automática se conoce como **coerción**.
 
 # **Lenguajes sin restricciones (T0)**
 ## **Máquinas de Turing**
-Consiste en un control finito que puede estar en cualquier estado de un conjunto finito de estados. Se tiene una cinta dividida en celdas, cada celda con un símbolo. Inicialmente, la entrada (cadena finita de símbolos del alfabeto) se coloca en la cinta, el resto de las celdas tienen el símbolo especial vacío.
-
-La cabeza de la cinta está siempre sobre una celda y al principio está sobre la celda más a la izquierda con el primer símbolo de la cadena de entrada (a menos que se indique otra cosa). Un movimiento o transición puede cambiar de estado (o quedarse en el actual), escribir un símbolo (reemplazando el símbolo que existía o dejando el mismo) y mover la cabeza la izquierda o derecha o no moverla (**R L H** (Halt, fin)) .
-
-Todas las celdas tienen un símbolo que indica que están en blanco. En algún lugar de la cinta, está la sarta con la que queremos trabajar.
-
-
-Una MT es <Q,  A,  φ,  q0,  δ>
-
-- Q   Conjunto finito de estados
-- A    Alfabeto de entrada
-- φ    Alfabeto de cinta, A ⊆ φ   (B∈ φ,  B ∉A)  
-- q0∈Q   Estado inicial.
-- F ⊆Q   Conjunto de estados de aceptación.
-- δ:Q × φ ×{R, L, H} Función de transición.
-
-Las transiciones son  α, β/M
-
-- α  Es el símbolo de entrada
-- β  Es el símbolo que reemplazará a α en la cinta
-- M Es el movimiento del cabezal de lectura (R, L, H)
-
-### Descripción instantánea
-α, q,β con α∈ φ\*,  q ∈Q,  β ∈ φ\* 
-###
-### Movimiento atómico
-
+![[Máquinas de Turing]]
