@@ -1,3 +1,6 @@
+---
+aliases: ["lenguajes de programación", "lenguajes declarativos", "lenguajes imperativos"]
+---
 Representan [[Algorítmo|algoritmos]] y estructuras de datos, son concretos, muy concisos y poco expresivos.
 
 ### Lenguajes imperativos

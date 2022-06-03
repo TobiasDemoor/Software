@@ -7,8 +7,12 @@
         "id": "488bb305e5ec8029",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Software Libre/Daily/20220603.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\{",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Software Libre/Daily/20220603.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Software Libre/Daily/20220603.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -103,15 +109,15 @@
   },
   "active": "488bb305e5ec8029",
   "lastOpenFiles": [
+    "Software Libre/Daily/20220603.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
+    "Sistemas Operativos/Conceptos/Thread.md",
+    "Lenguajes Formales/Conceptos/Lenguajes de programación.md",
+    "Software Libre/Apache HTTP Server.md",
+    "Software Libre/Git.md",
     "Lenguajes Formales/Lenguajes.md",
     "Inteligencia Artificial/Lisp.md",
     "Inteligencia Artificial/Prolog.md",
-    "Lenguajes Formales/Conceptos/Lenguajes de programación.md",
-    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md",
-    "Taller de Prog II/Diagrama Ishikawa.md",
-    "Resumenes/Resumen Lenguajes Formales.md",
-    "Lenguajes Formales/Lenguajes libres de contexto/Lenguajes libres de contexto.md",
-    "Lenguajes Formales/Lenguajes regulares/Lenguajes regulares.md",
-    "Bases de Datos/Procesamiento de transacciones/Procesamiento de transacciones.md"
+    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md"
   ]
 }

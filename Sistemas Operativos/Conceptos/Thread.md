@@ -1,3 +1,6 @@
+---
+aliases: ["threads", "hilos"]
+---
 Es una unidad de procesamiento de un nivel de granularidad menor que un [[Sistemas Operativos/Conceptos/Proceso|proceso]]. Un proceso se descompone en hilos de procesamientos. Un hilo es una unidad de trabajo que se puede expedir para su ejecución, y es ejecutada secuencialmente y de forma ininterrumpible. Un proceso multihilo es una secuencia de hilos que se ejecutan de manera concurrente.
 
 #### Librería en la capa de usuario
@@ -14,7 +17,7 @@ Todos los hilos son mapeados a una sola entidad planificable (el proceso). Cada 
 - Context switch costoso, dado que requiere cambiar del contexto de un proceso entero a otro.
 - Cada proceso tiene su propio espacio de datos protegido por el SO.
 
-#### Máquina de estado finito
+#### Máquina de estado finito (event-loop)
 - Paralelismo, llamadas al sistema no bloqueantes, interrupciones.
 - Cuando llega una petición a un servidor de máquina de estado finito, el **hilo principal (y único)** examina la petición.
 	- Si puede ser resuelta con alguna entrada en la cache, perfecto.
