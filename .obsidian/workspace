@@ -110,14 +110,14 @@
   "active": "488bb305e5ec8029",
   "lastOpenFiles": [
     "Software Libre/Daily/20220603.md",
-    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
-    "Sistemas Operativos/Conceptos/Thread.md",
-    "Lenguajes Formales/Conceptos/Lenguajes de programación.md",
+    "Redes de Computadoras/Modelo OSI/Capa 7/HTTP.md",
+    "Sistemas Operativos/Conceptos/Threads.md",
+    "Sistemas Operativos/Procesamiento concurrente.md",
+    "Análisis y Diseño/Patrones/Arquitectónicos/Layers.md",
     "Software Libre/Apache HTTP Server.md",
-    "Software Libre/Git.md",
-    "Lenguajes Formales/Lenguajes.md",
-    "Inteligencia Artificial/Lisp.md",
-    "Inteligencia Artificial/Prolog.md",
-    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md"
+    "Software Libre/Linux/Funciones/kqueue.md",
+    "Software Libre/Linux/Funciones/epoll.md",
+    "Sistemas Distribuidos/Architecture/Centralized organizations/Servidor.md",
+    "Lenguajes Formales/Conceptos/Lenguajes de programación.md"
   ]
 }

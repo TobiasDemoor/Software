@@ -18,16 +18,16 @@ También es posible enviar una solicitud por cada conexión TCP, y ejecutar vari
 #### Métodos
 Aunque HTTP se diseñó para utilizarlo en la web, se ha hecho intencionalmente más general de lo necesario con miras a futuros usos orientados a objetos. Por esta razón, se soportan otras operaciones, llamadas **métodos**, diferentes a las de solicitar una página web.
 
-| Método  | Descripción                            | Idempotente | Seguro |
-| ------- | -------------------------------------- | ----------- | ------ |
-| GET     | Leer una página web.                   | SI          | SI     |
-| HEAD    | Leer el encabezado de una página web.  | SI          | SI     |
-| POST    | Adjuntar a una página web.             | NO          | NO     |
-| PUT     | Almacenar una página web.              | SI          | NO     |
-| DELETE  | Eliminar la página web.                | SI          | NO     |
-| TRACE   | Repetir la solicitud entrante          | SI          | SI     |
-| CONNECT | Conectarse a través de un [[Proxys|proxy]]        | SI          | SI     |
-| OPTIONS | Consultar las opciones para una página | SI          | SI     |
+| Método  | Descripción                                  | Idempotente | Seguro |
+| ------- | -------------------------------------------- | ----------- | ------ |
+| GET     | Leer una página web.                         | SI          | SI     |
+| HEAD    | Leer el encabezado de una página web.        | SI          | SI     |
+| POST    | Adjuntar a una página web.                   | NO          | NO     |
+| PUT     | Almacenar una página web.                    | SI          | NO     |
+| DELETE  | Eliminar la página web.                      | SI          | NO     |
+| TRACE   | Repetir la solicitud entrante                | SI          | SI     |
+| CONNECT | Conectarse a través de un proxy ([[Proxys]]) | SI          | SI     |
+| OPTIONS | Consultar las opciones para una página       | SI          | SI     |
 
 > Un método no seguro es aquel que modifica el estado interno del servidor.
 

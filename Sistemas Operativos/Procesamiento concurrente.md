@@ -18,6 +18,7 @@
   - *Dispositivos de E/S.*
 - El SO debe ser capaz de proteger los datos y los recursos físicos asignados a un proceso ante interferencias involuntarias de otros.
 - Los resultados de un proceso deben ser independientes de la velocidad relativa a la que se realiza la ejecución de otros procesos concurrentes.
+
 ### Race Condition
 Sucede cuando múltiples procesos o hilos leen y escriben datos de manera que el resultado final depende del orden de ejecución de las instrucciones de dichos procesos.
 
