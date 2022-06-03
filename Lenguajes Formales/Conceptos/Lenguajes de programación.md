@@ -1,4 +1,3 @@
-## Lenguajes de programación 
 Representan [[Algorítmo|algoritmos]] y estructuras de datos, son concretos, muy concisos y poco expresivos.
 
 ### Lenguajes imperativos
@@ -10,12 +9,3 @@ Abstracciones del lenguaje de máquina (Von Neumann). El foco está en **cómo d
 En contraste a los imperativos en estos lenguajes el foco está puesto en **qué debe** cumplir, no en cómo debe hacerlo. No se indica cómo resolver el problema sino cuál es el problema.
 * **Lenguajes funcionales ([[Lisp]], Haskell)**: computación por medio de expresiones funcionales.
 * **Lenguajes de programación lógica ([[Prolog]])**: basados en lógica de primer orden. Permiten representar el conocimiento y realizar inferencias lógicas.
-
-## Lenguajes naturales
-Son muy expresivos pero requieren de representaciones porque son poco concisos.
-
-## Lenguaje ideal
-El lenguaje ideal es muy expresivo y conciso.
-
-## Sintaxis y Semántica
-![[Sintaxis]]![[Semántica]]

@@ -1,5 +1,5 @@
 ---
-aliases: ["lenguajes regulares", "lenguaje regular"]
+aliases: ["lenguajes regulares", "lenguaje regular", , "lenguajes tipo 3"]
 ---
 %%chequear símbolos%%
 Un lenguaje regular es todo aquel que es generado por una gramática regular y puede ser definido mediante una [[Expresiones regulares|expresión regular]], una [[Gramáticas regulares|gramática regular]] y un [[Autómatas finitos|autómata finito]].

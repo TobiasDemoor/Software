@@ -70,7 +70,7 @@ La **teoría de serializabilidad** se compone del desarrollo de técnicas que pe
 
 >**Historias serializables:** H es serializable (SR) si es equivalente a una historia serial ($H_S$).
 
-Se utilizan **grafos de precedencia (SG)** para chequear si una historia es serializable. Dado H sobre $T = \{T_1, T_2, \cdots, T_n\}$, un SG(H) es cuyos nodos son los $T_i, T_j \in T$ y los arcos $T_i \leftarrow T_j (i \ne j)$  tal que alguna operación de $T_i$ precede y conflictúa con alguna operación de $T_j$ en H. Para su construcción se hay dos pasos principales:
+Se utilizan **grafos de precedencia (SG)** para chequear si una historia es serializable. Dado H sobre $T = \set{T_1, T_2, \cdots, T_n}$, un SG(H) es cuyos nodos son los $T_i, T_j \in T$ y los arcos $T_i \leftarrow T_j (i \ne j)$  tal que alguna operación de $T_i$ precede y conflictúa con alguna operación de $T_j$ en H. Para su construcción se hay dos pasos principales:
 1. Hacer un nodo por cada $T_i$ .
 2. Si alguna operación de $T_i$ precede y conflictúa con alguna operación de $T_j (i \ne j)$ en H, hacer un arco $T_i \leftarrow T_j$.
 
@@ -85,7 +85,7 @@ El mecanismo de locking por sí solo no garantiza serializabilidad. Es necesario
 
 > **Protocolo 2PL (Two Phase Locking):** una transacción T es 2PL si todos los locks preceden al primer unlock. Las transacciones que cumplen con 2PL se componen de una etapa de crecimiento donde realiza lock de los recursos seguida de una etapa de decrecimiento donde se realiza unlock de los recursos tomados en la etapa de crecimiento. La variante conservativa es deadlock-free en base a informar los locks antes y pedirlos todos juntos.
 
-> **Teorema 2 de la serializabilidad:** Dado $T = \{T_1, T_2, \cdots, T_n\}$, si toda $T_i$ en T es 2PL, entonces todo H legal sobre T es SR.
+> **Teorema 2 de la serializabilidad:** Dado $T = \set{T_1, T_2, \cdots, T_n}$, si toda $T_i$ en T es 2PL, entonces todo H legal sobre T es SR.
 
 ### Locking binario
 El **locking binario** permite dos estados, bloqueado o no y consta de dos operaciones, LOCK(X) y UNLOCK(X). 

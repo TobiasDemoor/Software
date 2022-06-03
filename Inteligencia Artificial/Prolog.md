@@ -1,4 +1,4 @@
-El Prolog (del francés **Pro**grammation en **log**ique) es un [[Lenguajes|lenguaje de programación]] del paradigma lógico y declarativo basado en la [[Lógica de predicados|lógica de predicados]]. Es un lenguaje históricamente ligado con la [[Inteligencia Artificial]].
+El Prolog (del francés **Pro**grammation en **log**ique) es un [[Lenguajes de programación|lenguaje de programación]] del paradigma lógico y declarativo basado en la [[Lógica de predicados|lógica de predicados]]. Es un lenguaje históricamente ligado con la [[Inteligencia Artificial]].
 
 En Prolog no existen estructuras de control. su ejecución se basa en los conceptos de **unificación** y **backtracking**. Y la representación de la información/conocimiento es mediante predicados. Un programa escrito en Prolog se constituye de hachos y reglas del tipo "modus ponens" (si es verdad el antecedente, entonces es verdad el consecuente) que se transforman a la forma casual y luego a cláusulas de Horn (muchos antecedentes un solo consecuente).
 

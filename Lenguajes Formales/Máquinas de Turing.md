@@ -11,7 +11,7 @@ Una MT es $<Q, A, \phi, q_0, \delta>$
 - $\phi$  Alfabeto de cinta, $A \subseteq \phi$ $(B \in \phi, B \notin A)$
 - $q_0 \in Q$ Estado inicial.
 - $F \subseteq Q$ Conjunto de estados de aceptación.
-- $\delta:Q \times \phi \times \{R, L, H\}$ Función de transición.
+- $\delta:Q \times \phi \times \set {R, L, H}$ Función de transición.
 
 Las transiciones son $\alpha, \beta / M$
 - $\alpha$ Es el símbolo de entrada

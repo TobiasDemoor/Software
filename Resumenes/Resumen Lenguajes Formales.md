@@ -34,56 +34,8 @@ Se denomina potencia i-ésima de una palabra a la concatenación consigo misma i
 #### *Trasposición de cadenas*
 Sea x = A1A2A3 .... An, se denomina palabra traspuesta o inversa de x, representado por x-1 o xt o x~ o xR a AnAn-1  ....  A3A2A1.
 
-## **Lenguaje**
-Se llama lenguaje a un conjunto de cadenas.
-
-CONVENCION → Se usarán letras mayúsculas para representar los lenguajes.
-
-Se denomina lenguaje sobre el alfabeto A a cualquier subconjunto del lenguaje universal A\* →L *Ì* A\*. 
-
-El conjunto vacío, *f*, es un subconjunto de A\*, no debe confundirse con aquel que contiene únicamente a la palabra vacía.  *f* = 0  y  | { *l* } | = 1
-
-CONVENCION →   *l* = *L*
-
-
-### Operaciones con lenguajes
-#### *Unión*
-Sean dos lenguajes diferentes definidos sobre el mismo alfabeto L1 *Ì* A\* y L2 *Ì* A\*. Se denomina unión de ambos lenguajes, L1 *È* L2, al lenguaje definido así:  { x / x *Î* L1 ó x *Î* L2}.
-
-Propiedades
-
-1. *Operación cerrada.* La unión de dos lenguajes definidos sobre el mismo alfabeto será otro lenguaje definido sobre ese alfabeto. 
-1. *Propiedad asociativa.* (L1 *È* L2) *È* L3 = L1 *È* (L2 *È* L3) 
-1. *Existencia de elemento neutro.* *"*L, se cumple que L *È* *f* = *f* *È* L = L 
-1. *Propiedad conmutativa.* *"*L1 , L2, se verifica que L1 *È* L2 = L2 *È* L1 
-1. *Propiedad de idempotencia.* *"*L, se verifica que L *È* L = L
-
-#### *Concatenación de lenguajes*
-Consideremos dos lenguajes definidos sobre el mismo alfabeto, L1 y L2. Se denomina concatenación de estos lenguajes al lenguaje definido así: { xy / x *Î* L1 e y *Î* L2} (todas las palabras de este lenguaje estarán formadas al concatenar cada una palabra del primero de los lenguajes con otra del segundo).
-
-Propiedades
-
-1. *f*L = L*f* = *f*
-1. *Operación cerrada*. La concatenación de lenguajes sobre el mismo alfabeto es otro lenguaje sobre ese alfabeto.
-1. *Propiedad asociativa*. (L1 L2) L3 = L1 (L2 L3).
-1. *Elemento neutro (L).* *"* L, se cumple que *L*L = L*L* = L
-
-#### *Potencia de un lenguaje*
-Se define la potencia i-ésima de un lenguaje a la operación de concatenarlo consigo mismo i veces
-
-L0 = {*l*} = *L*
-
-#### *Clausura positiva de un lenguaje*
-L+= 1∞Li
-
-Análogo para cadenas
-#### *Clausura cierre o iteración de un lenguaje*
-L\*= 0∞Li
-
-Análogo para cadenas
-
-#### *Trasposición de lenguajes*
-Sea L un lenguaje cualquiera. Se llama lenguaje traspuesto o inverso de L, representándose por L-1 o LT a { x-1 / x *Î* L }. Es decir, se trata de un lenguaje que contiene las palabras inversas a las palabras de L.
+## Lenguajes
+![[Lenguajes]]
 
 ## **Gramáticas**
 Una gramática describe la estructura de las frases y palabras de un lenguaje a través del uso de reglas definidas.
@@ -129,113 +81,11 @@ Representa un cambio de estado en un grafo. Debe haber una única situación ini
 ## **Autómata parcialmente especificado**
 Solo muestra los caminos hacia el estado de aceptación. Cuando armo la matriz, me quedan espacios en blanco. Puedo solucionarlo poniendo un estado terminal que no sea aceptable y que no tenga flechas salientes a él.
 
-# **Lenguajes regulares**
+# Lenguajes regulares (Tipo 3)
 ![[Lenguajes regulares]]
 
-# **Gramáticas libres del contexto (CFG)**
-En las Gramáticas Independientes del Contexto las producciones son menos restrictivas que en las gramáticas regulares. En este caso, la parte izquierda de la producción también está formada por un único símbolo no terminal, pero no hay restricciones respecto a la parte derecha de la producción. Por lo tanto, **las producciones pueden derivar en cualquier combinación de símbolos terminales y no terminales y lambda.**
-
-### Derivación más a izquierda
-Siempre se reemplaza el VN más a la izquierda por uno de los cuerpos de sus producciones. Por lo que a la izquierda del VN elegido solamente hay símbolos terminales.
-
-### Derivación más a la derecha
-Siempre se reemplaza el VN más a la derecha por uno de los cuerpos de sus producciones. Por lo que a la derecha del VN elegido solamente hay símbolos terminales.
-
-
-# **Autómatas de pila**
-Es como un autómata finito, pero con memoria, capaz de reconocer CFL.  Es decir, recuerda cuáles símbolos puso antes, por lo que el autómata va cambiando de estado no solo en función de la entrada, sino también de los datos en la pila.
-
-Dependiendo del estado actual del Autómata, del símbolo que hay en la cima de la pila y del que hay en la cadena de entrada, habrá que elegir entre un conjunto de posibles transiciones. Cada transición está formada por un posible cambio de estado y por una cadena (puede ser λ) que reemplazará al símbolo que ocupa la cima de la pila. Después de realizar un movimiento se avanza en el análisis de la cinta de entrada.
-
-Un **AP es** <AE, Ap, z0, Q, q0, F, δ>
-
-- AE: alfabeto de Entrada. Puede estar incluido en el alfabeto de pila. 
-- AP: alfabeto de Pila. 
-- Z0 ε AP: Simbolo de Pila Vacia.
-- Q: conjunto finito de estados. 
-- q0 ε Q: estado inicial. 
-- F ⊂ Q: conjunto de estados finales. 
-- δ: Q x AE’ x AP’ → Q x AP    \*
-
-No para todo APND existe un APD equivalente. 
-
-No hay estado trampa, no muestro lo que no acepto.
-
-En general, lo que meto en la pila es la cadena resultante de analizar la cadena de entrada y termina cuando vuelve a ingresar Z0 a la misma.
-
-f(q, a, z) = {(p1, ψ1),(p2, ψ2),...,(pn, ψn)} 
-
-Estas transiciones indican que, si el Autómata de Pila se encuentra en el estado q, recibe como entrada el símbolo a y z es el símbolo que se encuentra en la cima de la pila, el Autómata puede pasar al estado p1 y reemplazar en la pila el carácter z por la cadena** ψ1, o bien elegir cualquiera de las otras posibilidades.
-## **Descripción Instantánea** 
-Permite definir un lenguaje aceptado por un AP. Es el autómata en un momento determinado.
-
-q,w, γ
-
-Donde q es el estado actual del Autómata, w es la cadena de símbolos de entrada que aún queda por procesar, y γ es la cadena de los símbolos almacenados en la pila (el caracter más a la izquierda de γ será la cima de la pila).
-
-Si tengo una transición a, x / yz →  si viene una a y en el tope de la pila hay una x, desapilo x , apilo z y luego y y consumo a .
-
-## **Movimiento Atómico** 
-Es el pasaje de una descripción instantánea a otra.
-
-## **Lenguaje aceptado por un AP**
-- *Por estados de aceptación (modo T)*. De forma análoga a los Autómatas Finitos, es decir, el lenguaje aceptado es el conjunto de entradas que hacen que el Autómata llegue a un estado final.
-  - LM = α ε AE   \* /q0, α, Z0→\*q,  λ,  γ,  q ε F 
-
-- *Por Pila Vacía (modo N)*. El lenguaje está formado por el conjunto de entradas que vacían la pila.
-  - LM = α ε AE   \*/q0, α, Z0 →\* q’,  λ,  Z0  
-
-## **AP a gramática libre de contexto**
-1. Para cada X ::= W →    bucle con λ, x/w
-1. ∀a ∈AE→ bucle con a, a/λ
-1. Ingreso al AP con λ,  λ/Z0
-1. Salida del AP con λ,  Z0/λ
-
-
-
-
-
-
-
-
-## **Propiedades de lenguajes libres de contexto**
-Sean L1,  L2 dos lenguajes libres de contexto tal que L1:G1<VN1 ,  VT1 ,  S1 ,  P1> y L2:G2= <VN2 ,  VT2 ,  S2 ,  P2 >   y     VN1 ∩VN2= ∅
-
-1. *Unión.* 
-
-VN=VN1 ∪ VN2 ∪{S0} 
-
-VT=VT1 ∪  VT2
-
-PL1 ∪  L2=P1 ∪ P2 ∪  S0∷=S1  S2} 
-
-1. *Concatenación.*
-
-VN=VN1 ∪ VN2 ∪{S0} 
-
-VT=VT1 ∪  VT2
-
-PL1 ∪  L2=P1 ∪ P2 ∪{S0∷=S1S2}
-
-1. *Clausura.*
-   1. *Positiva*
-
-VL1 +=VN1 ∪{S0} 
-
-VL1   +=VT1
-
-PL1   +=P1 ∪S0∷=S0S1  S1}
-
-1. *Asterisco.*
-
-VL1 \*=VN1 ∪{S0} 
-
-VL1    \*=VT1
-
-PL1   \*=P1 ∪S0∷=S0S1  λ}
-
-*Los CFL NO SON cerrados respecto de la intersección, ni del complemento ni de la diferencia.* 
-\*
+# Lenguajes libres de contexto (Tipo 2)
+![[Lenguajes libres de contexto]]
 
 # **Lenguajes Linealmente Acotados (Tipo 1)**
 También llamados lenguajes sensibles al contexto. Las gramáticas pueden tener más de un símbolo a la izquierda ya sea terminal o no terminal.
@@ -396,18 +246,14 @@ Sea I un conjunto de elementos y X un símbolo de la gramática (terminal o no t
 - Para cada ítem de I de la forma A ® α.Xβ se agrega a Ir\_A(I,X) los elementos del conjunto clausura (A ® αX.β)
 - Si se representan los conjuntos de la colección como estados y las operaciones Ir\_A() como transiciones, se obtiene un autómata reconocedor de prefijos viables.
 
-
-
-
 ### Uso del autómata
-El estado inicial del autómata LR(0) es CLAUSURA([S’ ® .S]), dónde S’ es el símbolo inicial de la gramática aumentada. Cuando se llega a un estado se elige: 
+El estado inicial del autómata LR(0) es CLAUSURA(\[S’ ® .S]), dónde S’ es el símbolo inicial de la gramática aumentada. Cuando se llega a un estado se elige: 
 
 - un desplazamiento por el siguiente símbolo de entrada si el estado tiene una transición por él, o 
 - se elige reducir, los ítems en el estado indicarán qué regla utilizar.
 
-
 ### Estructura de la tabla de ANÁLISIS SINTÁCTICO
-- La tabla de análisis sintáctico consta de dos partes: ACCION e Ir\_A. El estado inicial del autómata LR(0) es CLAUSURA([S’ ® S]), dónde S’ es el símbolo inicial de la gramática aumentada. Cuando se llega a un estado si es posible reducir, se reduce; sino, se elige un desplazamiento por el siguiente símbolo de entrada.
+- La tabla de análisis sintáctico consta de dos partes: ACCION e Ir\_A. El estado inicial del autómata LR(0) es CLAUSURA(\[S’ ® S]), dónde S’ es el símbolo inicial de la gramática aumentada. Cuando se llega a un estado si es posible reducir, se reduce; sino, se elige un desplazamiento por el siguiente símbolo de entrada.
 - La tabla tiene tantas filas como estados en el autómata y tantas columnas como símbolos en la gramática. 
 - Los símbolos terminales determinan la acción que realiza el analizador en cada situación y los símbolos no terminales determina la función Ir\_a.
 
@@ -419,8 +265,8 @@ Contenido de la sección Ir\_a de la tabla de análisis:
 Contenido de la sección Acción de la tabla de análisis 
 
 - Cada transición Ir\_a(Ii , x) = Ij , siendo x un símbolo terminal, significa colocar el Sj (Shift al estado j) en la celda Acción(i, x)
-- Para los estados i que contengan un elemento con el punto al final de la regla k-ésima [X ® Yβ.] colocar Rk (Reducir por k) en todas las celdas del estado.
-- Para cada estado i que contenga el elemento [X *®*S.$] se coloca Aceptar en la celda Acción(i, $).
+- Para los estados i que contengan un elemento con el punto al final de la regla k-ésima \[X ® Yβ.] colocar Rk (Reducir por k) en todas las celdas del estado.
+- Para cada estado i que contenga el elemento \[X *®*S.$] se coloca Aceptar en la celda Acción(i, $).
 
 Las celdas que queden vacías representan errores sintácticos.
 
@@ -432,8 +278,6 @@ El algoritmo LR(0) no requiere de la consideración de ningún símbolo de prean
    1. Si es un desplazamiento: guardar en la pila, el símbolo y el número del estado destino. Y desplazar un símbolo en la cadena. 
    1. Si es una reducción: eliminar de la pila los símbolos que hay en la parte derecha de la regla. Guardar en la pila la parte izquierda de la regla, y el número del estado que le corresponda según “Ir\_a”. 
 1. Cuando se llegue a “Aceptar”, cadena aceptada. En caso contrario, error
-
-
 
 ### Conflictos
 Se dice que una gramática es LR(0) si las reglas anteriores son no ambiguas. Esto significa que si un estado contiene un elemento completo [A *®* α.] no puede contener otros.
@@ -448,7 +292,7 @@ Para evitar estos conflictos es necesario considerar los conjuntos SIGUIENTE de 
 
 Este algoritmo es idéntico al algoritmo LR(0) salvo en la forma de rellenar las acciones de reducción:
 
-- Para los estados i que contengan un elemento con el punto al final de la regla k-ésima [X → b.] colocar Rk en todas las celdas de los tokens pertenecientes a SIGUIENTE(X).
+- Para los estados i que contengan un elemento con el punto al final de la regla k-ésima \[X → b.] colocar Rk en todas las celdas de los tokens pertenecientes a SIGUIENTE(X).
 
 ### Cálculo del PRIMERO
 PRIMERO(α) es el “conjunto de terminales que inician las cadenas derivadas de α” y, en el caso de que desde α se pueda derivar la cadena vacía (λ), entonces λ también pertenecerá a PRIMERO(α).
@@ -457,7 +301,6 @@ PRIMERO(α) es el “conjunto de terminales que inician las cadenas derivadas de
 - *P2.* Si X ® l es una producción, entonces añadir l a PRIMERO(X). 
 - *P3.* Si X es no terminal y X*®* Y1 Y2 ...  Yk es una producción, entonces poner a en PRIMERO(X) si, para alguna i, a está en PRIMERO(Yi) y l está en todos los PRIMERO(Y1)
 
-
 ### Cálculo del SIGUIENTE
 Si X es un símbolo no terminal, SIGUIENTE(X) es el “conjunto de terminales que pueden aparecer inmediatamente a la derecha de X en alguna forma sentencial”. Si X puede ser el símbolo situado más a la derecha de una forma sentencial, entonces $ pertenecerá a SIGUIENTE(X).
 
@@ -465,12 +308,9 @@ Si X es un símbolo no terminal, SIGUIENTE(X) es el “conjunto de terminales qu
 - *S2.* Si hay una producción A ® aBb, entonces todo lo que está en PRIMERO(b) excepto l se pone en SIGUIENTE(B).
 - *S3.* Si hay una producción A ® aB o una producción A ® aBb, donde PRIMERO(b) contenga l, entonces todo lo que esté en SIGUIENTE(A) se pone en SIGUIENTE(B).
 
-
-# **Análisis semántico**
-## **Gramáticas de atributos**
-Un atributo es cualquier propiedad de una construcción del lenguaje de programación. Los atributos pueden variar ampliamente en cuanto a la información que contienen y su complejidad. 
-
-- Ejemplos típicos de atributos son: el tipo de datos de una variable, el valor de una expresión
+# Análisis semántico
+## Gramáticas de atributos
+Un atributo es cualquier propiedad de una construcción del lenguaje de programación. Los atributos pueden variar ampliamente en cuanto a la información que contienen y su complejidad. Ejemplos típicos de atributos son: el tipo de datos de una variable, el valor de una expresión
 
 - *Fijación del atributo:* proceso de calcular un atributo y asociar su valor calculado con la construcción del lenguaje en cuestión.
 - *Tiempo de fijación:* momento (compilación/ejecución) en el que se da la fijación del atributo.
@@ -519,7 +359,8 @@ Un operador está sobrecargado si se utiliza el mismo nombre de operador para do
 
 - Operadores aritméticos. Por ejemplo, 2+3 representa la suma entera, mientras que 2.1+3 representa la de punto flotante, que debe ser implementada de manera interna mediante una instrucción o conjunto de instrucciones diferente.
 - Se puede extender a procedimientos y funciones definidos por el usuario, donde se puede emplear el mismo nombre para operaciones relacionadas, pero definido para parámetros de tipos diferentes.
-#### *Coerción y conversión de tipos*
+
+#### Coerción y conversión de tipos
 Una extensión común de las reglas de tipo de un lenguaje es permitir expresiones aritméticas de tipo mezclado tal como 2.1 + 3, donde se suma un número real y un número entero. Debe hallarse un tipo común que sea compatible con todos los tipos de las subexpresiones, y deben aplicarse operaciones para convertir los valores en el tiempo de ejecución a las representaciones apropiadas antes de aplicar el operador.
 
 - En la expresión 2.1 + 3, el valor entero 3 se debe convertir a punto flotante antes de la suma, y la expresión resultante tendrá el tipo de punto flotante.
@@ -531,10 +372,7 @@ Existen dos métodos que un lenguaje puede tomar para tales conversiones:
 
 Una conversión automática se conoce como **coerción**.
 
-
-**Una implementación de un lenguaje (compiladores o intérpretes) no puede romper las reglas del lenguaje.**
-
-
+> Una implementación de un lenguaje (compiladores o intérpretes) no puede romper las reglas del lenguaje.
 
 # **Lenguajes sin restricciones (T0)**
 ## **Máquinas de Turing**

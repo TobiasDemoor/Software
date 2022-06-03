@@ -1,7 +1,7 @@
 Lenguajes Algebráicos:
-	[[Álgebra Relacional]] - [[Lenguajes|Procedural]]
+	[[Álgebra Relacional]] - [[Lenguajes de programación|Procedural]]
 Lenguajes basados en [[Lógica de predicados|cálculo de predicados]].
-	Cálculo Relacional - [[Lenguajes|Declarativo (no procedural)]]
+	Cálculo Relacional - [[Lenguajes de programación|Declarativo (no procedural)]]
 
 Tanto el álgebra relacional como el cálculo relacional basado en tuplas y el cálculo relacional basado en dominios tienen el mismo poder expresivo.
 
