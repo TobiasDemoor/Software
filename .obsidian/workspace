@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Logging/syslog.md",
+            "file": "Software Libre/GlusterFS.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Logging/syslog.md",
+                "file": "Software Libre/GlusterFS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Logging/syslog.md",
+                "file": "Software Libre/GlusterFS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -109,15 +109,15 @@
   },
   "active": "488bb305e5ec8029",
   "lastOpenFiles": [
+    "Software Libre/GlusterFS.md",
+    "attachments/SL_GlusterFS.png",
+    "Sistemas Distribuidos/Network-attached storage.md",
     "Software Libre/Logging/syslog.md",
     "Software Libre/Logging/rsyslog.md",
     "Software Libre/Logging/journald.md",
     "Software Libre/Linux/systemd.md",
     "Software Libre/Daily/20220418.md",
     "Software Libre/Linux/Señales.md",
-    "Software Libre/Daily/20220318.md",
-    "Software Libre/Daily/20220321.md",
-    "Software Libre/Daily/20220314.md",
-    "Software Libre/Apache HTTP Server.md"
+    "Software Libre/Daily/20220318.md"
   ]
 }

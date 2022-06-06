@@ -6,7 +6,7 @@ GlusterFS tiene un componente de cliente y servidor. Los servidores normalmente 
 
 El translator indica cómo se implementa el almacenamiento en los bricks de servidores. Deciden cómo se mandan los archivos a los servidores. La mayoría de la funcionalidad de gluster se implementa en ellos, esta incluye: mirroring, [[Replicación|replicación]], stripping basado en archivos, balanceo de carga basado en archivos, tolerancia a fallos, quotas, etc
 
-![[GlusterFS.png]]
+![[SL_GlusterFS.png]]
 
 GlusterFS es un sistema de archivos [[FUSE]]. Esta opción se tomó para evitar usar módulos en el kernel de [[Linux]].
 
