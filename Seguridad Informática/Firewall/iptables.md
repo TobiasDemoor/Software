@@ -1,4 +1,4 @@
-iptables es una utilidad del kernel de [[Linux]] que permite definir reglas de [[Firewall|firewall]] y [[NAT]]. Es el sucesor de ipchains (firewall) y de ipfwadm (NAT).
+iptables es una utilidad del kernel de [[Linux]] que permite definir reglas de [[Firewall|firewall]] y [[NAT]]. Es el sucesor de ipchains (NAT) y de ipfwadm (firewall).
 
 Ejemplo 
 ```sh
