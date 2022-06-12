@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Logging/syslog.md",
+            "file": "Taller de Prog II/Políticas de Sistemas Informáticos.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Logging/syslog.md",
+                "file": "Taller de Prog II/Políticas de Sistemas Informáticos.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,13 +94,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Logging/syslog.md",
+                "file": "Taller de Prog II/Políticas de Sistemas Informáticos.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
+          },
+          {
+            "id": "2e957a2ff719a327",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,15 +118,15 @@
   },
   "active": "488bb305e5ec8029",
   "lastOpenFiles": [
+    "Taller de Prog II/Políticas de Sistemas Informáticos.md",
+    "Conceptos/Política.md",
+    "Sistemas Distribuidos/Sistemas Distribuidos.md",
+    "Redes de computadoras/Redes de computadoras.md",
+    "Redes de computadoras/Conceptos/Internet.md",
+    "Conceptos/Protocolo.md",
+    "attachments/AYDS_requerimientos_no_funcionales_1.png",
     "Software Libre/Logging/syslog.md",
     "Software Libre/Logging/rsyslog.md",
-    "Software Libre/Logging/journald.md",
-    "Software Libre/Linux/systemd.md",
-    "Software Libre/Daily/20220418.md",
-    "Software Libre/Linux/Señales.md",
-    "Software Libre/Daily/20220318.md",
-    "Software Libre/Daily/20220321.md",
-    "Software Libre/Daily/20220314.md",
-    "Software Libre/Apache HTTP Server.md"
+    "Software Libre/Logging/journald.md"
   ]
 }
