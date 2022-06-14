@@ -1,5 +1,11 @@
 El servicio de [[DNS]] no fue concevido teniendo en cuenta la existencia de actores maliciosos. Se basa en un principio de buena fé entre el cliente y el servidor DNS, el primero pregunta y confía en la respuesta. Esto da a lugar a numerosas [[Vulnerabilidad|vulnerabilidades]].
 
+El servicio DNS posee varias falencias:
+- Problemas de disponibilidad: al saturarse de solicitudes, ya sea por casualidad o como un [[DoS|ataque de denegación de servicio]] (se puede solucionar con [[Replicación|réplicas]]).
+- Problemas de autenticación: los atacantes pueden redirigir consultas a servidores falsos, para utilizar datos falsos y llevar a los usuarios a sitios donde sean atacados (se soluciona con [[DNSSEC]]).
+- Problemas de integridad: puede haber servidores que sean envenenados con datos falsos, con el mismo objetivo que el item anterior (se soluciona con [[DNSSEC]]).
+- Problemas de confidencialidad: los datos enviados entre usuarios y servidores pueden ser vistos por atacantes, por ejemplo para obtener información sobre direcciones y puertos de servidores privados de organizaciones (se soluciona con DNS over [[HTTPS]]).
+
 ### Algunos ataques
 #### DNS cache poisoning
 ![[DNS cache poisoning]]

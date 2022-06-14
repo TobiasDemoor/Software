@@ -18,7 +18,7 @@ Hay 3 tipos principales de firewall:
 
 Ventajas:
 - Protege de intrusiones. 
-- Controla accsesos a segmentos de la red o [[Internet]]. 
+- Controla accesos a segmentos de la red o [[Internet]]. 
 - Protección de información privada. 
 - Define distintos niveles de acceso a la información. 
 - Optimización de acceso. 
