@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "488bb305e5ec8029",
+        "id": "7efee267a75dc6e1",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Seguridad Informática/DNS/Vulnerabilidades DNS.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -61,8 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ac33a95bbefbf995",
@@ -78,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Seguridad Informática/DNS/Vulnerabilidades DNS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Seguridad Informática/DNS/Vulnerabilidades DNS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "488bb305e5ec8029",
+  "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
+    "Software Libre/Apache HTTP Server.md",
+    "Sistemas Operativos/Conceptos/Threads.md",
+    "Software Libre/Daily/20220603.md",
     "Seguridad Informática/DNS/Vulnerabilidades DNS.md",
     "Sistemas Distribuidos/Replicación/Replicación.md",
     "Seguridad Informática/DNS/DNSSEC.md",
     "Seguridad Informática/Seguridad de la Información/Seguridad de la Información.md",
     "Seguridad Informática/Conceptos/DoS.md",
     "Seguridad Informática/Firewall/Firewall.md",
-    "Seguridad Informática/IPSEC.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/DNS/DNS.md",
-    "Seguridad Informática/Firma digital/PKI.md",
-    "Seguridad Informática/Firma digital/Certificado de clave pública.md"
+    "Seguridad Informática/IPSEC.md"
   ]
 }

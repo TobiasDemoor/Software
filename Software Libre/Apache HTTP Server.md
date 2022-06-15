@@ -23,13 +23,39 @@ Para crear una configuración nueva debemos definir el `ServerName` para que apa
 
 Si el directorio en `DocumentRoot` no se encuentra permitido para que el servidor acceda se debe agregar el siguiente elemento dentro del elemento `VirtualHost`
 ```XML
-<Directory {ruta_en_DocumentRoot}>
-	 AllowOverride none
-	 Require all granted
-</Directory>
+<!-- file 001-www.dominio.com.conf -->
+<VirtualHost *:80>
+	ServerName www.dominio.com
+	ServerAlias dominio.com
+	
+	ServerAdmin webmaster@dominio.com
+	DocumentRoot /home/usuario/public_html
+	
+	ErrorLog ${APACHE_LOG_DIR}/usuario_error.log
+	CustomLog ${APACHE_LOG_DIR}/usuario.log combined
+	
+	<Directory /home/usuario/public_html>
+		 AllowOverride none
+		 Require all granted
+	</Directory>
+</VirtualHost>
 ```
 
 ### Modelos de multiprocesamiento (MPM)
+%%Copiado de Daily/20220603%%
+[[kqueue]] y [[epoll]] son llamadas a la api de [[linux]] que se incluyeron hace 12 años masomenos que permiten que los procesos queden escuchando eventos del so. Estos se usan para ser eficiente al reaccionar ante llamadas de la red y quedan escuchando los eventos de creación de sockets.
+con estas funciones el servidor no tiene la necesidad de trabajar con hilos, y simplemente reaccionar a los eventos
 
+a2enmod mpm_prefork
+a2enmod mpm_worker
+a2enmod mpm_event ([[Threads#Máquina de estado finito event-loop|Máquina de estados]])
+
+Prefork: solo con procesos, sin hilos (se usa cuando lo que corre no es thread safe)
+Worker: puede atender por hilos pero tiene que tener un proceso de control
+Event: como el event-loop de node
+
+se mapea a lo que está en [[Threads]]
+
+el mpm event intenta solucionar el problema "Keep Alive" de [[HTTP]] que causa un gran desperdicio de recursos en el servidor. Ya que por cada conexión Keep Alive en modo worker o prefork se tiene un hilo o proceso en espera.
 
 #ApacheFoundation 
