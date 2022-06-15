@@ -1,7 +1,7 @@
 ---
 aliases: ["GNU"]
 ---
-GNU es un [[Sistemas Operativos|sistema operativo]] de [[Software Libre|software libre]], es decir, respeta la libertad de los usuarios. El sistema operativo GNU consiste en paquetes de GNU (programas publicados específicamente por el proyecto GNU) además de software libre publicado por terceras partes. El desarrollo de GNU ha permitido que se pueda utilizar una computadora sin software que atropelle nuestra libertad. Es el primer proyecto de software libre sobre el cual está basado el sistema operativo [[Linux|GNU/Linux]].
+GNU es un [[Sistemas Operativos|sistema operativo]] de [[Software libre|software libre]], es decir, respeta la libertad de los usuarios. El sistema operativo GNU consiste en paquetes de GNU (programas publicados específicamente por el proyecto GNU) además de software libre publicado por terceras partes. El desarrollo de GNU ha permitido que se pueda utilizar una computadora sin software que atropelle nuestra libertad. Es el primer proyecto de software libre sobre el cual está basado el sistema operativo [[Linux|GNU/Linux]].
 
 GNU nace con la idea de un SO libre compatible con [[UNIX]], libre respecto de la libertad que tienen los usuarios. Este SO se encontraría compuesto a partir de paquetes. El proyecto fue fundado por Richard Stallman.
 

@@ -1,4 +1,4 @@
-CouchDB es una [[Bases de Datos|base de datos]] [[Software Libre|software libre]] de la fundación Apache. Un servidor CouchDB aloja bases de datos nombradas, que almacenan documentos. Cada documento tiene un nombre único en la base de datos a la que pertenece.
+CouchDB es una [[Bases de Datos|base de datos]] [[Software libre|software libre]] de la fundación Apache. Un servidor CouchDB aloja bases de datos nombradas, que almacenan documentos. Cada documento tiene un nombre único en la base de datos a la que pertenece.
 
 Los documentos son la unidad principal de datos en CouchDB y constan de cualquier número de campos y archivos adjuntos, en formato [[JSON]] (schemaless). Los documentos también incluyen metadatos que mantiene el sistema de base de datos. Los campos del documento tienen un nombre único y contienen valores de diferentes tipos (texto, número, booleano, listas, etc.), y no hay un límite establecido para el tamaño del texto o el recuento de elementos. 
 

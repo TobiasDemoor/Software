@@ -1,4 +1,4 @@
-FUSE (Filesystem in USErspace) es una interfaz de software para [[UNIX]] y sistemas compatibles que permite implementar un [[Sistemas de archivos|sistema de archivos]] funcional en userspace. FUSE es [[Software Libre|software libre]] y las características que incluyen son:
+FUSE (Filesystem in USErspace) es una interfaz de software para [[UNIX]] y sistemas compatibles que permite implementar un [[Sistemas de archivos|sistema de archivos]] funcional en userspace. FUSE es [[Software libre|software libre]] y las características que incluyen son:
 - Una librería simple
 - Correr el sistema de archivo en “userspace”, esto implica que no necesita ser usuario privilegiado.
 - Ha probado ser estable.

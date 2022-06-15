@@ -1,4 +1,4 @@
-Docker es una plataforma de [[Containers|containers]] de [[Software Libre|código abierto]]. Docker permite a los desarrolladores empaquetar aplicaciones en contenedores, componentes ejecutables estandarizados que combinan el código fuente de la aplicación con todas las bibliotecas y dependencias del sistema operativo (SO) necesarias para ejecutar el código en cualquier entorno.
+Docker es una plataforma de [[Containers|containers]] de [[Software libre|código abierto]]. Docker permite a los desarrolladores empaquetar aplicaciones en contenedores, componentes ejecutables estandarizados que combinan el código fuente de la aplicación con todas las bibliotecas y dependencias del sistema operativo (SO) necesarias para ejecutar el código en cualquier entorno.
 
 ### ¿Por qué usar docker?
 **Creación de contenedores automatizada**: Docker puede crear automáticamente un contenedor basado en el código fuente de la aplicación.

@@ -1,4 +1,4 @@
-Para que el software que se publica sea libre hay que publicarlo bajo una licencia de [[Software Libre|software libre]]. Generalmente se utiliza la licencia [[Proyecto GNU|GNU]] General Public License (GNU GPL), especificando la versión 3 o posterior.
+Para que el software que se publica sea libre hay que publicarlo bajo una licencia de [[Software libre|software libre]]. Generalmente se utiliza la licencia [[Proyecto GNU|GNU]] General Public License (GNU GPL), especificando la versión 3 o posterior.
 
 MIT es una licencia permisiva.
 

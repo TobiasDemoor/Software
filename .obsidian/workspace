@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Linux/Linux.md",
+            "file": "Software Libre/Conceptos/Software libre.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Linux/Linux.md",
+                "file": "Software Libre/Conceptos/Software libre.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Linux/Linux.md",
+                "file": "Software Libre/Conceptos/Software libre.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,6 +117,7 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
+    "Software Libre/Conceptos/Software libre.md",
     "Software Libre/Linux/Linux.md",
     "Software Libre/Proyecto GNU.md",
     "Software Libre/UNIX.md",
@@ -125,7 +126,6 @@
     "Redes de Computadoras/Hardware/Switch.md",
     "Redes de Computadoras/Hardware/Router.md",
     "Redes de Computadoras/Modelo OSI/Capa 3/NAT.md",
-    "Seguridad Informática/Proxys.md",
-    "Redes de Computadoras/Modelo OSI/Capa 7/HTTPS.md"
+    "Seguridad Informática/Proxys.md"
   ]
 }
