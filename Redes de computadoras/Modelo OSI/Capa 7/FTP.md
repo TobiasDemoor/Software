@@ -1,0 +1,1 @@
+File Transfer Protocol es un [[protocolo]] de [[Capa de aplicación|capa 7]] para [[sistemas de archivos distribuidos]], usa por defecto los puertos 20 y 21.

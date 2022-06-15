@@ -20,7 +20,7 @@ Una vez que se complete la operación el SO notifica al hilo, el cual entonces b
 | Máquina de estado finito | Paralelismo, lamadas al sistema no bloqueantes  | 
 
 ### End points
-Otro tema a tratar es a través de dónde se contacta un [[Cliente|cliente]] con el [[Servidor|servidor]]. En todos loss casos, los clientes envían pedidos a un **end point**, también llamado **puerto**, en la máquina donde está corriendo el servidor. Cada servidor escucha un end point específico. Ahora resta determinar cómo conoce un cliente el end point al cual acceder. Una primera alternativa es asignar globalmente end points para servicios conocidos. Este es el caso para las requests FTP con el puerto TCP 21 o con el puerto TCP 80 para los servidores HTTP.
+Otro tema a tratar es a través de dónde se contacta un [[Cliente|cliente]] con el [[Servidor|servidor]]. En todos loss casos, los clientes envían pedidos a un **end point**, también llamado **puerto**, en la máquina donde está corriendo el servidor. Cada servidor escucha un end point específico. Ahora resta determinar cómo conoce un cliente el end point al cual acceder. Una primera alternativa es asignar globalmente end points para servicios conocidos. Este es el caso para las requests [[FTP]] con el puerto TCP 21 o con el puerto TCP 80 para los servidores HTTP.
 
 Hay muchos servicios que no requieren un end point preasignado. Para estos podemos tener un daemon corriendo que mantenga referencia de en qué end point está cada servidor, y el cliente simplemente consulta primero a este daemon el cual escucha en un puerto conocido por la localización de un servicio en cuestión.
 

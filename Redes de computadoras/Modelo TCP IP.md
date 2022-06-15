@@ -22,7 +22,7 @@ El segundo protocolo en esta capa, **[[UDP]] (User Datagram Protocol)**, es un [
 
 ### La capa de aplicación
 El modelo TCP/IP no tiene capas de sesión o de presentación, ya que no se consideraron necesarias. Las aplicaciones simplemente incluyen cualquier función de sesión y de presentación que requieran. La experiencia con el [[Modelo OSI|modelo OSI]] ha demostrado que esta visión fue correcta: estas capas se utilizan muy poco en la mayoría de las aplicaciones.
-Encima de la capa de transporte se encuentra la **capa de aplicación**. Ésta contiene todos los protocolos de alto nivel. Entre los primeros protocolos están el de terminal virtual (TELNET), transferencia de archivos (FTP) y correo electrónico ([[SMTP]]). A través de los años se han agregado muchos otros protocolos.
+Encima de la capa de transporte se encuentra la **capa de aplicación**. Ésta contiene todos los protocolos de alto nivel. Entre los primeros protocolos están el de terminal virtual (TELNET), transferencia de archivos ([[FTP]]) y correo electrónico ([[SMTP]]). A través de los años se han agregado muchos otros protocolos.
 
 ## Fortalezas
 En contraste al [[Modelo OSI|modelo de referencia OSI]], la fortaleza del [[Modelo TCP IP|modelo de referencia TCP/IP]] son los *[[Protocolo|protocolos]]*, que se han utilizado mucho durante varios años.

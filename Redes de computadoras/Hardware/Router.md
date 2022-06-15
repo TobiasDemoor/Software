@@ -1,5 +1,5 @@
 ---
-aliases: ["router"]
+aliases: ["router", "routers"]
 ---
 Los routers son dispositivos que toman decisiones de por donde enviar los paquetes como los [[Switch|switches]] y [[Bridge|bridges]]. A diferencia de estos últimos, para hacer esto desarma las tramas y las modifica ya que trabaja en la [[Capa de red|capa de red]]. Además permite unir dos [[Subred|subredes]].
 

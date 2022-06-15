@@ -16,7 +16,7 @@ Los números de puerto menores que 1024 están reservados para los servicios est
 
 | Puerto | Protocolo | Uso                                           |
 | ------ | --------- | --------------------------------------------- |
-| 20, 21 | FTP       | Transferencia de archivos.                    |
+| 20, 21 | [[FTP]]   | Transferencia de archivos.                    |
 | 22     | [[SSH]]   | Inicio de sesión remoto, reemplazo de Telnet. |
 | 25     | [[SMTP]]  | Correo electrónico.                           |
 | 80     | [[HTTP]]  | [[World Wide Web]].                           |

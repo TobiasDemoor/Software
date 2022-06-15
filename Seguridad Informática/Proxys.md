@@ -5,7 +5,7 @@ Un proxy es un intermediaro entre el host local y otra red, normalmente la web. 
 - Proxy [[HTTP]] (puerto 80)
 - Proxy [[HTTPS]] (puerto 443)
 - Proxy cache:  este tipo de proxy almacena respuestas previas aumentando la velocidad aparente de la red.
-- Proxy FTP (puertos 20,21)
+- Proxy [[FTP]] (puertos 20,21)
 
 Ventajas de usar proxys:
 - **Control**: sólo el proxy hace el trabajo real. Puede limitar y restringir.

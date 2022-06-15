@@ -27,7 +27,7 @@ Los sistemas de archivos pueden ser clasificados por medio, de red y de propósi
 - Discos de plato magnético o Flash (acceso aleatorio): [[FAT]], [[NTFS]], HFS+, UFS, [[EXT|EXT2/3/4]], XFS, BRTFS, Veritas File system, ZFS, ReiserFS
 - Discos Ópticos: ISO9660, UDF
 - Flash file System (Especialmente embebidos): JFFS, UBIFS, LogFS, F2FS, SquashFS
-- Network File System: [[NFS]], AFS (Sistema de compartición de Apple), SMB (Sistema de compartición de Microsoft), FTP, Webdav, SSHFS.
+- Network File System: [[NFS]], AFS (Sistema de compartición de Apple), SMB (Sistema de compartición de Microsoft), [[FTP]], Webdav, SSHFS.
 - Sistemas de archivos en Cluster: 
   - Shared-disk / storage area network: GFS2 (Red hat), GPFS (IBM), CSV (Microsoft), OCFS (Oracle)
   - Distributed file systems: GFS (Google), HDFS (Apache), Ceph (Red Hat), DFS (Microsoft), [[GlusterFS]] (Red Hat)
