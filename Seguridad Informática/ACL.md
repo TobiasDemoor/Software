@@ -23,7 +23,14 @@ Son más performantes dado que no se meten en la capa de transporte.
 - Se indica el host, protocolo y puerto/s.
 
 ### Máscaras de wildcard
-El uso de máscaras de wildcard permite especificar tanto un host individual como un grupo de hosts, subred o red de origen. La máscara de wildcard debe acompañar la dirección de la red, subred o host que se desea filtrar. En esta máscara, el dígito binario en 0 indica que los mismos dígitos de la dirección IP deben coincidir exactamente. son distintas a las máscaras de red en varios sentidos
+El uso de máscaras de wildcard permite especificar tanto un host individual como un grupo de hosts, subred o red de origen. La máscara de wildcard debe acompañar la dirección de la red, subred o host que se desea filtrar. En esta máscara, el dígito binario en 0 indica que los mismos dígitos de la dirección IP deben coincidir exactamente.
+
+Son distintas a las máscaras de red en dos puntos, primero la operación bitwise que se aplica con la IP es un OR en vez de un AND, y segundo el patrón de bits puede alternar entre unos y ceros libremente.
+
+El comando host reemplaza a una máscara de wildcard 0.0.0.0 y el comando any reemplaza a una máscara de wildcard 255.255.255.255.
+
+La comparación que se debe cumplir es:
+$$IP_{AL}\text{ OR wildcard} = IP_{paquete}\text{ OR wildcard}$$
 
 ### Sugerencias para su aplicación
 - Solo se puede asignar una lista de acceso por interface
