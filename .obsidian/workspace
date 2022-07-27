@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Software Libre/Daily/20220624.md",
+            "file": "Teoría de la Información/Encriptación/Clave Privada/DES.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Libre/Daily/20220624.md",
+                "file": "Teoría de la Información/Encriptación/Clave Privada/DES.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Libre/Daily/20220624.md",
+                "file": "Teoría de la Información/Encriptación/Clave Privada/DES.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,15 +117,15 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
+    "Teoría de la Información/Encriptación/Clave Privada/AES.md",
+    "Teoría de la Información/Encriptación/Clave Privada/DES.md",
+    "Teoría de la Información/Encriptación/Clave Privada/Feistel.md",
+    "Teoría de la Información/Encriptación/Clave Privada/3DES.md",
+    "Software Libre/Apache HTTP Server.md",
+    "Software Libre/GlusterFS.md",
+    "Software Libre/CouchDB.md",
     "Software Libre/Daily/20220624.md",
     "Sistemas Distribuidos/IoT/MQTT.md",
-    "Software Libre/Conceptos/Software libre.md",
-    "Software Libre/Conceptos/Untitled.md",
-    "Software Libre/Linux/Linux.md",
-    "Software Libre/Proyecto GNU.md",
-    "Software Libre/UNIX.md",
-    "Sistemas Operativos/Sistemas Operativos.md",
-    "Seguridad Informática/ACL.md",
-    "Redes de Computadoras/Hardware/Switch.md"
+    "Software Libre/Conceptos/Software libre.md"
   ]
 }
