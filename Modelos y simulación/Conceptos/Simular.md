@@ -1,0 +1,1 @@
+**Simular** es ensayar en un [[Modelo|modelo]] una alternativa para inferir lo que pasaría en el [[Sistema|sistema]] real si se aplica dicha alternativa.

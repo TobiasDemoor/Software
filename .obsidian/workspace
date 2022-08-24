@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Tunning de consultas.md",
+            "file": "Modelos y simulación/GPSS.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Tunning de consultas.md",
+                "file": "Modelos y simulación/GPSS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Tunning de consultas.md",
+                "file": "Modelos y simulación/GPSS.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,15 +117,15 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
-    "Bases de Datos/Procesamiento de consultas/Procesamiento de consultas.md",
-    "Lenguajes Formales/Conceptos/Sintaxis.md",
-    "Bases de Datos/Lenguajes/SQL.md",
-    "Bases de Datos/Lenguajes/Unión de tablas.md",
-    "Bases de Datos/Lenguajes/Álgebra Relacional.md",
-    "Bases de Datos/Lenguajes/Lenguajes Relacionales de Manejo de Datos.md",
-    "Bases de Datos/Teoría de Normalización/Denormalización.md",
-    "Bases de Datos/Teoría de Normalización/Normalización.md",
-    "Bases de Datos/Concepts/Redundancia de datos.md",
-    "Bases de Datos/Teoría de Normalización/Teoría de Normalización.md"
+    "Modelos y simulación/Simulación.md",
+    "Modelos y simulación/GPSS.md",
+    "Estadísitca/Distribuciones/Distribución uniforme.md",
+    "Modelos y simulación/Daily/20220822.md",
+    "Estadísitca/Distribuciones/Distribución de Poisson.md",
+    "Estadísitca/Distribuciones/Distribución normal.md",
+    "Modelos y simulación/Modelo.md",
+    "Modelos y simulación/Conceptos/Subsistema.md",
+    "Modelos y simulación/Conceptos/Simular.md",
+    "Modelos y simulación/Conceptos/Emular.md"
   ]
 }

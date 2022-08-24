@@ -1,0 +1,1 @@
+Un **subsistema** es un subconjunto de elementos que se aísla dentro del [[Sistema|sistema]], estos elementos y su interrelación definen subsistemas.

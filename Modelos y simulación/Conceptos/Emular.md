@@ -1,0 +1,1 @@
+**Emular** es imitar las acciones de ”otro” procurando igualarlas e incluso excederlas.
