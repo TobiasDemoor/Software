@@ -98,25 +98,8 @@ Está regla se aplica de distintas formas, dependiendo el motor de BD con él qu
 - MySQL: de izq a der. Conviene colocar la tabla menor del lado izq del INNER JOIN.
 - Oracle: de der a izq. Conviene colocar la tabla mayor del lado izq del INNER JOIN.
 
-## Consultas anidadas
-```MySQL
-SELECT <atributos>
-FROM  <tabla 1>
-WHERE <atributo> IN <tabla 2>;
--- tabla 2 debe tener 1 columna (generada por subquery)
--- el dom(<atributo>) debe ser igual a dom(<tabla 2>)
--- se puede negar
-
-SELECT <atributos>
-FROM <tabla 1> <alias 1>
-WHERE EXISTS (
-	SELECT *
-	FROM <tabla 2> <alias 2>
-	WHERE <condición(alias 1)>
-);
--- la condición de la subquery es función de la tupla externa
--- se puede negar
-```
+## Subconsultas
+![[Subqueries]]
 
 ## Comparación de conjuntos
 ```MySQL

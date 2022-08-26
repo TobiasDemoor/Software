@@ -6,6 +6,8 @@ El objetivo de definir políticas internas es describir las **normas institucion
 
 Además, se detallan las responsabilidades y deberes de las distintas áreas y personas en relación a las políticas establecidas.
 
+Incluyen a las [[Políticas de Seguridad de la Información]].
+
 #### Responsabilidades en la empresa
 - **Área de sistemas:** monitorear, administrar, auditar y fiscalizar los recursos tecnológicos de la Empresa.
 - **Área de RRHH:** difusión de políticas y normas a los usuarios y el personal de la Empresa.

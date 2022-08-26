@@ -7,7 +7,7 @@
 - **Variables a incluir en el modelo:** cuáles variables / parámetros son importantes y debo incluir en mi estudio. Cuáles son internas y controladas por mi sistema y cuales son externas y fuera de control.
 - **Recolección y análisis de los datos del sistema:** qué valores toman las variables, varían con el tiempo u otro factor, siguen alguna distribución de probabilidad: [[Distribución normal|normal]], [[Distribución de Poisson|poisson]], [[Distribución uniforme|equiprobables]].
 - **Definición de la estructura del modelo:** identificar y definir los atributos de las entidades permanentes y las transitorias, que eventos producen cambios de estado en mi sistema.
-- **Creación del modelo:** crear un programa que represente el modelo
+- **Creación del [[Modelo|modelo]]:** crear un programa que represente el modelo
 
 ### Ensayo de alternativas
 - **Validación del modelo:** hay que verificar algunas situaciones conocidas y analizar sus resultados para ver si se corresponden con el sistema real.

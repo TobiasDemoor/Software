@@ -7,12 +7,8 @@
         "id": "7efee267a75dc6e1",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Bases de Datos/Daily/20220823.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Daily/20220823.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Daily/20220823.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,15 +111,15 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
-    "Bases de Datos/Daily/20211117.md",
-    "Bases de Datos/Daily/20220823.md",
-    "Modelos y simulación/GPSS.md",
-    "Modelos y simulación/Simulación.md",
-    "Estadísitca/Distribuciones/Distribución uniforme.md",
-    "Modelos y simulación/Daily/20220822.md",
-    "Estadísitca/Distribuciones/Distribución de Poisson.md",
-    "Estadísitca/Distribuciones/Distribución normal.md",
+    "Taller de Prog II/Conceptos/Diagrama Ishikawa.md",
+    "Taller de Prog II/Políticas de Sistemas Informáticos.md",
     "Modelos y simulación/Modelo.md",
-    "Modelos y simulación/Conceptos/Subsistema.md"
+    "Modelos y simulación/Simulación.md",
+    "Algorítmos/Map reduce.md",
+    "Bases de Datos/Lenguajes/Subqueries.md",
+    "Bases de Datos/Lenguajes/SQL.md",
+    "Bases de Datos/Daily/20220823.md",
+    "Bases de Datos/Daily/20211117.md",
+    "Modelos y simulación/GPSS.md"
   ]
 }
