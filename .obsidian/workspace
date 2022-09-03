@@ -117,15 +117,15 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
-    "Software Libre/Licencias.md",
+    "Sistemas Distribuidos/CDN.md",
     "Bases de Datos/Redis.md",
+    "Sistemas Distribuidos/Replicación/Replicación.md",
+    "Software Libre/Conceptos/Software libre.md",
+    "Software Libre/Licencias.md",
     "Sistemas Distribuidos/Comunicación/Message Oriented Middleware.md",
     "Modelos y simulación/Daily/20220829.md",
     "Taller de Prog II/Conceptos/Diagrama Ishikawa.md",
     "Taller de Prog II/Políticas de Sistemas Informáticos.md",
-    "Modelos y simulación/Modelo.md",
-    "Modelos y simulación/Simulación.md",
-    "Algorítmos/Map reduce.md",
-    "Bases de Datos/Lenguajes/Subqueries.md"
+    "Modelos y simulación/Modelo.md"
   ]
 }
