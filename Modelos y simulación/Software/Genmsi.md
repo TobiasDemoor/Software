@@ -31,4 +31,7 @@ Las propiedades "son los parámetros" de un módulo, definen valores que son uti
 
 La sintaxis para definirlas es ``[nombrePropiedad:'hint']`` o ``[nombrePropiedad]``.
 
-
+### Módulos atómicos
+- **Assign:** Permite asignar un valor a un parámetro de transacción.
+- **InitialSV:** es un módulo no ejecutable que setea el valor de un [[SaveValue]] al inicio de la simulación.
+- **VariableA:**
