@@ -34,4 +34,12 @@ La sintaxis para definirlas es ``[nombrePropiedad:'hint']`` o ``[nombrePropiedad
 ### Módulos atómicos
 - **Assign:** Permite asignar un valor a un parámetro de transacción.
 - **InitialSV:** es un módulo no ejecutable que setea el valor de un [[SaveValue]] al inicio de la simulación.
-- **VariableA:**
+- **VariableA:** es un módulo no ejecutable que utiliza una variable para devolver un número aleatorio en un rango especificado.
+- **Variable:** es un módulo que permite utilizar libremente una variable para implementar cualquier cálculo.
+- **Loop:** es un módulo ejecutable con 2 salidas, donde el destino de la transacción que ingresa depende del valor del parámetro de la transacción utilizado en la propiedad “Parámetro” del módulo. Funcionamiento: 
+	- Resta 1 al valor del parámetro de la transacción 
+	- Si el resultado es mayor a cero, la transacción itera por la salida “loop” 
+	- Si el resultado es igual a cero, la transacción continúa por la salida 1
+- **Table - Tabulate**
+	- **Tabulate:** es un módulo ejecutable. Lo inserto en el lugar a contabilizar o tabular.
+	- **Table:** es un módulo descriptivo. Indica de qué forma quiero mostrar los resultados y qué [[SNA]] se tabula.
