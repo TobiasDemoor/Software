@@ -72,3 +72,6 @@ Redis se puede usar con soluciones de streaming como almacén de datos en memori
 
 ## Redis vs. Memcached
 Tanto Redis como Memcached son almacenes de datos en memoria de código abierto. Memcached, un servicio de almacenamiento en caché de memoria distribuida de alto rendimiento, está diseñado para la simplicidad, mientras que Redis ofrece un extenso conjunto de características que lo hacen efectivo para una amplia gama de casos de uso. Si desea ver una comparación de características más detallada para que lo ayude a tomar una decisión, consulte [Redis vs Memcached](https://aws.amazon.com/es/elasticache/redis-vs-memcached/). Ambos trabajan con bases de datos relacionales o de clave-valor a fin de mejorar el rendimiento, tales como MySQL, PostgreSQL, Aurora, Oracle, SQL Server, DynamoDB, etc.
+
+## Caso de uso Twitter
+https://www.infoq.com/presentations/Real-Time-Delivery-Twitter/
