@@ -73,5 +73,11 @@ Redis se puede usar con soluciones de streaming como almacén de datos en memori
 ## Redis vs. Memcached
 Tanto Redis como Memcached son almacenes de datos en memoria de código abierto. Memcached, un servicio de almacenamiento en caché de memoria distribuida de alto rendimiento, está diseñado para la simplicidad, mientras que Redis ofrece un extenso conjunto de características que lo hacen efectivo para una amplia gama de casos de uso. Si desea ver una comparación de características más detallada para que lo ayude a tomar una decisión, consulte [Redis vs Memcached](https://aws.amazon.com/es/elasticache/redis-vs-memcached/). Ambos trabajan con bases de datos relacionales o de clave-valor a fin de mejorar el rendimiento, tales como MySQL, PostgreSQL, Aurora, Oracle, SQL Server, DynamoDB, etc.
 
+%%Fuente: [Real-Time Delivery Architecture at Twitter](https://www.infoq.com/presentations/Real-Time-Delivery-Twitter/)%%
 ## Caso de uso Twitter
-https://www.infoq.com/presentations/Real-Time-Delivery-Twitter/
+El uso surge de una necesidad de presentar en tiempo real a los usuarios los tweets que deben ver.
+Se tiene una (en realidad varias mediante replicación) instancia de Redis Cache por cada timeline de usuario activo. Entonces cuando alguien tweetea algo, este se inserta en todos los cache de los usuarios que deben verlo (módulo Fanout).
+Usan una lista nativa, RPUSHX, y items con una estructura estable pero dinámica (no tiene el texto de los tweets, solo su id).
+El timeline service consulta redis y obtiene los tweets que debe ver, los puebla con su contenido y se los entrega al usuario.
+
+Originalmente usaban memcached y se movieron a redis para usar las listas nativas.
