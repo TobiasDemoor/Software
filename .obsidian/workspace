@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Redis.md",
+            "file": "Modelos y simulación/Daily/20220905.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Redis.md",
+                "file": "Modelos y simulación/Daily/20220905.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Redis.md",
+                "file": "Modelos y simulación/Daily/20220905.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,6 +117,8 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
+    "Modelos y simulación/Daily/20220926.md",
+    "Bases de Datos/Redis.md",
     "Modelos y simulación/Software/Genmsi.md",
     "Modelos y simulación/Software/GPSS.md",
     "Modelos y simulación/Daily/20220905.md",
@@ -124,8 +126,6 @@
     "Modelos y simulación/Software/SNA.md",
     "Modelos y simulación/Software/Var.md",
     "Modelos y simulación/Software/SaveValue.md",
-    "Modelos y simulación/Daily/20220829.md",
-    "Bases de Datos/Redis.md",
-    "Sistemas Distribuidos/CDN.md"
+    "Modelos y simulación/Daily/20220829.md"
   ]
 }
