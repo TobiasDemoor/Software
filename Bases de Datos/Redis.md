@@ -62,9 +62,11 @@ Redis, un almacén de datos en memoria con un alto nivel de disponibilidad y per
 Redis ofrece un almacén de datos en memoria y ágil para respaldar casos de uso de streaming en directo. El almacenamiento de metadatos de Redis se puede utilizar para perfiles de usuarios e historial de visualizaciones, tokens/información de autenticación para millones de usuarios y archivos de manifiestos para permitir que [[CDN]] haga streaming de videos a millones de usuarios de aplicaciones móviles y de escritorio en un determinado momento.  
 
 ### Análisis geoespacial
+https://www.memurai.com/blog/geospatial-queries-in-redis
 Redis ofrece estructuras de datos en memoria y operadores personalizados para administrar datos geoespaciales a escala y con velocidad. Los comandos como GEOADD, GEODIST, GEORADIUS y GEORADIUSBYMEMBER utilizados para almacenar, procesar y analizar datos geoespaciales en tiempo real facilitan y agilizan las tareas con Redis. Puede usar Redis para agregar características basadas en ubicación geográfica, como tiempo de conducción, distancia recorrida y puntos de interés, a sus aplicaciones.  
 
 ### Machine Learning
+https://youtu.be/RyGxAsOOXpw
 Las aplicaciones modernas basadas en datos exigen que el [[Machine Learning]] procese rápidamente grandes volúmenes de datos variados y ágiles, y que automatice la toma de decisiones. Para casos de uso como la detección de fraudes en juegos y servicios financieros, las subastas en tiempo real en el sector de la tecnología publicitaria y las coincidencias en aplicaciones de citas y viajes compartidos, la capacidad para procesar datos instantáneamente y tomar decisiones en decenas de milisegundos tiene una importancia fundamental. Redis le proporciona un almacén de datos en memoria para crear, entrenar e implementar rápidamente modelos de Machine Learning.  
 
 ### Análisis en tiempo real
