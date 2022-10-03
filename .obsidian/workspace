@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Redis.md",
+            "file": "Modelos y simulación/Daily/20221003.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Redis.md",
+                "file": "Modelos y simulación/Daily/20221003.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Redis.md",
+                "file": "Modelos y simulación/Daily/20221003.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
