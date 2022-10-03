@@ -35,7 +35,7 @@ A diferencia de otros almacenes de datos de clave valor simplistas que ofrecen e
 Redis le permite escribir código tradicionalmente complejo con menos líneas y más simples. Con Redis puede escribir menos líneas de código para almacenar, obtener acceso y utilizar datos en sus aplicaciones. La diferencia es que los desarrolladores que usan Redis pueden usar una estructura de comando simple en contraposición a los lenguajes de consulta de bases de datos tradicionales. Por ejemplo, puede usar la estructura de datos hash de Redis para mover datos a un almacén de datos con solo una línea de código. Una tarea de similares características en un almacén de datos sin estructuras de datos hash necesitaría muchas líneas de código para realizar la conversión de un formato a otro. Redis incluye estructuras de datos originales y muchas opciones para trabajar e interactuar con ellos.
 
 ### Replicación y persistencia
-Redis utiliza una arquitectura con servidor principal y réplica y admite la [[Replicación|replicación]] asíncrona en la que los datos se replican en numerosos servidores de réplicas. De este modo, se logra un mejor nivel de rendimiento de lectura (ya que las solicitudes se pueden repartir entre varios servidores) y menores tiempos de recuperación cuando el servidor principal sufre un corte. Por una cuestión de persistencia, Redis admite copias de seguridad puntuales (copia el conjunto de datos Redis en el disco).  
+Redis utiliza una arquitectura con un servidor principal y réplicas que admite la [[Replicación|replicación]] asíncrona en la que los datos se replican en numerosos servidores de réplicas. De este modo, se logra un mejor nivel de rendimiento de lectura (ya que las solicitudes se pueden repartir entre varios servidores) y menores tiempos de recuperación cuando el servidor principal sufre un corte. Por una cuestión de persistencia, Redis admite copias de seguridad puntuales (copia el conjunto de datos Redis en el disco).  
 
 **Redis no se creó para ser una base de datos duradera y coherente**.
 
@@ -81,3 +81,25 @@ Usan una lista nativa, RPUSHX, y items con una estructura estable pero dinámica
 El timeline service consulta redis y obtiene los tweets que debe ver, los puebla con su contenido y se los entrega al usuario.
 
 Originalmente usaban memcached y se movieron a redis para usar las listas nativas.
+
+https://redis.io/docs/getting-started/faq/
+https://redis.io/docs/reference/optimization/memory-optimization/
+## Uso de RAM
+To give you a few examples (all obtained using 64-bit instances):
+
+-   An empty instance uses ~ 3MB of memory.
+-   1 Million small Keys -> String Value pairs use ~ 85MB of memory.
+-   1 Million Keys -> Hash value, representing an object with 5 fields, use ~ 160 MB of memory.
+
+Testing your use case is trivial. Use the `redis-benchmark` utility to generate random data sets then check the space used with the `INFO memory` command.
+
+64-bit systems will use considerably more memory than 32-bit systems to store the same keys, especially if the keys and values are small. This is because pointers take 8 bytes in 64-bit systems. But of course the advantage is that you can have a lot of memory in 64-bit systems, so in order to run large Redis servers a 64-bit system is more or less required. The alternative is sharding.
+
+Redis has built-in protections allowing the users to set a max limit on memory usage, using the `maxmemory` option in the configuration file to put a limit to the memory Redis can use. If this limit is reached, Redis will start to reply with an error to write commands (but will continue to accept read-only commands).
+
+You can also configure Redis to evict keys when the max memory limit is reached. See the [eviction policy docs](https://redis.io/docs/manual/eviction/) for more information on this.
+
+
+https://redis.io/docs/manual/persistence/#snapshotting
+
+https://aashikahamed.medium.com/a-beginner-guide-to-redis-clustering-f34df275ac61
