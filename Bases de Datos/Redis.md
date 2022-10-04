@@ -84,8 +84,11 @@ El timeline service consulta redis y obtiene los tweets que debe ver, los puebla
 
 Originalmente usaban memcached y se movieron a redis para usar las listas nativas.
 
+%%
+Fuente:
 https://redis.io/docs/getting-started/faq/
 https://redis.io/docs/reference/optimization/memory-optimization/
+%%
 ## Uso de RAM
 To give you a few examples (all obtained using 64-bit instances):
 
@@ -105,3 +108,5 @@ You can also configure Redis to evict keys when the max memory limit is reached.
 https://redis.io/docs/manual/persistence/#snapshotting
 
 https://aashikahamed.medium.com/a-beginner-guide-to-redis-clustering-f34df275ac61
+
+https://redis.io/docs/manual/programmability/eval-intro/
