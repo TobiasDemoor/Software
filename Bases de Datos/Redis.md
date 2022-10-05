@@ -106,7 +106,27 @@ You can also configure Redis to evict keys when the max memory limit is reached.
 
 
 https://redis.io/docs/manual/persistence/#snapshotting
+## Snapshots y journaling
 
-https://aashikahamed.medium.com/a-beginner-guide-to-redis-clustering-f34df275ac61
 
 https://redis.io/docs/manual/programmability/eval-intro/
+## Scripting with Lua
+Redis lets users upload and execute Lua scripts on the server. Scripts can employ programmatic control structures and use most of the commands while executing to access the database. Because scripts execute in the server, reading and writing data from scripts is very efficient.
+
+Redis guarantees the script's atomic execution. While executing the script, all server activities are blocked during its entire runtime. These semantics mean that all of the script's effects either have yet to happen or had already happened.
+
+Scripting offers several properties that can be valuable in many cases. These include:
+
+Providing locality by executing logic where data lives. Data locality reduces overall latency and saves networking resources.
+Blocking semantics that ensure the script's atomic execution.
+Enabling the composition of simple capabilities that are either missing from Redis or are too niche to a part of it.
+Lua lets you run part of your application logic inside Redis. Such scripts can perform conditional updates across multiple keys, possibly combining several different data types atomically.
+
+Scripts are executed in Redis by an embedded execution engine. Presently, Redis supports a single scripting engine, the Lua 5.1 interpreter. Please refer to the Redis Lua API Reference page for complete documentation.
+
+Although the server executes them, Eval scripts are regarded as a part of the client-side application, which is why they're not named, versioned, or persisted. So all scripts may need to be reloaded by the application at any time if missing (after a server restart, fail-over to a replica, etc.). As of version 7.0, Redis Functions offer an alternative approach to programmability which allow the server itself to be extended with additional programmed logic.
+
+
+
+https://aashikahamed.medium.com/a-beginner-guide-to-redis-clustering-f34df275ac61
+## Replicación y sharding
