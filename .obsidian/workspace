@@ -117,6 +117,7 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
+    "Bases de Datos/Redis.md",
     "Sistemas Distribuidos/Replicación/Consistencia Eventual.md",
     "Sistemas Distribuidos/Replicación/Web cache.md",
     "Sistemas Distribuidos/Replicación/Replicación.md",
@@ -125,7 +126,6 @@
     "Sistemas Distribuidos/Replicación/Consistencia Fuerte.md",
     "Sistemas Distribuidos/Replicación/Consistencia Causal.md",
     "Sistemas Distribuidos/Replicación/Consistencia Débil.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Continua.md",
-    "Bases de Datos/Redis.md"
+    "Sistemas Distribuidos/Replicación/Consistencia Continua.md"
   ]
 }
