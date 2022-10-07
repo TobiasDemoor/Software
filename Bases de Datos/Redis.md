@@ -119,7 +119,6 @@ Persistence refers to the writing of data to durable storage, such as a solid-st
 The most important thing to understand is the different trade-offs between the RDB and AOF persistence.
 
 ### RDB advantages
-
 -   RDB is a very compact single-file point-in-time representation of your Redis data. RDB files are perfect for backups. For instance you may want to archive your RDB files every hour for the latest 24 hours, and to save an RDB snapshot every day for 30 days. This allows you to easily restore different versions of the data set in case of disasters.
 -   RDB is very good for disaster recovery, being a single compact file that can be transferred to far data centers, or onto Amazon S3 (possibly encrypted).
 -   RDB maximizes Redis performances since the only work the Redis parent process needs to do in order to persist is forking a child that will do all the rest. The parent process will never perform disk I/O or alike.
@@ -127,24 +126,20 @@ The most important thing to understand is the different trade-offs between the R
 -   On replicas, RDB supports [partial resynchronizations after restarts and failovers](https://redis.io/topics/replication#partial-resynchronizations-after-restarts-and-failovers).
 
 ### RDB disadvantages
-
 -   RDB is NOT good if you need to minimize the chance of data loss in case Redis stops working (for example after a power outage). You can configure different _save points_ where an RDB is produced (for instance after at least five minutes and 100 writes against the data set, you can have multiple save points). However you'll usually create an RDB snapshot every five minutes or more, so in case of Redis stopping working without a correct shutdown for any reason you should be prepared to lose the latest minutes of data.
 -   RDB needs to fork() often in order to persist on disk using a child process. fork() can be time consuming if the dataset is big, and may result in Redis stopping serving clients for some milliseconds or even for one second if the dataset is very big and the CPU performance is not great. AOF also needs to fork() but less frequently and you can tune how often you want to rewrite your logs without any trade-off on durability.
 
 ### AOF advantages
-
 -   Using AOF Redis is much more durable: you can have different fsync policies: no fsync at all, fsync every second, fsync at every query. With the default policy of fsync every second, write performance is still great. fsync is performed using a background thread and the main thread will try hard to perform writes when no fsync is in progress, so you can only lose one second worth of writes.
 -   The AOF log is an append-only log, so there are no seeks, nor corruption problems if there is a power outage. Even if the log ends with a half-written command for some reason (disk full or other reasons) the redis-check-aof tool is able to fix it easily.
 -   Redis is able to automatically rewrite the AOF in background when it gets too big. The rewrite is completely safe as while Redis continues appending to the old file, a completely new one is produced with the minimal set of operations needed to create the current data set, and once this second file is ready Redis switches the two and starts appending to the new one.
 -   AOF contains a log of all the operations one after the other in an easy to understand and parse format. You can even easily export an AOF file. For instance even if you've accidentally flushed everything using the [`FLUSHALL`](https://redis.io/commands/flushall) command, as long as no rewrite of the log was performed in the meantime, you can still save your data set just by stopping the server, removing the latest command, and restarting Redis again.
 
 ### AOF disadvantages
-
 -   AOF files are usually bigger than the equivalent RDB files for the same dataset.
 -   AOF can be slower than RDB depending on the exact fsync policy. In general with fsync set to _every second_ performance is still very high, and with fsync disabled it should be exactly as fast as RDB even under high load. Still RDB is able to provide more guarantees about the maximum latency even in the case of a huge write load.
 
 ### Ok, so what should I use?
-
 The general indication you should use both persistence methods is if you want a degree of data safety comparable to what PostgreSQL can provide you.
 
 If you care a lot about your data, but still can live with a few minutes of data loss in case of disasters, you can simply use RDB alone.
@@ -212,7 +207,7 @@ Node B1 replicates B, and B fails, the cluster will promote node B1 as the new m
 However, note that if nodes B and B1 fail at the same time, Redis Cluster will not be able to continue to operate.
 
 ### Redis Cluster consistency guarantees
-Redis Cluster does not guarantee **strong consistency**. In practical terms this means that under certain conditions it is possible that Redis Cluster will lose writes that were acknowledged by the system to the client.
+Redis Cluster does not guarantee **[[Consistencia Fuerte|strong consistency]]**. In practical terms this means that under certain conditions it is possible that Redis Cluster will lose writes that were acknowledged by the system to the client.
 
 The first reason why Redis Cluster can lose writes is because it uses asynchronous replication. This means that during writes the following happens:
 
@@ -228,7 +223,7 @@ Basically, there is a trade-off to be made between performance and consistency.
 
 Redis Cluster has support for synchronous writes when absolutely needed, implemented via the [`WAIT`](https://redis.io/commands/wait) command. This makes losing writes a lot less likely. However, note that Redis Cluster does not implement strong consistency even when synchronous replication is used: it is always possible, under more complex failure scenarios, that a replica that was not able to receive the write will be elected as master.
 
-There is another notable scenario where Redis Cluster will lose writes, that happens during a network partition where a client is isolated with a minority of instances including at least a master.
+%%There is another notable scenario where Redis Cluster will lose writes, that happens during a network partition where a client is isolated with a minority of instances including at least a master.
 
 Take as an example our 6 nodes cluster composed of A, B, C, A1, B1, C1, with 3 masters and 3 replicas. There is also a client, that we will call Z1.
 
@@ -240,4 +235,4 @@ Note that there is a **maximum window** to the amount of writes Z1 will be abl
 
 This amount of time is a very important configuration directive of Redis Cluster, and is called the **node timeout**.
 
-After node timeout has elapsed, a master node is considered to be failing, and can be replaced by one of its replicas. Similarly, after node timeout has elapsed without a master node to be able to sense the majority of the other master nodes, it enters an error state and stops accepting writes.
+After node timeout has elapsed, a master node is considered to be failing, and can be replaced by one of its replicas. Similarly, after node timeout has elapsed without a master node to be able to sense the majority of the other master nodes, it enters an error state and stops accepting writes.%%
