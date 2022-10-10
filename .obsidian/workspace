@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bases de Datos/Redis.md",
+            "file": "Análisis y Diseño/Patrones/Arquitectónicos/Pipe and Filters.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Redis.md",
+                "file": "Análisis y Diseño/Patrones/Arquitectónicos/Pipe and Filters.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Redis.md",
+                "file": "Análisis y Diseño/Patrones/Arquitectónicos/Pipe and Filters.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,6 +117,8 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
+    "Análisis y Diseño/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
+    "Análisis y Diseño/Patrones/Arquitectónicos/Pipe and Filters.md",
     "Bases de Datos/Redis.md",
     "Sistemas Distribuidos/Replicación/Consistencia Eventual.md",
     "Sistemas Distribuidos/Replicación/Web cache.md",
@@ -124,8 +126,6 @@
     "Sistemas Distribuidos/Replicación/Modelo de Consistencia.md",
     "Sistemas Distribuidos/Replicación/Consistencia Secuencial.md",
     "Sistemas Distribuidos/Replicación/Consistencia Fuerte.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Causal.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Débil.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Continua.md"
+    "Sistemas Distribuidos/Replicación/Consistencia Causal.md"
   ]
 }

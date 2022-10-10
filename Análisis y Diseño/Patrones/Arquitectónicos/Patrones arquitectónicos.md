@@ -5,3 +5,4 @@ Un patrón de arquitectura establece una relación entre **un contexto**, que es
 - [[Data mapper]]
 - [[Layers]]
 - [[Model-View-Controller]]
+- [[Pipe and Filters]]
