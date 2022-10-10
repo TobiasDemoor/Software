@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Análisis y Diseño/Patrones/Arquitectónicos/Pipe and Filters.md",
+            "file": "Bases de Datos/Redis.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/Pipe and Filters.md",
+                "file": "Bases de Datos/Redis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/Pipe and Filters.md",
+                "file": "Bases de Datos/Redis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -117,8 +117,8 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
-    "Análisis y Diseño/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
     "Análisis y Diseño/Patrones/Arquitectónicos/Pipe and Filters.md",
+    "Análisis y Diseño/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
     "Bases de Datos/Redis.md",
     "Sistemas Distribuidos/Replicación/Consistencia Eventual.md",
     "Sistemas Distribuidos/Replicación/Web cache.md",
