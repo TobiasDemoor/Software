@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7efee267a75dc6e1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Análisis y Diseño/Patrones/GoF/Adapter.md",
-            "mode": "source",
-            "source": false
+        "id": "88038b729eae186e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7efee267a75dc6e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bases de Datos/Redis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -77,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis y Diseño/Patrones/GoF/Adapter.md",
+                "file": "Bases de Datos/Redis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis y Diseño/Patrones/GoF/Adapter.md",
+                "file": "Bases de Datos/Redis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -115,17 +123,20 @@
     "width": 300,
     "collapsed": true
   },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/Direcciones IP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/IP.md",
+    "Sistemas Distribuidos/Replicación/Consistencia Fuerte.md",
     "Bases de Datos/Redis.md",
-    "Análisis y Diseño/Patrones/Arquitectónicos/Pipe and Filters.md",
-    "Análisis y Diseño/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Eventual.md",
-    "Sistemas Distribuidos/Replicación/Web cache.md",
-    "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Sistemas Distribuidos/Replicación/Modelo de Consistencia.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Secuencial.md"
+    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
+    "Resumenes/Resumen Modelos y simulación.md",
+    "Resumenes/Resumen BD.md",
+    "Conceptos/Interfaz.md",
+    "Conceptos/Componente.md",
+    "Análisis y Diseño/Patrones/GoF/Adapter.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/IP/Direcciones IP.md",
+    "Redes de Computadoras/Modelo OSI/Capa 3/IP/IP.md"
   ]
 }

@@ -2,9 +2,8 @@
   "baseFontSize": 16,
   "translucency": false,
   "theme": "obsidian",
-  "enabledCssSnippets": [
-    "clean-embeds-all"
-  ],
+  "enabledCssSnippets": [],
   "baseFontSizeAction": false,
-  "cssTheme": ""
+  "cssTheme": "",
+  "accentColor": ""
 }

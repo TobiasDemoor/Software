@@ -1,17 +1,8 @@
-%%Fuente: [Introduction to Redis](https://redis.io/docs/about/)%%
-Redis es un almacenamiento de estructura de datos en memoria de [[Software libre|código abierto]] (con [[Licencias|licencia BSD]]) que es utilizado como [[Bases de Datos|base de datos]], caché, [[Message Oriented Middleware|broker de mensajes]], y streaming engine. Redis provee estructuras de datos tales como strings, hashes, lists, sets, sorted sets con queries por rango, bitmaps, hyperloglogs, geospatial indexes, y streams. Redis tiene [[Replicación|replicación]] incorporada, Lua scripting, LRU eviction, [[Transacciones|transactions]], diferentes niveles de persistencia en disco, provee alta disponibilidad a través de Redis Sentinel y particionamiento automático con Redis Cluster.
-
-Se pueden ejecutar operaciones automáticas, como concatenar a un string, incrmentar el valor en un hash, agregar un elemento a una lista, calcular la intersección, unión y diferencia de conjuntos, u obtener el miembro de mayor prioridad en un set ordenado.
-
-Para lograr mayor performance, Redis trabaja con un dataset en memoria. Dependiendo del caso de uso, Redis puede persistir la información periódicamente bajandola a disco o añadiendo cada comando a un log en disco. También se puede deshabilitar la persistencia si solo se necesita un caché en memoria, en red y con muchas features.
-
-Redis permite replicación asíncrona con sincronización rápida no bloqueante y auto-reconeción con resincronización parcial.
-
 %%Fuente: [Redis: almacen de datos en memoria](https://aws.amazon.com/es/redis/)%%
 ## ¿Qué es Redis?
-Redis, que significa Remote Dictionary Server, es un rápido almacén de datos clave-valor en memoria de [[Software libre|código abierto]]. El proyecto se inició cuando Salvatore Sanfilippo, el desarrollador original de Redis, trataba de mejorar la escalabilidad de su empresa emergente italiana. A partir de ahí, desarrolló Redis, que ahora se utiliza como [[Bases de Datos|base de datos]], caché, [[Message Oriented Middleware|agente de mensajes]] y cola.
+Redis, que significa Remote Dictionary Server, es un rápido almacén de datos clave-valor en memoria de [[Software libre|código abierto]] (con [[Licencias|licencia BSD]]). El proyecto se inició cuando Salvatore Sanfilippo, el desarrollador original de Redis, trataba de mejorar la escalabilidad de su empresa emergente italiana. A partir de ahí, desarrolló Redis, que ahora se utiliza como [[Bases de Datos|base de datos]], caché, [[Message Oriented Middleware|agente de mensajes]], cola, entre otros casos de uso.
 
-Redis ofrece tiempos de respuesta inferiores al milisegundo, lo que permite que se realicen millones de solicitudes por segundo para aplicaciones en tiempo real de la industria, como videojuegos, tecnología publicitaria, servicios financieros, sanidad e IoT. Hoy en día, Redis es uno de los motores de código abierto más populares en la actualidad, denominado la base de datos “preferida” por Stack Overflow durante cinco años consecutivos. Por su rápido rendimiento, Redis es una opción muy habitual en aplicaciones de almacenamiento en caché, administración de sesiones, videojuegos, tablas de clasificación, análisis en tiempo real, datos geoespaciales, servicios de vehículos compartidos, chat/mensajería, streaming de contenido multimedia y publicación/suscripción.
+Redis ofrece tiempos de respuesta inferiores al milisegundo, lo que permite que se realicen millones de solicitudes por segundo para aplicaciones en tiempo real de la industria. En la actualidad es uno de los motores de código abierto más populares, denominado como una de las base de datos “preferidas” por Stack Overflow. Por su rápido rendimiento, Redis es una opción muy habitual en aplicaciones de almacenamiento en caché, administración de sesiones, videojuegos, tablas de clasificación, análisis en tiempo real, datos geoespaciales, servicios de vehículos compartidos, chat/mensajería, streaming de contenido multimedia y publicación/suscripción.
 
 ## Beneficios de Redis
 ### Rendimiento
@@ -24,9 +15,10 @@ A diferencia de otros almacenes de datos de clave valor simplistas que ofrecen e
 - Listas: una colección de cadenas en el orden en que se agregaron
 - Conjuntos: una colección desordenada de cadenas con la capacidad para intercalarse, unirse y diferenciarse de otros tipos de conjuntos
 - Conjuntos ordenados: conjuntos ordenados por un valor
-- Hashes: una estructura de datos para almacenar una lista de campos y valores
+- Hashes: una estructura de datos para almacenar una lista de pares clave-valor
 - Mapas de bits: un tipo de datos que ofrece operaciones a nivel de bits  
-- HyperLogLogs: una estructura de datos probabilísticos para estimar los elementos únicos en un conjunto de datos 
+- Campos de bits: un tipo de datos que permite establecer, incremetar y consultar valores enteros de longitud arbitraria (de 1 a 64 bits, con o sin signo).
+- HyperLogLogs: una estructura de datos probabilísticos para estimar los elementos únicos en un conjunto de datos.  Es una herramienta para evitar el cálculo de la cardinalidad de un conjunto.
 - Secuencias: una cola de mensajes de estructura de datos de registro
 - Geoespacial: mapas de entradas basados en longitud / latitud, "cercanía"
 - [[JSON]]: un objeto anidado y semiestructurado de valores con nombre que admite números, cadenas, booleanos, matrices y otros objetos  
@@ -53,21 +45,25 @@ Redis es una excelente opción para implementar una caché en memoria de alta di
 Redis admite tareas de [[Arquitecturas publish-subscriber|publicación y suscripción]] con correspondencia de patrones y una variedad de estructuras de datos, como listas, conjuntos ordenados y hashes. Eso le permite a Redis respaldar salas de chat de alto rendimiento, streaming de comentarios en tiempo real, actividades en redes sociales e intercomunicaciones entre servidores. La estructura de datos de Listas de Redis facilita la implementación de una cola liviana. Las listas ofrecen operaciones atómicas, así como capacidades de bloqueo, por lo que resultan aptas para una variedad de aplicaciones que requieren un agente de mensajes fiable o una lista circular.  
 
 ### Tablas de clasificación de videojuegos
-Redis es una de las opciones favoritas de los desarrolladores de videojuegos que necesitan crear tablas de clasificación con datos generados en tiempo real. Simplemente utilice la estructura de datos de los conjuntos clasificados de Redis, que proporciona singularidad de elementos, mientras que mantiene la lista ordenada por puntaje de usuarios. Crear una lista de clasificación en tiempo real es tan sencillo como actualizar la puntuación de un usuario cada vez que cambia. También puede utilizar los conjuntos clasificados para administrar datos de serie temporal con sellos de tiempo como puntuación.  
+Redis es una de las opciones favoritas de los desarrolladores de videojuegos que necesitan crear tablas de clasificación con datos generados en tiempo real. Simplemente se puede utilizar la estructura de datos de los conjuntos ordenados de Redis, que proporciona singularidad de elementos, mientras que mantiene la lista ordenada por puntaje de usuarios (sorted list que mencioné antes). Crear una lista de clasificación en tiempo real es tan sencillo como actualizar la puntuación de un usuario cada vez que cambia. También puede utilizar los conjuntos ordenados para administrar datos de serie temporal con sellos de tiempo como puntuación.  
+
+En primera instancia este caso de uso podría parecer irrelevante, pero si nos ponemos a pensar en videojuegos con una base de usuarios considerable se vuelve más interesante.
 
 ### Almacén de sesiones
 Redis, un almacén de datos en memoria con un alto nivel de disponibilidad y persistencia, es una de las opciones favoritas de los desarrolladores de aplicaciones para almacenar y administrar datos de sesiones para aplicaciones a escala de Internet. Redis ofrece la latencia menor a un milisegundo, la escala y la resiliencia necesarias para administrar datos de sesiones, como perfiles de usuarios, credenciales, estados de sesiones y personalización específica para usuarios.  
 
-### Streaming completo de contenido multimedia
-Redis ofrece un almacén de datos en memoria y ágil para respaldar casos de uso de streaming en directo. El almacenamiento de metadatos de Redis se puede utilizar para perfiles de usuarios e historial de visualizaciones, tokens/información de autenticación para millones de usuarios y archivos de manifiestos para permitir que [[CDN]] haga streaming de videos a millones de usuarios de aplicaciones móviles y de escritorio en un determinado momento.  
+%%### Streaming completo de contenido multimedia
+Redis ofrece un almacén de datos en memoria y ágil para respaldar casos de uso de streaming en directo. El almacenamiento de metadatos de Redis se puede utilizar para perfiles de usuarios e historial de visualizaciones, tokens/información de autenticación para millones de usuarios y archivos de manifiestos para permitir que [[CDN]] haga streaming de videos a millones de usuarios de aplicaciones móviles y de escritorio en un determinado momento.%%  
 
 ### Análisis geoespacial
 https://www.memurai.com/blog/geospatial-queries-in-redis
-Redis ofrece estructuras de datos en memoria y operadores personalizados para administrar datos geoespaciales a escala y con velocidad. Los comandos como GEOADD, GEODIST, GEORADIUS y GEORADIUSBYMEMBER utilizados para almacenar, procesar y analizar datos geoespaciales en tiempo real facilitan y agilizan las tareas con Redis. Puede usar Redis para agregar características basadas en ubicación geográfica, como tiempo de conducción, distancia recorrida y puntos de interés, a sus aplicaciones.  
+Redis ofrece estructuras de datos en memoria y operadores personalizados para administrar datos geoespaciales a escala y con velocidad. Los comandos como GEOADD, GEODIST, GEORADIUS y GEORADIUSBYMEMBER utilizados para almacenar, procesar y analizar datos geoespaciales en tiempo real facilitan y agilizan las tareas con Redis. Puede usar Redis para agregar características basadas en ubicación geográfica, como tiempo de conducción, distancia recorrida y puntos de interés, a sus aplicaciones. 
 
 ### Machine Learning
 https://youtu.be/RyGxAsOOXpw
 Las aplicaciones modernas basadas en datos exigen que el [[Machine Learning]] procese rápidamente grandes volúmenes de datos variados y ágiles, y que automatice la toma de decisiones. Para casos de uso como la detección de fraudes en juegos y servicios financieros, las subastas en tiempo real en el sector de la tecnología publicitaria y las coincidencias en aplicaciones de citas y viajes compartidos, la capacidad para procesar datos instantáneamente y tomar decisiones en decenas de milisegundos tiene una importancia fundamental. Redis le proporciona un almacén de datos en memoria para crear, entrenar e implementar rápidamente modelos de Machine Learning.  
+
+Redis entra a este mercado buscando mejorar los tiempos totales de inferencia, incluyendo el tiempo de recopilado y clasificación de información
 
 ### Análisis en tiempo real
 Redis se puede usar con soluciones de streaming como almacén de datos en memoria para incorporar, procesar y analizar datos en tiempo real con una latencia menor a un milisegundo. Redis es la opción ideal para casos de uso de análisis en tiempo real, como análisis de datos de redes sociales, focalización de anuncios, personalización e IoT.
@@ -145,7 +141,6 @@ The general indication you should use both persistence methods is if you want a 
 If you care a lot about your data, but still can live with a few minutes of data loss in case of disasters, you can simply use RDB alone.
 
 There are many users using AOF alone, but we discourage it since to have an RDB snapshot from time to time is a great idea for doing database backups, for faster restarts, and in the event of bugs in the AOF engine.
-
 
 https://redis.io/docs/manual/programmability/eval-intro/
 ## Scripting with Lua
