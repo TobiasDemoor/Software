@@ -1,8 +1,10 @@
 %%Fuente: [Redis: almacen de datos en memoria](https://aws.amazon.com/es/redis/)%%
 ## ¿Qué es Redis?
-Redis, que significa Remote Dictionary Server, es un rápido almacén de datos clave-valor en memoria de [[Software libre|código abierto]] (con [[Licencias|licencia BSD]]). El proyecto se inició cuando Salvatore Sanfilippo, el desarrollador original de Redis, trataba de mejorar la escalabilidad de su empresa emergente italiana. A partir de ahí, desarrolló Redis, que ahora se utiliza como [[Bases de Datos|base de datos]], caché, [[Message Oriented Middleware|agente de mensajes]], cola, entre otros casos de uso.
+Redis, que significa Remote Dictionary Server, es un almacén de datos clave-valor en memoria de [[Software libre|código abierto]] (con [[Licencias|licencia BSD]]). El proyecto se inició cuando Salvatore Sanfilippo, el desarrollador original de Redis, trataba de mejorar la escalabilidad de su empresa emergente. A partir de ahí, desarrolló Redis, que ahora se utiliza como [[Bases de Datos|base de datos]], caché, [[Message Oriented Middleware|agente de mensajes]], cola, entre otros casos de uso.
 
-Redis ofrece tiempos de respuesta inferiores al milisegundo, lo que permite que se realicen millones de solicitudes por segundo para aplicaciones en tiempo real de la industria. En la actualidad es uno de los motores de código abierto más populares, denominado como una de las base de datos “preferidas” por Stack Overflow. Por su rápido rendimiento, Redis es una opción muy habitual en aplicaciones de almacenamiento en caché, administración de sesiones, videojuegos, tablas de clasificación, análisis en tiempo real, datos geoespaciales, servicios de vehículos compartidos, chat/mensajería, streaming de contenido multimedia y publicación/suscripción.
+Redis ofrece tiempos de respuesta menores al milisegundo, lo que permite que se realicen millones de solicitudes por segundo para aplicaciones en tiempo real. En la actualidad es uno de los motores de código abierto más populares, denominado como una de las base de datos “preferidas” por Stack Overflow.
+
+Por su rápido rendimiento, Redis es una opción muy habitual en aplicaciones de almacenamiento en caché, administración de sesiones, videojuegos, tablas de clasificación, análisis en tiempo real, datos geoespaciales, servicios de vehículos compartidos, chat/mensajería, streaming de contenido multimedia y publicación/suscripción.
 
 ## Beneficios de Redis
 ### Rendimiento
