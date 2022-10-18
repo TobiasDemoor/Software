@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelos y simulación/Daily/20221017.md",
+                "file": "Bases de Datos/Redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelos y simulación/Daily/20221017.md",
+                "file": "Bases de Datos/Redis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelos y simulación/Daily/20221017.md",
+                "file": "Bases de Datos/Redis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -128,8 +128,8 @@
   },
   "active": "7efee267a75dc6e1",
   "lastOpenFiles": [
-    "Bases de Datos/Redis.md",
     "Sistemas Distribuidos/Replicación/Consistencia Fuerte.md",
+    "Bases de Datos/Redis.md",
     "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
     "Resumenes/Resumen Modelos y simulación.md",
     "Resumenes/Resumen BD.md",
