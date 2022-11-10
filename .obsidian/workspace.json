@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "88038b729eae186e",
+        "id": "2e569a4f41f095d0",
         "type": "tabs",
         "children": [
           {
-            "id": "7efee267a75dc6e1",
+            "id": "5505137040b25425",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bases de Datos/Redis.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -65,8 +61,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Redis.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Redis.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -124,20 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "691f9e843a052598",
+  "active": "5505137040b25425",
   "lastOpenFiles": [
-    "Sistemas Distribuidos/Replicación/Consistencia Fuerte.md",
+    "Análisis y Diseño/Diagramas/Deployment Diagram.md",
+    "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
     "Bases de Datos/Redis.md",
+    "Sistemas Distribuidos/Replicación/Consistencia Fuerte.md",
     "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
     "Resumenes/Resumen Modelos y simulación.md",
     "Resumenes/Resumen BD.md",
     "Conceptos/Interfaz.md",
     "Conceptos/Componente.md",
-    "Análisis y Diseño/Patrones/GoF/Adapter.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/Direcciones IP.md",
-    "Redes de Computadoras/Modelo OSI/Capa 3/IP/IP.md"
+    "Análisis y Diseño/Patrones/GoF/Adapter.md"
   ]
 }
