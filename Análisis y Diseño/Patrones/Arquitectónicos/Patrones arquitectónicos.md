@@ -6,4 +6,5 @@ Un patrón de arquitectura establece una relación entre **un contexto**, que es
 - [[Layers]]
 - [[Model-View-Controller]]
 - [[Pipe and Filters]]
-- [[Back]]
+- [[Back for front]]
+- [[API Gateway]]
