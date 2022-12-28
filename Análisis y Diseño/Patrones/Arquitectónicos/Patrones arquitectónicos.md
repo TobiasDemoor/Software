@@ -8,3 +8,4 @@ Un patrón de arquitectura establece una relación entre **un contexto**, que es
 - [[Pipe and Filters]]
 - [[Back for front]]
 - [[API Gateway]]
+- [[CQRS]]

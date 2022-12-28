@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2e569a4f41f095d0",
+        "id": "7c0d4175e2003521",
         "type": "tabs",
         "children": [
           {
-            "id": "c7cdc1d3d89ecb8e",
+            "id": "fdd0da10e3aa0a38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3a349d01738e86fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/Back for front.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df5b64329fa4c5d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/API Gateway.md",
+                "file": "Análisis y Diseño/Patrones/Arquitectónicos/CQRS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "repo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,44 +76,36 @@
     "type": "split",
     "children": [
       {
-        "id": "4a75df1d3b18440c",
+        "id": "d4cdf69c3f5887a3",
         "type": "tabs",
         "children": [
           {
-            "id": "53bea64f84b265c3",
+            "id": "abea0887435b9284",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/API Gateway.md",
-                "collapseAll": true,
+                "file": "Análisis y Diseño/Patrones/Arquitectónicos/CQRS.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "18d4eca108aaf3e1",
+            "id": "14833a25a43d0c1b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/API Gateway.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "file": "Análisis y Diseño/Patrones/Arquitectónicos/CQRS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "2e957a2ff719a327",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
         ]
@@ -148,17 +115,27 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "df5b64329fa4c5d9",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "fdd0da10e3aa0a38",
   "lastOpenFiles": [
     "Análisis y Diseño/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
-    "Análisis y Diseño/Patrones/Arquitectónicos/API Gateway.md",
-    "Análisis y Diseño/Patrones/Arquitectónicos/Back for front.md",
-    "Análisis y Diseño/Principles/Rule of Three.md",
-    "Análisis y Diseño/Diagramas/Deployment Diagram.md",
+    "Análisis y Diseño/Patrones/Arquitectónicos/CQRS.md",
+    "Seguridad Informática/Seguridad de la Información/Propietario de la Información.md",
+    "Seguridad Informática/Administración de Riesgos.md",
+    "Seguridad Informática/Evaluación de Riesgos.md",
     "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
-    "Bases de Datos/Redis.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Fuerte.md",
-    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
-    "Resumenes/Resumen Modelos y simulación.md"
+    "Seguridad Informática/Daily/20220314.md",
+    "Seguridad Informática/Gestión de Riesgos.md",
+    "Seguridad Informática/Conceptos/Comité de Seguridad de la Información.md",
+    "Análisis y Diseño/Patrones/GoF/Adapter.md"
   ]
 }
