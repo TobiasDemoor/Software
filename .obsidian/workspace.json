@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/CQRS.md",
+                "file": "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c07cb7a2cb9b99d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Análisis y Diseño/Patrones/GoF/Decorator.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/CQRS.md",
+                "file": "Análisis y Diseño/Patrones/GoF/Decorator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis y Diseño/Patrones/Arquitectónicos/CQRS.md",
+                "file": "Análisis y Diseño/Patrones/GoF/Decorator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,17 +138,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "fdd0da10e3aa0a38",
+  "active": "9c07cb7a2cb9b99d",
   "lastOpenFiles": [
-    "Análisis y Diseño/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
+    "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
+    "Análisis y Diseño/Patrones/GoF/Abstract Factory.md",
+    "Seguridad Informática/Firewall/Firewall.md",
     "Análisis y Diseño/Patrones/Arquitectónicos/CQRS.md",
+    "Análisis y Diseño/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
     "Seguridad Informática/Seguridad de la Información/Propietario de la Información.md",
     "Seguridad Informática/Administración de Riesgos.md",
     "Seguridad Informática/Evaluación de Riesgos.md",
     "Seguridad Informática/Seguridad de la Información/Activos de Información.md",
-    "Seguridad Informática/Daily/20220314.md",
-    "Seguridad Informática/Gestión de Riesgos.md",
-    "Seguridad Informática/Conceptos/Comité de Seguridad de la Información.md",
-    "Análisis y Diseño/Patrones/GoF/Adapter.md"
+    "Seguridad Informática/Daily/20220314.md"
   ]
 }

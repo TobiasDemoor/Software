@@ -1,0 +1,1 @@
+El patrón decorator permite añadir funcionalidad y comportamiento a un objeto individual de manera dinámica, sin afectar el comportamiendo de otros objetos de la misma clase.
