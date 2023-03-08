@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7c0d4175e2003521",
+        "id": "858e3aeac156ade7",
         "type": "tabs",
         "children": [
           {
-            "id": "fdd0da10e3aa0a38",
+            "id": "d1ee8406a33664fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis y Diseño/Patrones/GoF/Observer.md",
+                "file": "Resumenes/Resumen BD.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis y Diseño/Patrones/GoF/Observer.md",
+                "file": "Resumenes/Resumen BD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis y Diseño/Patrones/GoF/Observer.md",
+                "file": "Resumenes/Resumen BD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,17 +125,25 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "fdd0da10e3aa0a38",
+  "active": "d1ee8406a33664fa",
   "lastOpenFiles": [
+    "Sistemas Operativos/Memoria virtual.md",
+    "Sistemas Operativos/Sistemas de archivos/FAT.md",
+    "Sistemas Operativos/Sistemas de archivos/Archivos compartidos.md",
+    "Estadísitca/Distribuciones/Distribución uniforme.md",
+    "Bases de Datos/Bases de Datos.md",
+    "Bases de Datos/DBMS/DBMS.md",
+    "Bases de Datos/Concepts/Integrity constraints.md",
+    "Redes de Computadoras/Conceptos/Broadband.md",
+    "Sistemas Operativos/Protección.md",
+    "Software Libre/Linux/Permisos.md",
+    "Sistemas Operativos/Procesamiento concurrente.md",
+    "Sistemas Operativos/Gestión de la memoria principal.md",
+    "Análisis y Diseño/Patrones/GoF/Observer.md",
     "Redes de Computadoras/Modelo OSI/Capa 7/Correo electrónico/SMTP.md",
     "Análisis y Diseño/Patrones/GoF/Patrones GoF.md",
     "Análisis y Diseño/Patrones/GoF/Composite.md",
     "Análisis y Diseño/Patrones/GoF/Decorator.md",
-    "Análisis y Diseño/Patrones/GoF/Abstract Factory.md",
-    "Seguridad Informática/Firewall/Firewall.md",
-    "Análisis y Diseño/Patrones/Arquitectónicos/CQRS.md",
-    "Análisis y Diseño/Patrones/Arquitectónicos/Patrones arquitectónicos.md",
-    "Seguridad Informática/Seguridad de la Información/Propietario de la Información.md",
-    "Seguridad Informática/Administración de Riesgos.md"
+    "Análisis y Diseño/Patrones/GoF/Abstract Factory.md"
   ]
 }
