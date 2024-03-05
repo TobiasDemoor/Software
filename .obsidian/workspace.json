@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "a471bebee9d3e056",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7e325b529c2863d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8424a10b644331c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inteligencia Artificial/Daily/20240503.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2bf83d4f19840b93",
+    "type": "split",
+    "children": [
+      {
+        "id": "571bb0acd4b904fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d355688c7e5398ef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0660a0329d0986fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b6d8891abc99599",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2e8feb974a37ccf8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ad059ac48a77fef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e79865afa1c2497",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Inteligencia Artificial/Daily/20240503.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "896291b29ba77130",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Inteligencia Artificial/Daily/20240503.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "0660a0329d0986fc",
+  "lastOpenFiles": [
+    "Sistemas Operativos/Conceptos/Dato, información y conocimiento.md",
+    "Inteligencia Artificial/Daily/20240503.md",
+    "Inteligencia Artificial/Inteligencia.md",
+    "Inteligencia Artificial/Agente Inteligente.md",
+    "Untitled.md"
+  ]
+}

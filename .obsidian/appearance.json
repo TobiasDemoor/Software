@@ -6,5 +6,6 @@
     "clean-embeds-all"
   ],
   "baseFontSizeAction": false,
-  "cssTheme": ""
+  "cssTheme": "",
+  "accentColor": ""
 }
