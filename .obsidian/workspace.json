@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240503.md",
+                "file": "Inteligencia Artificial/Daily/20240403.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240503.md",
+                "file": "Inteligencia Artificial/Daily/20240403.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240503.md",
+                "file": "Inteligencia Artificial/Daily/20240403.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,10 +125,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0660a0329d0986fc",
+  "active": "d8424a10b644331c",
   "lastOpenFiles": [
+    "Inteligencia Artificial/Daily/20240305.md",
+    "Inteligencia Artificial/Daily/20240403.md",
     "Sistemas Operativos/Conceptos/Dato, información y conocimiento.md",
-    "Inteligencia Artificial/Daily/20240503.md",
     "Inteligencia Artificial/Inteligencia.md",
     "Inteligencia Artificial/Agente Inteligente.md",
     "Untitled.md"
