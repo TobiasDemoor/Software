@@ -1,0 +1,1 @@
+En [[GPSS]] los **SNA** o **System Numerical Attributes** son una forma de identificar las magnitudes que se tienen dentro del [[Modelo|modelo]], permiten acceder al valor de un atributo del sistema. Cada entidad tiene una cadena de SNA que es palabra clave y se puede acceder a una magnitud con la sintaxis ``<cadena SNA>:<nombre de entidad>``. 

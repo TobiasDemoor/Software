@@ -1,3 +1,6 @@
+---
+aliases: ["consistencia continua"]
+---
 Hay diferentes maneras para que las aplicaciones puedan especificar que inconsistencias puede tolerar. Un approach distingue tres ejes independientes para definir inconsistencias: desviación de valores numéricos entre réplicas, desviación en deterioro de las réplicas, y desviación con respecto al orden de las operaciones de actualización. Estas desviaciones forman rangos de **consistencia continua**.
 
 La inconsistencia en términos de desviación númerica puede ser usada en aplicaciones para las cuales los datos tienen significado numérico. Por ejemplo se puede establecer un límite de *desviación numérica absoluta* para un precio determinado o una *desviación numérica relativa*. En ambos casos si el precio se modifica pero se mantiene dentro del rango determinado las réplicas se seguirían considerando consistentes.

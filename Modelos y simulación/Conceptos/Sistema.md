@@ -1,0 +1,1 @@
+Un **sistema** es un conjunto de elementos que interactuan entre sí con un fin común y que se aisla del universo para su estudio

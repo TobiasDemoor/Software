@@ -1,0 +1,1 @@
+La distribución uniforme discreta es una distribución de probabilidad discreta simétrica que surge en espacios de probabilidad equiprobables, es decir, en situaciones donde de n resultados diferentes, todos tienen la misma probabilidad de ocurrir.

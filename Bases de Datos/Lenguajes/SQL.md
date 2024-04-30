@@ -5,7 +5,7 @@ El SQL está basado tanto en el enfoque procedural ([[Álgebra Relacional]]) com
 Los estándares de SQL representan un kernel de funciones que van a ser implementados por los lenguajes comerciales.
 
 ## Selección
-```SQL
+```MySQL
 SELECT [DISTINCT] <atributos>
 FROM <tabla 1 [alias 1], tabla 2 [alias 2], ..., tabla N [alias N]>
 [WHERE <condición>]
@@ -17,7 +17,7 @@ FROM <tabla 1 [alias 1], tabla 2 [alias 2], ..., tabla N [alias N]>
 El valor que devuelve una sentencia yo no es una relación sino que es una tabla y por lo tanto puede haber filas repetidas, esto en contraste al [[Modelo Lógico Relacional]] teórico. Si se desea que el resultado sea un conjunto basta con agregar DISTINCT luego del SELECT.
 
 ## Operadores de conjunto
-```SQL
+```MySQL
 <tabla 1> UNION <tabla 2>;
 
 <tabla 1> INTERSECT <tabla 2>;
@@ -30,7 +30,7 @@ Para realizar un producto cartesiano basta con realizar un select con dos tablas
 
 ## Operadores de junta
 Junta interna:
-```SQL
+```MySQL
 -- usamos esta para la materia
 SELECT <atributos>
 FROM <tabla 1> <alias 1>, <tabla 2> <alias 2>
@@ -45,7 +45,7 @@ FROM <tabla 1> <alias 1>
 NATURAL JOIN <tabla 2> <alias 2>;
 ```
 Junta externa:
-```SQL
+```MySQL
 SELECT <atributos>
 FROM <tabla 1> <alias 1>
 FULL OUTER JOIN <tabla 2> <alias 2> ON <condición de junta>;
@@ -59,28 +59,50 @@ FROM <tabla 1> <alias 1>
 RIGHT OUTER JOIN <tabla 2> <alias 2> ON <condición de junta>;
 ```
 
-## Consultas anidadas
-```SQL
+### Composiciones en el WHERE vs Composiciones en el FROM.
+**Forma 1**
+```MySQL
 SELECT <atributos>
-FROM  <tabla 1>
-WHERE <atributo> IN <tabla 2>;
--- tabla 2 debe tener 1 columna (generada por subquery)
--- el dom(<atributo>) debe ser igual a dom(<tabla 2>)
--- se puede negar
+FROM <tabla 1> <alias 1>, <tabla 2> <alias 2>
+WHERE <condición de junta>;
+```
+Internamente en el FROM de la consulta se realiza el producto cartesiano, y el resultado obtenido es pasado al WHERE de la consulta para que aplique la restricción o igualdad entre las tablas.
 
+**Forma 2**
+```MySQL
 SELECT <atributos>
 FROM <tabla 1> <alias 1>
-WHERE EXISTS (
-	SELECT *
-	FROM <tabla 2> <alias 2>
-	WHERE <condición(alias 1)>
-);
--- la condición de la subquery es función de la tupla externa
--- se puede negar
+INNER JOIN <tabla 2> <alias 2> ON <condición de junta>;
 ```
+Internamente en el FROM de la consulta se realiza el producto cartesiano utilizando los índices definidos y aplicando la restricción de los mismos, y el resultado obtenido es pasado al WHERE de la consulta.
+
+### Orden de las tablas.
+Suponiendo una relación N a 1 de tabla 1 a tabla 2 (tabla 1 tiene mayor número de tuplas).
+**Forma 1**
+```MySQL
+SELECT <atributos>
+FROM <tabla 1> <alias 1>
+INNER JOIN <tabla 2> <alias 2> ON <condición de junta>;
+```
+Colocar la tabla más pesada (con mayor cantidad de registros) del lado izquierdo, genera una mayor cantidad de operaciones de entrada salida, ya que para cada registro de la tabla 1,debe realizar la búsqueda en la tabla 2.
+
+**Forma 2**
+```MySQL
+SELECT <atributos>
+FROM <tabla 2> <alias 2>
+INNER JOIN <tabla 1> <alias 1> ON <condición de junta>;
+```
+Lo más eficiente es colocar la tabla con menor cantidad de registros de lado izquierdo de la igualdad en el INNER JOIN, logrando de esta forma minimizar la cantidad de operaciones entrada salida
+
+Está regla se aplica de distintas formas, dependiendo el motor de BD con él que se esté trabajando. Lo importante es saber en que forma es interpretado el INNER JOIN en cada motor de BD, por ejemplo:
+- MySQL: de izq a der. Conviene colocar la tabla menor del lado izq del INNER JOIN.
+- Oracle: de der a izq. Conviene colocar la tabla mayor del lado izq del INNER JOIN.
+
+## Subconsultas
+![[Subqueries]]
 
 ## Comparación de conjuntos
-```SQL
+```MySQL
 SELECT <atributos>
 FROM  <tabla 1> <alias 1>
 WHERE <atributo> <op comparación> ANY <tabla 2>;
@@ -103,7 +125,7 @@ WHERE <atributo> <op comparación> ALL <tabla 2>;
 ```
 
 ## Funciones de agregación
-```SQL
+```MySQL
 SELECT 
 	COUNT(*),	-- cuenta tuplas en general
 	COUNT([DISTINCT] <atributo>),
@@ -115,7 +137,7 @@ FROM <tabla>;
 ```
 
 ## Agrupamiento
-```SQL
+```MySQL
 SELECT <agregaciones de atributos o atributos agrupados>
 FROM <tabla>
 GROUP BY <lista de atributos de agrupación>
@@ -124,7 +146,7 @@ GROUP BY <lista de atributos de agrupación>
 El resultado se compone de una fila por cada grupo que cumple la condición. Las columnas resultantes tienen que estar en la lista de atributos de agregación o tienen que ser funciones de agregación.
 
 ## División
-```SQL
+```MySQL
 -- Ejemplo
 SELECT E.nombre
 FROM EMPLEADO E
@@ -147,7 +169,7 @@ WHERE NOT EXISTS (
 ## Stored Procedures
 Un **stored procedure** es un programa almacenado físicamente en una BD que es ejecutado directamente en el motor de BD. Su implementación varía de un DBMS a otro. Los stored procedures no retornan valores, los parámetros de un stored procedure si pueden retornar valores aunque no está bien visto.
 
-```SQL
+```MySQL
 delimiter && -- cambia el delim de fin de linea para poder utilizar ; en el SP
 CREATE PROCEDURE sp_name
 	([parameter [,...]])
@@ -165,7 +187,7 @@ CALL sp_name; -- para ejecutarlo
 ## Funciones
 Una **función** es una rutina creada para tomar unos parámetros, procesarlos y retornar en un salida que es ejecutada directamente en el motor de BD. Su implementación varía de un DBMS a otro.
 
-```SQL
+```MySQL
 CREATE FUNCTION fun_name
 	([parameter[,...]])
 	RETURNS return_type
@@ -182,7 +204,7 @@ SELECT fun_name -- para ejecutarla
 ## Vistas
 Una **vista** es una tabla virtual. Se almacenan en el servidor con lo que el consumo de recursos y eficacia siempre serán más óptimos. Se pueden utilizar en otras consultas y no aceptan parámetros.
 
-```SQL
+```MySQL
 CREATE [OR REPLACE] VIEW view_name
 	[column_list]
 	AS query
@@ -201,7 +223,7 @@ Su uso más frecuente es para reportes o llenado de grillas. Tiene un nivel de a
 ## Triggers
 El **trigger** o **disparador** es un objeto de la BD que está asociado con tablas (no vistas) y se activa cuando ocurre un evento en particular para esa tabla. Los eventos pueden ser INSERT, UPDATE y DELETE. Y se puede invocar antes (BEFORE) o después del evento (AFTER). No puede haber dos disparadores en una misma tabla que correspondan al mismo momento y sentencia.
 
-```SQL
+```MySQL
 CREATE TRIGGER trig_name
 	trig_moment trig_event
 	ON table_name FOR EACH ROW

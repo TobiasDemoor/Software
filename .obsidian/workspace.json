@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "a471bebee9d3e056",
+    "id": "500ace9dc27d618d",
     "type": "split",
     "children": [
       {
-        "id": "a7e325b529c2863d",
+        "id": "962b7a598890b070",
         "type": "tabs",
         "children": [
           {
-            "id": "096996b5347573a2",
+            "id": "282f801968806679",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inteligencia Artificial/Daily/20240423.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2bf83d4f19840b93",
+    "id": "4bcd77f932df7f09",
     "type": "split",
     "children": [
       {
-        "id": "571bb0acd4b904fc",
+        "id": "cd32b36a5e058ecd",
         "type": "tabs",
         "children": [
           {
-            "id": "d355688c7e5398ef",
+            "id": "ad48c3a15b52780d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "0660a0329d0986fc",
+            "id": "99ad590f56435f45",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "2b6d8891abc99599",
+            "id": "2b633535e02ed87c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "2e8feb974a37ccf8",
+    "id": "4012c31464684b76",
     "type": "split",
     "children": [
       {
-        "id": "4ad059ac48a77fef",
+        "id": "adf223b4e644ba3b",
         "type": "tabs",
         "children": [
           {
-            "id": "8e79865afa1c2497",
+            "id": "5d78a38acf0f7004",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240423.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +92,33 @@
             }
           },
           {
-            "id": "896291b29ba77130",
+            "id": "a6a70b2762ff028a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240423.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "05610abb3c8b36fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9364d47dbdf6fd21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
             }
           }
         ]
@@ -117,25 +130,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "096996b5347573a2",
-  "lastOpenFiles": [
-    "Inteligencia Artificial/Daily/20240409.md",
-    "Inteligencia Artificial/Daily/20240423.md",
-    "Inteligencia Artificial/Machine Learning.md",
-    "Untitled",
-    "Inteligencia Artificial/Daily/20240305.md",
-    "Inteligencia Artificial/Daily/20240403.md",
-    "Inteligencia Artificial/Agente Inteligente.md",
-    "Untitled.md",
-    "Sistemas Operativos/Conceptos/Dato, información y conocimiento.md",
-    "Inteligencia Artificial/Inteligencia.md"
-  ]
+  "active": "282f801968806679",
+  "lastOpenFiles": []
 }
