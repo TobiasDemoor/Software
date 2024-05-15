@@ -13,9 +13,9 @@
   "note-composer",
   "command-palette",
   "editor-status",
-  "outline",
   "bookmarks",
   "markdown-importer",
+  "outline",
   "word-count",
   "file-recovery"
 ]

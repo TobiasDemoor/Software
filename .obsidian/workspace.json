@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e19ec4d4b20de2df",
+        "id": "43732c12caa40f61",
         "type": "tabs",
         "children": [
           {
-            "id": "5fb32161feb4c110",
+            "id": "a1634616765b49a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "052a264473d48267",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
+                "file": "Inteligencia Artificial/Daily/20240514.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
+                "file": "Inteligencia Artificial/Daily/20240514.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
+                "file": "Inteligencia Artificial/Daily/20240514.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,6 +115,27 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "60b0256d5a790bb3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "da318de4b29b1bfb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Inteligencia Artificial/Daily/20240514.md"
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -139,16 +147,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,  
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "052a264473d48267",
+  "active": "a1634616765b49a4",
   "lastOpenFiles": [
+    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
+    "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
     "Bases de Datos/NOSQL/CAP Theorem.md",
     "Análisis y Diseño/Patrones/Database/Entity-attribute-value.md",
     "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
@@ -159,7 +170,6 @@
     "Análisis y Diseño/FURPS+/FURPS+.md",
     "Sistemas Distribuidos/Replicación/Web cache.md",
     "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
     "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos funcionales.md",
     "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos no funcionales.md",
     "Conceptos/Algorítmo.md",
@@ -174,7 +184,6 @@
     "Sistemas Distribuidos/Replicación/Consistencia Causal.md",
     "Resumenes/Resumen BD.md",
     "Sistemas Operativos/Memoria virtual.md",
-    "Sistemas Operativos/Sistemas de archivos/FAT.md",
-    "Sistemas Operativos/Sistemas de archivos/Archivos compartidos.md"
+    "Sistemas Operativos/Sistemas de archivos/FAT.md"
   ]
 }
