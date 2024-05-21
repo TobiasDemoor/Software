@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a1634616765b49a4",
+            "id": "1a3e24cfdce5c720",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240514.md",
+                "file": "Inteligencia Artificial/Daily/20240521.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240514.md",
+                "file": "Inteligencia Artificial/Daily/20240521.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240514.md",
+                "file": "Inteligencia Artificial/Daily/20240521.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240514.md"
+                "file": "Inteligencia Artificial/Daily/20240521.md"
               }
             }
           }
@@ -156,8 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a1634616765b49a4",
+  "active": "1a3e24cfdce5c720",
   "lastOpenFiles": [
+    "Inteligencia Artificial/Sistemas Expertos.md",
+    "Inteligencia Artificial/Daily/20240521.md",
+    "Inteligencia Artificial/Daily/20240514.md",
     "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
     "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
     "Bases de Datos/NOSQL/CAP Theorem.md",
@@ -181,9 +184,6 @@
     "Sistemas Distribuidos/Replicación/Consistencia Eventual.md",
     "Sistemas Distribuidos/Replicación/Consistencia Débil.md",
     "Sistemas Distribuidos/Replicación/Consistencia Continua.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Causal.md",
-    "Resumenes/Resumen BD.md",
-    "Sistemas Operativos/Memoria virtual.md",
-    "Sistemas Operativos/Sistemas de archivos/FAT.md"
+    "Sistemas Distribuidos/Replicación/Consistencia Causal.md"
   ]
 }
