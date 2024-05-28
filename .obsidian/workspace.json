@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240521.md",
+                "file": "Inteligencia Artificial/Daily/20240528.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240521.md",
+                "file": "Inteligencia Artificial/Daily/20240528.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240521.md",
+                "file": "Inteligencia Artificial/Daily/20240528.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240521.md"
+                "file": "Inteligencia Artificial/Daily/20240528.md"
               }
             }
           }
@@ -158,8 +158,9 @@
   },
   "active": "1a3e24cfdce5c720",
   "lastOpenFiles": [
-    "Inteligencia Artificial/Daily/20240514.md",
     "Inteligencia Artificial/Daily/20240521.md",
+    "Inteligencia Artificial/Daily/20240528.md",
+    "Inteligencia Artificial/Daily/20240514.md",
     "Inteligencia Artificial/Sistemas Expertos.md",
     "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
     "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
@@ -183,7 +184,6 @@
     "Sistemas Distribuidos/Replicación/Consistencia Fuerte.md",
     "Sistemas Distribuidos/Replicación/Consistencia Eventual.md",
     "Sistemas Distribuidos/Replicación/Consistencia Débil.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Continua.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Causal.md"
+    "Sistemas Distribuidos/Replicación/Consistencia Continua.md"
   ]
 }
