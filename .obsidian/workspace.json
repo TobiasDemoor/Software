@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240528.md",
+                "file": "Bases de Datos/BASE.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clave foránea",
+                "query": "acid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240528.md",
+                "file": "Bases de Datos/BASE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240528.md",
+                "file": "Bases de Datos/BASE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240528.md"
+                "file": "Bases de Datos/BASE.md"
               }
             }
           }
@@ -158,32 +158,32 @@
   },
   "active": "1a3e24cfdce5c720",
   "lastOpenFiles": [
-    "Inteligencia Artificial/Daily/20240521.md",
+    "Bases de Datos/Transacciones.md",
+    "Bases de Datos/BASE.md",
+    "Redes de Computadoras/Daily/20211025.md",
+    "Redes de Computadoras/IEEE 802/802.1/VLAN.md",
+    "Bases de Datos/NOSQL/CAP Theorem.md",
+    "Software Libre/Daily/20220523.md",
+    "Análisis y Diseño/Patrones/GRASP/Patrones GRASP.md",
+    "Análisis y Diseño/Patrones/Patrones.md",
+    "Análisis y Diseño/Principles/SOLID/SOLID Principles.md",
+    "Análisis y Diseño/Principles/SOLID/Dependency Inversion Principle.md",
+    "Análisis y Diseño/Principles/SOLID/Interface Segregation Principle.md",
+    "Análisis y Diseño/Principles/SOLID/Liskov Substitution Principle.md",
+    "Análisis y Diseño/Principles/SOLID/Open Close Principle.md",
+    "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
     "Inteligencia Artificial/Daily/20240528.md",
+    "Inteligencia Artificial/Daily/20240521.md",
     "Inteligencia Artificial/Daily/20240514.md",
     "Inteligencia Artificial/Sistemas Expertos.md",
     "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
-    "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
-    "Bases de Datos/NOSQL/CAP Theorem.md",
     "Análisis y Diseño/Patrones/Database/Entity-attribute-value.md",
     "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
     "Bases de Datos/Concepts/Integrity constraints.md",
     "Análisis y Diseño/Patrones/Database/Untitled.md",
-    "Análisis y Diseño/Patrones/Patrones.md",
     "Análisis y Diseño/Patrones/Database",
     "Análisis y Diseño/FURPS+/FURPS+.md",
     "Sistemas Distribuidos/Replicación/Web cache.md",
-    "Sistemas Distribuidos/Replicación/Replicación.md",
-    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos funcionales.md",
-    "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos no funcionales.md",
-    "Conceptos/Algorítmo.md",
-    "Sistemas Operativos/Conceptos/Programa.md",
-    "Sistemas Distribuidos/Replicación/Conit.md",
-    "Sistemas Distribuidos/Replicación/Modelo de Consistencia.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Secuencial.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Fuerte.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Eventual.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Débil.md",
-    "Sistemas Distribuidos/Replicación/Consistencia Continua.md"
+    "Sistemas Distribuidos/Replicación/Replicación.md"
   ]
 }
