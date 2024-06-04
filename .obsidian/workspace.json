@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240528.md",
+                "file": "Inteligencia Artificial/Daily/20240604.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240528.md",
+                "file": "Inteligencia Artificial/Daily/20240604.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240528.md",
+                "file": "Inteligencia Artificial/Daily/20240604.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240528.md"
+                "file": "Inteligencia Artificial/Daily/20240604.md"
               }
             }
           }
@@ -158,6 +158,8 @@
   },
   "active": "18b74c504a0d1058",
   "lastOpenFiles": [
+    "Inteligencia Artificial/Daily/20240528.md",
+    "Inteligencia Artificial/Daily/20240604.md",
     "Seguridad Informática/Gestión de Riesgos.md",
     "Seguridad Informática/IPSEC.md",
     "Conceptos/Riesgo.md",
@@ -175,7 +177,6 @@
     "Análisis y Diseño/Principles/SOLID/Liskov Substitution Principle.md",
     "Análisis y Diseño/Principles/SOLID/Open Close Principle.md",
     "Análisis y Diseño/Patrones/GRASP/Variaciones protegidas.md",
-    "Inteligencia Artificial/Daily/20240528.md",
     "Inteligencia Artificial/Daily/20240521.md",
     "Inteligencia Artificial/Daily/20240514.md",
     "Inteligencia Artificial/Sistemas Expertos.md",
@@ -183,7 +184,6 @@
     "Análisis y Diseño/Patrones/Database/Entity-attribute-value.md",
     "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
     "Bases de Datos/Concepts/Integrity constraints.md",
-    "Análisis y Diseño/Patrones/Database/Untitled.md",
     "Análisis y Diseño/Patrones/Database"
   ]
 }
