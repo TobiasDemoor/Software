@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "43732c12caa40f61",
+        "id": "100defa789dbd9c1",
         "type": "tabs",
         "children": [
           {
-            "id": "1a3e24cfdce5c720",
+            "id": "18b74c504a0d1058",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/BASE.md",
+                "file": "Inteligencia Artificial/Daily/20240528.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/BASE.md",
+                "file": "Inteligencia Artificial/Daily/20240528.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/BASE.md",
+                "file": "Inteligencia Artificial/Daily/20240528.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos/BASE.md"
+                "file": "Inteligencia Artificial/Daily/20240528.md"
               }
             }
           }
@@ -156,10 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a3e24cfdce5c720",
+  "active": "18b74c504a0d1058",
   "lastOpenFiles": [
-    "Bases de Datos/Transacciones.md",
+    "Seguridad Informática/Gestión de Riesgos.md",
+    "Seguridad Informática/IPSEC.md",
+    "Conceptos/Riesgo.md",
     "Bases de Datos/BASE.md",
+    "Bases de Datos/Transacciones.md",
     "Redes de Computadoras/Daily/20211025.md",
     "Redes de Computadoras/IEEE 802/802.1/VLAN.md",
     "Bases de Datos/NOSQL/CAP Theorem.md",
@@ -181,9 +184,6 @@
     "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
     "Bases de Datos/Concepts/Integrity constraints.md",
     "Análisis y Diseño/Patrones/Database/Untitled.md",
-    "Análisis y Diseño/Patrones/Database",
-    "Análisis y Diseño/FURPS+/FURPS+.md",
-    "Sistemas Distribuidos/Replicación/Web cache.md",
-    "Sistemas Distribuidos/Replicación/Replicación.md"
+    "Análisis y Diseño/Patrones/Database"
   ]
 }
