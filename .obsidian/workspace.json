@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240604.md",
+                "file": "Inteligencia Artificial/Daily/20240611.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240604.md",
+                "file": "Inteligencia Artificial/Daily/20240611.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240604.md",
+                "file": "Inteligencia Artificial/Daily/20240611.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inteligencia Artificial/Daily/20240604.md"
+                "file": "Inteligencia Artificial/Daily/20240611.md"
               }
             }
           }
@@ -158,8 +158,10 @@
   },
   "active": "18b74c504a0d1058",
   "lastOpenFiles": [
-    "Inteligencia Artificial/Daily/20240528.md",
+    "Inteligencia Artificial/Agente Inteligente.md",
     "Inteligencia Artificial/Daily/20240604.md",
+    "Inteligencia Artificial/Daily/20240611.md",
+    "Inteligencia Artificial/Daily/20240528.md",
     "Seguridad Informática/Gestión de Riesgos.md",
     "Seguridad Informática/IPSEC.md",
     "Conceptos/Riesgo.md",
@@ -182,8 +184,6 @@
     "Inteligencia Artificial/Sistemas Expertos.md",
     "Análisis y Diseño/Ingeniería de Requerimientos/Requerimientos.md",
     "Análisis y Diseño/Patrones/Database/Entity-attribute-value.md",
-    "Bases de Datos/Data Models/Modelo Lógico Relacional.md",
-    "Bases de Datos/Concepts/Integrity constraints.md",
     "Análisis y Diseño/Patrones/Database"
   ]
 }
